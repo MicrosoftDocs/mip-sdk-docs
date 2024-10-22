@@ -1,0 +1,10 @@
+<map id="src/api/mip_cc/protection_descriptor_cc.h" name="src/api/mip_cc/protection_descriptor_cc.h">
+<area shape="rect" id="node1" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="233,5,418,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="96,95,160,121"/>
+<area shape="rect" id="node3" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="5,244,211,271"/>
+<area shape="rect" id="node6" href="$dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="240,95,411,121"/>
+<area shape="rect" id="node7" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="387,169,523,196"/>
+<area shape="rect" id="node8" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="337,244,479,271"/>
+<area shape="rect" id="node4" title=" " alt="" coords="162,319,233,345"/>
+<area shape="rect" id="node5" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="257,319,442,345"/>
+</map>

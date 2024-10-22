@@ -1,0 +1,8 @@
+<map id="src/api/mip_cc/http_delegate_cc.h" name="src/api/mip_cc/http_delegate_cc.h">
+<area shape="rect" id="node1" title="Defines HTTP callback functions." alt="" coords="150,5,295,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,80,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="137,244,207,271"/>
+<area shape="rect" id="node4" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="155,95,291,121"/>
+<area shape="rect" id="node5" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="177,169,319,196"/>
+<area shape="rect" id="node6" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="258,244,443,271"/>
+</map>

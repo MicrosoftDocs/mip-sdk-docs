@@ -1,0 +1,38 @@
+<map id="src/api/mip_cc/result_cc.h" name="src/api/mip_cc/result_cc.h">
+<area shape="rect" id="node1" title="Defines success/error result codes." alt="" coords="1184,5,1373,32"/>
+<area shape="rect" id="node2" href="$dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="1534,162,1751,189"/>
+<area shape="rect" id="node3" href="$protection__engine__cc_8h.html" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="862,452,1047,493"/>
+<area shape="rect" id="node4" href="$protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="862,541,1047,583"/>
+<area shape="rect" id="node5" href="$protection__descriptor__cc_8h.html" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="1121,251,1306,293"/>
+<area shape="rect" id="node6" href="$protection__handler__cc_8h.html" title="Defines C&#45;Style ProtectionHandler interface." alt="" coords="969,355,1154,397"/>
+<area shape="rect" id="node8" href="$policy__handler__cc_8h.html" title="Contains C API definitions for policy handler." alt="" coords="2120,452,2275,493"/>
+<area shape="rect" id="node9" href="$policy__engine__cc_8h.html" title="Contains C API definitions for policy engine." alt="" coords="3447,541,3596,583"/>
+<area shape="rect" id="node10" href="$policy__profile__cc_8h.html" title="Contains C API definitions for policy profile." alt="" coords="537,631,684,672"/>
+<area shape="rect" id="node12" href="$mip__context__cc_8h.html" title="Defines C&#45;Style MipContext functions." alt="" coords="379,355,523,397"/>
+<area shape="rect" id="node14" href="$content__label__cc_8h.html" title="Contains C API definitions for content label." alt="" coords="1943,355,2089,397"/>
+<area shape="rect" id="node16" href="$label__cc_8h.html" title="Contains C API definitions for label." alt="" coords="1737,251,1879,293"/>
+<area shape="rect" id="node18" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="1965,80,2147,107"/>
+<area shape="rect" id="node19" href="$http__delegate__cc_8h.html" title="Defines HTTP callback functions." alt="" coords="329,155,474,196"/>
+<area shape="rect" id="node20" href="$logger__delegate__cc_8h.html" title="Defines logger callback functions." alt="" coords="144,155,304,196"/>
+<area shape="rect" id="node21" href="$template__descriptor__cc_8h.html" title="Defines C&#45;Style TemplateDescriptor functions." alt="" coords="601,155,791,196"/>
+<area shape="rect" id="node22" href="$string__list__cc_8h.html" title="Contains C API definitions for common string list." alt="" coords="4083,155,4239,196"/>
+<area shape="rect" id="node26" href="$task__dispatcher__delegate__cc_8h.html" title="Defines task dispatcher callback functions." alt="" coords="1213,452,1408,493"/>
+<area shape="rect" id="node27" href="$action__cc_8h.html" title="Contains C API definitions for label policy actions." alt="" coords="3026,155,3169,196"/>
+<area shape="rect" id="node28" href="$action__result__cc_8h.html" title="A file containing definition of action result type." alt="" coords="4614,251,4757,293"/>
+<area shape="rect" id="node36" href="$sensitivity__type__cc_8h.html" title="Contains C API definitions for sensitivity type." alt="" coords="4883,155,5045,196"/>
+<area shape="rect" id="node7" href="$document__state__cc_8h.html" title="Describes document state when performing a label&#45;releated operation." alt="" coords="1585,355,1749,397"/>
+<area shape="rect" id="node11" href="$telemetry__configuration__cc_8h.html" title="Defines custom telemetry settings." alt="" coords="507,251,690,293"/>
+<area shape="rect" id="node13" href="$application__action__state__cc_8h.html" title="Describes application state when performing a label&#45;releated operation." alt="" coords="1773,348,1918,404"/>
+<area shape="rect" id="node15" href="$custom__action__cc_8h.html" title="Contains C API definitions for custom label policy action." alt="" coords="2005,251,2160,293"/>
+<area shape="rect" id="node17" href="$metadata__action__cc_8h.html" title="Contains C API definitions for &quot;metadata&quot; label policy action." alt="" coords="3013,251,3182,293"/>
+<area shape="rect" id="node23" href="$remove__content__footer__action__cc_8h.html" title="Contains C API definitions for &quot;remove content footer&quot; label policy action." alt="" coords="3843,244,4021,300"/>
+<area shape="rect" id="node24" href="$remove__content__header__action__cc_8h.html" title="Contains C API definitions for &quot;remove content header&quot; label policy action." alt="" coords="4304,244,4488,300"/>
+<area shape="rect" id="node25" href="$remove__watermark__action__cc_8h.html" title="Contains C API definitions for &quot;remove watermark&quot; label policy action." alt="" coords="4045,251,4280,293"/>
+<area shape="rect" id="node29" href="$add__content__footer__action__cc_8h.html" title="Contains C API definitions for &quot;add content footer&quot; label policy action." alt="" coords="2235,244,2387,300"/>
+<area shape="rect" id="node30" href="$add__content__header__action__cc_8h.html" title="Contains C API definitions for &quot;add content header&quot; label policy action." alt="" coords="2411,244,2570,300"/>
+<area shape="rect" id="node31" href="$add__watermark__action__cc_8h.html" title="Contains C API definitions for &quot;add watermark&quot; label policy action." alt="" coords="2595,251,2803,293"/>
+<area shape="rect" id="node33" href="$protect__by__template__action__cc_8h.html" title="Contains C API definitions for &quot;protect by template&quot; label policy action." alt="" coords="2827,244,2989,300"/>
+<area shape="rect" id="node32" href="$protect__adhoc__dk__action__cc_8h.html" title=" " alt="" coords="3207,251,3428,293"/>
+<area shape="rect" id="node34" href="$protect__by__template__dk__action__cc_8h.html" title="Contains C API definitions for &quot;protect by template&quot; label policy action." alt="" coords="3453,244,3614,300"/>
+<area shape="rect" id="node35" href="$protect__do__not__forward__dk__action__cc_8h.html" title="Contains C API definitions for &quot;protect do not forward&quot; label policy action." alt="" coords="3638,244,3818,300"/>
+</map>

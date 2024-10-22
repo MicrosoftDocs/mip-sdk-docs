@@ -1,0 +1,17 @@
+<map id="src/api/mip_cc/upe/policy_handler_cc.h" name="src/api/mip_cc/upe/policy_handler_cc.h">
+<area shape="rect" id="node1" title="Contains C API definitions for policy handler." alt="" coords="736,5,891,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="509,483,579,509"/>
+<area shape="rect" id="node3" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="784,333,920,360"/>
+<area shape="rect" id="node4" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="758,408,901,435"/>
+<area shape="rect" id="node6" href="$action__result__cc_8h.html" title="A file containing definition of action result type." alt="" coords="1167,184,1385,211"/>
+<area shape="rect" id="node9" href="$application__action__state__cc_8h.html" title="Describes application state when performing a label&#45;releated operation." alt="" coords="495,95,667,136"/>
+<area shape="rect" id="node12" href="$content__label__cc_8h.html" title="Contains C API definitions for content label." alt="" coords="739,95,888,136"/>
+<area shape="rect" id="node13" href="$document__state__cc_8h.html" title="Describes document state when performing a label&#45;releated operation." alt="" coords="232,95,397,136"/>
+<area shape="rect" id="node5" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="603,483,789,509"/>
+<area shape="rect" id="node7" href="$action__cc_8h.html" title="Contains C API definitions for label policy actions." alt="" coords="987,259,1160,285"/>
+<area shape="rect" id="node8" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="299,333,504,360"/>
+<area shape="rect" id="node10" href="$dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="488,259,659,285"/>
+<area shape="rect" id="node11" href="$label__cc_8h.html" title="Contains C API definitions for label." alt="" coords="645,184,811,211"/>
+<area shape="rect" id="node14" href="$protection__descriptor__cc_8h.html" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="93,184,336,211"/>
+<area shape="rect" id="node15" title=" " alt="" coords="248,259,312,285"/>
+</map>

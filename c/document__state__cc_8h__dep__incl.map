@@ -1,0 +1,6 @@
+<map id="src/api/mip_cc/upe/document_state_cc.h" name="src/api/mip_cc/upe/document_state_cc.h">
+<area shape="rect" id="node1" title="Describes document state when performing a label&#45;releated operation." alt="" coords="5,5,169,47"/>
+<area shape="rect" id="node2" href="$policy__handler__cc_8h.html" title="Contains C API definitions for policy handler." alt="" coords="10,95,165,136"/>
+<area shape="rect" id="node3" href="$policy__engine__cc_8h.html" title="Contains C API definitions for policy engine." alt="" coords="13,184,162,225"/>
+<area shape="rect" id="node4" href="$policy__profile__cc_8h.html" title="Contains C API definitions for policy profile." alt="" coords="14,273,161,315"/>
+</map>

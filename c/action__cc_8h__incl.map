@@ -1,0 +1,8 @@
+<map id="src/api/mip_cc/upe/action_cc.h" name="src/api/mip_cc/upe/action_cc.h">
+<area shape="rect" id="node1" title="Contains C API definitions for label policy actions." alt="" coords="142,5,285,47"/>
+<area shape="rect" id="node2" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="5,169,211,196"/>
+<area shape="rect" id="node5" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="145,95,281,121"/>
+<area shape="rect" id="node6" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="235,169,378,196"/>
+<area shape="rect" id="node3" title=" " alt="" coords="95,244,166,271"/>
+<area shape="rect" id="node4" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="202,244,387,271"/>
+</map>

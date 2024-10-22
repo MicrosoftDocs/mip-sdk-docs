@@ -1,0 +1,11 @@
+<map id="src/api/mip_cc/upe/metadata_action_cc.h" name="src/api/mip_cc/upe/metadata_action_cc.h">
+<area shape="rect" id="node1" title="Contains C API definitions for &quot;metadata&quot; label policy action." alt="" coords="323,5,492,47"/>
+<area shape="rect" id="node2" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="433,244,638,271"/>
+<area shape="rect" id="node5" href="$dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="199,95,370,121"/>
+<area shape="rect" id="node6" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="339,169,475,196"/>
+<area shape="rect" id="node8" href="$string__list__cc_8h.html" title="Contains C API definitions for common string list." alt="" coords="5,95,175,121"/>
+<area shape="rect" id="node9" href="$action__cc_8h.html" title="Contains C API definitions for label policy actions." alt="" coords="445,95,618,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="260,319,331,345"/>
+<area shape="rect" id="node4" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="36,319,221,345"/>
+<area shape="rect" id="node7" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="239,244,381,271"/>
+</map>

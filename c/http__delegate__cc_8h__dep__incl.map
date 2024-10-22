@@ -1,0 +1,7 @@
+<map id="src/api/mip_cc/http_delegate_cc.h" name="src/api/mip_cc/http_delegate_cc.h">
+<area shape="rect" id="node1" title="Defines HTTP callback functions." alt="" coords="121,5,267,47"/>
+<area shape="rect" id="node2" href="$protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="5,273,191,315"/>
+<area shape="rect" id="node3" href="$telemetry__configuration__cc_8h.html" title="Defines custom telemetry settings." alt="" coords="103,95,285,136"/>
+<area shape="rect" id="node5" href="$policy__profile__cc_8h.html" title="Contains C API definitions for policy profile." alt="" coords="233,273,379,315"/>
+<area shape="rect" id="node4" href="$mip__context__cc_8h.html" title="Defines C&#45;Style MipContext functions." alt="" coords="122,184,266,225"/>
+</map>

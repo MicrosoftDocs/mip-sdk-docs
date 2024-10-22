@@ -1,0 +1,12 @@
+<map id="src/api/mip_cc/telemetry_configuration_cc.h" name="src/api/mip_cc/telemetry_configuration_cc.h">
+<area shape="rect" id="node1" title="Defines custom telemetry settings." alt="" coords="234,5,417,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="83,95,160,121"/>
+<area shape="rect" id="node3" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="5,244,211,271"/>
+<area shape="rect" id="node6" href="$dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="240,95,411,121"/>
+<area shape="rect" id="node7" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="387,169,523,196"/>
+<area shape="rect" id="node9" href="$http__delegate__cc_8h.html" title="Defines HTTP callback functions." alt="" coords="500,95,695,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="217,319,287,345"/>
+<area shape="rect" id="node5" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="313,319,498,345"/>
+<area shape="rect" id="node8" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="337,244,479,271"/>
+<area shape="rect" id="node10" title=" " alt="" coords="699,169,773,196"/>
+</map>

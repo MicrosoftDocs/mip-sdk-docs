@@ -1,0 +1,20 @@
+<map id="src/api/mip_cc/upe/policy_engine_cc.h" name="src/api/mip_cc/upe/policy_engine_cc.h">
+<area shape="rect" id="node1" title="Contains C API definitions for policy engine." alt="" coords="1040,5,1189,47"/>
+<area shape="rect" id="node2" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="544,341,749,367"/>
+<area shape="rect" id="node4" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="1441,572,1626,599"/>
+<area shape="rect" id="node5" href="$dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="1013,341,1184,367"/>
+<area shape="rect" id="node6" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="841,423,977,449"/>
+<area shape="rect" id="node7" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="777,497,919,524"/>
+<area shape="rect" id="node8" href="$identity__cc_8h.html" title="Identity definition." alt="" coords="1704,423,1859,449"/>
+<area shape="rect" id="node9" href="$policy__handler__cc_8h.html" title="Contains C API definitions for policy handler." alt="" coords="494,95,722,121"/>
+<area shape="rect" id="node18" href="$sensitivity__type__cc_8h.html" title="Contains C API definitions for sensitivity type." alt="" coords="1360,333,1528,375"/>
+<area shape="rect" id="node3" title=" " alt="" coords="393,572,463,599"/>
+<area shape="rect" id="node10" href="$action__result__cc_8h.html" title="A file containing definition of action result type." alt="" coords="173,177,390,203"/>
+<area shape="rect" id="node12" href="$application__action__state__cc_8h.html" title="Describes application state when performing a label&#45;releated operation." alt="" coords="983,169,1155,211"/>
+<area shape="rect" id="node14" href="$content__label__cc_8h.html" title="Contains C API definitions for content label." alt="" coords="1243,169,1392,211"/>
+<area shape="rect" id="node15" href="$document__state__cc_8h.html" title="Describes document state when performing a label&#45;releated operation." alt="" coords="737,169,903,211"/>
+<area shape="rect" id="node11" href="$action__cc_8h.html" title="Contains C API definitions for label policy actions." alt="" coords="195,259,368,285"/>
+<area shape="rect" id="node13" href="$label__cc_8h.html" title="Contains C API definitions for label." alt="" coords="1115,259,1280,285"/>
+<area shape="rect" id="node16" href="$protection__descriptor__cc_8h.html" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="747,259,989,285"/>
+<area shape="rect" id="node17" title=" " alt="" coords="824,341,888,367"/>
+</map>

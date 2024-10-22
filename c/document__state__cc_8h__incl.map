@@ -1,0 +1,11 @@
+<map id="src/api/mip_cc/upe/document_state_cc.h" name="src/api/mip_cc/upe/document_state_cc.h">
+<area shape="rect" id="node1" title="Describes document state when performing a label&#45;releated operation." alt="" coords="166,5,330,47"/>
+<area shape="rect" id="node2" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="5,244,211,271"/>
+<area shape="rect" id="node5" href="$dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="364,169,535,196"/>
+<area shape="rect" id="node8" href="$protection__descriptor__cc_8h.html" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="127,95,369,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="242,393,313,420"/>
+<area shape="rect" id="node4" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="337,393,522,420"/>
+<area shape="rect" id="node6" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="285,244,421,271"/>
+<area shape="rect" id="node7" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="282,319,425,345"/>
+<area shape="rect" id="node9" title=" " alt="" coords="96,169,160,196"/>
+</map>

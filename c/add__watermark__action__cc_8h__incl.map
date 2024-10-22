@@ -1,0 +1,9 @@
+<map id="src/api/mip_cc/upe/add_watermark_action_cc.h" name="src/api/mip_cc/upe/add_watermark_action_cc.h">
+<area shape="rect" id="node1" title="Contains C API definitions for &quot;add watermark&quot; label policy action." alt="" coords="25,5,233,47"/>
+<area shape="rect" id="node2" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="9,169,145,196"/>
+<area shape="rect" id="node6" href="$action__cc_8h.html" title="Contains C API definitions for label policy actions." alt="" coords="105,95,278,121"/>
+<area shape="rect" id="node3" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="5,244,148,271"/>
+<area shape="rect" id="node4" title=" " alt="" coords="64,319,135,345"/>
+<area shape="rect" id="node5" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="171,319,356,345"/>
+<area shape="rect" id="node7" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="173,244,378,271"/>
+</map>

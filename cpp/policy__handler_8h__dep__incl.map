@@ -1,0 +1,5 @@
+<map id="src/api/mip/upe/policy_handler.h" name="src/api/mip/upe/policy_handler.h">
+<area shape="rect" id="node1" title="This file contains the PolicyHandler class." alt="" coords="5,5,171,47"/>
+<area shape="rect" id="node2" href="$policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="5,95,171,136"/>
+<area shape="rect" id="node3" href="$policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="5,184,171,225"/>
+</map>

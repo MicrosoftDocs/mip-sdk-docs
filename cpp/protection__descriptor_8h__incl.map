@@ -1,0 +1,11 @@
+<map id="src/api/mip/protection_descriptor.h" name="src/api/mip/protection_descriptor.h">
+<area shape="rect" id="node1" title="Defines ProtectionDescriptor interface." alt="" coords="165,5,329,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,72,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="96,95,147,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="171,95,248,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="335,169,393,196"/>
+<area shape="rect" id="node6" href="$user__rights_8h.html" title="Defines UserRights class." alt="" coords="323,95,458,121"/>
+<area shape="rect" id="node8" href="$user__roles_8h.html" title="Defines UserRoles class." alt="" coords="483,95,613,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="418,169,481,196"/>
+<area shape="rect" id="node9" href="$mip__export_8h.html" title="A file export/import macros." alt="" coords="505,169,642,196"/>
+</map>

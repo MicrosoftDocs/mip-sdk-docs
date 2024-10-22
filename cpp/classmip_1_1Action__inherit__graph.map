@@ -1,0 +1,21 @@
+<map id="mip::Action" name="mip::Action">
+<area shape="rect" id="node1" title="Interface for an action." alt="" coords="5,436,101,463"/>
+<area shape="rect" id="node2" href="$classmip_1_1AddContentFooterAction.html" title="An action class that specifies adding a content footer to the document." alt="" coords="154,5,367,32"/>
+<area shape="rect" id="node3" href="$classmip_1_1AddContentHeaderAction.html" title="An action class that specifies adding content header." alt="" coords="151,56,370,83"/>
+<area shape="rect" id="node4" href="$classmip_1_1AddWatermarkAction.html" title="An action class that specifies adding watermark." alt="" coords="164,107,357,133"/>
+<area shape="rect" id="node5" href="$classmip_1_1ApplyLabelAction.html" title="Apply label actions requires the calling application to apply a specific label." alt="" coords="177,157,345,184"/>
+<area shape="rect" id="node6" href="$classmip_1_1CustomAction.html" title="CustomAction is a generic action class that captures all the sub&#45;properties of the action as a proper..." alt="" coords="187,208,334,235"/>
+<area shape="rect" id="node7" href="$classmip_1_1JustifyAction.html" title="Justify Action requires providing a justification to a label downgrade and setting the response in th..." alt="" coords="193,259,329,285"/>
+<area shape="rect" id="node8" href="$classmip_1_1MetadataAction.html" title="An Action that adds metadata information to the content." alt="" coords="181,309,340,336"/>
+<area shape="rect" id="node9" href="$classmip_1_1ProtectAdhocAction.html" title="An action class that specifies adding adhoc protection to the document." alt="" coords="169,360,352,387"/>
+<area shape="rect" id="node10" href="$classmip_1_1ProtectAdhocDkAction.html" title="An action class that specifies adding adhoc double key protection to the document." alt="" coords="161,411,361,437"/>
+<area shape="rect" id="node11" href="$classmip_1_1ProtectByTemplateAction.html" title="An action class that specifies adding protection by template to the document." alt="" coords="151,461,370,488"/>
+<area shape="rect" id="node12" href="$classmip_1_1ProtectByTemplateDkAction.html" title="An action class that specifies adding protection by template double key to the document." alt="" coords="163,513,359,554"/>
+<area shape="rect" id="node13" href="$classmip_1_1ProtectDoNotForwardAction.html" title="An action class that specifies adding do not forward protection to the document." alt="" coords="163,578,358,619"/>
+<area shape="rect" id="node14" href="$classmip_1_1ProtectDoNotForwardDkAction.html" title="An action class that specifies adding do not forward double key protection to the document." alt="" coords="163,643,358,685"/>
+<area shape="rect" id="node15" href="$classmip_1_1RecommendLabelAction.html" title="Recommend label actions is meant to suggest a label to the users." alt="" coords="154,709,367,736"/>
+<area shape="rect" id="node16" href="$classmip_1_1RemoveContentFooterAction.html" title="An action class that specifies removing the content footer from the document." alt="" coords="160,761,361,802"/>
+<area shape="rect" id="node17" href="$classmip_1_1RemoveContentHeaderAction.html" title="An action class that specifies removing the content header from the document." alt="" coords="157,826,364,867"/>
+<area shape="rect" id="node18" href="$classmip_1_1RemoveProtectionAction.html" title="An action class that specifies removing protection from the document." alt="" coords="153,892,369,919"/>
+<area shape="rect" id="node19" href="$classmip_1_1RemoveWatermarkAction.html" title="An action class that specifies removing the watermarking from the document." alt="" coords="149,943,372,969"/>
+</map>

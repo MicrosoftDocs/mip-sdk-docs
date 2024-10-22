@@ -1,0 +1,13 @@
+<map id="src/api/mip/upe/content_label.h" name="src/api/mip/upe/content_label.h">
+<area shape="rect" id="node1" title="A file Containing the ContentLabel class." alt="" coords="90,5,265,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="73,95,140,121"/>
+<area shape="rect" id="node3" href="$common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="59,169,221,196"/>
+<area shape="rect" id="node9" href="$label_8h.html" title="This file contains the Label class." alt="" coords="307,95,429,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,244,72,271"/>
+<area shape="rect" id="node5" title=" " alt="" coords="97,244,183,271"/>
+<area shape="rect" id="node6" title=" " alt="" coords="208,244,259,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="297,244,375,271"/>
+<area shape="rect" id="node8" title=" " alt="" coords="428,244,487,271"/>
+<area shape="rect" id="node10" title=" " alt="" coords="510,169,573,196"/>
+<area shape="rect" id="node11" href="$mip__export_8h.html" title="A file export/import macros." alt="" coords="246,169,383,196"/>
+</map>

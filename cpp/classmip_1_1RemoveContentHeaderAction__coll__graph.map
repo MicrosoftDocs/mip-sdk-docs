@@ -1,0 +1,4 @@
+<map id="mip::RemoveContentHeaderAction" name="mip::RemoveContentHeaderAction">
+<area shape="rect" id="node1" title="An action class that specifies removing the content header from the document." alt="" coords="5,80,212,121"/>
+<area shape="rect" id="node2" href="$classmip_1_1Action.html" title="Interface for an action." alt="" coords="61,5,157,32"/>
+</map>

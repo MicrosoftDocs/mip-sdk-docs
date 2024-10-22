@@ -1,0 +1,9 @@
+<map id="mip::BadInputError" name="mip::BadInputError">
+<area shape="rect" id="node1" title="Bad input error, thrown when the input to an SDK API is invalid." alt="" coords="303,81,447,108"/>
+<area shape="rect" id="node4" href="$classmip_1_1InsufficientBufferError.html" title="Insufficient buffer error." alt="" coords="500,5,697,32"/>
+<area shape="rect" id="node5" href="$classmip_1_1LabelDisabledError.html" title="Label is disabled or inactive." alt="" coords="509,56,688,83"/>
+<area shape="rect" id="node6" href="$classmip_1_1LabelNotFoundError.html" title="Label ID is not recognized." alt="" coords="507,107,690,133"/>
+<area shape="rect" id="node7" href="$classmip_1_1TemplateNotFoundError.html" title="Template ID is not recognized by RMS service." alt="" coords="495,157,703,184"/>
+<area shape="rect" id="node2" href="$classmip_1_1Error.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="168,81,255,108"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,81,120,108"/>
+</map>

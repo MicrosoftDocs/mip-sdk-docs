@@ -1,0 +1,6 @@
+<map id="mip::ProxyAuthenticationError" name="mip::ProxyAuthenticationError">
+<area shape="rect" id="node1" title="Proxy authentication failure." alt="" coords="5,229,192,271"/>
+<area shape="rect" id="node2" href="$classmip_1_1NetworkError.html" title="Networking error." alt="" coords="28,155,169,181"/>
+<area shape="rect" id="node3" href="$classmip_1_1Error.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="55,80,142,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="41,5,156,32"/>
+</map>

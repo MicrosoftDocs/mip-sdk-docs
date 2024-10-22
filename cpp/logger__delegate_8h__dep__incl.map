@@ -1,0 +1,12 @@
+<map id="src/api/mip/logger_delegate.h" name="src/api/mip/logger_delegate.h">
+<area shape="rect" id="node1" title="A file containing the LoggerDelegate class to be used to override MIP logger." alt="" coords="493,5,631,47"/>
+<area shape="rect" id="node2" href="$file__profile_8h.html" title=" " alt="" coords="5,437,148,479"/>
+<area shape="rect" id="node3" href="$mip__context_8h.html" title="File containing definition of MipContext." alt="" coords="347,95,537,121"/>
+<area shape="rect" id="node7" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="573,169,737,211"/>
+<area shape="rect" id="node10" href="$policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="453,348,618,389"/>
+<area shape="rect" id="node4" href="$file__handler_8h.html" title=" " alt="" coords="165,169,308,211"/>
+<area shape="rect" id="node8" href="$policy__handler_8h.html" title="This file contains the PolicyHandler class." alt="" coords="333,169,498,211"/>
+<area shape="rect" id="node5" href="$file__engine_8h.html" title=" " alt="" coords="115,348,257,389"/>
+<area shape="rect" id="node6" href="$file__execution__state_8h.html" title=" " alt="" coords="165,259,309,300"/>
+<area shape="rect" id="node9" href="$policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="333,259,498,300"/>
+</map>

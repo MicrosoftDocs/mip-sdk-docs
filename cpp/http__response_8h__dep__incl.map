@@ -1,0 +1,15 @@
+<map id="src/api/mip/http_response.h" name="src/api/mip/http_response.h">
+<area shape="rect" id="node1" title="Contains HttpOperation interface used by HttpDelegate." alt="" coords="123,5,325,32"/>
+<area shape="rect" id="node2" href="$http__delegate_8h.html" title="Contains HttpDelegate interface definition used to override MIP HTTP stack." alt="" coords="124,155,324,181"/>
+<area shape="rect" id="node13" href="$http__operation_8h.html" title=" " alt="" coords="192,80,397,107"/>
+<area shape="rect" id="node3" href="$file__profile_8h.html" title=" " alt="" coords="161,661,303,703"/>
+<area shape="rect" id="node4" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="43,393,207,435"/>
+<area shape="rect" id="node5" href="$telemetry__configuration_8h.html" title="Defines custom telemetry settings." alt="" coords="219,229,381,271"/>
+<area shape="rect" id="node12" href="$policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="608,572,773,613"/>
+<area shape="rect" id="node6" href="$mip__context_8h.html" title="File containing definition of MipContext." alt="" coords="235,319,426,345"/>
+<area shape="rect" id="node7" href="$file__handler_8h.html" title=" " alt="" coords="283,393,426,435"/>
+<area shape="rect" id="node10" href="$policy__handler_8h.html" title="This file contains the PolicyHandler class." alt="" coords="476,393,641,435"/>
+<area shape="rect" id="node8" href="$file__engine_8h.html" title=" " alt="" coords="270,572,413,613"/>
+<area shape="rect" id="node9" href="$file__execution__state_8h.html" title=" " alt="" coords="320,483,464,524"/>
+<area shape="rect" id="node11" href="$policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="488,483,653,524"/>
+</map>

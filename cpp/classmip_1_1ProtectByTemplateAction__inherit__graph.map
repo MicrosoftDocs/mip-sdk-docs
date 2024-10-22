@@ -1,0 +1,4 @@
+<map id="mip::ProtectByTemplateAction" name="mip::ProtectByTemplateAction">
+<area shape="rect" id="node1" title="An action class that specifies adding protection by template to the document." alt="" coords="5,80,224,107"/>
+<area shape="rect" id="node2" href="$classmip_1_1Action.html" title="Interface for an action." alt="" coords="67,5,163,32"/>
+</map>

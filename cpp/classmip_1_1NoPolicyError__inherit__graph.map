@@ -1,0 +1,5 @@
+<map id="mip::NoPolicyError" name="mip::NoPolicyError">
+<area shape="rect" id="node1" title="Tenant policy is not configured for classification/labels." alt="" coords="5,155,148,181"/>
+<area shape="rect" id="node2" href="$classmip_1_1Error.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="33,80,120,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="19,5,134,32"/>
+</map>

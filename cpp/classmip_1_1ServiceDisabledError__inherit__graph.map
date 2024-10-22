@@ -1,0 +1,6 @@
+<map id="mip::ServiceDisabledError" name="mip::ServiceDisabledError">
+<area shape="rect" id="node1" title="The user could not get access to the content due to a service being disabled." alt="" coords="5,229,196,256"/>
+<area shape="rect" id="node2" href="$classmip_1_1AccessDeniedError.html" title="The user could not get access to the content." alt="" coords="12,155,189,181"/>
+<area shape="rect" id="node3" href="$classmip_1_1Error.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="57,80,144,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="43,5,158,32"/>
+</map>

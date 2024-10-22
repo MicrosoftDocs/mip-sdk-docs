@@ -1,0 +1,29 @@
+<map id="src/api/mip/upe/action.h" name="src/api/mip/upe/action.h">
+<area shape="rect" id="node1" title="A file containing the Action base class and the ActionType enumerator." alt="" coords="1778,5,1957,32"/>
+<area shape="rect" id="node2" href="$file__handler_8h.html" title=" " alt="" coords="5,80,148,121"/>
+<area shape="rect" id="node6" href="$add__content__footer__action_8h.html" title="A file Containing the AddContentFooterAction class." alt="" coords="172,80,355,121"/>
+<area shape="rect" id="node7" href="$add__content__header__action_8h.html" title="A file Containing the AddContentHeaderAction class." alt="" coords="379,80,569,121"/>
+<area shape="rect" id="node8" href="$add__watermark__action_8h.html" title="A file Containing the AddWatermarkAction class." alt="" coords="593,80,752,121"/>
+<area shape="rect" id="node9" href="$apply__label__action_8h.html" title="This file contains the ApplyLabelAction class." alt="" coords="777,80,939,121"/>
+<area shape="rect" id="node10" href="$custom__action_8h.html" title="A file Containing the CustomAction class." alt="" coords="964,80,1139,121"/>
+<area shape="rect" id="node11" href="$execution__state_8h.html" title="This file contains the ExecutionState class." alt="" coords="1163,80,1353,121"/>
+<area shape="rect" id="node12" href="$policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="1238,259,1403,300"/>
+<area shape="rect" id="node14" href="$policy__handler_8h.html" title="This file contains the PolicyHandler class." alt="" coords="1238,169,1403,211"/>
+<area shape="rect" id="node15" href="$justify__action_8h.html" title="This file contains the JustifyAction class." alt="" coords="1479,80,1645,121"/>
+<area shape="rect" id="node16" href="$metadata__action_8h.html" title="This file contains the MetadataAction class." alt="" coords="1670,80,1859,121"/>
+<area shape="rect" id="node17" href="$protect__adhoc__action_8h.html" title="A file Containing the ProtectAdhocAction class." alt="" coords="1884,80,2056,121"/>
+<area shape="rect" id="node18" href="$protect__adhoc__dk__action_8h.html" title="A file Containing the ProtectAdhocDkAction class." alt="" coords="2080,80,2252,121"/>
+<area shape="rect" id="node19" href="$protect__by__template__action_8h.html" title="A file Containing the ProtectByTemplateAction class." alt="" coords="2276,80,2448,121"/>
+<area shape="rect" id="node20" href="$protect__by__template__dk__action_8h.html" title=" " alt="" coords="2472,80,2665,121"/>
+<area shape="rect" id="node21" href="$protect__do__not__forward__action_8h.html" title="A file Containing the ProtectDoNotForwardAction class." alt="" coords="2690,80,2879,121"/>
+<area shape="rect" id="node22" href="$protect__do__not__forward__dk__action_8h.html" title="A file Containing the ProtectDoNotForwardDkAction class." alt="" coords="2904,80,3116,121"/>
+<area shape="rect" id="node23" href="$recommend__label__action_8h.html" title="This file contains the RecommendLabelAction class." alt="" coords="3140,80,3344,121"/>
+<area shape="rect" id="node24" href="$remove__content__footer__action_8h.html" title="A file Containing the RemoveContentFooterAction class." alt="" coords="3368,80,3551,121"/>
+<area shape="rect" id="node25" href="$remove__content__header__action_8h.html" title="A file Containing the RemoveContentHeaderAction class." alt="" coords="3575,80,3765,121"/>
+<area shape="rect" id="node26" href="$remove__protection__action_8h.html" title="A file Containing the RemoveProtectionAction class." alt="" coords="3789,80,3965,121"/>
+<area shape="rect" id="node27" href="$remove__watermark__action_8h.html" title="A file Containing the RemoveWatermarkAction class." alt="" coords="3989,80,4165,121"/>
+<area shape="rect" id="node3" href="$file__engine_8h.html" title=" " alt="" coords="115,259,257,300"/>
+<area shape="rect" id="node5" href="$file__execution__state_8h.html" title=" " alt="" coords="114,169,258,211"/>
+<area shape="rect" id="node4" href="$file__profile_8h.html" title=" " alt="" coords="115,348,257,389"/>
+<area shape="rect" id="node13" href="$policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="1238,348,1403,389"/>
+</map>

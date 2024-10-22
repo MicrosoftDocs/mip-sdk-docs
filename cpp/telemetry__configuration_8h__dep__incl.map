@@ -1,0 +1,12 @@
+<map id="src/api/mip/telemetry_configuration.h" name="src/api/mip/telemetry_configuration.h">
+<area shape="rect" id="node1" title="Defines custom telemetry settings." alt="" coords="243,5,406,47"/>
+<area shape="rect" id="node2" href="$mip__context_8h.html" title="File containing definition of MipContext." alt="" coords="229,95,420,121"/>
+<area shape="rect" id="node3" href="$file__handler_8h.html" title=" " alt="" coords="24,169,167,211"/>
+<area shape="rect" id="node5" href="$file__profile_8h.html" title=" " alt="" coords="79,437,221,479"/>
+<area shape="rect" id="node7" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="243,169,407,211"/>
+<area shape="rect" id="node8" href="$policy__handler_8h.html" title="This file contains the PolicyHandler class." alt="" coords="431,169,597,211"/>
+<area shape="rect" id="node10" href="$policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="491,348,657,389"/>
+<area shape="rect" id="node4" href="$file__engine_8h.html" title=" " alt="" coords="24,348,167,389"/>
+<area shape="rect" id="node6" href="$file__execution__state_8h.html" title=" " alt="" coords="23,259,167,300"/>
+<area shape="rect" id="node9" href="$policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="431,259,597,300"/>
+</map>

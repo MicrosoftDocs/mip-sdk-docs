@@ -1,0 +1,5 @@
+<map id="mip::NotSupportedError" name="mip::NotSupportedError">
+<area shape="rect" id="node1" title="The operation requested by the application is not supported by the SDK." alt="" coords="5,155,180,181"/>
+<area shape="rect" id="node2" href="$classmip_1_1Error.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="49,80,136,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="35,5,150,32"/>
+</map>

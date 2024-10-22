@@ -1,0 +1,22 @@
+<map id="src/api/mip/mip_context.h" name="src/api/mip/mip_context.h">
+<area shape="rect" id="node1" title="File containing definition of MipContext." alt="" coords="655,5,846,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="81,468,132,495"/>
+<area shape="rect" id="node3" title=" " alt="" coords="948,468,1025,495"/>
+<area shape="rect" id="node4" href="$common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="405,393,568,420"/>
+<area shape="rect" id="node8" href="$flighting__feature_8h.html" title="A file containing the FlightingFeature definition." alt="" coords="272,244,443,271"/>
+<area shape="rect" id="node11" href="$logger__delegate_8h.html" title="A file containing the LoggerDelegate class to be used to override MIP logger." alt="" coords="781,393,949,420"/>
+<area shape="rect" id="node12" href="$mip__export_8h.html" title="A file export/import macros." alt="" coords="1226,80,1363,107"/>
+<area shape="rect" id="node13" href="$telemetry__configuration_8h.html" title="Defines custom telemetry settings." alt="" coords="641,80,860,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="453,468,520,495"/>
+<area shape="rect" id="node6" title=" " alt="" coords="307,468,394,495"/>
+<area shape="rect" id="node7" title=" " alt="" coords="560,468,619,495"/>
+<area shape="rect" id="node9" href="$error_8h.html" title="A file containing the MIP SDK error types." alt="" coords="305,319,399,345"/>
+<area shape="rect" id="node10" title=" " alt="" coords="144,393,229,420"/>
+<area shape="rect" id="node14" href="$http__delegate_8h.html" title="Contains HttpDelegate interface definition used to override MIP HTTP stack." alt="" coords="773,162,926,189"/>
+<area shape="rect" id="node20" href="$task__dispatcher__delegate_8h.html" title="A file containing the TaskDispatcherDelegate interface to be used to override MIP async task executor..." alt="" coords="575,155,729,196"/>
+<area shape="rect" id="node15" title=" " alt="" coords="626,244,713,271"/>
+<area shape="rect" id="node16" href="$http__operation_8h.html" title=" " alt="" coords="789,244,947,271"/>
+<area shape="rect" id="node17" href="$http__response_8h.html" title="Contains HttpOperation interface used by HttpDelegate." alt="" coords="575,319,729,345"/>
+<area shape="rect" id="node19" href="$http__request_8h.html" title="Contains HttpRequest interface used by HttpDelegate." alt="" coords="754,319,899,345"/>
+<area shape="rect" id="node18" title=" " alt="" coords="694,393,757,420"/>
+</map>

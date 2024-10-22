@@ -1,0 +1,12 @@
+<map id="mip::NoPermissionsError" name="mip::NoPermissionsError">
+<area shape="rect" id="node1" title="The user could not get access to the content." alt="" coords="5,475,188,501"/>
+<area shape="rect" id="node2" href="$classmip_1_1AccessDeniedError.html" title="The user could not get access to the content." alt="" coords="155,399,332,425"/>
+<area shape="rect" id="node3" href="$classmip_1_1Error.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="228,321,315,348"/>
+<area shape="rect" id="node4" title=" " alt="" coords="118,222,233,249"/>
+<area shape="rect" id="node5" title=" " alt="" coords="447,215,610,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="237,109,324,136"/>
+<area shape="rect" id="node7" title=" " alt="" coords="211,5,350,47"/>
+<area shape="rect" id="node8" title=" " alt="" coords="461,109,596,136"/>
+<area shape="rect" id="node9" title=" " alt="" coords="557,13,596,39"/>
+<area shape="rect" id="node10" title=" " alt="" coords="461,13,500,39"/>
+</map>

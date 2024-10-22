@@ -1,0 +1,26 @@
+var classmip_1_1FileHandler =
+[
+    [ "Observer", "classmip_1_1FileHandler_1_1Observer.html", "classmip_1_1FileHandler_1_1Observer" ],
+    [ "ClassifyAsync", "classmip_1_1FileHandler.html#a6fd567bf3830f28da822a3af88cc0efe", null ],
+    [ "CommitAsync", "classmip_1_1FileHandler.html#a8551c1b11e70ce67cf4a60368bf2162a", null ],
+    [ "CommitAsync", "classmip_1_1FileHandler.html#a5b98927189a1e8fdd703a340bf384659", null ],
+    [ "DeleteLabel", "classmip_1_1FileHandler.html#a5a254fb5e49972814c732b974b1295c2", null ],
+    [ "GetDecryptedTemporaryFileAsync", "classmip_1_1FileHandler.html#a0c2824cdeb227680d7f739f1de15f722", null ],
+    [ "GetDecryptedTemporaryStreamAsync", "classmip_1_1FileHandler.html#a1ec58e0879fcf1494df246a411bd3bfa", null ],
+    [ "GetLabel", "classmip_1_1FileHandler.html#ae75fb8beb5e51bdbf784932870010a2c", null ],
+    [ "GetOutputFileName", "classmip_1_1FileHandler.html#a514499263cc092d0d32bec36ca74803f", null ],
+    [ "GetProtection", "classmip_1_1FileHandler.html#a0879169e3746b4443aed620a8b03e09e", null ],
+    [ "GetSerializedPublishingLicense", "classmip_1_1FileHandler.html#ad6764f2699851ab724dd471122988dcd", null ],
+    [ "GetSerializedPublishingLicense", "classmip_1_1FileHandler.html#a4f0599becb3e38f7fadbf581588ab840", null ],
+    [ "InspectAsync", "classmip_1_1FileHandler.html#a414f0bd4bcc82a8e82b2d32dac430f15", null ],
+    [ "IsLabeledOrProtected", "classmip_1_1FileHandler.html#ac439d553ad8c4d3acc7f84a458c40a60", null ],
+    [ "IsLabeledOrProtected", "classmip_1_1FileHandler.html#a598229eda8feb5083af959ac601a97e6", null ],
+    [ "IsModified", "classmip_1_1FileHandler.html#a2f259ff172f39e87ec65f3edd346db23", null ],
+    [ "IsProtected", "classmip_1_1FileHandler.html#a291492247ee3d73dd6034b05a128ab28", null ],
+    [ "IsProtected", "classmip_1_1FileHandler.html#abbbb0b81bfc949361025e68da794edc6", null ],
+    [ "NotifyCommitSuccessful", "classmip_1_1FileHandler.html#a3449aa54d5ad5be92af8a327524c1b35", null ],
+    [ "RemoveProtection", "classmip_1_1FileHandler.html#a53c246ed603dd1ffc17abf529865437e", null ],
+    [ "SetLabel", "classmip_1_1FileHandler.html#a7e37d4e5320198e5c6b5a9dc61d6f0f0", null ],
+    [ "SetProtection", "classmip_1_1FileHandler.html#a32a74233cbc638e5172a5c7e27d33237", null ],
+    [ "SetProtection", "classmip_1_1FileHandler.html#aa5d4c9eed1405fb7c0661ef119e3b48d", null ]
+];

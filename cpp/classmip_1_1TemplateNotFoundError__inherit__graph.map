@@ -1,0 +1,6 @@
+<map id="mip::TemplateNotFoundError" name="mip::TemplateNotFoundError">
+<area shape="rect" id="node1" title="Template ID is not recognized by RMS service." alt="" coords="5,229,213,256"/>
+<area shape="rect" id="node2" href="$classmip_1_1BadInputError.html" title="Bad input error, thrown when the input to an SDK API is invalid." alt="" coords="37,155,181,181"/>
+<area shape="rect" id="node3" href="$classmip_1_1Error.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="66,80,153,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="52,5,167,32"/>
+</map>

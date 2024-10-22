@@ -1,0 +1,13 @@
+<map id="src/api/mip/task_dispatcher_delegate.h" name="src/api/mip/task_dispatcher_delegate.h">
+<area shape="rect" id="node1" title="A file containing the TaskDispatcherDelegate interface to be used to override MIP async task executor..." alt="" coords="115,5,317,47"/>
+<area shape="rect" id="node2" href="$file__profile_8h.html" title=" " alt="" coords="161,527,303,568"/>
+<area shape="rect" id="node3" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="43,259,207,300"/>
+<area shape="rect" id="node4" href="$telemetry__configuration_8h.html" title="Defines custom telemetry settings." alt="" coords="243,95,405,136"/>
+<area shape="rect" id="node11" href="$policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="608,437,773,479"/>
+<area shape="rect" id="node5" href="$mip__context_8h.html" title="File containing definition of MipContext." alt="" coords="235,184,426,211"/>
+<area shape="rect" id="node6" href="$file__handler_8h.html" title=" " alt="" coords="283,259,426,300"/>
+<area shape="rect" id="node9" href="$policy__handler_8h.html" title="This file contains the PolicyHandler class." alt="" coords="476,259,641,300"/>
+<area shape="rect" id="node7" href="$file__engine_8h.html" title=" " alt="" coords="270,437,413,479"/>
+<area shape="rect" id="node8" href="$file__execution__state_8h.html" title=" " alt="" coords="320,348,464,389"/>
+<area shape="rect" id="node10" href="$policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="488,348,653,389"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="src/api/mip/user_rights.h" name="src/api/mip/user_rights.h">
+<area shape="rect" id="node1" title="Defines UserRights class." alt="" coords="329,5,512,32"/>
+<area shape="rect" id="node2" href="$protection__descriptor__builder_8h.html" title="Defines ProtectionDescriptor interface." alt="" coords="5,169,169,225"/>
+<area shape="rect" id="node3" href="$protection__handler_8h.html" title="Defines ProtectionHandler interface." alt="" coords="509,177,673,218"/>
+<area shape="rect" id="node10" href="$protection__descriptor_8h.html" title="Defines ProtectionDescriptor interface." alt="" coords="339,80,503,121"/>
+<area shape="rect" id="node4" href="$file__handler_8h.html" title=" " alt="" coords="349,273,492,315"/>
+<area shape="rect" id="node8" href="$protection__engine_8h.html" title="Defines ProtectionEngine interface." alt="" coords="516,273,680,315"/>
+<area shape="rect" id="node5" href="$file__engine_8h.html" title=" " alt="" coords="280,452,423,493"/>
+<area shape="rect" id="node7" href="$file__execution__state_8h.html" title=" " alt="" coords="389,363,533,404"/>
+<area shape="rect" id="node6" href="$file__profile_8h.html" title=" " alt="" coords="280,541,423,583"/>
+<area shape="rect" id="node9" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="557,363,721,404"/>
+<area shape="rect" id="node11" href="$execution__state_8h.html" title="This file contains the ExecutionState class." alt="" coords="194,177,383,218"/>
+<area shape="rect" id="node12" href="$policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="69,363,234,404"/>
+<area shape="rect" id="node14" href="$policy__handler_8h.html" title="This file contains the PolicyHandler class." alt="" coords="47,273,213,315"/>
+<area shape="rect" id="node13" href="$policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="69,452,234,493"/>
+</map>

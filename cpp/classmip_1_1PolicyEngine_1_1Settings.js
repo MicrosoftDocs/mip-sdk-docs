@@ -1,0 +1,25 @@
+var classmip_1_1PolicyEngine_1_1Settings =
+[
+    [ "Settings", "classmip_1_1PolicyEngine_1_1Settings.html#a337e190ba5a14fdf3ff3a597faf1e6cb", null ],
+    [ "Settings", "classmip_1_1PolicyEngine_1_1Settings.html#a55ee5cdf005ccd5871f5cc34e08fd268", null ],
+    [ "GetClientData", "classmip_1_1PolicyEngine_1_1Settings.html#a5c84a752735d4223ad4fb44b2ef3340b", null ],
+    [ "GetCloudEndpointBaseUrl", "classmip_1_1PolicyEngine_1_1Settings.html#a4eb54e6ca0e81129589049bd50548799", null ],
+    [ "GetCustomSettings", "classmip_1_1PolicyEngine_1_1Settings.html#ae68b8a671684dfcafd0b573f5f67c472", null ],
+    [ "GetDelegatedUserEmail", "classmip_1_1PolicyEngine_1_1Settings.html#ac920d4ab73e49d5c76430e8983679f7e", null ],
+    [ "GetEngineId", "classmip_1_1PolicyEngine_1_1Settings.html#ac6dd4141b6734f71a8d87bbff0dd727e", null ],
+    [ "GetIdentity", "classmip_1_1PolicyEngine_1_1Settings.html#a13f03cfd14d2a6070910d0c2ffaa2403", null ],
+    [ "GetLabelFilter", "classmip_1_1PolicyEngine_1_1Settings.html#a083494be8518bd9525d102c3759d1a73", null ],
+    [ "GetLocale", "classmip_1_1PolicyEngine_1_1Settings.html#ac1ab4917cf46f24f2b0bb4387ea3b8ed", null ],
+    [ "GetSessionId", "classmip_1_1PolicyEngine_1_1Settings.html#a9872dfa3891fc945a5daca5731b2cde0", null ],
+    [ "GetVariableTextMarkingType", "classmip_1_1PolicyEngine_1_1Settings.html#a74cc5583522b8b68077fb62e1c84f4e5", null ],
+    [ "IsLoadSensitivityTypesEnabled", "classmip_1_1PolicyEngine_1_1Settings.html#a094cf5512bc2da4e19c5454ba0074ad6", null ],
+    [ "SetClientData", "classmip_1_1PolicyEngine_1_1Settings.html#ac33d2271f973e1d3f96412678e50a74f", null ],
+    [ "SetCloudEndpointBaseUrl", "classmip_1_1PolicyEngine_1_1Settings.html#a18002dbf450356199bd4b165a3ccbdcd", null ],
+    [ "SetCustomSettings", "classmip_1_1PolicyEngine_1_1Settings.html#a24e7c32a1a216f1fb1f833f7a13e5004", null ],
+    [ "SetDelegatedUserEmail", "classmip_1_1PolicyEngine_1_1Settings.html#aaa725a50889cdc5344b71e403fc93aab", null ],
+    [ "SetEngineId", "classmip_1_1PolicyEngine_1_1Settings.html#af690680228f8b320a8dac8b282c7c9a2", null ],
+    [ "SetIdentity", "classmip_1_1PolicyEngine_1_1Settings.html#acdb336cc13c459e0310eea3b0ffa782c", null ],
+    [ "SetLabelFilter", "classmip_1_1PolicyEngine_1_1Settings.html#a67d59e8344c35a1cc767aa0a4fbe1749", null ],
+    [ "SetSessionId", "classmip_1_1PolicyEngine_1_1Settings.html#ac86ccdeaccee09fc15fd3d4a1c6c83af", null ],
+    [ "SetVariableTextMarkingType", "classmip_1_1PolicyEngine_1_1Settings.html#a923b162665978b3dc556591bbecc6fa2", null ]
+];

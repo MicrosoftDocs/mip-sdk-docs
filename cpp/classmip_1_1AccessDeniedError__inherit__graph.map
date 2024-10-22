@@ -1,0 +1,8 @@
+<map id="mip::AccessDeniedError" name="mip::AccessDeniedError">
+<area shape="rect" id="node1" title="The user could not get access to the content." alt="" coords="203,155,381,181"/>
+<area shape="rect" id="node4" href="$classmip_1_1NoAuthTokenError.html" title="The user could not get access to the content due to missing authentication token." alt="" coords="5,229,176,256"/>
+<area shape="rect" id="node5" href="$classmip_1_1NoPermissionsError.html" title="The user could not get access to the content." alt="" coords="201,229,383,256"/>
+<area shape="rect" id="node6" href="$classmip_1_1ServiceDisabledError.html" title="The user could not get access to the content due to a service being disabled." alt="" coords="407,229,598,256"/>
+<area shape="rect" id="node2" href="$classmip_1_1Error.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="249,80,335,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="235,5,349,32"/>
+</map>

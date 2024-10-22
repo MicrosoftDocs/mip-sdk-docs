@@ -1,0 +1,4 @@
+<map id="mip::ProtectAdhocAction" name="mip::ProtectAdhocAction">
+<area shape="rect" id="node1" title="An action class that specifies adding adhoc protection to the document." alt="" coords="5,80,188,107"/>
+<area shape="rect" id="node2" href="$classmip_1_1Action.html" title="Interface for an action." alt="" coords="49,5,145,32"/>
+</map>

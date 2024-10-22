@@ -1,0 +1,4 @@
+<map id="mip::RemoveWatermarkAction" name="mip::RemoveWatermarkAction">
+<area shape="rect" id="node1" title="An action class that specifies removing the watermarking from the document." alt="" coords="5,80,228,107"/>
+<area shape="rect" id="node2" href="$classmip_1_1Action.html" title="Interface for an action." alt="" coords="69,5,165,32"/>
+</map>

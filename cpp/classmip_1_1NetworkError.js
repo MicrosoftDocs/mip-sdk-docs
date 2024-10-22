@@ -1,0 +1,35 @@
+var classmip_1_1NetworkError =
+[
+    [ "Category", "classmip_1_1NetworkError.html#a0ef86be2d746342426a5a9027361e996", [
+      [ "Unknown", "classmip_1_1NetworkError.html#a0ef86be2d746342426a5a9027361e996a88183b946cc5f0e8c96b2e66e1c74a7e", null ],
+      [ "FailureResponseCode", "classmip_1_1NetworkError.html#a0ef86be2d746342426a5a9027361e996ac6b45d3414a17c97a0cec55f93245575", null ],
+      [ "BadResponse", "classmip_1_1NetworkError.html#a0ef86be2d746342426a5a9027361e996a69225342032d63eb5ae5bdba03c8f37f", null ],
+      [ "UnexpectedResponse", "classmip_1_1NetworkError.html#a0ef86be2d746342426a5a9027361e996a8d28361cc3863be8ef512d04b63e66b0", null ],
+      [ "NoConnection", "classmip_1_1NetworkError.html#a0ef86be2d746342426a5a9027361e996a7949462a9c3fc6aa6e0b808c573dc1c4", null ],
+      [ "Proxy", "classmip_1_1NetworkError.html#a0ef86be2d746342426a5a9027361e996af56ec2ab97d604832d90f6394e3f341f", null ],
+      [ "SSL", "classmip_1_1NetworkError.html#a0ef86be2d746342426a5a9027361e996aea52c36203c5f99c3ce2442d531b1a22", null ],
+      [ "Timeout", "classmip_1_1NetworkError.html#a0ef86be2d746342426a5a9027361e996ac85a251cc457840f1e032f1b733e9398", null ],
+      [ "Offline", "classmip_1_1NetworkError.html#a0ef86be2d746342426a5a9027361e996a8d9da4bc0e49a50e09ac9f7e56789d39", null ],
+      [ "Throttled", "classmip_1_1NetworkError.html#a0ef86be2d746342426a5a9027361e996aca7bd438b66e51a7c4a108f471b9f18f", null ],
+      [ "Cancelled", "classmip_1_1NetworkError.html#a0ef86be2d746342426a5a9027361e996aa149e85a44aeec9140e92733d9ed694e", null ]
+    ] ],
+    [ "AddDebugInfo", "classmip_1_1NetworkError.html#aef31d316ab25e55bfc0d2931579fe7c4", null ],
+    [ "Clone", "classmip_1_1NetworkError.html#a043465b1336227ec54d8489147b27d8c", null ],
+    [ "CreateFormattedMessage", "classmip_1_1NetworkError.html#af8ea63dd27bc279cc7dbba13d65d93a3", null ],
+    [ "GetCategory", "classmip_1_1NetworkError.html#a9feaa7d74a45eecd686997ac75fac020", null ],
+    [ "GetCategoryString", "classmip_1_1NetworkError.html#af90d594a5b8e18a8749a504be3a99e61", null ],
+    [ "GetDebugInfo", "classmip_1_1NetworkError.html#a0bb3dd8ba0f69a740d345f81458446ba", null ],
+    [ "GetErrorName", "classmip_1_1NetworkError.html#a0b1b1d2d61cd68ce2ac49e2a51304d77", null ],
+    [ "GetErrorType", "classmip_1_1NetworkError.html#aa3f39477b8db59e6815e58bc30e1f781", null ],
+    [ "GetMessage", "classmip_1_1NetworkError.html#a3a836a540e531cbe129a273a87d7b59d", null ],
+    [ "GetResponseStatusCode", "classmip_1_1NetworkError.html#a0332f36e466d1dd9f72ae5d059d5415c", null ],
+    [ "SetMessage", "classmip_1_1NetworkError.html#a3d3bab1423e02968b2cc580d4669207f", null ],
+    [ "what", "classmip_1_1NetworkError.html#ab755008c154ef835d45a840b23f3e341", null ],
+    [ "mCategory", "classmip_1_1NetworkError.html#a65eccb9641c0068182ebba59c6d3a13b", null ],
+    [ "mDebugInfo", "classmip_1_1NetworkError.html#a956c73c20e70ca0bba1aa8354c1adb16", null ],
+    [ "mFormattedMessage", "classmip_1_1NetworkError.html#a11acad21432cfeb12e202e75b73894be", null ],
+    [ "mMessage", "classmip_1_1NetworkError.html#a62195a17c2f0bbab0913de7d3652d4a5", null ],
+    [ "mName", "classmip_1_1NetworkError.html#aa2644987829d06c015db33ac4380924b", null ],
+    [ "mResponseStatusCode", "classmip_1_1NetworkError.html#ac93d627a45454217f34ea6e8d02eae38", null ],
+    [ "mType", "classmip_1_1NetworkError.html#affffe6e8f4cf5969c7ac32fc3f1ad809", null ]
+];

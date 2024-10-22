@@ -1,0 +1,6 @@
+<map id="mip::LabelNotFoundError" name="mip::LabelNotFoundError">
+<area shape="rect" id="node1" title="Label ID is not recognized." alt="" coords="5,229,188,256"/>
+<area shape="rect" id="node2" href="$classmip_1_1BadInputError.html" title="Bad input error, thrown when the input to an SDK API is invalid." alt="" coords="25,155,169,181"/>
+<area shape="rect" id="node3" href="$classmip_1_1Error.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="53,80,140,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="39,5,154,32"/>
+</map>

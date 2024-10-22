@@ -1,0 +1,6 @@
+<map id="mip::InsufficientBufferError" name="mip::InsufficientBufferError">
+<area shape="rect" id="node1" title="Insufficient buffer error." alt="" coords="5,229,203,256"/>
+<area shape="rect" id="node2" href="$classmip_1_1BadInputError.html" title="Bad input error, thrown when the input to an SDK API is invalid." alt="" coords="32,155,176,181"/>
+<area shape="rect" id="node3" href="$classmip_1_1Error.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="61,80,147,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="47,5,161,32"/>
+</map>

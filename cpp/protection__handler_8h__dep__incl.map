@@ -1,0 +1,9 @@
+<map id="src/api/mip/protection/protection_handler.h" name="src/api/mip/protection/protection_handler.h">
+<area shape="rect" id="node1" title="Defines ProtectionHandler interface." alt="" coords="137,5,301,47"/>
+<area shape="rect" id="node2" href="$file__handler_8h.html" title=" " alt="" coords="60,95,203,136"/>
+<area shape="rect" id="node6" href="$protection__engine_8h.html" title="Defines ProtectionEngine interface." alt="" coords="227,95,391,136"/>
+<area shape="rect" id="node3" href="$file__engine_8h.html" title=" " alt="" coords="5,273,148,315"/>
+<area shape="rect" id="node5" href="$file__execution__state_8h.html" title=" " alt="" coords="59,184,203,225"/>
+<area shape="rect" id="node4" href="$file__profile_8h.html" title=" " alt="" coords="5,363,148,404"/>
+<area shape="rect" id="node7" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="228,184,392,225"/>
+</map>

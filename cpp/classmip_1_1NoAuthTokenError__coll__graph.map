@@ -1,0 +1,12 @@
+<map id="mip::NoAuthTokenError" name="mip::NoAuthTokenError">
+<area shape="rect" id="node1" title="The user could not get access to the content due to missing authentication token." alt="" coords="83,472,253,499"/>
+<area shape="rect" id="node2" href="$classmip_1_1AccessDeniedError.html" title="The user could not get access to the content." alt="" coords="79,396,257,423"/>
+<area shape="rect" id="node3" href="$classmip_1_1Error.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="125,320,211,347"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,222,120,249"/>
+<area shape="rect" id="node5" title=" " alt="" coords="335,215,497,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="159,109,246,136"/>
+<area shape="rect" id="node7" title=" " alt="" coords="133,5,272,47"/>
+<area shape="rect" id="node8" title=" " alt="" coords="349,109,483,136"/>
+<area shape="rect" id="node9" title=" " alt="" coords="363,13,402,39"/>
+<area shape="rect" id="node10" title=" " alt="" coords="429,13,467,39"/>
+</map>

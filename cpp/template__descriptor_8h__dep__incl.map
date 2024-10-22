@@ -1,0 +1,5 @@
+<map id="src/api/mip/protection/template_descriptor.h" name="src/api/mip/protection/template_descriptor.h">
+<area shape="rect" id="node1" title="Defines TemplateDescriptor interface." alt="" coords="5,5,173,47"/>
+<area shape="rect" id="node2" href="$protection__engine_8h.html" title="Defines ProtectionEngine interface." alt="" coords="7,95,171,136"/>
+<area shape="rect" id="node3" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="7,184,171,225"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="src/api/mip/stream.h" name="src/api/mip/stream.h">
+<area shape="rect" id="node1" title="A file containing the Stream interface/class definition." alt="" coords="233,5,389,32"/>
+<area shape="rect" id="node2" href="$file__handler_8h.html" title=" " alt="" coords="180,169,323,211"/>
+<area shape="rect" id="node6" href="$file__inspector_8h.html" title=" " alt="" coords="71,80,213,121"/>
+<area shape="rect" id="node8" href="$protection__handler_8h.html" title="Defines ProtectionHandler interface." alt="" coords="289,80,453,121"/>
+<area shape="rect" id="node11" href="$stream__utils_8h.html" title=" " alt="" coords="478,80,622,121"/>
+<area shape="rect" id="node3" href="$file__engine_8h.html" title=" " alt="" coords="153,348,296,389"/>
+<area shape="rect" id="node5" href="$file__execution__state_8h.html" title=" " alt="" coords="98,259,242,300"/>
+<area shape="rect" id="node4" href="$file__profile_8h.html" title=" " alt="" coords="153,437,296,479"/>
+<area shape="rect" id="node7" href="$msg__inspector_8h.html" title=" " alt="" coords="5,169,156,211"/>
+<area shape="rect" id="node9" href="$protection__engine_8h.html" title="Defines ProtectionEngine interface." alt="" coords="347,169,511,211"/>
+<area shape="rect" id="node10" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="347,259,511,300"/>
+</map>

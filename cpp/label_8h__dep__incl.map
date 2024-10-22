@@ -1,0 +1,14 @@
+<map id="src/api/mip/upe/label.h" name="src/api/mip/upe/label.h">
+<area shape="rect" id="node1" title="This file contains the Label class." alt="" coords="227,5,397,32"/>
+<area shape="rect" id="node2" href="$file__engine_8h.html" title=" " alt="" coords="51,348,194,389"/>
+<area shape="rect" id="node4" href="$apply__label__action_8h.html" title="This file contains the ApplyLabelAction class." alt="" coords="563,80,725,121"/>
+<area shape="rect" id="node5" href="$content__label_8h.html" title="A file Containing the ContentLabel class." alt="" coords="49,80,223,121"/>
+<area shape="rect" id="node8" href="$policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="273,259,439,300"/>
+<area shape="rect" id="node10" href="$policy__handler_8h.html" title="This file contains the PolicyHandler class." alt="" coords="299,169,464,211"/>
+<area shape="rect" id="node11" href="$execution__state_8h.html" title="This file contains the ExecutionState class." alt="" coords="349,80,539,121"/>
+<area shape="rect" id="node12" href="$recommend__label__action_8h.html" title="This file contains the RecommendLabelAction class." alt="" coords="750,80,954,121"/>
+<area shape="rect" id="node3" href="$file__profile_8h.html" title=" " alt="" coords="51,437,194,479"/>
+<area shape="rect" id="node6" href="$file__handler_8h.html" title=" " alt="" coords="30,169,173,211"/>
+<area shape="rect" id="node7" href="$file__execution__state_8h.html" title=" " alt="" coords="105,259,249,300"/>
+<area shape="rect" id="node9" href="$policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="273,348,439,389"/>
+</map>

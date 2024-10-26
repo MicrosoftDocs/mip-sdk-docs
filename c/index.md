@@ -1,16 +1,11 @@
 ---
-title: MIP SDK for C Reference
-description: MIP SDK for C Reference
-author: msmbaldwin
-ms.service: information-protection
-ms.topic: reference
-ms.author: mbaldwin
-ms.date: 10/25/2024
+title: "MIP SDK for C Reference"
+layout: default
 ---
 
 # MIP SDK for C Reference
 
-The Microsoft Information Protection (MIP) SDK for C allows developers to manage and apply data protection policies to data and other digital assets.
+The Microsoft Information Protection (MIP) SDK for C allows developers to manage and apply data protection policies to data and other digital assets. For guidance on how to use it, see [Microsoft Information Protection SDK documentation](https://learn.microsoft.com/information-protection/develop/).
 
 The MIP SDK for C reference includes the following [data structures](annotated.html):
 

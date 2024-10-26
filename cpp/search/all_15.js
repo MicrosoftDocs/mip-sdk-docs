@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['_7eobserver_0',['~Observer',['../classmip_1_1FileProfile_1_1Observer.html#aa06067e4c944374c0bf743a8829415a2',1,'mip::FileProfile::Observer']]],
-  ['_7eprotectiondescriptorbuilder_1',['~ProtectionDescriptorBuilder',['../classmip_1_1ProtectionDescriptorBuilder.html#a2e7f32cf1d5010be3c4d72870659833a',1,'mip::ProtectionDescriptorBuilder']]]
+  ['warning_0',['Warning',['../namespacemip.html#a227594dbf65dd76b6a9e58e765af5cdaa0eaadb4fcb48a0a0ed7bc9868be9fbaa',1,'mip']]],
+  ['watermarklayout_1',['WatermarkLayout',['../namespacemip.html#ac917d7c5195de0c9b6ca8a8fa20c6c88',1,'mip']]],
+  ['what_2',['what',['../classmip_1_1Error.html#ab7422dee9a083be12f17e965eb16f7e6',1,'mip::Error']]],
+  ['write_3',['Write',['../classmip_1_1Stream.html#a27525865c6f59ee3b49121296dc56c97',1,'mip::Stream']]],
+  ['writetolog_4',['WriteToLog',['../classmip_1_1LoggerDelegate.html#a2a0aa9291009161b03e59b7737170b35',1,'mip::LoggerDelegate']]]
 ];

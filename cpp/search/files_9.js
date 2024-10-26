@@ -1,10 +1,19 @@
 var searchData=
 [
-  ['recommend_5flabel_5faction_2eh_0',['recommend_label_action.h',['../recommend__label__action_8h.html',1,'']]],
-  ['remove_5fcontent_5ffooter_5faction_2eh_1',['remove_content_footer_action.h',['../remove__content__footer__action_8h.html',1,'']]],
-  ['remove_5fcontent_5fheader_5faction_2eh_2',['remove_content_header_action.h',['../remove__content__header__action_8h.html',1,'']]],
-  ['remove_5fprotection_5faction_2eh_3',['remove_protection_action.h',['../remove__protection__action_8h.html',1,'']]],
-  ['remove_5fwatermark_5faction_2eh_4',['remove_watermark_action.h',['../remove__watermark__action_8h.html',1,'']]],
-  ['rights_2eh_5',['rights.h',['../rights_8h.html',1,'']]],
-  ['roles_2eh_6',['roles.h',['../roles_8h.html',1,'']]]
+  ['policy_5fengine_2eh_0',['policy_engine.h',['../policy__engine_8h.html',1,'']]],
+  ['policy_5fhandler_2eh_1',['policy_handler.h',['../policy__handler_8h.html',1,'']]],
+  ['policy_5fprofile_2eh_2',['policy_profile.h',['../policy__profile_8h.html',1,'']]],
+  ['protect_5fadhoc_5faction_2eh_3',['protect_adhoc_action.h',['../protect__adhoc__action_8h.html',1,'']]],
+  ['protect_5fadhoc_5fdk_5faction_2eh_4',['protect_adhoc_dk_action.h',['../protect__adhoc__dk__action_8h.html',1,'']]],
+  ['protect_5fby_5ftemplate_5faction_2eh_5',['protect_by_template_action.h',['../protect__by__template__action_8h.html',1,'']]],
+  ['protect_5fby_5ftemplate_5fdk_5faction_2eh_6',['protect_by_template_dk_action.h',['../protect__by__template__dk__action_8h.html',1,'']]],
+  ['protect_5fdo_5fnot_5fforward_5faction_2eh_7',['protect_do_not_forward_action.h',['../protect__do__not__forward__action_8h.html',1,'']]],
+  ['protect_5fdo_5fnot_5fforward_5fdk_5faction_2eh_8',['protect_do_not_forward_dk_action.h',['../protect__do__not__forward__dk__action_8h.html',1,'']]],
+  ['protection_5fcommon_5ftypes_2eh_9',['protection_common_types.h',['../protection__common__types_8h.html',1,'']]],
+  ['protection_5fdescriptor_2eh_10',['protection_descriptor.h',['../protection__descriptor_8h.html',1,'']]],
+  ['protection_5fdescriptor_5fbuilder_2eh_11',['protection_descriptor_builder.h',['../protection__descriptor__builder_8h.html',1,'']]],
+  ['protection_5fengine_2eh_12',['protection_engine.h',['../protection__engine_8h.html',1,'']]],
+  ['protection_5fhandler_2eh_13',['protection_handler.h',['../protection__handler_8h.html',1,'']]],
+  ['protection_5fprofile_2eh_14',['protection_profile.h',['../protection__profile_8h.html',1,'']]],
+  ['protection_5fsettings_2eh_15',['protection_settings.h',['../protection__settings_8h.html',1,'']]]
 ];

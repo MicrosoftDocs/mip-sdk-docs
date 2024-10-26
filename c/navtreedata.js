@@ -25,7 +25,10 @@
 var NAVTREE =
 [
   [ "MIP SDK for C", "index.html", [
+    [ "MIP SDK for C Reference", "index.html#autotoc_md2", null ],
     [ "Data Structures", "annotated.html", [
+      [ "autotoc_md0", "index.html#autotoc_md0", null ],
+      [ "layout: default", "index.html#autotoc_md1", null ],
       [ "Data Structures", "annotated.html", "annotated_dup" ],
       [ "Data Structure Index", "classes.html", null ],
       [ "Data Fields", "functions.html", [
@@ -51,9 +54,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "action__cc_8h.html",
-"globals_type.html",
-"protection__descriptor__cc_8h.html#a3d380e086155421c296c8e698ba06661",
-"structmip__cc__oauth2__challenge.html"
+"globals_r.html",
+"protection__descriptor__cc_8h.html#a166bd86a5c833ead1baeb1bf6f693356",
+"structmip__cc__http__response.html#af75a5f9f69d70acb38654fc01c245dc9"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

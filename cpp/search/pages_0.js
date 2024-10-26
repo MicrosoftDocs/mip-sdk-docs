@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['deprecated_20list_1453',['Deprecated List',['../deprecated.html',1,'']]]
+  ['c_0',['MIP SDK for C++',['../index.html',1,'']]]
 ];

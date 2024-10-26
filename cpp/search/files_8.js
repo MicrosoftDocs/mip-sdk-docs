@@ -1,7 +1,19 @@
 var searchData=
 [
-  ['metadata_5faction_2eh_0',['metadata_action.h',['../metadata__action_8h.html',1,'']]],
-  ['mip_5fcontext_2eh_1',['mip_context.h',['../mip__context_8h.html',1,'']]],
-  ['mip_5fexport_2eh_2',['mip_export.h',['../mip__export_8h.html',1,'']]],
-  ['msg_5finspector_2eh_3',['msg_inspector.h',['../msg__inspector_8h.html',1,'']]]
+  ['policy_5fengine_2eh_0',['policy_engine.h',['../policy__engine_8h.html',1,'']]],
+  ['policy_5fhandler_2eh_1',['policy_handler.h',['../policy__handler_8h.html',1,'']]],
+  ['policy_5fprofile_2eh_2',['policy_profile.h',['../policy__profile_8h.html',1,'']]],
+  ['protect_5fadhoc_5faction_2eh_3',['protect_adhoc_action.h',['../protect__adhoc__action_8h.html',1,'']]],
+  ['protect_5fadhoc_5fdk_5faction_2eh_4',['protect_adhoc_dk_action.h',['../protect__adhoc__dk__action_8h.html',1,'']]],
+  ['protect_5fby_5ftemplate_5faction_2eh_5',['protect_by_template_action.h',['../protect__by__template__action_8h.html',1,'']]],
+  ['protect_5fby_5ftemplate_5fdk_5faction_2eh_6',['protect_by_template_dk_action.h',['../protect__by__template__dk__action_8h.html',1,'']]],
+  ['protect_5fdo_5fnot_5fforward_5faction_2eh_7',['protect_do_not_forward_action.h',['../protect__do__not__forward__action_8h.html',1,'']]],
+  ['protect_5fdo_5fnot_5fforward_5fdk_5faction_2eh_8',['protect_do_not_forward_dk_action.h',['../protect__do__not__forward__dk__action_8h.html',1,'']]],
+  ['protection_5fcommon_5ftypes_2eh_9',['protection_common_types.h',['../protection__common__types_8h.html',1,'']]],
+  ['protection_5fdescriptor_2eh_10',['protection_descriptor.h',['../protection__descriptor_8h.html',1,'']]],
+  ['protection_5fdescriptor_5fbuilder_2eh_11',['protection_descriptor_builder.h',['../protection__descriptor__builder_8h.html',1,'']]],
+  ['protection_5fengine_2eh_12',['protection_engine.h',['../protection__engine_8h.html',1,'']]],
+  ['protection_5fhandler_2eh_13',['protection_handler.h',['../protection__handler_8h.html',1,'']]],
+  ['protection_5fprofile_2eh_14',['protection_profile.h',['../protection__profile_8h.html',1,'']]],
+  ['protection_5fsettings_2eh_15',['protection_settings.h',['../protection__settings_8h.html',1,'']]]
 ];

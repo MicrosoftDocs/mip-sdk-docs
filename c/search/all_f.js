@@ -19,13 +19,12 @@ var searchData=
   ['protect_5fdo_5fnot_5fforward_5faction_5fcc_2eh_16',['protect_do_not_forward_action_cc.h',['../protect__do__not__forward__action__cc_8h.html',1,'']]],
   ['protect_5fdo_5fnot_5fforward_5fdk_5faction_5fcc_2eh_17',['protect_do_not_forward_dk_action_cc.h',['../protect__do__not__forward__dk__action__cc_8h.html',1,'']]],
   ['protectedsize_18',['protectedSize',['../protection__handler__cc_8h.html#aea2e57cee32a701180e26e25953f5a83',1,'protection_handler_cc.h']]],
-  ['protection_20mip_20sdk_20for_20c_3a_20reference_19',['Microsoft Information Protection (MIP) SDK for C: Reference',['../index.html',1,'']]],
-  ['protection_5fdescriptor_5fcc_2eh_20',['protection_descriptor_cc.h',['../protection__descriptor__cc_8h.html',1,'']]],
-  ['protection_5fengine_5fcc_2eh_21',['protection_engine_cc.h',['../protection__engine__cc_8h.html',1,'']]],
-  ['protection_5fhandler_5fcc_2eh_22',['protection_handler_cc.h',['../protection__handler__cc_8h.html',1,'']]],
-  ['protection_5fprofile_5fcc_2eh_23',['protection_profile_cc.h',['../protection__profile__cc_8h.html',1,'']]],
-  ['protectiondescriptor_24',['protectionDescriptor',['../structmip__cc__document__state.html#a03743ddedc1e94581e2e13ed72c4fdef',1,'mip_cc_document_state::protectionDescriptor'],['../protection__descriptor__cc_8h.html#a9ddc5bb9cc5b14447eec07261e4176e6',1,'protectionDescriptor:&#160;protection_descriptor_cc.h']]],
-  ['protectiontype_25',['protectionType',['../protection__descriptor__cc_8h.html#af73a250c1fd4c732b04d943d2234d8d8',1,'protection_descriptor_cc.h']]],
-  ['publishinglicensebuffer_26',['publishingLicenseBuffer',['../protection__handler__cc_8h.html#a7677863353b680de616e0007cc7ce052',1,'protection_handler_cc.h']]],
-  ['publishinglicensebuffersize_27',['publishingLicenseBufferSize',['../protection__handler__cc_8h.html#a2382063ab8780542bb7bd199a0eed2fb',1,'protection_handler_cc.h']]]
+  ['protection_5fdescriptor_5fcc_2eh_19',['protection_descriptor_cc.h',['../protection__descriptor__cc_8h.html',1,'']]],
+  ['protection_5fengine_5fcc_2eh_20',['protection_engine_cc.h',['../protection__engine__cc_8h.html',1,'']]],
+  ['protection_5fhandler_5fcc_2eh_21',['protection_handler_cc.h',['../protection__handler__cc_8h.html',1,'']]],
+  ['protection_5fprofile_5fcc_2eh_22',['protection_profile_cc.h',['../protection__profile__cc_8h.html',1,'']]],
+  ['protectiondescriptor_23',['protectionDescriptor',['../structmip__cc__document__state.html#a03743ddedc1e94581e2e13ed72c4fdef',1,'mip_cc_document_state::protectionDescriptor'],['../protection__descriptor__cc_8h.html#a9ddc5bb9cc5b14447eec07261e4176e6',1,'protectionDescriptor:&#160;protection_descriptor_cc.h']]],
+  ['protectiontype_24',['protectionType',['../protection__descriptor__cc_8h.html#af73a250c1fd4c732b04d943d2234d8d8',1,'protection_descriptor_cc.h']]],
+  ['publishinglicensebuffer_25',['publishingLicenseBuffer',['../protection__handler__cc_8h.html#a7677863353b680de616e0007cc7ce052',1,'protection_handler_cc.h']]],
+  ['publishinglicensebuffersize_26',['publishingLicenseBufferSize',['../protection__handler__cc_8h.html#a2382063ab8780542bb7bd199a0eed2fb',1,'protection_handler_cc.h']]]
 ];

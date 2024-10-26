@@ -144,8 +144,7 @@ var NAVTREEINDEX8 =
 "functions_w.html":[2,3,0,18],
 "functions_~.html":[2,3,0,19],
 "globals.html":[3,1,0],
-"globals_defs.html":[3,1,2],
-"globals_func.html":[3,1,1],
+"globals_defs.html":[3,1,1],
 "hierarchy.html":[2,2],
 "http__delegate_8h.html":[3,0,0,0,0,7],
 "http__delegate_8h_source.html":[3,0,0,0,0,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX8 =
 "namespacemip.html#a5de2b587c29fcb4550b4d1274ebf3af3ae8c0c70879b5895c615677261d64a1ee":[1,0,0,93,4],
 "namespacemip.html#a65bc13ede4235f600be71041e753e36a":[1,0,0,97],
 "namespacemip.html#a65bc13ede4235f600be71041e753e36aa88183b946cc5f0e8c96b2e66e1c74a7e":[1,0,0,97,0],
-"namespacemip.html#a65bc13ede4235f600be71041e753e36aae1ae09b94f8926587697d0f246bf1050":[1,0,0,97,1]
+"namespacemip.html#a65bc13ede4235f600be71041e753e36aae1ae09b94f8926587697d0f246bf1050":[1,0,0,97,1],
+"namespacemip.html#a68fcef215143a0112803c05f967a09c7":[1,0,0,114]
 };

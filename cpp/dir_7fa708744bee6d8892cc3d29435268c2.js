@@ -15,7 +15,7 @@ var dir_7fa708744bee6d8892cc3d29435268c2 =
     [ "metadata_action.h", "metadata__action_8h.html", "metadata__action_8h" ],
     [ "policy_engine.h", "policy__engine_8h.html", null ],
     [ "policy_handler.h", "policy__handler_8h.html", "policy__handler_8h" ],
-    [ "policy_profile.h", "policy__profile_8h.html", "policy__profile_8h" ],
+    [ "policy_profile.h", "policy__profile_8h.html", null ],
     [ "protect_adhoc_action.h", "protect__adhoc__action_8h.html", "protect__adhoc__action_8h" ],
     [ "protect_adhoc_dk_action.h", "protect__adhoc__dk__action_8h.html", "protect__adhoc__dk__action_8h" ],
     [ "protect_by_template_action.h", "protect__by__template__action_8h.html", "protect__by__template__action_8h" ],

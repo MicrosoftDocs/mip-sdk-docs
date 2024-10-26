@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['c_20reference_0',['MIP SDK for C Reference',['../index.html',1,'']]],
+  ['c_3a_20reference_0',['Microsoft Information Protection (MIP) SDK for C: Reference',['../index.html',1,'']]],
   ['cachestoragetype_1',['cacheStorageType',['../protection__profile__cc_8h.html#ad85096cfc1015f3fb2a0e9e86dae704c',1,'cacheStorageType:&#160;protection_profile_cc.h'],['../policy__profile__cc_8h.html#ad85096cfc1015f3fb2a0e9e86dae704c',1,'cacheStorageType:&#160;policy_profile_cc.h']]],
   ['cancachelicenses_2',['canCacheLicenses',['../protection__profile__cc_8h.html#ac0e9f0409791450bb191f8d1b42a7e27',1,'protection_profile_cc.h']]],
   ['cancelalltaskscallback_3',['cancelAllTasksCallback',['../task__dispatcher__delegate__cc_8h.html#ad4baa584fbf276de03d175129895fdf3',1,'task_dispatcher_delegate_cc.h']]],

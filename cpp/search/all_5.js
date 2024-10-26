@@ -1,21 +1,15 @@
 var searchData=
 [
-  ['file_5fapi_0',['FILE_API',['../file__export_8h.html#af071ab8c979865638749850274856944',1,'file_export.h']]],
-  ['file_5fengine_2eh_1',['file_engine.h',['../file__engine_8h.html',1,'']]],
-  ['file_5ferror_2eh_2',['file_error.h',['../file__error_8h.html',1,'']]],
-  ['file_5fexecution_5fstate_2eh_3',['file_execution_state.h',['../file__execution__state_8h.html',1,'']]],
-  ['file_5fexport_2eh_4',['file_export.h',['../file__export_8h.html',1,'']]],
-  ['file_5fhandler_2eh_5',['file_handler.h',['../file__handler_8h.html',1,'']]],
-  ['file_5finspector_2eh_6',['file_inspector.h',['../file__inspector_8h.html',1,'']]],
-  ['file_5fprofile_2eh_7',['file_profile.h',['../file__profile_8h.html',1,'']]],
-  ['fileengine_8',['FileEngine',['../classmip_1_1FileEngine.html',1,'mip']]],
-  ['fileexecutionstate_9',['FileExecutionState',['../classmip_1_1FileExecutionState.html',1,'mip']]],
-  ['filehandler_10',['FileHandler',['../classmip_1_1FileHandler.html',1,'mip']]],
-  ['fileinspector_11',['FileInspector',['../classmip_1_1FileInspector.html',1,'mip']]],
-  ['fileprofile_12',['FileProfile',['../classmip_1_1FileProfile.html',1,'mip']]],
-  ['flighting_5ffeature_2eh_13',['flighting_feature.h',['../flighting__feature_8h.html',1,'']]],
-  ['flightingfeature_14',['FlightingFeature',['../namespacemip.html#ab3be3938fca1ef01025416f6b4dd9209',1,'mip']]],
-  ['flush_15',['Flush',['../classmip_1_1LoggerDelegate.html#a00de645e897f4a77ec3ab497510b9c1a',1,'mip::LoggerDelegate::Flush()'],['../classmip_1_1Stream.html#a322884ce956bf54499584d015172e84e',1,'mip::Stream::Flush()']]],
-  ['for_20c_20reference_16',['MIP SDK for C++ Reference',['../index.html',1,'']]],
-  ['forward_17',['Forward',['../namespacemip_1_1rights.html#a7c98e08def7b3741b084b16bf289d95c',1,'mip::rights']]]
+  ['edit_0',['Edit',['../namespacemip_1_1rights.html#ab0a2580b9245f9d068c48c5dd04c8343',1,'mip::rights']]],
+  ['editabledocumentrights_1',['EditableDocumentRights',['../namespacemip_1_1rights.html#a812cb2f3f700cea69c035eff3eb0cefa',1,'mip::rights']]],
+  ['emailrights_2',['EmailRights',['../namespacemip_1_1rights.html#a15ea35e61cf4b0061240bf4fa3e91bed',1,'mip::rights']]],
+  ['enablepfile_3',['EnablePFile',['../classmip_1_1FileEngine_1_1Settings.html#a05bcc74249cc39b590d7204df3c06919',1,'mip::FileEngine::Settings']]],
+  ['encryptbuffer_4',['EncryptBuffer',['../classmip_1_1ProtectionHandler.html#acbaa0d7b0088fc239f7299508fdc4a87',1,'mip::ProtectionHandler']]],
+  ['error_5',['Error',['../namespacemip.html#a227594dbf65dd76b6a9e58e765af5cdaa902b0d55fddef6f8d651fe1035b7d4bd',1,'mip']]],
+  ['error_2eh_6',['error.h',['../error_8h.html',1,'']]],
+  ['executetaskonindependentthread_7',['ExecuteTaskOnIndependentThread',['../classmip_1_1TaskDispatcherDelegate.html#a5c3f3bef7e636b228040f3e5553138cd',1,'mip::TaskDispatcherDelegate']]],
+  ['execution_5fstate_2eh_8',['execution_state.h',['../execution__state_8h.html',1,'']]],
+  ['executionstate_9',['ExecutionState',['../classmip_1_1ExecutionState.html',1,'mip']]],
+  ['export_10',['Export',['../namespacemip_1_1rights.html#a02b8aa03d47e647efadbeec314df168f',1,'mip::rights']]],
+  ['extract_11',['Extract',['../namespacemip_1_1rights.html#ad88d7bb954ece11bca74076055dd5d56',1,'mip::rights']]]
 ];

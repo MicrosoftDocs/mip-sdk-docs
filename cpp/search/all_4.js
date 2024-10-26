@@ -1,15 +1,12 @@
 var searchData=
 [
-  ['edit_0',['Edit',['../namespacemip_1_1rights.html#ab0a2580b9245f9d068c48c5dd04c8343',1,'mip::rights']]],
-  ['editabledocumentrights_1',['EditableDocumentRights',['../namespacemip_1_1rights.html#a812cb2f3f700cea69c035eff3eb0cefa',1,'mip::rights']]],
-  ['emailrights_2',['EmailRights',['../namespacemip_1_1rights.html#a15ea35e61cf4b0061240bf4fa3e91bed',1,'mip::rights']]],
-  ['enablepfile_3',['EnablePFile',['../classmip_1_1FileEngine_1_1Settings.html#a05bcc74249cc39b590d7204df3c06919',1,'mip::FileEngine::Settings']]],
-  ['encryptbuffer_4',['EncryptBuffer',['../classmip_1_1ProtectionHandler.html#acbaa0d7b0088fc239f7299508fdc4a87',1,'mip::ProtectionHandler']]],
-  ['error_5',['Error',['../namespacemip.html#a227594dbf65dd76b6a9e58e765af5cdaa902b0d55fddef6f8d651fe1035b7d4bd',1,'mip']]],
-  ['error_2eh_6',['error.h',['../error_8h.html',1,'']]],
-  ['executetaskonindependentthread_7',['ExecuteTaskOnIndependentThread',['../classmip_1_1TaskDispatcherDelegate.html#a5c3f3bef7e636b228040f3e5553138cd',1,'mip::TaskDispatcherDelegate']]],
-  ['execution_5fstate_2eh_8',['execution_state.h',['../execution__state_8h.html',1,'']]],
-  ['executionstate_9',['ExecutionState',['../classmip_1_1ExecutionState.html',1,'mip']]],
-  ['export_10',['Export',['../namespacemip_1_1rights.html#a02b8aa03d47e647efadbeec314df168f',1,'mip::rights']]],
-  ['extract_11',['Extract',['../namespacemip_1_1rights.html#ad88d7bb954ece11bca74076055dd5d56',1,'mip::rights']]]
+  ['decryptbuffer_0',['DecryptBuffer',['../classmip_1_1ProtectionHandler.html#a0a99623df5e9aeeed2b4d86f13bbd807',1,'mip::ProtectionHandler']]],
+  ['deleteengine_1',['DeleteEngine',['../classmip_1_1ProtectionProfile.html#a1b52e837d4122dca711e1e41595d5b3f',1,'mip::ProtectionProfile::DeleteEngine()'],['../policy__profile_8h.html#acf510ebec5feed1e8fe403b195157d10',1,'DeleteEngine():&#160;policy_profile.h']]],
+  ['deleteengineasync_2',['DeleteEngineAsync',['../classmip_1_1FileProfile.html#a9dbdc62bd2ea60956ad7ac60689a8321',1,'mip::FileProfile::DeleteEngineAsync()'],['../classmip_1_1ProtectionProfile.html#a569ebea1a7ffbdb684df8dbccd56ed5b',1,'mip::ProtectionProfile::DeleteEngineAsync()'],['../policy__profile_8h.html#a76847b9f732489a279f2229b0dee2da4',1,'DeleteEngineAsync():&#160;policy_profile.h']]],
+  ['deletelabel_3',['DeleteLabel',['../classmip_1_1FileHandler.html#a5a254fb5e49972814c732b974b1295c2',1,'mip::FileHandler']]],
+  ['dispatchtask_4',['DispatchTask',['../classmip_1_1TaskDispatcherDelegate.html#a9e86472af093b0a02dcabe38e00b8158',1,'mip::TaskDispatcherDelegate::DispatchTask(const std::string &amp;taskId, std::function&lt; void()&gt; task)=0'],['../classmip_1_1TaskDispatcherDelegate.html#a52d3429da30ca0befc768cf2d1542f53',1,'mip::TaskDispatcherDelegate::DispatchTask(const std::string &amp;taskId, std::function&lt; void()&gt; task, int64_t delaySeconds)=0']]],
+  ['doesallowofflineaccess_5',['DoesAllowOfflineAccess',['../classmip_1_1ProtectionDescriptor.html#ac432605aeb61cad29786aaeff1129997',1,'mip::ProtectionDescriptor']]],
+  ['doescontentexpire_6',['DoesContentExpire',['../classmip_1_1ProtectionDescriptor.html#acb479103447b5cbf53e9fc3303bcbb27',1,'mip::ProtectionDescriptor']]],
+  ['doesusedeprecatedalgorithms_7',['DoesUseDeprecatedAlgorithms',['../classmip_1_1ProtectionHandler.html#aa3e035c7a399ae513b5aecd2ee41556b',1,'mip::ProtectionHandler']]],
+  ['doublekey_8',['DoubleKey',['../namespacemip.html#ab3be3938fca1ef01025416f6b4dd9209a9f7f3d13b2a6fc64a3a73bf8f403ef3b',1,'mip']]]
 ];

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['scope_0',['scope',['../structmip__cc__oauth2__challenge.html#aa5092355d0b755be90ef1f3b2e8a61a0',1,'mip_cc_oauth2_challenge']]],
-  ['sdk_20for_20c_20reference_1',['MIP SDK for C Reference',['../index.html',1,'']]],
+  ['sdk_20for_20c_3a_20reference_1',['Microsoft Information Protection (MIP) SDK for C: Reference',['../index.html',1,'']]],
   ['sensitivity_2',['sensitivity',['../label__cc_8h.html#a4a46b61d11c12eed442e6304fd03daf9',1,'label_cc.h']]],
   ['sensitivity_5ftype_5fcc_2eh_3',['sensitivity_type_cc.h',['../sensitivity__type__cc_8h.html',1,'']]],
   ['sensitivityfileidbuffer_4',['sensitivityFileIdBuffer',['../policy__engine__cc_8h.html#a06d66c96692457135882530f329ba68c',1,'policy_engine_cc.h']]],

@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['warning_0',['Warning',['../namespacemip.html#a227594dbf65dd76b6a9e58e765af5cdaa0eaadb4fcb48a0a0ed7bc9868be9fbaa',1,'mip']]],
-  ['write_1',['Write',['../classmip_1_1Stream.html#a27525865c6f59ee3b49121296dc56c97',1,'mip::Stream']]],
-  ['writetolog_2',['WriteToLog',['../classmip_1_1LoggerDelegate.html#a2a0aa9291009161b03e59b7737170b35',1,'mip::LoggerDelegate']]]
+  ['variablepolicyttl_0',['VariablePolicyTtl',['../namespacemip.html#ab3be3938fca1ef01025416f6b4dd9209a197e2f5e6bc750b5cec97384c391a3bd',1,'mip']]],
+  ['variabletextmarking_1',['VariableTextMarking',['../namespacemip.html#ab3be3938fca1ef01025416f6b4dd9209a8a62712ca49e00cd7852bd73cebcce9f',1,'mip']]],
+  ['version_2eh_2',['version.h',['../version_8h.html',1,'']]],
+  ['view_3',['View',['../namespacemip_1_1rights.html#a89551debebf58243ec82ca6157892776',1,'mip::rights']]],
+  ['viewer_4',['Viewer',['../namespacemip_1_1roles.html#a594e9a67d102cb12d669b9e252950a64',1,'mip::roles']]]
 ];

@@ -24,8 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "MIP SDK for C", "index.html", [
-    [ "MIP SDK for C Reference", "index.html", null ],
+  [ "Microsoft Information Protection (MIP) SDK for C: Reference", "index.html", [
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
       [ "Data Structure Index", "classes.html", null ],
@@ -53,8 +52,8 @@ var NAVTREEINDEX =
 [
 "action__cc_8h.html",
 "globals_r.html",
-"protection__descriptor__cc_8h.html#a3208aff13953236552090072316ebfa1",
-"structmip__cc__identity.html#ac02ac1607a2ab746e504e881ec8a8ea9"
+"protection__descriptor__cc_8h.html#a3557970d354bdad60342eb82bbbcf7b8",
+"structmip__cc__kv__pair.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,10 +1,10 @@
 var classmip_1_1ProtectionDescriptorBuilder =
 [
     [ "~ProtectionDescriptorBuilder", "classmip_1_1ProtectionDescriptorBuilder.html#a2e7f32cf1d5010be3c4d72870659833a", null ],
-    [ "Build", "classmip_1_1ProtectionDescriptorBuilder.html#a397f97ce6cf1921138b1e6ef3f11ba8f", null ],
-    [ "CreateFromTemplate", "classmip_1_1ProtectionDescriptorBuilder.html#a715d310dcbb30ba1bf3402e051036c31", null ],
-    [ "CreateFromUserRights", "classmip_1_1ProtectionDescriptorBuilder.html#a861eb51576066574fe55d935f31fe0e6", null ],
-    [ "CreateFromUserRoles", "classmip_1_1ProtectionDescriptorBuilder.html#a851a72221ab6d3714e283bd7d131807f", null ],
+    [ "Build", "classmip_1_1ProtectionDescriptorBuilder.html#a64a490b6db1eaa8445a3505c619a13a5", null ],
+    [ "CreateFromTemplate", "classmip_1_1ProtectionDescriptorBuilder.html#a22d1256404b90faf50b2becd679173ef", null ],
+    [ "CreateFromUserRights", "classmip_1_1ProtectionDescriptorBuilder.html#ade3a239f4311705f7b4ebaf6ff6bde95", null ],
+    [ "CreateFromUserRoles", "classmip_1_1ProtectionDescriptorBuilder.html#a1733abe52a2fa31cba51b136456fd1b8", null ],
     [ "SetAllowOfflineAccess", "classmip_1_1ProtectionDescriptorBuilder.html#a0f8b73df78ec7bac7b5d5c37898be8f0", null ],
     [ "SetContentValidUntil", "classmip_1_1ProtectionDescriptorBuilder.html#af037278ac07860d378eca669ec0eb252", null ],
     [ "SetDescription", "classmip_1_1ProtectionDescriptorBuilder.html#ac5bc413cb710ac885de1a564827dc53a", null ],

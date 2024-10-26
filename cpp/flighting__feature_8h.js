@@ -12,5 +12,5 @@ var flighting__feature_8h =
       [ "VariablePolicyTtl", "flighting__feature_8h.html#ab3be3938fca1ef01025416f6b4dd9209a197e2f5e6bc750b5cec97384c391a3bd", null ],
       [ "VariableTextMarking", "flighting__feature_8h.html#ab3be3938fca1ef01025416f6b4dd9209a8a62712ca49e00cd7852bd73cebcce9f", null ]
     ] ],
-    [ "GetDefaultFeatureSettings", "flighting__feature_8h.html#ae00cf7f2e13749db7036ec848ce4e790", null ]
+    [ "GetDefaultFeatureSettings", "flighting__feature_8h.html#a76892e81fe834e328a673d22c23725ad", null ]
 ];

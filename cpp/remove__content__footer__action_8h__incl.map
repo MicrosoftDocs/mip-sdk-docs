@@ -1,6 +1,10 @@
 <map id="src/api/mip/upe/remove_content_footer_action.h" name="src/api/mip/upe/remove_content_footer_action.h">
-<area shape="rect" id="node1" title="A file Containing the RemoveContentFooterAction class." alt="" coords="5,5,188,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="93,169,151,196"/>
-<area shape="rect" id="node3" title=" " alt="" coords="65,95,128,121"/>
-<area shape="rect" id="node4" href="$action_8h.html" title="A file containing the Action base class and the ActionType enumerator." alt="" coords="153,95,283,121"/>
+<area shape="rect" id="Node000001" title="A file Containing the RemoveContentFooterAction class." alt="" coords="5,5,188,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="93,167,151,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,47,57,81,52,99,55,118,71,140,91,157,87,161,67,143,50,120,47,99,52,78,75,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="65,93,128,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="99,46,99,79,94,79,94,46"/>
+<area shape="rect" id="Node000004" href="$action_8h.html" title="A file containing the Action base class and the ActionType enumerator." alt="" coords="153,93,283,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="127,43,190,84,187,88,125,48"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="204,121,150,160,147,156,201,117"/>
 </map>

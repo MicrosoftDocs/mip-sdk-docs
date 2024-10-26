@@ -1,11 +1,19 @@
 <map id="src/api/mip/http_operation.h" name="src/api/mip/http_operation.h">
-<area shape="rect" id="node1" title=" " alt="" coords="61,5,267,32"/>
-<area shape="rect" id="node2" href="$http__response_8h.html" title="Contains HttpOperation interface used by HttpDelegate." alt="" coords="87,80,241,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="65,155,127,181"/>
-<area shape="rect" id="node4" href="$common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="152,155,315,181"/>
-<area shape="rect" id="node5" title=" " alt="" coords="5,229,72,256"/>
-<area shape="rect" id="node6" title=" " alt="" coords="97,229,183,256"/>
-<area shape="rect" id="node7" title=" " alt="" coords="208,229,259,256"/>
-<area shape="rect" id="node8" title=" " alt="" coords="283,229,360,256"/>
-<area shape="rect" id="node9" title=" " alt="" coords="384,229,443,256"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="61,5,267,31"/>
+<area shape="rect" id="Node000002" href="$http__response_8h.html" title="Contains HttpOperation interface used by HttpDelegate." alt="" coords="87,79,241,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,31,167,65,161,65,161,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="65,152,127,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="155,106,119,144,115,140,151,102"/>
+<area shape="rect" id="Node000004" href="$common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="152,152,315,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="177,102,215,140,211,144,174,106"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,225,72,251"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="203,180,84,223,82,218,201,175"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="97,225,183,251"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="220,179,168,219,164,215,217,175"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="208,225,259,251"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="236,178,236,212,231,212,231,178"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="283,225,360,251"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="249,175,298,214,295,219,246,179"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="384,225,443,251"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="263,175,372,218,370,223,261,180"/>
 </map>

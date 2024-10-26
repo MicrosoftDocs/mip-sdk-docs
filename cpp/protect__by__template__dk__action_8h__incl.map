@@ -1,5 +1,8 @@
 <map id="src/api/mip/upe/protect_by_template_dk_action.h" name="src/api/mip/upe/protect_by_template_dk_action.h">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,199,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="73,169,131,196"/>
-<area shape="rect" id="node3" href="$action_8h.html" title="A file containing the Action base class and the ActionType enumerator." alt="" coords="89,95,219,121"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,199,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="73,167,131,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,46,81,80,78,99,79,118,92,154,87,155,74,119,73,99,76,79,89,45"/>
+<area shape="rect" id="Node000003" href="$action_8h.html" title="A file containing the Action base class and the ActionType enumerator." alt="" coords="89,93,219,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="117,44,141,80,136,83,112,47"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="148,121,121,157,116,154,143,117"/>
 </map>

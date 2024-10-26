@@ -1,9 +1,21 @@
 <map id="src/api/mip_cc/upe/action_result_cc.h" name="src/api/mip_cc/upe/action_result_cc.h">
-<area shape="rect" id="node1" title="A file containing definition of action result type." alt="" coords="155,5,298,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="88,319,159,345"/>
-<area shape="rect" id="node3" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="212,169,348,196"/>
-<area shape="rect" id="node4" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="251,244,394,271"/>
-<area shape="rect" id="node6" href="$action__cc_8h.html" title="Contains C API definitions for label policy actions." alt="" coords="78,95,252,121"/>
-<area shape="rect" id="node5" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="206,319,391,345"/>
-<area shape="rect" id="node7" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="21,244,226,271"/>
+<area shape="rect" id="Node000001" title="A file containing definition of action result type." alt="" coords="155,5,297,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="88,313,159,339"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,45,109,65,87,79,68,95,41,129,27,160,11,241,8,253,11,264,24,280,40,292,76,310,74,315,37,297,20,283,6,267,3,253,6,239,21,159,36,126,64,91,84,74,107,60,154,40"/>
+<area shape="rect" id="Node000003" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="211,167,347,192"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="241,44,266,92,279,152,274,153,261,94,237,47"/>
+<area shape="rect" id="Node000004" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="251,240,393,265"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="256,43,283,65,313,93,341,127,362,166,365,183,361,201,344,231,340,228,356,199,360,183,357,168,336,130,309,97,279,69,252,48"/>
+<area shape="rect" id="Node000006" href="$action__cc_8h.html" title="Contains C API definitions for label policy actions." alt="" coords="78,93,251,119"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="213,47,184,84,180,81,209,44"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="289,191,311,227,306,230,284,194"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="291,268,170,311,168,306,289,263"/>
+<area shape="rect" id="Node000005" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="205,313,391,339"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="321,267,309,301,304,299,316,265"/>
+<area shape="poly" id="edge11_Node000006_Node000003" title=" " alt="" coords="185,116,251,157,248,162,182,121"/>
+<area shape="poly" id="edge12_Node000006_Node000004" title=" " alt="" coords="169,118,180,153,189,173,201,190,233,215,269,233,267,238,231,220,198,194,184,176,175,155,164,120"/>
+<area shape="rect" id="Node000007" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="21,240,226,265"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="164,120,133,227,128,226,159,118"/>
+<area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="126,266,126,300,121,300,121,266"/>
+<area shape="poly" id="edge10_Node000007_Node000005" title=" " alt="" coords="153,263,258,306,256,310,151,268"/>
 </map>

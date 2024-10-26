@@ -1,11 +1,11 @@
 var classmip_1_1MipContext =
 [
-    [ "Create", "classmip_1_1MipContext.html#a6ced4f98649befd7f4ef0e9a47d77a64", null ],
-    [ "CreateWithCustomFeatureSettings", "classmip_1_1MipContext.html#a88b35f438139bcef3da46059c6d3c4ba", null ],
-    [ "GetApplicationInfo", "classmip_1_1MipContext.html#add07b4a8ba0ff815a0167585b984c0de", null ],
-    [ "GetLoggerDelegate", "classmip_1_1MipContext.html#aebe3e2577a4b022939d96f702ac3036e", null ],
-    [ "GetMipPath", "classmip_1_1MipContext.html#a52288c313b13b91a5af683b2b13f2be2", null ],
-    [ "GetRawLoggerDelegate", "classmip_1_1MipContext.html#af6bf219759bbebe3a754664c8201fb75", null ],
+    [ "Create", "classmip_1_1MipContext.html#a7a79425daf0bfa149c03043e0788c830", null ],
+    [ "CreateWithCustomFeatureSettings", "classmip_1_1MipContext.html#a0cb08c32a193e3fe79f8b0a8c2bbd975", null ],
+    [ "GetApplicationInfo", "classmip_1_1MipContext.html#aafafa3b9443f1da103fa48011ccca0a6", null ],
+    [ "GetLoggerDelegate", "classmip_1_1MipContext.html#afe6cee2b38960812806ee9e00d45a636", null ],
+    [ "GetMipPath", "classmip_1_1MipContext.html#a130eebc97715b8fb6d2f2cc13eb11aaa", null ],
+    [ "GetRawLoggerDelegate", "classmip_1_1MipContext.html#a99f54d309e7788186bc7b1ffe9ee5a8b", null ],
     [ "GetThresholdLogLevel", "classmip_1_1MipContext.html#af7c49e2988b4cf19def9ee5f908f3f58", null ],
     [ "IsFeatureEnabled", "classmip_1_1MipContext.html#a62fca624efcb965917628fd13a044964", null ],
     [ "IsOfflineOnly", "classmip_1_1MipContext.html#afe5cd929eb714e6643c9fc96fbb1310a", null ],

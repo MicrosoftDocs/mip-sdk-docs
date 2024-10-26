@@ -1,38 +1,141 @@
 <map id="src/api/mip_cc/result_cc.h" name="src/api/mip_cc/result_cc.h">
-<area shape="rect" id="node1" title="Defines success/error result codes." alt="" coords="1184,5,1373,32"/>
-<area shape="rect" id="node2" href="$dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="1534,162,1751,189"/>
-<area shape="rect" id="node3" href="$protection__engine__cc_8h.html" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="862,452,1047,493"/>
-<area shape="rect" id="node4" href="$protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="862,541,1047,583"/>
-<area shape="rect" id="node5" href="$protection__descriptor__cc_8h.html" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="1121,251,1306,293"/>
-<area shape="rect" id="node6" href="$protection__handler__cc_8h.html" title="Defines C&#45;Style ProtectionHandler interface." alt="" coords="969,355,1154,397"/>
-<area shape="rect" id="node8" href="$policy__handler__cc_8h.html" title="Contains C API definitions for policy handler." alt="" coords="2120,452,2275,493"/>
-<area shape="rect" id="node9" href="$policy__engine__cc_8h.html" title="Contains C API definitions for policy engine." alt="" coords="3447,541,3596,583"/>
-<area shape="rect" id="node10" href="$policy__profile__cc_8h.html" title="Contains C API definitions for policy profile." alt="" coords="537,631,684,672"/>
-<area shape="rect" id="node12" href="$mip__context__cc_8h.html" title="Defines C&#45;Style MipContext functions." alt="" coords="379,355,523,397"/>
-<area shape="rect" id="node14" href="$content__label__cc_8h.html" title="Contains C API definitions for content label." alt="" coords="1943,355,2089,397"/>
-<area shape="rect" id="node16" href="$label__cc_8h.html" title="Contains C API definitions for label." alt="" coords="1737,251,1879,293"/>
-<area shape="rect" id="node18" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="1965,80,2147,107"/>
-<area shape="rect" id="node19" href="$http__delegate__cc_8h.html" title="Defines HTTP callback functions." alt="" coords="329,155,474,196"/>
-<area shape="rect" id="node20" href="$logger__delegate__cc_8h.html" title="Defines logger callback functions." alt="" coords="144,155,304,196"/>
-<area shape="rect" id="node21" href="$template__descriptor__cc_8h.html" title="Defines C&#45;Style TemplateDescriptor functions." alt="" coords="601,155,791,196"/>
-<area shape="rect" id="node22" href="$string__list__cc_8h.html" title="Contains C API definitions for common string list." alt="" coords="4083,155,4239,196"/>
-<area shape="rect" id="node26" href="$task__dispatcher__delegate__cc_8h.html" title="Defines task dispatcher callback functions." alt="" coords="1213,452,1408,493"/>
-<area shape="rect" id="node27" href="$action__cc_8h.html" title="Contains C API definitions for label policy actions." alt="" coords="3026,155,3169,196"/>
-<area shape="rect" id="node28" href="$action__result__cc_8h.html" title="A file containing definition of action result type." alt="" coords="4614,251,4757,293"/>
-<area shape="rect" id="node36" href="$sensitivity__type__cc_8h.html" title="Contains C API definitions for sensitivity type." alt="" coords="4883,155,5045,196"/>
-<area shape="rect" id="node7" href="$document__state__cc_8h.html" title="Describes document state when performing a label&#45;releated operation." alt="" coords="1585,355,1749,397"/>
-<area shape="rect" id="node11" href="$telemetry__configuration__cc_8h.html" title="Defines custom telemetry settings." alt="" coords="507,251,690,293"/>
-<area shape="rect" id="node13" href="$application__action__state__cc_8h.html" title="Describes application state when performing a label&#45;releated operation." alt="" coords="1773,348,1918,404"/>
-<area shape="rect" id="node15" href="$custom__action__cc_8h.html" title="Contains C API definitions for custom label policy action." alt="" coords="2005,251,2160,293"/>
-<area shape="rect" id="node17" href="$metadata__action__cc_8h.html" title="Contains C API definitions for &quot;metadata&quot; label policy action." alt="" coords="3013,251,3182,293"/>
-<area shape="rect" id="node23" href="$remove__content__footer__action__cc_8h.html" title="Contains C API definitions for &quot;remove content footer&quot; label policy action." alt="" coords="3843,244,4021,300"/>
-<area shape="rect" id="node24" href="$remove__content__header__action__cc_8h.html" title="Contains C API definitions for &quot;remove content header&quot; label policy action." alt="" coords="4304,244,4488,300"/>
-<area shape="rect" id="node25" href="$remove__watermark__action__cc_8h.html" title="Contains C API definitions for &quot;remove watermark&quot; label policy action." alt="" coords="4045,251,4280,293"/>
-<area shape="rect" id="node29" href="$add__content__footer__action__cc_8h.html" title="Contains C API definitions for &quot;add content footer&quot; label policy action." alt="" coords="2235,244,2387,300"/>
-<area shape="rect" id="node30" href="$add__content__header__action__cc_8h.html" title="Contains C API definitions for &quot;add content header&quot; label policy action." alt="" coords="2411,244,2570,300"/>
-<area shape="rect" id="node31" href="$add__watermark__action__cc_8h.html" title="Contains C API definitions for &quot;add watermark&quot; label policy action." alt="" coords="2595,251,2803,293"/>
-<area shape="rect" id="node33" href="$protect__by__template__action__cc_8h.html" title="Contains C API definitions for &quot;protect by template&quot; label policy action." alt="" coords="2827,244,2989,300"/>
-<area shape="rect" id="node32" href="$protect__adhoc__dk__action__cc_8h.html" title=" " alt="" coords="3207,251,3428,293"/>
-<area shape="rect" id="node34" href="$protect__by__template__dk__action__cc_8h.html" title="Contains C API definitions for &quot;protect by template&quot; label policy action." alt="" coords="3453,244,3614,300"/>
-<area shape="rect" id="node35" href="$protect__do__not__forward__dk__action__cc_8h.html" title="Contains C API definitions for &quot;protect do not forward&quot; label policy action." alt="" coords="3638,244,3818,300"/>
+<area shape="rect" id="Node000001" title="Defines success/error result codes." alt="" coords="1184,5,1373,31"/>
+<area shape="rect" id="Node000002" href="$dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="1534,159,1751,185"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1319,33,1616,157,1614,162,1317,38"/>
+<area shape="rect" id="Node000003" href="$protection__engine__cc_8h.html" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="862,445,1047,485"/>
+<area shape="poly" id="edge89_Node000001_Node000003" title=" " alt="" coords="1170,27,979,44,870,59,763,81,661,106,620,124,571,154,525,191,510,211,497,241,489,269,490,280,496,293,545,313,656,355,902,443,900,448,654,360,543,318,493,297,485,282,484,268,492,239,506,209,521,187,568,150,617,119,660,101,762,76,869,54,978,38,1170,21"/>
+<area shape="rect" id="Node000004" href="$protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="862,533,1047,573"/>
+<area shape="poly" id="edge91_Node000001_Node000004" title=" " alt="" coords="1170,23,918,27,610,37,335,54,237,66,181,81,158,95,143,109,132,128,123,153,110,208,113,258,129,302,157,342,196,378,244,409,299,436,360,459,425,479,493,496,630,521,757,537,862,545,862,551,756,542,629,527,492,501,424,485,358,464,297,441,241,413,193,382,153,346,124,305,107,259,105,208,117,151,128,125,139,106,155,90,179,76,236,61,335,49,610,31,918,22,1170,18"/>
+<area shape="rect" id="Node000005" href="$protection__descriptor__cc_8h.html" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="1121,247,1306,287"/>
+<area shape="poly" id="edge93_Node000001_Node000005" title=" " alt="" coords="1275,45,1221,248,1216,246,1269,44"/>
+<area shape="rect" id="Node000006" href="$protection__handler__cc_8h.html" title="Defines C&#45;Style ProtectionHandler interface." alt="" coords="969,350,1154,390"/>
+<area shape="poly" id="edge90_Node000001_Node000006" title=" " alt="" coords="1170,28,1107,35,1046,45,996,60,977,70,965,80,947,113,942,150,948,188,963,226,983,263,1005,297,1046,348,1042,351,1001,300,978,266,958,228,943,189,937,150,942,112,961,77,974,65,994,56,1045,40,1107,29,1170,23"/>
+<area shape="rect" id="Node000008" href="$policy__handler__cc_8h.html" title="Contains C API definitions for policy handler." alt="" coords="2120,445,2275,485"/>
+<area shape="poly" id="edge101_Node000001_Node000008" title=" " alt="" coords="1387,16,1787,17,2394,24,3113,42,3486,57,3851,76,3952,75,4087,66,4242,55,4402,48,4552,50,4618,56,4677,67,4727,83,4764,105,4789,134,4795,151,4797,171,4797,269,4793,325,4779,369,4757,403,4728,427,4691,442,4649,450,4602,452,4550,449,4436,434,4313,414,4185,400,4121,397,4059,400,3795,421,3525,437,3004,457,2565,465,2275,467,2275,462,2565,460,3004,451,3525,431,3794,415,4059,395,4121,392,4185,394,4314,409,4437,428,4551,444,4602,447,4649,445,4690,437,4725,422,4753,400,4774,367,4787,324,4792,269,4792,171,4790,153,4784,136,4761,109,4724,87,4676,72,4618,61,4551,55,4402,53,4242,60,4087,71,3952,80,3851,81,3485,62,3113,48,2394,30,1787,23,1387,22"/>
+<area shape="rect" id="Node000009" href="$policy__engine__cc_8h.html" title="Contains C API definitions for policy engine." alt="" coords="3447,533,3596,573"/>
+<area shape="poly" id="edge100_Node000001_Node000009" title=" " alt="" coords="1387,16,2118,16,3204,21,3757,28,4250,39,4634,55,4770,65,4860,76,4939,84,5011,89,5041,97,5065,112,5080,136,5085,170,5085,372,5081,403,5069,427,5050,444,5027,456,4968,472,4901,488,4820,502,4682,514,4302,533,3896,546,3596,553,3596,548,3896,541,4302,528,4681,509,4819,496,4899,483,4966,466,5025,451,5047,440,5065,424,5076,402,5080,371,5080,171,5075,138,5061,116,5039,102,5010,95,4939,89,4860,81,4770,70,4634,60,4250,44,3756,33,3204,26,2118,21,1387,22"/>
+<area shape="rect" id="Node000010" href="$policy__profile__cc_8h.html" title="Contains C API definitions for policy profile." alt="" coords="537,621,684,661"/>
+<area shape="poly" id="edge102_Node000001_Node000010" title=" " alt="" coords="1170,24,592,43,304,60,201,70,141,81,91,95,48,109,31,118,19,131,11,148,8,171,8,466,12,485,24,503,42,519,67,535,132,562,211,584,298,601,386,615,537,632,537,637,386,620,297,607,210,589,130,567,65,539,39,524,20,506,7,487,3,467,3,171,6,146,15,127,28,114,46,104,89,90,139,76,201,65,304,54,591,38,1170,19"/>
+<area shape="rect" id="Node000012" href="$mip__context__cc_8h.html" title="Defines C&#45;Style MipContext functions." alt="" coords="379,350,523,390"/>
+<area shape="poly" id="edge88_Node000001_Node000012" title=" " alt="" coords="1170,21,1013,23,813,32,592,50,480,64,371,81,297,89,235,92,208,97,183,108,159,126,134,153,127,172,134,191,156,223,183,251,214,275,247,296,316,328,379,350,378,355,314,333,244,301,211,279,179,255,152,226,130,193,122,172,130,151,155,122,180,103,207,92,235,87,296,83,370,76,479,58,592,45,813,26,1013,18,1170,16"/>
+<area shape="rect" id="Node000014" href="$content__label__cc_8h.html" title="Contains C API definitions for content label." alt="" coords="1943,350,2089,390"/>
+<area shape="poly" id="edge98_Node000001_Node000014" title=" " alt="" coords="1387,19,1456,24,1534,35,1613,52,1690,76,1745,103,1797,136,1845,174,1889,214,1960,291,2005,348,2001,352,1956,295,1885,218,1842,178,1794,140,1743,107,1688,81,1612,57,1533,40,1456,30,1387,24"/>
+<area shape="rect" id="Node000016" href="$label__cc_8h.html" title="Contains C API definitions for label." alt="" coords="1737,247,1879,287"/>
+<area shape="poly" id="edge99_Node000001_Node000016" title=" " alt="" coords="1388,19,1478,30,1578,52,1629,69,1678,91,1724,118,1766,150,1784,173,1797,199,1809,247,1803,248,1792,201,1780,175,1762,154,1721,122,1675,95,1627,74,1576,57,1477,35,1387,24"/>
+<area shape="rect" id="Node000018" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="1965,79,2147,104"/>
+<area shape="poly" id="edge28_Node000001_Node000018" title=" " alt="" coords="1387,26,1936,76,1965,79,1964,84,1936,81,1387,32"/>
+<area shape="rect" id="Node000019" href="$http__delegate__cc_8h.html" title="Defines HTTP callback functions." alt="" coords="329,152,474,192"/>
+<area shape="poly" id="edge86_Node000001_Node000019" title=" " alt="" coords="1170,21,1003,23,806,31,710,38,623,49,549,63,494,81,470,96,448,115,416,154,412,150,444,111,467,92,492,76,548,58,622,44,710,33,806,25,1002,17,1170,16"/>
+<area shape="rect" id="Node000020" href="$logger__delegate__cc_8h.html" title="Defines logger callback functions." alt="" coords="144,152,304,192"/>
+<area shape="poly" id="edge87_Node000001_Node000020" title=" " alt="" coords="1170,26,790,45,595,61,515,70,454,81,400,96,348,116,262,154,259,149,346,111,399,91,453,76,514,65,594,55,790,39,1170,20"/>
+<area shape="rect" id="Node000021" href="$template__descriptor__cc_8h.html" title="Defines C&#45;Style TemplateDescriptor functions." alt="" coords="601,152,791,192"/>
+<area shape="poly" id="edge92_Node000001_Node000021" title=" " alt="" coords="1171,29,970,48,877,63,812,81,783,96,756,116,715,154,711,150,753,111,780,92,810,76,876,58,970,43,1170,24"/>
+<area shape="rect" id="Node000022" href="$string__list__cc_8h.html" title="Contains C API definitions for common string list." alt="" coords="4083,152,4239,192"/>
+<area shape="poly" id="edge94_Node000001_Node000022" title=" " alt="" coords="1387,22,4083,164,4083,169,1387,28"/>
+<area shape="rect" id="Node000026" href="$task__dispatcher__delegate__cc_8h.html" title="Defines task dispatcher callback functions." alt="" coords="1213,445,1408,485"/>
+<area shape="poly" id="edge95_Node000001_Node000026" title=" " alt="" coords="1230,38,1184,56,1133,81,1083,114,1038,154,983,216,960,245,943,275,933,304,931,334,939,364,959,396,975,409,999,420,1063,438,1139,449,1213,457,1213,462,1138,455,1062,443,997,425,972,413,955,399,934,366,925,334,927,303,938,272,956,242,979,212,1034,150,1079,109,1131,76,1182,51,1228,33"/>
+<area shape="rect" id="Node000027" href="$action__cc_8h.html" title="Contains C API definitions for label policy actions." alt="" coords="3026,152,3169,192"/>
+<area shape="poly" id="edge96_Node000001_Node000027" title=" " alt="" coords="1388,23,1732,45,2160,76,2656,122,3026,160,3025,166,2655,127,2160,81,1732,50,1387,28"/>
+<area shape="rect" id="Node000028" href="$action__result__cc_8h.html" title="A file containing definition of action result type." alt="" coords="4614,247,4757,287"/>
+<area shape="poly" id="edge97_Node000001_Node000028" title=" " alt="" coords="1387,17,1971,22,2384,29,2835,41,3291,57,3720,80,4090,111,4242,129,4367,149,4446,169,4524,195,4646,245,4644,250,4522,200,4445,174,4366,155,4241,134,4089,116,3720,86,3291,63,2835,46,2384,35,1971,28,1387,22"/>
+<area shape="rect" id="Node000036" href="$sensitivity__type__cc_8h.html" title="Contains C API definitions for sensitivity type." alt="" coords="4883,152,5045,192"/>
+<area shape="poly" id="edge103_Node000001_Node000036" title=" " alt="" coords="1387,17,2142,20,3253,29,3807,36,4288,46,4642,59,4754,67,4814,76,4852,91,4887,110,4943,150,4940,154,4885,115,4850,96,4813,81,4753,73,4641,65,4288,52,3807,42,3253,34,2142,25,1387,22"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1581,191,1507,212,1428,242,1353,282,1298,321,1243,359,1168,400,1098,427,1030,448,1029,443,1096,422,1166,395,1240,355,1295,316,1350,278,1426,238,1505,207,1580,186"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="1601,193,1564,213,1530,242,1507,274,1494,306,1482,369,1478,400,1468,430,1451,459,1422,487,1394,503,1355,515,1257,534,1148,546,1048,552,1047,547,1147,540,1256,529,1354,510,1391,498,1418,483,1447,456,1463,428,1472,399,1477,369,1488,305,1502,272,1526,238,1561,209,1598,188"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="1574,190,1326,243,1293,250,1292,245,1325,237,1573,185"/>
+<area shape="rect" id="Node000007" href="$document__state__cc_8h.html" title="Describes document state when performing a label&#45;releated operation." alt="" coords="1585,350,1749,390"/>
+<area shape="poly" id="edge21_Node000002_Node000007" title=" " alt="" coords="1638,198,1630,244,1629,269,1632,294,1642,323,1656,348,1652,351,1638,325,1627,295,1623,269,1624,243,1632,197"/>
+<area shape="poly" id="edge26_Node000002_Node000009" title=" " alt="" coords="1626,197,1596,238,1569,291,1560,319,1557,346,1562,372,1575,396,1590,408,1612,421,1676,443,1763,463,1870,480,2130,507,2428,526,2736,539,3026,546,3446,549,3446,555,3026,551,2735,544,2427,532,2129,513,1869,485,1762,468,1674,448,1610,425,1587,413,1571,399,1557,374,1552,347,1555,318,1564,289,1592,235,1622,194"/>
+<area shape="poly" id="edge27_Node000002_Node000010" title=" " alt="" coords="1520,185,1292,207,1186,224,1110,243,1027,280,948,328,874,382,806,439,696,547,628,623,624,619,692,543,802,435,871,378,945,323,1025,276,1108,237,1185,218,1292,202,1520,179"/>
+<area shape="rect" id="Node000011" href="$telemetry__configuration__cc_8h.html" title="Defines custom telemetry settings." alt="" coords="507,247,690,287"/>
+<area shape="poly" id="edge12_Node000002_Node000011" title=" " alt="" coords="1521,187,690,261,690,255,1520,182"/>
+<area shape="rect" id="Node000013" href="$application__action__state__cc_8h.html" title="Describes application state when performing a label&#45;releated operation." alt="" coords="1773,343,1918,397"/>
+<area shape="poly" id="edge16_Node000002_Node000013" title=" " alt="" coords="1647,198,1657,246,1667,271,1682,293,1718,317,1773,340,1771,345,1716,321,1678,297,1662,273,1652,247,1642,199"/>
+<area shape="poly" id="edge18_Node000002_Node000014" title=" " alt="" coords="1658,195,1693,251,1711,277,1727,293,1754,309,1778,319,1823,327,1872,330,1931,340,1957,347,1956,353,1930,345,1871,335,1823,332,1777,324,1751,313,1724,297,1707,280,1688,254,1654,198"/>
+<area shape="rect" id="Node000015" href="$custom__action__cc_8h.html" title="Contains C API definitions for custom label policy action." alt="" coords="2005,247,2160,287"/>
+<area shape="poly" id="edge20_Node000002_Node000015" title=" " alt="" coords="1710,185,2006,247,2005,252,1709,190"/>
+<area shape="poly" id="edge22_Node000002_Node000016" title=" " alt="" coords="1676,189,1776,245,1773,249,1673,194"/>
+<area shape="rect" id="Node000017" href="$metadata__action__cc_8h.html" title="Contains C API definitions for &quot;metadata&quot; label policy action." alt="" coords="3013,247,3182,287"/>
+<area shape="poly" id="edge25_Node000002_Node000017" title=" " alt="" coords="1765,173,2402,194,2749,213,2892,224,3002,237,3036,245,3035,250,3001,243,2892,229,2749,218,2402,199,1765,179"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="957,499,957,533,952,533,952,499"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="1175,297,1091,352,1088,348,1172,293"/>
+<area shape="poly" id="edge8_Node000005_Node000007" title=" " alt="" coords="1312,288,1585,348,1584,353,1311,293"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="1031,401,978,447,974,443,1028,397"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="1745,391,1762,395,1955,429,2120,452,2119,458,1954,435,1761,400,1744,396"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="2288,470,3447,545,3446,550,2288,475"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="3433,560,684,641,684,635,3433,555"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="561,297,480,352,477,348,558,293"/>
+<area shape="poly" id="edge14_Node000012_Node000004" title=" " alt="" coords="489,396,559,441,600,463,644,483,699,502,756,517,862,538,861,543,755,522,697,507,642,488,598,468,556,445,486,400"/>
+<area shape="poly" id="edge15_Node000012_Node000010" title=" " alt="" coords="471,400,602,620,597,622,467,403"/>
+<area shape="poly" id="edge17_Node000013_Node000008" title=" " alt="" coords="1932,395,2120,443,2119,448,1931,400"/>
+<area shape="poly" id="edge19_Node000014_Node000008" title=" " alt="" coords="2066,394,2162,443,2159,448,2063,399"/>
+<area shape="poly" id="edge23_Node000016_Node000013" title=" " alt="" coords="1822,299,1838,341,1833,343,1817,301"/>
+<area shape="poly" id="edge24_Node000016_Node000014" title=" " alt="" coords="1861,291,1978,348,1976,352,1858,296"/>
+<area shape="poly" id="edge29_Node000018_Node000002" title=" " alt="" coords="1983,109,1703,162,1702,157,1982,104"/>
+<area shape="poly" id="edge37_Node000018_Node000003" title=" " alt="" coords="1951,96,1716,100,1431,109,1178,127,1088,139,1037,154,986,192,968,211,954,231,934,280,915,343,910,370,915,397,926,422,941,444,936,447,921,424,909,398,904,370,909,342,929,278,950,229,964,207,982,188,1035,150,1087,134,1177,122,1431,104,1716,95,1951,91"/>
+<area shape="poly" id="edge39_Node000018_Node000004" title=" " alt="" coords="1951,99,1603,118,1427,134,1354,143,1299,155,1239,167,1190,178,1169,186,1149,199,1130,216,1112,241,1105,255,1103,267,1112,293,1124,309,1139,316,1155,325,1169,341,1177,370,1169,398,1155,423,1137,446,1094,484,1048,514,1005,536,1002,531,1045,510,1091,480,1133,442,1150,420,1164,396,1172,370,1164,344,1152,329,1137,321,1121,313,1107,296,1098,267,1100,253,1107,239,1126,213,1146,194,1166,182,1188,173,1238,162,1298,149,1353,138,1426,128,1603,112,1951,94"/>
+<area shape="poly" id="edge42_Node000018_Node000005" title=" " alt="" coords="1951,98,1806,104,1641,114,1486,131,1424,142,1377,155,1334,174,1295,200,1235,249,1231,245,1292,195,1332,170,1375,149,1423,136,1486,125,1640,109,1806,98,1951,93"/>
+<area shape="poly" id="edge38_Node000018_Node000006" title=" " alt="" coords="1951,98,1712,105,1426,117,1181,133,1101,143,1077,149,1066,154,1050,176,1041,201,1037,228,1037,255,1045,308,1057,349,1052,351,1040,310,1032,256,1032,227,1036,199,1046,173,1062,150,1075,144,1100,138,1180,128,1425,111,1711,100,1951,92"/>
+<area shape="poly" id="edge78_Node000018_Node000008" title=" " alt="" coords="2081,112,2130,166,2155,201,2174,239,2191,296,2200,354,2201,445,2196,445,2194,355,2186,297,2170,241,2150,204,2126,169,2077,115"/>
+<area shape="poly" id="edge77_Node000018_Node000009" title=" " alt="" coords="2161,90,2610,92,3248,100,3894,118,4163,132,4367,149,4450,153,4533,147,4613,139,4687,134,4752,138,4779,145,4803,157,4822,175,4836,198,4845,228,4848,266,4848,372,4845,384,4836,396,4804,417,4755,437,4690,454,4524,484,4326,507,4115,525,3910,538,3596,552,3596,547,3909,533,4114,520,4326,502,4524,478,4689,449,4753,432,4802,413,4833,392,4840,382,4843,371,4843,266,4840,229,4831,200,4818,178,4800,162,4777,150,4751,143,4687,140,4614,145,4533,153,4450,158,4366,155,4163,137,3893,123,3248,105,2610,97,2161,95"/>
+<area shape="poly" id="edge79_Node000018_Node000010" title=" " alt="" coords="1951,101,1694,120,1583,136,1545,145,1524,154,1504,178,1497,203,1499,266,1499,467,1492,497,1472,523,1441,546,1400,566,1351,583,1296,597,1170,619,1035,633,901,640,684,644,684,638,901,635,1034,627,1169,614,1295,592,1350,578,1398,561,1438,542,1468,520,1487,495,1493,466,1493,266,1492,202,1500,176,1521,150,1543,140,1582,130,1693,115,1951,95"/>
+<area shape="poly" id="edge53_Node000018_Node000011" title=" " alt="" coords="1951,96,1606,99,1165,107,954,115,776,125,648,138,610,146,591,154,580,175,579,199,584,224,592,246,587,248,579,226,574,200,575,173,588,150,608,141,647,133,775,120,954,110,1164,102,1606,93,1951,90"/>
+<area shape="poly" id="edge36_Node000018_Node000012" title=" " alt="" coords="1951,98,1369,116,1078,133,974,143,913,155,878,169,850,185,807,221,765,259,738,278,704,297,611,332,524,356,522,351,610,327,702,292,735,274,762,255,804,217,847,181,875,164,911,149,973,138,1078,128,1369,111,1951,92"/>
+<area shape="poly" id="edge73_Node000018_Node000014" title=" " alt="" coords="2045,117,2018,172,1996,241,1993,267,1996,294,2011,349,2006,350,1991,295,1987,267,1991,239,2013,170,2040,115"/>
+<area shape="poly" id="edge74_Node000018_Node000015" title=" " alt="" coords="2062,117,2082,247,2077,248,2057,118"/>
+<area shape="poly" id="edge75_Node000018_Node000016" title=" " alt="" coords="2022,113,1951,154,1884,204,1831,249,1827,245,1881,200,1948,150,2019,108"/>
+<area shape="poly" id="edge76_Node000018_Node000017" title=" " alt="" coords="2162,102,2330,123,2520,149,2762,188,3002,237,3032,245,3030,250,3001,243,2761,193,2520,155,2330,128,2161,107"/>
+<area shape="poly" id="edge30_Node000018_Node000019" title=" " alt="" coords="1951,96,1702,100,1353,110,952,127,544,155,474,162,474,157,544,149,952,122,1353,104,1701,95,1951,91"/>
+<area shape="poly" id="edge34_Node000018_Node000020" title=" " alt="" coords="1951,97,1131,113,660,130,465,142,316,155,305,156,304,151,316,149,464,136,660,125,1131,108,1951,91"/>
+<area shape="poly" id="edge40_Node000018_Node000021" title=" " alt="" coords="1951,98,1479,117,1172,133,862,155,792,161,791,156,861,149,1171,128,1478,111,1950,93"/>
+<area shape="poly" id="edge43_Node000018_Node000022" title=" " alt="" coords="2161,94,3699,149,4083,165,4083,170,3699,155,2161,99"/>
+<area shape="rect" id="Node000023" href="$remove__content__footer__action__cc_8h.html" title="Contains C API definitions for &quot;remove content footer&quot; label policy action." alt="" coords="3843,240,4021,295"/>
+<area shape="poly" id="edge81_Node000018_Node000023" title=" " alt="" coords="2161,93,2605,110,2892,126,3182,149,3508,183,3650,204,3831,237,3843,240,3842,245,3830,243,3649,209,3507,188,3181,155,2892,132,2605,115,2161,98"/>
+<area shape="rect" id="Node000024" href="$remove__content__header__action__cc_8h.html" title="Contains C API definitions for &quot;remove content header&quot; label policy action." alt="" coords="4304,240,4488,295"/>
+<area shape="poly" id="edge82_Node000018_Node000024" title=" " alt="" coords="2161,91,2748,107,3142,124,3542,149,3919,181,4083,202,4292,237,4304,240,4303,245,4292,243,4082,207,3918,186,3541,155,3142,129,2748,112,2161,97"/>
+<area shape="rect" id="Node000025" href="$remove__watermark__action__cc_8h.html" title="Contains C API definitions for &quot;remove watermark&quot; label policy action." alt="" coords="4045,247,4280,287"/>
+<area shape="poly" id="edge83_Node000018_Node000025" title=" " alt="" coords="2161,91,2383,96,2687,105,3033,123,3384,149,3523,167,3662,189,3848,212,4034,237,4074,245,4073,250,4033,243,3847,217,3661,195,3523,173,3384,155,3033,128,2686,111,2383,101,2161,97"/>
+<area shape="poly" id="edge50_Node000018_Node000026" title=" " alt="" coords="1951,95,1826,97,1688,106,1563,124,1514,137,1479,154,1442,185,1410,222,1384,263,1362,306,1332,387,1317,446,1312,444,1327,385,1358,304,1379,260,1406,219,1438,181,1476,150,1512,132,1562,119,1687,101,1826,92,1951,89"/>
+<area shape="poly" id="edge54_Node000018_Node000027" title=" " alt="" coords="2162,95,2514,115,2733,130,2954,149,3026,158,3025,163,2953,155,2733,136,2513,120,2161,100"/>
+<area shape="poly" id="edge69_Node000018_Node000028" title=" " alt="" coords="2161,90,2590,91,3195,98,3510,105,3805,116,4060,130,4252,149,4359,169,4464,194,4632,245,4630,250,4463,199,4358,174,4252,155,4060,136,3805,121,3510,110,3195,103,2590,96,2161,95"/>
+<area shape="rect" id="Node000029" href="$add__content__footer__action__cc_8h.html" title="Contains C API definitions for &quot;add content footer&quot; label policy action." alt="" coords="2235,240,2387,295"/>
+<area shape="poly" id="edge70_Node000018_Node000029" title=" " alt="" coords="2120,105,2170,123,2218,150,2242,170,2264,194,2297,238,2293,242,2260,197,2238,174,2214,154,2167,128,2118,110"/>
+<area shape="rect" id="Node000030" href="$add__content__header__action__cc_8h.html" title="Contains C API definitions for &quot;add content header&quot; label policy action." alt="" coords="2411,240,2570,295"/>
+<area shape="poly" id="edge71_Node000018_Node000030" title=" " alt="" coords="2115,105,2183,125,2256,150,2357,194,2444,237,2441,242,2355,199,2254,154,2182,130,2114,110"/>
+<area shape="rect" id="Node000031" href="$add__watermark__action__cc_8h.html" title="Contains C API definitions for &quot;add watermark&quot; label policy action." alt="" coords="2595,247,2803,287"/>
+<area shape="poly" id="edge72_Node000018_Node000031" title=" " alt="" coords="2124,104,2317,149,2494,200,2641,245,2639,250,2493,205,2315,155,2123,109"/>
+<area shape="rect" id="Node000033" href="$protect__by__template__action__cc_8h.html" title="Contains C API definitions for &quot;protect by template&quot; label policy action." alt="" coords="2827,240,2989,295"/>
+<area shape="poly" id="edge80_Node000018_Node000033" title=" " alt="" coords="2141,104,2403,149,2610,190,2815,237,2828,241,2826,246,2814,243,2609,195,2402,155,2141,109"/>
+<area shape="poly" id="edge84_Node000018_Node000036" title=" " alt="" coords="2161,90,2695,91,3477,99,3889,106,4277,117,4611,131,4864,149,4883,152,4882,157,4864,155,4611,136,4276,122,3889,111,3477,104,2695,97,2161,95"/>
+<area shape="poly" id="edge31_Node000019_Node000004" title=" " alt="" coords="410,205,426,249,438,272,452,293,547,345,644,395,917,531,915,536,641,400,544,350,449,297,433,275,421,252,405,206"/>
+<area shape="poly" id="edge33_Node000019_Node000010" title=" " alt="" coords="370,203,340,234,310,274,286,319,280,344,277,369,277,466,284,506,304,539,333,566,370,587,411,604,455,617,537,632,536,637,454,622,410,609,368,592,330,570,300,542,279,508,272,467,272,369,275,343,281,317,305,271,336,231,366,200"/>
+<area shape="poly" id="edge32_Node000019_Node000011" title=" " alt="" coords="455,195,560,245,558,250,452,200"/>
+<area shape="poly" id="edge35_Node000020_Node000012" title=" " alt="" coords="258,199,431,348,427,352,254,203"/>
+<area shape="poly" id="edge41_Node000021_Node000003" title=" " alt="" coords="716,202,777,293,818,346,863,395,894,421,925,443,922,447,891,426,859,399,814,349,773,296,712,205"/>
+<area shape="poly" id="edge44_Node000022_Node000003" title=" " alt="" coords="4253,190,4367,203,4477,215,4518,225,4544,241,4550,252,4550,265,4543,280,4529,297,4486,304,4378,313,4001,335,2870,384,1201,448,1048,459,1048,454,1201,443,2870,379,4001,329,4378,308,4486,299,4527,292,4539,277,4545,264,4545,253,4540,245,4516,230,4476,220,4367,208,4252,196"/>
+<area shape="poly" id="edge45_Node000022_Node000006" title=" " alt="" coords="4253,190,4357,204,4456,218,4493,229,4516,245,4521,256,4521,268,4514,281,4502,297,4488,302,4459,307,4361,316,4030,329,3570,337,3046,342,2057,345,1573,345,1154,366,1154,360,1573,340,2057,339,3046,337,3570,332,4030,324,4361,311,4458,302,4486,297,4498,293,4510,279,4516,267,4516,257,4512,248,4490,234,4455,224,4356,209,4252,196"/>
+<area shape="poly" id="edge46_Node000022_Node000017" title=" " alt="" coords="4070,176,3905,180,3687,191,3442,210,3317,225,3195,243,3161,250,3160,245,3194,237,3316,219,3441,205,3687,185,3905,175,4069,171"/>
+<area shape="poly" id="edge47_Node000022_Node000023" title=" " alt="" coords="4103,200,3998,242,3996,237,4101,195"/>
+<area shape="poly" id="edge48_Node000022_Node000024" title=" " alt="" coords="4223,195,4331,237,4329,242,4221,200"/>
+<area shape="poly" id="edge49_Node000022_Node000025" title=" " alt="" coords="4164,206,4165,247,4160,247,4159,206"/>
+<area shape="poly" id="edge51_Node000026_Node000004" title=" " alt="" coords="1220,491,1033,536,1032,531,1219,486"/>
+<area shape="poly" id="edge52_Node000026_Node000010" title=" " alt="" coords="1263,494,1171,536,1061,576,960,600,858,618,685,638,684,632,857,612,959,595,1059,571,1169,532,1261,489"/>
+<area shape="poly" id="edge60_Node000027_Node000015" title=" " alt="" coords="3012,179,2667,200,2446,218,2223,243,2161,253,2160,247,2222,237,2445,213,2666,194,3012,174"/>
+<area shape="poly" id="edge61_Node000027_Node000017" title=" " alt="" coords="3100,206,3100,247,3095,247,3095,206"/>
+<area shape="poly" id="edge66_Node000027_Node000023" title=" " alt="" coords="3183,174,3471,193,3651,211,3831,237,3843,240,3842,245,3830,243,3650,217,3471,198,3183,179"/>
+<area shape="poly" id="edge67_Node000027_Node000024" title=" " alt="" coords="3183,173,3746,196,4062,215,4193,226,4292,237,4304,239,4303,245,4292,243,4192,231,4061,220,3745,201,3182,179"/>
+<area shape="poly" id="edge68_Node000027_Node000025" title=" " alt="" coords="3182,173,3553,191,3792,210,4034,237,4078,245,4077,250,4033,243,3792,216,3552,197,3182,178"/>
+<area shape="poly" id="edge55_Node000027_Node000028" title=" " alt="" coords="3183,172,3411,177,3737,189,4115,208,4500,237,4614,252,4613,257,4500,243,4115,213,3737,194,3411,183,3183,177"/>
+<area shape="poly" id="edge57_Node000027_Node000029" title=" " alt="" coords="3013,179,2739,197,2570,216,2400,243,2388,245,2386,240,2400,237,2569,211,2738,192,3012,174"/>
+<area shape="poly" id="edge58_Node000027_Node000030" title=" " alt="" coords="3013,183,2815,205,2699,222,2583,243,2571,245,2570,240,2582,237,2698,216,2815,200,3012,178"/>
+<area shape="poly" id="edge59_Node000027_Node000031" title=" " alt="" coords="3013,196,2780,250,2778,245,3012,191"/>
+<area shape="rect" id="Node000032" href="$protect__adhoc__dk__action__cc_8h.html" title=" " alt="" coords="3207,247,3428,287"/>
+<area shape="poly" id="edge62_Node000027_Node000032" title=" " alt="" coords="3155,195,3274,245,3272,250,3153,200"/>
+<area shape="poly" id="edge63_Node000027_Node000033" title=" " alt="" coords="3048,200,2962,242,2960,238,3046,196"/>
+<area shape="rect" id="Node000034" href="$protect__by__template__dk__action__cc_8h.html" title="Contains C API definitions for &quot;protect by template&quot; label policy action." alt="" coords="3453,240,3614,295"/>
+<area shape="poly" id="edge64_Node000027_Node000034" title=" " alt="" coords="3183,185,3305,208,3441,237,3453,240,3452,246,3439,243,3304,214,3182,191"/>
+<area shape="rect" id="Node000035" href="$protect__do__not__forward__dk__action__cc_8h.html" title="Contains C API definitions for &quot;protect do not forward&quot; label policy action." alt="" coords="3638,240,3818,295"/>
+<area shape="poly" id="edge65_Node000027_Node000035" title=" " alt="" coords="3183,178,3386,200,3507,217,3627,237,3638,240,3637,245,3626,243,3506,222,3385,206,3182,183"/>
+<area shape="poly" id="edge56_Node000028_Node000008" title=" " alt="" coords="4614,293,4595,297,4249,350,3895,391,3544,421,3210,442,2904,455,2638,463,2275,467,2275,462,2638,458,2904,450,3210,437,3544,416,3894,386,4248,345,4594,292,4613,288"/>
+<area shape="poly" id="edge85_Node000036_Node000009" title=" " alt="" coords="4967,206,4964,268,4950,345,4937,385,4919,424,4896,458,4865,488,4845,495,4807,502,4683,514,4314,533,3903,546,3596,553,3596,548,3903,541,4314,528,4683,509,4806,496,4844,490,4863,483,4892,455,4915,421,4932,383,4945,344,4958,267,4962,206"/>
 </map>

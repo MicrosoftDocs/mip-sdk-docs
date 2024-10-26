@@ -1,11 +1,25 @@
 <map id="src/api/mip/flighting_feature.h" name="src/api/mip/flighting_feature.h">
-<area shape="rect" id="node1" title="A file containing the FlightingFeature definition." alt="" coords="93,5,243,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,244,56,271"/>
-<area shape="rect" id="node3" href="$common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="279,169,441,196"/>
-<area shape="rect" id="node8" href="$error_8h.html" title="A file containing the MIP SDK error types." alt="" coords="121,95,215,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="327,244,393,271"/>
-<area shape="rect" id="node5" title=" " alt="" coords="202,244,289,271"/>
-<area shape="rect" id="node6" title=" " alt="" coords="428,244,505,271"/>
-<area shape="rect" id="node7" title=" " alt="" coords="93,244,152,271"/>
-<area shape="rect" id="node9" title=" " alt="" coords="169,169,255,196"/>
+<area shape="rect" id="Node000001" title="A file containing the FlightingFeature definition." alt="" coords="93,5,243,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,240,56,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,47,112,95,71,166,43,228,38,226,66,164,107,92,147,44"/>
+<area shape="rect" id="Node000003" href="$common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="279,167,441,192"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="194,43,336,156,333,160,190,48"/>
+<area shape="rect" id="Node000008" href="$error_8h.html" title="A file containing the MIP SDK error types." alt="" coords="121,93,215,119"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="171,46,171,79,165,79,165,46"/>
+<area shape="poly" id="edge5_Node000003_Node000002" title=" " alt="" coords="306,195,82,243,70,245,69,240,81,237,305,189"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="327,240,393,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="363,192,363,226,357,226,357,192"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="202,240,289,265"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="343,194,277,235,274,230,340,190"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="428,240,505,265"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="379,190,439,230,436,235,376,194"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="93,240,152,265"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="323,195,166,241,164,236,321,189"/>
+<area shape="poly" id="edge11_Node000008_Node000002" title=" " alt="" coords="157,121,106,169,51,230,47,227,102,165,153,117"/>
+<area shape="poly" id="edge14_Node000008_Node000003" title=" " alt="" coords="200,116,317,159,315,164,198,121"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="165,120,155,154,154,173,160,191,179,214,204,231,201,236,175,218,155,193,149,173,150,153,160,118"/>
+<area shape="poly" id="edge12_Node000008_Node000006" title=" " alt="" coords="215,108,278,115,350,126,414,142,438,152,455,165,465,179,470,195,472,226,467,226,465,196,460,181,451,169,436,157,412,147,349,131,278,120,215,113"/>
+<area shape="poly" id="edge13_Node000008_Node000007" title=" " alt="" coords="154,121,133,141,116,168,112,198,117,227,111,227,106,198,111,166,129,138,150,117"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="169,167,255,192"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="178,118,200,154,195,156,173,120"/>
 </map>

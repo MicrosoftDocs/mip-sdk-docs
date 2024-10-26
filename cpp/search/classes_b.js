@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['networkerror_765',['NetworkError',['../classmip_1_1NetworkError.html',1,'mip']]],
-  ['noauthtokenerror_766',['NoAuthTokenError',['../classmip_1_1NoAuthTokenError.html',1,'mip']]],
-  ['nopermissionserror_767',['NoPermissionsError',['../classmip_1_1NoPermissionsError.html',1,'mip']]],
-  ['nopolicyerror_768',['NoPolicyError',['../classmip_1_1NoPolicyError.html',1,'mip']]],
-  ['notsupportederror_769',['NotSupportedError',['../classmip_1_1NotSupportedError.html',1,'mip']]]
+  ['sensitivitytypesrulepackage_0',['SensitivityTypesRulePackage',['../classmip_1_1SensitivityTypesRulePackage.html',1,'mip']]],
+  ['settings_1',['Settings',['../classmip_1_1FileEngine_1_1Settings.html',1,'mip::FileEngine::Settings'],['../classmip_1_1FileProfile_1_1Settings.html',1,'mip::FileProfile::Settings'],['../classmip_1_1ProtectionEngine_1_1Settings.html',1,'mip::ProtectionEngine::Settings'],['../classmip_1_1ProtectionProfile_1_1Settings.html',1,'mip::ProtectionProfile::Settings']]],
+  ['stream_2',['Stream',['../classmip_1_1Stream.html',1,'mip']]]
 ];

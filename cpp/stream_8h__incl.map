@@ -1,5 +1,7 @@
 <map id="src/api/mip/stream.h" name="src/api/mip/stream.h">
-<area shape="rect" id="node1" title="A file containing the Stream interface/class definition." alt="" coords="5,5,161,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="10,80,71,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="96,80,159,107"/>
+<area shape="rect" id="Node000001" title="A file containing the Stream interface/class definition." alt="" coords="5,5,161,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="10,79,71,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,32,57,68,52,66,74,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="96,79,159,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="93,30,115,66,111,68,88,32"/>
 </map>

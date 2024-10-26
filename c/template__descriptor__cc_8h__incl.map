@@ -1,8 +1,17 @@
 <map id="src/api/mip_cc/protection/template_descriptor_cc.h" name="src/api/mip_cc/protection/template_descriptor_cc.h">
-<area shape="rect" id="node1" title="Defines C&#45;Style TemplateDescriptor functions." alt="" coords="205,5,395,47"/>
-<area shape="rect" id="node2" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="180,95,316,121"/>
-<area shape="rect" id="node3" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="235,169,378,196"/>
-<area shape="rect" id="node5" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="214,244,399,271"/>
-<area shape="rect" id="node6" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="5,169,211,196"/>
-<area shape="rect" id="node4" title=" " alt="" coords="97,244,167,271"/>
+<area shape="rect" id="Node000001" title="Defines C&#45;Style TemplateDescriptor functions." alt="" coords="205,5,395,45"/>
+<area shape="rect" id="Node000002" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="180,93,316,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="290,47,266,83,261,80,285,44"/>
+<area shape="rect" id="Node000003" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="235,167,378,192"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="313,45,331,93,330,126,321,155,316,153,325,125,325,94,308,47"/>
+<area shape="rect" id="Node000005" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="214,240,399,265"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="320,44,360,96,379,130,393,166,396,180,393,193,373,218,348,236,345,231,370,214,388,191,391,180,388,167,374,132,355,99,316,47"/>
+<area shape="rect" id="Node000006" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="5,167,211,192"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="250,48,209,68,170,95,143,125,123,156,118,153,139,122,166,91,206,64,248,43"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="260,117,291,155,287,158,256,121"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="97,240,167,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="280,194,174,237,172,232,278,190"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="309,192,309,226,304,226,304,192"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="114,191,126,226,121,228,109,193"/>
+<area shape="poly" id="edge9_Node000006_Node000005" title=" " alt="" coords="141,190,262,233,260,238,139,195"/>
 </map>

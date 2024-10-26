@@ -1,6 +1,6 @@
 var action_8h =
 [
-    [ "Action", "classmip_1_1Action.html", "classmip_1_1Action" ],
+    [ "mip::Action", "classmip_1_1Action.html", "classmip_1_1Action" ],
     [ "ActionType", "action_8h.html#ad2d9647dd20f55eae1519c4a3f338ddc", [
       [ "ADD_CONTENT_FOOTER", "action_8h.html#ad2d9647dd20f55eae1519c4a3f338ddca2365630b34fc2286faf2a0d0256aef90", null ],
       [ "ADD_CONTENT_HEADER", "action_8h.html#ad2d9647dd20f55eae1519c4a3f338ddca99ff29ed57bc681f577e9c1bfae35506", null ],

@@ -1,11 +1,22 @@
 <map id="src/api/mip/mip_context.h" name="src/api/mip/mip_context.h">
-<area shape="rect" id="node1" title="File containing definition of MipContext." alt="" coords="229,5,420,32"/>
-<area shape="rect" id="node2" href="$file__handler_8h.html" title=" " alt="" coords="24,80,167,121"/>
-<area shape="rect" id="node4" href="$file__profile_8h.html" title=" " alt="" coords="79,348,221,389"/>
-<area shape="rect" id="node6" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="243,80,407,121"/>
-<area shape="rect" id="node7" href="$policy__handler_8h.html" title="This file contains the PolicyHandler class." alt="" coords="431,80,597,121"/>
-<area shape="rect" id="node9" href="$policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="491,259,657,300"/>
-<area shape="rect" id="node3" href="$file__engine_8h.html" title=" " alt="" coords="24,259,167,300"/>
-<area shape="rect" id="node5" href="$file__execution__state_8h.html" title=" " alt="" coords="23,169,167,211"/>
-<area shape="rect" id="node8" href="$policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="431,169,597,211"/>
+<area shape="rect" id="Node000001" title="File containing definition of MipContext." alt="" coords="229,5,420,31"/>
+<area shape="rect" id="Node000002" href="$file__handler_8h.html" title=" " alt="" coords="24,79,166,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="279,38,151,81,149,76,277,33"/>
+<area shape="rect" id="Node000004" href="$file__profile_8h.html" title=" " alt="" coords="78,343,221,383"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="283,39,255,57,232,80,215,108,204,134,196,182,193,233,189,262,180,296,161,343,156,341,175,294,184,261,188,232,191,181,199,132,210,106,228,77,252,53,281,35"/>
+<area shape="rect" id="Node000006" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="242,79,406,119"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="327,44,327,79,322,79,322,44"/>
+<area shape="rect" id="Node000007" href="$policy__handler_8h.html" title="This file contains the PolicyHandler class." alt="" coords="431,79,596,119"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="366,33,469,76,467,81,364,38"/>
+<area shape="rect" id="Node000009" href="$policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="491,255,656,295"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="434,25,540,44,583,58,610,77,623,99,629,122,628,147,624,172,607,219,588,256,584,253,602,217,619,171,623,147,623,123,618,101,607,80,581,63,538,49,433,31"/>
+<area shape="rect" id="Node000003" href="$file__engine_8h.html" title=" " alt="" coords="24,255,166,295"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="49,129,29,146,14,168,8,187,14,205,34,232,60,252,57,257,30,236,9,208,3,187,9,166,25,143,45,125"/>
+<area shape="rect" id="Node000005" href="$file__execution__state_8h.html" title=" " alt="" coords="23,167,167,207"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="98,133,98,166,92,166,92,133"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="117,305,140,341,135,344,112,308"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="98,221,98,254,92,254,92,221"/>
+<area shape="rect" id="Node000008" href="$policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="431,167,596,207"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="516,133,516,166,511,166,511,133"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="537,216,563,253,558,256,533,219"/>
 </map>

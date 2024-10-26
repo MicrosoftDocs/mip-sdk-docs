@@ -1,5 +1,8 @@
 <map id="src/api/mip/upe/justify_action.h" name="src/api/mip/upe/justify_action.h">
-<area shape="rect" id="node1" title="This file contains the JustifyAction class." alt="" coords="5,5,172,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="59,169,118,196"/>
-<area shape="rect" id="node3" href="$action_8h.html" title="A file containing the Action base class and the ActionType enumerator." alt="" coords="75,95,206,121"/>
+<area shape="rect" id="Node000001" title="This file contains the JustifyAction class." alt="" coords="5,5,172,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="59,167,118,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,46,68,80,65,99,66,118,79,154,74,155,61,119,59,99,63,79,76,45"/>
+<area shape="rect" id="Node000003" href="$action_8h.html" title="A file containing the Action base class and the ActionType enumerator." alt="" coords="75,93,206,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="103,44,128,80,123,83,99,47"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="134,121,107,157,103,154,130,117"/>
 </map>

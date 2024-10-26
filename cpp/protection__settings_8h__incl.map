@@ -1,9 +1,16 @@
 <map id="src/api/mip/file/protection_settings.h" name="src/api/mip/file/protection_settings.h">
-<area shape="rect" id="node1" title=" " alt="" coords="34,5,222,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,169,64,196"/>
-<area shape="rect" id="node3" href="$common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="124,95,287,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="88,169,155,196"/>
-<area shape="rect" id="node5" title=" " alt="" coords="179,169,266,196"/>
-<area shape="rect" id="node6" title=" " alt="" coords="291,169,341,196"/>
-<area shape="rect" id="node7" title=" " alt="" coords="365,169,443,196"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="34,5,222,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,167,64,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,47,51,156,47,153,114,44"/>
+<area shape="rect" id="Node000003" href="$common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="124,93,287,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="149,44,186,82,182,85,145,47"/>
+<area shape="poly" id="edge7_Node000003_Node000002" title=" " alt="" coords="179,121,76,164,74,159,177,116"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="88,167,155,192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="194,121,147,160,144,155,190,117"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="179,167,266,192"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="211,118,219,153,214,154,206,120"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="291,167,341,192"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="225,116,288,157,285,161,222,121"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="365,167,443,192"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="238,116,359,159,358,164,236,121"/>
 </map>

@@ -1,13 +1,26 @@
 <map id="src/api/mip/upe/content_label.h" name="src/api/mip/upe/content_label.h">
-<area shape="rect" id="node1" title="A file Containing the ContentLabel class." alt="" coords="90,5,265,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="73,95,140,121"/>
-<area shape="rect" id="node3" href="$common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="59,169,221,196"/>
-<area shape="rect" id="node9" href="$label_8h.html" title="This file contains the Label class." alt="" coords="307,95,429,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,244,72,271"/>
-<area shape="rect" id="node5" title=" " alt="" coords="97,244,183,271"/>
-<area shape="rect" id="node6" title=" " alt="" coords="208,244,259,271"/>
-<area shape="rect" id="node7" title=" " alt="" coords="297,244,375,271"/>
-<area shape="rect" id="node8" title=" " alt="" coords="428,244,487,271"/>
-<area shape="rect" id="node10" title=" " alt="" coords="510,169,573,196"/>
-<area shape="rect" id="node11" href="$mip__export_8h.html" title="A file export/import macros." alt="" coords="246,169,383,196"/>
+<area shape="rect" id="Node000001" title="A file Containing the ContentLabel class." alt="" coords="90,5,265,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="73,93,140,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,47,128,85,124,81,158,44"/>
+<area shape="rect" id="Node000003" href="$common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="59,167,221,192"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,46,149,154,144,152,170,45"/>
+<area shape="rect" id="Node000009" href="$label_8h.html" title="This file contains the Label class." alt="" coords="307,93,429,119"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="224,43,328,86,326,91,222,48"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,240,72,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="125,194,68,234,65,230,122,190"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="97,240,183,265"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="143,192,143,226,137,226,137,192"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="208,240,259,265"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="157,190,209,229,206,234,153,194"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="297,240,375,265"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="172,190,292,233,290,238,171,195"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="428,240,487,265"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="192,189,415,239,414,244,190,195"/>
+<area shape="poly" id="edge12_Node000009_Node000003" title=" " alt="" coords="332,121,191,165,189,160,331,116"/>
+<area shape="poly" id="edge9_Node000009_Node000007" title=" " alt="" coords="380,118,397,151,402,172,398,193,385,215,367,233,363,229,380,212,394,191,397,172,392,153,375,120"/>
+<area shape="poly" id="edge10_Node000009_Node000008" title=" " alt="" coords="381,117,418,165,450,226,445,229,414,168,377,121"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="510,167,573,192"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="397,116,501,159,499,164,395,121"/>
+<area shape="rect" id="Node000011" href="$mip__export_8h.html" title="A file export/import macros." alt="" coords="246,167,383,192"/>
+<area shape="poly" id="edge13_Node000009_Node000011" title=" " alt="" coords="361,121,334,157,329,154,357,117"/>
 </map>

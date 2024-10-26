@@ -1,8 +1,8 @@
 var stream__utils_8h =
 [
-    [ "CreateStreamFromBuffer", "stream__utils_8h.html#a6cf351385350a59a0f38daa5f446b227", null ],
-    [ "CreateStreamFromStdStream", "stream__utils_8h.html#af3ccfe087df4d65d8c4f5c0bc8ea65b3", null ],
-    [ "CreateStreamFromStdStream", "stream__utils_8h.html#ac3f574c28c74eedf65bfb409a81d4040", null ],
-    [ "CreateStreamFromStdStream", "stream__utils_8h.html#a2881655ed050e2da08a8585d82ca824d", null ],
-    [ "ReadFromStream", "stream__utils_8h.html#a2d49c2d64bd2e8080b015387ba2572b5", null ]
+    [ "CreateStreamFromBuffer", "stream__utils_8h.html#aa4ea27b94db44319215add3e1cc6fc0b", null ],
+    [ "CreateStreamFromStdStream", "stream__utils_8h.html#a76366ebb97006cb7c62cb508e8a4bcdf", null ],
+    [ "CreateStreamFromStdStream", "stream__utils_8h.html#abb5af4f608cfbf62252315da990edabc", null ],
+    [ "CreateStreamFromStdStream", "stream__utils_8h.html#aad454356b325f191e574bbd4fbc28993", null ],
+    [ "ReadFromStream", "stream__utils_8h.html#a0d2829a7b8d6497567c49b761be75ca6", null ]
 ];

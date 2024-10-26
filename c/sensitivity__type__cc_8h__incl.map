@@ -1,7 +1,13 @@
 <map id="src/api/mip_cc/upe/sensitivity_type_cc.h" name="src/api/mip_cc/upe/sensitivity_type_cc.h">
-<area shape="rect" id="node1" title="Contains C API definitions for sensitivity type." alt="" coords="97,5,260,47"/>
-<area shape="rect" id="node2" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="5,95,141,121"/>
-<area shape="rect" id="node3" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="27,169,170,196"/>
-<area shape="rect" id="node5" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="137,244,322,271"/>
-<area shape="rect" id="node4" title=" " alt="" coords="42,244,113,271"/>
+<area shape="rect" id="Node000001" title="Contains C API definitions for sensitivity type." alt="" coords="97,5,260,45"/>
+<area shape="rect" id="Node000002" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="5,93,141,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,48,102,87,98,83,152,43"/>
+<area shape="rect" id="Node000003" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="27,167,170,192"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="179,46,171,81,156,120,141,141,124,159,120,156,137,138,151,117,166,80,174,45"/>
+<area shape="rect" id="Node000005" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="137,240,322,265"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="186,45,226,226,221,227,180,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="80,118,93,153,88,155,75,120"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="42,240,113,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="98,193,87,228,82,226,93,192"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="121,190,197,231,195,236,118,194"/>
 </map>

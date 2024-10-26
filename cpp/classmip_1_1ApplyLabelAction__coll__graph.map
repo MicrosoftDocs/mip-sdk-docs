@@ -1,4 +1,5 @@
 <map id="mip::ApplyLabelAction" name="mip::ApplyLabelAction">
-<area shape="rect" id="node1" title="Apply label actions requires the calling application to apply a specific label." alt="" coords="5,80,173,107"/>
-<area shape="rect" id="node2" href="$classmip_1_1Action.html" title="Interface for an action." alt="" coords="41,5,137,32"/>
+<area shape="rect" id="Node000001" title="Apply label actions requires the calling application to apply a specific label." alt="" coords="5,79,173,104"/>
+<area shape="rect" id="Node000002" href="$classmip_1_1Action.html" title="Interface for an action." alt="" coords="41,5,137,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,44,92,79,87,79,87,44"/>
 </map>

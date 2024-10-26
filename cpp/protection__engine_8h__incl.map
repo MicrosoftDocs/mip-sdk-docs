@@ -1,20 +1,61 @@
 <map id="src/api/mip/protection/protection_engine.h" name="src/api/mip/protection/protection_engine.h">
-<area shape="rect" id="node1" title="Defines ProtectionEngine interface." alt="" coords="506,5,670,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="256,273,334,300"/>
-<area shape="rect" id="node3" title=" " alt="" coords="712,348,771,375"/>
-<area shape="rect" id="node4" title=" " alt="" coords="1040,348,1102,375"/>
-<area shape="rect" id="node5" href="$common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="66,191,228,218"/>
-<area shape="rect" id="node9" href="$protection__descriptor_8h.html" title="Defines ProtectionDescriptor interface." alt="" coords="404,191,604,218"/>
-<area shape="rect" id="node14" href="$protection__common__types_8h.html" title="A file containing the common types used by the protection module." alt="" coords="831,184,1018,225"/>
-<area shape="rect" id="node15" href="$protection__handler_8h.html" title="Defines ProtectionHandler interface." alt="" coords="574,95,760,136"/>
-<area shape="rect" id="node18" href="$template__descriptor_8h.html" title="Defines TemplateDescriptor interface." alt="" coords="980,95,1160,136"/>
-<area shape="rect" id="node6" title=" " alt="" coords="54,273,120,300"/>
-<area shape="rect" id="node7" title=" " alt="" coords="145,273,232,300"/>
-<area shape="rect" id="node8" title=" " alt="" coords="358,273,408,300"/>
-<area shape="rect" id="node10" title=" " alt="" coords="483,273,550,300"/>
-<area shape="rect" id="node11" href="$user__rights_8h.html" title="Defines UserRights class." alt="" coords="780,273,914,300"/>
-<area shape="rect" id="node12" href="$user__roles_8h.html" title="Defines UserRoles class." alt="" coords="574,273,704,300"/>
-<area shape="rect" id="node13" href="$mip__export_8h.html" title="A file export/import macros." alt="" coords="550,348,688,375"/>
-<area shape="rect" id="node16" href="$stream_8h.html" title="A file containing the Stream interface/class definition." alt="" coords="1042,191,1151,218"/>
-<area shape="rect" id="node17" title=" " alt="" coords="1040,273,1102,300"/>
+<area shape="rect" id="Node000001" title="Defines ProtectionEngine interface." alt="" coords="506,5,670,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="256,269,334,295"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="534,48,484,69,429,99,374,136,328,183,309,219,300,256,295,255,304,217,324,180,371,132,426,94,482,64,532,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="712,343,771,368"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="506,34,438,40,358,52,274,70,193,96,112,133,75,155,43,180,21,206,10,234,12,263,32,293,45,301,68,309,138,320,232,327,338,332,551,335,699,341,698,346,551,341,338,337,231,333,138,325,67,314,43,306,28,297,7,264,4,233,16,203,39,176,71,151,109,128,191,91,273,65,357,47,437,35,506,28"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="1040,343,1102,368"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="671,28,808,36,966,50,1101,68,1148,79,1174,91,1195,116,1206,141,1211,166,1208,192,1200,218,1187,244,1149,296,1127,319,1103,337,1099,333,1123,315,1145,293,1182,241,1195,216,1203,191,1205,166,1201,142,1190,119,1171,95,1146,84,1100,73,965,55,808,42,670,33"/>
+<area shape="rect" id="Node000005" href="$common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="66,189,228,214"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="507,31,447,37,380,49,312,68,248,96,222,114,199,135,164,179,160,176,195,132,219,109,246,91,311,63,379,43,446,32,506,26"/>
+<area shape="rect" id="Node000009" href="$protection__descriptor_8h.html" title="Defines ProtectionDescriptor interface." alt="" coords="404,189,604,214"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="582,47,518,177,514,175,577,44"/>
+<area shape="rect" id="Node000014" href="$protection__common__types_8h.html" title="A file containing the common types used by the protection module." alt="" coords="831,181,1018,221"/>
+<area shape="poly" id="edge22_Node000001_Node000014" title=" " alt="" coords="654,43,713,64,774,91,838,130,892,170,889,175,835,135,771,96,711,69,652,48"/>
+<area shape="rect" id="Node000015" href="$protection__handler_8h.html" title="Defines ProtectionHandler interface." alt="" coords="574,93,760,133"/>
+<area shape="poly" id="edge26_Node000001_Node000015" title=" " alt="" coords="608,44,642,81,639,85,604,47"/>
+<area shape="rect" id="Node000018" href="$template__descriptor_8h.html" title="Defines TemplateDescriptor interface." alt="" coords="980,93,1160,133"/>
+<area shape="poly" id="edge40_Node000001_Node000018" title=" " alt="" coords="671,39,967,91,966,96,670,44"/>
+<area shape="poly" id="edge8_Node000005_Node000002" title=" " alt="" coords="170,212,262,260,260,265,168,217"/>
+<area shape="poly" id="edge9_Node000005_Node000003" title=" " alt="" coords="117,217,84,232,54,251,44,261,38,272,37,282,44,293,57,301,80,308,149,320,240,327,345,331,554,335,699,341,699,346,554,341,345,337,240,332,148,325,78,314,55,306,40,297,32,283,33,270,39,258,51,247,82,227,115,212"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="54,269,120,295"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="140,216,106,260,102,256,136,213"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="145,269,232,295"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="155,213,178,256,174,258,151,215"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="358,269,408,295"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="182,211,345,265,343,270,180,217"/>
+<area shape="poly" id="edge13_Node000009_Node000002" title=" " alt="" coords="475,217,339,267,338,262,473,212"/>
+<area shape="poly" id="edge14_Node000009_Node000003" title=" " alt="" coords="496,216,483,233,471,253,467,274,468,284,473,293,496,316,519,330,544,336,569,338,628,335,661,335,699,340,698,345,661,341,628,340,569,343,543,341,517,335,493,320,469,296,463,286,461,274,466,251,478,230,492,212"/>
+<area shape="poly" id="edge12_Node000009_Node000008" title=" " alt="" coords="488,216,414,264,411,260,485,212"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="483,269,550,295"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="509,214,515,256,510,256,503,215"/>
+<area shape="rect" id="Node000011" href="$user__rights_8h.html" title="Defines UserRights class." alt="" coords="780,269,914,295"/>
+<area shape="poly" id="edge15_Node000009_Node000011" title=" " alt="" coords="555,211,785,264,783,269,554,217"/>
+<area shape="rect" id="Node000012" href="$user__roles_8h.html" title="Defines UserRoles class." alt="" coords="574,269,704,295"/>
+<area shape="poly" id="edge18_Node000009_Node000012" title=" " alt="" coords="526,212,609,260,606,265,523,216"/>
+<area shape="poly" id="edge16_Node000011_Node000003" title=" " alt="" coords="832,297,772,337,769,333,829,292"/>
+<area shape="poly" id="edge17_Node000011_Node000004" title=" " alt="" coords="884,292,1027,337,1026,343,882,297"/>
+<area shape="poly" id="edge19_Node000012_Node000003" title=" " alt="" coords="657,292,715,332,712,337,654,297"/>
+<area shape="poly" id="edge20_Node000012_Node000004" title=" " alt="" coords="705,291,1027,344,1026,349,704,297"/>
+<area shape="rect" id="Node000013" href="$mip__export_8h.html" title="A file export/import macros." alt="" coords="550,343,688,368"/>
+<area shape="poly" id="edge21_Node000012_Node000013" title=" " alt="" coords="638,296,629,330,623,329,633,294"/>
+<area shape="poly" id="edge24_Node000014_Node000003" title=" " alt="" coords="934,221,940,258,938,278,929,296,899,324,861,342,821,352,785,356,784,351,820,347,859,337,896,320,925,293,932,276,934,258,928,222"/>
+<area shape="poly" id="edge25_Node000014_Node000004" title=" " alt="" coords="945,220,1052,331,1048,334,941,224"/>
+<area shape="poly" id="edge23_Node000014_Node000008" title=" " alt="" coords="831,219,423,278,422,272,830,214"/>
+<area shape="poly" id="edge29_Node000015_Node000002" title=" " alt="" coords="574,122,525,129,473,141,422,159,374,184,353,200,336,219,309,258,305,256,331,216,350,196,371,179,420,154,472,136,524,124,573,117"/>
+<area shape="poly" id="edge30_Node000015_Node000003" title=" " alt="" coords="676,133,719,269,737,329,732,330,714,270,671,134"/>
+<area shape="poly" id="edge31_Node000015_Node000004" title=" " alt="" coords="761,118,1004,141,1109,158,1145,168,1165,179,1176,199,1179,221,1173,243,1163,264,1131,304,1098,336,1094,332,1127,300,1158,261,1168,241,1173,220,1171,201,1161,183,1143,173,1108,163,1003,146,761,123"/>
+<area shape="poly" id="edge32_Node000015_Node000005" title=" " alt="" coords="574,133,230,189,229,184,573,127"/>
+<area shape="poly" id="edge28_Node000015_Node000008" title=" " alt="" coords="574,128,466,150,422,165,394,183,385,199,380,218,381,256,375,256,375,217,380,197,390,179,420,160,465,145,573,123"/>
+<area shape="poly" id="edge33_Node000015_Node000009" title=" " alt="" coords="633,136,539,185,537,180,630,131"/>
+<area shape="poly" id="edge27_Node000015_Node000010" title=" " alt="" coords="664,135,648,177,635,201,618,223,590,247,559,266,556,261,587,243,614,220,630,198,643,175,659,133"/>
+<area shape="poly" id="edge38_Node000015_Node000011" title=" " alt="" coords="699,131,763,179,802,219,832,256,828,259,798,222,760,183,696,136"/>
+<area shape="poly" id="edge39_Node000015_Node000012" title=" " alt="" coords="670,133,669,174,663,222,652,257,647,256,658,221,664,174,665,133"/>
+<area shape="poly" id="edge34_Node000015_Node000014" title=" " alt="" coords="724,131,856,174,854,180,723,136"/>
+<area shape="rect" id="Node000016" href="$stream_8h.html" title="A file containing the Stream interface/class definition." alt="" coords="1042,189,1151,214"/>
+<area shape="poly" id="edge35_Node000015_Node000016" title=" " alt="" coords="761,127,889,149,1030,179,1045,182,1044,188,1029,184,888,155,760,132"/>
+<area shape="poly" id="edge37_Node000016_Node000004" title=" " alt="" coords="1105,213,1117,250,1120,273,1116,295,1107,316,1094,334,1089,331,1102,313,1111,294,1114,273,1112,251,1100,215"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="1040,269,1102,295"/>
+<area shape="poly" id="edge36_Node000016_Node000017" title=" " alt="" coords="1095,215,1081,257,1076,256,1090,213"/>
+<area shape="poly" id="edge41_Node000018_Node000003" title=" " alt="" coords="1113,131,1142,152,1165,180,1173,198,1175,215,1173,231,1167,247,1146,273,1115,297,1088,309,1052,320,961,336,785,354,784,349,961,331,1051,315,1087,304,1112,292,1143,269,1163,244,1168,230,1170,216,1167,200,1161,183,1139,156,1110,136"/>
 </map>

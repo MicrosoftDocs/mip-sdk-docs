@@ -1,10 +1,25 @@
 <map id="src/api/mip_cc/upe/remove_watermark_action_cc.h" name="src/api/mip_cc/upe/remove_watermark_action_cc.h">
-<area shape="rect" id="node1" title="Contains C API definitions for &quot;remove watermark&quot; label policy action." alt="" coords="153,5,388,47"/>
-<area shape="rect" id="node2" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="193,169,329,196"/>
-<area shape="rect" id="node6" href="$string__list__cc_8h.html" title="Contains C API definitions for common string list." alt="" coords="309,95,478,121"/>
-<area shape="rect" id="node7" href="$action__cc_8h.html" title="Contains C API definitions for label policy actions." alt="" coords="60,95,233,121"/>
-<area shape="rect" id="node3" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="235,244,378,271"/>
-<area shape="rect" id="node4" title=" " alt="" coords="195,319,266,345"/>
-<area shape="rect" id="node5" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="290,319,475,345"/>
-<area shape="rect" id="node8" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="5,244,211,271"/>
+<area shape="rect" id="Node000001" title="Contains C API definitions for &quot;remove watermark&quot; label policy action." alt="" coords="153,5,388,45"/>
+<area shape="rect" id="Node000002" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="193,167,329,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="272,46,266,153,260,153,267,46"/>
+<area shape="rect" id="Node000006" href="$string__list__cc_8h.html" title="Contains C API definitions for common string list." alt="" coords="309,93,478,119"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="302,43,365,84,362,88,299,48"/>
+<area shape="rect" id="Node000007" href="$action__cc_8h.html" title="Contains C API definitions for label policy actions." alt="" coords="60,93,233,119"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="242,48,178,88,175,84,239,43"/>
+<area shape="rect" id="Node000003" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="235,240,378,265"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="271,191,294,227,290,230,267,194"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="195,313,266,339"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="296,267,255,306,251,302,293,263"/>
+<area shape="rect" id="Node000005" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="290,313,475,339"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="321,263,362,302,358,306,317,267"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="373,121,296,162,294,158,371,116"/>
+<area shape="poly" id="edge9_Node000006_Node000003" title=" " alt="" coords="389,120,323,229,318,227,384,118"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="400,118,407,147,412,186,409,228,403,248,393,267,375,281,347,295,280,316,279,310,345,290,372,277,389,264,398,246,404,227,407,186,402,148,395,120"/>
+<area shape="poly" id="edge8_Node000006_Node000005" title=" " alt="" coords="407,117,424,138,438,166,446,193,450,216,447,239,438,266,426,288,410,306,406,302,422,285,434,264,442,238,444,216,441,194,434,168,420,141,403,120"/>
+<area shape="poly" id="edge14_Node000007_Node000002" title=" " alt="" coords="166,116,232,157,230,162,164,121"/>
+<area shape="poly" id="edge15_Node000007_Node000003" title=" " alt="" coords="151,118,161,153,171,173,183,190,216,215,252,233,250,238,213,220,179,194,166,176,156,155,146,120"/>
+<area shape="rect" id="Node000008" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="5,240,211,265"/>
+<area shape="poly" id="edge11_Node000007_Node000008" title=" " alt="" coords="146,120,117,227,112,226,141,118"/>
+<area shape="poly" id="edge12_Node000008_Node000004" title=" " alt="" coords="129,263,200,304,198,309,126,268"/>
+<area shape="poly" id="edge13_Node000008_Node000005" title=" " alt="" coords="153,263,326,307,324,312,151,268"/>
 </map>

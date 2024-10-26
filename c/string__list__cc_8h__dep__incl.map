@@ -1,10 +1,18 @@
 <map id="src/api/mip_cc/string_list_cc.h" name="src/api/mip_cc/string_list_cc.h">
-<area shape="rect" id="node1" title="Contains C API definitions for common string list." alt="" coords="385,5,541,47"/>
-<area shape="rect" id="node2" href="$protection__engine__cc_8h.html" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="5,199,191,240"/>
-<area shape="rect" id="node4" href="$protection__handler__cc_8h.html" title="Defines C&#45;Style ProtectionHandler interface." alt="" coords="71,102,256,143"/>
-<area shape="rect" id="node5" href="$metadata__action__cc_8h.html" title="Contains C API definitions for &quot;metadata&quot; label policy action." alt="" coords="280,102,449,143"/>
-<area shape="rect" id="node6" href="$remove__content__footer__action__cc_8h.html" title="Contains C API definitions for &quot;remove content footer&quot; label policy action." alt="" coords="474,95,653,151"/>
-<area shape="rect" id="node7" href="$remove__content__header__action__cc_8h.html" title="Contains C API definitions for &quot;remove content header&quot; label policy action." alt="" coords="677,95,861,151"/>
-<area shape="rect" id="node8" href="$remove__watermark__action__cc_8h.html" title="Contains C API definitions for &quot;remove watermark&quot; label policy action." alt="" coords="885,102,1119,143"/>
-<area shape="rect" id="node3" href="$protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="5,288,191,329"/>
+<area shape="rect" id="Node000001" title="Contains C API definitions for common string list." alt="" coords="385,5,541,45"/>
+<area shape="rect" id="Node000002" href="$protection__engine__cc_8h.html" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="5,196,191,236"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="372,31,284,37,190,48,109,67,80,80,60,95,53,106,51,118,55,145,68,172,84,194,79,197,64,174,50,147,45,118,48,104,56,92,77,75,108,62,189,42,283,31,372,26"/>
+<area shape="rect" id="Node000004" href="$protection__handler__cc_8h.html" title="Defines C&#45;Style ProtectionHandler interface." alt="" coords="71,101,256,141"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="390,52,225,103,223,98,389,47"/>
+<area shape="rect" id="Node000005" href="$metadata__action__cc_8h.html" title="Contains C API definitions for &quot;metadata&quot; label policy action." alt="" coords="280,101,449,141"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="435,57,386,103,383,99,432,53"/>
+<area shape="rect" id="Node000006" href="$remove__content__footer__action__cc_8h.html" title="Contains C API definitions for &quot;remove content footer&quot; label policy action." alt="" coords="474,93,653,148"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="495,53,537,91,533,95,492,57"/>
+<area shape="rect" id="Node000007" href="$remove__content__header__action__cc_8h.html" title="Contains C API definitions for &quot;remove content header&quot; label policy action." alt="" coords="677,93,861,148"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="539,47,683,91,682,96,538,52"/>
+<area shape="rect" id="Node000008" href="$remove__watermark__action__cc_8h.html" title="Contains C API definitions for &quot;remove watermark&quot; label policy action." alt="" coords="885,101,1119,141"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="555,38,873,91,912,98,911,103,872,96,555,43"/>
+<area shape="rect" id="Node000003" href="$protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="5,284,191,324"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,250,101,284,95,284,95,250"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="145,153,113,197,109,194,140,150"/>
 </map>

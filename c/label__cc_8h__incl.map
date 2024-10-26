@@ -1,9 +1,23 @@
 <map id="src/api/mip_cc/upe/label_cc.h" name="src/api/mip_cc/upe/label_cc.h">
-<area shape="rect" id="node1" title="Contains C API definitions for label." alt="" coords="227,5,369,47"/>
-<area shape="rect" id="node2" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="71,244,277,271"/>
-<area shape="rect" id="node4" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="5,319,191,345"/>
-<area shape="rect" id="node5" href="$dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="213,95,383,121"/>
-<area shape="rect" id="node6" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="370,169,506,196"/>
-<area shape="rect" id="node7" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="352,244,495,271"/>
-<area shape="rect" id="node3" title=" " alt="" coords="279,319,349,345"/>
+<area shape="rect" id="Node000001" title="Contains C API definitions for label." alt="" coords="227,5,369,45"/>
+<area shape="rect" id="Node000002" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="71,240,277,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="257,48,228,68,203,95,188,128,179,163,175,227,170,226,174,162,183,126,198,92,224,64,254,43"/>
+<area shape="rect" id="Node000004" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="5,313,191,339"/>
+<area shape="poly" id="edge13_Node000001_Node000004" title=" " alt="" coords="263,48,185,96,140,129,101,169,59,214,49,236,53,265,63,284,77,301,72,305,58,287,47,266,44,235,54,211,97,165,137,125,182,91,260,43"/>
+<area shape="rect" id="Node000005" href="$dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="213,93,383,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="301,46,301,79,295,79,295,46"/>
+<area shape="rect" id="Node000006" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="370,167,506,192"/>
+<area shape="poly" id="edge12_Node000001_Node000006" title=" " alt="" coords="336,43,367,64,397,92,418,122,432,153,427,155,413,125,393,95,364,69,333,48"/>
+<area shape="rect" id="Node000007" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="352,240,495,265"/>
+<area shape="poly" id="edge14_Node000001_Node000007" title=" " alt="" coords="360,43,404,62,449,88,490,122,507,143,520,166,524,177,523,188,512,208,492,224,469,237,466,232,489,219,508,204,518,187,519,178,516,168,502,146,486,126,446,92,401,66,358,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="279,313,349,339"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="198,263,280,305,278,309,195,268"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="164,267,122,306,119,302,160,263"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="302,119,315,299,309,299,296,119"/>
+<area shape="poly" id="edge10_Node000005_Node000004" title=" " alt="" coords="250,121,202,137,149,162,100,196,79,217,62,241,58,256,60,271,78,301,74,304,55,273,52,256,57,239,75,214,96,192,147,157,200,132,248,116"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="322,116,404,158,402,163,319,121"/>
+<area shape="poly" id="edge11_Node000005_Node000007" title=" " alt="" coords="307,117,330,151,360,190,400,229,397,233,356,194,325,154,303,120"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="438,193,431,227,426,226,433,192"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="407,268,345,308,342,303,404,263"/>
+<area shape="poly" id="edge9_Node000007_Node000004" title=" " alt="" coords="372,268,165,313,163,308,370,263"/>
 </map>

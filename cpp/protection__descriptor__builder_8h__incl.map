@@ -1,12 +1,28 @@
 <map id="src/api/mip/protection/protection_descriptor_builder.h" name="src/api/mip/protection/protection_descriptor_builder.h">
-<area shape="rect" id="node1" title="Defines ProtectionDescriptor interface." alt="" coords="325,5,489,61"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,184,56,211"/>
-<area shape="rect" id="node3" href="$mip__export_8h.html" title="A file export/import macros." alt="" coords="569,259,706,285"/>
-<area shape="rect" id="node4" href="$protection__descriptor_8h.html" title="Defines ProtectionDescriptor interface." alt="" coords="169,109,369,136"/>
-<area shape="rect" id="node8" href="$user__rights_8h.html" title="Defines UserRights class." alt="" coords="323,184,458,211"/>
-<area shape="rect" id="node10" href="$user__roles_8h.html" title="Defines UserRoles class." alt="" coords="483,184,613,211"/>
-<area shape="rect" id="node5" title=" " alt="" coords="80,184,147,211"/>
-<area shape="rect" id="node6" title=" " alt="" coords="171,184,248,211"/>
-<area shape="rect" id="node7" title=" " alt="" coords="361,259,420,285"/>
-<area shape="rect" id="node9" title=" " alt="" coords="470,259,533,285"/>
+<area shape="rect" id="Node000001" title="Defines ProtectionDescriptor interface." alt="" coords="325,5,489,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,181,56,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="325,54,243,78,158,110,103,142,57,175,54,171,100,138,156,106,241,73,323,49"/>
+<area shape="rect" id="Node000003" href="$mip__export_8h.html" title="A file export/import macros." alt="" coords="569,255,706,280"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="473,58,513,79,556,106,595,140,628,180,639,210,642,241,636,241,634,212,623,183,591,143,553,110,511,83,471,62"/>
+<area shape="rect" id="Node000004" href="$protection__descriptor_8h.html" title="Defines ProtectionDescriptor interface." alt="" coords="169,108,369,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="366,62,301,103,298,98,363,58"/>
+<area shape="rect" id="Node000008" href="$user__rights_8h.html" title="Defines UserRights class." alt="" coords="323,181,458,207"/>
+<area shape="poly" id="edge15_Node000001_Node000008" title=" " alt="" coords="407,60,396,168,391,167,401,60"/>
+<area shape="rect" id="Node000010" href="$user__roles_8h.html" title="Defines UserRoles class." alt="" coords="483,181,613,207"/>
+<area shape="poly" id="edge16_Node000001_Node000010" title=" " alt="" coords="432,58,531,169,527,173,428,62"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="231,136,70,183,69,178,230,131"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="80,181,147,207"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="245,136,152,178,150,173,243,131"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="171,181,248,207"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="261,135,230,173,226,169,257,132"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="361,255,420,280"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="275,132,289,167,313,205,335,227,360,245,357,250,332,231,309,208,284,169,270,134"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="290,131,361,172,358,177,287,136"/>
+<area shape="poly" id="edge11_Node000004_Node000010" title=" " alt="" coords="315,131,490,175,489,180,313,136"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="393,207,393,241,388,241,388,207"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="470,255,533,280"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="410,204,473,245,470,249,407,209"/>
+<area shape="poly" id="edge14_Node000010_Node000003" title=" " alt="" coords="564,205,614,244,610,248,561,209"/>
+<area shape="poly" id="edge12_Node000010_Node000007" title=" " alt="" coords="524,209,430,251,428,247,522,204"/>
+<area shape="poly" id="edge13_Node000010_Node000009" title=" " alt="" coords="543,208,519,245,514,242,538,206"/>
 </map>

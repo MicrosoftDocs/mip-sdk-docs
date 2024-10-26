@@ -1,13 +1,29 @@
 <map id="src/api/mip/task_dispatcher_delegate.h" name="src/api/mip/task_dispatcher_delegate.h">
-<area shape="rect" id="node1" title="A file containing the TaskDispatcherDelegate interface to be used to override MIP async task executor..." alt="" coords="115,5,317,47"/>
-<area shape="rect" id="node2" href="$file__profile_8h.html" title=" " alt="" coords="161,527,303,568"/>
-<area shape="rect" id="node3" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="43,259,207,300"/>
-<area shape="rect" id="node4" href="$telemetry__configuration_8h.html" title="Defines custom telemetry settings." alt="" coords="243,95,405,136"/>
-<area shape="rect" id="node11" href="$policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="608,437,773,479"/>
-<area shape="rect" id="node5" href="$mip__context_8h.html" title="File containing definition of MipContext." alt="" coords="235,184,426,211"/>
-<area shape="rect" id="node6" href="$file__handler_8h.html" title=" " alt="" coords="283,259,426,300"/>
-<area shape="rect" id="node9" href="$policy__handler_8h.html" title="This file contains the PolicyHandler class." alt="" coords="476,259,641,300"/>
-<area shape="rect" id="node7" href="$file__engine_8h.html" title=" " alt="" coords="270,437,413,479"/>
-<area shape="rect" id="node8" href="$file__execution__state_8h.html" title=" " alt="" coords="320,348,464,389"/>
-<area shape="rect" id="node10" href="$policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="488,348,653,389"/>
+<area shape="rect" id="Node000001" title="A file containing the TaskDispatcherDelegate interface to be used to override MIP async task executor..." alt="" coords="115,5,317,45"/>
+<area shape="rect" id="Node000002" href="$file__profile_8h.html" title=" " alt="" coords="161,519,303,559"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,53,97,75,53,106,35,124,21,145,11,168,8,193,8,364,12,393,24,418,41,441,63,461,115,494,169,516,167,521,113,498,60,465,37,445,19,421,7,394,3,364,3,192,6,166,16,142,31,121,50,102,94,71,142,48"/>
+<area shape="rect" id="Node000003" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="43,255,207,295"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="207,59,135,256,130,254,202,57"/>
+<area shape="rect" id="Node000004" href="$telemetry__configuration_8h.html" title="Defines custom telemetry settings." alt="" coords="243,93,405,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="252,52,302,91,298,95,249,56"/>
+<area shape="rect" id="Node000011" href="$policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="608,431,773,471"/>
+<area shape="poly" id="edge16_Node000001_Node000011" title=" " alt="" coords="330,37,460,57,594,89,653,110,700,133,732,161,741,176,744,192,744,276,740,321,729,364,702,432,697,430,724,363,734,320,739,276,739,193,736,178,728,164,697,138,651,114,593,94,459,63,329,42"/>
+<area shape="rect" id="Node000005" href="$mip__context_8h.html" title="File containing definition of MipContext." alt="" coords="235,181,426,207"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="329,147,332,181,327,181,324,147"/>
+<area shape="poly" id="edge10_Node000005_Node000002" title=" " alt="" coords="305,217,287,235,273,256,258,291,248,328,235,403,232,470,233,519,228,519,227,470,230,403,242,327,253,289,268,253,283,231,302,214"/>
+<area shape="poly" id="edge11_Node000005_Node000003" title=" " alt="" coords="289,214,176,257,174,252,287,209"/>
+<area shape="rect" id="Node000006" href="$file__handler_8h.html" title=" " alt="" coords="283,255,426,295"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="341,219,351,254,346,255,336,220"/>
+<area shape="rect" id="Node000009" href="$policy__handler_8h.html" title="This file contains the PolicyHandler class." alt="" coords="476,255,641,295"/>
+<area shape="poly" id="edge12_Node000005_Node000009" title=" " alt="" coords="377,209,505,252,503,257,376,214"/>
+<area shape="poly" id="edge15_Node000005_Node000011" title=" " alt="" coords="440,200,504,207,567,218,620,233,640,242,655,253,671,273,683,296,696,345,698,393,696,430,691,430,693,393,690,346,678,298,667,276,651,257,638,247,618,238,565,223,503,212,439,205"/>
+<area shape="rect" id="Node000007" href="$file__engine_8h.html" title=" " alt="" coords="270,431,413,471"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="331,307,319,324,311,343,308,366,312,389,331,429,326,432,307,391,303,366,305,342,314,322,326,304"/>
+<area shape="rect" id="Node000008" href="$file__execution__state_8h.html" title=" " alt="" coords="320,343,464,383"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="371,306,386,341,381,344,366,309"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="308,481,258,521,255,516,305,477"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="376,396,355,432,350,429,371,393"/>
+<area shape="rect" id="Node000010" href="$policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="488,343,653,383"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="566,308,571,342,565,343,561,309"/>
+<area shape="poly" id="edge14_Node000010_Node000011" title=" " alt="" coords="610,389,666,428,663,433,607,393"/>
 </map>

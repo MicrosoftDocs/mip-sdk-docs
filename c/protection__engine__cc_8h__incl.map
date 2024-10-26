@@ -1,19 +1,66 @@
 <map id="src/api/mip_cc/protection/protection_engine_cc.h" name="src/api/mip_cc/protection/protection_engine_cc.h">
-<area shape="rect" id="node1" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="867,5,1053,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="1139,512,1210,539"/>
-<area shape="rect" id="node3" href="$application__info__cc_8h.html" title="ApplicationInfo definition." alt="" coords="5,184,149,225"/>
-<area shape="rect" id="node4" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="498,512,683,539"/>
-<area shape="rect" id="node5" href="$auth__callback__cc_8h.html" title="Defines auth callback functions." alt="" coords="333,363,528,389"/>
-<area shape="rect" id="node8" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="653,363,859,389"/>
-<area shape="rect" id="node9" href="$consent__callback__cc_8h.html" title="Defines consent callback functions." alt="" coords="705,437,922,464"/>
-<area shape="rect" id="node10" href="$dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="1083,281,1253,307"/>
-<area shape="rect" id="node11" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="1328,363,1464,389"/>
-<area shape="rect" id="node12" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="1049,437,1191,464"/>
-<area shape="rect" id="node13" href="$protection__handler__cc_8h.html" title="Defines C&#45;Style ProtectionHandler interface." alt="" coords="1252,95,1460,136"/>
-<area shape="rect" id="node16" href="$string__list__cc_8h.html" title="Contains C API definitions for common string list." alt="" coords="1569,281,1738,307"/>
-<area shape="rect" id="node17" href="$template__descriptor__cc_8h.html" title="Defines C&#45;Style TemplateDescriptor functions." alt="" coords="755,273,957,315"/>
-<area shape="rect" id="node6" title=" " alt="" coords="403,437,477,464"/>
-<area shape="rect" id="node7" href="$identity__cc_8h.html" title="Identity definition." alt="" coords="224,437,379,464"/>
-<area shape="rect" id="node14" href="$protection__descriptor__cc_8h.html" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="1185,191,1428,218"/>
-<area shape="rect" id="node15" title=" " alt="" coords="1379,281,1443,307"/>
+<area shape="rect" id="Node000001" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="867,5,1053,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="1139,504,1210,529"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1053,23,1268,29,1396,37,1524,52,1641,74,1693,88,1738,104,1776,124,1804,146,1823,171,1829,200,1829,372,1824,394,1809,415,1785,432,1755,448,1677,473,1583,491,1482,504,1382,511,1224,518,1224,512,1382,506,1481,498,1582,486,1675,468,1753,443,1783,428,1805,411,1819,392,1824,371,1824,200,1818,173,1801,149,1773,128,1736,109,1691,93,1640,79,1523,57,1396,43,1268,34,1053,29"/>
+<area shape="rect" id="Node000003" href="$application__info__cc_8h.html" title="ApplicationInfo definition." alt="" coords="5,181,149,221"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="867,28,698,30,494,39,394,47,303,59,226,75,169,96,147,111,127,130,96,171,92,168,123,127,143,107,167,91,224,70,302,54,394,42,494,34,698,25,867,23"/>
+<area shape="rect" id="Node000004" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="498,504,683,529"/>
+<area shape="poly" id="edge25_Node000001_Node000004" title=" " alt="" coords="867,31,674,41,562,51,450,67,349,89,265,118,233,136,209,155,194,176,189,200,189,371,191,418,198,436,214,454,232,466,258,476,327,492,406,502,484,508,484,514,406,507,326,497,257,481,230,470,210,458,193,439,186,419,184,371,184,200,190,174,206,151,230,131,263,113,347,84,449,62,561,46,674,35,867,25"/>
+<area shape="rect" id="Node000005" href="$auth__callback__cc_8h.html" title="Defines auth callback functions." alt="" coords="333,357,528,383"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="867,38,714,59,645,76,599,96,567,122,538,153,513,187,492,223,460,291,440,345,435,343,455,289,487,220,509,184,534,150,563,118,596,91,644,71,713,54,867,32"/>
+<area shape="rect" id="Node000008" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="653,357,859,383"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="933,48,885,83,827,134,772,197,749,233,731,270,727,289,729,308,743,344,738,346,724,310,721,289,725,268,744,230,768,194,824,130,881,79,930,43"/>
+<area shape="rect" id="Node000009" href="$consent__callback__cc_8h.html" title="Defines consent callback functions." alt="" coords="705,431,922,456"/>
+<area shape="poly" id="edge13_Node000001_Node000009" title=" " alt="" coords="867,37,785,53,744,65,704,82,670,104,643,130,625,162,619,200,619,291,620,340,627,360,643,381,678,407,720,424,718,429,676,412,639,385,623,362,615,341,613,291,613,200,620,160,639,127,667,100,702,78,742,60,784,47,866,31"/>
+<area shape="rect" id="Node000010" href="$dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="1083,277,1253,302"/>
+<area shape="poly" id="edge16_Node000001_Node000010" title=" " alt="" coords="978,44,1015,92,1153,264,1148,267,1011,95,973,48"/>
+<area shape="rect" id="Node000011" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="1328,357,1464,383"/>
+<area shape="poly" id="edge24_Node000001_Node000011" title=" " alt="" coords="1053,30,1174,39,1305,52,1415,70,1453,80,1474,91,1495,118,1509,144,1517,170,1519,196,1516,223,1508,250,1481,311,1461,335,1437,353,1434,349,1458,331,1476,308,1503,249,1510,222,1513,196,1511,171,1504,146,1490,121,1470,95,1451,85,1414,75,1304,58,1173,44,1052,35"/>
+<area shape="rect" id="Node000012" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="1049,431,1191,456"/>
+<area shape="poly" id="edge46_Node000001_Node000012" title=" " alt="" coords="965,45,976,104,996,190,1026,287,1046,335,1069,381,1099,419,1095,423,1064,384,1041,338,1021,289,990,191,971,105,960,46"/>
+<area shape="rect" id="Node000013" href="$protection__handler__cc_8h.html" title="Defines C&#45;Style ProtectionHandler interface." alt="" coords="1252,93,1460,133"/>
+<area shape="poly" id="edge26_Node000001_Node000013" title=" " alt="" coords="1047,43,1257,88,1256,93,1046,48"/>
+<area shape="rect" id="Node000016" href="$string__list__cc_8h.html" title="Contains C API definitions for common string list." alt="" coords="1569,277,1738,302"/>
+<area shape="poly" id="edge47_Node000001_Node000016" title=" " alt="" coords="1053,24,1181,28,1327,38,1397,47,1460,58,1512,73,1551,91,1572,109,1591,129,1619,176,1639,223,1651,262,1645,264,1634,225,1615,179,1586,133,1568,112,1548,96,1510,78,1458,63,1396,52,1326,43,1181,33,1053,30"/>
+<area shape="rect" id="Node000017" href="$template__descriptor__cc_8h.html" title="Defines C&#45;Style TemplateDescriptor functions." alt="" coords="755,269,957,309"/>
+<area shape="poly" id="edge41_Node000001_Node000017" title=" " alt="" coords="955,46,871,257,866,255,950,44"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="81,221,85,270,99,333,110,367,125,399,145,429,170,454,192,467,223,478,303,494,396,505,484,510,484,515,395,510,302,500,221,483,190,472,166,458,141,432,121,402,105,369,93,335,80,270,75,222"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="461,380,563,416,694,453,815,476,935,492,1126,510,1125,515,935,497,814,481,693,459,561,422,459,385"/>
+<area shape="poly" id="edge9_Node000005_Node000004" title=" " alt="" coords="446,381,570,493,566,497,442,385"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="403,431,477,456"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="435,383,439,417,434,418,430,383"/>
+<area shape="rect" id="Node000007" href="$identity__cc_8h.html" title="Identity definition." alt="" coords="224,431,379,456"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="411,385,336,426,334,421,409,380"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="348,453,531,498,530,503,347,459"/>
+<area shape="poly" id="edge11_Node000008_Node000002" title=" " alt="" coords="792,380,936,428,1131,497,1129,502,934,433,790,385"/>
+<area shape="poly" id="edge12_Node000008_Node000004" title=" " alt="" coords="744,385,616,497,612,493,741,381"/>
+<area shape="poly" id="edge14_Node000009_Node000002" title=" " alt="" coords="872,453,1126,503,1125,508,871,459"/>
+<area shape="poly" id="edge15_Node000009_Node000004" title=" " alt="" coords="778,459,640,502,639,497,777,453"/>
+<area shape="poly" id="edge17_Node000010_Node000002" title=" " alt="" coords="1177,301,1189,329,1202,367,1210,411,1207,457,1192,493,1187,491,1201,455,1204,412,1197,368,1184,331,1172,303"/>
+<area shape="poly" id="edge22_Node000010_Node000004" title=" " alt="" coords="1158,304,1123,336,1070,378,1006,422,936,458,876,479,814,494,698,512,697,507,813,489,875,474,934,454,1003,417,1067,374,1119,332,1154,300"/>
+<area shape="poly" id="edge18_Node000010_Node000011" title=" " alt="" coords="1202,299,1351,350,1349,355,1200,305"/>
+<area shape="poly" id="edge23_Node000010_Node000012" title=" " alt="" coords="1167,303,1130,418,1125,417,1162,301"/>
+<area shape="poly" id="edge19_Node000011_Node000012" title=" " alt="" coords="1352,385,1179,430,1177,425,1351,380"/>
+<area shape="poly" id="edge20_Node000012_Node000002" title=" " alt="" coords="1131,455,1160,492,1155,495,1127,458"/>
+<area shape="poly" id="edge21_Node000012_Node000004" title=" " alt="" coords="1049,457,690,505,689,499,1048,452"/>
+<area shape="poly" id="edge27_Node000013_Node000002" title=" " alt="" coords="1449,131,1552,157,1659,192,1706,213,1744,236,1769,261,1776,274,1779,288,1779,372,1774,393,1760,412,1739,428,1711,443,1640,468,1554,486,1462,499,1370,508,1224,517,1223,511,1370,503,1461,494,1553,481,1638,462,1709,438,1736,424,1756,408,1769,390,1773,371,1773,288,1771,276,1765,264,1741,240,1704,218,1657,197,1551,162,1448,136"/>
+<area shape="poly" id="edge28_Node000013_Node000011" title=" " alt="" coords="1392,131,1419,152,1442,180,1460,214,1469,244,1468,274,1457,310,1443,333,1425,351,1422,347,1439,329,1452,308,1463,273,1464,244,1455,216,1438,183,1415,156,1389,136"/>
+<area shape="poly" id="edge35_Node000013_Node000012" title=" " alt="" coords="1267,136,1212,155,1157,183,1131,200,1108,221,1088,244,1073,270,1067,290,1065,309,1072,350,1088,387,1106,418,1101,420,1083,390,1067,351,1060,310,1062,288,1068,268,1084,241,1104,217,1128,196,1154,178,1210,150,1265,131"/>
+<area shape="rect" id="Node000014" href="$protection__descriptor__cc_8h.html" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="1185,189,1428,214"/>
+<area shape="poly" id="edge29_Node000013_Node000014" title=" " alt="" coords="1347,135,1323,178,1318,175,1343,132"/>
+<area shape="poly" id="edge36_Node000013_Node000016" title=" " alt="" coords="1402,131,1500,179,1571,224,1629,266,1626,271,1568,229,1497,184,1400,136"/>
+<area shape="poly" id="edge31_Node000014_Node000008" title=" " alt="" coords="1185,211,1054,220,917,233,804,250,766,260,746,271,738,287,736,306,747,344,741,346,731,307,732,286,742,267,764,255,803,245,916,228,1054,215,1185,206"/>
+<area shape="poly" id="edge32_Node000014_Node000010" title=" " alt="" coords="1289,216,1200,272,1197,267,1287,212"/>
+<area shape="poly" id="edge33_Node000014_Node000011" title=" " alt="" coords="1315,213,1386,344,1381,346,1310,215"/>
+<area shape="poly" id="edge34_Node000014_Node000012" title=" " alt="" coords="1307,215,1293,259,1268,311,1240,346,1208,377,1150,425,1146,421,1205,373,1236,342,1263,308,1288,257,1302,213"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="1379,277,1443,302"/>
+<area shape="poly" id="edge30_Node000014_Node000015" title=" " alt="" coords="1322,212,1388,266,1384,270,1319,216"/>
+<area shape="poly" id="edge37_Node000016_Node000002" title=" " alt="" coords="1656,302,1655,334,1649,376,1633,420,1621,441,1604,458,1576,475,1535,488,1430,505,1318,514,1225,518,1224,512,1318,509,1430,500,1533,483,1573,470,1601,454,1616,437,1628,418,1643,375,1650,333,1651,302"/>
+<area shape="poly" id="edge39_Node000016_Node000004" title=" " alt="" coords="1642,304,1593,344,1560,366,1525,385,1439,419,1369,436,1204,459,1068,478,931,493,697,512,697,507,930,488,1067,473,1204,453,1368,430,1437,413,1523,380,1558,362,1590,340,1639,300"/>
+<area shape="poly" id="edge38_Node000016_Node000011" title=" " alt="" coords="1617,305,1448,356,1446,351,1615,299"/>
+<area shape="poly" id="edge40_Node000016_Node000012" title=" " alt="" coords="1637,304,1569,344,1524,367,1477,385,1407,405,1335,420,1206,438,1205,433,1334,415,1405,400,1475,380,1522,362,1567,340,1635,300"/>
+<area shape="poly" id="edge43_Node000017_Node000004" title=" " alt="" coords="756,304,696,324,668,340,643,359,621,390,606,425,598,461,594,491,589,490,593,460,601,424,616,387,639,355,665,335,693,319,754,299"/>
+<area shape="poly" id="edge45_Node000017_Node000008" title=" " alt="" coords="833,312,783,351,780,346,830,307"/>
+<area shape="poly" id="edge42_Node000017_Node000011" title=" " alt="" coords="957,303,1314,354,1314,359,957,308"/>
+<area shape="poly" id="edge44_Node000017_Node000012" title=" " alt="" coords="879,307,924,343,980,380,1028,404,1075,423,1073,428,1026,409,977,385,921,348,876,311"/>
 </map>

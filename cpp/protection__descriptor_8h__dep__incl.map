@@ -1,15 +1,32 @@
 <map id="src/api/mip/protection_descriptor.h" name="src/api/mip/protection_descriptor.h">
-<area shape="rect" id="node1" title="Defines ProtectionDescriptor interface." alt="" coords="217,5,381,47"/>
-<area shape="rect" id="node2" href="$file__handler_8h.html" title=" " alt="" coords="75,199,218,240"/>
-<area shape="rect" id="node6" href="$protection__descriptor__builder_8h.html" title="Defines ProtectionDescriptor interface." alt="" coords="29,95,193,151"/>
-<area shape="rect" id="node7" href="$protection__engine_8h.html" title="Defines ProtectionEngine interface." alt="" coords="298,199,462,240"/>
-<area shape="rect" id="node9" href="$protection__handler_8h.html" title="Defines ProtectionHandler interface." alt="" coords="217,102,381,143"/>
-<area shape="rect" id="node10" href="$execution__state_8h.html" title="This file contains the ExecutionState class." alt="" coords="456,102,645,143"/>
-<area shape="rect" id="node3" href="$file__engine_8h.html" title=" " alt="" coords="130,377,273,419"/>
-<area shape="rect" id="node5" href="$file__execution__state_8h.html" title=" " alt="" coords="129,288,273,329"/>
-<area shape="rect" id="node4" href="$file__profile_8h.html" title=" " alt="" coords="130,467,273,508"/>
-<area shape="rect" id="node8" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="298,288,462,329"/>
-<area shape="rect" id="node11" href="$policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="563,288,728,329"/>
-<area shape="rect" id="node13" href="$policy__handler_8h.html" title="This file contains the PolicyHandler class." alt="" coords="588,199,753,240"/>
-<area shape="rect" id="node12" href="$policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="563,377,728,419"/>
+<area shape="rect" id="Node000001" title="Defines ProtectionDescriptor interface." alt="" coords="217,5,381,45"/>
+<area shape="rect" id="Node000002" href="$file__handler_8h.html" title=" " alt="" coords="75,196,218,236"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,39,147,48,92,60,46,76,29,85,18,95,10,108,8,120,11,132,18,147,30,162,45,174,79,194,76,198,42,179,26,165,14,149,6,134,3,120,5,106,14,92,26,81,44,71,90,55,146,43,203,34"/>
+<area shape="rect" id="Node000006" href="$protection__descriptor__builder_8h.html" title="Defines ProtectionDescriptor interface." alt="" coords="29,93,193,148"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="250,54,165,96,162,91,247,49"/>
+<area shape="rect" id="Node000007" href="$protection__engine_8h.html" title="Defines ProtectionEngine interface." alt="" coords="298,196,462,236"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="355,50,378,69,396,92,404,119,403,148,391,196,386,195,398,147,398,120,391,95,374,72,352,55"/>
+<area shape="rect" id="Node000009" href="$protection__handler_8h.html" title="Defines ProtectionHandler interface." alt="" coords="217,101,381,141"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="301,59,301,101,296,101,296,59"/>
+<area shape="rect" id="Node000010" href="$execution__state_8h.html" title="This file contains the ExecutionState class." alt="" coords="456,101,645,141"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="363,48,501,98,499,103,361,53"/>
+<area shape="rect" id="Node000003" href="$file__engine_8h.html" title=" " alt="" coords="130,372,273,412"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="129,249,116,286,115,305,120,323,140,349,166,370,163,374,136,353,115,325,110,305,111,285,124,247"/>
+<area shape="rect" id="Node000005" href="$file__execution__state_8h.html" title=" " alt="" coords="129,284,273,324"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="168,246,191,282,187,285,164,249"/>
+<area shape="rect" id="Node000004" href="$file__profile_8h.html" title=" " alt="" coords="130,460,273,500"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="204,426,204,460,199,460,199,426"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="204,338,204,372,199,372,199,338"/>
+<area shape="rect" id="Node000008" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="298,284,462,324"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="383,250,383,284,377,284,377,250"/>
+<area shape="poly" id="edge10_Node000009_Node000002" title=" " alt="" coords="258,150,179,198,176,194,255,145"/>
+<area shape="poly" id="edge11_Node000009_Node000007" title=" " alt="" coords="326,149,365,194,361,198,322,153"/>
+<area shape="poly" id="edge13_Node000010_Node000003" title=" " alt="" coords="550,155,543,194,530,240,509,287,494,308,476,326,429,357,376,377,323,389,273,394,273,388,322,383,375,372,427,352,473,322,490,304,504,284,525,239,538,193,545,154"/>
+<area shape="rect" id="Node000011" href="$policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="563,284,728,324"/>
+<area shape="poly" id="edge14_Node000010_Node000011" title=" " alt="" coords="555,154,563,194,578,235,598,261,621,282,617,286,594,264,574,237,557,195,550,155"/>
+<area shape="rect" id="Node000013" href="$policy__handler_8h.html" title="This file contains the PolicyHandler class." alt="" coords="588,196,753,236"/>
+<area shape="poly" id="edge16_Node000010_Node000013" title=" " alt="" coords="587,147,648,194,645,198,584,151"/>
+<area shape="rect" id="Node000012" href="$policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="563,372,728,412"/>
+<area shape="poly" id="edge15_Node000011_Node000012" title=" " alt="" coords="648,338,648,372,643,372,643,338"/>
+<area shape="poly" id="edge17_Node000013_Node000011" title=" " alt="" coords="664,250,653,285,648,283,659,248"/>
 </map>

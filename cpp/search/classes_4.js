@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['error_739',['Error',['../classmip_1_1Error.html',1,'mip']]],
-  ['executionstate_740',['ExecutionState',['../classmip_1_1ExecutionState.html',1,'mip']]]
+  ['httpdelegate_0',['HttpDelegate',['../classmip_1_1HttpDelegate.html',1,'mip']]],
+  ['httpoperation_1',['HttpOperation',['../classmip_1_1HttpOperation.html',1,'mip']]],
+  ['httprequest_2',['HttpRequest',['../classmip_1_1HttpRequest.html',1,'mip']]],
+  ['httpresponse_3',['HttpResponse',['../classmip_1_1HttpResponse.html',1,'mip']]]
 ];

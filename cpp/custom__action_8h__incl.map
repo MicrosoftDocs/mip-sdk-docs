@@ -1,12 +1,23 @@
 <map id="src/api/mip/upe/custom_action.h" name="src/api/mip/upe/custom_action.h">
-<area shape="rect" id="node1" title="A file Containing the CustomAction class." alt="" coords="53,5,228,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="215,169,274,196"/>
-<area shape="rect" id="node3" title=" " alt="" coords="25,95,85,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="109,95,172,121"/>
-<area shape="rect" id="node5" href="$action_8h.html" title="A file containing the Action base class and the ActionType enumerator." alt="" coords="197,95,327,121"/>
-<area shape="rect" id="node6" href="$common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="351,95,514,121"/>
-<area shape="rect" id="node7" title=" " alt="" coords="298,169,365,196"/>
-<area shape="rect" id="node8" title=" " alt="" coords="389,169,476,196"/>
-<area shape="rect" id="node9" title=" " alt="" coords="501,169,551,196"/>
-<area shape="rect" id="node10" title=" " alt="" coords="575,169,653,196"/>
+<area shape="rect" id="Node000001" title="A file Containing the CustomAction class." alt="" coords="53,5,228,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="215,167,274,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,48,46,62,21,78,9,97,9,106,15,117,26,127,44,136,94,152,202,171,201,176,92,157,42,141,23,131,10,120,4,108,4,95,17,74,44,57,76,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="25,93,85,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="122,48,80,86,76,82,118,44"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="109,93,172,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="143,46,143,79,138,79,138,46"/>
+<area shape="rect" id="Node000005" href="$action_8h.html" title="A file containing the Action base class and the ActionType enumerator." alt="" coords="197,93,327,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="171,43,234,84,231,88,168,48"/>
+<area shape="rect" id="Node000006" href="$common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="351,93,514,119"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="211,43,377,87,376,92,210,48"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="262,120,253,154,248,153,256,118"/>
+<area shape="poly" id="edge11_Node000006_Node000002" title=" " alt="" coords="403,121,288,165,286,160,401,116"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="298,167,365,192"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="418,121,360,161,357,156,415,116"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="389,167,476,192"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="435,119,435,153,430,153,430,119"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="501,167,551,192"/>
+<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="449,117,501,156,498,160,446,121"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="575,167,653,192"/>
+<area shape="poly" id="edge10_Node000006_Node000010" title=" " alt="" coords="463,116,572,159,570,164,461,121"/>
 </map>

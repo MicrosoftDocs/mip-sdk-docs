@@ -1,9 +1,16 @@
 <map id="src/api/mip/protection/protection_handler.h" name="src/api/mip/protection/protection_handler.h">
-<area shape="rect" id="node1" title="Defines ProtectionHandler interface." alt="" coords="137,5,301,47"/>
-<area shape="rect" id="node2" href="$file__handler_8h.html" title=" " alt="" coords="60,95,203,136"/>
-<area shape="rect" id="node6" href="$protection__engine_8h.html" title="Defines ProtectionEngine interface." alt="" coords="227,95,391,136"/>
-<area shape="rect" id="node3" href="$file__engine_8h.html" title=" " alt="" coords="5,273,148,315"/>
-<area shape="rect" id="node5" href="$file__execution__state_8h.html" title=" " alt="" coords="59,184,203,225"/>
-<area shape="rect" id="node4" href="$file__profile_8h.html" title=" " alt="" coords="5,363,148,404"/>
-<area shape="rect" id="node7" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="228,184,392,225"/>
+<area shape="rect" id="Node000001" title="Defines ProtectionHandler interface." alt="" coords="137,5,301,45"/>
+<area shape="rect" id="Node000002" href="$file__handler_8h.html" title=" " alt="" coords="60,93,203,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,57,153,95,149,91,188,53"/>
+<area shape="rect" id="Node000006" href="$protection__engine_8h.html" title="Defines ProtectionEngine interface." alt="" coords="227,93,391,133"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="251,53,291,91,287,95,247,57"/>
+<area shape="rect" id="Node000003" href="$file__engine_8h.html" title=" " alt="" coords="5,269,148,309"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,143,65,161,50,182,45,204,48,227,66,268,61,270,43,229,39,204,45,180,61,157,81,139"/>
+<area shape="rect" id="Node000005" href="$file__execution__state_8h.html" title=" " alt="" coords="59,181,203,221"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="134,147,134,181,129,181,129,147"/>
+<area shape="rect" id="Node000004" href="$file__profile_8h.html" title=" " alt="" coords="5,357,148,397"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="79,323,79,357,74,357,74,323"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="114,234,91,271,87,268,110,232"/>
+<area shape="rect" id="Node000007" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="228,181,392,221"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="312,147,312,181,307,181,307,147"/>
 </map>

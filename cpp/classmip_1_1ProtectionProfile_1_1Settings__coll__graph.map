@@ -1,15 +1,50 @@
 <map id="mip::ProtectionProfile::Settings" name="mip::ProtectionProfile::Settings">
-<area shape="rect" id="node1" title="Settings used by ProtectionProfile during its creation and throughout its lifetime." alt="" coords="1017,255,1180,297"/>
-<area shape="rect" id="node2" title=" " alt="" coords="611,6,770,47"/>
-<area shape="rect" id="node3" title=" " alt="" coords="157,225,315,252"/>
-<area shape="rect" id="node5" title=" " alt="" coords="611,72,770,128"/>
-<area shape="rect" id="node6" title=" " alt="" coords="611,153,770,194"/>
-<area shape="rect" id="node7" title=" " alt="" coords="611,218,770,259"/>
-<area shape="rect" id="node10" title=" " alt="" coords="589,283,792,325"/>
-<area shape="rect" id="node11" title=" " alt="" coords="611,349,770,390"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,285,44,312"/>
-<area shape="rect" id="node13" title=" " alt="" coords="171,345,301,372"/>
-<area shape="rect" id="node8" title=" " alt="" coords="647,480,734,507"/>
-<area shape="rect" id="node9" title=" " alt="" coords="167,473,305,514"/>
-<area shape="rect" id="node12" title=" " alt="" coords="588,414,793,455"/>
+<area shape="rect" id="Node000001" title="Settings used by ProtectionProfile during its creation and throughout its lifetime." alt="" coords="1535,331,1697,371"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="1112,242,1271,282"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1284,268,1394,284,1511,309,1570,329,1568,334,1510,314,1393,289,1284,274"/>
+<area shape="rect" id="Node000003" href="$classmip_1_1MipContext.html" title="MipContext represents state that is shared across all profiles, engines, handlers." alt="" coords="627,153,757,179"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="771,162,926,168,999,177,1027,184,1049,193,1058,201,1063,210,1066,219,1074,227,1113,246,1111,250,1070,231,1062,222,1058,213,1054,204,1047,198,1026,189,998,182,926,173,771,168"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="613,304,771,329"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="784,303,822,298,1112,267,1112,272,823,303,785,308"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="1072,307,1311,332"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="785,314,1072,316,1072,321,785,320"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="1098,421,1285,461"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="725,334,771,360,824,382,894,402,966,416,1098,432,1098,438,966,421,893,407,822,387,768,364,723,339"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="1112,163,1271,217"/>
+<area shape="poly" id="edge11_Node000008_Node000004" title=" " alt="" coords="727,295,771,274,822,255,885,242,935,239,984,236,1047,227,1111,212,1112,217,1049,233,985,242,935,244,885,248,823,261,773,279,729,300"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="1112,98,1271,138"/>
+<area shape="poly" id="edge14_Node000010_Node000004" title=" " alt="" coords="712,292,753,245,796,189,806,167,811,157,821,148,863,137,938,129,1112,118,1112,124,939,134,864,142,824,152,815,160,811,169,801,191,757,249,716,295"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="1090,357,1293,397"/>
+<area shape="poly" id="edge17_Node000012_Node000004" title=" " alt="" coords="774,329,823,337,1090,366,1090,371,822,342,773,334"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="332,361,371,387"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="384,366,615,327,616,332,385,371"/>
+<area shape="rect" id="Node000021" title=" " alt="" coords="627,488,757,513"/>
+<area shape="poly" id="edge27_Node000021_Node000005" title=" " alt="" coords="384,387,474,429,586,473,631,485,629,491,584,478,472,434,382,392"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1325,327,1535,343,1534,348,1324,332"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="1298,431,1402,417,1510,394,1575,369,1577,374,1511,399,1402,423,1299,436"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="1285,195,1396,215,1455,233,1512,257,1538,273,1562,292,1600,329,1596,333,1559,296,1535,277,1509,262,1454,238,1395,221,1284,200"/>
+<area shape="rect" id="Node000009" href="$classmip_1_1ProtectionProfile_1_1Observer.html" title="Interface that receives notifications related to ProtectionProfile." alt="" coords="611,55,773,95"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="787,76,946,85,1012,93,1049,102,1060,114,1063,126,1066,137,1074,148,1092,161,1113,170,1111,175,1090,165,1070,152,1061,140,1058,127,1055,116,1047,107,1011,98,946,90,787,81"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="1285,116,1340,122,1399,134,1458,154,1512,184,1548,217,1576,257,1597,297,1610,330,1605,332,1592,300,1572,260,1544,221,1509,188,1456,159,1398,140,1339,128,1284,122"/>
+<area shape="rect" id="Node000011" href="$classmip_1_1HttpDelegate.html" title="Interface for overriding HTTP handling." alt="" coords="621,5,763,31"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="777,17,906,27,978,37,1049,53,1105,73,1154,96,1152,100,1103,77,1047,58,977,43,906,32,777,22"/>
+<area shape="poly" id="edge15_Node000001_Node000012" title=" " alt="" coords="1306,374,1406,371,1510,365,1534,362,1534,367,1511,370,1406,377,1306,379"/>
+<area shape="rect" id="Node000013" href="$classmip_1_1TaskDispatcherDelegate.html" title="A class that defines the interface to the MIP SDK task dispatcher." alt="" coords="585,439,799,464"/>
+<area shape="poly" id="edge16_Node000012_Node000013" title=" " alt="" coords="813,461,881,465,948,466,1007,461,1047,449,1055,441,1058,430,1061,418,1070,407,1090,395,1093,399,1074,411,1066,421,1063,432,1060,443,1049,454,1008,466,949,471,881,471,812,467"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="308,581,395,607"/>
+<area shape="poly" id="edge18_Node000001_Node000014" title=" " alt="" coords="408,592,583,592,799,587,1055,573,1310,542,1369,538,1416,537,1459,530,1483,520,1509,505,1543,475,1571,438,1591,401,1605,370,1610,372,1596,403,1575,441,1547,478,1512,509,1485,525,1461,535,1416,543,1369,543,1311,547,1056,579,799,593,583,597,408,597"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="613,538,771,578"/>
+<area shape="poly" id="edge22_Node000017_Node000014" title=" " alt="" coords="408,585,612,564,613,569,409,591"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="5,574,144,614"/>
+<area shape="poly" id="edge19_Node000014_Node000015" title=" " alt="" coords="158,591,308,591,308,597,158,597"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="1089,493,1294,533"/>
+<area shape="poly" id="edge20_Node000001_Node000016" title=" " alt="" coords="1307,503,1409,485,1460,469,1509,448,1536,431,1560,410,1597,370,1601,373,1564,414,1539,435,1512,452,1462,474,1410,490,1308,508"/>
+<area shape="poly" id="edge21_Node000016_Node000017" title=" " alt="" coords="785,552,910,545,1048,533,1088,527,1089,533,1048,538,910,550,785,557"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="279,499,424,524"/>
+<area shape="poly" id="edge23_Node000017_Node000018" title=" " alt="" coords="438,520,613,545,612,550,437,526"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="55,461,94,487"/>
+<area shape="poly" id="edge24_Node000018_Node000019" title=" " alt="" coords="108,476,279,499,278,504,107,481"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="55,511,94,536"/>
+<area shape="poly" id="edge25_Node000018_Node000020" title=" " alt="" coords="108,520,255,515,278,514,278,519,255,521,108,525"/>
+<area shape="poly" id="edge26_Node000016_Node000021" title=" " alt="" coords="771,505,823,509,962,512,1089,512,1089,517,962,517,823,514,770,511"/>
 </map>

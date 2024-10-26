@@ -1,13 +1,27 @@
 <map id="src/api/mip/upe/recommend_label_action.h" name="src/api/mip/upe/recommend_label_action.h">
-<area shape="rect" id="node1" title="This file contains the RecommendLabelAction class." alt="" coords="71,5,275,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="213,244,272,271"/>
-<area shape="rect" id="node3" href="$action_8h.html" title="A file containing the Action base class and the ActionType enumerator." alt="" coords="5,95,136,121"/>
-<area shape="rect" id="node4" href="$label_8h.html" title="This file contains the Label class." alt="" coords="304,95,427,121"/>
-<area shape="rect" id="node5" title=" " alt="" coords="673,244,751,271"/>
-<area shape="rect" id="node6" title=" " alt="" coords="211,169,274,196"/>
-<area shape="rect" id="node7" href="$common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="512,169,675,196"/>
-<area shape="rect" id="node11" href="$mip__export_8h.html" title="A file export/import macros." alt="" coords="350,169,487,196"/>
-<area shape="rect" id="node8" title=" " alt="" coords="583,244,649,271"/>
-<area shape="rect" id="node9" title=" " alt="" coords="397,244,483,271"/>
-<area shape="rect" id="node10" title=" " alt="" coords="508,244,559,271"/>
+<area shape="rect" id="Node000001" title="This file contains the RecommendLabelAction class." alt="" coords="71,5,275,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="213,240,272,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,46,181,112,189,152,201,191,225,228,220,231,196,193,183,153,176,112,171,46"/>
+<area shape="rect" id="Node000003" href="$action_8h.html" title="A file containing the Action base class and the ActionType enumerator." alt="" coords="5,93,136,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="150,48,98,87,95,83,147,43"/>
+<area shape="rect" id="Node000004" href="$label_8h.html" title="This file contains the Label class." alt="" coords="304,93,427,119"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="220,43,326,86,324,91,218,48"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="83,117,115,151,156,190,213,230,210,235,153,194,111,155,79,121"/>
+<area shape="poly" id="edge6_Node000004_Node000002" title=" " alt="" coords="357,121,264,231,259,228,353,117"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="673,240,751,265"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="427,109,497,115,574,126,643,142,669,153,688,165,699,178,707,194,714,225,709,226,702,196,695,181,685,169,667,157,641,147,573,131,497,120,427,114"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="211,167,274,192"/>
+<area shape="poly" id="edge7_Node000004_Node000006" title=" " alt="" coords="347,121,276,162,273,157,344,116"/>
+<area shape="rect" id="Node000007" href="$common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="512,167,675,192"/>
+<area shape="poly" id="edge8_Node000004_Node000007" title=" " alt="" coords="403,116,544,160,542,165,401,121"/>
+<area shape="rect" id="Node000011" href="$mip__export_8h.html" title="A file export/import macros." alt="" coords="350,167,487,192"/>
+<area shape="poly" id="edge14_Node000004_Node000011" title=" " alt="" coords="376,117,404,154,400,157,372,121"/>
+<area shape="poly" id="edge13_Node000007_Node000002" title=" " alt="" coords="538,195,286,245,285,240,536,189"/>
+<area shape="poly" id="edge12_Node000007_Node000005" title=" " alt="" coords="614,190,682,230,679,235,611,194"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="583,240,649,265"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="600,192,611,226,606,228,595,193"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="397,240,483,265"/>
+<area shape="poly" id="edge10_Node000007_Node000009" title=" " alt="" coords="570,194,478,237,476,232,568,190"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="508,240,559,265"/>
+<area shape="poly" id="edge11_Node000007_Node000010" title=" " alt="" coords="585,194,554,231,550,228,581,191"/>
 </map>

@@ -1,6 +1,6 @@
 var classmip_1_1CustomAction =
 [
-    [ "GetName", "classmip_1_1CustomAction.html#a98e3b78e5cb809f064bc6ce1f9ecbd83", null ],
-    [ "GetProperties", "classmip_1_1CustomAction.html#a6bf10f50fe463cfd8324977b45a7f2ff", null ],
+    [ "GetName", "classmip_1_1CustomAction.html#a05c2ca5796d7bea7587064abcc1714bc", null ],
+    [ "GetProperties", "classmip_1_1CustomAction.html#a390baf09a2ab3aa86b57fe51f6fa6204", null ],
     [ "GetType", "classmip_1_1CustomAction.html#aa8e950f69dc0d60a8586401d1e370aa9", null ]
 ];

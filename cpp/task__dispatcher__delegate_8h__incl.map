@@ -1,6 +1,9 @@
 <map id="src/api/mip/task_dispatcher_delegate.h" name="src/api/mip/task_dispatcher_delegate.h">
-<area shape="rect" id="node1" title="A file containing the TaskDispatcherDelegate interface to be used to override MIP async task executor..." alt="" coords="55,5,256,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,92,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="117,95,194,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="218,95,277,121"/>
+<area shape="rect" id="Node000001" title="A file containing the TaskDispatcherDelegate interface to be used to override MIP async task executor..." alt="" coords="55,5,256,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,92,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,48,77,87,74,83,128,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="117,93,194,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,46,158,79,153,79,153,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="218,93,277,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="179,44,225,82,221,86,176,48"/>
 </map>

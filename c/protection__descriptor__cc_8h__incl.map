@@ -1,10 +1,24 @@
 <map id="src/api/mip_cc/protection_descriptor_cc.h" name="src/api/mip_cc/protection_descriptor_cc.h">
-<area shape="rect" id="node1" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="233,5,418,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="96,95,160,121"/>
-<area shape="rect" id="node3" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="5,244,211,271"/>
-<area shape="rect" id="node6" href="$dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="240,95,411,121"/>
-<area shape="rect" id="node7" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="387,169,523,196"/>
-<area shape="rect" id="node8" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="337,244,479,271"/>
-<area shape="rect" id="node4" title=" " alt="" coords="162,319,233,345"/>
-<area shape="rect" id="node5" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="257,319,442,345"/>
+<area shape="rect" id="Node000001" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="233,5,418,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="96,93,160,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="279,48,171,91,169,86,277,43"/>
+<area shape="rect" id="Node000003" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="5,240,211,265"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="294,48,262,69,230,95,198,129,168,166,124,230,120,227,164,163,194,126,226,91,258,65,291,43"/>
+<area shape="rect" id="Node000006" href="$dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="240,93,411,119"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="328,46,328,79,323,79,323,46"/>
+<area shape="rect" id="Node000007" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="387,167,523,192"/>
+<area shape="poly" id="edge13_Node000001_Node000007" title=" " alt="" coords="365,43,396,64,425,92,442,122,452,152,447,154,437,124,421,95,393,68,362,48"/>
+<area shape="rect" id="Node000008" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="337,240,479,265"/>
+<area shape="poly" id="edge14_Node000001_Node000008" title=" " alt="" coords="384,43,425,62,469,88,508,123,524,143,537,166,541,179,539,191,525,211,501,227,472,238,470,233,499,222,522,207,534,189,535,179,532,168,520,146,504,126,466,93,423,67,382,48"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="162,313,233,339"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="124,263,174,302,170,307,121,267"/>
+<area shape="rect" id="Node000005" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="257,313,442,339"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="148,263,298,307,296,312,146,268"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="321,120,214,302,209,300,316,118"/>
+<area shape="poly" id="edge11_Node000006_Node000005" title=" " alt="" coords="326,119,321,182,321,223,327,265,339,300,334,302,321,266,316,224,316,182,321,119"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="347,116,422,157,420,162,345,121"/>
+<area shape="poly" id="edge12_Node000006_Node000008" title=" " alt="" coords="334,118,397,227,392,229,330,120"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="449,194,425,230,421,227,445,191"/>
+<area shape="poly" id="edge9_Node000008_Node000004" title=" " alt="" coords="375,268,245,311,243,306,373,263"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="400,267,369,305,365,301,396,264"/>
 </map>

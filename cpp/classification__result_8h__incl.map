@@ -1,6 +1,9 @@
 <map id="src/api/mip/upe/classification_result.h" name="src/api/mip/upe/classification_result.h">
-<area shape="rect" id="node1" title="This file contains the ClassificationResult class." alt="" coords="13,5,224,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,56,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="80,95,157,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="181,95,240,121"/>
+<area shape="rect" id="Node000001" title="This file contains the ClassificationResult class." alt="" coords="13,5,224,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,56,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,48,56,86,52,82,96,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="80,93,157,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="121,46,121,79,116,79,116,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="181,93,240,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="143,44,188,82,185,86,139,48"/>
 </map>

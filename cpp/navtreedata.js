@@ -25,7 +25,6 @@
 var NAVTREE =
 [
   [ "MIP SDK for C++", "index.html", [
-    [ "Deprecated List", "deprecated.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -43,14 +42,14 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", null ],
-        [ "Enumerations", "functions_enum.html", null ]
+        [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -60,12 +59,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "action_8h.html",
-"classmip_1_1FileEngine_1_1Settings.html#a4764e68377acff7482fb1352f2bd8503",
-"classmip_1_1LabelNotFoundError.html#af8ea63dd27bc279cc7dbba13d65d93a3",
-"classmip_1_1PolicyProfile_1_1Settings.html#af2e5197c1906c7380e18a97c210f41fe",
-"classmip_1_1PublishingLicenseInfo.html#ae121d00ec62f8f6cdc2ad2c3e166e9df",
-"functions_func_p.html",
-"protect__by__template__dk__action_8h_source.html"
+"classmip_1_1FileEngine_1_1Settings.html#a6ca4d9836c5935bd3805a79c9578a8b8",
+"classmip_1_1HttpResponse.html#ac0c1f068bafa0aad63ff6e03baea60a9",
+"classmip_1_1ProtectionEngine.html#abe3e37296d8e43c6bd89944e321aec18",
+"classmip_1_1PublishingLicenseInfo.html#a2b7d4ae8bd89f49c250c0c4495f9818b",
+"http__request_8h.html#a2f4e24b6c7a867e1b1d734a0fdf9ad2aa03d947a2158373c3b9d74325850cb8b9"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['protectiontype_0',['ProtectionType',['../namespacemip.html#afdf27aa22f399f95d681c8ced08ba93b',1,'mip']]]
+  ['httprequesttype_0',['HttpRequestType',['../namespacemip.html#a2f4e24b6c7a867e1b1d734a0fdf9ad2a',1,'mip']]]
 ];

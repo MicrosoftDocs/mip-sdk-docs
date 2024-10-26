@@ -125,13 +125,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a72ea559bc0ded317f800bd2ae738d87d" id="r_a72ea559bc0ded317f800bd2ae738d87d"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classmip_1_1ProtectionEngine.html">ProtectionEngine</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72ea559bc0ded317f800bd2ae738d87d">AddEngine</a> (const <a class="el" href="classmip_1_1ProtectionEngine_1_1Settings.html">ProtectionEngine::Settings</a> &amp;settings)=0</td></tr>
 <tr class="memdesc:a72ea559bc0ded317f800bd2ae738d87d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new protection engine to the profile.  <br /></td></tr>
 <tr class="separator:a72ea559bc0ded317f800bd2ae738d87d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d151c6a0ac29c9373778c1fbf0cdbf3" id="r_a2d151c6a0ac29c9373778c1fbf0cdbf3"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; AsyncControl &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d151c6a0ac29c9373778c1fbf0cdbf3">AddEngineAsync</a> (const <a class="el" href="classmip_1_1ProtectionEngine_1_1Settings.html">ProtectionEngine::Settings</a> &amp;settings, const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
+<tr class="memitem:a2d151c6a0ac29c9373778c1fbf0cdbf3" id="r_a2d151c6a0ac29c9373778c1fbf0cdbf3"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classmip_1_1AsyncControl.html">AsyncControl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d151c6a0ac29c9373778c1fbf0cdbf3">AddEngineAsync</a> (const <a class="el" href="classmip_1_1ProtectionEngine_1_1Settings.html">ProtectionEngine::Settings</a> &amp;settings, const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
 <tr class="memdesc:a2d151c6a0ac29c9373778c1fbf0cdbf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts adding a new protection engine to the profile.  <br /></td></tr>
 <tr class="separator:a2d151c6a0ac29c9373778c1fbf0cdbf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b52e837d4122dca711e1e41595d5b3f" id="r_a1b52e837d4122dca711e1e41595d5b3f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b52e837d4122dca711e1e41595d5b3f">DeleteEngine</a> (const std::string &amp;engineId)=0</td></tr>
 <tr class="memdesc:a1b52e837d4122dca711e1e41595d5b3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the protection engine with the given ID.  <br /></td></tr>
 <tr class="separator:a1b52e837d4122dca711e1e41595d5b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a569ebea1a7ffbdb684df8dbccd56ed5b" id="r_a569ebea1a7ffbdb684df8dbccd56ed5b"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; AsyncControl &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a569ebea1a7ffbdb684df8dbccd56ed5b">DeleteEngineAsync</a> (const std::string &amp;engineId, const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
+<tr class="memitem:a569ebea1a7ffbdb684df8dbccd56ed5b" id="r_a569ebea1a7ffbdb684df8dbccd56ed5b"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classmip_1_1AsyncControl.html">AsyncControl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a569ebea1a7ffbdb684df8dbccd56ed5b">DeleteEngineAsync</a> (const std::string &amp;engineId, const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
 <tr class="memdesc:a569ebea1a7ffbdb684df8dbccd56ed5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts deleting the protection engine with the given ID.  <br /></td></tr>
 <tr class="separator:a569ebea1a7ffbdb684df8dbccd56ed5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef215fb613578b46d6d72bcbc1c2d196" id="r_aef215fb613578b46d6d72bcbc1c2d196"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classmip_1_1ProtectionProfile_1_1Settings.html">Settings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef215fb613578b46d6d72bcbc1c2d196">GetSettings</a> () const =0</td></tr>
@@ -140,7 +140,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a70d2610b0d85b9d7f8d018bdb76e66f7" id="r_a70d2610b0d85b9d7f8d018bdb76e66f7"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70d2610b0d85b9d7f8d018bdb76e66f7">ListEngines</a> ()=0</td></tr>
 <tr class="memdesc:a70d2610b0d85b9d7f8d018bdb76e66f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">List engines.  <br /></td></tr>
 <tr class="separator:a70d2610b0d85b9d7f8d018bdb76e66f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67c32b5a1bcf2f42a5de1644e543681d" id="r_a67c32b5a1bcf2f42a5de1644e543681d"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; AsyncControl &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67c32b5a1bcf2f42a5de1644e543681d">ListEnginesAsync</a> (const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
+<tr class="memitem:a67c32b5a1bcf2f42a5de1644e543681d" id="r_a67c32b5a1bcf2f42a5de1644e543681d"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classmip_1_1AsyncControl.html">AsyncControl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67c32b5a1bcf2f42a5de1644e543681d">ListEnginesAsync</a> (const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
 <tr class="memdesc:a67c32b5a1bcf2f42a5de1644e543681d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts list engines operation.  <br /></td></tr>
 <tr class="separator:a67c32b5a1bcf2f42a5de1644e543681d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -155,7 +155,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:af0cc2de590753b38c0ab9cc48d2b29df" id="r_af0cc2de590753b38c0ab9cc48d2b29df"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; <a class="el" href="classmip_1_1ProtectionProfile.html">ProtectionProfile</a> &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0cc2de590753b38c0ab9cc48d2b29df">Load</a> (const <a class="el" href="classmip_1_1ProtectionProfile_1_1Settings.html">Settings</a> &amp;settings)</td></tr>
 <tr class="memdesc:af0cc2de590753b38c0ab9cc48d2b29df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loading a profile based on the provided settings.  <br /></td></tr>
 <tr class="separator:af0cc2de590753b38c0ab9cc48d2b29df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa86fe95128d7cda5518033ff410fd013" id="r_aa86fe95128d7cda5518033ff410fd013"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; AsyncControl &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa86fe95128d7cda5518033ff410fd013">LoadAsync</a> (const <a class="el" href="classmip_1_1ProtectionProfile_1_1Settings.html">Settings</a> &amp;settings, const std::shared_ptr&lt; void &gt; &amp;context)</td></tr>
+<tr class="memitem:aa86fe95128d7cda5518033ff410fd013" id="r_aa86fe95128d7cda5518033ff410fd013"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; <a class="el" href="classmip_1_1AsyncControl.html">AsyncControl</a> &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa86fe95128d7cda5518033ff410fd013">LoadAsync</a> (const <a class="el" href="classmip_1_1ProtectionProfile_1_1Settings.html">Settings</a> &amp;settings, const std::shared_ptr&lt; void &gt; &amp;context)</td></tr>
 <tr class="memdesc:aa86fe95128d7cda5518033ff410fd013"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts loading a profile based on the provided settings.  <br /></td></tr>
 <tr class="separator:aa86fe95128d7cda5518033ff410fd013"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -209,7 +209,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::shared_ptr&lt; AsyncControl &gt; mip::ProtectionProfile::AddEngineAsync </td>
+          <td class="memname">virtual std::shared_ptr&lt; <a class="el" href="classmip_1_1AsyncControl.html">AsyncControl</a> &gt; mip::ProtectionProfile::AddEngineAsync </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classmip_1_1ProtectionEngine_1_1Settings.html">ProtectionEngine::Settings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
         </tr>
@@ -283,7 +283,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::shared_ptr&lt; AsyncControl &gt; mip::ProtectionProfile::DeleteEngineAsync </td>
+          <td class="memname">virtual std::shared_ptr&lt; <a class="el" href="classmip_1_1AsyncControl.html">AsyncControl</a> &gt; mip::ProtectionProfile::DeleteEngineAsync </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>engineId</em></span>, </td>
         </tr>
@@ -442,7 +442,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::shared_ptr&lt; AsyncControl &gt; mip::ProtectionProfile::ListEnginesAsync </td>
+          <td class="memname">virtual std::shared_ptr&lt; <a class="el" href="classmip_1_1AsyncControl.html">AsyncControl</a> &gt; mip::ProtectionProfile::ListEnginesAsync </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; void &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span></td><td>)</td>
           <td></td>
@@ -511,7 +511,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static MIP_API std::shared_ptr&lt; AsyncControl &gt; __CDECL mip::ProtectionProfile::LoadAsync </td>
+          <td class="memname">static MIP_API std::shared_ptr&lt; <a class="el" href="classmip_1_1AsyncControl.html">AsyncControl</a> &gt; __CDECL mip::ProtectionProfile::LoadAsync </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classmip_1_1ProtectionProfile_1_1Settings.html">Settings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
         </tr>

@@ -112,7 +112,7 @@ $(function(){initNavTree('classmip_1_1MipContext.html',''); initResizable(true);
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aafafa3b9443f1da103fa48011ccca0a6" id="r_aafafa3b9443f1da103fa48011ccca0a6"><td class="memItemLeft" align="right" valign="top">virtual const ApplicationInfo &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafafa3b9443f1da103fa48011ccca0a6">GetApplicationInfo</a> () const =0</td></tr>
+<tr class="memitem:aafafa3b9443f1da103fa48011ccca0a6" id="r_aafafa3b9443f1da103fa48011ccca0a6"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="structmip_1_1ApplicationInfo.html">ApplicationInfo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafafa3b9443f1da103fa48011ccca0a6">GetApplicationInfo</a> () const =0</td></tr>
 <tr class="memdesc:aafafa3b9443f1da103fa48011ccca0a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get application description.  <br /></td></tr>
 <tr class="separator:aafafa3b9443f1da103fa48011ccca0a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe6cee2b38960812806ee9e00d45a636" id="r_afe6cee2b38960812806ee9e00d45a636"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classmip_1_1LoggerDelegate.html">LoggerDelegate</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe6cee2b38960812806ee9e00d45a636">GetLoggerDelegate</a> ()=0</td></tr>
@@ -139,10 +139,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a7a79425daf0bfa149c03043e0788c830" id="r_a7a79425daf0bfa149c03043e0788c830"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; <a class="el" href="classmip_1_1MipContext.html">MipContext</a> &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a79425daf0bfa149c03043e0788c830">Create</a> (const ApplicationInfo &amp;appInfo, const std::string &amp;path, <a class="el" href="namespacemip.html#a227594dbf65dd76b6a9e58e765af5cda">LogLevel</a> thresholdLogLevel, bool isOfflineOnly, const std::shared_ptr&lt; <a class="el" href="classmip_1_1LoggerDelegate.html">LoggerDelegate</a> &gt; &amp;loggerDelegateOverride, const std::shared_ptr&lt; <a class="el" href="structmip_1_1TelemetryConfiguration.html">TelemetryConfiguration</a> &gt; &amp;telemetryOverride)</td></tr>
+<tr class="memitem:a7a79425daf0bfa149c03043e0788c830" id="r_a7a79425daf0bfa149c03043e0788c830"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; <a class="el" href="classmip_1_1MipContext.html">MipContext</a> &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a79425daf0bfa149c03043e0788c830">Create</a> (const <a class="el" href="structmip_1_1ApplicationInfo.html">ApplicationInfo</a> &amp;appInfo, const std::string &amp;path, <a class="el" href="namespacemip.html#a227594dbf65dd76b6a9e58e765af5cda">LogLevel</a> thresholdLogLevel, bool isOfflineOnly, const std::shared_ptr&lt; <a class="el" href="classmip_1_1LoggerDelegate.html">LoggerDelegate</a> &gt; &amp;loggerDelegateOverride, const std::shared_ptr&lt; <a class="el" href="structmip_1_1TelemetryConfiguration.html">TelemetryConfiguration</a> &gt; &amp;telemetryOverride)</td></tr>
 <tr class="memdesc:a7a79425daf0bfa149c03043e0788c830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <a class="el" href="classmip_1_1MipContext.html" title="MipContext represents state that is shared across all profiles, engines, handlers.">MipContext</a> instance to be used when initializing profiles.  <br /></td></tr>
 <tr class="separator:a7a79425daf0bfa149c03043e0788c830"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cb08c32a193e3fe79f8b0a8c2bbd975" id="r_a0cb08c32a193e3fe79f8b0a8c2bbd975"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; <a class="el" href="classmip_1_1MipContext.html">MipContext</a> &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cb08c32a193e3fe79f8b0a8c2bbd975">CreateWithCustomFeatureSettings</a> (const ApplicationInfo &amp;appInfo, const std::string &amp;path, <a class="el" href="namespacemip.html#a227594dbf65dd76b6a9e58e765af5cda">LogLevel</a> thresholdLogLevel, bool isOfflineOnly, const std::shared_ptr&lt; <a class="el" href="classmip_1_1LoggerDelegate.html">LoggerDelegate</a> &gt; &amp;loggerDelegateOverride, const std::shared_ptr&lt; <a class="el" href="structmip_1_1TelemetryConfiguration.html">TelemetryConfiguration</a> &gt; &amp;telemetryOverride, const std::map&lt; <a class="el" href="namespacemip.html#ab3be3938fca1ef01025416f6b4dd9209">FlightingFeature</a>, bool &gt; &amp;featureSettingsOverride)</td></tr>
+<tr class="memitem:a0cb08c32a193e3fe79f8b0a8c2bbd975" id="r_a0cb08c32a193e3fe79f8b0a8c2bbd975"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; <a class="el" href="classmip_1_1MipContext.html">MipContext</a> &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cb08c32a193e3fe79f8b0a8c2bbd975">CreateWithCustomFeatureSettings</a> (const <a class="el" href="structmip_1_1ApplicationInfo.html">ApplicationInfo</a> &amp;appInfo, const std::string &amp;path, <a class="el" href="namespacemip.html#a227594dbf65dd76b6a9e58e765af5cda">LogLevel</a> thresholdLogLevel, bool isOfflineOnly, const std::shared_ptr&lt; <a class="el" href="classmip_1_1LoggerDelegate.html">LoggerDelegate</a> &gt; &amp;loggerDelegateOverride, const std::shared_ptr&lt; <a class="el" href="structmip_1_1TelemetryConfiguration.html">TelemetryConfiguration</a> &gt; &amp;telemetryOverride, const std::map&lt; <a class="el" href="namespacemip.html#ab3be3938fca1ef01025416f6b4dd9209">FlightingFeature</a>, bool &gt; &amp;featureSettingsOverride)</td></tr>
 <tr class="memdesc:a0cb08c32a193e3fe79f8b0a8c2bbd975"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <a class="el" href="classmip_1_1MipContext.html" title="MipContext represents state that is shared across all profiles, engines, handlers.">MipContext</a> instance with custom feature settings.  <br /></td></tr>
 <tr class="separator:a0cb08c32a193e3fe79f8b0a8c2bbd975"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -163,7 +163,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">static MIP_API std::shared_ptr&lt; <a class="el" href="classmip_1_1MipContext.html">MipContext</a> &gt; __CDECL mip::MipContext::Create </td>
           <td>(</td>
-          <td class="paramtype">const ApplicationInfo &amp;</td>          <td class="paramname"><span class="paramname"><em>appInfo</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structmip_1_1ApplicationInfo.html">ApplicationInfo</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>appInfo</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -226,7 +226,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">static MIP_API std::shared_ptr&lt; <a class="el" href="classmip_1_1MipContext.html">MipContext</a> &gt; __CDECL mip::MipContext::CreateWithCustomFeatureSettings </td>
           <td>(</td>
-          <td class="paramtype">const ApplicationInfo &amp;</td>          <td class="paramname"><span class="paramname"><em>appInfo</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structmip_1_1ApplicationInfo.html">ApplicationInfo</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>appInfo</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -293,7 +293,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const ApplicationInfo &amp; mip::MipContext::GetApplicationInfo </td>
+          <td class="memname">virtual const <a class="el" href="structmip_1_1ApplicationInfo.html">ApplicationInfo</a> &amp; mip::MipContext::GetApplicationInfo </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>

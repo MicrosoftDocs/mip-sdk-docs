@@ -316,7 +316,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets whether or not <a class="el" href="classmip_1_1ProtectionHandler.html" title="Manages protection-related actions for a specific protection configuration.">ProtectionHandler</a> creation allows for online HTTP operations. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if HTTP operations are disallowed, else false</dd></dl>
-<dl class="section note"><dt>Note</dt><dd>If this is set to true, <a class="el" href="classmip_1_1ProtectionHandler.html" title="Manages protection-related actions for a specific protection configuration.">ProtectionHandler</a> creation will only succeed if content has already been previously decrypted and its unexpired license is cached. A mip::NetworkError will be thrown if cached content is not found. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If this is set to true, <a class="el" href="classmip_1_1ProtectionHandler.html" title="Manages protection-related actions for a specific protection configuration.">ProtectionHandler</a> creation will only succeed if content has already been previously decrypted and its unexpired license is cached. A <a class="el" href="classmip_1_1NetworkError.html" title="Networking error.">mip::NetworkError</a> will be thrown if cached content is not found. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00159">159</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  159</span>{ <span class="keywordflow">return</span> mIsOfflineOnly; }</div>
@@ -423,7 +423,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>If this is set to true, <a class="el" href="classmip_1_1ProtectionHandler.html" title="Manages protection-related actions for a specific protection configuration.">ProtectionHandler</a> creation will only succeed if content has already been previously decrypted and its unexpired license is cached. A mip::NetworkError will be thrown if cached content is not found. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If this is set to true, <a class="el" href="classmip_1_1ProtectionHandler.html" title="Manages protection-related actions for a specific protection configuration.">ProtectionHandler</a> creation will only succeed if content has already been previously decrypted and its unexpired license is cached. A <a class="el" href="classmip_1_1NetworkError.html" title="Networking error.">mip::NetworkError</a> will be thrown if cached content is not found. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00170">170</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  170</span>{ mIsOfflineOnly = isOfflineOnly; }</div>

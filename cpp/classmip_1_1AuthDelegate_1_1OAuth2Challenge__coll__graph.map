@@ -1,5 +1,7 @@
 <map id="mip::AuthDelegate::OAuth2Challenge" name="mip::AuthDelegate::OAuth2Challenge">
-<area shape="rect" id="node1" title="a class that contains all the information required from the calling application in order to generate ..." alt="" coords="5,229,157,271"/>
-<area shape="rect" id="node2" title=" " alt="" coords="38,96,125,123"/>
-<area shape="rect" id="node3" title=" " alt="" coords="12,5,151,47"/>
+<area shape="rect" id="Node000001" title="a class that contains all the information required from the calling application in order to generate ..." alt="" coords="5,227,157,267"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="38,95,125,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,134,84,226,79,226,79,134"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="12,5,151,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="84,59,84,94,79,94,79,59"/>
 </map>

@@ -117,10 +117,10 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1d475f87f5db862c2a504b7975122549" id="r_a1d475f87f5db862c2a504b7975122549"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; AsyncControl &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d475f87f5db862c2a504b7975122549">CreateFileHandlerAsync</a> (const std::shared_ptr&lt; <a class="el" href="classmip_1_1Stream.html">Stream</a> &gt; &amp;inputStream, const std::string &amp;actualFilePath, bool isAuditDiscoveryEnabled, const std::shared_ptr&lt; <a class="el" href="classmip_1_1FileHandler_1_1Observer.html">FileHandler::Observer</a> &gt; &amp;fileHandlerObserver, const std::shared_ptr&lt; void &gt; &amp;context, const std::shared_ptr&lt; <a class="el" href="classmip_1_1FileExecutionState.html">FileExecutionState</a> &gt; &amp;fileExecutionState=nullptr)=0</td></tr>
+<tr class="memitem:a1d475f87f5db862c2a504b7975122549" id="r_a1d475f87f5db862c2a504b7975122549"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classmip_1_1AsyncControl.html">AsyncControl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d475f87f5db862c2a504b7975122549">CreateFileHandlerAsync</a> (const std::shared_ptr&lt; <a class="el" href="classmip_1_1Stream.html">Stream</a> &gt; &amp;inputStream, const std::string &amp;actualFilePath, bool isAuditDiscoveryEnabled, const std::shared_ptr&lt; <a class="el" href="classmip_1_1FileHandler_1_1Observer.html">FileHandler::Observer</a> &gt; &amp;fileHandlerObserver, const std::shared_ptr&lt; void &gt; &amp;context, const std::shared_ptr&lt; <a class="el" href="classmip_1_1FileExecutionState.html">FileExecutionState</a> &gt; &amp;fileExecutionState=nullptr)=0</td></tr>
 <tr class="memdesc:a1d475f87f5db862c2a504b7975122549"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts creating a file handler for given file stream.  <br /></td></tr>
 <tr class="separator:a1d475f87f5db862c2a504b7975122549"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a243a322d5f5404cc0e38c10e3fcbfaac" id="r_a243a322d5f5404cc0e38c10e3fcbfaac"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; AsyncControl &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a243a322d5f5404cc0e38c10e3fcbfaac">CreateFileHandlerAsync</a> (const std::string &amp;inputFilePath, const std::string &amp;actualFilePath, bool isAuditDiscoveryEnabled, const std::shared_ptr&lt; <a class="el" href="classmip_1_1FileHandler_1_1Observer.html">FileHandler::Observer</a> &gt; &amp;fileHandlerObserver, const std::shared_ptr&lt; void &gt; &amp;context, const std::shared_ptr&lt; <a class="el" href="classmip_1_1FileExecutionState.html">FileExecutionState</a> &gt; &amp;fileExecutionState=nullptr)=0</td></tr>
+<tr class="memitem:a243a322d5f5404cc0e38c10e3fcbfaac" id="r_a243a322d5f5404cc0e38c10e3fcbfaac"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classmip_1_1AsyncControl.html">AsyncControl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a243a322d5f5404cc0e38c10e3fcbfaac">CreateFileHandlerAsync</a> (const std::string &amp;inputFilePath, const std::string &amp;actualFilePath, bool isAuditDiscoveryEnabled, const std::shared_ptr&lt; <a class="el" href="classmip_1_1FileHandler_1_1Observer.html">FileHandler::Observer</a> &gt; &amp;fileHandlerObserver, const std::shared_ptr&lt; void &gt; &amp;context, const std::shared_ptr&lt; <a class="el" href="classmip_1_1FileExecutionState.html">FileExecutionState</a> &gt; &amp;fileExecutionState=nullptr)=0</td></tr>
 <tr class="memdesc:a243a322d5f5404cc0e38c10e3fcbfaac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts creating a file handler for given file path.  <br /></td></tr>
 <tr class="separator:a243a322d5f5404cc0e38c10e3fcbfaac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8b62c85042c20252d7d9b129232fca7" id="r_ab8b62c85042c20252d7d9b129232fca7"><td class="memItemLeft" align="right" valign="top">virtual const std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8b62c85042c20252d7d9b129232fca7">GetCustomSettings</a> () const =0</td></tr>
@@ -181,7 +181,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::shared_ptr&lt; AsyncControl &gt; mip::FileEngine::CreateFileHandlerAsync </td>
+          <td class="memname">virtual std::shared_ptr&lt; <a class="el" href="classmip_1_1AsyncControl.html">AsyncControl</a> &gt; mip::FileEngine::CreateFileHandlerAsync </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classmip_1_1Stream.html">Stream</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>inputStream</em></span>, </td>
         </tr>
@@ -243,7 +243,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::shared_ptr&lt; AsyncControl &gt; mip::FileEngine::CreateFileHandlerAsync </td>
+          <td class="memname">virtual std::shared_ptr&lt; <a class="el" href="classmip_1_1AsyncControl.html">AsyncControl</a> &gt; mip::FileEngine::CreateFileHandlerAsync </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>inputFilePath</em></span>, </td>
         </tr>

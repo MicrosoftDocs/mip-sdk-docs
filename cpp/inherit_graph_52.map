@@ -1,3 +1,47 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classmip_1_1Stream.html" title="A class that defines the interface between the MIP SDK and stream&#45;based content." alt="" coords="5,5,108,32"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,400,120,425"/>
+<area shape="rect" id="Node000001" href="$classmip_1_1Error.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="168,400,255,425"/>
+<area shape="poly" id="edge20_Node000000_Node000001" title=" " alt="" coords="134,410,168,410,168,415,134,415"/>
+<area shape="rect" id="Node000002" href="$classmip_1_1AccessDeniedError.html" title="The user could not get access to the content." alt="" coords="323,71,501,96"/>
+<area shape="poly" id="edge21_Node000001_Node000002" title=" " alt="" coords="211,386,216,333,231,263,257,190,277,155,301,124,324,106,351,94,353,99,327,110,305,128,281,158,262,192,236,264,222,333,216,387"/>
+<area shape="rect" id="Node000006" href="$classmip_1_1AdhocProtectionRequiredError.html" title="Adhoc protection should be set to complete the action on the file." alt="" coords="303,138,521,178"/>
+<area shape="poly" id="edge25_Node000001_Node000006" title=" " alt="" coords="213,386,222,343,237,290,263,235,280,210,301,188,318,176,321,180,304,192,285,213,268,238,242,292,227,344,219,387"/>
+<area shape="rect" id="Node000007" href="$classmip_1_1BadInputError.html" title="Bad input error, thrown when the input to an SDK API is invalid." alt="" coords="340,203,484,228"/>
+<area shape="poly" id="edge26_Node000001_Node000007" title=" " alt="" coords="216,386,227,352,244,312,268,271,301,237,319,226,339,219,341,224,321,231,304,241,272,274,249,314,232,354,221,388"/>
+<area shape="rect" id="Node000012" href="$classmip_1_1ConsentDeniedError.html" title="An operation that required consent from user was not granted consent." alt="" coords="319,252,505,277"/>
+<area shape="poly" id="edge31_Node000001_Node000012" title=" " alt="" coords="222,386,252,335,275,309,301,286,324,275,326,280,304,291,278,312,257,338,226,389"/>
+<area shape="rect" id="Node000013" href="$classmip_1_1DeprecatedApiError.html" title="Caller invoked a deprecated API." alt="" coords="321,301,503,327"/>
+<area shape="poly" id="edge32_Node000001_Node000013" title=" " alt="" coords="232,388,263,361,301,336,332,324,333,329,304,340,266,365,235,392"/>
+<area shape="rect" id="Node000014" href="$classmip_1_1FileIOError.html" title="File IO error." alt="" coords="351,351,473,376"/>
+<area shape="poly" id="edge33_Node000001_Node000014" title=" " alt="" coords="267,394,302,385,350,373,351,379,303,390,269,399"/>
+<area shape="rect" id="Node000015" href="$classmip_1_1InternalError.html" title="Internal error." alt="" coords="344,400,480,425"/>
+<area shape="poly" id="edge34_Node000001_Node000015" title=" " alt="" coords="269,410,344,410,344,415,269,415"/>
+<area shape="rect" id="Node000016" href="$classmip_1_1JustificationRequiredError.html" title=" " alt="" coords="317,450,507,490"/>
+<area shape="poly" id="edge35_Node000001_Node000016" title=" " alt="" coords="269,426,342,447,341,453,267,431"/>
+<area shape="rect" id="Node000017" href="$classmip_1_1NetworkError.html" title="Networking error." alt="" coords="341,515,483,540"/>
+<area shape="poly" id="edge36_Node000001_Node000017" title=" " alt="" coords="233,435,264,469,304,500,342,515,340,519,301,504,260,473,229,439"/>
+<area shape="rect" id="Node000019" href="$classmip_1_1NoPolicyError.html" title="Tenant policy is not configured for classification/labels." alt="" coords="341,564,483,589"/>
+<area shape="poly" id="edge38_Node000001_Node000019" title=" " alt="" coords="224,437,254,495,277,525,304,550,342,567,339,572,301,555,273,529,249,498,220,439"/>
+<area shape="rect" id="Node000020" href="$classmip_1_1NotSupportedError.html" title="The operation requested by the application is not supported by the SDK." alt="" coords="325,613,499,639"/>
+<area shape="poly" id="edge39_Node000001_Node000020" title=" " alt="" coords="220,438,230,475,246,519,271,563,304,600,326,612,323,617,301,604,266,566,241,521,225,477,215,440"/>
+<area shape="rect" id="Node000021" href="$classmip_1_1OperationCancelledError.html" title="Operation was cancelled." alt="" coords="305,663,519,688"/>
+<area shape="poly" id="edge40_Node000001_Node000021" title=" " alt="" coords="217,438,224,484,239,542,265,600,283,626,304,649,322,660,319,665,301,653,278,630,260,603,234,543,219,485,212,439"/>
+<area shape="rect" id="Node000022" href="$classmip_1_1PrivilegedRequiredError.html" title="Current label was assigned as a privileged operation (The equivalent to an administrator operation),..." alt="" coords="307,712,517,737"/>
+<area shape="poly" id="edge41_Node000001_Node000022" title=" " alt="" coords="215,439,219,494,232,565,244,601,259,637,279,670,304,699,320,710,317,714,301,703,275,673,254,640,239,603,227,566,214,495,210,440"/>
+<area shape="rect" id="Node000003" href="$classmip_1_1NoAuthTokenError.html" title="The user could not get access to the content due to missing authentication token." alt="" coords="588,5,759,31"/>
+<area shape="poly" id="edge22_Node000002_Node000003" title=" " alt="" coords="473,64,569,39,615,28,617,33,570,45,474,70"/>
+<area shape="rect" id="Node000004" href="$classmip_1_1NoPermissionsError.html" title="The user could not get access to the content." alt="" coords="582,55,765,80"/>
+<area shape="poly" id="edge23_Node000002_Node000004" title=" " alt="" coords="514,74,582,70,582,76,515,80"/>
+<area shape="rect" id="Node000005" href="$classmip_1_1ServiceDisabledError.html" title="The user could not get access to the content due to a service being disabled." alt="" coords="578,104,769,129"/>
+<area shape="poly" id="edge24_Node000002_Node000005" title=" " alt="" coords="515,94,578,102,578,107,514,99"/>
+<area shape="rect" id="Node000008" href="$classmip_1_1InsufficientBufferError.html" title="Insufficient buffer error." alt="" coords="575,153,772,179"/>
+<area shape="poly" id="edge27_Node000007_Node000008" title=" " alt="" coords="493,197,605,176,606,181,494,203"/>
+<area shape="rect" id="Node000009" href="$classmip_1_1LabelDisabledError.html" title="Label is disabled or inactive." alt="" coords="584,203,763,228"/>
+<area shape="poly" id="edge28_Node000007_Node000009" title=" " alt="" coords="498,213,584,213,584,218,498,218"/>
+<area shape="rect" id="Node000010" href="$classmip_1_1LabelNotFoundError.html" title="Label ID is not recognized." alt="" coords="582,252,765,277"/>
+<area shape="poly" id="edge29_Node000007_Node000010" title=" " alt="" coords="494,228,606,249,605,255,493,233"/>
+<area shape="rect" id="Node000011" href="$classmip_1_1TemplateNotFoundError.html" title="Template ID is not recognized by RMS service." alt="" coords="569,301,777,327"/>
+<area shape="poly" id="edge30_Node000007_Node000011" title=" " alt="" coords="498,226,523,237,538,249,548,262,556,275,571,286,600,299,598,304,568,291,552,278,543,265,534,253,520,242,496,231"/>
+<area shape="rect" id="Node000018" href="$classmip_1_1ProxyAuthenticationError.html" title="Proxy authentication failure." alt="" coords="580,507,767,547"/>
+<area shape="poly" id="edge37_Node000017_Node000018" title=" " alt="" coords="497,525,580,525,580,530,497,530"/>
 </map>

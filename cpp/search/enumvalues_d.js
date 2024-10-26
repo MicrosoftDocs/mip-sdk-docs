@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['templatebased_0',['TemplateBased',['../namespacemip.html#afdf27aa22f399f95d681c8ced08ba93ba49999110d479350198140fd0ccf62620',1,'mip']]],
-  ['trace_1',['Trace',['../namespacemip.html#a227594dbf65dd76b6a9e58e765af5cdaadd4ec0ac4e58f7c32a01244ae91150b1',1,'mip']]],
-  ['txt_2',['TXT',['../namespacemip.html#ab76c5a5fc3a0620062603635f584d186a5956a437e724cdfc8b1c70dc7bdeebcb',1,'mip']]]
+  ['offline_0',['Offline',['../classmip_1_1NetworkError.html#a0ef86be2d746342426a5a9027361e996a8d9da4bc0e49a50e09ac9f7e56789d39',1,'mip::NetworkError']]],
+  ['ondisk_1',['OnDisk',['../namespacemip.html#a29ab821f06a2d821a0fd95a5b6dfe15ea833090cabdf22e20748ef66fc755e11e',1,'mip']]],
+  ['ondiskencrypted_2',['OnDiskEncrypted',['../namespacemip.html#a29ab821f06a2d821a0fd95a5b6dfe15eace61c9ea080c2eeab93002c01b8ceb8f',1,'mip']]],
+  ['operation_5fcancelled_3',['OPERATION_CANCELLED',['../namespacemip.html#a5de2b587c29fcb4550b4d1274ebf3af3a2cd6e48f7d0c54dfa8ae2c41385a6925',1,'mip']]]
 ];

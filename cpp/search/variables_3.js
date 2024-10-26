@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['librarynameoverride_0',['libraryNameOverride',['../structmip_1_1TelemetryConfiguration.html#a9bbe365c90a0def3b76489cfce14fdd6',1,'mip::TelemetryConfiguration']]]
+  ['isfastshutdownenabled_0',['isFastShutdownEnabled',['../structmip_1_1TelemetryConfiguration.html#a02a372c04109f906a677f709146ee44f',1,'mip::TelemetryConfiguration']]],
+  ['islocalcachingenabled_1',['isLocalCachingEnabled',['../structmip_1_1TelemetryConfiguration.html#af99dfc06e6344246d711d7be7e188c08',1,'mip::TelemetryConfiguration']]],
+  ['isnetworkdetectionenabled_2',['isNetworkDetectionEnabled',['../structmip_1_1TelemetryConfiguration.html#aad8218cedbd8ebd5670fe1229ed83a15',1,'mip::TelemetryConfiguration']]],
+  ['istelemetryoptedout_3',['isTelemetryOptedOut',['../structmip_1_1TelemetryConfiguration.html#acd3cd04185a3c4263c573ff271bdb15d',1,'mip::TelemetryConfiguration']]],
+  ['istraceloggingenabled_4',['isTraceLoggingEnabled',['../structmip_1_1TelemetryConfiguration.html#a3377484df32d00149cb993d6269763cb',1,'mip::TelemetryConfiguration']]]
 ];

@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "Microsoft Information Protection (MIP) SDK for C++: Reference", "index.html", [
+    [ "Deprecated List", "deprecated.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -42,7 +43,8 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", null ]
+        [ "Variables", "functions_vars.html", null ],
+        [ "Enumerations", "functions_enum.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -59,11 +61,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "action_8h.html",
-"classmip_1_1FileEngine_1_1Settings.html#a6ca4d9836c5935bd3805a79c9578a8b8",
-"classmip_1_1HttpResponse.html#ac0c1f068bafa0aad63ff6e03baea60a9",
-"classmip_1_1ProtectionEngine.html#abe3e37296d8e43c6bd89944e321aec18",
-"classmip_1_1PublishingLicenseInfo.html#a2b7d4ae8bd89f49c250c0c4495f9818b",
-"http__request_8h.html#a2f4e24b6c7a867e1b1d734a0fdf9ad2aa03d947a2158373c3b9d74325850cb8b9"
+"classmip_1_1ClassificationResult.html",
+"classmip_1_1FileEngine_1_1Settings.html#ab998e2d3bed130ad70706d003fe3cb53",
+"classmip_1_1HttpRequest.html#ad623cd0bd5f9d0ed95af8f9b917055a7",
+"classmip_1_1MetadataAction.html#a7f033c3fdce403d84a661084e89339cf",
+"classmip_1_1OperationCancelledError.html#a3d3bab1423e02968b2cc580d4669207f",
+"classmip_1_1ProtectionHandler.html#ab8ba831b558241cb1e1832996eb316d9",
+"classmip_1_1PublishingLicenseInfo.html#a586d19b187f113e74a2cce50cc2b9f88",
+"common__types_8h.html#ab9cd4e3e670bb3c61ddfb33f464862b5",
+"namespacemip.html#a68fcef215143a0112803c05f967a09c7"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

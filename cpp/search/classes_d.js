@@ -1,5 +1,20 @@
 var searchData=
 [
-  ['userrights_0',['UserRights',['../classmip_1_1UserRights.html',1,'mip']]],
-  ['userroles_1',['UserRoles',['../classmip_1_1UserRoles.html',1,'mip']]]
+  ['policyhandler_0',['PolicyHandler',['../classmip_1_1PolicyHandler.html',1,'mip']]],
+  ['privilegedrequirederror_1',['PrivilegedRequiredError',['../classmip_1_1PrivilegedRequiredError.html',1,'mip']]],
+  ['protectadhocaction_2',['ProtectAdhocAction',['../classmip_1_1ProtectAdhocAction.html',1,'mip']]],
+  ['protectadhocdkaction_3',['ProtectAdhocDkAction',['../classmip_1_1ProtectAdhocDkAction.html',1,'mip']]],
+  ['protectbytemplateaction_4',['ProtectByTemplateAction',['../classmip_1_1ProtectByTemplateAction.html',1,'mip']]],
+  ['protectbytemplatedkaction_5',['ProtectByTemplateDkAction',['../classmip_1_1ProtectByTemplateDkAction.html',1,'mip']]],
+  ['protectdonotforwardaction_6',['ProtectDoNotForwardAction',['../classmip_1_1ProtectDoNotForwardAction.html',1,'mip']]],
+  ['protectdonotforwarddkaction_7',['ProtectDoNotForwardDkAction',['../classmip_1_1ProtectDoNotForwardDkAction.html',1,'mip']]],
+  ['protectiondescriptor_8',['ProtectionDescriptor',['../classmip_1_1ProtectionDescriptor.html',1,'mip']]],
+  ['protectiondescriptorbuilder_9',['ProtectionDescriptorBuilder',['../classmip_1_1ProtectionDescriptorBuilder.html',1,'mip']]],
+  ['protectionengine_10',['ProtectionEngine',['../classmip_1_1ProtectionEngine.html',1,'mip']]],
+  ['protectionhandler_11',['ProtectionHandler',['../classmip_1_1ProtectionHandler.html',1,'mip']]],
+  ['protectionprofile_12',['ProtectionProfile',['../classmip_1_1ProtectionProfile.html',1,'mip']]],
+  ['protectionsettings_13',['ProtectionSettings',['../classmip_1_1ProtectionSettings.html',1,'mip']]],
+  ['proxyauthenticationerror_14',['ProxyAuthenticationError',['../classmip_1_1ProxyAuthenticationError.html',1,'mip']]],
+  ['publishinglicenseinfo_15',['PublishingLicenseInfo',['../classmip_1_1PublishingLicenseInfo.html',1,'mip']]],
+  ['publishingsettings_16',['PublishingSettings',['../classmip_1_1ProtectionHandler_1_1PublishingSettings.html',1,'mip::ProtectionHandler']]]
 ];

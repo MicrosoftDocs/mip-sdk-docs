@@ -2,14 +2,18 @@ var searchData=
 [
   ['edit_0',['Edit',['../namespacemip_1_1rights.html#ab0a2580b9245f9d068c48c5dd04c8343',1,'mip::rights']]],
   ['editabledocumentrights_1',['EditableDocumentRights',['../namespacemip_1_1rights.html#a812cb2f3f700cea69c035eff3eb0cefa',1,'mip::rights']]],
-  ['emailrights_2',['EmailRights',['../namespacemip_1_1rights.html#a15ea35e61cf4b0061240bf4fa3e91bed',1,'mip::rights']]],
-  ['enablepfile_3',['EnablePFile',['../classmip_1_1FileEngine_1_1Settings.html#a05bcc74249cc39b590d7204df3c06919',1,'mip::FileEngine::Settings']]],
-  ['encryptbuffer_4',['EncryptBuffer',['../classmip_1_1ProtectionHandler.html#acbaa0d7b0088fc239f7299508fdc4a87',1,'mip::ProtectionHandler']]],
-  ['error_5',['Error',['../namespacemip.html#a227594dbf65dd76b6a9e58e765af5cdaa902b0d55fddef6f8d651fe1035b7d4bd',1,'mip']]],
-  ['error_2eh_6',['error.h',['../error_8h.html',1,'']]],
-  ['executetaskonindependentthread_7',['ExecuteTaskOnIndependentThread',['../classmip_1_1TaskDispatcherDelegate.html#a5c3f3bef7e636b228040f3e5553138cd',1,'mip::TaskDispatcherDelegate']]],
-  ['execution_5fstate_2eh_8',['execution_state.h',['../execution__state_8h.html',1,'']]],
-  ['executionstate_9',['ExecutionState',['../classmip_1_1ExecutionState.html',1,'mip']]],
-  ['export_10',['Export',['../namespacemip_1_1rights.html#a02b8aa03d47e647efadbeec314df168f',1,'mip::rights']]],
-  ['extract_11',['Extract',['../namespacemip_1_1rights.html#ad88d7bb954ece11bca74076055dd5d56',1,'mip::rights']]]
+  ['email_2',['EMAIL',['../namespacemip.html#a0fb86e548fda7221e987470f0baa12c5a61a649a33f2869e5e35fbb7aff3a80d9',1,'mip']]],
+  ['emailrights_3',['EmailRights',['../namespacemip_1_1rights.html#a15ea35e61cf4b0061240bf4fa3e91bed',1,'mip::rights']]],
+  ['enablepfile_4',['EnablePFile',['../classmip_1_1FileEngine_1_1Settings.html#a05bcc74249cc39b590d7204df3c06919',1,'mip::FileEngine::Settings']]],
+  ['encryptbuffer_5',['EncryptBuffer',['../classmip_1_1ProtectionHandler.html#acbaa0d7b0088fc239f7299508fdc4a87',1,'mip::ProtectionHandler']]],
+  ['encryptonly_6',['EncryptOnly',['../namespacemip.html#a935b0ba29c43d4c95a2318a8104d3049a2e96e13acab0d47fac3637a3d4f27bb3',1,'mip']]],
+  ['error_7',['Error',['../classmip_1_1Error.html',1,'mip::Error'],['../namespacemip.html#a227594dbf65dd76b6a9e58e765af5cdaa902b0d55fddef6f8d651fe1035b7d4bd',1,'mip::Error']]],
+  ['error_2eh_8',['error.h',['../error_8h.html',1,'']]],
+  ['errortype_9',['ErrorType',['../namespacemip.html#a5de2b587c29fcb4550b4d1274ebf3af3',1,'mip']]],
+  ['executetaskonindependentthread_10',['ExecuteTaskOnIndependentThread',['../classmip_1_1TaskDispatcherDelegate.html#a5c3f3bef7e636b228040f3e5553138cd',1,'mip::TaskDispatcherDelegate']]],
+  ['execution_5fstate_2eh_11',['execution_state.h',['../execution__state_8h.html',1,'']]],
+  ['executionstate_12',['ExecutionState',['../classmip_1_1ExecutionState.html',1,'mip']]],
+  ['export_13',['Export',['../namespacemip_1_1rights.html#a02b8aa03d47e647efadbeec314df168f',1,'mip::rights']]],
+  ['extent_14',['Extent',['../classmip_1_1ServiceDisabledError.html#accdeb0908d002dd530b62a7dcb06e5d0',1,'mip::ServiceDisabledError']]],
+  ['extract_15',['Extract',['../namespacemip_1_1rights.html#ad88d7bb954ece11bca74076055dd5d56',1,'mip::rights']]]
 ];

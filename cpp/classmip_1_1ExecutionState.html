@@ -117,7 +117,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab53e73b2118170c74e61bac0434ad5c6" id="r_ab53e73b2118170c74e61bac0434ad5c6"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="namespacemip.html#a0c812e16bb9815eb38271c58d990e4c1">ClassificationResults</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab53e73b2118170c74e61bac0434ad5c6">GetClassificationResults</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classmip_1_1ClassificationRequest.html">ClassificationRequest</a> &gt; &gt; &amp;) const</td></tr>
 <tr class="memdesc:ab53e73b2118170c74e61bac0434ad5c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a map of classification results.  <br /></td></tr>
 <tr class="separator:ab53e73b2118170c74e61bac0434ad5c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fb7bbff6e081f7ef520135d8f6c8228" id="r_a7fb7bbff6e081f7ef520135d8f6c8228"><td class="memItemLeft" align="right" valign="top">virtual ContentFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fb7bbff6e081f7ef520135d8f6c8228">GetContentFormat</a> () const =0</td></tr>
+<tr class="memitem:a7fb7bbff6e081f7ef520135d8f6c8228" id="r_a7fb7bbff6e081f7ef520135d8f6c8228"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemip.html#a0fb86e548fda7221e987470f0baa12c5">ContentFormat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fb7bbff6e081f7ef520135d8f6c8228">GetContentFormat</a> () const =0</td></tr>
 <tr class="memdesc:a7fb7bbff6e081f7ef520135d8f6c8228"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the content format.  <br /></td></tr>
 <tr class="separator:a7fb7bbff6e081f7ef520135d8f6c8228"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfd5349ca95232aa939f173f8d2fec21" id="r_abfd5349ca95232aa939f173f8d2fec21"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfd5349ca95232aa939f173f8d2fec21">GetContentIdentifier</a> () const =0</td></tr>
@@ -126,13 +126,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af06ecaf92609b079fb894ad82a5c7fe5" id="r_af06ecaf92609b079fb894ad82a5c7fe5"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af06ecaf92609b079fb894ad82a5c7fe5">GetContentMetadata</a> (const std::vector&lt; std::string &gt; &amp;names, const std::vector&lt; std::string &gt; &amp;namePrefixes) const =0</td></tr>
 <tr class="memdesc:af06ecaf92609b079fb894ad82a5c7fe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the meta-data items from the content.  <br /></td></tr>
 <tr class="separator:af06ecaf92609b079fb894ad82a5c7fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad82dad40453f9c00d481de5160b75164" id="r_ad82dad40453f9c00d481de5160b75164"><td class="memItemLeft" align="right" valign="top">virtual DataState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad82dad40453f9c00d481de5160b75164">GetDataState</a> () const</td></tr>
+<tr class="memitem:ad82dad40453f9c00d481de5160b75164" id="r_ad82dad40453f9c00d481de5160b75164"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemip.html#a286e97fa10ea58abe5055d5949cde117">DataState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad82dad40453f9c00d481de5160b75164">GetDataState</a> () const</td></tr>
 <tr class="memdesc:ad82dad40453f9c00d481de5160b75164"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the state of the content while the application is interacting with it.  <br /></td></tr>
 <tr class="separator:ad82dad40453f9c00d481de5160b75164"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a652650b9f39f7c737b5f0e831889c6a9" id="r_a652650b9f39f7c737b5f0e831889c6a9"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classmip_1_1Label.html">Label</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a652650b9f39f7c737b5f0e831889c6a9">GetNewLabel</a> () const =0</td></tr>
 <tr class="memdesc:a652650b9f39f7c737b5f0e831889c6a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the sensitivity label ID that should be applied on the document.  <br /></td></tr>
 <tr class="separator:a652650b9f39f7c737b5f0e831889c6a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6af387c3d8bf6c2dd5da99bf5f3b63d4" id="r_a6af387c3d8bf6c2dd5da99bf5f3b63d4"><td class="memItemLeft" align="right" valign="top">virtual AssignmentMethod&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6af387c3d8bf6c2dd5da99bf5f3b63d4">GetNewLabelAssignmentMethod</a> () const =0</td></tr>
+<tr class="memitem:a6af387c3d8bf6c2dd5da99bf5f3b63d4" id="r_a6af387c3d8bf6c2dd5da99bf5f3b63d4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemip.html#ae02407abda6d300ea4f3e27633343344">AssignmentMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6af387c3d8bf6c2dd5da99bf5f3b63d4">GetNewLabelAssignmentMethod</a> () const =0</td></tr>
 <tr class="memdesc:a6af387c3d8bf6c2dd5da99bf5f3b63d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the new label's assignment method.  <br /></td></tr>
 <tr class="separator:a6af387c3d8bf6c2dd5da99bf5f3b63d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2923ee56926e43aa45bf897662bbc4d" id="r_ae2923ee56926e43aa45bf897662bbc4d"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2923ee56926e43aa45bf897662bbc4d">GetNewLabelExtendedProperties</a> () const</td></tr>
@@ -238,7 +238,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual ContentFormat mip::ExecutionState::GetContentFormat </td>
+          <td class="memname">virtual <a class="el" href="namespacemip.html#a0fb86e548fda7221e987470f0baa12c5">ContentFormat</a> mip::ExecutionState::GetContentFormat </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -253,7 +253,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets the content format. </p>
 <dl class="section return"><dt>Returns</dt><dd>DEFAULT, EMAIL </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>mip::ContentFormat </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacemip.html#a0fb86e548fda7221e987470f0baa12c5" title="Content format.">mip::ContentFormat</a> </dd></dl>
 
 </div>
 </div>
@@ -330,7 +330,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual DataState mip::ExecutionState::GetDataState </td>
+          <td class="memname">virtual <a class="el" href="namespacemip.html#a286e97fa10ea58abe5055d5949cde117">DataState</a> mip::ExecutionState::GetDataState </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -348,9 +348,12 @@ Public Member Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="execution__state_8h_source.html#l00092">92</a> of file <a class="el" href="execution__state_8h_source.html">execution_state.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   92</span>                                         {</div>
-<div class="line"><span class="lineno">   93</span>    <span class="keywordflow">return</span> DataState::USE;</div>
+<div class="line"><span class="lineno">   93</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="namespacemip.html#a286e97fa10ea58abe5055d5949cde117a7dc33953b23388ad93a4db20e33d26e4">DataState::USE</a>;</div>
 <div class="line"><span class="lineno">   94</span>  };</div>
+<div class="ttc" id="anamespacemip_html_a286e97fa10ea58abe5055d5949cde117a7dc33953b23388ad93a4db20e33d26e4"><div class="ttname"><a href="namespacemip.html#a286e97fa10ea58abe5055d5949cde117a7dc33953b23388ad93a4db20e33d26e4">mip::DataState::USE</a></div><div class="ttdeci">@ USE</div><div class="ttdoc">Active data under constant change stored physically in databases/file/warehouses etc.</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="namespacemip.html#a286e97fa10ea58abe5055d5949cde117a7dc33953b23388ad93a4db20e33d26e4">mip::USE</a>.</p>
+
 </div>
 </div>
 <a id="a652650b9f39f7c737b5f0e831889c6a9" name="a652650b9f39f7c737b5f0e831889c6a9"></a>
@@ -391,7 +394,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual AssignmentMethod mip::ExecutionState::GetNewLabelAssignmentMethod </td>
+          <td class="memname">virtual <a class="el" href="namespacemip.html#ae02407abda6d300ea4f3e27633343344">AssignmentMethod</a> mip::ExecutionState::GetNewLabelAssignmentMethod </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -406,7 +409,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Get the new label's assignment method. </p>
 <dl class="section return"><dt>Returns</dt><dd>the assignment method STANDARD, PRIVILEGED, AUTO. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>mip::AssignmentMethod </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacemip.html#ae02407abda6d300ea4f3e27633343344" title="The assignment method of the label on the document.">mip::AssignmentMethod</a> </dd></dl>
 
 </div>
 </div>

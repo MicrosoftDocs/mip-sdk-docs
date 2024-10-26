@@ -6,7 +6,7 @@ var searchData=
   ['recommend_5flabel_3',['RECOMMEND_LABEL',['../namespacemip.html#ad2d9647dd20f55eae1519c4a3f338ddcadc994cff1cfcef7323718172b76cbb94',1,'mip']]],
   ['recommend_5flabel_5faction_2eh_4',['recommend_label_action.h',['../recommend__label__action_8h.html',1,'']]],
   ['recommendlabelaction_5',['RecommendLabelAction',['../classmip_1_1RecommendLabelAction.html',1,'mip']]],
-  ['reference_6',['MIP SDK for C++ Reference',['../index.html#autotoc_md2',1,'']]],
+  ['reference_6',['MIP SDK for C++ Reference',['../index.html',1,'']]],
   ['remove_5fcontent_5ffooter_7',['REMOVE_CONTENT_FOOTER',['../namespacemip.html#ad2d9647dd20f55eae1519c4a3f338ddca00ee5738c7bbec86bb4781107ac7e9be',1,'mip']]],
   ['remove_5fcontent_5ffooter_5faction_2eh_8',['remove_content_footer_action.h',['../remove__content__footer__action_8h.html',1,'']]],
   ['remove_5fcontent_5fheader_9',['REMOVE_CONTENT_HEADER',['../namespacemip.html#ad2d9647dd20f55eae1519c4a3f338ddca1a6a15d9c9c41d5d8b9f3abf79bdf3ef',1,'mip']]],

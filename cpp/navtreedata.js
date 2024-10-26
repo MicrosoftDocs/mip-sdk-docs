@@ -25,10 +25,8 @@
 var NAVTREE =
 [
   [ "MIP SDK for C++", "index.html", [
-    [ "MIP SDK for C++ Reference", "index.html#autotoc_md2", null ],
+    [ "MIP SDK for C++ Reference", "index.html", null ],
     [ "Namespaces", "namespaces.html", [
-      [ "autotoc_md0", "index.html#autotoc_md0", null ],
-      [ "layout: default", "index.html#autotoc_md1", null ],
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
@@ -67,7 +65,7 @@ var NAVTREEINDEX =
 "classmip_1_1ProtectionEngine.html#abe3e37296d8e43c6bd89944e321aec18",
 "classmip_1_1PublishingLicenseInfo.html#a2b7d4ae8bd89f49c250c0c4495f9818b",
 "http__operation_8h_source.html",
-"user__rights_8h.html"
+"user__roles_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

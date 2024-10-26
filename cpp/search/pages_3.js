@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sdk_20for_20c_0',['MIP SDK for C++',['../index.html',1,'']]]
+  ['reference_0',['MIP SDK for C++ Reference',['../index.html',1,'']]]
 ];

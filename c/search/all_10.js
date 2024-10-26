@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['reference_0',['MIP SDK for C Reference',['../index.html#autotoc_md2',1,'']]],
+  ['reference_0',['MIP SDK for C Reference',['../index.html',1,'']]],
   ['referrer_1',['referrer',['../protection__descriptor__cc_8h.html#a6306bc2585c77d7d99081b8bd1bff7b8',1,'protection_descriptor_cc.h']]],
   ['referrerbuffer_2',['referrerBuffer',['../protection__descriptor__cc_8h.html#a3c1725ede6b7f9fdd7e27b1a8fab2d68',1,'protection_descriptor_cc.h']]],
   ['referrerbuffersize_3',['referrerBufferSize',['../protection__descriptor__cc_8h.html#a483986d556bc54ae94a5bec9afb41674',1,'protection_descriptor_cc.h']]],

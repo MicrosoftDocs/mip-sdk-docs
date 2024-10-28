@@ -1,0 +1,11 @@
+<map id="src/api/mip/xml_node.h" name="src/api/mip/xml_node.h">
+<area shape="rect" id="Node000001" title="Contains XmlNode interface definition used to interact with xml parsers." alt="" coords="91,5,266,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,83,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,33,79,74,77,70,156,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="107,79,165,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="174,32,152,68,148,66,169,30"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="190,79,253,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="188,30,210,66,205,68,183,32"/>
+<area shape="rect" id="Node000005" href="$mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="277,79,448,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="209,28,321,71,319,76,207,33"/>
+</map>

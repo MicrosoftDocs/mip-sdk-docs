@@ -1,0 +1,33 @@
+<map id="src/api/mip/xml_delegate.h" name="src/api/mip/xml_delegate.h">
+<area shape="rect" id="Node000001" title="Contains XmlDelegate interface definition used to parse xml recieved by mip." alt="" coords="407,5,605,31"/>
+<area shape="rect" id="Node000002" href="$mip__configuration_8h.html" title="Defines configuration for all external mip delegates." alt="" coords="393,79,619,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="509,44,509,79,503,79,503,44"/>
+<area shape="rect" id="Node000003" href="$mip__context_8h.html" title="File containing definition of MipContext." alt="" coords="265,152,456,177"/>
+<area shape="poly" id="edge17_Node000001_Node000003" title=" " alt="" coords="447,38,412,55,383,80,373,98,367,117,363,152,358,151,361,116,368,96,379,77,409,51,445,33"/>
+<area shape="rect" id="Node000010" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="265,401,429,441"/>
+<area shape="poly" id="edge18_Node000001_Node000010" title=" " alt="" coords="566,33,602,51,633,77,648,98,656,117,659,163,659,247,660,306,652,330,633,356,559,377,430,405,429,400,558,372,630,351,647,328,654,305,654,247,654,163,651,118,644,100,629,80,599,55,563,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="472,112,386,154,383,149,469,108"/>
+<area shape="rect" id="Node000004" href="$file__handler_8h.html" title=" " alt="" coords="60,401,203,441"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="252,180,159,198,123,211,100,227,89,247,83,270,83,294,87,318,103,364,122,400,117,402,98,366,82,319,78,294,78,269,84,245,96,224,120,206,158,193,251,174"/>
+<area shape="rect" id="Node000007" href="$file__profile_8h.html" title=" " alt="" coords="5,665,148,705"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="252,182,150,201,107,213,78,228,52,250,36,272,27,298,25,332,25,511,29,554,41,597,69,664,64,666,36,599,24,555,19,511,19,332,22,297,31,270,48,246,75,223,105,208,148,195,251,176"/>
+<area shape="rect" id="Node000008" href="$delegation__license__settings_8h.html" title="Defines DelegationLicenseSettings class." alt="" coords="110,225,329,265"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="329,187,255,228,252,223,326,182"/>
+<area shape="poly" id="edge12_Node000003_Node000010" title=" " alt="" coords="362,191,351,401,346,401,357,191"/>
+<area shape="rect" id="Node000011" href="$policy__handler_8h.html" title="This file contains the PolicyHandler class." alt="" coords="454,225,619,265"/>
+<area shape="poly" id="edge13_Node000003_Node000011" title=" " alt="" coords="400,180,495,223,493,228,398,185"/>
+<area shape="rect" id="Node000013" href="$policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="454,401,619,441"/>
+<area shape="poly" id="edge16_Node000003_Node000013" title=" " alt="" coords="369,190,395,267,417,311,444,352,472,378,502,399,499,403,468,382,440,355,412,313,390,269,364,192"/>
+<area shape="rect" id="Node000005" href="$file__execution__state_8h.html" title=" " alt="" coords="59,489,203,529"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="134,455,134,489,129,489,129,455"/>
+<area shape="rect" id="Node000006" href="$file__engine_8h.html" title=" " alt="" coords="60,577,203,617"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="134,543,134,577,129,577,129,543"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="114,630,91,667,87,664,110,628"/>
+<area shape="rect" id="Node000009" href="$protection__engine_8h.html" title="Defines ProtectionEngine interface." alt="" coords="137,313,301,353"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="222,279,222,313,217,313,217,279"/>
+<area shape="poly" id="edge10_Node000009_Node000004" title=" " alt="" coords="192,365,153,403,149,399,188,361"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="261,359,320,399,318,403,258,364"/>
+<area shape="rect" id="Node000012" href="$policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="454,313,619,353"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="539,279,539,313,534,313,534,279"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="539,367,539,401,534,401,534,367"/>
+</map>

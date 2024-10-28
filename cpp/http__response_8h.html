@@ -98,16 +98,16 @@ $(function(){initNavTree('http__response_8h.html',''); initResizable(true); });
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle"><div class="title">http_response.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Contains HttpOperation interface used by HttpDelegate.  
+<p>Contains <a class="el" href="classHttpOperation.html" title="Interface that describes a single HTTP operation, implemented by client app when overriding HttpDeleg...">HttpOperation</a> interface used by <a class="el" href="classHttpDelegate.html" title="Interface for overriding HTTP handling.">HttpDelegate</a>.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;vector&gt;</code><br />
 <code>#include &quot;<a class="el" href="common__types_8h_source.html">mip/common_types.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mip__namespace_8h_source.html">mip/mip_namespace.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for http_response.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -115,21 +115,27 @@ $(function(){initNavTree('http__response_8h.html',''); initResizable(true); });
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="http__response_8h__incl.png" border="0" usemap="#asrc_2api_2mip_2http__response_8h" alt=""/></div>
 <map name="asrc_2api_2mip_2http__response_8h" id="asrc_2api_2mip_2http__response_8h">
-<area shape="rect" title="Contains HttpOperation interface used by HttpDelegate." alt="" coords="63,5,265,31"/>
-<area shape="rect" title=" " alt="" coords="65,79,127,104"/>
-<area shape="poly" title=" " alt="" coords="155,33,119,70,115,67,151,29"/>
-<area shape="rect" href="common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="152,79,315,104"/>
-<area shape="poly" title=" " alt="" coords="177,29,215,67,211,71,174,33"/>
-<area shape="rect" title=" " alt="" coords="5,152,72,177"/>
-<area shape="poly" title=" " alt="" coords="203,107,84,150,82,145,201,102"/>
-<area shape="rect" title=" " alt="" coords="97,152,183,177"/>
-<area shape="poly" title=" " alt="" coords="220,106,168,146,164,141,217,102"/>
-<area shape="rect" title=" " alt="" coords="208,152,259,177"/>
-<area shape="poly" title=" " alt="" coords="236,104,236,138,231,138,231,104"/>
-<area shape="rect" title=" " alt="" coords="283,152,360,177"/>
-<area shape="poly" title=" " alt="" coords="249,102,298,141,295,145,246,106"/>
-<area shape="rect" title=" " alt="" coords="384,152,443,177"/>
-<area shape="poly" title=" " alt="" coords="263,102,372,144,370,149,261,107"/>
+<area shape="rect" title="Contains HttpOperation interface used by HttpDelegate." alt="" coords="263,5,466,31"/>
+<area shape="rect" title=" " alt="" coords="5,152,68,177"/>
+<area shape="poly" title=" " alt="" coords="339,33,76,149,74,144,337,28"/>
+<area shape="rect" href="common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="283,79,446,104"/>
+<area shape="poly" title=" " alt="" coords="367,31,367,65,362,65,362,31"/>
+<area shape="rect" href="mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="703,152,874,177"/>
+<area shape="poly" title=" " alt="" coords="399,28,743,145,741,150,397,33"/>
+<area shape="poly" title=" " alt="" coords="307,107,82,155,81,149,306,101"/>
+<area shape="rect" title=" " alt="" coords="93,152,159,177"/>
+<area shape="poly" title=" " alt="" coords="327,107,174,152,172,147,326,101"/>
+<area shape="rect" title=" " alt="" coords="184,152,271,177"/>
+<area shape="poly" title=" " alt="" coords="344,106,263,148,261,143,341,102"/>
+<area shape="rect" title=" " alt="" coords="295,152,346,177"/>
+<area shape="poly" title=" " alt="" coords="360,106,337,142,333,139,355,103"/>
+<area shape="rect" title=" " alt="" coords="370,152,447,177"/>
+<area shape="poly" title=" " alt="" coords="374,103,397,139,392,142,370,106"/>
+<area shape="rect" title=" " alt="" coords="471,152,530,177"/>
+<area shape="poly" title=" " alt="" coords="388,102,468,143,465,148,385,106"/>
+<area shape="rect" title=" " alt="" coords="555,152,679,177"/>
+<area shape="poly" title=" " alt="" coords="406,101,563,146,562,151,404,107"/>
+<area shape="poly" title=" " alt="" coords="433,101,707,147,707,152,432,107"/>
 </map>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -139,38 +145,46 @@ $(function(){initNavTree('http__response_8h.html',''); initResizable(true); });
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="http__response_8h__dep__incl.png" border="0" usemap="#asrc_2api_2mip_2http__response_8hdep" alt=""/></div>
 <map name="asrc_2api_2mip_2http__response_8hdep" id="asrc_2api_2mip_2http__response_8hdep">
-<area shape="rect" title="Contains HttpOperation interface used by HttpDelegate." alt="" coords="123,5,325,31"/>
-<area shape="rect" href="http__delegate_8h.html" title="Contains HttpDelegate interface definition used to override MIP HTTP stack." alt="" coords="124,152,324,177"/>
-<area shape="poly" title=" " alt="" coords="205,42,192,60,183,79,181,99,188,118,213,150,209,153,184,121,176,100,177,78,188,57,201,39"/>
-<area shape="rect" href="http__operation_8h.html" title=" " alt="" coords="192,79,397,104"/>
-<area shape="poly" title=" " alt="" coords="247,39,285,77,281,80,243,43"/>
-<area shape="rect" href="file__profile_8h.html" title=" " alt="" coords="161,651,303,691"/>
-<area shape="poly" title=" " alt="" coords="165,184,113,204,62,233,40,252,23,273,12,298,8,325,8,496,12,525,24,550,41,573,63,593,115,626,169,648,167,653,113,630,60,597,37,577,19,553,7,526,3,496,3,324,7,296,19,271,37,248,59,229,111,199,163,179"/>
-<area shape="rect" href="protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="43,387,207,427"/>
-<area shape="poly" title=" " alt="" coords="216,191,136,387,131,385,211,189"/>
-<area shape="rect" href="telemetry__configuration_8h.html" title="Defines custom telemetry settings." alt="" coords="219,225,381,265"/>
-<area shape="poly" title=" " alt="" coords="246,185,284,223,280,227,243,189"/>
-<area shape="rect" href="policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="608,563,773,603"/>
-<area shape="poly" title=" " alt="" coords="338,175,466,194,597,224,655,244,701,267,732,293,741,308,744,324,744,408,740,453,729,496,702,564,697,562,724,495,734,452,739,408,739,325,736,310,728,297,698,271,653,249,596,230,465,200,337,180"/>
-<area shape="rect" href="mip__context_8h.html" title="File containing definition of MipContext." alt="" coords="235,313,426,339"/>
-<area shape="poly" title=" " alt="" coords="315,277,329,312,324,314,310,279"/>
-<area shape="poly" title=" " alt="" coords="305,349,287,367,273,388,258,423,248,460,235,535,232,602,233,651,228,651,227,602,230,535,242,459,253,421,268,385,283,363,302,346"/>
-<area shape="poly" title=" " alt="" coords="289,346,176,389,174,384,287,341"/>
-<area shape="rect" href="file__handler_8h.html" title=" " alt="" coords="283,387,426,427"/>
-<area shape="poly" title=" " alt="" coords="341,351,351,386,346,387,336,352"/>
-<area shape="rect" href="policy__handler_8h.html" title="This file contains the PolicyHandler class." alt="" coords="476,387,641,427"/>
-<area shape="poly" title=" " alt="" coords="377,341,505,384,503,389,376,346"/>
-<area shape="poly" title=" " alt="" coords="440,332,504,339,567,350,620,365,640,374,655,385,671,405,683,428,696,477,698,525,696,562,691,562,693,525,690,478,678,430,667,408,651,389,638,379,618,370,565,355,503,344,439,337"/>
-<area shape="rect" href="file__engine_8h.html" title=" " alt="" coords="270,563,413,603"/>
-<area shape="poly" title=" " alt="" coords="331,439,319,456,311,475,308,498,312,521,331,561,326,564,307,523,303,498,305,474,314,454,326,436"/>
-<area shape="rect" href="file__execution__state_8h.html" title=" " alt="" coords="320,475,464,515"/>
-<area shape="poly" title=" " alt="" coords="371,438,386,473,381,476,366,441"/>
-<area shape="poly" title=" " alt="" coords="308,613,258,653,255,648,305,609"/>
-<area shape="poly" title=" " alt="" coords="376,528,355,564,350,561,371,525"/>
-<area shape="rect" href="policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="488,475,653,515"/>
-<area shape="poly" title=" " alt="" coords="566,440,571,474,565,475,561,441"/>
-<area shape="poly" title=" " alt="" coords="610,521,666,560,663,565,607,525"/>
-<area shape="poly" title=" " alt="" coords="275,116,237,154,234,150,271,112"/>
+<area shape="rect" title="Contains HttpOperation interface used by HttpDelegate." alt="" coords="524,5,727,31"/>
+<area shape="rect" href="http__delegate_8h.html" title="Contains HttpDelegate interface definition used to override MIP HTTP stack." alt="" coords="525,152,725,177"/>
+<area shape="poly" title=" " alt="" coords="606,42,593,60,584,79,583,99,590,118,615,150,610,153,585,121,577,100,579,78,589,57,602,39"/>
+<area shape="rect" href="http__operation_8h.html" title=" " alt="" coords="593,79,799,104"/>
+<area shape="poly" title=" " alt="" coords="649,39,686,77,683,80,645,43"/>
+<area shape="rect" href="diagnostic__configuration_8h.html" title="Defines custom telemetry or audit configurations." alt="" coords="447,225,612,265"/>
+<area shape="poly" title=" " alt="" coords="602,188,554,227,551,223,599,184"/>
+<area shape="rect" href="file__profile_8h.html" title=" " alt="" coords="385,900,527,940"/>
+<area shape="poly" title=" " alt="" coords="663,182,699,206,736,238,764,277,773,300,776,324,776,746,769,785,750,818,722,845,687,867,647,884,606,897,528,914,527,909,605,892,646,879,684,862,719,841,746,815,764,783,771,745,771,325,768,302,760,280,732,241,696,210,660,187"/>
+<area shape="rect" href="protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="571,636,735,676"/>
+<area shape="poly" title=" " alt="" coords="651,185,674,211,699,244,718,282,725,324,725,482,719,527,705,571,686,608,669,637,664,635,681,606,700,569,714,526,720,481,720,325,713,284,694,247,670,214,647,189"/>
+<area shape="rect" href="policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="5,636,171,676"/>
+<area shape="poly" title=" " alt="" coords="512,176,366,192,287,205,211,221,143,240,89,264,68,278,53,293,43,308,40,325,40,481,44,525,55,568,81,635,76,637,50,570,39,526,35,481,35,324,38,306,49,289,65,274,86,260,141,235,210,215,286,199,365,187,511,171"/>
+<area shape="rect" href="mip__configuration_8h.html" title="Defines configuration for all external mip delegates." alt="" coords="265,313,492,339"/>
+<area shape="poly" title=" " alt="" coords="483,274,402,316,400,311,480,269"/>
+<area shape="rect" href="mip__context_8h.html" title="File containing definition of MipContext." alt="" coords="283,387,474,412"/>
+<area shape="poly" title=" " alt="" coords="530,280,522,311,506,340,488,357,468,371,426,389,424,384,465,366,485,353,502,337,517,309,525,278"/>
+<area shape="poly" title=" " alt="" coords="381,352,381,387,376,387,376,352"/>
+<area shape="rect" href="file__handler_8h.html" title=" " alt="" coords="385,636,527,676"/>
+<area shape="poly" title=" " alt="" coords="387,425,406,498,433,587,451,635,446,636,428,589,401,500,382,426"/>
+<area shape="poly" title=" " alt="" coords="369,426,344,489,335,527,331,567,331,745,333,777,341,801,374,850,399,877,427,898,424,902,396,881,370,854,336,804,328,778,325,745,325,567,329,526,339,487,364,424"/>
+<area shape="rect" href="delegation__license__settings_8h.html" title="Defines DelegationLicenseSettings class." alt="" coords="416,460,635,500"/>
+<area shape="poly" title=" " alt="" coords="414,416,491,457,489,462,411,421"/>
+<area shape="poly" title=" " alt="" coords="488,409,584,427,623,441,649,458,662,479,671,503,676,553,671,600,662,637,657,635,665,599,670,553,665,504,657,482,645,462,621,446,583,432,487,414"/>
+<area shape="rect" href="policy__handler_8h.html" title="This file contains the PolicyHandler class." alt="" coords="125,460,291,500"/>
+<area shape="poly" title=" " alt="" coords="342,420,250,462,248,457,340,415"/>
+<area shape="poly" title=" " alt="" coords="270,415,176,433,139,446,115,462,101,481,91,504,82,552,82,599,87,635,81,636,77,599,77,552,86,502,97,479,111,458,137,442,175,428,269,410"/>
+<area shape="rect" href="file__execution__state_8h.html" title=" " alt="" coords="384,724,528,764"/>
+<area shape="poly" title=" " alt="" coords="459,690,459,724,453,724,453,690"/>
+<area shape="rect" href="file__engine_8h.html" title=" " alt="" coords="385,812,527,852"/>
+<area shape="poly" title=" " alt="" coords="459,778,459,812,453,812,453,778"/>
+<area shape="poly" title=" " alt="" coords="459,866,459,900,453,900,453,866"/>
+<area shape="rect" href="protection__engine_8h.html" title="Defines ProtectionEngine interface." alt="" coords="443,548,607,588"/>
+<area shape="poly" title=" " alt="" coords="528,514,528,548,523,548,523,514"/>
+<area shape="poly" title=" " alt="" coords="503,601,473,637,469,634,499,597"/>
+<area shape="poly" title=" " alt="" coords="567,594,626,634,624,638,564,598"/>
+<area shape="rect" href="policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="125,548,291,588"/>
+<area shape="poly" title=" " alt="" coords="211,514,211,548,205,548,205,514"/>
+<area shape="poly" title=" " alt="" coords="172,599,116,638,113,634,168,594"/>
+<area shape="poly" title=" " alt="" coords="677,116,639,154,635,150,673,112"/>
 </map>
 </div>
 </div>
@@ -178,18 +192,13 @@ $(function(){initNavTree('http__response_8h.html',''); initResizable(true); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmip_1_1HttpResponse.html">mip::HttpResponse</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface that describes a single HTTP response, implemented by client app when overriding <a class="el" href="classmip_1_1HttpDelegate.html" title="Interface for overriding HTTP handling.">HttpDelegate</a>.  <a href="classmip_1_1HttpResponse.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemip.html">mip</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHttpResponse.html">HttpResponse</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface that describes a single HTTP response, implemented by client app when overriding <a class="el" href="classHttpDelegate.html" title="Interface for overriding HTTP handling.">HttpDelegate</a>.  <a href="classHttpResponse.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Contains HttpOperation interface used by HttpDelegate. </p>
-<p>Contains HttpResponse interface used by HttpDelegate.</p>
+<div class="textblock"><p>Contains <a class="el" href="classHttpOperation.html" title="Interface that describes a single HTTP operation, implemented by client app when overriding HttpDeleg...">HttpOperation</a> interface used by <a class="el" href="classHttpDelegate.html" title="Interface for overriding HTTP handling.">HttpDelegate</a>. </p>
+<p>Contains <a class="el" href="classHttpResponse.html" title="Interface that describes a single HTTP response, implemented by client app when overriding HttpDelega...">HttpResponse</a> interface used by <a class="el" href="classHttpDelegate.html" title="Interface for overriding HTTP handling.">HttpDelegate</a>.</p>
 
 <p class="definition">Definition in file <a class="el" href="http__response_8h_source.html">http_response.h</a>.</p>
 </div></div><!-- contents -->

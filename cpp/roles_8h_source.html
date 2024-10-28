@@ -137,54 +137,59 @@ $(function(){initNavTree('roles_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacemip.html">mip</a> {</div>
-<div class="foldopen" id="foldopen00039" data-start="{" data-end="}">
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="namespacemip_1_1roles.html">   39</a></span><span class="keyword">namespace </span>roles {<span class="comment"></span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="comment">/**</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="comment"> * @brief Gets string identifier for &#39;viewer&#39; role</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="comment"> * </span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment"> * @return String identifier for &#39;viewer&#39; role</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="comment"> * </span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="comment"> * @note A viewer can only view the content. They cannot edit, copy, or print it.</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="namespacemip_1_1roles.html#a594e9a67d102cb12d669b9e252950a64">   47</a></span><span class="keyword">inline</span> std::string <a class="code hl_function" href="namespacemip_1_1roles.html#a594e9a67d102cb12d669b9e252950a64">Viewer</a>() { <span class="keywordflow">return</span> <span class="stringliteral">&quot;VIEWER&quot;</span>; }</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="comment"></span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="comment">/**</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="comment"> * @brief Gets string identifier for &#39;reviewer&#39; role</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="comment"> * </span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment"> * @return String identifier for &#39;reviewer&#39; role</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="comment"> * </span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment"> * @note A reviewer can view and edit the content. They cannot copy, or print it.</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="namespacemip_1_1roles.html#a5319dd0e38fbbeff4d235f02c8d591f4">   56</a></span><span class="keyword">inline</span> std::string <a class="code hl_function" href="namespacemip_1_1roles.html#a5319dd0e38fbbeff4d235f02c8d591f4">Reviewer</a>() { <span class="keywordflow">return</span> <span class="stringliteral">&quot;REVIEWER&quot;</span>; }</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment"></span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment">/**</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="comment"> * @brief Gets string identifier for &#39;author&#39; role</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="comment"> * </span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="comment"> * @return String identifier for &#39;author&#39; role</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="comment"> * </span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="comment"> * @note An author can view, edit, copy, and print the content.</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="namespacemip_1_1roles.html#aed1c7ab32aba6c595115121bce81512f">   65</a></span><span class="keyword">inline</span> std::string <a class="code hl_function" href="namespacemip_1_1roles.html#aed1c7ab32aba6c595115121bce81512f">Author</a>() { <span class="keywordflow">return</span> <span class="stringliteral">&quot;AUTHOR&quot;</span>; }</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="comment"></span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="comment">/**</span></div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="comment"> * @brief Gets string identifier for &#39;co-owner&#39; role</span></div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="comment"> * </span></div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="comment"> * @return String identifier for &#39;co-owner&#39; role</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="comment"> * </span></div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="comment"> * @note A co-owner has all permissions</span></div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="namespacemip_1_1roles.html#a192167b36fab46f229ff1e794b1155eb">   74</a></span><span class="keyword">inline</span> std::string <a class="code hl_function" href="namespacemip_1_1roles.html#a192167b36fab46f229ff1e794b1155eb">CoOwner</a>() { <span class="keywordflow">return</span> <span class="stringliteral">&quot;COOWNER&quot;</span>; }</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>}</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#include &quot;<a class="code" href="mip__namespace_8h.html">mip/mip_namespace.h</a>&quot;</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>MIP_NAMESPACE_BEGIN</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="foldopen" id="foldopen00042" data-start="{" data-end="}">
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="namespaceroles.html">   42</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceroles.html">roles</a> {<span class="comment"></span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment">/**</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="comment"> * @brief Gets string identifier for &#39;viewer&#39; role</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="comment"> * </span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="comment"> * @return String identifier for &#39;viewer&#39; role</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="comment"> * </span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="comment"> * @note A viewer can only view the content. They cannot edit, copy, or print it.</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="namespaceroles.html#a561b08d7ace604dbd0f7a3c3fec9b550">   50</a></span><span class="keyword">inline</span> std::string <a class="code hl_function" href="namespaceroles.html#a561b08d7ace604dbd0f7a3c3fec9b550">Viewer</a>() { <span class="keywordflow">return</span> <span class="stringliteral">&quot;VIEWER&quot;</span>; }</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="comment"></span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">/**</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="comment"> * @brief Gets string identifier for &#39;reviewer&#39; role</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment"> * </span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment"> * @return String identifier for &#39;reviewer&#39; role</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment"> * </span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment"> * @note A reviewer can view and edit the content. They cannot copy, or print it.</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="namespaceroles.html#a270bbe1b4ed905b7e8533997022006c5">   59</a></span><span class="keyword">inline</span> std::string <a class="code hl_function" href="namespaceroles.html#a270bbe1b4ed905b7e8533997022006c5">Reviewer</a>() { <span class="keywordflow">return</span> <span class="stringliteral">&quot;REVIEWER&quot;</span>; }</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="comment"></span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="comment">/**</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="comment"> * @brief Gets string identifier for &#39;author&#39; role</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="comment"> * </span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="comment"> * @return String identifier for &#39;author&#39; role</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="comment"> * </span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="comment"> * @note An author can view, edit, copy, and print the content.</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="namespaceroles.html#a40b83eca234f990cb95d0f399b223b2d">   68</a></span><span class="keyword">inline</span> std::string <a class="code hl_function" href="namespaceroles.html#a40b83eca234f990cb95d0f399b223b2d">Author</a>() { <span class="keywordflow">return</span> <span class="stringliteral">&quot;AUTHOR&quot;</span>; }</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="comment"></span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="comment">/**</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="comment"> * @brief Gets string identifier for &#39;co-owner&#39; role</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="comment"> * </span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="comment"> * @return String identifier for &#39;co-owner&#39; role</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="comment"> * </span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="comment"> * @note A co-owner has all permissions</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="namespaceroles.html#a030d82b8b7e041b4b54da8712e1079f8">   77</a></span><span class="keyword">inline</span> std::string <a class="code hl_function" href="namespaceroles.html#a030d82b8b7e041b4b54da8712e1079f8">CoOwner</a>() { <span class="keywordflow">return</span> <span class="stringliteral">&quot;COOWNER&quot;</span>; }</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>}</div>
 </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>} <span class="comment">// namespace mip</span></div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="preprocessor">#endif </span><span class="comment">// API_MIP_PROTECTION_ROLES_H_</span></div>
-<div class="ttc" id="anamespacemip_1_1roles_html_a192167b36fab46f229ff1e794b1155eb"><div class="ttname"><a href="namespacemip_1_1roles.html#a192167b36fab46f229ff1e794b1155eb">mip::roles::CoOwner</a></div><div class="ttdeci">std::string CoOwner()</div><div class="ttdoc">Gets string identifier for 'co-owner' role.</div><div class="ttdef"><b>Definition</b> <a href="#l00074">roles.h:74</a></div></div>
-<div class="ttc" id="anamespacemip_1_1roles_html_a5319dd0e38fbbeff4d235f02c8d591f4"><div class="ttname"><a href="namespacemip_1_1roles.html#a5319dd0e38fbbeff4d235f02c8d591f4">mip::roles::Reviewer</a></div><div class="ttdeci">std::string Reviewer()</div><div class="ttdoc">Gets string identifier for 'reviewer' role.</div><div class="ttdef"><b>Definition</b> <a href="#l00056">roles.h:56</a></div></div>
-<div class="ttc" id="anamespacemip_1_1roles_html_a594e9a67d102cb12d669b9e252950a64"><div class="ttname"><a href="namespacemip_1_1roles.html#a594e9a67d102cb12d669b9e252950a64">mip::roles::Viewer</a></div><div class="ttdeci">std::string Viewer()</div><div class="ttdoc">Gets string identifier for 'viewer' role.</div><div class="ttdef"><b>Definition</b> <a href="#l00047">roles.h:47</a></div></div>
-<div class="ttc" id="anamespacemip_1_1roles_html_aed1c7ab32aba6c595115121bce81512f"><div class="ttname"><a href="namespacemip_1_1roles.html#aed1c7ab32aba6c595115121bce81512f">mip::roles::Author</a></div><div class="ttdeci">std::string Author()</div><div class="ttdoc">Gets string identifier for 'author' role.</div><div class="ttdef"><b>Definition</b> <a href="#l00065">roles.h:65</a></div></div>
-<div class="ttc" id="anamespacemip_html"><div class="ttname"><a href="namespacemip.html">mip</a></div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00047">common_types.h:47</a></div></div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>MIP_NAMESPACE_END</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="preprocessor">#endif </span><span class="comment">// API_MIP_PROTECTION_ROLES_H_</span></div>
+<div class="ttc" id="amip__namespace_8h_html"><div class="ttname"><a href="mip__namespace_8h.html">mip_namespace.h</a></div><div class="ttdoc">MIP namespace macros.</div></div>
+<div class="ttc" id="anamespaceroles_html"><div class="ttname"><a href="namespaceroles.html">roles</a></div><div class="ttdef"><b>Definition</b> <a href="#l00042">roles.h:42</a></div></div>
+<div class="ttc" id="anamespaceroles_html_a030d82b8b7e041b4b54da8712e1079f8"><div class="ttname"><a href="namespaceroles.html#a030d82b8b7e041b4b54da8712e1079f8">roles::CoOwner</a></div><div class="ttdeci">std::string CoOwner()</div><div class="ttdoc">Gets string identifier for 'co-owner' role.</div><div class="ttdef"><b>Definition</b> <a href="#l00077">roles.h:77</a></div></div>
+<div class="ttc" id="anamespaceroles_html_a270bbe1b4ed905b7e8533997022006c5"><div class="ttname"><a href="namespaceroles.html#a270bbe1b4ed905b7e8533997022006c5">roles::Reviewer</a></div><div class="ttdeci">std::string Reviewer()</div><div class="ttdoc">Gets string identifier for 'reviewer' role.</div><div class="ttdef"><b>Definition</b> <a href="#l00059">roles.h:59</a></div></div>
+<div class="ttc" id="anamespaceroles_html_a40b83eca234f990cb95d0f399b223b2d"><div class="ttname"><a href="namespaceroles.html#a40b83eca234f990cb95d0f399b223b2d">roles::Author</a></div><div class="ttdeci">std::string Author()</div><div class="ttdoc">Gets string identifier for 'author' role.</div><div class="ttdef"><b>Definition</b> <a href="#l00068">roles.h:68</a></div></div>
+<div class="ttc" id="anamespaceroles_html_a561b08d7ace604dbd0f7a3c3fec9b550"><div class="ttname"><a href="namespaceroles.html#a561b08d7ace604dbd0f7a3c3fec9b550">roles::Viewer</a></div><div class="ttdeci">std::string Viewer()</div><div class="ttdoc">Gets string identifier for 'viewer' role.</div><div class="ttdef"><b>Definition</b> <a href="#l00050">roles.h:50</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

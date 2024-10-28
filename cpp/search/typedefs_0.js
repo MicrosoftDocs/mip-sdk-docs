@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['classificationresults_0',['ClassificationResults',['../namespacemip.html#a0c812e16bb9815eb38271c58d990e4c1',1,'mip']]]
+  ['classificationresults_0',['ClassificationResults',['../classification__result_8h.html#a39412bc39ca15518fb8f0acfee888ec2',1,'classification_result.h']]],
+  ['classifieruniqueidsandcontentformats_1',['ClassifierUniqueIdsAndContentFormats',['../common__types_8h.html#abca0df54ec7356b29584fc85dee02f1f',1,'common_types.h']]]
 ];

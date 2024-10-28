@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['oauth2challenge_0',['OAuth2Challenge',['../classmip_1_1AuthDelegate_1_1OAuth2Challenge.html',1,'mip::AuthDelegate']]],
-  ['oauth2token_1',['OAuth2Token',['../classmip_1_1AuthDelegate_1_1OAuth2Token.html',1,'mip::AuthDelegate']]],
-  ['observer_2',['Observer',['../classmip_1_1FileHandler_1_1Observer.html',1,'mip::FileHandler::Observer'],['../classmip_1_1FileProfile_1_1Observer.html',1,'mip::FileProfile::Observer'],['../classmip_1_1ProtectionEngine_1_1Observer.html',1,'mip::ProtectionEngine::Observer'],['../classmip_1_1ProtectionHandler_1_1Observer.html',1,'mip::ProtectionHandler::Observer'],['../classmip_1_1ProtectionProfile_1_1Observer.html',1,'mip::ProtectionProfile::Observer']]],
-  ['operationcancellederror_3',['OperationCancelledError',['../classmip_1_1OperationCancelledError.html',1,'mip']]]
+  ['networkerror_0',['NetworkError',['../classNetworkError.html',1,'']]],
+  ['noauthtokenerror_1',['NoAuthTokenError',['../classNoAuthTokenError.html',1,'']]],
+  ['nopermissionserror_2',['NoPermissionsError',['../classNoPermissionsError.html',1,'']]],
+  ['nopermissionsextendederror_3',['NoPermissionsExtendedError',['../classNoPermissionsExtendedError.html',1,'']]],
+  ['nopolicyerror_4',['NoPolicyError',['../classNoPolicyError.html',1,'']]],
+  ['notsupportederror_5',['NotSupportedError',['../classNotSupportedError.html',1,'']]]
 ];

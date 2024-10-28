@@ -136,37 +136,38 @@ $(function(){initNavTree('protect__adhoc__dk__action_8h_source.html',''); initRe
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#include &quot;<a class="code" href="action_8h.html">mip/upe/action.h</a>&quot;</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacemip.html">mip</a> {<span class="comment"></span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="comment">/**</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="comment"> * @brief An action class that specifies adding adhoc double key protection to the document.</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="comment"> */</span></div>
-<div class="foldopen" id="foldopen00043" data-start="{" data-end="};">
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classmip_1_1ProtectAdhocDkAction.html">   43</a></span><span class="keyword">class </span><a class="code hl_class" href="classmip_1_1ProtectAdhocDkAction.html">ProtectAdhocDkAction</a> : <span class="keyword">public</span> <a class="code hl_class" href="classmip_1_1Action.html">Action</a> {</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">public</span>:<span class="comment"></span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="comment">  /**</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="comment">   * @brief Get the double key encryption Url.</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="comment">   *</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="comment">   * @return the double key encryption Url.</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="comment">   */</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="classmip_1_1ProtectAdhocDkAction.html#abb2432317f8eb86a830754d3da4215b6">   50</a></span>  <span class="keyword">virtual</span> <span class="keyword">const</span> std::string&amp; <a class="code hl_function" href="classmip_1_1ProtectAdhocDkAction.html#abb2432317f8eb86a830754d3da4215b6">GetDoubleKeyEncryptionUrl</a>() <span class="keyword">const</span> = 0;<span class="comment"></span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="comment">  /** @cond DOXYGEN_HIDE */</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  <span class="keyword">virtual</span> <a class="code hl_class" href="classmip_1_1ProtectAdhocDkAction.html">~ProtectAdhocDkAction</a>() { }</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  <a class="code hl_class" href="classmip_1_1ProtectAdhocDkAction.html">ProtectAdhocDkAction</a>(<span class="keyword">const</span> std::string&amp; <span class="keywordtype">id</span>) : <a class="code hl_class" href="classmip_1_1Action.html">Action</a>(id) { }<span class="comment"></span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment">  /** @endcond */</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>};</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#include &quot;<a class="code" href="mip__namespace_8h.html">mip/mip_namespace.h</a>&quot;</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#include &quot;<a class="code" href="action_8h.html">mip/upe/action.h</a>&quot;</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>MIP_NAMESPACE_BEGIN<span class="comment"></span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="comment">/**</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="comment"> * @brief An action class that specifies adding adhoc double key protection to the document.</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment"> */</span></div>
+<div class="foldopen" id="foldopen00044" data-start="{" data-end="};">
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classProtectAdhocDkAction.html">   44</a></span><span class="keyword">class </span><a class="code hl_class" href="classProtectAdhocDkAction.html">ProtectAdhocDkAction</a> : <span class="keyword">public</span> <a class="code hl_class" href="classAction.html">Action</a> {</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">public</span>:<span class="comment"></span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="comment">  /**</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="comment">   * @brief Get the double key encryption Url.</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="comment">   *</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="comment">   * @return the double key encryption Url.</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="comment">   */</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="classProtectAdhocDkAction.html#a9515ee40f93babf6ce3d632d7574fe5b">   51</a></span>  <span class="keyword">virtual</span> <span class="keyword">const</span> std::string&amp; <a class="code hl_function" href="classProtectAdhocDkAction.html#a9515ee40f93babf6ce3d632d7574fe5b">GetDoubleKeyEncryptionUrl</a>() <span class="keyword">const</span> = 0;<span class="comment"></span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">  /** @cond DOXYGEN_HIDE */</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  <span class="keyword">virtual</span> <a class="code hl_class" href="classProtectAdhocDkAction.html">~ProtectAdhocDkAction</a>() { }</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  <a class="code hl_class" href="classProtectAdhocDkAction.html">ProtectAdhocDkAction</a>(<span class="keyword">const</span> std::string&amp; <span class="keywordtype">id</span>) : <a class="code hl_class" href="classAction.html">Action</a>(id) { }<span class="comment"></span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment">  /** @endcond */</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>};</div>
 </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>} <span class="comment">// namespace mip</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#endif </span><span class="comment">// API_MIP_UPE_PROTECT_ADHOC_DK_ACTION_H_</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>MIP_NAMESPACE_END</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#endif </span><span class="comment">// API_MIP_UPE_PROTECT_ADHOC_DK_ACTION_H_</span></div>
 <div class="ttc" id="aaction_8h_html"><div class="ttname"><a href="action_8h.html">action.h</a></div><div class="ttdoc">A file containing the Action base class and the ActionType enumerator.</div></div>
-<div class="ttc" id="aclassmip_1_1Action_html"><div class="ttname"><a href="classmip_1_1Action.html">mip::Action</a></div><div class="ttdoc">Interface for an action.</div><div class="ttdef"><b>Definition</b> <a href="action_8h_source.html#l00088">action.h:88</a></div></div>
-<div class="ttc" id="aclassmip_1_1ProtectAdhocDkAction_html"><div class="ttname"><a href="classmip_1_1ProtectAdhocDkAction.html">mip::ProtectAdhocDkAction</a></div><div class="ttdoc">An action class that specifies adding adhoc double key protection to the document.</div><div class="ttdef"><b>Definition</b> <a href="#l00043">protect_adhoc_dk_action.h:43</a></div></div>
-<div class="ttc" id="aclassmip_1_1ProtectAdhocDkAction_html_abb2432317f8eb86a830754d3da4215b6"><div class="ttname"><a href="classmip_1_1ProtectAdhocDkAction.html#abb2432317f8eb86a830754d3da4215b6">mip::ProtectAdhocDkAction::GetDoubleKeyEncryptionUrl</a></div><div class="ttdeci">virtual const std::string &amp; GetDoubleKeyEncryptionUrl() const =0</div><div class="ttdoc">Get the double key encryption Url.</div></div>
-<div class="ttc" id="anamespacemip_html"><div class="ttname"><a href="namespacemip.html">mip</a></div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00047">common_types.h:47</a></div></div>
+<div class="ttc" id="aclassAction_html"><div class="ttname"><a href="classAction.html">Action</a></div><div class="ttdoc">Interface for an action.</div><div class="ttdef"><b>Definition</b> <a href="action_8h_source.html#l00093">action.h:93</a></div></div>
+<div class="ttc" id="aclassProtectAdhocDkAction_html"><div class="ttname"><a href="classProtectAdhocDkAction.html">ProtectAdhocDkAction</a></div><div class="ttdoc">An action class that specifies adding adhoc double key protection to the document.</div><div class="ttdef"><b>Definition</b> <a href="#l00044">protect_adhoc_dk_action.h:44</a></div></div>
+<div class="ttc" id="aclassProtectAdhocDkAction_html_a9515ee40f93babf6ce3d632d7574fe5b"><div class="ttname"><a href="classProtectAdhocDkAction.html#a9515ee40f93babf6ce3d632d7574fe5b">ProtectAdhocDkAction::GetDoubleKeyEncryptionUrl</a></div><div class="ttdeci">virtual const std::string &amp; GetDoubleKeyEncryptionUrl() const =0</div><div class="ttdoc">Get the double key encryption Url.</div></div>
+<div class="ttc" id="amip__namespace_8h_html"><div class="ttname"><a href="mip__namespace_8h.html">mip_namespace.h</a></div><div class="ttdoc">MIP namespace macros.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

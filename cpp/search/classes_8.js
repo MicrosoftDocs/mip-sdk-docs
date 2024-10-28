@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['justificationrequirederror_0',['JustificationRequiredError',['../classmip_1_1JustificationRequiredError.html',1,'mip']]],
-  ['justifyaction_1',['JustifyAction',['../classmip_1_1JustifyAction.html',1,'mip']]]
+  ['identity_0',['Identity',['../classIdentity.html',1,'']]],
+  ['insufficientbuffererror_1',['InsufficientBufferError',['../classInsufficientBufferError.html',1,'']]],
+  ['internalerror_2',['InternalError',['../classInternalError.html',1,'']]]
 ];

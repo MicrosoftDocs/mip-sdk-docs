@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['sensitivitytypesrulepackage_0',['SensitivityTypesRulePackage',['../classmip_1_1SensitivityTypesRulePackage.html',1,'mip']]],
-  ['servicedisablederror_1',['ServiceDisabledError',['../classmip_1_1ServiceDisabledError.html',1,'mip']]],
-  ['settings_2',['Settings',['../classmip_1_1FileEngine_1_1Settings.html',1,'mip::FileEngine::Settings'],['../classmip_1_1FileProfile_1_1Settings.html',1,'mip::FileProfile::Settings'],['../classmip_1_1ProtectionEngine_1_1Settings.html',1,'mip::ProtectionEngine::Settings'],['../classmip_1_1ProtectionProfile_1_1Settings.html',1,'mip::ProtectionProfile::Settings']]],
-  ['stream_3',['Stream',['../classmip_1_1Stream.html',1,'mip']]]
+  ['recommendlabelaction_0',['RecommendLabelAction',['../classRecommendLabelAction.html',1,'']]],
+  ['removecontentfooteraction_1',['RemoveContentFooterAction',['../classRemoveContentFooterAction.html',1,'']]],
+  ['removecontentheaderaction_2',['RemoveContentHeaderAction',['../classRemoveContentHeaderAction.html',1,'']]],
+  ['removedynamicwatermarkaction_3',['RemoveDynamicWatermarkAction',['../classRemoveDynamicWatermarkAction.html',1,'']]],
+  ['removeprotectionaction_4',['RemoveProtectionAction',['../classRemoveProtectionAction.html',1,'']]],
+  ['removewatermarkaction_5',['RemoveWatermarkAction',['../classRemoveWatermarkAction.html',1,'']]]
 ];

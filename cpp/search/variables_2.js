@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['hostnameoverride_0',['hostNameOverride',['../structmip_1_1TelemetryConfiguration.html#ad22229839d9f1e8df78e81e1d561f1d4',1,'mip::TelemetryConfiguration']]],
-  ['httpdelegateoverride_1',['httpDelegateOverride',['../structmip_1_1TelemetryConfiguration.html#a3a2af803fb83d0571faff17ba29e770b',1,'mip::TelemetryConfiguration']]]
+  ['databoundary_0',['dataBoundary',['../structDiagnosticConfiguration.html#a008434bc9e322bc4c5901d6273962519',1,'DiagnosticConfiguration']]],
+  ['details_1',['details',['../structExtendedErrorInfo.html#ae0f313b9fc3e7e260497913fb440290f',1,'ExtendedErrorInfo']]]
 ];

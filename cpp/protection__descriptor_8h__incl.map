@@ -1,22 +1,30 @@
 <map id="src/api/mip/protection_descriptor.h" name="src/api/mip/protection_descriptor.h">
-<area shape="rect" id="Node000001" title="Defines ProtectionDescriptor interface." alt="" coords="165,5,329,45"/>
+<area shape="rect" id="Node000001" title="Defines ProtectionDescriptor interface." alt="" coords="271,5,435,45"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,93,72,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,48,83,91,81,86,196,43"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="278,48,86,96,85,90,277,43"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="96,93,147,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="218,48,153,88,150,84,215,43"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="299,48,161,94,159,89,297,43"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="171,93,248,119"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="240,47,223,82,218,80,235,44"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="335,167,393,192"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="261,44,313,117,346,155,342,158,309,120,257,47"/>
-<area shape="rect" id="Node000006" href="$user__rights_8h.html" title="Defines UserRights class." alt="" coords="323,93,458,119"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="282,43,359,84,356,89,280,48"/>
-<area shape="rect" id="Node000008" href="$user__roles_8h.html" title="Defines UserRoles class." alt="" coords="483,93,613,119"/>
-<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="320,43,491,87,490,92,318,48"/>
-<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="389,120,376,155,371,153,384,118"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="418,167,481,192"/>
-<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="402,117,433,155,429,158,398,121"/>
-<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="519,121,407,164,405,159,517,116"/>
-<area shape="poly" id="edge10_Node000008_Node000007" title=" " alt="" coords="534,121,478,161,475,156,531,117"/>
-<area shape="rect" id="Node000009" href="$mip__export_8h.html" title="A file export/import macros." alt="" coords="505,167,642,192"/>
-<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="555,118,567,153,562,155,550,120"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="320,48,244,89,241,84,318,43"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="419,167,477,192"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="336,47,323,63,312,81,308,100,313,117,331,137,355,152,406,170,404,175,352,157,328,141,308,120,303,100,307,79,318,60,332,44"/>
+<area shape="rect" id="Node000006" href="$mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="527,167,697,192"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="436,29,509,36,586,48,652,66,677,78,694,92,700,102,700,112,691,131,673,148,650,162,648,158,669,144,687,128,695,111,695,103,690,95,674,82,650,71,585,53,508,41,435,34"/>
+<area shape="rect" id="Node000007" href="$user__rights_8h.html" title="Defines UserRights class." alt="" coords="545,93,679,119"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="416,43,562,87,560,92,415,48"/>
+<area shape="rect" id="Node000009" href="$user__roles_8h.html" title="Defines UserRoles class." alt="" coords="755,93,885,119"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="436,38,742,89,741,94,435,43"/>
+<area shape="rect" id="Node000011" href="$dynamic__watermark_8h.html" title="Defines DynamicWatermark interface." alt="" coords="323,93,520,119"/>
+<area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="372,44,404,81,400,84,368,47"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="587,121,488,164,486,159,585,116"/>
+<area shape="poly" id="edge9_Node000007_Node000006" title=" " alt="" coords="615,119,615,153,609,153,609,119"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="722,167,785,192"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="636,116,719,158,717,163,634,121"/>
+<area shape="poly" id="edge11_Node000009_Node000005" title=" " alt="" coords="761,121,491,172,490,167,760,116"/>
+<area shape="poly" id="edge14_Node000009_Node000006" title=" " alt="" coords="787,121,660,165,658,160,786,116"/>
+<area shape="poly" id="edge12_Node000009_Node000008" title=" " alt="" coords="811,121,775,158,772,155,807,117"/>
+<area shape="rect" id="Node000010" href="$mip__export_8h.html" title="A file export/import macros." alt="" coords="809,167,946,192"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="832,117,861,154,857,158,827,121"/>
+<area shape="poly" id="edge16_Node000011_Node000005" title=" " alt="" coords="428,118,441,153,436,155,423,120"/>
+<area shape="poly" id="edge17_Node000011_Node000006" title=" " alt="" coords="453,116,569,159,567,164,451,121"/>
 </map>

@@ -138,104 +138,106 @@ $(function(){initNavTree('stream_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#include &lt;future&gt;</span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacemip.html">mip</a> {</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="comment"></span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="comment">/**</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="comment"> * @brief A class that defines the interface between the MIP SDK and stream-based content.</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment"> */</span></div>
-<div class="foldopen" id="foldopen00044" data-start="{" data-end="};">
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classmip_1_1Stream.html">   44</a></span><span class="keyword">class </span><a class="code hl_class" href="classmip_1_1Stream.html">Stream</a> {</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">public</span>:<span class="comment"></span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="comment">  /**</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="comment">   * @brief Read into a buffer from the stream.</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="comment">   * </span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="comment">   * @param buffer pointer to a buffer</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="comment">   * @param bufferLength buffer size.</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="comment">   * @return number of bytes read.</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">   */</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="classmip_1_1Stream.html#a4f2dc6b38f2f0eaaeaacfe45a0fc3e19">   53</a></span>  <span class="keyword">virtual</span> int64_t <a class="code hl_function" href="classmip_1_1Stream.html#a4f2dc6b38f2f0eaaeaacfe45a0fc3e19">Read</a>(uint8_t* buffer, int64_t bufferLength) = 0;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment"></span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment">  /**</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment">   * @brief Write into the stream from a buffer.</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment">   *</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment">   * @param buffer pointer to a buffer</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="comment">   * @param bufferLength buffer size.</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="comment">   * @return number of bytes written.</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="comment">   */</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="classmip_1_1Stream.html#a27525865c6f59ee3b49121296dc56c97">   62</a></span>  <span class="keyword">virtual</span> int64_t <a class="code hl_function" href="classmip_1_1Stream.html#a27525865c6f59ee3b49121296dc56c97">Write</a>(<span class="keyword">const</span> uint8_t* buffer, int64_t bufferLength) = 0;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="comment"></span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="comment">  /**</span></div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="comment">   * @brief flush the stream.</span></div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="comment">   * </span></div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="comment">   * @return true if successful else false.</span></div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="comment">   */</span></div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="classmip_1_1Stream.html#a322884ce956bf54499584d015172e84e">   69</a></span>  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classmip_1_1Stream.html#a322884ce956bf54499584d015172e84e">Flush</a>() = 0;</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="comment"></span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="comment">  /**</span></div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="comment">   * @brief Seek specific position within the stream.</span></div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="comment">   * </span></div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="comment">   * @param position to seek into stream.</span></div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="comment">   */</span></div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="classmip_1_1Stream.html#ae6c1207ab98fcb549afeb84f7d85f4b7">   76</a></span>  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classmip_1_1Stream.html#ae6c1207ab98fcb549afeb84f7d85f4b7">Seek</a>(int64_t position) = 0;</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="comment"></span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="comment">  /**</span></div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="comment">   * @brief A check if stream can be read from.</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="comment">   * </span></div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="comment">   * @return true if readable else false.</span></div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="comment">   */</span></div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="classmip_1_1Stream.html#acba9fc605a59bb40f357943df3b5130a">   83</a></span>  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classmip_1_1Stream.html#acba9fc605a59bb40f357943df3b5130a">CanRead</a>() <span class="keyword">const</span> = 0;</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="comment"></span> </div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="comment">  /**</span></div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="comment">   * @brief A check if stream can be written to.</span></div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="comment">   * </span></div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="comment">   * @return true if writeable else false.</span></div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="comment">   */</span></div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="classmip_1_1Stream.html#ad65384a3db167215fae789dbb63523cd">   90</a></span>  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classmip_1_1Stream.html#ad65384a3db167215fae789dbb63523cd">CanWrite</a>() <span class="keyword">const</span> = 0;</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="comment"></span> </div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="comment">  /**</span></div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="comment">   * @brief Get the current position within the stream. </span></div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="comment">   * </span></div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span><span class="comment">   * @return position within the stream.</span></div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span><span class="comment">   */</span></div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="classmip_1_1Stream.html#a75db7f3b444d8c00635f19f3106d8983">   97</a></span>  <span class="keyword">virtual</span> int64_t <a class="code hl_function" href="classmip_1_1Stream.html#a75db7f3b444d8c00635f19f3106d8983">Position</a>() = 0;</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span><span class="comment"></span> </div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="comment">  /**</span></div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span><span class="comment">   * @brief Get the size of the content within the stream.</span></div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="comment">   * </span></div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="comment">   * @return the stream size. </span></div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span><span class="comment">   */</span></div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="classmip_1_1Stream.html#af9c047583cb4fe73e0e7b79298ddb68f">  104</a></span>  <span class="keyword">virtual</span> int64_t <a class="code hl_function" href="classmip_1_1Stream.html#af9c047583cb4fe73e0e7b79298ddb68f">Size</a>() = 0;</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span><span class="comment"></span> </div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span><span class="comment">  /**</span></div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span><span class="comment">   * @brief Set the stream size.</span></div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span><span class="comment">   * </span></div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span><span class="comment">   * @param stream size. </span></div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span><span class="comment">   */</span></div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="classmip_1_1Stream.html#aa8866762c6bf13231a4e88321ef06674">  111</a></span>  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classmip_1_1Stream.html#aa8866762c6bf13231a4e88321ef06674">Size</a>(int64_t value) = 0;</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="comment"></span> </div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span><span class="comment">  /** @cond DOXYGEN_HIDE */</span></div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>  <span class="keyword">virtual</span> <a class="code hl_class" href="classmip_1_1Stream.html">~Stream</a>() { }</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>  <a class="code hl_class" href="classmip_1_1Stream.html">Stream</a>() { }<span class="comment"></span></div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="comment">  /** @endcond */</span></div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>}; <span class="comment">// class Stream</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &quot;<a class="code" href="mip__namespace_8h.html">mip/mip_namespace.h</a>&quot;</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>MIP_NAMESPACE_BEGIN</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="comment"></span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment">/**</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="comment"> * @brief A class that defines the interface between the MIP SDK and stream-based content.</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="comment"> */</span></div>
+<div class="foldopen" id="foldopen00046" data-start="{" data-end="};">
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="classStream.html">   46</a></span><span class="keyword">class </span><a class="code hl_class" href="classStream.html">Stream</a> {</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">public</span>:<span class="comment"></span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="comment">  /**</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="comment">   * @brief Read into a buffer from the stream.</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="comment">   * </span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="comment">   * @param buffer pointer to a buffer</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">   * @param bufferLength buffer size.</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="comment">   * @return number of bytes read.</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment">   */</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="classStream.html#a52768e2afcca934983ce726cbc9964d2">   55</a></span>  <span class="keyword">virtual</span> int64_t <a class="code hl_function" href="classStream.html#a52768e2afcca934983ce726cbc9964d2">Read</a>(uint8_t* buffer, int64_t bufferLength) = 0;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment"></span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment">  /**</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment">   * @brief Write into the stream from a buffer.</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="comment">   *</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="comment">   * @param buffer pointer to a buffer</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="comment">   * @param bufferLength buffer size.</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="comment">   * @return number of bytes written.</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="comment">   */</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="classStream.html#a67e7e739198f480dac2925d06010c60b">   64</a></span>  <span class="keyword">virtual</span> int64_t <a class="code hl_function" href="classStream.html#a67e7e739198f480dac2925d06010c60b">Write</a>(<span class="keyword">const</span> uint8_t* buffer, int64_t bufferLength) = 0;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="comment"></span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="comment">  /**</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="comment">   * @brief flush the stream.</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="comment">   * </span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="comment">   * @return true if successful else false.</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="comment">   */</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="classStream.html#adba05e142a47f7b29694428f8ac63a54">   71</a></span>  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classStream.html#adba05e142a47f7b29694428f8ac63a54">Flush</a>() = 0;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="comment"></span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="comment">  /**</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="comment">   * @brief Seek specific position within the stream.</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="comment">   * </span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="comment">   * @param position to seek into stream.</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="comment">   */</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="classStream.html#a6ef590c7a12860ad79f05a3e5b361a46">   78</a></span>  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classStream.html#a6ef590c7a12860ad79f05a3e5b361a46">Seek</a>(int64_t position) = 0;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="comment"></span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="comment">  /**</span></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="comment">   * @brief A check if stream can be read from.</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="comment">   * </span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="comment">   * @return true if readable else false.</span></div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="comment">   */</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="classStream.html#a44a66ddf55e64ff275a8f153c7839a3f">   85</a></span>  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classStream.html#a44a66ddf55e64ff275a8f153c7839a3f">CanRead</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="comment"></span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="comment">  /**</span></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="comment">   * @brief A check if stream can be written to.</span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="comment">   * </span></div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="comment">   * @return true if writeable else false.</span></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="comment">   */</span></div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="classStream.html#a006b387fc65d4e2cdb06d1090e097c03">   92</a></span>  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classStream.html#a006b387fc65d4e2cdb06d1090e097c03">CanWrite</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="comment"></span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="comment">  /**</span></div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span><span class="comment">   * @brief Get the current position within the stream. </span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span><span class="comment">   * </span></div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span><span class="comment">   * @return position within the stream.</span></div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span><span class="comment">   */</span></div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="classStream.html#a51a308fa578f375f5bbd336c711d2fe9">   99</a></span>  <span class="keyword">virtual</span> int64_t <a class="code hl_function" href="classStream.html#a51a308fa578f375f5bbd336c711d2fe9">Position</a>() = 0;</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span><span class="comment"></span> </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="comment">  /**</span></div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="comment">   * @brief Get the size of the content within the stream.</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span><span class="comment">   * </span></div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span><span class="comment">   * @return the stream size. </span></div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span><span class="comment">   */</span></div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="classStream.html#a2453528eed37b85e7fa79bdad6f05bf6">  106</a></span>  <span class="keyword">virtual</span> int64_t <a class="code hl_function" href="classStream.html#a2453528eed37b85e7fa79bdad6f05bf6">Size</a>() = 0;</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span><span class="comment"></span> </div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span><span class="comment">  /**</span></div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span><span class="comment">   * @brief Set the stream size.</span></div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span><span class="comment">   * </span></div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span><span class="comment">   * @param stream size. </span></div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="comment">   */</span></div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno"><a class="line" href="classStream.html#a99ef96b114b37f557906f242e24d04e6">  113</a></span>  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classStream.html#a99ef96b114b37f557906f242e24d04e6">Size</a>(int64_t value) = 0;</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span><span class="comment"></span> </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><span class="comment">  /** @cond DOXYGEN_HIDE */</span></div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>  <span class="keyword">virtual</span> <a class="code hl_class" href="classStream.html">~Stream</a>() { }</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>  <a class="code hl_class" href="classStream.html">Stream</a>() { }<span class="comment"></span></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span><span class="comment">  /** @endcond */</span></div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>}; <span class="comment">// class Stream</span></div>
 </div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>} <span class="comment">//namespace mip</span></div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span><span class="preprocessor">#endif </span><span class="comment">// API_MIP_STREAM_H_</span></div>
-<div class="ttc" id="aclassmip_1_1Stream_html"><div class="ttname"><a href="classmip_1_1Stream.html">mip::Stream</a></div><div class="ttdoc">A class that defines the interface between the MIP SDK and stream-based content.</div><div class="ttdef"><b>Definition</b> <a href="#l00044">stream.h:44</a></div></div>
-<div class="ttc" id="aclassmip_1_1Stream_html_a27525865c6f59ee3b49121296dc56c97"><div class="ttname"><a href="classmip_1_1Stream.html#a27525865c6f59ee3b49121296dc56c97">mip::Stream::Write</a></div><div class="ttdeci">virtual int64_t Write(const uint8_t *buffer, int64_t bufferLength)=0</div><div class="ttdoc">Write into the stream from a buffer.</div></div>
-<div class="ttc" id="aclassmip_1_1Stream_html_a322884ce956bf54499584d015172e84e"><div class="ttname"><a href="classmip_1_1Stream.html#a322884ce956bf54499584d015172e84e">mip::Stream::Flush</a></div><div class="ttdeci">virtual bool Flush()=0</div><div class="ttdoc">flush the stream.</div></div>
-<div class="ttc" id="aclassmip_1_1Stream_html_a4f2dc6b38f2f0eaaeaacfe45a0fc3e19"><div class="ttname"><a href="classmip_1_1Stream.html#a4f2dc6b38f2f0eaaeaacfe45a0fc3e19">mip::Stream::Read</a></div><div class="ttdeci">virtual int64_t Read(uint8_t *buffer, int64_t bufferLength)=0</div><div class="ttdoc">Read into a buffer from the stream.</div></div>
-<div class="ttc" id="aclassmip_1_1Stream_html_a75db7f3b444d8c00635f19f3106d8983"><div class="ttname"><a href="classmip_1_1Stream.html#a75db7f3b444d8c00635f19f3106d8983">mip::Stream::Position</a></div><div class="ttdeci">virtual int64_t Position()=0</div><div class="ttdoc">Get the current position within the stream.</div></div>
-<div class="ttc" id="aclassmip_1_1Stream_html_aa8866762c6bf13231a4e88321ef06674"><div class="ttname"><a href="classmip_1_1Stream.html#aa8866762c6bf13231a4e88321ef06674">mip::Stream::Size</a></div><div class="ttdeci">virtual void Size(int64_t value)=0</div><div class="ttdoc">Set the stream size.</div></div>
-<div class="ttc" id="aclassmip_1_1Stream_html_acba9fc605a59bb40f357943df3b5130a"><div class="ttname"><a href="classmip_1_1Stream.html#acba9fc605a59bb40f357943df3b5130a">mip::Stream::CanRead</a></div><div class="ttdeci">virtual bool CanRead() const =0</div><div class="ttdoc">A check if stream can be read from.</div></div>
-<div class="ttc" id="aclassmip_1_1Stream_html_ad65384a3db167215fae789dbb63523cd"><div class="ttname"><a href="classmip_1_1Stream.html#ad65384a3db167215fae789dbb63523cd">mip::Stream::CanWrite</a></div><div class="ttdeci">virtual bool CanWrite() const =0</div><div class="ttdoc">A check if stream can be written to.</div></div>
-<div class="ttc" id="aclassmip_1_1Stream_html_ae6c1207ab98fcb549afeb84f7d85f4b7"><div class="ttname"><a href="classmip_1_1Stream.html#ae6c1207ab98fcb549afeb84f7d85f4b7">mip::Stream::Seek</a></div><div class="ttdeci">virtual void Seek(int64_t position)=0</div><div class="ttdoc">Seek specific position within the stream.</div></div>
-<div class="ttc" id="aclassmip_1_1Stream_html_af9c047583cb4fe73e0e7b79298ddb68f"><div class="ttname"><a href="classmip_1_1Stream.html#af9c047583cb4fe73e0e7b79298ddb68f">mip::Stream::Size</a></div><div class="ttdeci">virtual int64_t Size()=0</div><div class="ttdoc">Get the size of the content within the stream.</div></div>
-<div class="ttc" id="anamespacemip_html"><div class="ttname"><a href="namespacemip.html">mip</a></div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00047">common_types.h:47</a></div></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>MIP_NAMESPACE_END</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span><span class="preprocessor">#endif </span><span class="comment">// API_MIP_STREAM_H_</span></div>
+<div class="ttc" id="aclassStream_html"><div class="ttname"><a href="classStream.html">Stream</a></div><div class="ttdoc">A class that defines the interface between the MIP SDK and stream-based content.</div><div class="ttdef"><b>Definition</b> <a href="#l00046">stream.h:46</a></div></div>
+<div class="ttc" id="aclassStream_html_a006b387fc65d4e2cdb06d1090e097c03"><div class="ttname"><a href="classStream.html#a006b387fc65d4e2cdb06d1090e097c03">Stream::CanWrite</a></div><div class="ttdeci">virtual bool CanWrite() const =0</div><div class="ttdoc">A check if stream can be written to.</div></div>
+<div class="ttc" id="aclassStream_html_a2453528eed37b85e7fa79bdad6f05bf6"><div class="ttname"><a href="classStream.html#a2453528eed37b85e7fa79bdad6f05bf6">Stream::Size</a></div><div class="ttdeci">virtual int64_t Size()=0</div><div class="ttdoc">Get the size of the content within the stream.</div></div>
+<div class="ttc" id="aclassStream_html_a44a66ddf55e64ff275a8f153c7839a3f"><div class="ttname"><a href="classStream.html#a44a66ddf55e64ff275a8f153c7839a3f">Stream::CanRead</a></div><div class="ttdeci">virtual bool CanRead() const =0</div><div class="ttdoc">A check if stream can be read from.</div></div>
+<div class="ttc" id="aclassStream_html_a51a308fa578f375f5bbd336c711d2fe9"><div class="ttname"><a href="classStream.html#a51a308fa578f375f5bbd336c711d2fe9">Stream::Position</a></div><div class="ttdeci">virtual int64_t Position()=0</div><div class="ttdoc">Get the current position within the stream.</div></div>
+<div class="ttc" id="aclassStream_html_a52768e2afcca934983ce726cbc9964d2"><div class="ttname"><a href="classStream.html#a52768e2afcca934983ce726cbc9964d2">Stream::Read</a></div><div class="ttdeci">virtual int64_t Read(uint8_t *buffer, int64_t bufferLength)=0</div><div class="ttdoc">Read into a buffer from the stream.</div></div>
+<div class="ttc" id="aclassStream_html_a67e7e739198f480dac2925d06010c60b"><div class="ttname"><a href="classStream.html#a67e7e739198f480dac2925d06010c60b">Stream::Write</a></div><div class="ttdeci">virtual int64_t Write(const uint8_t *buffer, int64_t bufferLength)=0</div><div class="ttdoc">Write into the stream from a buffer.</div></div>
+<div class="ttc" id="aclassStream_html_a6ef590c7a12860ad79f05a3e5b361a46"><div class="ttname"><a href="classStream.html#a6ef590c7a12860ad79f05a3e5b361a46">Stream::Seek</a></div><div class="ttdeci">virtual void Seek(int64_t position)=0</div><div class="ttdoc">Seek specific position within the stream.</div></div>
+<div class="ttc" id="aclassStream_html_a99ef96b114b37f557906f242e24d04e6"><div class="ttname"><a href="classStream.html#a99ef96b114b37f557906f242e24d04e6">Stream::Size</a></div><div class="ttdeci">virtual void Size(int64_t value)=0</div><div class="ttdoc">Set the stream size.</div></div>
+<div class="ttc" id="aclassStream_html_adba05e142a47f7b29694428f8ac63a54"><div class="ttname"><a href="classStream.html#adba05e142a47f7b29694428f8ac63a54">Stream::Flush</a></div><div class="ttdeci">virtual bool Flush()=0</div><div class="ttdoc">flush the stream.</div></div>
+<div class="ttc" id="amip__namespace_8h_html"><div class="ttname"><a href="mip__namespace_8h.html">mip_namespace.h</a></div><div class="ttdoc">MIP namespace macros.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

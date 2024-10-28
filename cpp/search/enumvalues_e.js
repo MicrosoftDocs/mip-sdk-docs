@@ -1,21 +1,11 @@
 var searchData=
 [
-  ['passthrough_0',['PassThrough',['../namespacemip.html#a8d84dac008c55905a984215a9d959652ae1ff6a7360e99cb46db6bb5d3ff8e2eb',1,'mip']]],
-  ['pfilesuffix_1',['PFileSuffix',['../namespacemip.html#a28d4c231124337ad1a8a33d346fdc464a048c35f9b6098c13d400c4bc7bfef4c1',1,'mip']]],
-  ['platform_2',['Platform',['../classmip_1_1ServiceDisabledError.html#accdeb0908d002dd530b62a7dcb06e5d0a419f3742e6de8e0ec4b22cce005e7630',1,'mip::ServiceDisabledError']]],
-  ['policyauth_3',['PolicyAuth',['../namespacemip.html#ab3be3938fca1ef01025416f6b4dd9209ab224cbe18e7d2a75e505300b860f2ba7',1,'mip']]],
-  ['post_4',['Post',['../namespacemip.html#a2f4e24b6c7a867e1b1d734a0fdf9ad2aa03d947a2158373c3b9d74325850cb8b9',1,'mip']]],
-  ['pprefix_5',['PPrefix',['../namespacemip.html#a28d4c231124337ad1a8a33d346fdc464a009280086ec16cd72d29f25c5fc461c5',1,'mip']]],
-  ['predefinedtemplateprotection_6',['PredefinedTemplateProtection',['../namespacemip.html#af35bc9b1122310ffbb23e3fc22e74abca9ef5b1a47709d34b146f0fc7399846de',1,'mip']]],
-  ['prelicensing_7',['PreLicensing',['../namespacemip.html#ab3be3938fca1ef01025416f6b4dd9209a360d76a502c7304617a56caa70612b25',1,'mip']]],
-  ['privileged_8',['PRIVILEGED',['../namespacemip.html#ae02407abda6d300ea4f3e27633343344aaba1439bd1a9fd4f9270ffab08fe59a6',1,'mip']]],
-  ['privileged_5frequired_9',['PRIVILEGED_REQUIRED',['../namespacemip.html#a5de2b587c29fcb4550b4d1274ebf3af3a314c353495469731ec178d42dfb44efd',1,'mip']]],
-  ['protect_5fadhoc_10',['PROTECT_ADHOC',['../namespacemip.html#ad2d9647dd20f55eae1519c4a3f338ddca971fdd2239c52b26c80a84f93ea73e10',1,'mip']]],
-  ['protect_5fadhoc_5fdk_11',['PROTECT_ADHOC_DK',['../namespacemip.html#ad2d9647dd20f55eae1519c4a3f338ddcaf230696bfcb098e93e6a442583fdf3dc',1,'mip']]],
-  ['protect_5fby_5ftemplate_12',['PROTECT_BY_TEMPLATE',['../namespacemip.html#ad2d9647dd20f55eae1519c4a3f338ddcac57642bfdbbca367c4b974ce2500e99a',1,'mip']]],
-  ['protect_5fby_5ftemplate_5fdk_13',['PROTECT_BY_TEMPLATE_DK',['../namespacemip.html#ad2d9647dd20f55eae1519c4a3f338ddca26b0a5889841a96148ba409b0313dce6',1,'mip']]],
-  ['protect_5fdo_5fnot_5fforward_14',['PROTECT_DO_NOT_FORWARD',['../namespacemip.html#ad2d9647dd20f55eae1519c4a3f338ddca1b7a114d16c5f3481fcaeca4c511f427',1,'mip']]],
-  ['protect_5fdo_5fnot_5fforward_5fdk_15',['PROTECT_DO_NOT_FORWARD_DK',['../namespacemip.html#ad2d9647dd20f55eae1519c4a3f338ddcacee880b5c2743d455349b8a08899322d',1,'mip']]],
-  ['proxy_16',['Proxy',['../classmip_1_1NetworkError.html#a0ef86be2d746342426a5a9027361e996af56ec2ab97d604832d90f6394e3f341f',1,'mip::NetworkError']]],
-  ['proxy_5fauth_5ferror_17',['PROXY_AUTH_ERROR',['../namespacemip.html#a5de2b587c29fcb4550b4d1274ebf3af3a698c617687bc4e572f3141605b7e2508',1,'mip']]]
+  ['office_0',['Office',['../common__types_8h.html#a81d84fb9dff7fc21964e0b2ef63a3770adf814135652a5a308fea15bff37ea284',1,'common_types.h']]],
+  ['offline_1',['Offline',['../classNetworkError.html#a8cb40eb9f9c590f78170c7552a5bac37a8d9da4bc0e49a50e09ac9f7e56789d39',1,'NetworkError']]],
+  ['oii_2',['OII',['../diagnostic__types_8h.html#a9f6f929d7eab3f90b04c20833a4e9802a1e7428c03bfe3903cc7301b2897d514a',1,'OII:&#160;diagnostic_types.h'],['../diagnostic__types_8h.html#aa4284266a89cb5c936178b781beee457a1e7428c03bfe3903cc7301b2897d514a',1,'OII:&#160;diagnostic_types.h']]],
+  ['ondisk_3',['OnDisk',['../common__types_8h.html#a174ba9275624a6880ce3be3fdbaa6c5fa833090cabdf22e20748ef66fc755e11e',1,'common_types.h']]],
+  ['ondiskencrypted_4',['OnDiskEncrypted',['../common__types_8h.html#a174ba9275624a6880ce3be3fdbaa6c5face61c9ea080c2eeab93002c01b8ceb8f',1,'common_types.h']]],
+  ['one_5flabel_5fper_5ftenant_5',['ONE_LABEL_PER_TENANT',['../metadata__version_8h.html#ad49da0b980254a21001552d98bb1b196a2f078aa78d93be1899499a3b7d37c0e6',1,'metadata_version.h']]],
+  ['operation_5fcancelled_6',['OPERATION_CANCELLED',['../error_8h.html#af7a9c5a9d19bf72299ab821bd983e131a2cd6e48f7d0c54dfa8ae2c41385a6925',1,'error.h']]],
+  ['optimizepdfmemory_7',['OptimizePdfMemory',['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a0ab78ffadc9bde4dd63a3f743436af93',1,'flighting_feature.h']]]
 ];

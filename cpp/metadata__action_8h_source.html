@@ -136,50 +136,52 @@ $(function(){initNavTree('metadata__action_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#define API_MIP_UPE_METADATA_ACTION_H_</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#include &lt;utility&gt;</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &quot;<a class="code" href="mip__namespace_8h.html">mip/mip_namespace.h</a>&quot;</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#include &quot;<a class="code" href="action_8h.html">mip/upe/action.h</a>&quot;</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacemip.html">mip</a> {<span class="comment"></span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment">/**</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="comment"> * @brief An Action that adds metadata information to the content.</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="comment"> * </span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="comment"> */</span></div>
-<div class="foldopen" id="foldopen00047" data-start="{" data-end="};">
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="classmip_1_1MetadataAction.html">   47</a></span><span class="keyword">class </span><a class="code hl_class" href="classmip_1_1MetadataAction.html">MetadataAction</a> : <span class="keyword">public</span> <a class="code hl_class" href="classmip_1_1Action.html">Action</a> {</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">public</span>:<span class="comment"></span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="comment">  /**</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="comment">   * @brief Get the list of names of metadata that should be removed from content.</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="comment">   *</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">   * @return a vector of strings to remove.</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="comment">   * @note Removing metadata should be done before adding metadata.</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment">   */</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="classmip_1_1MetadataAction.html#a0daeab3661e7476142fa2f75350ee423">   55</a></span>  <span class="keyword">virtual</span> <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; <a class="code hl_function" href="classmip_1_1MetadataAction.html#a0daeab3661e7476142fa2f75350ee423">GetMetadataToRemove</a>() <span class="keyword">const</span> = 0;<span class="comment"></span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment">  /**</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment">   * @brief Get the metadata name/value pairs that should be added to the content.</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment">   *</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="comment">   * @return const std::vector&lt;std::pair&lt;std::string, std::string&gt;&gt;&amp;</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="comment">   * @note Removing metadata should be done before adding metadata.</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="comment">   */</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="classmip_1_1MetadataAction.html#a7f033c3fdce403d84a661084e89339cf">   62</a></span>  <span class="keyword">virtual</span> <span class="keyword">const</span> std::vector&lt;std::pair&lt;std::string, std::string&gt;&gt;&amp; <a class="code hl_function" href="classmip_1_1MetadataAction.html#a7f033c3fdce403d84a661084e89339cf">GetMetadataToAdd</a>() <span class="keyword">const</span> = 0;<span class="comment"></span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="comment">  /** @cond DOXYGEN_HIDE */</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  <span class="keyword">virtual</span> <a class="code hl_class" href="classmip_1_1MetadataAction.html">~MetadataAction</a>() { }</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  <a class="code hl_class" href="classmip_1_1MetadataAction.html">MetadataAction</a>(<span class="keyword">const</span> std::string&amp; <span class="keywordtype">id</span>) : <a class="code hl_class" href="classmip_1_1Action.html">Action</a>(id) { }<span class="comment"></span></div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="comment">  /** @endcond */</span></div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>};</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#include &quot;<a class="code" href="metadata__entry_8h.html">mip/upe/metadata_entry.h</a>&quot;</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>MIP_NAMESPACE_BEGIN<span class="comment"></span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="comment">/**</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="comment"> * @brief An Action that adds metadata information to the content.</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="comment"> * </span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="comment"> */</span></div>
+<div class="foldopen" id="foldopen00048" data-start="{" data-end="};">
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="classMetadataAction.html">   48</a></span><span class="keyword">class </span><a class="code hl_class" href="classMetadataAction.html">MetadataAction</a> : <span class="keyword">public</span> <a class="code hl_class" href="classAction.html">Action</a> {</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">public</span>:<span class="comment"></span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="comment">  /**</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="comment">   * @brief Get the list of names of metadata that should be removed from content.</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">   *</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="comment">   * @return a vector of strings to remove.</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment">   * @note Removing metadata should be done before adding metadata.</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment">   */</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="classMetadataAction.html#a618c41cec010c2d0c23c83360a3b1ecc">   56</a></span>  <span class="keyword">virtual</span> <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; <a class="code hl_function" href="classMetadataAction.html#a618c41cec010c2d0c23c83360a3b1ecc">GetMetadataToRemove</a>() <span class="keyword">const</span> = 0;<span class="comment"></span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment">  /**</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment">   * @brief Get the metadata name/value pairs that should be added to the content.</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="comment">   *</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="comment">   * @return const std::vector&lt;MetadataEntry&gt;&amp;</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="comment">   * @note Removing metadata should be done before adding metadata.</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="comment">   */</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="classMetadataAction.html#a94d057349407a21807c1272a1b34b382">   63</a></span>  <span class="keyword">virtual</span> <span class="keyword">const</span> std::vector&lt;MetadataEntry&gt;&amp; <a class="code hl_function" href="classMetadataAction.html#a94d057349407a21807c1272a1b34b382">GetMetadataToAdd</a>() <span class="keyword">const</span> = 0;<span class="comment"></span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="comment">  /** @cond DOXYGEN_HIDE */</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  <span class="keyword">virtual</span> <a class="code hl_class" href="classMetadataAction.html">~MetadataAction</a>() { }</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  <a class="code hl_class" href="classMetadataAction.html">MetadataAction</a>(<span class="keyword">const</span> std::string&amp; <span class="keywordtype">id</span>) : <a class="code hl_class" href="classAction.html">Action</a>(id) { }<span class="comment"></span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="comment">  /** @endcond */</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>};</div>
 </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>}  <span class="comment">// namespace mip</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="preprocessor">#endif  </span><span class="comment">// API_MIP_UPE_METADATA_ACTION_H_</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>MIP_NAMESPACE_END</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="preprocessor">#endif  </span><span class="comment">// API_MIP_UPE_METADATA_ACTION_H_</span></div>
 <div class="ttc" id="aaction_8h_html"><div class="ttname"><a href="action_8h.html">action.h</a></div><div class="ttdoc">A file containing the Action base class and the ActionType enumerator.</div></div>
-<div class="ttc" id="aclassmip_1_1Action_html"><div class="ttname"><a href="classmip_1_1Action.html">mip::Action</a></div><div class="ttdoc">Interface for an action.</div><div class="ttdef"><b>Definition</b> <a href="action_8h_source.html#l00088">action.h:88</a></div></div>
-<div class="ttc" id="aclassmip_1_1MetadataAction_html"><div class="ttname"><a href="classmip_1_1MetadataAction.html">mip::MetadataAction</a></div><div class="ttdoc">An Action that adds metadata information to the content.</div><div class="ttdef"><b>Definition</b> <a href="#l00047">metadata_action.h:47</a></div></div>
-<div class="ttc" id="aclassmip_1_1MetadataAction_html_a0daeab3661e7476142fa2f75350ee423"><div class="ttname"><a href="classmip_1_1MetadataAction.html#a0daeab3661e7476142fa2f75350ee423">mip::MetadataAction::GetMetadataToRemove</a></div><div class="ttdeci">virtual const std::vector&lt; std::string &gt; &amp; GetMetadataToRemove() const =0</div><div class="ttdoc">Get the list of names of metadata that should be removed from content.</div></div>
-<div class="ttc" id="aclassmip_1_1MetadataAction_html_a7f033c3fdce403d84a661084e89339cf"><div class="ttname"><a href="classmip_1_1MetadataAction.html#a7f033c3fdce403d84a661084e89339cf">mip::MetadataAction::GetMetadataToAdd</a></div><div class="ttdeci">virtual const std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt; &amp; GetMetadataToAdd() const =0</div><div class="ttdoc">Get the metadata name/value pairs that should be added to the content.</div></div>
-<div class="ttc" id="anamespacemip_html"><div class="ttname"><a href="namespacemip.html">mip</a></div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00047">common_types.h:47</a></div></div>
+<div class="ttc" id="aclassAction_html"><div class="ttname"><a href="classAction.html">Action</a></div><div class="ttdoc">Interface for an action.</div><div class="ttdef"><b>Definition</b> <a href="action_8h_source.html#l00093">action.h:93</a></div></div>
+<div class="ttc" id="aclassMetadataAction_html"><div class="ttname"><a href="classMetadataAction.html">MetadataAction</a></div><div class="ttdoc">An Action that adds metadata information to the content.</div><div class="ttdef"><b>Definition</b> <a href="#l00048">metadata_action.h:48</a></div></div>
+<div class="ttc" id="aclassMetadataAction_html_a618c41cec010c2d0c23c83360a3b1ecc"><div class="ttname"><a href="classMetadataAction.html#a618c41cec010c2d0c23c83360a3b1ecc">MetadataAction::GetMetadataToRemove</a></div><div class="ttdeci">virtual const std::vector&lt; std::string &gt; &amp; GetMetadataToRemove() const =0</div><div class="ttdoc">Get the list of names of metadata that should be removed from content.</div></div>
+<div class="ttc" id="aclassMetadataAction_html_a94d057349407a21807c1272a1b34b382"><div class="ttname"><a href="classMetadataAction.html#a94d057349407a21807c1272a1b34b382">MetadataAction::GetMetadataToAdd</a></div><div class="ttdeci">virtual const std::vector&lt; MetadataEntry &gt; &amp; GetMetadataToAdd() const =0</div><div class="ttdoc">Get the metadata name/value pairs that should be added to the content.</div></div>
+<div class="ttc" id="ametadata__entry_8h_html"><div class="ttname"><a href="metadata__entry_8h.html">metadata_entry.h</a></div><div class="ttdoc">This file contains the MetadataEntry class.</div></div>
+<div class="ttc" id="amip__namespace_8h_html"><div class="ttname"><a href="mip__namespace_8h.html">mip_namespace.h</a></div><div class="ttdoc">MIP namespace macros.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

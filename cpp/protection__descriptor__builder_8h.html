@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection (MIP) SDK for C++: Reference: src/api/mip/protection/protection_descriptor_builder.h File Reference</title>
+<title>Microsoft Information Protection (MIP) SDK for C++: Reference: src/api/mip/protection_descriptor_builder.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -98,16 +98,16 @@ $(function(){initNavTree('protection__descriptor__builder_8h.html',''); initResi
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle"><div class="title">protection_descriptor_builder.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Defines ProtectionDescriptor interface.  
+<p>Defines <a class="el" href="classProtectionDescriptor.html" title="Description of protection associated with a piece of content.">ProtectionDescriptor</a> interface.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;map&gt;</code><br />
 <code>#include &quot;<a class="el" href="mip__export_8h_source.html">mip/mip_export.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mip__namespace_8h_source.html">mip/mip_namespace.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="protection__descriptor_8h_source.html">mip/protection_descriptor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="user__rights_8h_source.html">mip/user_rights.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="user__roles_8h_source.html">mip/user_roles.h</a>&quot;</code><br />
@@ -116,34 +116,43 @@ $(function(){initNavTree('protection__descriptor__builder_8h.html',''); initResi
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="protection__descriptor__builder_8h__incl.png" border="0" usemap="#asrc_2api_2mip_2protection_2protection__descriptor__builder_8h" alt=""/></div>
-<map name="asrc_2api_2mip_2protection_2protection__descriptor__builder_8h" id="asrc_2api_2mip_2protection_2protection__descriptor__builder_8h">
-<area shape="rect" title="Defines ProtectionDescriptor interface." alt="" coords="325,5,489,60"/>
-<area shape="rect" title=" " alt="" coords="5,181,56,207"/>
-<area shape="poly" title=" " alt="" coords="325,54,243,78,158,110,103,142,57,175,54,171,100,138,156,106,241,73,323,49"/>
-<area shape="rect" href="mip__export_8h.html" title="A file export/import macros." alt="" coords="569,255,706,280"/>
-<area shape="poly" title=" " alt="" coords="473,58,513,79,556,106,595,140,628,180,639,210,642,241,636,241,634,212,623,183,591,143,553,110,511,83,471,62"/>
-<area shape="rect" href="protection__descriptor_8h.html" title="Defines ProtectionDescriptor interface." alt="" coords="169,108,369,133"/>
-<area shape="poly" title=" " alt="" coords="366,62,301,103,298,98,363,58"/>
-<area shape="rect" href="user__rights_8h.html" title="Defines UserRights class." alt="" coords="323,181,458,207"/>
-<area shape="poly" title=" " alt="" coords="407,60,396,168,391,167,401,60"/>
-<area shape="rect" href="user__roles_8h.html" title="Defines UserRoles class." alt="" coords="483,181,613,207"/>
-<area shape="poly" title=" " alt="" coords="432,58,531,169,527,173,428,62"/>
-<area shape="poly" title=" " alt="" coords="231,136,70,183,69,178,230,131"/>
-<area shape="rect" title=" " alt="" coords="80,181,147,207"/>
-<area shape="poly" title=" " alt="" coords="245,136,152,178,150,173,243,131"/>
-<area shape="rect" title=" " alt="" coords="171,181,248,207"/>
-<area shape="poly" title=" " alt="" coords="261,135,230,173,226,169,257,132"/>
-<area shape="rect" title=" " alt="" coords="361,255,420,280"/>
-<area shape="poly" title=" " alt="" coords="275,132,289,167,313,205,335,227,360,245,357,250,332,231,309,208,284,169,270,134"/>
-<area shape="poly" title=" " alt="" coords="290,131,361,172,358,177,287,136"/>
-<area shape="poly" title=" " alt="" coords="315,131,490,175,489,180,313,136"/>
-<area shape="poly" title=" " alt="" coords="393,207,393,241,388,241,388,207"/>
-<area shape="rect" title=" " alt="" coords="470,255,533,280"/>
-<area shape="poly" title=" " alt="" coords="410,204,473,245,470,249,407,209"/>
-<area shape="poly" title=" " alt="" coords="564,205,614,244,610,248,561,209"/>
-<area shape="poly" title=" " alt="" coords="524,209,430,251,428,247,522,204"/>
-<area shape="poly" title=" " alt="" coords="543,208,519,245,514,242,538,206"/>
+<div class="center"><img src="protection__descriptor__builder_8h__incl.png" border="0" usemap="#asrc_2api_2mip_2protection__descriptor__builder_8h" alt=""/></div>
+<map name="asrc_2api_2mip_2protection__descriptor__builder_8h" id="asrc_2api_2mip_2protection__descriptor__builder_8h">
+<area shape="rect" title="Defines ProtectionDescriptor interface." alt="" coords="396,5,560,45"/>
+<area shape="rect" title=" " alt="" coords="27,167,78,192"/>
+<area shape="poly" title=" " alt="" coords="426,48,91,167,90,162,424,43"/>
+<area shape="rect" href="mip__export_8h.html" title="A file export/import macros." alt="" coords="824,240,961,265"/>
+<area shape="poly" title=" " alt="" coords="561,38,660,59,768,87,818,104,863,123,898,143,921,165,927,181,926,198,912,230,907,228,921,197,922,182,917,168,895,147,860,128,816,109,766,92,658,64,560,43"/>
+<area shape="rect" href="mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="166,240,336,265"/>
+<area shape="poly" title=" " alt="" coords="396,42,292,62,177,90,124,107,77,126,41,146,17,168,9,186,11,201,22,213,40,223,92,238,152,245,152,251,91,243,38,228,18,217,6,203,4,185,13,165,37,142,75,121,122,102,176,85,291,56,395,37"/>
+<area shape="rect" href="protection__descriptor_8h.html" title="Defines ProtectionDescriptor interface." alt="" coords="447,93,647,119"/>
+<area shape="poly" title=" " alt="" coords="496,44,529,81,525,84,492,47"/>
+<area shape="rect" href="user__rights_8h.html" title="Defines UserRights class." alt="" coords="374,167,509,192"/>
+<area shape="poly" title=" " alt="" coords="463,47,449,69,438,94,434,124,438,153,432,153,429,124,432,93,444,66,459,44"/>
+<area shape="rect" href="user__roles_8h.html" title="Defines UserRoles class." alt="" coords="776,167,907,192"/>
+<area shape="poly" title=" " alt="" coords="533,43,660,91,807,158,805,163,658,96,531,48"/>
+<area shape="poly" title=" " alt="" coords="447,120,282,139,97,169,92,170,91,165,96,164,281,134,446,114"/>
+<area shape="poly" title=" " alt="" coords="447,110,359,114,268,124,190,141,162,154,142,168,137,178,136,186,148,204,172,220,202,233,200,238,170,224,145,208,131,188,132,176,138,165,159,149,189,136,267,119,359,109,447,105"/>
+<area shape="rect" title=" " alt="" coords="584,167,651,192"/>
+<area shape="poly" title=" " alt="" coords="560,117,598,155,595,159,557,121"/>
+<area shape="rect" title=" " alt="" coords="675,167,752,192"/>
+<area shape="poly" title=" " alt="" coords="575,116,675,159,673,164,573,121"/>
+<area shape="rect" title=" " alt="" coords="460,240,519,265"/>
+<area shape="poly" title=" " alt="" coords="547,120,524,193,506,229,501,227,519,191,542,118"/>
+<area shape="poly" title=" " alt="" coords="531,121,471,161,468,157,529,116"/>
+<area shape="poly" title=" " alt="" coords="595,116,781,161,780,166,594,121"/>
+<area shape="rect" href="dynamic__watermark_8h.html" title="Defines DynamicWatermark interface." alt="" coords="152,167,350,192"/>
+<area shape="poly" title=" " alt="" coords="500,121,313,166,311,161,499,116"/>
+<area shape="poly" title=" " alt="" coords="412,195,296,237,294,232,410,190"/>
+<area shape="poly" title=" " alt="" coords="452,191,476,227,472,230,447,194"/>
+<area shape="rect" title=" " alt="" coords="642,240,705,265"/>
+<area shape="poly" title=" " alt="" coords="480,189,630,235,628,240,478,195"/>
+<area shape="poly" title=" " alt="" coords="852,191,878,227,874,230,848,194"/>
+<area shape="poly" title=" " alt="" coords="777,193,765,195,350,243,350,238,764,189,776,188"/>
+<area shape="poly" title=" " alt="" coords="786,195,533,245,532,240,785,189"/>
+<area shape="poly" title=" " alt="" coords="816,194,715,237,713,232,814,190"/>
+<area shape="poly" title=" " alt="" coords="254,192,254,226,248,226,248,192"/>
+<area shape="poly" title=" " alt="" coords="290,189,448,236,446,241,289,195"/>
 </map>
 </div>
 </div>
@@ -151,17 +160,12 @@ $(function(){initNavTree('protection__descriptor__builder_8h.html',''); initResi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmip_1_1ProtectionDescriptorBuilder.html">mip::ProtectionDescriptorBuilder</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmip_1_1ProtectionDescriptor.html" title="Description of protection associated with a piece of content.">ProtectionDescriptor</a> that describes protection associated with a piece of content.  <a href="classmip_1_1ProtectionDescriptorBuilder.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemip.html">mip</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classProtectionDescriptor.html" title="Description of protection associated with a piece of content.">ProtectionDescriptor</a> that describes protection associated with a piece of content.  <a href="classProtectionDescriptorBuilder.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Defines ProtectionDescriptor interface. </p>
+<div class="textblock"><p>Defines <a class="el" href="classProtectionDescriptor.html" title="Description of protection associated with a piece of content.">ProtectionDescriptor</a> interface. </p>
 
 <p class="definition">Definition in file <a class="el" href="protection__descriptor__builder_8h_source.html">protection_descriptor_builder.h</a>.</p>
 </div></div><!-- contents -->
@@ -169,7 +173,7 @@ Namespaces</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_da61e3e9a357748887e3ca8d7c5a0c16.html">api</a></li><li class="navelem"><a class="el" href="dir_a7043e653a48665e063227b454d13d4f.html">mip</a></li><li class="navelem"><a class="el" href="dir_b963b2ed0016de8cc23bff8c63b09d6e.html">protection</a></li><li class="navelem"><a class="el" href="protection__descriptor__builder_8h.html">protection_descriptor_builder.h</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_da61e3e9a357748887e3ca8d7c5a0c16.html">api</a></li><li class="navelem"><a class="el" href="dir_a7043e653a48665e063227b454d13d4f.html">mip</a></li><li class="navelem"><a class="el" href="protection__descriptor__builder_8h.html">protection_descriptor_builder.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>

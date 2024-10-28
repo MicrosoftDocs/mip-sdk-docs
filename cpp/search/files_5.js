@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['index_2emd_0',['index.md',['../index_8md.html',1,'']]]
+  ['get_5ftemplate_5fsettings_2eh_0',['get_template_settings.h',['../get__template__settings_8h.html',1,'']]]
 ];

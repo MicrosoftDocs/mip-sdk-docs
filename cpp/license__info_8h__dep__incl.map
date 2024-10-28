@@ -1,0 +1,15 @@
+<map id="src/api/mip/protection/license_info.h" name="src/api/mip/protection/license_info.h">
+<area shape="rect" id="Node000001" title="Defines LicenseInfo interface." alt="" coords="83,5,247,45"/>
+<area shape="rect" id="Node000002" href="$protection__engine_8h.html" title="Defines ProtectionEngine interface." alt="" coords="83,93,247,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,59,168,93,163,93,163,59"/>
+<area shape="rect" id="Node000003" href="$file__handler_8h.html" title=" " alt="" coords="6,181,149,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="138,145,99,183,95,179,134,141"/>
+<area shape="rect" id="Node000007" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="173,181,337,221"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="197,141,237,179,233,183,193,145"/>
+<area shape="rect" id="Node000004" href="$file__execution__state_8h.html" title=" " alt="" coords="5,269,149,309"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="80,235,80,269,75,269,75,235"/>
+<area shape="rect" id="Node000005" href="$file__engine_8h.html" title=" " alt="" coords="6,357,149,397"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="80,323,80,357,75,357,75,323"/>
+<area shape="rect" id="Node000006" href="$file__profile_8h.html" title=" " alt="" coords="6,445,149,485"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="80,411,80,445,75,445,75,411"/>
+</map>

@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['read_0',['Read',['../classmip_1_1Stream.html#a4f2dc6b38f2f0eaaeaacfe45a0fc3e19',1,'mip::Stream']]],
-  ['readfromstream_1',['ReadFromStream',['../namespacemip.html#a0d2829a7b8d6497567c49b761be75ca6',1,'mip']]],
-  ['recipients_2',['Recipients',['../namespacemip_1_1auditmetadatakeys.html#a3ed921ab961b97deccca1bbf0b4dee3e',1,'mip::auditmetadatakeys']]],
-  ['removeprotection_3',['RemoveProtection',['../classmip_1_1FileHandler.html#a53c246ed603dd1ffc17abf529865437e',1,'mip::FileHandler']]],
-  ['reply_4',['Reply',['../namespacemip_1_1rights.html#a47e3b52e85c6cb39366cbb7476d24a86',1,'mip::rights']]],
-  ['replyall_5',['ReplyAll',['../namespacemip_1_1rights.html#ac7a3268e31c022a854ead145db81d780',1,'mip::rights']]],
-  ['reviewer_6',['Reviewer',['../namespacemip_1_1roles.html#a5319dd0e38fbbeff4d235f02c8d591f4',1,'mip::roles']]],
-  ['rights_7',['Rights',['../classmip_1_1UserRights.html#a68cbd864b30005c189430ed926cfeb18',1,'mip::UserRights']]],
-  ['roles_8',['Roles',['../classmip_1_1UserRoles.html#a0bc9671bab8570b7a4df2d2479f5c39d',1,'mip::UserRoles']]]
+  ['parse_0',['Parse',['../classJsonDelegate.html#a6f94c40c1a5d808acac4d06b51bcc53b',1,'JsonDelegate']]],
+  ['parsedata_1',['ParseData',['../classxml_1_1XmlDelegate.html#acd2b97c0c9a0a36a3a01a9bd8a39a9a2',1,'xml::XmlDelegate']]],
+  ['position_2',['Position',['../classStream.html#a51a308fa578f375f5bbd336c711d2fe9',1,'Stream']]],
+  ['print_3',['Print',['../namespacerights.html#a9c15aa6440472f0b4b6db7c677960d3e',1,'rights']]],
+  ['protectioncommonsettings_4',['ProtectionCommonSettings',['../classProtectionCommonSettings.html#a7bdb4890d63f2354282ccb380e0e3270',1,'ProtectionCommonSettings']]],
+  ['protectionsettings_5',['ProtectionSettings',['../classProtectionSettings.html#a298f7c7525296aed7d6ff2cf521cd191',1,'ProtectionSettings::ProtectionSettings()=default'],['../classProtectionSettings.html#a64b93a526c4d39da54848b56176dfa49',1,'ProtectionSettings::ProtectionSettings(const std::string &amp;delegatedUserEmail, PFileExtensionBehavior pfileExtensionBehavior)']]],
+  ['publishinglicenseinfo_6',['PublishingLicenseInfo',['../classPublishingLicenseInfo.html#af62e78799e0bc15f4c8f60064760fa50',1,'PublishingLicenseInfo::PublishingLicenseInfo(const std::vector&lt; uint8_t &gt; &amp;serializedPublishingLicense)'],['../classPublishingLicenseInfo.html#a0907636e4ad63b209bfac7045d1d5f55',1,'PublishingLicenseInfo::PublishingLicenseInfo(const std::vector&lt; uint8_t &gt; &amp;serializedPreLicense, const std::vector&lt; uint8_t &gt; &amp;serializedPublishingLicense)']]],
+  ['publishingsettings_7',['PublishingSettings',['../classProtectionHandler_1_1PublishingSettings.html#a6c2e5d1c021fc3109b5de0c76f2cd004',1,'ProtectionHandler::PublishingSettings::PublishingSettings(const std::shared_ptr&lt; ProtectionDescriptor &gt; &amp;protectionDescriptor)'],['../classProtectionHandler_1_1PublishingSettings.html#a8514a60e6cb21bd216da498646027164',1,'ProtectionHandler::PublishingSettings::PublishingSettings(const std::shared_ptr&lt; ProtectionDescriptor &gt; &amp;protectionDescriptor, const std::vector&lt; uint8_t &gt; &amp;serializedPublishingLicense)'],['../classProtectionHandler_1_1PublishingSettings.html#aeaa2a2139cb6aba3ed093de7ee6b4b7a',1,'ProtectionHandler::PublishingSettings::PublishingSettings(const std::shared_ptr&lt; ProtectionDescriptor &gt; &amp;protectionDescriptor, const std::shared_ptr&lt; ProtectionHandler &gt; &amp;protectionHandler)']]],
+  ['pushback_8',['PushBack',['../classJsonValue.html#a515e5e916befeffc5b84a27ae0276019',1,'JsonValue::PushBack(const std::shared_ptr&lt; JsonValue &gt; &amp;jsonValue)=0'],['../classJsonValue.html#a36ab753579a69d69e3e9f02022aec00f',1,'JsonValue::PushBack(const std::string &amp;member)=0']]]
 ];

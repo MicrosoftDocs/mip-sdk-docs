@@ -1,12 +1,22 @@
 <map id="src/api/mip/upe/metadata_action.h" name="src/api/mip/upe/metadata_action.h">
-<area shape="rect" id="Node000001" title="This file contains the MetadataAction class." alt="" coords="5,5,195,45"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="97,167,156,192"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,48,41,62,22,79,13,98,13,108,17,117,30,134,47,147,85,165,83,170,44,151,26,137,12,120,8,109,8,97,18,76,37,58,60,43"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="27,93,87,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="92,47,72,83,68,80,87,44"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="111,93,174,119"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="113,44,132,80,128,83,108,47"/>
-<area shape="rect" id="Node000005" href="$action_8h.html" title="A file containing the Action base class and the ActionType enumerator." alt="" coords="199,93,329,119"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="140,43,229,85,227,90,138,48"/>
-<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="243,121,162,163,160,158,241,116"/>
+<area shape="rect" id="Node000001" title="This file contains the MetadataAction class." alt="" coords="82,5,271,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="214,167,273,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,43,236,64,256,92,261,108,261,124,256,154,250,153,256,124,256,109,252,94,232,68,208,47"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="24,93,87,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="149,48,86,88,83,84,146,43"/>
+<area shape="rect" id="Node000004" href="$mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="158,240,329,265"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="82,47,48,59,22,75,14,84,9,94,9,105,14,117,29,140,48,159,92,192,140,216,185,233,183,238,137,221,89,197,44,163,25,143,9,120,3,106,4,93,9,81,19,71,46,54,80,42"/>
+<area shape="rect" id="Node000005" href="$action_8h.html" title="A file containing the Action base class and the ActionType enumerator." alt="" coords="111,93,242,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="179,46,179,79,174,79,174,46"/>
+<area shape="rect" id="Node000006" href="$metadata__entry_8h.html" title="This file contains the MetadataEntry class." alt="" coords="317,93,511,119"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="234,43,367,87,366,92,233,48"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="190,117,225,155,221,158,186,121"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="181,118,190,151,204,191,227,228,223,230,200,193,185,153,176,119"/>
+<area shape="poly" id="edge8_Node000006_Node000002" title=" " alt="" coords="388,121,285,164,283,159,385,116"/>
+<area shape="poly" id="edge9_Node000006_Node000004" title=" " alt="" coords="400,121,338,169,267,232,264,228,335,165,397,117"/>
+<area shape="rect" id="Node000007" href="$metadata__version_8h.html" title="A file containing the MetadataVersion class and the MetadataVersionFormat enumerator." alt="" coords="348,167,557,192"/>
+<area shape="poly" id="edge10_Node000006_Node000007" title=" " alt="" coords="423,118,442,153,438,156,418,120"/>
+<area shape="poly" id="edge12_Node000007_Node000004" title=" " alt="" coords="420,195,291,238,289,233,418,189"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="419,240,486,265"/>
+<area shape="poly" id="edge11_Node000007_Node000008" title=" " alt="" coords="455,192,455,226,450,226,450,192"/>
 </map>

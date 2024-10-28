@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['what_0',['what',['../classmip_1_1Error.html#ab7422dee9a083be12f17e965eb16f7e6',1,'mip::Error']]],
-  ['write_1',['Write',['../classmip_1_1Stream.html#a27525865c6f59ee3b49121296dc56c97',1,'mip::Stream']]],
-  ['writetolog_2',['WriteToLog',['../classmip_1_1LoggerDelegate.html#a2a0aa9291009161b03e59b7737170b35',1,'mip::LoggerDelegate']]]
+  ['view_0',['View',['../namespacerights.html#a1f9ac51acbbcffbf90b72a86dedd07e3',1,'rights']]],
+  ['viewer_1',['Viewer',['../namespaceroles.html#a561b08d7ace604dbd0f7a3c3fec9b550',1,'roles']]],
+  ['viewrightsdata_2',['ViewRightsData',['../namespacerights.html#a69fdab24dd5ecc1120271f7a766e5e99',1,'rights']]]
 ];

@@ -1,7 +1,10 @@
 var searchData=
 [
-  ['taskdispatcherdelegate_0',['TaskDispatcherDelegate',['../classmip_1_1TaskDispatcherDelegate.html',1,'mip']]],
-  ['telemetryconfiguration_1',['TelemetryConfiguration',['../structmip_1_1TelemetryConfiguration.html',1,'mip']]],
-  ['templatedescriptor_2',['TemplateDescriptor',['../classmip_1_1TemplateDescriptor.html',1,'mip']]],
-  ['templatenotfounderror_3',['TemplateNotFoundError',['../classmip_1_1TemplateNotFoundError.html',1,'mip']]]
+  ['sensitivitytypesrulepackage_0',['SensitivityTypesRulePackage',['../classSensitivityTypesRulePackage.html',1,'']]],
+  ['servicedisablederror_1',['ServiceDisabledError',['../classServiceDisabledError.html',1,'']]],
+  ['settings_2',['Settings',['../classFileProfile_1_1Settings.html',1,'FileProfile::Settings'],['../classProtectionEngine_1_1Settings.html',1,'ProtectionEngine::Settings'],['../classProtectionProfile_1_1Settings.html',1,'ProtectionProfile::Settings']]],
+  ['storagedelegate_3',['StorageDelegate',['../classStorageDelegate.html',1,'']]],
+  ['storagesettings_4',['StorageSettings',['../classStorageDelegate_1_1StorageSettings.html',1,'StorageDelegate']]],
+  ['storagetable_5',['StorageTable',['../classStorageTable.html',1,'']]],
+  ['stream_6',['Stream',['../classStream.html',1,'']]]
 ];

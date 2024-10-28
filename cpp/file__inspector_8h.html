@@ -99,7 +99,6 @@ $(function(){initNavTree('file__inspector_8h.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle"><div class="title">file_inspector.h File Reference</div></div>
@@ -107,6 +106,7 @@ $(function(){initNavTree('file__inspector_8h.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;memory&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
+<code>#include &quot;<a class="el" href="mip__namespace_8h_source.html">mip/mip_namespace.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="stream_8h_source.html">mip/stream.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for file_inspector.h:</div>
@@ -115,16 +115,19 @@ $(function(){initNavTree('file__inspector_8h.html',''); initResizable(true); });
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="file__inspector_8h__incl.png" border="0" usemap="#asrc_2api_2mip_2file_2file__inspector_8h" alt=""/></div>
 <map name="asrc_2api_2mip_2file_2file__inspector_8h" id="asrc_2api_2mip_2file_2file__inspector_8h">
-<area shape="rect" title=" " alt="" coords="49,5,191,45"/>
+<area shape="rect" title=" " alt="" coords="94,5,237,45"/>
 <area shape="rect" title=" " alt="" coords="5,93,83,119"/>
-<area shape="poly" title=" " alt="" coords="104,47,67,85,63,81,100,44"/>
-<area shape="rect" title=" " alt="" coords="91,167,154,192"/>
-<area shape="poly" title=" " alt="" coords="123,46,125,153,120,153,118,46"/>
+<area shape="poly" title=" " alt="" coords="137,48,75,88,72,84,135,43"/>
+<area shape="rect" title=" " alt="" coords="89,167,151,192"/>
+<area shape="poly" title=" " alt="" coords="162,46,148,94,130,154,125,153,143,93,157,45"/>
+<area shape="rect" href="mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="261,167,432,192"/>
+<area shape="poly" title=" " alt="" coords="206,43,243,64,280,91,310,123,334,154,330,157,306,126,277,95,241,69,204,48"/>
 <area shape="rect" href="stream_8h.html" title="A file containing the Stream interface/class definition." alt="" coords="157,93,267,119"/>
-<area shape="poly" title=" " alt="" coords="144,44,190,82,186,86,141,48"/>
-<area shape="poly" title=" " alt="" coords="199,121,150,160,146,156,196,117"/>
-<area shape="rect" title=" " alt="" coords="181,167,243,192"/>
-<area shape="poly" title=" " alt="" coords="215,119,215,153,209,153,209,119"/>
+<area shape="poly" title=" " alt="" coords="179,44,200,80,196,83,174,47"/>
+<area shape="poly" title=" " alt="" coords="199,121,147,160,144,156,196,117"/>
+<area shape="poly" title=" " alt="" coords="235,116,314,158,311,162,232,121"/>
+<area shape="rect" title=" " alt="" coords="176,167,237,192"/>
+<area shape="poly" title=" " alt="" coords="214,119,211,153,206,153,208,119"/>
 </map>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -134,18 +137,17 @@ $(function(){initNavTree('file__inspector_8h.html',''); initResizable(true); });
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="file__inspector_8h__dep__incl.png" border="0" usemap="#asrc_2api_2mip_2file_2file__inspector_8hdep" alt=""/></div>
 <map name="asrc_2api_2mip_2file_2file__inspector_8hdep" id="asrc_2api_2mip_2file_2file__inspector_8hdep">
-<area shape="rect" title=" " alt="" coords="91,5,233,45"/>
-<area shape="rect" href="file__handler_8h.html" title=" " alt="" coords="5,93,148,133"/>
-<area shape="poly" title=" " alt="" coords="135,57,97,95,94,91,132,53"/>
-<area shape="rect" href="msg__inspector_8h.html" title=" " alt="" coords="172,93,323,133"/>
-<area shape="poly" title=" " alt="" coords="192,53,230,91,227,95,189,57"/>
-<area shape="rect" href="file__engine_8h.html" title=" " alt="" coords="5,269,148,309"/>
-<area shape="poly" title=" " alt="" coords="62,147,50,182,47,201,50,221,58,246,68,268,63,270,53,248,45,222,42,201,45,181,57,145"/>
-<area shape="rect" href="file__execution__state_8h.html" title=" " alt="" coords="59,181,203,221"/>
-<area shape="poly" title=" " alt="" coords="98,144,121,180,117,183,94,146"/>
-<area shape="rect" href="file__profile_8h.html" title=" " alt="" coords="5,357,148,397"/>
-<area shape="poly" title=" " alt="" coords="79,323,79,357,74,357,74,323"/>
-<area shape="poly" title=" " alt="" coords="114,234,91,271,87,268,110,232"/>
+<area shape="rect" title=" " alt="" coords="91,5,234,45"/>
+<area shape="rect" href="file__handler_8h.html" title=" " alt="" coords="6,93,149,133"/>
+<area shape="poly" title=" " alt="" coords="136,57,98,95,94,91,132,53"/>
+<area shape="rect" href="msg__inspector_8h.html" title=" " alt="" coords="173,93,323,133"/>
+<area shape="poly" title=" " alt="" coords="193,53,231,91,227,95,189,57"/>
+<area shape="rect" href="file__execution__state_8h.html" title=" " alt="" coords="5,181,149,221"/>
+<area shape="poly" title=" " alt="" coords="80,147,80,181,75,181,75,147"/>
+<area shape="rect" href="file__engine_8h.html" title=" " alt="" coords="6,269,149,309"/>
+<area shape="poly" title=" " alt="" coords="80,235,80,269,75,269,75,235"/>
+<area shape="rect" href="file__profile_8h.html" title=" " alt="" coords="6,357,149,397"/>
+<area shape="poly" title=" " alt="" coords="80,323,80,357,75,357,75,323"/>
 </map>
 </div>
 </div>
@@ -153,12 +155,7 @@ $(function(){initNavTree('file__inspector_8h.html',''); initResizable(true); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmip_1_1FileInspector.html">mip::FileInspector</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemip.html">mip</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileInspector.html">FileInspector</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
@@ -168,14 +165,14 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a65bc13ede4235f600be71041e753e36a" id="r_a65bc13ede4235f600be71041e753e36a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemip.html#a65bc13ede4235f600be71041e753e36a">mip::InspectorType</a> : unsigned int { <br />
-&#160;&#160;<a class="el" href="namespacemip.html#a65bc13ede4235f600be71041e753e36aa88183b946cc5f0e8c96b2e66e1c74a7e">mip::Unknown</a>
+<tr class="memitem:a9d9e926ac7c75acf316f6fa02042388d" id="r_a9d9e926ac7c75acf316f6fa02042388d"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d9e926ac7c75acf316f6fa02042388d">InspectorType</a> : unsigned int { <br />
+&#160;&#160;<a class="el" href="#a9d9e926ac7c75acf316f6fa02042388da88183b946cc5f0e8c96b2e66e1c74a7e">Unknown</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacemip.html#a65bc13ede4235f600be71041e753e36aae1ae09b94f8926587697d0f246bf1050">mip::Msg</a>
+&#160;&#160;<a class="el" href="#a9d9e926ac7c75acf316f6fa02042388dae1ae09b94f8926587697d0f246bf1050">Msg</a>
 <br />
  }</td></tr>
-<tr class="memdesc:a65bc13ede4235f600be71041e753e36a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inspector type correlating to supported file types.  <a href="namespacemip.html#a65bc13ede4235f600be71041e753e36a">More...</a><br /></td></tr>
-<tr class="separator:a65bc13ede4235f600be71041e753e36a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:a9d9e926ac7c75acf316f6fa02042388d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inspector type correlating to supported file types.  <a href="#a9d9e926ac7c75acf316f6fa02042388d">More...</a><br /></td></tr>
+<tr class="separator:a9d9e926ac7c75acf316f6fa02042388d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a206683ad85b00b6dfca314fb94e6cbe8" name="a206683ad85b00b6dfca314fb94e6cbe8"></a>
@@ -190,8 +187,47 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="file__inspector_8h_source.html#l00034">34</a> of file <a class="el" href="file__inspector_8h_source.html">file_inspector.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file__inspector_8h_source.html#l00035">35</a> of file <a class="el" href="file__inspector_8h_source.html">file_inspector.h</a>.</p>
 
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a9d9e926ac7c75acf316f6fa02042388d" name="a9d9e926ac7c75acf316f6fa02042388d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d9e926ac7c75acf316f6fa02042388d">&#9670;&#160;</a></span>InspectorType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a9d9e926ac7c75acf316f6fa02042388d">InspectorType</a> : unsigned int</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inspector type correlating to supported file types. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9d9e926ac7c75acf316f6fa02042388da88183b946cc5f0e8c96b2e66e1c74a7e" name="a9d9e926ac7c75acf316f6fa02042388da88183b946cc5f0e8c96b2e66e1c74a7e"></a>Unknown&#160;</td><td class="fielddoc"><p>Unkown file inspector. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9d9e926ac7c75acf316f6fa02042388dae1ae09b94f8926587697d0f246bf1050" name="a9d9e926ac7c75acf316f6fa02042388dae1ae09b94f8926587697d0f246bf1050"></a>Msg&#160;</td><td class="fielddoc"><p>Msg style file inspector, rpmsg / msg based. </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="file__inspector_8h_source.html#l00042">42</a> of file <a class="el" href="file__inspector_8h_source.html">file_inspector.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   42</span>                         : <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> {</div>
+<div class="line"><span class="lineno">   43</span>  <a class="code hl_enumvalue" href="#a9d9e926ac7c75acf316f6fa02042388da88183b946cc5f0e8c96b2e66e1c74a7e">Unknown</a>,  <span class="comment">/**&lt;  Unkown file inspector. */</span></div>
+<div class="line"><span class="lineno">   44</span>  <a class="code hl_enumvalue" href="#a9d9e926ac7c75acf316f6fa02042388dae1ae09b94f8926587697d0f246bf1050">Msg</a>       <span class="comment">/**&lt;  Msg style file inspector, rpmsg / msg based. */</span></div>
+<div class="line"><span class="lineno">   45</span>};</div>
+<div class="ttc" id="afile__inspector_8h_html_a9d9e926ac7c75acf316f6fa02042388da88183b946cc5f0e8c96b2e66e1c74a7e"><div class="ttname"><a href="#a9d9e926ac7c75acf316f6fa02042388da88183b946cc5f0e8c96b2e66e1c74a7e">InspectorType::Unknown</a></div><div class="ttdeci">@ Unknown</div><div class="ttdoc">Unkown file inspector.</div></div>
+<div class="ttc" id="afile__inspector_8h_html_a9d9e926ac7c75acf316f6fa02042388dae1ae09b94f8926587697d0f246bf1050"><div class="ttname"><a href="#a9d9e926ac7c75acf316f6fa02042388dae1ae09b94f8926587697d0f246bf1050">InspectorType::Msg</a></div><div class="ttdeci">@ Msg</div><div class="ttdoc">Msg style file inspector, rpmsg / msg based.</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

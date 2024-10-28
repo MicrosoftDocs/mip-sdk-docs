@@ -32,8 +32,7 @@ var NAVTREE =
         [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
         [ "Typedefs", "namespacemembers_type.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ],
-        [ "Enumerator", "namespacemembers_eval.html", null ]
+        [ "Enumerations", "namespacemembers_enum.html", null ]
       ] ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -51,24 +50,30 @@ var NAVTREE =
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
-    ] ]
+    ] ],
+    [ "Examples", "examples.html", "examples" ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"action_8h.html",
-"classmip_1_1ClassificationResult.html",
-"classmip_1_1FileEngine_1_1Settings.html#ab998e2d3bed130ad70706d003fe3cb53",
-"classmip_1_1HttpRequest.html#ad623cd0bd5f9d0ed95af8f9b917055a7",
-"classmip_1_1MetadataAction.html#a7f033c3fdce403d84a661084e89339cf",
-"classmip_1_1OperationCancelledError.html#a3d3bab1423e02968b2cc580d4669207f",
-"classmip_1_1ProtectionHandler.html#ab8ba831b558241cb1e1832996eb316d9",
-"classmip_1_1PublishingLicenseInfo.html#a586d19b187f113e74a2cce50cc2b9f88",
-"common__types_8h.html#ab9cd4e3e670bb3c61ddfb33f464862b5",
-"namespacemip.html#a76366ebb97006cb7c62cb508e8a4bcdf"
+"1-example.html",
+"classCustomerKeyUnavailableError.html#a1e9379501df2d1e8315d373cf79949f2",
+"classFileProfile_1_1Settings.html#a0def4fe84383f1edd6b8cc90320254b5",
+"classLicenseConnectionInfo.html#a5aa0c3eff88987f2c9b0f682e857c8d2",
+"classNoPermissionsExtendedError.html#a75af81a5a24cda739145edfdb6fa5fb0a1442ed20a359458a7e00c4dc4ae7f1dc",
+"classProtectionEngine_1_1Settings.html#a7e937c91c5429780f1b8db97cb4df5a8",
+"classRemoveWatermarkAction.html#acafa3669a0b40ea7caaecff566347f56",
+"classxml_1_1XmlReader.html#ac979b750a7d9d39a4cc03f46eebf784d",
+"flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a331b540817c6176278d9c431101764df",
+"protection__common__types_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

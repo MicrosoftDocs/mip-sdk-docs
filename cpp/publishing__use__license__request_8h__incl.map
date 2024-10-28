@@ -1,0 +1,11 @@
+<map id="src/api/mip/protection/publishing_use_license_request.h" name="src/api/mip/protection/publishing_use_license_request.h">
+<area shape="rect" id="Node000001" title="Defines the PublishingUseLicenseRequest interface." alt="" coords="109,5,285,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,108,83,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,62,78,104,75,99,149,58"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="107,108,165,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,62,155,98,150,95,176,59"/>
+<area shape="rect" id="Node000004" href="$mip__export_8h.html" title="A file export/import macros." alt="" coords="190,108,327,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="218,59,244,95,240,98,214,62"/>
+<area shape="rect" id="Node000005" href="$mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="352,108,523,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="272,58,393,101,391,106,270,63"/>
+</map>

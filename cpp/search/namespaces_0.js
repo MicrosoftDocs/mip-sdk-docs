@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['mip_0',['mip',['../namespacemip.html',1,'']]],
-  ['mip_3a_3aauditmetadatakeys_1',['auditmetadatakeys',['../namespacemip_1_1auditmetadatakeys.html',1,'mip']]],
-  ['mip_3a_3arights_2',['rights',['../namespacemip_1_1rights.html',1,'mip']]],
-  ['mip_3a_3aroles_3',['roles',['../namespacemip_1_1roles.html',1,'mip']]]
+  ['anonymous_5fnamespace_7berror_2eh_7d_0',['anonymous_namespace{error.h}',['../namespaceanonymous__namespace_02error_8h_03.html',1,'']]],
+  ['auditmetadatakeys_1',['auditmetadatakeys',['../namespaceauditmetadatakeys.html',1,'']]]
 ];

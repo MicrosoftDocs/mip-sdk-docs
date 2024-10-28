@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['recommend_5flabel_5faction_2eh_0',['recommend_label_action.h',['../recommend__label__action_8h.html',1,'']]],
-  ['remove_5fcontent_5ffooter_5faction_2eh_1',['remove_content_footer_action.h',['../remove__content__footer__action_8h.html',1,'']]],
-  ['remove_5fcontent_5fheader_5faction_2eh_2',['remove_content_header_action.h',['../remove__content__header__action_8h.html',1,'']]],
-  ['remove_5fprotection_5faction_2eh_3',['remove_protection_action.h',['../remove__protection__action_8h.html',1,'']]],
-  ['remove_5fwatermark_5faction_2eh_4',['remove_watermark_action.h',['../remove__watermark__action_8h.html',1,'']]],
-  ['rights_2eh_5',['rights.h',['../rights_8h.html',1,'']]],
-  ['roles_2eh_6',['roles.h',['../roles_8h.html',1,'']]]
+  ['metadata_5faction_2eh_0',['metadata_action.h',['../metadata__action_8h.html',1,'']]],
+  ['metadata_5fentry_2eh_1',['metadata_entry.h',['../metadata__entry_8h.html',1,'']]],
+  ['metadata_5fversion_2eh_2',['metadata_version.h',['../metadata__version_8h.html',1,'']]],
+  ['mip_5fconfiguration_2eh_3',['mip_configuration.h',['../mip__configuration_8h.html',1,'']]],
+  ['mip_5fcontext_2eh_4',['mip_context.h',['../mip__context_8h.html',1,'']]],
+  ['mip_5fexport_2eh_5',['mip_export.h',['../mip__export_8h.html',1,'']]],
+  ['mip_5fnamespace_2eh_6',['mip_namespace.h',['../mip__namespace_8h.html',1,'']]],
+  ['msg_5finspector_2eh_7',['msg_inspector.h',['../msg__inspector_8h.html',1,'']]]
 ];

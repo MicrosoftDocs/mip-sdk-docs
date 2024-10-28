@@ -1,11 +1,7 @@
 <map id="src/api/mip/upe/sensitivity_types_rule_package.h" name="src/api/mip/upe/sensitivity_types_rule_package.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="69,5,263,45"/>
-<area shape="rect" id="Node000002" href="$file__engine_8h.html" title=" " alt="" coords="5,93,148,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,57,98,95,95,91,134,53"/>
-<area shape="rect" id="Node000004" href="$policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="173,93,338,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="198,53,237,91,234,95,194,57"/>
-<area shape="rect" id="Node000003" href="$file__profile_8h.html" title=" " alt="" coords="5,181,148,221"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="79,147,79,181,74,181,74,147"/>
-<area shape="rect" id="Node000005" href="$policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="173,181,338,221"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="258,147,258,181,253,181,253,147"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,200,45"/>
+<area shape="rect" id="Node000002" href="$policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="20,93,185,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,59,105,93,100,93,100,59"/>
+<area shape="rect" id="Node000003" href="$policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="20,181,185,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,147,105,181,100,181,100,147"/>
 </map>

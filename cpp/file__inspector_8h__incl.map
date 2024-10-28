@@ -1,12 +1,15 @@
 <map id="src/api/mip/file/file_inspector.h" name="src/api/mip/file/file_inspector.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="49,5,191,45"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="94,5,237,45"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,93,83,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,47,67,85,63,81,100,44"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="91,167,154,192"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="123,46,125,153,120,153,118,46"/>
-<area shape="rect" id="Node000004" href="$stream_8h.html" title="A file containing the Stream interface/class definition." alt="" coords="157,93,267,119"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="144,44,190,82,186,86,141,48"/>
-<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="199,121,150,160,146,156,196,117"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="181,167,243,192"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="215,119,215,153,209,153,209,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,48,75,88,72,84,135,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="89,167,151,192"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,46,148,94,130,154,125,153,143,93,157,45"/>
+<area shape="rect" id="Node000004" href="$mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="261,167,432,192"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="206,43,243,64,280,91,310,123,334,154,330,157,306,126,277,95,241,69,204,48"/>
+<area shape="rect" id="Node000005" href="$stream_8h.html" title="A file containing the Stream interface/class definition." alt="" coords="157,93,267,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="179,44,200,80,196,83,174,47"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="199,121,147,160,144,156,196,117"/>
+<area shape="poly" id="edge7_Node000005_Node000004" title=" " alt="" coords="235,116,314,158,311,162,232,121"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="176,167,237,192"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="214,119,211,153,206,153,208,119"/>
 </map>

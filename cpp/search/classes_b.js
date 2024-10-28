@@ -1,8 +1,10 @@
 var searchData=
 [
-  ['networkerror_0',['NetworkError',['../classmip_1_1NetworkError.html',1,'mip']]],
-  ['noauthtokenerror_1',['NoAuthTokenError',['../classmip_1_1NoAuthTokenError.html',1,'mip']]],
-  ['nopermissionserror_2',['NoPermissionsError',['../classmip_1_1NoPermissionsError.html',1,'mip']]],
-  ['nopolicyerror_3',['NoPolicyError',['../classmip_1_1NoPolicyError.html',1,'mip']]],
-  ['notsupportederror_4',['NotSupportedError',['../classmip_1_1NotSupportedError.html',1,'mip']]]
+  ['metadataaction_0',['MetadataAction',['../classMetadataAction.html',1,'']]],
+  ['metadataentry_1',['MetadataEntry',['../classMetadataEntry.html',1,'']]],
+  ['metadataversion_2',['MetadataVersion',['../classMetadataVersion.html',1,'']]],
+  ['mipconfiguration_3',['MipConfiguration',['../classMipConfiguration.html',1,'']]],
+  ['mipcontext_4',['MipContext',['../classMipContext.html',1,'']]],
+  ['msgattachmentdata_5',['MsgAttachmentData',['../classMsgAttachmentData.html',1,'']]],
+  ['msginspector_6',['MsgInspector',['../classMsgInspector.html',1,'']]]
 ];

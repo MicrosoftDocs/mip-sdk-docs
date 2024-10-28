@@ -1,0 +1,40 @@
+<map id="PublishingLicenseInfo" name="PublishingLicenseInfo">
+<area shape="rect" id="Node000001" title="Holds the details of a Publishing License used to create a protection handler." alt="" coords="1431,305,1593,330"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="983,297,1150,322"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1164,312,1213,313,1431,315,1430,321,1213,319,1164,317"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="552,285,681,310"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="696,302,732,304,983,308,983,313,732,309,695,307"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="973,230,1160,255"/>
+<area shape="poly" id="edge7_Node000005_Node000003" title=" " alt="" coords="695,286,920,259,973,252,973,257,920,264,695,291"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="944,348,1189,388"/>
+<area shape="poly" id="edge20_Node000013_Node000003" title=" " alt="" coords="655,314,692,330,733,343,840,360,944,367,944,372,840,365,731,348,690,335,653,318"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,370,44,395"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="52,360,81,342,114,328,172,313,233,302,353,289,464,287,552,290,552,295,464,292,354,295,234,307,174,318,116,333,83,347,55,364"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="123,479,281,505"/>
+<area shape="poly" id="edge12_Node000010_Node000004" title=" " alt="" coords="46,404,77,436,116,466,141,477,139,482,113,470,74,440,43,408"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1174,240,1287,249,1348,257,1407,269,1451,285,1489,302,1486,307,1449,290,1406,275,1347,262,1287,254,1174,246"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="573,159,660,185"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="669,153,805,119,896,103,995,92,1100,90,1207,99,1259,109,1311,123,1360,141,1408,164,1428,178,1446,195,1476,234,1496,273,1509,303,1504,305,1491,275,1471,237,1442,199,1425,182,1405,169,1358,146,1309,128,1258,114,1206,104,1100,95,996,98,896,108,806,124,670,158"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="669,186,733,203,858,222,973,234,973,239,857,228,731,208,668,191"/>
+<area shape="rect" id="Node000016" href="$structLabelInfo.html" title="Label information for a template or ad&#45;hoc (custom) protection." alt="" coords="1025,178,1108,203"/>
+<area shape="poly" id="edge22_Node000016_Node000006" title=" " alt="" coords="674,172,1025,186,1025,192,673,177"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="133,152,271,192"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="285,169,573,169,573,175,285,175"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="525,516,708,556"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="722,540,864,540,949,535,1040,526,1134,510,1228,488,1319,457,1405,416,1435,396,1461,372,1499,328,1503,332,1465,376,1438,400,1408,421,1321,462,1229,493,1135,515,1041,531,950,541,864,545,722,545"/>
+<area shape="rect" id="Node000009" href="$classLicenseConnectionInfo.html" title="The connection information from a license." alt="" coords="117,569,287,594"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="300,568,525,543,526,549,300,573"/>
+<area shape="poly" id="edge11_Node000008_Node000010" title=" " alt="" coords="294,502,314,504,525,525,524,531,313,509,294,507"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="525,443,708,483"/>
+<area shape="poly" id="edge15_Node000011_Node000010" title=" " alt="" coords="294,486,501,473,525,471,525,476,502,479,295,491"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="525,379,708,419"/>
+<area shape="poly" id="edge19_Node000014_Node000010" title=" " alt="" coords="280,471,288,466,295,457,298,447,302,437,312,427,342,419,395,412,525,401,525,406,395,417,343,424,315,432,307,440,303,449,300,460,291,470,283,475"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="722,461,860,456,1033,441,1126,428,1221,412,1315,390,1406,363,1486,328,1488,332,1408,368,1317,395,1222,417,1127,434,1034,446,861,461,722,466"/>
+<area shape="rect" id="Node000012" href="$classLicenseDescriptor.html" title="The descriptor from a license." alt="" coords="133,430,271,455"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="285,444,525,456,525,461,285,449"/>
+<area shape="poly" id="edge16_Node000001_Node000013" title=" " alt="" coords="1203,357,1303,349,1406,336,1454,327,1455,333,1407,341,1303,354,1203,363"/>
+<area shape="poly" id="edge17_Node000013_Node000014" title=" " alt="" coords="722,409,732,409,826,416,867,415,920,409,967,399,1012,385,1013,391,969,404,920,415,868,421,826,421,732,415,722,414"/>
+<area shape="rect" id="Node000015" href="$classLicenseApplicationData.html" title="The application data from a license." alt="" coords="115,343,289,369"/>
+<area shape="poly" id="edge18_Node000014_Node000015" title=" " alt="" coords="303,362,502,381,525,384,525,389,501,387,303,367"/>
+<area shape="poly" id="edge21_Node000001_Node000016" title=" " alt="" coords="1121,184,1182,183,1255,186,1333,199,1408,223,1438,240,1465,262,1503,303,1499,306,1461,266,1435,245,1406,228,1332,204,1254,192,1182,188,1122,189"/>
+</map>

@@ -1,13 +1,16 @@
 var searchData=
 [
-  ['accessdeniederror_0',['AccessDeniedError',['../classmip_1_1AccessDeniedError.html',1,'mip']]],
-  ['action_1',['Action',['../classmip_1_1Action.html',1,'mip']]],
-  ['addcontentfooteraction_2',['AddContentFooterAction',['../classmip_1_1AddContentFooterAction.html',1,'mip']]],
-  ['addcontentheaderaction_3',['AddContentHeaderAction',['../classmip_1_1AddContentHeaderAction.html',1,'mip']]],
-  ['addwatermarkaction_4',['AddWatermarkAction',['../classmip_1_1AddWatermarkAction.html',1,'mip']]],
-  ['adhocprotectionrequirederror_5',['AdhocProtectionRequiredError',['../classmip_1_1AdhocProtectionRequiredError.html',1,'mip']]],
-  ['applicationinfo_6',['ApplicationInfo',['../structmip_1_1ApplicationInfo.html',1,'mip']]],
-  ['applylabelaction_7',['ApplyLabelAction',['../classmip_1_1ApplyLabelAction.html',1,'mip']]],
-  ['asynccontrol_8',['AsyncControl',['../classmip_1_1AsyncControl.html',1,'mip']]],
-  ['authdelegate_9',['AuthDelegate',['../classmip_1_1AuthDelegate.html',1,'mip']]]
+  ['accessdeniederror_0',['AccessDeniedError',['../classAccessDeniedError.html',1,'']]],
+  ['action_1',['Action',['../classAction.html',1,'']]],
+  ['addcontentfooteraction_2',['AddContentFooterAction',['../classAddContentFooterAction.html',1,'']]],
+  ['addcontentheaderaction_3',['AddContentHeaderAction',['../classAddContentHeaderAction.html',1,'']]],
+  ['adddynamicwatermarkaction_4',['AddDynamicWatermarkAction',['../classAddDynamicWatermarkAction.html',1,'']]],
+  ['addwatermarkaction_5',['AddWatermarkAction',['../classAddWatermarkAction.html',1,'']]],
+  ['adhocprotectionrequirederror_6',['AdhocProtectionRequiredError',['../classAdhocProtectionRequiredError.html',1,'']]],
+  ['applicationinfo_7',['ApplicationInfo',['../structApplicationInfo.html',1,'']]],
+  ['applylabelaction_8',['ApplyLabelAction',['../classApplyLabelAction.html',1,'']]],
+  ['asynccontrol_9',['AsyncControl',['../classAsyncControl.html',1,'']]],
+  ['auditdelegate_10',['AuditDelegate',['../classAuditDelegate.html',1,'']]],
+  ['auditevent_11',['AuditEvent',['../classAuditEvent.html',1,'']]],
+  ['authdelegate_12',['AuthDelegate',['../classAuthDelegate.html',1,'']]]
 ];

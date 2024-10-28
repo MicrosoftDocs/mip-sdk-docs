@@ -1,14 +1,16 @@
 var searchData=
 [
-  ['labelingoptions_0',['LabelingOptions',['../classmip_1_1LabelingOptions.html#aaa15f8a06b07b9634f207babc63edc10',1,'mip::LabelingOptions']]],
-  ['lastmodifiedby_1',['LastModifiedBy',['../namespacemip_1_1auditmetadatakeys.html#af96cc5870e30f5faba2d90c734888f91',1,'mip::auditmetadatakeys']]],
-  ['lastmodifieddate_2',['LastModifiedDate',['../namespacemip_1_1auditmetadatakeys.html#a412b634209a6920fc3f5b3c62c94438c',1,'mip::auditmetadatakeys']]],
-  ['listengines_3',['ListEngines',['../classmip_1_1ProtectionProfile.html#a70d2610b0d85b9d7f8d018bdb76e66f7',1,'mip::ProtectionProfile']]],
-  ['listenginesasync_4',['ListEnginesAsync',['../classmip_1_1FileProfile.html#ae439956436cc795501ce32397fc31e48',1,'mip::FileProfile::ListEnginesAsync()'],['../classmip_1_1ProtectionProfile.html#a67c32b5a1bcf2f42a5de1644e543681d',1,'mip::ProtectionProfile::ListEnginesAsync()']]],
-  ['listsensitivitylabels_5',['ListSensitivityLabels',['../classmip_1_1FileEngine.html#a96e3f446c26a65d9b12a64276a412503',1,'mip::FileEngine']]],
-  ['listsensitivitytypes_6',['ListSensitivityTypes',['../classmip_1_1FileEngine.html#abf97287ffb36752e3d9191f6862edf9c',1,'mip::FileEngine']]],
-  ['load_7',['Load',['../classmip_1_1ProtectionProfile.html#af0cc2de590753b38c0ab9cc48d2b29df',1,'mip::ProtectionProfile']]],
-  ['loadasync_8',['LoadAsync',['../classmip_1_1FileProfile.html#a2fe849f7c9dc1dc1f2d8337f1c688502',1,'mip::FileProfile::LoadAsync()'],['../classmip_1_1ProtectionProfile.html#aa86fe95128d7cda5518033ff410fd013',1,'mip::ProtectionProfile::LoadAsync()']]],
-  ['loadusercert_9',['LoadUserCert',['../classmip_1_1ProtectionEngine.html#aaf9010fd5d974a575d4d0bab64b0bad6',1,'mip::ProtectionEngine']]],
-  ['loadusercertasync_10',['LoadUserCertAsync',['../classmip_1_1ProtectionEngine.html#abe3e37296d8e43c6bd89944e321aec18',1,'mip::ProtectionEngine']]]
+  ['labelinfo_0',['LabelInfo',['../structLabelInfo.html#a05be7dbeb3c6065b783fd4fa7fd2a386',1,'LabelInfo']]],
+  ['labelingoptions_1',['LabelingOptions',['../classLabelingOptions.html#af0189964f3e34ed6d3d5c9f4c29fde9e',1,'LabelingOptions']]],
+  ['lastmodifiedby_2',['LastModifiedBy',['../namespaceauditmetadatakeys.html#a42398a2d81884db2a90a4c80765fec5d',1,'auditmetadatakeys']]],
+  ['lastmodifieddate_3',['LastModifiedDate',['../namespaceauditmetadatakeys.html#a6f922b51113575a27adab5d52db65f45',1,'auditmetadatakeys']]],
+  ['licenserightsdata_4',['LicenseRightsData',['../classLicenseRightsData.html#a20401191d083b8464843051b3614c518',1,'LicenseRightsData']]],
+  ['list_5',['List',['../classStorageTable.html#ae54058198bbda1e742df523acd3221a3',1,'StorageTable']]],
+  ['listengines_6',['ListEngines',['../classProtectionProfile.html#a26a7500fcd7bdb1c10209a7d24bec3a1',1,'ProtectionProfile']]],
+  ['listenginesasync_7',['ListEnginesAsync',['../classFileProfile.html#a0317d5092a1e73480dc176c7e647e0c6',1,'FileProfile::ListEnginesAsync()'],['../classProtectionProfile.html#a914dedc3e5965ca885ed8ddd85a5151a',1,'ProtectionProfile::ListEnginesAsync(const std::shared_ptr&lt; void &gt; &amp;context)=0']]],
+  ['load_8',['Load',['../classProtectionProfile.html#a30a0340372888ee106e80da78b2cdea2',1,'ProtectionProfile']]],
+  ['loadasync_9',['LoadAsync',['../classFileProfile.html#a5c278a5c39b65789319c0856a9e01418',1,'FileProfile::LoadAsync()'],['../classProtectionProfile.html#a966887bd349935ad246747f981dd6309',1,'ProtectionProfile::LoadAsync()']]],
+  ['loadusercert_10',['LoadUserCert',['../classProtectionEngine.html#a7743b5b36e589407d94a4c00cacd5468',1,'ProtectionEngine']]],
+  ['loadusercertasync_11',['LoadUserCertAsync',['../classProtectionEngine.html#a047594fc160d5243b6883d7e7f37b2bd',1,'ProtectionEngine']]],
+  ['logmessagedata_12',['LogMessageData',['../classLogMessageData.html#a68f2afe1d53ddb97994ff4d6bb604b21',1,'LogMessageData']]]
 ];

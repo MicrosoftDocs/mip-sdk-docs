@@ -1,19 +1,12 @@
 var searchData=
 [
-  ['policy_5fengine_2eh_0',['policy_engine.h',['../policy__engine_8h.html',1,'']]],
-  ['policy_5fhandler_2eh_1',['policy_handler.h',['../policy__handler_8h.html',1,'']]],
-  ['policy_5fprofile_2eh_2',['policy_profile.h',['../policy__profile_8h.html',1,'']]],
-  ['protect_5fadhoc_5faction_2eh_3',['protect_adhoc_action.h',['../protect__adhoc__action_8h.html',1,'']]],
-  ['protect_5fadhoc_5fdk_5faction_2eh_4',['protect_adhoc_dk_action.h',['../protect__adhoc__dk__action_8h.html',1,'']]],
-  ['protect_5fby_5ftemplate_5faction_2eh_5',['protect_by_template_action.h',['../protect__by__template__action_8h.html',1,'']]],
-  ['protect_5fby_5ftemplate_5fdk_5faction_2eh_6',['protect_by_template_dk_action.h',['../protect__by__template__dk__action_8h.html',1,'']]],
-  ['protect_5fdo_5fnot_5fforward_5faction_2eh_7',['protect_do_not_forward_action.h',['../protect__do__not__forward__action_8h.html',1,'']]],
-  ['protect_5fdo_5fnot_5fforward_5fdk_5faction_2eh_8',['protect_do_not_forward_dk_action.h',['../protect__do__not__forward__dk__action_8h.html',1,'']]],
-  ['protection_5fcommon_5ftypes_2eh_9',['protection_common_types.h',['../protection__common__types_8h.html',1,'']]],
-  ['protection_5fdescriptor_2eh_10',['protection_descriptor.h',['../protection__descriptor_8h.html',1,'']]],
-  ['protection_5fdescriptor_5fbuilder_2eh_11',['protection_descriptor_builder.h',['../protection__descriptor__builder_8h.html',1,'']]],
-  ['protection_5fengine_2eh_12',['protection_engine.h',['../protection__engine_8h.html',1,'']]],
-  ['protection_5fhandler_2eh_13',['protection_handler.h',['../protection__handler_8h.html',1,'']]],
-  ['protection_5fprofile_2eh_14',['protection_profile.h',['../protection__profile_8h.html',1,'']]],
-  ['protection_5fsettings_2eh_15',['protection_settings.h',['../protection__settings_8h.html',1,'']]]
+  ['label_2eh_0',['label.h',['../label_8h.html',1,'']]],
+  ['labeling_5foptions_2eh_1',['labeling_options.h',['../labeling__options_8h.html',1,'']]],
+  ['license_5fapplication_5fdata_2eh_2',['license_application_data.h',['../license__application__data_8h.html',1,'']]],
+  ['license_5fconnection_5finfo_2eh_3',['license_connection_info.h',['../license__connection__info_8h.html',1,'']]],
+  ['license_5fdescriptor_2eh_4',['license_descriptor.h',['../license__descriptor_8h.html',1,'']]],
+  ['license_5finfo_2eh_5',['license_info.h',['../license__info_8h.html',1,'']]],
+  ['license_5frights_5fdata_2eh_6',['license_rights_data.h',['../license__rights__data_8h.html',1,'']]],
+  ['log_5fmessage_5fdata_2eh_7',['log_message_data.h',['../log__message__data_8h.html',1,'']]],
+  ['logger_5fdelegate_2eh_8',['logger_delegate.h',['../logger__delegate_8h.html',1,'']]]
 ];

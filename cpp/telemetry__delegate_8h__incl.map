@@ -1,0 +1,52 @@
+<map id="src/api/mip/telemetry_delegate.h" name="src/api/mip/telemetry_delegate.h">
+<area shape="rect" id="Node000001" title="A file containing the TelemetryDelegate class to be used to override MIP telemetry." alt="" coords="806,5,968,45"/>
+<area shape="rect" id="Node000002" href="$diagnostic__delegate_8h.html" title="A file containing the DiagnosticDelegate class to be used to override MIP audit/telemetry." alt="" coords="344,93,539,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="806,44,520,94,519,88,805,38"/>
+<area shape="rect" id="Node000012" href="$mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="874,387,1044,412"/>
+<area shape="poly" id="edge18_Node000001_Node000012" title=" " alt="" coords="969,38,1028,55,1084,83,1108,101,1127,123,1140,148,1144,178,1144,254,1141,279,1131,301,1116,320,1098,338,1055,365,1012,384,1010,379,1053,360,1095,333,1113,317,1126,298,1136,277,1139,254,1139,178,1135,150,1123,126,1105,105,1082,87,1026,60,968,43"/>
+<area shape="rect" id="Node000015" href="$telemetry__event_8h.html" title="A file containing the Event class which describes a single telemetry event." alt="" coords="802,93,972,119"/>
+<area shape="poly" id="edge19_Node000001_Node000015" title=" " alt="" coords="890,46,890,79,884,79,884,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="595,313,672,339"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="454,117,616,301,612,304,450,121"/>
+<area shape="rect" id="Node000004" href="$event__context_8h.html" title="A file containing the EventContext class which describes a single audit/telemetry event context." alt="" coords="292,167,448,192"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="432,121,393,159,389,155,428,117"/>
+<area shape="poly" id="edge17_Node000002_Node000012" title=" " alt="" coords="374,121,244,150,173,171,107,197,53,226,33,242,18,259,10,277,9,296,16,316,31,337,49,347,78,356,168,370,286,378,419,382,676,383,830,384,860,386,860,392,829,389,676,388,419,387,286,383,168,375,77,362,47,352,28,341,11,318,4,296,5,276,14,256,29,238,50,222,105,192,171,166,243,145,373,116"/>
+<area shape="rect" id="Node000005" href="$common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="262,240,424,265"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="368,193,355,228,350,226,363,191"/>
+<area shape="poly" id="edge16_Node000004_Node000012" title=" " alt="" coords="292,194,193,213,143,227,98,243,62,262,40,284,35,296,35,309,40,322,51,337,68,347,97,356,185,369,300,377,429,381,680,383,830,384,860,386,860,392,829,389,680,388,429,387,300,383,184,375,96,361,66,352,48,341,36,325,30,310,30,295,35,282,59,258,96,238,141,221,192,208,291,188"/>
+<area shape="rect" id="Node000013" href="$diagnostic__types_8h.html" title="File containing diagnostic&#45;related types." alt="" coords="696,313,870,339"/>
+<area shape="poly" id="edge13_Node000004_Node000013" title=" " alt="" coords="403,190,738,306,737,311,401,195"/>
+<area shape="poly" id="edge8_Node000005_Node000003" title=" " alt="" coords="390,263,582,309,581,315,389,268"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="230,313,296,339"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="332,267,288,306,284,302,328,263"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="321,313,408,339"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="349,265,359,299,354,301,344,266"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="432,313,483,339"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="363,263,429,304,426,308,360,268"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="894,313,952,339"/>
+<area shape="poly" id="edge9_Node000005_Node000009" title=" " alt="" coords="425,256,628,274,753,290,881,311,880,316,752,295,627,280,424,262"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="81,313,205,339"/>
+<area shape="poly" id="edge10_Node000005_Node000010" title=" " alt="" coords="312,268,190,311,188,306,310,263"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="508,313,570,339"/>
+<area shape="poly" id="edge11_Node000005_Node000011" title=" " alt="" coords="375,263,496,306,494,311,374,268"/>
+<area shape="poly" id="edge12_Node000005_Node000012" title=" " alt="" coords="261,258,180,263,105,277,78,287,61,301,58,308,58,316,70,337,87,347,115,356,200,369,313,377,439,381,683,383,830,384,860,386,860,392,829,389,683,388,439,386,312,382,200,374,114,361,84,352,66,341,53,318,53,307,57,298,75,283,104,272,180,258,261,252"/>
+<area shape="poly" id="edge15_Node000013_Node000012" title=" " alt="" coords="812,336,918,379,916,384,810,341"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="748,387,818,412"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="786,339,786,373,780,373,780,339"/>
+<area shape="poly" id="edge32_Node000015_Node000012" title=" " alt="" coords="905,117,960,165,989,199,1011,239,1020,266,1023,289,1021,312,1012,340,1000,361,985,379,981,376,996,358,1007,338,1015,311,1018,289,1015,267,1006,241,984,202,956,169,902,121"/>
+<area shape="rect" id="Node000016" href="$event_8h.html" title="A file containing the Event class which describes a single audit/telemetry event." alt="" coords="764,167,864,192"/>
+<area shape="poly" id="edge20_Node000015_Node000016" title=" " alt="" coords="877,121,837,159,834,155,873,117"/>
+<area shape="poly" id="edge22_Node000016_Node000003" title=" " alt="" coords="805,194,774,229,731,267,668,309,665,304,728,263,770,225,802,191"/>
+<area shape="poly" id="edge23_Node000016_Node000009" title=" " alt="" coords="864,183,892,190,920,201,946,217,967,239,972,256,969,274,948,305,944,302,964,272,967,256,962,241,942,221,917,205,890,195,863,189"/>
+<area shape="poly" id="edge24_Node000016_Node000011" title=" " alt="" coords="764,193,698,212,663,225,630,242,590,272,559,304,555,301,587,268,627,238,661,220,696,207,763,188"/>
+<area shape="poly" id="edge31_Node000016_Node000012" title=" " alt="" coords="864,181,896,186,930,197,961,214,986,238,995,255,1000,273,998,310,988,346,975,375,970,373,983,344,993,309,994,274,990,257,982,242,958,218,928,202,895,192,863,186"/>
+<area shape="poly" id="edge25_Node000016_Node000013" title=" " alt="" coords="764,185,731,191,697,201,666,217,641,242,636,253,636,263,641,272,650,281,677,296,712,307,710,312,675,301,646,285,636,275,631,264,630,252,637,238,663,213,695,196,730,185,763,180"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="651,240,718,265"/>
+<area shape="poly" id="edge21_Node000016_Node000017" title=" " alt="" coords="794,194,719,235,716,231,792,190"/>
+<area shape="rect" id="Node000018" href="$event__property_8h.html" title="A file containing the EventProperty class which describes a single audit/telemetry property." alt="" coords="792,240,952,265"/>
+<area shape="poly" id="edge26_Node000016_Node000018" title=" " alt="" coords="825,191,856,228,852,231,821,194"/>
+<area shape="poly" id="edge27_Node000018_Node000003" title=" " alt="" coords="835,268,686,312,685,307,833,263"/>
+<area shape="poly" id="edge28_Node000018_Node000009" title=" " alt="" coords="883,264,909,301,905,304,878,267"/>
+<area shape="poly" id="edge30_Node000018_Node000012" title=" " alt="" coords="906,263,939,282,955,296,967,312,972,327,974,343,970,373,965,373,968,343,967,328,962,315,951,299,936,286,904,268"/>
+<area shape="poly" id="edge29_Node000018_Node000013" title=" " alt="" coords="860,267,810,307,807,302,856,263"/>
+</map>

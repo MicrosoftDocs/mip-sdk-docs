@@ -1,26 +1,42 @@
 <map id="src/api/mip/upe/content_label.h" name="src/api/mip/upe/content_label.h">
-<area shape="rect" id="Node000001" title="A file Containing the ContentLabel class." alt="" coords="90,5,265,45"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="73,93,140,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,47,128,85,124,81,158,44"/>
-<area shape="rect" id="Node000003" href="$common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="59,167,221,192"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,46,149,154,144,152,170,45"/>
-<area shape="rect" id="Node000009" href="$label_8h.html" title="This file contains the Label class." alt="" coords="307,93,429,119"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="224,43,328,86,326,91,222,48"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="5,240,72,265"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="125,194,68,234,65,230,122,190"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="97,240,183,265"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="143,192,143,226,137,226,137,192"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="208,240,259,265"/>
-<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="157,190,209,229,206,234,153,194"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="297,240,375,265"/>
-<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="172,190,292,233,290,238,171,195"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="428,240,487,265"/>
-<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="192,189,415,239,414,244,190,195"/>
-<area shape="poly" id="edge12_Node000009_Node000003" title=" " alt="" coords="332,121,191,165,189,160,331,116"/>
-<area shape="poly" id="edge9_Node000009_Node000007" title=" " alt="" coords="380,118,397,151,402,172,398,193,385,215,367,233,363,229,380,212,394,191,397,172,392,153,375,120"/>
-<area shape="poly" id="edge10_Node000009_Node000008" title=" " alt="" coords="381,117,418,165,450,226,445,229,414,168,377,121"/>
-<area shape="rect" id="Node000010" title=" " alt="" coords="510,167,573,192"/>
-<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="397,116,501,159,499,164,395,121"/>
-<area shape="rect" id="Node000011" href="$mip__export_8h.html" title="A file export/import macros." alt="" coords="246,167,383,192"/>
-<area shape="poly" id="edge13_Node000009_Node000011" title=" " alt="" coords="361,121,334,157,329,154,357,117"/>
+<area shape="rect" id="Node000001" title="A file Containing the ContentLabel class." alt="" coords="515,5,689,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="399,93,466,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="563,48,471,90,469,85,560,43"/>
+<area shape="rect" id="Node000003" href="$common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="301,167,463,192"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="579,48,480,121,414,162,412,157,476,116,576,43"/>
+<area shape="rect" id="Node000011" href="$mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="781,240,951,265"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="646,43,734,91,781,125,824,165,845,195,860,226,855,228,841,198,820,168,778,129,731,96,643,48"/>
+<area shape="rect" id="Node000012" href="$label_8h.html" title="This file contains the Label class." alt="" coords="541,93,663,119"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="605,46,605,79,599,79,599,46"/>
+<area shape="rect" id="Node000014" href="$metadata__entry_8h.html" title="This file contains the MetadataEntry class." alt="" coords="904,93,1097,119"/>
+<area shape="poly" id="edge19_Node000001_Node000014" title=" " alt="" coords="690,41,929,88,928,93,689,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="154,240,221,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="352,195,233,238,231,233,350,190"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="245,240,332,265"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="369,194,316,234,313,229,365,190"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="357,240,407,265"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="385,192,385,226,379,226,379,192"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="431,240,509,265"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="398,190,447,229,443,233,394,194"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="621,240,679,265"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="426,189,608,237,608,238,607,243,607,243,425,195"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="5,240,129,265"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="332,195,132,240,131,234,331,189"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="533,240,596,265"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="412,190,523,232,521,237,410,195"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="460,189,775,235,774,241,459,195"/>
+<area shape="poly" id="edge16_Node000012_Node000003" title=" " alt="" coords="567,121,431,165,430,160,566,116"/>
+<area shape="poly" id="edge13_Node000012_Node000007" title=" " alt="" coords="593,121,492,231,488,228,589,117"/>
+<area shape="poly" id="edge14_Node000012_Node000008" title=" " alt="" coords="608,118,630,191,643,226,638,228,625,193,603,120"/>
+<area shape="poly" id="edge15_Node000012_Node000010" title=" " alt="" coords="601,120,586,167,572,227,567,226,581,166,595,118"/>
+<area shape="poly" id="edge18_Node000012_Node000011" title=" " alt="" coords="664,116,727,134,760,148,790,164,826,195,852,227,848,230,822,198,787,169,757,152,725,139,663,121"/>
+<area shape="rect" id="Node000013" href="$mip__export_8h.html" title="A file export/import macros." alt="" coords="640,167,777,192"/>
+<area shape="poly" id="edge17_Node000012_Node000013" title=" " alt="" coords="621,116,681,157,678,161,618,121"/>
+<area shape="poly" id="edge20_Node000014_Node000008" title=" " alt="" coords="974,121,691,237,689,232,972,116"/>
+<area shape="poly" id="edge21_Node000014_Node000011" title=" " alt="" coords="995,120,971,154,937,194,893,233,890,230,933,190,966,151,991,117"/>
+<area shape="rect" id="Node000015" href="$metadata__version_8h.html" title="A file containing the MetadataVersion class and the MetadataVersionFormat enumerator." alt="" coords="1005,167,1215,192"/>
+<area shape="poly" id="edge22_Node000014_Node000015" title=" " alt="" coords="1020,116,1082,157,1079,161,1017,121"/>
+<area shape="poly" id="edge24_Node000015_Node000011" title=" " alt="" coords="1072,195,919,239,918,234,1070,189"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="1077,240,1143,265"/>
+<area shape="poly" id="edge23_Node000015_Node000016" title=" " alt="" coords="1113,192,1113,226,1107,226,1107,192"/>
 </map>

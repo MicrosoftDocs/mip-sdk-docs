@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['label_0',['Label',['../classmip_1_1Label.html',1,'mip']]],
-  ['labeldisablederror_1',['LabelDisabledError',['../classmip_1_1LabelDisabledError.html',1,'mip']]],
-  ['labelingoptions_2',['LabelingOptions',['../classmip_1_1LabelingOptions.html',1,'mip']]],
-  ['labelnotfounderror_3',['LabelNotFoundError',['../classmip_1_1LabelNotFoundError.html',1,'mip']]],
-  ['loggerdelegate_4',['LoggerDelegate',['../classmip_1_1LoggerDelegate.html',1,'mip']]]
+  ['jsondelegate_0',['JsonDelegate',['../classJsonDelegate.html',1,'']]],
+  ['jsondocument_1',['JsonDocument',['../classJsonDocument.html',1,'']]],
+  ['jsonvalue_2',['JsonValue',['../classJsonValue.html',1,'']]],
+  ['justificationrequirederror_3',['JustificationRequiredError',['../classJustificationRequiredError.html',1,'']]],
+  ['justifyaction_4',['JustifyAction',['../classJustifyAction.html',1,'']]]
 ];

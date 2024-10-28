@@ -1,11 +1,13 @@
 var searchData=
 [
-  ['edit_0',['Edit',['../namespacemip_1_1rights.html#ab0a2580b9245f9d068c48c5dd04c8343',1,'mip::rights']]],
-  ['editabledocumentrights_1',['EditableDocumentRights',['../namespacemip_1_1rights.html#a812cb2f3f700cea69c035eff3eb0cefa',1,'mip::rights']]],
-  ['emailrights_2',['EmailRights',['../namespacemip_1_1rights.html#a15ea35e61cf4b0061240bf4fa3e91bed',1,'mip::rights']]],
-  ['enablepfile_3',['EnablePFile',['../classmip_1_1FileEngine_1_1Settings.html#a05bcc74249cc39b590d7204df3c06919',1,'mip::FileEngine::Settings']]],
-  ['encryptbuffer_4',['EncryptBuffer',['../classmip_1_1ProtectionHandler.html#acbaa0d7b0088fc239f7299508fdc4a87',1,'mip::ProtectionHandler']]],
-  ['executetaskonindependentthread_5',['ExecuteTaskOnIndependentThread',['../classmip_1_1TaskDispatcherDelegate.html#a5c3f3bef7e636b228040f3e5553138cd',1,'mip::TaskDispatcherDelegate']]],
-  ['export_6',['Export',['../namespacemip_1_1rights.html#a02b8aa03d47e647efadbeec314df168f',1,'mip::rights']]],
-  ['extract_7',['Extract',['../namespacemip_1_1rights.html#ad88d7bb954ece11bca74076055dd5d56',1,'mip::rights']]]
+  ['edit_0',['Edit',['../namespacerights.html#a41ac483a535f53fdedf37a124bd671d1',1,'rights']]],
+  ['editabledocumentrights_1',['EditableDocumentRights',['../namespacerights.html#af5a92be6f2ca3201646071de427ccfe3',1,'rights']]],
+  ['editrightsdata_2',['EditRightsData',['../namespacerights.html#a19d71da3d99aade00d89febb2ebb8e44',1,'rights']]],
+  ['emailrights_3',['EmailRights',['../namespacerights.html#af9318b3c16f5129e45c34128bb316a84',1,'rights']]],
+  ['enablecaching_4',['EnableCaching',['../classGetTemplatesSettings.html#af6fa172c9cd952a0c3c92732bda9e4ac',1,'GetTemplatesSettings']]],
+  ['encryptbuffer_5',['EncryptBuffer',['../classProtectionHandler.html#ae05bb61216b349ef5e21e11d5e8ddda7',1,'ProtectionHandler']]],
+  ['encryptonlyrights_6',['EncryptOnlyRights',['../namespacerights.html#a0a3b50902cbd0cab4472ccf2b5a7b96f',1,'rights']]],
+  ['executetaskonindependentthread_7',['ExecuteTaskOnIndependentThread',['../classTaskDispatcherDelegate.html#aeda33b9012b1c8f569179674096222a2',1,'TaskDispatcherDelegate::ExecuteTaskOnIndependentThread(const std::string &amp;taskId, std::function&lt; void()&gt; task)=0'],['../classTaskDispatcherDelegate.html#acf76b819ad0bf51830933b36e5e8e981',1,'TaskDispatcherDelegate::ExecuteTaskOnIndependentThread(const std::string &amp;taskId, std::function&lt; void()&gt; task, const std::shared_ptr&lt; void &gt; &amp;)']]],
+  ['export_8',['Export',['../namespacerights.html#a9551a8149ed6fb783ce7c187d37be59d',1,'rights']]],
+  ['extract_9',['Extract',['../namespacerights.html#aa3418617a7b778f1222659ae3bb1f9e2',1,'rights']]]
 ];

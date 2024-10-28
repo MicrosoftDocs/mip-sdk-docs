@@ -1,0 +1,14 @@
+<map id="src/api/mip/event_property.h" name="src/api/mip/event_property.h">
+<area shape="rect" id="Node000001" title="A file containing the EventProperty class which describes a single audit/telemetry property." alt="" coords="102,5,309,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,83,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,33,84,75,82,71,178,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="107,79,165,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,33,159,71,155,67,192,29"/>
+<area shape="rect" id="Node000004" href="$diagnostic__types_8h.html" title="File containing diagnostic&#45;related types." alt="" coords="189,79,363,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="219,29,257,67,253,71,215,33"/>
+<area shape="rect" id="Node000006" href="$mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="315,152,485,177"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="284,28,333,46,356,60,377,77,394,107,401,138,396,139,389,109,373,80,353,64,331,51,282,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="219,152,290,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="275,105,265,140,259,138,270,104"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="297,102,369,143,367,147,295,106"/>
+</map>

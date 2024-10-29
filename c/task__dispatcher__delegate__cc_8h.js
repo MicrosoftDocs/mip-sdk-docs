@@ -1,7 +1,7 @@
 var task__dispatcher__delegate__cc_8h =
 [
     [ "mip_cc_async_task", "structmip__cc__async__task.html", "structmip__cc__async__task" ],
-    [ "mip_cc_task_dispatcher_delegate", "task__dispatcher__delegate__cc_8h.html#a55f1ff9765ed8d847eff32f06876ba2f", null ],
+    [ "mip_cc_task_dispatcher_delegate", "task__dispatcher__delegate__cc_8h.html#a08112461ad0266194b2ba364f9b3c89a", null ],
     [ "MIP_CC_API", "task__dispatcher__delegate__cc_8h.html#a2cd584133498afa79f344789954982c2", null ],
     [ "MIP_CC_API", "task__dispatcher__delegate__cc_8h.html#ac7be7623459adb1cc51414f4d1fbc07e", null ],
     [ "MIP_CC_CALLBACK", "task__dispatcher__delegate__cc_8h.html#a85f3f381f74d68e214fb0c04fa60f8d2", null ],

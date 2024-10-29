@@ -6,5 +6,5 @@ var document__state__cc_8h =
       [ "MIP_DATA_STATE_MOTION", "document__state__cc_8h.html#ae5d30831d37eb3a3d42e16a65524ac28a693210d176831b337f5c675c2325170c", null ],
       [ "MIP_DATA_STATE_USE", "document__state__cc_8h.html#ae5d30831d37eb3a3d42e16a65524ac28a7ac20f1ea2aaa8b051cc4285581f1ef4", null ]
     ] ],
-    [ "MIP_CC_CALLBACK", "document__state__cc_8h.html#a65fafa64b1f93161f12926ad7c9be24e", null ]
+    [ "MIP_CC_CALLBACK", "document__state__cc_8h.html#a51fcff7d08331ba4c7e492288b28b1aa", null ]
 ];

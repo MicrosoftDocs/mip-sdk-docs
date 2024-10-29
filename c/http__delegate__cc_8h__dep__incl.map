@@ -1,13 +1,18 @@
 <map id="src/api/mip_cc/http_delegate_cc.h" name="src/api/mip_cc/http_delegate_cc.h">
-<area shape="rect" id="Node000001" title="Defines HTTP callback functions." alt="" coords="121,5,267,45"/>
-<area shape="rect" id="Node000002" href="$protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="5,269,191,309"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,54,111,72,92,95,83,117,78,140,77,189,84,233,94,268,89,270,79,235,72,189,73,139,78,115,88,92,107,68,131,50"/>
-<area shape="rect" id="Node000003" href="$telemetry__configuration__cc_8h.html" title="Defines custom telemetry settings." alt="" coords="103,93,285,133"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="197,59,197,93,191,93,191,59"/>
-<area shape="rect" id="Node000005" href="$policy__profile__cc_8h.html" title="Contains C API definitions for policy profile." alt="" coords="233,269,379,309"/>
-<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="255,50,279,68,299,92,309,115,316,139,321,189,319,235,313,270,308,269,313,234,316,189,311,140,304,117,294,95,276,72,252,54"/>
-<area shape="rect" id="Node000004" href="$mip__context__cc_8h.html" title="Defines C&#45;Style MipContext functions." alt="" coords="122,181,266,221"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="197,147,197,181,191,181,191,147"/>
-<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="164,233,121,271,117,267,161,229"/>
-<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="232,228,283,267,280,271,228,232"/>
+<area shape="rect" id="Node000001" title="Defines HTTP callback functions." alt="" coords="156,5,301,45"/>
+<area shape="rect" id="Node000002" href="$protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="5,445,191,485"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,54,132,79,92,112,75,131,62,152,53,175,50,200,50,291,54,335,65,377,91,444,86,446,60,379,49,335,45,291,45,200,48,174,57,150,71,128,88,108,129,74,171,49"/>
+<area shape="rect" id="Node000003" href="$telemetry__configuration__cc_8h.html" title="Defines custom telemetry settings." alt="" coords="137,93,320,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,59,231,93,226,93,226,59"/>
+<area shape="rect" id="Node000007" href="$policy__profile__cc_8h.html" title="Contains C API definitions for policy profile." alt="" coords="346,269,493,309"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="281,50,309,68,333,92,365,137,389,187,417,268,412,270,384,189,360,140,329,95,305,73,278,54"/>
+<area shape="rect" id="Node000004" href="$mip__context__cc_8h.html" title="Defines C&#45;Style MipContext functions." alt="" coords="157,181,301,221"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="231,147,231,181,226,181,226,147"/>
+<area shape="poly" id="edge7_Node000004_Node000002" title=" " alt="" coords="171,230,146,248,126,271,106,316,97,365,96,410,98,445,93,445,91,410,92,364,101,314,121,268,142,244,168,226"/>
+<area shape="rect" id="Node000005" href="$delegation__license__cc_8h.html" title=" " alt="" coords="136,269,321,309"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="231,235,231,269,226,269,226,235"/>
+<area shape="poly" id="edge8_Node000004_Node000007" title=" " alt="" coords="284,225,379,267,376,272,282,229"/>
+<area shape="rect" id="Node000006" href="$protection__engine__cc_8h.html" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="136,357,321,397"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="231,323,231,357,226,357,226,323"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="190,407,128,447,125,443,187,403"/>
 </map>

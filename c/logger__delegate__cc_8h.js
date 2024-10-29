@@ -1,6 +1,8 @@
 var logger__delegate__cc_8h =
 [
-    [ "mip_cc_logger_delegate", "logger__delegate__cc_8h.html#a709e839e428f2c674a53e7dea741c466", null ],
+    [ "mip_cc_create_logger_delegate_message_data_args", "structmip__cc__create__logger__delegate__message__data__args.html", "structmip__cc__create__logger__delegate__message__data__args" ],
+    [ "mip_cc_log_message_data", "structmip__cc__log__message__data.html", "structmip__cc__log__message__data" ],
+    [ "mip_cc_logger_delegate", "logger__delegate__cc_8h.html#a2e36121fe11d6e35015fe2ff3820b1f5", null ],
     [ "mip_cc_log_level", "logger__delegate__cc_8h.html#a477df27df0d22154a92018afa9733a50", [
       [ "MIP_LOG_LEVEL_TRACE", "logger__delegate__cc_8h.html#a477df27df0d22154a92018afa9733a50a1d47c281946ffb71b912b7cace46026f", null ],
       [ "MIP_LOG_LEVEL_INFO", "logger__delegate__cc_8h.html#a477df27df0d22154a92018afa9733a50a62ebf15adc5f66def0bd8322bae3f66a", null ],
@@ -12,6 +14,7 @@ var logger__delegate__cc_8h =
     [ "MIP_CC_CALLBACK", "logger__delegate__cc_8h.html#aa006d176bad85e728f02458474cfe609", null ],
     [ "MIP_CC_CALLBACK", "logger__delegate__cc_8h.html#a9a510cfb11088c899c01569762ad183e", null ],
     [ "MIP_CC_CALLBACK", "logger__delegate__cc_8h.html#aed17cce4d19a008718f0a0b8207277d0", null ],
+    [ "MIP_CC_CALLBACK", "logger__delegate__cc_8h.html#a9fb173cfe0789c562c7222b814fe05ca", null ],
     [ "errorInfo", "logger__delegate__cc_8h.html#a808a4cb13e6ee477e480760bf5d83f2e", null ],
     [ "flushCallback", "logger__delegate__cc_8h.html#a7ab6a62185b5bf7df796f1dbd9668657", null ],
     [ "loggerDelegate", "logger__delegate__cc_8h.html#a88aa0754ac70016ce69b36dba269f636", null ],

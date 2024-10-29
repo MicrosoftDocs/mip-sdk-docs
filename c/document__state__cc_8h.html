@@ -105,11 +105,12 @@ $(function(){initNavTree('document__state__cc_8h.html',''); initResizable(true);
 </div><!--header-->
 <div class="contents">
 
-<p>Describes document state when performing a label-releated operation.  
+<p>Describes document state when performing a label-related operation.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="common__types__cc_8h_source.html">mip_cc/common_types_cc.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dictionary__cc_8h_source.html">mip_cc/dictionary_cc.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="protection__descriptor__cc_8h_source.html">mip_cc/protection_descriptor_cc.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="metadata__dictionary__cc_8h_source.html">mip_cc/upe/metadata_dictionary_cc.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for document_state_cc.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -117,32 +118,51 @@ $(function(){initNavTree('document__state__cc_8h.html',''); initResizable(true);
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="document__state__cc_8h__incl.png" border="0" usemap="#asrc_2api_2mip__cc_2upe_2document__state__cc_8h" alt=""/></div>
 <map name="asrc_2api_2mip__cc_2upe_2document__state__cc_8h" id="asrc_2api_2mip__cc_2upe_2document__state__cc_8h">
-<area shape="rect" title="Describes document state when performing a label&#45;releated operation." alt="" coords="166,5,330,45"/>
-<area shape="rect" href="common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="5,240,211,265"/>
-<area shape="poly" title=" " alt="" coords="191,48,151,67,117,95,98,118,87,139,83,162,87,191,99,227,94,229,81,193,78,162,82,138,93,115,113,91,149,63,188,43"/>
-<area shape="rect" href="dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="364,167,535,192"/>
-<area shape="poly" title=" " alt="" coords="299,43,341,64,383,91,414,122,437,153,433,156,410,125,380,95,339,68,297,48"/>
-<area shape="rect" href="protection__descriptor__cc_8h.html" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="127,93,369,119"/>
-<area shape="poly" title=" " alt="" coords="251,46,251,79,245,79,245,46"/>
-<area shape="rect" title=" " alt="" coords="242,387,313,412"/>
-<area shape="poly" title=" " alt="" coords="123,264,206,337,254,376,250,380,202,341,119,268"/>
-<area shape="rect" href="mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="337,387,522,412"/>
-<area shape="poly" title=" " alt="" coords="129,263,192,297,272,336,383,379,381,384,270,341,190,302,127,268"/>
-<area shape="poly" title=" " alt="" coords="455,192,461,221,465,261,459,303,451,323,439,341,421,354,392,367,327,388,325,383,390,362,418,349,435,337,447,320,454,302,459,261,456,222,450,193"/>
-<area shape="poly" title=" " alt="" coords="476,190,506,209,520,223,530,239,542,266,546,290,542,313,530,340,508,366,479,383,477,379,504,362,526,337,537,312,541,290,537,267,526,241,516,226,503,214,474,194"/>
-<area shape="rect" href="error__cc_8h.html" title="Error definition and functions." alt="" coords="285,240,421,265"/>
-<area shape="poly" title=" " alt="" coords="435,194,382,234,379,229,432,190"/>
-<area shape="rect" href="result__cc_8h.html" title="Defines success/error result codes." alt="" coords="282,313,425,339"/>
-<area shape="poly" title=" " alt="" coords="452,192,450,227,445,247,436,267,415,291,391,309,387,304,411,287,431,264,439,246,444,226,447,192"/>
-<area shape="poly" title=" " alt="" coords="356,266,356,300,351,300,351,266"/>
-<area shape="poly" title=" " alt="" coords="343,341,302,379,298,375,339,337"/>
-<area shape="poly" title=" " alt="" coords="367,337,409,375,405,379,364,341"/>
-<area shape="poly" title=" " alt="" coords="240,121,174,194,133,233,129,229,170,190,236,117"/>
-<area shape="poly" title=" " alt="" coords="281,116,405,159,403,165,279,121"/>
-<area shape="poly" title=" " alt="" coords="259,118,339,227,335,230,254,121"/>
-<area shape="poly" title=" " alt="" coords="250,119,251,184,259,225,276,264,295,287,319,304,316,308,291,290,271,267,254,227,246,185,244,119"/>
-<area shape="rect" title=" " alt="" coords="96,167,160,192"/>
-<area shape="poly" title=" " alt="" coords="230,121,161,162,158,157,227,116"/>
+<area shape="rect" title="Describes document state when performing a label&#45;related operation." alt="" coords="235,5,399,45"/>
+<area shape="rect" href="common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="319,255,524,280"/>
+<area shape="poly" title=" " alt="" coords="307,47,288,80,272,121,267,165,270,186,280,205,306,231,340,248,337,253,303,235,275,208,265,187,261,165,267,120,284,77,302,44"/>
+<area shape="rect" href="dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="5,174,176,199"/>
+<area shape="poly" title=" " alt="" coords="279,48,238,69,196,96,151,131,114,166,110,162,148,127,193,91,235,65,276,43"/>
+<area shape="rect" href="protection__descriptor__cc_8h.html" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="388,93,631,119"/>
+<area shape="poly" title=" " alt="" coords="364,43,470,86,468,91,362,48"/>
+<area shape="rect" href="metadata__dictionary__cc_8h.html" title="Contains C API definitions for a metadata dictionary." alt="" coords="949,167,1112,207"/>
+<area shape="poly" title=" " alt="" coords="400,40,643,91,942,161,941,166,642,96,399,45"/>
+<area shape="rect" title=" " alt="" coords="629,401,699,427"/>
+<area shape="poly" title=" " alt="" coords="442,278,634,392,632,397,439,283"/>
+<area shape="rect" href="mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="731,401,917,427"/>
+<area shape="poly" title=" " alt="" coords="454,278,780,394,778,399,452,283"/>
+<area shape="poly" title=" " alt="" coords="139,197,361,249,360,254,138,202"/>
+<area shape="poly" title=" " alt="" coords="105,198,151,237,181,259,213,278,322,324,434,360,536,385,616,402,614,407,535,391,432,365,320,329,211,282,178,263,147,241,101,202"/>
+<area shape="poly" title=" " alt="" coords="113,197,212,252,231,266,250,278,373,322,499,356,617,380,718,397,718,402,616,386,497,361,371,327,248,282,228,271,209,257,111,202"/>
+<area shape="rect" href="error__cc_8h.html" title="Error definition and functions." alt="" coords="548,255,684,280"/>
+<area shape="poly" title=" " alt="" coords="167,197,535,251,534,256,167,202"/>
+<area shape="rect" href="result__cc_8h.html" title="Defines success/error result codes." alt="" coords="753,328,895,353"/>
+<area shape="poly" title=" " alt="" coords="119,197,250,252,279,266,307,277,423,303,540,320,649,330,739,335,739,340,648,335,539,325,422,308,306,283,276,271,248,257,117,202"/>
+<area shape="poly" title=" " alt="" coords="650,277,778,321,776,326,649,283"/>
+<area shape="poly" title=" " alt="" coords="799,356,704,398,702,393,797,351"/>
+<area shape="poly" title=" " alt="" coords="827,354,827,388,821,388,821,354"/>
+<area shape="poly" title=" " alt="" coords="429,121,345,140,312,153,291,168,284,186,292,205,317,231,350,248,348,253,314,235,287,208,279,186,287,165,309,149,344,135,428,116"/>
+<area shape="poly" title=" " alt="" coords="449,121,166,174,165,169,448,116"/>
+<area shape="poly" title=" " alt="" coords="570,116,611,134,629,148,644,165,651,185,649,206,634,244,629,242,644,205,645,186,639,168,625,152,608,139,568,121"/>
+<area shape="poly" title=" " alt="" coords="631,116,792,137,855,150,876,157,889,165,900,184,903,204,901,226,894,247,871,287,846,319,842,316,867,284,889,245,896,224,898,204,895,186,885,169,874,162,854,155,791,142,631,121"/>
+<area shape="rect" title=" " alt="" coords="565,174,629,199"/>
+<area shape="poly" title=" " alt="" coords="524,117,576,163,573,167,521,121"/>
+<area shape="rect" href="string__list__cc_8h.html" title="Contains C API definitions for common string list." alt="" coords="705,174,874,199"/>
+<area shape="poly" title=" " alt="" coords="551,116,736,168,735,173,549,121"/>
+<area shape="rect" href="dynamic__watermark__cc_8h.html" title=" " alt="" coords="302,174,541,199"/>
+<area shape="poly" title=" " alt="" coords="498,121,446,167,443,163,495,117"/>
+<area shape="poly" title=" " alt="" coords="736,202,489,254,488,249,735,197"/>
+<area shape="poly" title=" " alt="" coords="785,201,679,390,675,388,781,198"/>
+<area shape="poly" title=" " alt="" coords="806,198,860,249,889,285,910,327,914,341,910,355,891,379,866,397,863,393,887,375,906,352,909,341,906,329,885,288,856,252,803,201"/>
+<area shape="poly" title=" " alt="" coords="765,202,655,251,653,247,763,197"/>
+<area shape="poly" title=" " alt="" coords="795,199,821,314,816,315,789,200"/>
+<area shape="poly" title=" " alt="" coords="424,200,424,241,419,241,419,200"/>
+<area shape="poly" title=" " alt="" coords="451,197,576,247,574,252,449,202"/>
+<area shape="poly" title=" " alt="" coords="950,201,887,209,525,256,524,250,886,204,949,196"/>
+<area shape="poly" title=" " alt="" coords="1025,208,1008,240,982,280,950,321,909,356,881,366,830,379,713,405,712,400,829,374,879,361,907,351,946,317,978,277,1003,238,1020,205"/>
+<area shape="poly" title=" " alt="" coords="1044,206,1057,242,1058,262,1052,281,1036,304,1017,324,974,358,926,382,882,400,880,395,924,378,971,353,1014,320,1032,301,1047,279,1052,261,1051,243,1039,208"/>
+<area shape="poly" title=" " alt="" coords="950,206,690,255,689,250,949,201"/>
+<area shape="poly" title=" " alt="" coords="1006,209,853,322,850,317,1003,205"/>
 </map>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -152,7 +172,7 @@ $(function(){initNavTree('document__state__cc_8h.html',''); initResizable(true);
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="document__state__cc_8h__dep__incl.png" border="0" usemap="#asrc_2api_2mip__cc_2upe_2document__state__cc_8hdep" alt=""/></div>
 <map name="asrc_2api_2mip__cc_2upe_2document__state__cc_8hdep" id="asrc_2api_2mip__cc_2upe_2document__state__cc_8hdep">
-<area shape="rect" title="Describes document state when performing a label&#45;releated operation." alt="" coords="5,5,169,45"/>
+<area shape="rect" title="Describes document state when performing a label&#45;related operation." alt="" coords="5,5,169,45"/>
 <area shape="rect" href="policy__handler__cc_8h.html" title="Contains C API definitions for policy handler." alt="" coords="10,93,165,133"/>
 <area shape="poly" title=" " alt="" coords="90,59,90,93,85,93,85,59"/>
 <area shape="rect" href="policy__engine__cc_8h.html" title="Contains C API definitions for policy engine." alt="" coords="13,181,162,221"/>
@@ -185,12 +205,12 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a65fafa64b1f93161f12926ad7c9be24e" id="r_a65fafa64b1f93161f12926ad7c9be24e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65fafa64b1f93161f12926ad7c9be24e">MIP_CC_CALLBACK</a> (mip_cc_metadata_callback, void, const char **, const int64_t, const char **, const int64_t, const void *, <a class="el" href="dictionary__cc_8h.html#aa600c4bfebf2082097685bd74fabfd51">mip_cc_dictionary</a> *)</td></tr>
-<tr class="memdesc:a65fafa64b1f93161f12926ad7c9be24e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback function definition for retrieving document metatdata, filtered by name/prefix.  <br /></td></tr>
-<tr class="separator:a65fafa64b1f93161f12926ad7c9be24e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51fcff7d08331ba4c7e492288b28b1aa" id="r_a51fcff7d08331ba4c7e492288b28b1aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51fcff7d08331ba4c7e492288b28b1aa">MIP_CC_CALLBACK</a> (mip_cc_metadata_callback, void, const char **, const int64_t, const char **, const int64_t, const void *, <a class="el" href="metadata__dictionary__cc_8h.html#ad1cfec849f73a7baa85016c463ce2bff">mip_cc_metadata_dictionary</a> *)</td></tr>
+<tr class="memdesc:a51fcff7d08331ba4c7e492288b28b1aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback function definition for retrieving document metatdata, filtered by name/prefix.  <br /></td></tr>
+<tr class="separator:a51fcff7d08331ba4c7e492288b28b1aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Describes document state when performing a label-releated operation. </p>
+<div class="textblock"><p>Describes document state when performing a label-related operation. </p>
 
 <p class="definition">Definition in file <a class="el" href="document__state__cc_8h_source.html">document_state_cc.h</a>.</p>
 </div><h2 class="groupheader">Enumeration Type Documentation</h2>
@@ -216,22 +236,22 @@ Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="document__state__cc_8h_source.html#l00043">43</a> of file <a class="el" href="document__state__cc_8h_source.html">document_state_cc.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   43</span>             {</div>
-<div class="line"><span class="lineno">   44</span>  <a class="code hl_enumvalue" href="#ae5d30831d37eb3a3d42e16a65524ac28a249e1ed180667869178a9ca5f4e2edf0">MIP_DATA_STATE_REST</a> = 0,   <span class="comment">/**&lt; Inactive data stored physically in databases/file/warehouses */</span></div>
-<div class="line"><span class="lineno">   45</span>  <a class="code hl_enumvalue" href="#ae5d30831d37eb3a3d42e16a65524ac28a693210d176831b337f5c675c2325170c">MIP_DATA_STATE_MOTION</a> = 1, <span class="comment">/**&lt; Data traversing a network or temporarily residing in computer memory to be read or updated */</span></div>
-<div class="line"><span class="lineno">   46</span>  <a class="code hl_enumvalue" href="#ae5d30831d37eb3a3d42e16a65524ac28a7ac20f1ea2aaa8b051cc4285581f1ef4">MIP_DATA_STATE_USE</a> = 2,    <span class="comment">/**&lt; Active data under constant change stored physically in databases/file/warehouses etc */</span></div>
-<div class="line"><span class="lineno">   47</span>} <a class="code hl_enumeration" href="#ae5d30831d37eb3a3d42e16a65524ac28">mip_cc_data_state</a>;</div>
-<div class="ttc" id="adocument__state__cc_8h_html_ae5d30831d37eb3a3d42e16a65524ac28"><div class="ttname"><a href="#ae5d30831d37eb3a3d42e16a65524ac28">mip_cc_data_state</a></div><div class="ttdeci">mip_cc_data_state</div><div class="ttdoc">Defines the state of the data as an application is acting upon it.</div><div class="ttdef"><b>Definition</b> <a href="document__state__cc_8h_source.html#l00043">document_state_cc.h:43</a></div></div>
-<div class="ttc" id="adocument__state__cc_8h_html_ae5d30831d37eb3a3d42e16a65524ac28a249e1ed180667869178a9ca5f4e2edf0"><div class="ttname"><a href="#ae5d30831d37eb3a3d42e16a65524ac28a249e1ed180667869178a9ca5f4e2edf0">MIP_DATA_STATE_REST</a></div><div class="ttdeci">@ MIP_DATA_STATE_REST</div><div class="ttdoc">Inactive data stored physically in databases/file/warehouses.</div><div class="ttdef"><b>Definition</b> <a href="document__state__cc_8h_source.html#l00044">document_state_cc.h:44</a></div></div>
-<div class="ttc" id="adocument__state__cc_8h_html_ae5d30831d37eb3a3d42e16a65524ac28a693210d176831b337f5c675c2325170c"><div class="ttname"><a href="#ae5d30831d37eb3a3d42e16a65524ac28a693210d176831b337f5c675c2325170c">MIP_DATA_STATE_MOTION</a></div><div class="ttdeci">@ MIP_DATA_STATE_MOTION</div><div class="ttdoc">Data traversing a network or temporarily residing in computer memory to be read or updated.</div><div class="ttdef"><b>Definition</b> <a href="document__state__cc_8h_source.html#l00045">document_state_cc.h:45</a></div></div>
-<div class="ttc" id="adocument__state__cc_8h_html_ae5d30831d37eb3a3d42e16a65524ac28a7ac20f1ea2aaa8b051cc4285581f1ef4"><div class="ttname"><a href="#ae5d30831d37eb3a3d42e16a65524ac28a7ac20f1ea2aaa8b051cc4285581f1ef4">MIP_DATA_STATE_USE</a></div><div class="ttdeci">@ MIP_DATA_STATE_USE</div><div class="ttdoc">Active data under constant change stored physically in databases/file/warehouses etc.</div><div class="ttdef"><b>Definition</b> <a href="document__state__cc_8h_source.html#l00046">document_state_cc.h:46</a></div></div>
+<p class="definition">Definition at line <a class="el" href="document__state__cc_8h_source.html#l00044">44</a> of file <a class="el" href="document__state__cc_8h_source.html">document_state_cc.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   44</span>             {</div>
+<div class="line"><span class="lineno">   45</span>  <a class="code hl_enumvalue" href="#ae5d30831d37eb3a3d42e16a65524ac28a249e1ed180667869178a9ca5f4e2edf0">MIP_DATA_STATE_REST</a> = 0,   <span class="comment">/**&lt; Inactive data stored physically in databases/file/warehouses */</span></div>
+<div class="line"><span class="lineno">   46</span>  <a class="code hl_enumvalue" href="#ae5d30831d37eb3a3d42e16a65524ac28a693210d176831b337f5c675c2325170c">MIP_DATA_STATE_MOTION</a> = 1, <span class="comment">/**&lt; Data traversing a network or temporarily residing in computer memory to be read or updated */</span></div>
+<div class="line"><span class="lineno">   47</span>  <a class="code hl_enumvalue" href="#ae5d30831d37eb3a3d42e16a65524ac28a7ac20f1ea2aaa8b051cc4285581f1ef4">MIP_DATA_STATE_USE</a> = 2,    <span class="comment">/**&lt; Active data under constant change stored physically in databases/file/warehouses etc */</span></div>
+<div class="line"><span class="lineno">   48</span>} <a class="code hl_enumeration" href="#ae5d30831d37eb3a3d42e16a65524ac28">mip_cc_data_state</a>;</div>
+<div class="ttc" id="adocument__state__cc_8h_html_ae5d30831d37eb3a3d42e16a65524ac28"><div class="ttname"><a href="#ae5d30831d37eb3a3d42e16a65524ac28">mip_cc_data_state</a></div><div class="ttdeci">mip_cc_data_state</div><div class="ttdoc">Defines the state of the data as an application is acting upon it.</div><div class="ttdef"><b>Definition</b> <a href="document__state__cc_8h_source.html#l00044">document_state_cc.h:44</a></div></div>
+<div class="ttc" id="adocument__state__cc_8h_html_ae5d30831d37eb3a3d42e16a65524ac28a249e1ed180667869178a9ca5f4e2edf0"><div class="ttname"><a href="#ae5d30831d37eb3a3d42e16a65524ac28a249e1ed180667869178a9ca5f4e2edf0">MIP_DATA_STATE_REST</a></div><div class="ttdeci">@ MIP_DATA_STATE_REST</div><div class="ttdoc">Inactive data stored physically in databases/file/warehouses.</div><div class="ttdef"><b>Definition</b> <a href="document__state__cc_8h_source.html#l00045">document_state_cc.h:45</a></div></div>
+<div class="ttc" id="adocument__state__cc_8h_html_ae5d30831d37eb3a3d42e16a65524ac28a693210d176831b337f5c675c2325170c"><div class="ttname"><a href="#ae5d30831d37eb3a3d42e16a65524ac28a693210d176831b337f5c675c2325170c">MIP_DATA_STATE_MOTION</a></div><div class="ttdeci">@ MIP_DATA_STATE_MOTION</div><div class="ttdoc">Data traversing a network or temporarily residing in computer memory to be read or updated.</div><div class="ttdef"><b>Definition</b> <a href="document__state__cc_8h_source.html#l00046">document_state_cc.h:46</a></div></div>
+<div class="ttc" id="adocument__state__cc_8h_html_ae5d30831d37eb3a3d42e16a65524ac28a7ac20f1ea2aaa8b051cc4285581f1ef4"><div class="ttname"><a href="#ae5d30831d37eb3a3d42e16a65524ac28a7ac20f1ea2aaa8b051cc4285581f1ef4">MIP_DATA_STATE_USE</a></div><div class="ttdeci">@ MIP_DATA_STATE_USE</div><div class="ttdoc">Active data under constant change stored physically in databases/file/warehouses etc.</div><div class="ttdef"><b>Definition</b> <a href="document__state__cc_8h_source.html#l00047">document_state_cc.h:47</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a65fafa64b1f93161f12926ad7c9be24e" name="a65fafa64b1f93161f12926ad7c9be24e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65fafa64b1f93161f12926ad7c9be24e">&#9670;&#160;</a></span>MIP_CC_CALLBACK()</h2>
+<a id="a51fcff7d08331ba4c7e492288b28b1aa" name="a51fcff7d08331ba4c7e492288b28b1aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51fcff7d08331ba4c7e492288b28b1aa">&#9670;&#160;</a></span>MIP_CC_CALLBACK()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -274,7 +294,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="dictionary__cc_8h.html#aa600c4bfebf2082097685bd74fabfd51">mip_cc_dictionary</a> *</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="metadata__dictionary__cc_8h.html#ad1cfec849f73a7baa85016c463ce2bff">mip_cc_metadata_dictionary</a> *</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

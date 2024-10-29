@@ -21,6 +21,9 @@ var application__action__state__cc_8h =
       [ "MIP_LABEL_ACTION_TYPE_REMOVE_PROTECTION", "application__action__state__cc_8h.html#af0589bd9478dd286328db0bf27a41f67a2d8dc0c262e1c93ccfcf4f38680d4239", null ],
       [ "MIP_LABEL_ACTION_TYPE_REMOVE_WATERMARK", "application__action__state__cc_8h.html#af0589bd9478dd286328db0bf27a41f67ae827494f15f26fdcf60a89465dc8f43f", null ],
       [ "MIP_LABEL_ACTION_TYPE_APPLY_LABEL", "application__action__state__cc_8h.html#af0589bd9478dd286328db0bf27a41f67a0d9a71abaf26cce8aefaa36f93bebeb0", null ],
-      [ "MIP_LABEL_ACTION_TYPE_RECOMMEND_LABEL", "application__action__state__cc_8h.html#af0589bd9478dd286328db0bf27a41f67a2e75d85c7b14184b5842947b39501ec0", null ]
+      [ "MIP_LABEL_ACTION_TYPE_RECOMMEND_LABEL", "application__action__state__cc_8h.html#af0589bd9478dd286328db0bf27a41f67a2e75d85c7b14184b5842947b39501ec0", null ],
+      [ "MIP_LABEL_ACTION_TYPE_PROTECT_ADHOC_DK", "application__action__state__cc_8h.html#af0589bd9478dd286328db0bf27a41f67af22a02e425fabd14bb6dd50e5698a975", null ],
+      [ "MIP_LABEL_ACTION_TYPE_PROTECT_DO_NOT_FORWARD_DK", "application__action__state__cc_8h.html#af0589bd9478dd286328db0bf27a41f67ae24a2f8c941670f77f9c8a70436e7c7e", null ],
+      [ "MIP_LABEL_ACTION_TYPE_PROTECT_BY_ENCRYPT_ONLY", "application__action__state__cc_8h.html#af0589bd9478dd286328db0bf27a41f67a67467f534e37e735e6ed7e0e176c7539", null ]
     ] ]
 ];

@@ -3,7 +3,7 @@ var http__delegate__cc_8h =
     [ "mip_cc_http_header", "structmip__cc__http__header.html", "structmip__cc__http__header" ],
     [ "mip_cc_http_request", "structmip__cc__http__request.html", "structmip__cc__http__request" ],
     [ "mip_cc_http_response", "structmip__cc__http__response.html", "structmip__cc__http__response" ],
-    [ "mip_cc_http_delegate", "http__delegate__cc_8h.html#a3c1730c6a77a3fc434d3ebe04ecf8399", null ],
+    [ "mip_cc_http_delegate", "http__delegate__cc_8h.html#a547792356b33ce457e552680bd5aee87", null ],
     [ "mip_cc_http_request_type", "http__delegate__cc_8h.html#a199a8a05259c3fda563b7b929c112ce6", [
       [ "HTTP_REQUEST_TYPE_GET", "http__delegate__cc_8h.html#a199a8a05259c3fda563b7b929c112ce6ab6627ba865cc0dea358d753becc3821e", null ],
       [ "HTTP_REQUEST_TYPE_POST", "http__delegate__cc_8h.html#a199a8a05259c3fda563b7b929c112ce6ad790b45df82466cd20922146fb83d63e", null ]

@@ -23,6 +23,11 @@ var result__cc_8h =
       [ "MIP_RESULT_ERROR_DEPRECATED_API", "result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535aa423697cdb881455c834301ba379b2b8", null ],
       [ "MIP_RESULT_ERROR_TEMPLATE_NOT_FOUND", "result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535ad0bf37833fbae43a4fa4b27bc6e9f049", null ],
       [ "MIP_RESULT_ERROR_LABEL_NOT_FOUND", "result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535a4f049446ae8a0355826d472c3b903158", null ],
-      [ "MIP_RESULT_ERROR_LABEL_DISABLED", "result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535af01180399776f7d2443554a95bb7eb9f", null ]
+      [ "MIP_RESULT_ERROR_LABEL_DISABLED", "result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535af01180399776f7d2443554a95bb7eb9f", null ],
+      [ "MIP_RESULT_ERROR_DOUBLE_KEY_DISABLED", "result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535a07ad0b62d26c93a0f06ab096016a348b", null ],
+      [ "MIP_RESULT_ERROR_LICENSE_NOT_REGISTERED", "result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535a0f83ecd1b589571eea326765e4a4c6a2", null ],
+      [ "MIP_RESULT_ERROR_CONTENT_FORMAT_NOT_SUPPORTED", "result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535a13cfe0b466221241412e515a455cacf2", null ],
+      [ "MIP_RESULT_ERROR_TEMPLATE_ARCHIVED", "result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535a29ae9255d997fcd7ae6710c7d923a9e1", null ],
+      [ "MIP_RESULT_ERROR_CUSTOMER_KEY_UNAVAILABLE", "result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535afd0aeae7e3b537d4fcedb842bb56815d", null ]
     ] ]
 ];

@@ -108,6 +108,7 @@ $(function(){initNavTree('string__list__cc_8h.html',''); initResizable(true); })
 <p>Contains C API definitions for common string list.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="common__types__cc_8h_source.html">mip_cc/common_types_cc.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="error__cc_8h_source.html">mip_cc/error_cc.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mip__macros__cc_8h_source.html">mip_cc/mip_macros_cc.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="result__cc_8h_source.html">mip_cc/result_cc.h</a>&quot;</code><br />
@@ -118,18 +119,22 @@ $(function(){initNavTree('string__list__cc_8h.html',''); initResizable(true); })
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="string__list__cc_8h__incl.png" border="0" usemap="#asrc_2api_2mip__cc_2string__list__cc_8h" alt=""/></div>
 <map name="asrc_2api_2mip__cc_2string__list__cc_8h" id="asrc_2api_2mip__cc_2string__list__cc_8h">
-<area shape="rect" title="Contains C API definitions for common string list." alt="" coords="71,5,227,45"/>
-<area shape="rect" title=" " alt="" coords="11,240,82,265"/>
-<area shape="poly" title=" " alt="" coords="81,48,46,67,32,80,20,95,12,111,9,128,12,164,22,198,35,227,30,229,17,200,6,165,4,127,7,109,15,92,28,76,43,62,78,43"/>
-<area shape="rect" href="error__cc_8h.html" title="Error definition and functions." alt="" coords="29,93,165,119"/>
-<area shape="poly" title=" " alt="" coords="139,47,115,83,111,80,135,44"/>
-<area shape="rect" href="result__cc_8h.html" title="Defines success/error result codes." alt="" coords="51,167,194,192"/>
-<area shape="poly" title=" " alt="" coords="165,45,180,79,183,100,180,120,167,141,151,159,147,156,163,138,175,118,178,99,175,81,160,47"/>
-<area shape="rect" href="mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="133,240,318,265"/>
-<area shape="poly" title=" " alt="" coords="169,44,185,66,200,92,212,128,220,164,227,226,222,226,215,165,207,129,195,94,181,69,165,47"/>
-<area shape="poly" title=" " alt="" coords="104,118,117,153,112,155,99,120"/>
-<area shape="poly" title=" " alt="" coords="112,194,71,232,67,229,109,190"/>
-<area shape="poly" title=" " alt="" coords="141,190,199,230,196,234,138,194"/>
+<area shape="rect" title="Contains C API definitions for common string list." alt="" coords="152,5,308,45"/>
+<area shape="rect" title=" " alt="" coords="89,240,160,265"/>
+<area shape="poly" title=" " alt="" coords="172,48,130,67,85,93,44,126,12,168,8,179,9,189,23,208,48,223,77,235,75,240,45,228,20,212,4,191,3,178,7,165,40,123,82,88,127,62,170,43"/>
+<area shape="rect" href="common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="22,167,227,192"/>
+<area shape="poly" title=" " alt="" coords="201,48,175,69,152,95,138,124,131,154,125,152,133,122,148,92,171,65,198,43"/>
+<area shape="rect" href="mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="230,240,416,265"/>
+<area shape="poly" title=" " alt="" coords="275,43,311,63,349,90,384,124,410,166,412,187,402,207,384,223,364,236,361,231,381,218,397,203,406,186,405,168,380,128,346,94,308,68,272,48"/>
+<area shape="rect" href="error__cc_8h.html" title="Error definition and functions." alt="" coords="162,93,298,119"/>
+<area shape="poly" title=" " alt="" coords="232,46,232,79,227,79,227,46"/>
+<area shape="rect" href="result__cc_8h.html" title="Defines success/error result codes." alt="" coords="252,167,394,192"/>
+<area shape="poly" title=" " alt="" coords="264,43,290,64,312,92,323,122,326,152,321,153,318,124,307,95,286,68,260,48"/>
+<area shape="poly" title=" " alt="" coords="127,192,127,226,122,226,122,192"/>
+<area shape="poly" title=" " alt="" coords="157,190,279,233,277,238,156,195"/>
+<area shape="poly" title=" " alt="" coords="246,117,299,156,295,160,243,121"/>
+<area shape="poly" title=" " alt="" coords="292,195,171,238,169,233,290,190"/>
+<area shape="poly" title=" " alt="" coords="326,192,326,226,320,226,320,192"/>
 </map>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -139,22 +144,45 @@ $(function(){initNavTree('string__list__cc_8h.html',''); initResizable(true); })
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="string__list__cc_8h__dep__incl.png" border="0" usemap="#asrc_2api_2mip__cc_2string__list__cc_8hdep" alt=""/></div>
 <map name="asrc_2api_2mip__cc_2string__list__cc_8hdep" id="asrc_2api_2mip__cc_2string__list__cc_8hdep">
-<area shape="rect" title="Contains C API definitions for common string list." alt="" coords="385,5,541,45"/>
-<area shape="rect" href="protection__engine__cc_8h.html" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="5,196,191,236"/>
-<area shape="poly" title=" " alt="" coords="372,31,284,37,190,48,109,67,80,80,60,95,53,106,51,118,55,145,68,172,84,194,79,197,64,174,50,147,45,118,48,104,56,92,77,75,108,62,189,42,283,31,372,26"/>
-<area shape="rect" href="protection__handler__cc_8h.html" title="Defines C&#45;Style ProtectionHandler interface." alt="" coords="71,101,256,141"/>
-<area shape="poly" title=" " alt="" coords="390,52,225,103,223,98,389,47"/>
-<area shape="rect" href="metadata__action__cc_8h.html" title="Contains C API definitions for &quot;metadata&quot; label policy action." alt="" coords="280,101,449,141"/>
-<area shape="poly" title=" " alt="" coords="435,57,386,103,383,99,432,53"/>
-<area shape="rect" href="remove__content__footer__action__cc_8h.html" title="Contains C API definitions for &quot;remove content footer&quot; label policy action." alt="" coords="474,93,653,148"/>
-<area shape="poly" title=" " alt="" coords="495,53,537,91,533,95,492,57"/>
-<area shape="rect" href="remove__content__header__action__cc_8h.html" title="Contains C API definitions for &quot;remove content header&quot; label policy action." alt="" coords="677,93,861,148"/>
-<area shape="poly" title=" " alt="" coords="539,47,683,91,682,96,538,52"/>
-<area shape="rect" href="remove__watermark__action__cc_8h.html" title="Contains C API definitions for &quot;remove watermark&quot; label policy action." alt="" coords="885,101,1119,141"/>
-<area shape="poly" title=" " alt="" coords="555,38,873,91,912,98,911,103,872,96,555,43"/>
-<area shape="rect" href="protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="5,284,191,324"/>
-<area shape="poly" title=" " alt="" coords="101,250,101,284,95,284,95,250"/>
-<area shape="poly" title=" " alt="" coords="145,153,113,197,109,194,140,150"/>
+<area shape="rect" title="Contains C API definitions for common string list." alt="" coords="448,5,604,45"/>
+<area shape="rect" href="delegation__license__cc_8h.html" title=" " alt="" coords="267,284,452,324"/>
+<area shape="poly" title=" " alt="" coords="471,54,427,78,381,110,339,150,307,197,303,220,310,242,324,264,340,282,336,286,320,267,305,245,298,220,302,195,335,146,378,106,425,73,468,49"/>
+<area shape="rect" href="protection__engine__cc_8h.html" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="201,372,387,412"/>
+<area shape="poly" title=" " alt="" coords="436,44,382,63,357,78,335,95,297,138,278,179,267,226,257,284,254,304,257,323,267,348,281,370,276,373,262,351,251,325,248,304,251,284,262,225,272,178,293,136,331,91,354,73,380,59,434,39"/>
+<area shape="rect" href="license__info__cc_8h.html" title=" " alt="" coords="5,284,191,324"/>
+<area shape="poly" title=" " alt="" coords="435,40,306,62,249,78,211,96,189,116,169,139,138,192,117,244,105,284,100,283,112,242,133,190,165,136,185,112,209,91,248,73,305,57,434,35"/>
+<area shape="rect" href="protection__handler__cc_8h.html" title="Defines C&#45;Style ProtectionHandler interface." alt="" coords="317,196,503,236"/>
+<area shape="poly" title=" " alt="" coords="503,58,476,95,445,150,421,197,416,194,440,147,472,92,499,55"/>
+<area shape="rect" href="user__rights__roles__cc_8h.html" title="Defines C&#45;Style user rights &amp; roles functions." alt="" coords="527,196,712,236"/>
+<area shape="poly" title=" " alt="" coords="505,58,493,79,484,102,481,125,488,147,500,162,515,175,550,194,547,198,512,179,496,165,484,149,476,126,479,101,488,77,500,55"/>
+<area shape="rect" href="protection__descriptor__cc_8h.html" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="499,101,684,141"/>
+<area shape="poly" title=" " alt="" coords="549,55,580,99,576,102,545,58"/>
+<area shape="rect" href="metadata__action__cc_8h.html" title="Contains C API definitions for &quot;metadata&quot; label policy action." alt="" coords="708,101,877,141"/>
+<area shape="poly" title=" " alt="" coords="594,47,740,98,738,103,592,52"/>
+<area shape="rect" href="remove__content__footer__action__cc_8h.html" title="Contains C API definitions for &quot;remove content footer&quot; label policy action." alt="" coords="902,93,1081,148"/>
+<area shape="poly" title=" " alt="" coords="618,39,747,62,891,91,902,93,901,99,889,96,746,67,617,44"/>
+<area shape="rect" href="remove__content__header__action__cc_8h.html" title="Contains C API definitions for &quot;remove content header&quot; label policy action." alt="" coords="1105,93,1289,148"/>
+<area shape="poly" title=" " alt="" coords="618,31,835,53,965,70,1093,91,1105,93,1104,98,1092,96,964,75,835,58,617,36"/>
+<area shape="rect" href="remove__watermark__action__cc_8h.html" title="Contains C API definitions for &quot;remove watermark&quot; label policy action." alt="" coords="1313,101,1547,141"/>
+<area shape="poly" title=" " alt="" coords="618,29,922,49,1111,67,1301,91,1344,98,1344,103,1300,96,1111,73,922,55,618,34"/>
+<area shape="poly" title=" " alt="" coords="339,337,311,373,306,370,335,333"/>
+<area shape="rect" href="protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="201,460,387,500"/>
+<area shape="poly" title=" " alt="" coords="297,426,297,460,291,460,291,426"/>
+<area shape="poly" title=" " alt="" coords="154,327,252,370,250,374,152,332"/>
+<area shape="poly" title=" " alt="" coords="394,249,373,285,368,282,389,247"/>
+<area shape="poly" title=" " alt="" coords="443,245,458,263,469,283,472,305,466,325,450,344,431,358,388,378,386,373,428,353,446,340,461,323,467,304,463,285,453,266,439,248"/>
+<area shape="poly" title=" " alt="" coords="544,149,448,198,445,194,541,145"/>
+<area shape="poly" title=" " alt="" coords="604,153,616,195,611,197,598,155"/>
+<area shape="rect" href="protection__descriptor__builder__cc_8h.html" title="Defines C&#45;Style ProtectionDescriptorBuilder interface." alt="" coords="924,196,1109,236"/>
+<area shape="poly" title=" " alt="" coords="678,141,696,145,925,194,923,199,695,151,677,146"/>
+<area shape="rect" href="document__state__cc_8h.html" title="Describes document state when performing a label&#45;related operation." alt="" coords="736,196,900,236"/>
+<area shape="poly" title=" " alt="" coords="651,143,773,193,771,198,649,148"/>
+<area shape="rect" href="policy__handler__cc_8h.html" title="Contains C API definitions for policy handler." alt="" coords="741,284,895,324"/>
+<area shape="poly" title=" " alt="" coords="821,250,821,284,815,284,815,250"/>
+<area shape="rect" href="policy__engine__cc_8h.html" title="Contains C API definitions for policy engine." alt="" coords="743,372,893,412"/>
+<area shape="poly" title=" " alt="" coords="821,338,821,372,815,372,815,338"/>
+<area shape="rect" href="policy__profile__cc_8h.html" title="Contains C API definitions for policy profile." alt="" coords="745,460,891,500"/>
+<area shape="poly" title=" " alt="" coords="821,426,821,460,815,460,815,426"/>
 </map>
 </div>
 </div>
@@ -162,15 +190,15 @@ $(function(){initNavTree('string__list__cc_8h.html',''); initResizable(true); })
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a0bd3f7944e2ba2561b201dc773dc1683" id="r_a0bd3f7944e2ba2561b201dc773dc1683"><td class="memItemLeft" align="right" valign="top">typedef void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bd3f7944e2ba2561b201dc773dc1683">mip_cc_string_list</a></td></tr>
-<tr class="separator:a0bd3f7944e2ba2561b201dc773dc1683"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae721d927d8ac5819dd6613ff45d278fc" id="r_ae721d927d8ac5819dd6613ff45d278fc"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structmip__cc__handle.html">mip_cc_handle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae721d927d8ac5819dd6613ff45d278fc">mip_cc_string_list</a></td></tr>
+<tr class="separator:ae721d927d8ac5819dd6613ff45d278fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a0b45d4cb9dd0606374d88e22b790c62a" id="r_a0b45d4cb9dd0606374d88e22b790c62a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b45d4cb9dd0606374d88e22b790c62a">MIP_CC_API</a> (<a class="el" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_CreateStringList(const char **<a class="el" href="#a73c50071bf764938d3e29dcc82a6c1fe">strings</a></td></tr>
 <tr class="memdesc:a0b45d4cb9dd0606374d88e22b790c62a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a string list.  <br /></td></tr>
 <tr class="separator:a0b45d4cb9dd0606374d88e22b790c62a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69e4cc26f129cd2726232b694f17f1fc" id="r_a69e4cc26f129cd2726232b694f17f1fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69e4cc26f129cd2726232b694f17f1fc">MIP_CC_API</a> (void) MIP_CC_ReleaseStringList(<a class="el" href="#a0bd3f7944e2ba2561b201dc773dc1683">mip_cc_string_list</a> <a class="el" href="#ad71fb0383bec1d1e2f67526d24982940">stringList</a>)</td></tr>
+<tr class="memitem:a69e4cc26f129cd2726232b694f17f1fc" id="r_a69e4cc26f129cd2726232b694f17f1fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69e4cc26f129cd2726232b694f17f1fc">MIP_CC_API</a> (void) MIP_CC_ReleaseStringList(<a class="el" href="#ae721d927d8ac5819dd6613ff45d278fc">mip_cc_string_list</a> <a class="el" href="#ad71fb0383bec1d1e2f67526d24982940">stringList</a>)</td></tr>
 <tr class="memdesc:a69e4cc26f129cd2726232b694f17f1fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release resources associated with a string list.  <br /></td></tr>
 <tr class="separator:a69e4cc26f129cd2726232b694f17f1fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -178,9 +206,9 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:afb2f76946f727360d058cdc07a747835" id="r_afb2f76946f727360d058cdc07a747835"><td class="memItemLeft" align="right" valign="top">const int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb2f76946f727360d058cdc07a747835">count</a></td></tr>
 <tr class="separator:afb2f76946f727360d058cdc07a747835"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82dc13cd02e2909229992944288ec78e" id="r_a82dc13cd02e2909229992944288ec78e"><td class="memItemLeft" align="right" valign="top">const int64_t <a class="el" href="#a0bd3f7944e2ba2561b201dc773dc1683">mip_cc_string_list</a> <a class="el" href="structmip__cc__error.html">mip_cc_error</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82dc13cd02e2909229992944288ec78e">errorInfo</a></td></tr>
+<tr class="memitem:a82dc13cd02e2909229992944288ec78e" id="r_a82dc13cd02e2909229992944288ec78e"><td class="memItemLeft" align="right" valign="top">const int64_t <a class="el" href="#ae721d927d8ac5819dd6613ff45d278fc">mip_cc_string_list</a> <a class="el" href="structmip__cc__error.html">mip_cc_error</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82dc13cd02e2909229992944288ec78e">errorInfo</a></td></tr>
 <tr class="separator:a82dc13cd02e2909229992944288ec78e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad71fb0383bec1d1e2f67526d24982940" id="r_ad71fb0383bec1d1e2f67526d24982940"><td class="memItemLeft" align="right" valign="top">const int64_t <a class="el" href="#a0bd3f7944e2ba2561b201dc773dc1683">mip_cc_string_list</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad71fb0383bec1d1e2f67526d24982940">stringList</a></td></tr>
+<tr class="memitem:ad71fb0383bec1d1e2f67526d24982940" id="r_ad71fb0383bec1d1e2f67526d24982940"><td class="memItemLeft" align="right" valign="top">const int64_t <a class="el" href="#ae721d927d8ac5819dd6613ff45d278fc">mip_cc_string_list</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad71fb0383bec1d1e2f67526d24982940">stringList</a></td></tr>
 <tr class="separator:ad71fb0383bec1d1e2f67526d24982940"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73c50071bf764938d3e29dcc82a6c1fe" id="r_a73c50071bf764938d3e29dcc82a6c1fe"><td class="memItemLeft" align="right" valign="top">const char ***&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73c50071bf764938d3e29dcc82a6c1fe">strings</a></td></tr>
 <tr class="separator:a73c50071bf764938d3e29dcc82a6c1fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,19 +218,19 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition in file <a class="el" href="string__list__cc_8h_source.html">string_list_cc.h</a>.</p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
-<a id="a0bd3f7944e2ba2561b201dc773dc1683" name="a0bd3f7944e2ba2561b201dc773dc1683"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bd3f7944e2ba2561b201dc773dc1683">&#9670;&#160;</a></span>mip_cc_string_list</h2>
+<a id="ae721d927d8ac5819dd6613ff45d278fc" name="ae721d927d8ac5819dd6613ff45d278fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae721d927d8ac5819dd6613ff45d278fc">&#9670;&#160;</a></span>mip_cc_string_list</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void* <a class="el" href="#a0bd3f7944e2ba2561b201dc773dc1683">mip_cc_string_list</a></td>
+          <td class="memname">typedef <a class="el" href="structmip__cc__handle.html">mip_cc_handle</a>* <a class="el" href="#ae721d927d8ac5819dd6613ff45d278fc">mip_cc_string_list</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__list__cc_8h_source.html#l00043">43</a> of file <a class="el" href="string__list__cc_8h_source.html">string_list_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__list__cc_8h_source.html#l00044">44</a> of file <a class="el" href="string__list__cc_8h_source.html">string_list_cc.h</a>.</p>
 
 </div>
 </div>
@@ -287,7 +315,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__list__cc_8h_source.html#l00059">59</a> of file <a class="el" href="string__list__cc_8h_source.html">string_list_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__list__cc_8h_source.html#l00060">60</a> of file <a class="el" href="string__list__cc_8h_source.html">string_list_cc.h</a>.</p>
 
 </div>
 </div>
@@ -303,7 +331,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__list__cc_8h_source.html#l00061">61</a> of file <a class="el" href="string__list__cc_8h_source.html">string_list_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__list__cc_8h_source.html#l00062">62</a> of file <a class="el" href="string__list__cc_8h_source.html">string_list_cc.h</a>.</p>
 
 </div>
 </div>
@@ -314,12 +342,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int64_t <a class="el" href="#a0bd3f7944e2ba2561b201dc773dc1683">mip_cc_string_list</a>* stringList</td>
+          <td class="memname">const int64_t <a class="el" href="#ae721d927d8ac5819dd6613ff45d278fc">mip_cc_string_list</a>* stringList</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__list__cc_8h_source.html#l00060">60</a> of file <a class="el" href="string__list__cc_8h_source.html">string_list_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__list__cc_8h_source.html#l00061">61</a> of file <a class="el" href="string__list__cc_8h_source.html">string_list_cc.h</a>.</p>
 
 </div>
 </div>
@@ -335,7 +363,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__list__cc_8h_source.html#l00077">77</a> of file <a class="el" href="string__list__cc_8h_source.html">string_list_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__list__cc_8h_source.html#l00078">78</a> of file <a class="el" href="string__list__cc_8h_source.html">string_list_cc.h</a>.</p>
 
 </div>
 </div>

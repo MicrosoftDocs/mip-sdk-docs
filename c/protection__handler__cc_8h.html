@@ -99,6 +99,7 @@ $(function(){initNavTree('protection__handler__cc_8h.html',''); initResizable(tr
 <div class="header">
   <div class="summary">
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">protection_handler_cc.h File Reference</div></div>
@@ -108,8 +109,10 @@ $(function(){initNavTree('protection__handler__cc_8h.html',''); initResizable(tr
 <p>Defines C-Style ProtectionHandler interface.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="common__types__cc_8h_source.html">mip_cc/common_types_cc.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="error__cc_8h_source.html">mip_cc/error_cc.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="protection__descriptor__cc_8h_source.html">mip_cc/protection_descriptor_cc.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="protection__crypto__types__cc_8h_source.html">mip_cc/protection/protection_crypto_types_cc.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="result__cc_8h_source.html">mip_cc/result_cc.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="string__list__cc_8h_source.html">mip_cc/string_list_cc.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -119,39 +122,49 @@ $(function(){initNavTree('protection__handler__cc_8h.html',''); initResizable(tr
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="protection__handler__cc_8h__incl.png" border="0" usemap="#asrc_2api_2mip__cc_2protection_2protection__handler__cc_8h" alt=""/></div>
 <map name="asrc_2api_2mip__cc_2protection_2protection__handler__cc_8h" id="asrc_2api_2mip__cc_2protection_2protection__handler__cc_8h">
-<area shape="rect" title="Defines C&#45;Style ProtectionHandler interface." alt="" coords="158,5,343,45"/>
-<area shape="rect" title=" " alt="" coords="331,387,402,412"/>
-<area shape="poly" title=" " alt="" coords="159,47,106,66,57,93,37,110,22,130,12,152,8,178,8,254,10,273,17,288,27,299,40,307,114,336,167,357,221,373,318,390,317,396,220,378,165,362,112,341,38,312,23,303,12,291,5,275,3,254,3,178,6,151,17,127,33,106,54,89,104,61,157,42"/>
-<area shape="rect" href="error__cc_8h.html" title="Error definition and functions." alt="" coords="288,240,424,265"/>
-<area shape="poly" title=" " alt="" coords="262,44,347,226,342,229,257,47"/>
-<area shape="rect" href="result__cc_8h.html" title="Defines success/error result codes." alt="" coords="295,313,438,339"/>
-<area shape="poly" title=" " alt="" coords="250,46,246,88,246,145,255,206,265,236,278,264,299,288,326,305,323,309,296,292,274,267,260,238,250,208,241,145,241,88,245,45"/>
-<area shape="rect" href="protection__descriptor__cc_8h.html" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="415,93,657,119"/>
-<area shape="poly" title=" " alt="" coords="320,43,482,87,481,92,318,48"/>
-<area shape="rect" href="string__list__cc_8h.html" title="Contains C API definitions for common string list." alt="" coords="43,167,213,192"/>
-<area shape="poly" title=" " alt="" coords="237,48,148,158,144,154,233,44"/>
-<area shape="poly" title=" " alt="" coords="360,265,366,299,360,300,355,266"/>
-<area shape="poly" title=" " alt="" coords="369,339,369,373,364,373,364,339"/>
-<area shape="rect" href="mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="485,387,670,412"/>
-<area shape="poly" title=" " alt="" coords="401,336,531,380,530,385,400,341"/>
-<area shape="poly" title=" " alt="" coords="466,121,419,139,398,152,379,168,364,196,359,227,354,226,359,195,375,165,395,148,417,134,464,116"/>
-<area shape="poly" title=" " alt="" coords="550,118,573,151,579,172,574,193,543,235,502,268,458,293,417,311,415,306,456,289,499,264,539,231,570,191,573,172,568,154,546,121"/>
-<area shape="rect" title=" " alt="" coords="685,167,749,192"/>
-<area shape="poly" title=" " alt="" coords="566,116,676,159,674,164,564,121"/>
-<area shape="rect" href="common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="535,313,740,339"/>
-<area shape="poly" title=" " alt="" coords="562,117,592,136,618,165,633,200,640,236,642,299,637,299,635,237,628,201,614,168,589,140,559,121"/>
-<area shape="rect" href="dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="389,167,560,192"/>
-<area shape="poly" title=" " alt="" coords="528,121,496,158,492,154,524,117"/>
-<area shape="poly" title=" " alt="" coords="595,341,416,388,415,383,593,336"/>
-<area shape="poly" title=" " alt="" coords="629,341,598,378,594,374,625,337"/>
-<area shape="poly" title=" " alt="" coords="478,192,478,258,470,300,453,340,432,364,406,382,403,378,428,360,448,337,465,299,473,257,473,192"/>
-<area shape="poly" title=" " alt="" coords="457,194,389,235,386,230,454,190"/>
-<area shape="poly" title=" " alt="" coords="474,193,460,228,438,267,418,289,397,307,393,303,414,285,434,264,456,226,469,192"/>
-<area shape="poly" title=" " alt="" coords="543,189,598,205,656,229,711,264,735,286,754,312,760,326,760,339,755,350,745,360,717,375,680,386,679,381,714,370,742,356,750,347,755,338,755,327,750,315,731,290,708,268,654,234,596,210,542,195"/>
-<area shape="poly" title=" " alt="" coords="127,193,119,221,114,260,116,301,122,320,133,337,144,347,162,356,210,371,318,390,317,395,209,376,160,361,141,351,129,340,118,322,111,302,108,260,114,220,121,191"/>
-<area shape="poly" title=" " alt="" coords="165,189,307,233,305,238,164,195"/>
-<area shape="poly" title=" " alt="" coords="142,190,181,225,233,263,279,287,323,306,321,311,276,292,231,268,178,229,138,194"/>
-<area shape="poly" title=" " alt="" coords="137,191,158,222,192,262,235,304,259,322,285,336,331,354,378,368,471,386,470,391,377,373,329,359,283,341,256,326,231,308,188,266,154,225,133,194"/>
+<area shape="rect" title="Defines C&#45;Style ProtectionHandler interface." alt="" coords="467,5,653,45"/>
+<area shape="rect" title=" " alt="" coords="181,401,251,427"/>
+<area shape="poly" title=" " alt="" coords="468,38,329,56,252,70,178,87,111,108,57,133,36,146,21,161,11,176,8,193,8,268,12,295,24,319,42,339,64,356,117,383,168,400,166,405,115,388,62,361,38,343,20,322,7,297,3,269,3,192,6,174,17,158,33,142,54,128,109,103,176,82,251,65,328,51,467,33"/>
+<area shape="rect" href="common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="504,255,709,280"/>
+<area shape="poly" title=" " alt="" coords="624,43,672,63,724,92,770,131,790,154,805,180,810,194,805,208,786,223,758,235,687,254,686,249,756,230,784,218,801,205,804,194,800,182,785,157,767,135,721,97,670,68,622,48"/>
+<area shape="rect" href="error__cc_8h.html" title="Error definition and functions." alt="" coords="344,255,480,280"/>
+<area shape="poly" title=" " alt="" coords="495,48,459,67,429,95,412,131,405,170,405,209,409,241,404,241,400,209,400,170,407,129,425,92,456,63,493,43"/>
+<area shape="rect" href="result__cc_8h.html" title="Defines success/error result codes." alt="" coords="145,328,287,353"/>
+<area shape="poly" title=" " alt="" coords="468,32,380,44,332,54,283,69,236,89,191,114,151,145,118,183,112,201,113,226,120,254,133,278,154,302,179,319,176,324,151,306,128,282,115,256,108,227,107,200,114,180,148,141,188,109,233,84,281,64,330,49,379,38,467,27"/>
+<area shape="rect" href="protection__descriptor__cc_8h.html" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="439,101,681,126"/>
+<area shape="poly" title=" " alt="" coords="563,46,563,87,557,87,557,46"/>
+<area shape="rect" href="string__list__cc_8h.html" title="Contains C API definitions for common string list." alt="" coords="894,181,1063,207"/>
+<area shape="poly" title=" " alt="" coords="653,30,706,38,763,50,821,67,876,91,902,108,926,128,964,168,960,172,923,132,899,112,873,96,819,72,762,55,705,43,652,35"/>
+<area shape="rect" href="protection__crypto__types__cc_8h.html" title="Defines C&#45;Style crypto types." alt="" coords="944,93,1152,133"/>
+<area shape="poly" title=" " alt="" coords="653,40,931,89,930,94,652,46"/>
+<area shape="poly" title=" " alt="" coords="576,283,261,399,259,394,574,278"/>
+<area shape="rect" href="mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="347,401,533,427"/>
+<area shape="poly" title=" " alt="" coords="595,282,465,394,462,390,591,278"/>
+<area shape="poly" title=" " alt="" coords="381,283,262,326,260,321,380,278"/>
+<area shape="poly" title=" " alt="" coords="219,354,219,388,213,388,213,354"/>
+<area shape="poly" title=" " alt="" coords="253,351,392,395,390,400,251,356"/>
+<area shape="poly" title=" " alt="" coords="682,121,710,130,737,142,762,158,782,180,789,194,790,207,784,218,773,228,742,243,704,254,702,249,740,238,770,224,780,215,784,205,784,195,778,183,758,162,735,146,708,135,681,126"/>
+<area shape="poly" title=" " alt="" coords="516,128,470,149,448,164,430,183,418,211,414,241,408,240,412,210,426,180,445,160,467,144,514,124"/>
+<area shape="poly" title=" " alt="" coords="439,119,349,125,258,136,181,155,153,168,134,183,125,199,123,217,127,235,136,253,163,289,193,317,189,321,159,292,132,256,122,237,118,217,120,198,130,180,150,163,180,150,257,131,348,120,438,114"/>
+<area shape="rect" title=" " alt="" coords="704,181,768,207"/>
+<area shape="poly" title=" " alt="" coords="587,124,699,173,697,178,585,128"/>
+<area shape="rect" href="dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="144,181,315,207"/>
+<area shape="poly" title=" " alt="" coords="513,129,291,181,290,176,511,123"/>
+<area shape="poly" title=" " alt="" coords="621,123,905,176,904,181,620,129"/>
+<area shape="rect" href="dynamic__watermark__cc_8h.html" title=" " alt="" coords="441,181,679,207"/>
+<area shape="poly" title=" " alt="" coords="563,126,563,167,557,167,557,126"/>
+<area shape="poly" title=" " alt="" coords="219,209,174,258,152,292,135,329,131,341,134,352,153,375,177,393,174,397,149,379,130,355,126,341,129,327,147,289,170,255,215,205"/>
+<area shape="poly" title=" " alt="" coords="290,204,533,249,532,255,289,209"/>
+<area shape="poly" title=" " alt="" coords="243,205,421,389,417,393,239,209"/>
+<area shape="poly" title=" " alt="" coords="260,204,370,247,368,252,258,209"/>
+<area shape="poly" title=" " alt="" coords="231,207,221,315,216,314,226,207"/>
+<area shape="poly" title=" " alt="" coords="957,209,884,245,789,283,641,326,493,362,265,407,264,402,492,357,640,321,787,277,882,240,955,205"/>
+<area shape="poly" title=" " alt="" coords="919,209,681,255,680,249,918,204"/>
+<area shape="poly" title=" " alt="" coords="981,207,978,237,969,278,951,320,938,339,922,355,894,371,856,383,759,401,649,411,546,415,546,409,649,405,758,396,855,378,892,366,918,351,934,336,946,318,964,276,972,236,976,206"/>
+<area shape="poly" title=" " alt="" coords="894,208,494,257,493,252,893,203"/>
+<area shape="poly" title=" " alt="" coords="951,209,851,246,722,283,609,304,495,319,301,337,301,332,494,314,608,298,721,277,849,241,949,204"/>
+<area shape="poly" title=" " alt="" coords="570,206,594,242,589,245,565,208"/>
+<area shape="poly" title=" " alt="" coords="537,209,450,251,447,246,535,204"/>
 </map>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -161,11 +174,14 @@ $(function(){initNavTree('protection__handler__cc_8h.html',''); initResizable(tr
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="protection__handler__cc_8h__dep__incl.png" border="0" usemap="#asrc_2api_2mip__cc_2protection_2protection__handler__cc_8hdep" alt=""/></div>
 <map name="asrc_2api_2mip__cc_2protection_2protection__handler__cc_8hdep" id="asrc_2api_2mip__cc_2protection_2protection__handler__cc_8hdep">
-<area shape="rect" title="Defines C&#45;Style ProtectionHandler interface." alt="" coords="5,5,191,45"/>
-<area shape="rect" href="protection__engine__cc_8h.html" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="5,93,191,133"/>
-<area shape="poly" title=" " alt="" coords="101,59,101,93,95,93,95,59"/>
-<area shape="rect" href="protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="5,181,191,221"/>
-<area shape="poly" title=" " alt="" coords="101,147,101,181,95,181,95,147"/>
+<area shape="rect" title="Defines C&#45;Style ProtectionHandler interface." alt="" coords="71,5,256,45"/>
+<area shape="rect" href="delegation__license__cc_8h.html" title=" " alt="" coords="5,93,191,133"/>
+<area shape="poly" title=" " alt="" coords="143,58,115,95,110,91,139,55"/>
+<area shape="rect" href="protection__engine__cc_8h.html" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="71,181,256,221"/>
+<area shape="poly" title=" " alt="" coords="189,56,206,93,210,113,206,134,195,160,181,182,176,179,190,158,201,133,204,113,201,94,184,58"/>
+<area shape="poly" title=" " alt="" coords="123,143,151,179,147,183,119,146"/>
+<area shape="rect" href="protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="71,269,256,309"/>
+<area shape="poly" title=" " alt="" coords="166,235,166,269,161,269,161,235"/>
 </map>
 </div>
 </div>
@@ -173,19 +189,30 @@ $(function(){initNavTree('protection__handler__cc_8h.html',''); initResizable(tr
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:aa521369e5b7d9b5432ef37747a13a905" id="r_aa521369e5b7d9b5432ef37747a13a905"><td class="memItemLeft" align="right" valign="top">typedef void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa521369e5b7d9b5432ef37747a13a905">mip_cc_protection_handler</a></td></tr>
-<tr class="separator:aa521369e5b7d9b5432ef37747a13a905"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52a3770cbacd07d889f98fb81614951c" id="r_a52a3770cbacd07d889f98fb81614951c"><td class="memItemLeft" align="right" valign="top">typedef void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52a3770cbacd07d889f98fb81614951c">mip_cc_protection_handler_consumption_settings</a></td></tr>
-<tr class="separator:a52a3770cbacd07d889f98fb81614951c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeddc2e2a2a184c09c1a4ba6d90e57b6d" id="r_aeddc2e2a2a184c09c1a4ba6d90e57b6d"><td class="memItemLeft" align="right" valign="top">typedef void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeddc2e2a2a184c09c1a4ba6d90e57b6d">mip_cc_protection_handler_publishing_settings</a></td></tr>
-<tr class="separator:aeddc2e2a2a184c09c1a4ba6d90e57b6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0f9b976645617b1823597825a2aef42" id="r_ad0f9b976645617b1823597825a2aef42"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structmip__cc__handle.html">mip_cc_handle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0f9b976645617b1823597825a2aef42">mip_cc_protection_handler</a></td></tr>
+<tr class="separator:ad0f9b976645617b1823597825a2aef42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ecc89d8f243d343f0ffe4a3ad02fbb4" id="r_a7ecc89d8f243d343f0ffe4a3ad02fbb4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structmip__cc__handle.html">mip_cc_handle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ecc89d8f243d343f0ffe4a3ad02fbb4">mip_cc_protection_handler_consumption_settings</a></td></tr>
+<tr class="separator:a7ecc89d8f243d343f0ffe4a3ad02fbb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bf1c107d9d732cbb771fe02fa8a979d" id="r_a9bf1c107d9d732cbb771fe02fa8a979d"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structmip__cc__handle.html">mip_cc_handle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bf1c107d9d732cbb771fe02fa8a979d">mip_cc_protection_handler_publishing_settings</a></td></tr>
+<tr class="separator:a9bf1c107d9d732cbb771fe02fa8a979d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a889d56bc95ffea5df133d4b299cd59dd" id="r_a889d56bc95ffea5df133d4b299cd59dd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a889d56bc95ffea5df133d4b299cd59dd">mip_cc_pre_license_format</a> { <br />
+&#160;&#160;<a class="el" href="#a889d56bc95ffea5df133d4b299cd59ddaef251e206100ab3b7b0f68d4d40d1523">MIP_PRE_LICENSE_FORMAT_XML</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="#a889d56bc95ffea5df133d4b299cd59ddadb7b084f3ded9aaf59e4705161443fce">MIP_PRE_LICENSE_FORMAT_JSON</a> = 1
+<br />
+ }</td></tr>
+<tr class="memdesc:a889d56bc95ffea5df133d4b299cd59dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines pre-license format.  <a href="#a889d56bc95ffea5df133d4b299cd59dd">More...</a><br /></td></tr>
+<tr class="separator:a889d56bc95ffea5df133d4b299cd59dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abf2b9cad4b72e5ce6d8d5be4fdcfe9f1" id="r_abf2b9cad4b72e5ce6d8d5be4fdcfe9f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf2b9cad4b72e5ce6d8d5be4fdcfe9f1">MIP_CC_API</a> (<a class="el" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_CreateProtectionHandlerPublishingSettings(const <a class="el" href="protection__descriptor__cc_8h.html#a0957d65ef02c1883ef582aa2009d363d">mip_cc_protection_descriptor</a> <a class="el" href="#a1c67cd8d7a1b3cfeeab5d3a698ace9d3">descriptor</a></td></tr>
+<tr class="memitem:abf2b9cad4b72e5ce6d8d5be4fdcfe9f1" id="r_abf2b9cad4b72e5ce6d8d5be4fdcfe9f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf2b9cad4b72e5ce6d8d5be4fdcfe9f1">MIP_CC_API</a> (<a class="el" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_CreateProtectionHandlerPublishingSettings(const <a class="el" href="protection__descriptor__cc_8h.html#abc1d4c7f60b9bcc6847ba24372c974f3">mip_cc_protection_descriptor</a> <a class="el" href="#a1c67cd8d7a1b3cfeeab5d3a698ace9d3">descriptor</a></td></tr>
 <tr class="memdesc:abf2b9cad4b72e5ce6d8d5be4fdcfe9f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a settings object used to create a protection handler for publishing new content.  <br /></td></tr>
 <tr class="separator:abf2b9cad4b72e5ce6d8d5be4fdcfe9f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abeff78e9a6305908cf22e859a04e2109" id="r_abeff78e9a6305908cf22e859a04e2109"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abeff78e9a6305908cf22e859a04e2109">MIP_CC_API</a> (void) MIP_CC_ReleaseProtectionHandlerPublishingSettings(<a class="el" href="#aeddc2e2a2a184c09c1a4ba6d90e57b6d">mip_cc_protection_handler_publishing_settings</a> <a class="el" href="protection__engine__cc_8h.html#a117f5b34275eaeee99d73ce1b26f7006">settings</a>)</td></tr>
+<tr class="memitem:abeff78e9a6305908cf22e859a04e2109" id="r_abeff78e9a6305908cf22e859a04e2109"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abeff78e9a6305908cf22e859a04e2109">MIP_CC_API</a> (void) MIP_CC_ReleaseProtectionHandlerPublishingSettings(<a class="el" href="#a9bf1c107d9d732cbb771fe02fa8a979d">mip_cc_protection_handler_publishing_settings</a> <a class="el" href="protection__engine__cc_8h.html#a5674b78f8ab334a31002be77655812a1">settings</a>)</td></tr>
 <tr class="memdesc:abeff78e9a6305908cf22e859a04e2109"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release resources associated with a protection handler settings.  <br /></td></tr>
 <tr class="separator:abeff78e9a6305908cf22e859a04e2109"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -199,20 +226,34 @@ Variables</h2></td></tr>
 <tr class="separator:a1860557ac1e22554bfee667b85a1b2c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d380e086155421c296c8e698ba06661" id="r_a3d380e086155421c296c8e698ba06661"><td class="memItemLeft" align="right" valign="top">char const int64_t int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d380e086155421c296c8e698ba06661">actualOwnerSize</a></td></tr>
 <tr class="separator:a3d380e086155421c296c8e698ba06661"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab66807a9b148afa4e282544cf2e93554" id="r_ab66807a9b148afa4e282544cf2e93554"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a889d56bc95ffea5df133d4b299cd59dd">mip_cc_pre_license_format</a> uint8_t const int64_t int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab66807a9b148afa4e282544cf2e93554">actualPreLicenseSize</a></td></tr>
+<tr class="separator:ab66807a9b148afa4e282544cf2e93554"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a898ebb2b3b61eaafc67a9eccbe5d0fa5" id="r_a898ebb2b3b61eaafc67a9eccbe5d0fa5"><td class="memItemLeft" align="right" valign="top">uint8_t const int64_t int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a898ebb2b3b61eaafc67a9eccbe5d0fa5">actualPublishingLicenseSize</a></td></tr>
 <tr class="separator:a898ebb2b3b61eaafc67a9eccbe5d0fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab412bedfe5f6f720a348575778e1c340" id="r_ab412bedfe5f6f720a348575778e1c340"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab412bedfe5f6f720a348575778e1c340">applicationScenarioId</a></td></tr>
+<tr class="separator:ab412bedfe5f6f720a348575778e1c340"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf14ca372c0ec8e44bbafa71394a44f2" id="r_abf14ca372c0ec8e44bbafa71394a44f2"><td class="memItemLeft" align="right" valign="top">int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf14ca372c0ec8e44bbafa71394a44f2">blockSize</a></td></tr>
 <tr class="separator:abf14ca372c0ec8e44bbafa71394a44f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2667cf2338b34b4cc2de4d1446b3f69" id="r_aa2667cf2338b34b4cc2de4d1446b3f69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="string__list__cc_8h.html#ae721d927d8ac5819dd6613ff45d278fc">mip_cc_string_list</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2667cf2338b34b4cc2de4d1446b3f69">capabilities</a></td></tr>
+<tr class="separator:aa2667cf2338b34b4cc2de4d1446b3f69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3c42588b140b2ccd7b11145a0fa03d5" id="r_af3c42588b140b2ccd7b11145a0fa03d5"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3c42588b140b2ccd7b11145a0fa03d5">capability</a></td></tr>
+<tr class="separator:af3c42588b140b2ccd7b11145a0fa03d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad49cdf427511d129ad28b5263547dd58" id="r_ad49cdf427511d129ad28b5263547dd58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="protection__crypto__types__cc_8h.html#a39de0bee390b5db78a9bf601689dd35f">mip_cc_cipher_mode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad49cdf427511d129ad28b5263547dd58">cipherMode</a></td></tr>
+<tr class="separator:ad49cdf427511d129ad28b5263547dd58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3557970d354bdad60342eb82bbbcf7b8" id="r_a3557970d354bdad60342eb82bbbcf7b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmip__cc__guid.html">mip_cc_guid</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3557970d354bdad60342eb82bbbcf7b8">contentId</a></td></tr>
 <tr class="separator:a3557970d354bdad60342eb82bbbcf7b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d7dd47c739aad5603092e877886c39f" id="r_a9d7dd47c739aad5603092e877886c39f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="dictionary__cc_8h.html#a41c9504735733b4261e3ec1a85e8bcb5">mip_cc_dictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d7dd47c739aad5603092e877886c39f">customSettings</a></td></tr>
+<tr class="separator:a9d7dd47c739aad5603092e877886c39f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa58b2d85110415693d5757478672dffe" id="r_aa58b2d85110415693d5757478672dffe"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa58b2d85110415693d5757478672dffe">delegatedUserEmail</a></td></tr>
 <tr class="separator:aa58b2d85110415693d5757478672dffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c67cd8d7a1b3cfeeab5d3a698ace9d3" id="r_a1c67cd8d7a1b3cfeeab5d3a698ace9d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="protection__descriptor__cc_8h.html#a0957d65ef02c1883ef582aa2009d363d">mip_cc_protection_descriptor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c67cd8d7a1b3cfeeab5d3a698ace9d3">descriptor</a></td></tr>
+<tr class="memitem:a1c67cd8d7a1b3cfeeab5d3a698ace9d3" id="r_a1c67cd8d7a1b3cfeeab5d3a698ace9d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="protection__descriptor__cc_8h.html#abc1d4c7f60b9bcc6847ba24372c974f3">mip_cc_protection_descriptor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c67cd8d7a1b3cfeeab5d3a698ace9d3">descriptor</a></td></tr>
 <tr class="separator:a1c67cd8d7a1b3cfeeab5d3a698ace9d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf0c3637874ac3daf754a12a2917fdce" id="r_abf0c3637874ac3daf754a12a2917fdce"><td class="memItemLeft" align="right" valign="top">bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf0c3637874ac3daf754a12a2917fdce">doesUseDeprecatedAlgorithm</a></td></tr>
 <tr class="separator:abf0c3637874ac3daf754a12a2917fdce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52ec95201e7703de7cd354f20a962360" id="r_a52ec95201e7703de7cd354f20a962360"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aeddc2e2a2a184c09c1a4ba6d90e57b6d">mip_cc_protection_handler_publishing_settings</a> <a class="el" href="structmip__cc__error.html">mip_cc_error</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52ec95201e7703de7cd354f20a962360">errorInfo</a></td></tr>
-<tr class="separator:a52ec95201e7703de7cd354f20a962360"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02897ef9b48f683d13343c72cc75e663" id="r_a02897ef9b48f683d13343c72cc75e663"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9bf1c107d9d732cbb771fe02fa8a979d">mip_cc_protection_handler_publishing_settings</a> <a class="el" href="structmip__cc__error.html">mip_cc_error</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02897ef9b48f683d13343c72cc75e663">errorInfo</a></td></tr>
+<tr class="separator:a02897ef9b48f683d13343c72cc75e663"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f70e709f3699f0d1f2993e7ab071c83" id="r_a4f70e709f3699f0d1f2993e7ab071c83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a889d56bc95ffea5df133d4b299cd59dd">mip_cc_pre_license_format</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f70e709f3699f0d1f2993e7ab071c83">format</a></td></tr>
+<tr class="separator:a4f70e709f3699f0d1f2993e7ab071c83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f14aa495bdc84fe8dba3a70d2f1f77a" id="r_a4f14aa495bdc84fe8dba3a70d2f1f77a"><td class="memItemLeft" align="right" valign="top">const int64_t const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f14aa495bdc84fe8dba3a70d2f1f77a">includesFinalBlock</a></td></tr>
 <tr class="separator:a4f14aa495bdc84fe8dba3a70d2f1f77a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17efdfd7f3e91a43039308d70bd7c126" id="r_a17efdfd7f3e91a43039308d70bd7c126"><td class="memItemLeft" align="right" valign="top">const int64_t const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17efdfd7f3e91a43039308d70bd7c126">inputBuffer</a></td></tr>
@@ -247,17 +288,23 @@ Variables</h2></td></tr>
 <tr class="separator:af07eaea80c1c4a0d1b723e91cc0456fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa651b65338adef95e6689a29088e968f" id="r_aa651b65338adef95e6689a29088e968f"><td class="memItemLeft" align="right" valign="top">int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa651b65338adef95e6689a29088e968f">ownerSize</a></td></tr>
 <tr class="separator:aa651b65338adef95e6689a29088e968f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c672bd18955cafc07c240cc1456b445" id="r_a3c672bd18955cafc07c240cc1456b445"><td class="memItemLeft" align="right" valign="top">const int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c672bd18955cafc07c240cc1456b445">preLicenseBufferSize</a></td></tr>
-<tr class="separator:a3c672bd18955cafc07c240cc1456b445"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e8391011e72f228b060d3368354b17d" id="r_a4e8391011e72f228b060d3368354b17d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a889d56bc95ffea5df133d4b299cd59dd">mip_cc_pre_license_format</a> uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e8391011e72f228b060d3368354b17d">preLicenseBuffer</a></td></tr>
+<tr class="separator:a4e8391011e72f228b060d3368354b17d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0950091dac4d5c7b9ed153f19171fc8" id="r_ae0950091dac4d5c7b9ed153f19171fc8"><td class="memItemLeft" align="right" valign="top">const int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0950091dac4d5c7b9ed153f19171fc8">preLicenseBufferSize</a></td></tr>
+<tr class="separator:ae0950091dac4d5c7b9ed153f19171fc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb7efea81fe7944ff4ab21c6a09e0ccb" id="r_abb7efea81fe7944ff4ab21c6a09e0ccb"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb7efea81fe7944ff4ab21c6a09e0ccb">preLicenseUserEmail</a></td></tr>
+<tr class="separator:abb7efea81fe7944ff4ab21c6a09e0ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea2e57cee32a701180e26e25953f5a83" id="r_aea2e57cee32a701180e26e25953f5a83"><td class="memItemLeft" align="right" valign="top">const int64_t const bool int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea2e57cee32a701180e26e25953f5a83">protectedSize</a></td></tr>
 <tr class="separator:aea2e57cee32a701180e26e25953f5a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7677863353b680de616e0007cc7ce052" id="r_a7677863353b680de616e0007cc7ce052"><td class="memItemLeft" align="right" valign="top">const int64_t const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7677863353b680de616e0007cc7ce052">publishingLicenseBuffer</a></td></tr>
 <tr class="separator:a7677863353b680de616e0007cc7ce052"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2382063ab8780542bb7bd199a0eed2fb" id="r_a2382063ab8780542bb7bd199a0eed2fb"><td class="memItemLeft" align="right" valign="top">const int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2382063ab8780542bb7bd199a0eed2fb">publishingLicenseBufferSize</a></td></tr>
 <tr class="separator:a2382063ab8780542bb7bd199a0eed2fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acca9e24c8e080b5c162a57c7ff4b219f" id="r_acca9e24c8e080b5c162a57c7ff4b219f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="string__list__cc_8h.html#a0bd3f7944e2ba2561b201dc773dc1683">mip_cc_string_list</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acca9e24c8e080b5c162a57c7ff4b219f">rights</a></td></tr>
+<tr class="memitem:a120586a1f189c488dc78745262ae4377" id="r_a120586a1f189c488dc78745262ae4377"><td class="memItemLeft" align="right" valign="top">const char bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a120586a1f189c488dc78745262ae4377">removed</a></td></tr>
+<tr class="separator:a120586a1f189c488dc78745262ae4377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acca9e24c8e080b5c162a57c7ff4b219f" id="r_acca9e24c8e080b5c162a57c7ff4b219f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="string__list__cc_8h.html#ae721d927d8ac5819dd6613ff45d278fc">mip_cc_string_list</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acca9e24c8e080b5c162a57c7ff4b219f">rights</a></td></tr>
 <tr class="separator:acca9e24c8e080b5c162a57c7ff4b219f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47aff80cc5824f0c7ca89910c0043207" id="r_a47aff80cc5824f0c7ca89910c0043207"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aeddc2e2a2a184c09c1a4ba6d90e57b6d">mip_cc_protection_handler_publishing_settings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47aff80cc5824f0c7ca89910c0043207">settings</a></td></tr>
+<tr class="memitem:a47aff80cc5824f0c7ca89910c0043207" id="r_a47aff80cc5824f0c7ca89910c0043207"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9bf1c107d9d732cbb771fe02fa8a979d">mip_cc_protection_handler_publishing_settings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47aff80cc5824f0c7ca89910c0043207">settings</a></td></tr>
 <tr class="separator:a47aff80cc5824f0c7ca89910c0043207"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abed09ea1d6f66e1e278fdf48e43fadb4" id="r_abed09ea1d6f66e1e278fdf48e43fadb4"><td class="memItemLeft" align="right" valign="top">const int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abed09ea1d6f66e1e278fdf48e43fadb4">unprotectedSize</a></td></tr>
 <tr class="separator:abed09ea1d6f66e1e278fdf48e43fadb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -267,30 +314,14 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition in file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
-<a id="aa521369e5b7d9b5432ef37747a13a905" name="aa521369e5b7d9b5432ef37747a13a905"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa521369e5b7d9b5432ef37747a13a905">&#9670;&#160;</a></span>mip_cc_protection_handler</h2>
+<a id="ad0f9b976645617b1823597825a2aef42" name="ad0f9b976645617b1823597825a2aef42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0f9b976645617b1823597825a2aef42">&#9670;&#160;</a></span>mip_cc_protection_handler</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void* <a class="el" href="#aa521369e5b7d9b5432ef37747a13a905">mip_cc_protection_handler</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00043">43</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
-
-</div>
-</div>
-<a id="a52a3770cbacd07d889f98fb81614951c" name="a52a3770cbacd07d889f98fb81614951c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52a3770cbacd07d889f98fb81614951c">&#9670;&#160;</a></span>mip_cc_protection_handler_consumption_settings</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void* <a class="el" href="#a52a3770cbacd07d889f98fb81614951c">mip_cc_protection_handler_consumption_settings</a></td>
+          <td class="memname">typedef <a class="el" href="structmip__cc__handle.html">mip_cc_handle</a>* <a class="el" href="#ad0f9b976645617b1823597825a2aef42">mip_cc_protection_handler</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -299,20 +330,68 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aeddc2e2a2a184c09c1a4ba6d90e57b6d" name="aeddc2e2a2a184c09c1a4ba6d90e57b6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeddc2e2a2a184c09c1a4ba6d90e57b6d">&#9670;&#160;</a></span>mip_cc_protection_handler_publishing_settings</h2>
+<a id="a7ecc89d8f243d343f0ffe4a3ad02fbb4" name="a7ecc89d8f243d343f0ffe4a3ad02fbb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ecc89d8f243d343f0ffe4a3ad02fbb4">&#9670;&#160;</a></span>mip_cc_protection_handler_consumption_settings</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void* <a class="el" href="#aeddc2e2a2a184c09c1a4ba6d90e57b6d">mip_cc_protection_handler_publishing_settings</a></td>
+          <td class="memname">typedef <a class="el" href="structmip__cc__handle.html">mip_cc_handle</a>* <a class="el" href="#a7ecc89d8f243d343f0ffe4a3ad02fbb4">mip_cc_protection_handler_consumption_settings</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00044">44</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00047">47</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
+</div>
+</div>
+<a id="a9bf1c107d9d732cbb771fe02fa8a979d" name="a9bf1c107d9d732cbb771fe02fa8a979d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bf1c107d9d732cbb771fe02fa8a979d">&#9670;&#160;</a></span>mip_cc_protection_handler_publishing_settings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="structmip__cc__handle.html">mip_cc_handle</a>* <a class="el" href="#a9bf1c107d9d732cbb771fe02fa8a979d">mip_cc_protection_handler_publishing_settings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00046">46</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a889d56bc95ffea5df133d4b299cd59dd" name="a889d56bc95ffea5df133d4b299cd59dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a889d56bc95ffea5df133d4b299cd59dd">&#9670;&#160;</a></span>mip_cc_pre_license_format</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a889d56bc95ffea5df133d4b299cd59dd">mip_cc_pre_license_format</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Defines pre-license format. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a889d56bc95ffea5df133d4b299cd59ddaef251e206100ab3b7b0f68d4d40d1523" name="a889d56bc95ffea5df133d4b299cd59ddaef251e206100ab3b7b0f68d4d40d1523"></a>MIP_PRE_LICENSE_FORMAT_XML&#160;</td><td class="fielddoc"><p>Legacy XML/SOAP format used by MSIPC. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a889d56bc95ffea5df133d4b299cd59ddadb7b084f3ded9aaf59e4705161443fce" name="a889d56bc95ffea5df133d4b299cd59ddadb7b084f3ded9aaf59e4705161443fce"></a>MIP_PRE_LICENSE_FORMAT_JSON&#160;</td><td class="fielddoc"><p>JSON/REST format used by MIP SDK and RMS SDK. </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00052">52</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   52</span>             {</div>
+<div class="line"><span class="lineno">   53</span>  <a class="code hl_enumvalue" href="#a889d56bc95ffea5df133d4b299cd59ddaef251e206100ab3b7b0f68d4d40d1523">MIP_PRE_LICENSE_FORMAT_XML</a> = 0,  <span class="comment">/**&lt; Legacy XML/SOAP format used by MSIPC */</span></div>
+<div class="line"><span class="lineno">   54</span>  <a class="code hl_enumvalue" href="#a889d56bc95ffea5df133d4b299cd59ddadb7b084f3ded9aaf59e4705161443fce">MIP_PRE_LICENSE_FORMAT_JSON</a> = 1, <span class="comment">/**&lt; JSON/REST format used by MIP SDK and RMS SDK */</span></div>
+<div class="line"><span class="lineno">   55</span>} <a class="code hl_enumeration" href="#a889d56bc95ffea5df133d4b299cd59dd">mip_cc_pre_license_format</a>;</div>
+<div class="ttc" id="aprotection__handler__cc_8h_html_a889d56bc95ffea5df133d4b299cd59dd"><div class="ttname"><a href="#a889d56bc95ffea5df133d4b299cd59dd">mip_cc_pre_license_format</a></div><div class="ttdeci">mip_cc_pre_license_format</div><div class="ttdoc">Defines pre-license format.</div><div class="ttdef"><b>Definition</b> <a href="protection__handler__cc_8h_source.html#l00052">protection_handler_cc.h:52</a></div></div>
+<div class="ttc" id="aprotection__handler__cc_8h_html_a889d56bc95ffea5df133d4b299cd59ddadb7b084f3ded9aaf59e4705161443fce"><div class="ttname"><a href="#a889d56bc95ffea5df133d4b299cd59ddadb7b084f3ded9aaf59e4705161443fce">MIP_PRE_LICENSE_FORMAT_JSON</a></div><div class="ttdeci">@ MIP_PRE_LICENSE_FORMAT_JSON</div><div class="ttdoc">JSON/REST format used by MIP SDK and RMS SDK.</div><div class="ttdef"><b>Definition</b> <a href="protection__handler__cc_8h_source.html#l00054">protection_handler_cc.h:54</a></div></div>
+<div class="ttc" id="aprotection__handler__cc_8h_html_a889d56bc95ffea5df133d4b299cd59ddaef251e206100ab3b7b0f68d4d40d1523"><div class="ttname"><a href="#a889d56bc95ffea5df133d4b299cd59ddaef251e206100ab3b7b0f68d4d40d1523">MIP_PRE_LICENSE_FORMAT_XML</a></div><div class="ttdeci">@ MIP_PRE_LICENSE_FORMAT_XML</div><div class="ttdoc">Legacy XML/SOAP format used by MSIPC.</div><div class="ttdef"><b>Definition</b> <a href="protection__handler__cc_8h_source.html#l00053">protection_handler_cc.h:53</a></div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
@@ -332,6 +411,10 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Create a settings object used to create a protection handler for publishing new content. </p>
+<p>Gets the set of supported capabilities being passed to RMS.</p>
+<p>Remove a capability from the set of capabilities supported when calling RMS.</p>
+<p>Add a capability to the set of capabilities supported when calling RMS.</p>
+<p>Gets the cipher mode of the protection handler.</p>
 <p>Decrypt a buffer.</p>
 <p>Encrypt a buffer.</p>
 <p>Gets whether or not protection handler uses deprecated crypto algorithm (ECB) for backwards compatibility.</p>
@@ -344,10 +427,15 @@ Variables</h2></td></tr>
 <p>Calculates size of protected content, factoring in padding, etc.</p>
 <p>Gets list of rights granted to a user.</p>
 <p>Gets protection descriptor.</p>
+<p>Gets pre-license.</p>
+<p>Gets size of pre-license (in bytes)</p>
 <p>Gets publishing license.</p>
 <p>Gets size of publishing license (in bytes)</p>
 <p>Sets whether or not protection handler creation permits online HTTP operations.</p>
 <p>Create a settings object used to create a protection handler for consuming existing content.</p>
+<p>Configures custom settings, used for feature gating and testing.</p>
+<p>Sets application scenario Id.</p>
+<p>Sets pre-license user.</p>
 <p>Sets delegated user.</p>
 <p>Sets whether or not PL is in JSON format (default is XML)</p>
 <p>Sets whether or not non-MIP-aware applications are allowed to open protected content.</p>
@@ -398,6 +486,34 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>A delegated user is specified when the authenticating user/application is acting on behalf of another user</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">settings</td><td>Protection handler settings </td></tr>
+    <tr><td class="paramname">preLicenseUserEmail</td><td>Email address of pre-license user </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>A pre-license user is specified when a pre-license should be fetched when publishing</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">settings</td><td>Protection handler settings </td></tr>
+    <tr><td class="paramname">applicationScenarioId</td><td>application scenario Id </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">settings</td><td>Protection handler settings </td></tr>
+    <tr><td class="paramname">customSettings</td><td>Key/value pairs of custom settings </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">publishingLicenseBuffer</td><td>Buffer containing raw publishing license </td></tr>
@@ -451,6 +567,29 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>If publishingLicenseBuffer is null or insufficient, MIP_RESULT_ERROR_INSUFFICIENT_BUFFER will be returned and actualPublishingLicenseSize will be set to the minimum required buffer size.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">handler</td><td>Handler representing protected content </td></tr>
+    <tr><td class="paramname">format</td><td>Pre-license format </td></tr>
+    <tr><td class="paramname">preLicenseBufferSize</td><td>[Output] Size of pre-license (in bytes) </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">handler</td><td>Handler representing protected content </td></tr>
+    <tr><td class="paramname">format</td><td>Pre-license format </td></tr>
+    <tr><td class="paramname">preLicenseBuffer</td><td>[Output] Buffer to which pre-license will be written </td></tr>
+    <tr><td class="paramname">preLicenseBufferSize</td><td>Size of pre-license buffer </td></tr>
+    <tr><td class="paramname">actualPreLicenseSize</td><td>[Output] Actual size of pre-license (in bytes) </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If preLicenseBuffer is null or insufficient, MIP_RESULT_ERROR_INSUFFICIENT_BUFFER will be returned and actualPreLicenseSize will be set to the minimum required buffer size.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">handler</td><td>Handler representing protected content </td></tr>
@@ -540,6 +679,7 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>Note</dt><dd>Publishing licenses will have this identifier surrounded by curly braces "{}". Those braces are removed from the value stored in contentId</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -577,7 +717,45 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">handler</td><td>Handler representing protected content </td></tr>
+    <tr><td class="paramname">cipherMode</td><td>[Output] The cipher mode </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">consumptionSettings</td><td>Consumption handler settings </td></tr>
+    <tr><td class="paramname">capability</td><td>The capability to add to indicate a supported feature to RMS </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">consumptionSettings</td><td>Consumption handler settings </td></tr>
+    <tr><td class="paramname">capability</td><td>The capability to remove from the supported features in RMS </td></tr>
+    <tr><td class="paramname">removed</td><td>[Output] A boolean indiciating if the supplied capability was removed. </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">consumptionSettings</td><td>Consumption handler settings </td></tr>
+    <tr><td class="paramname">capabilities</td><td>[Output] Gets the list of capabilities being passed to RMS </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The returned 'capabilities' (mip_cc_string_list*) must be freed by calling MIP_CC_ReleaseStringList. </dd></dl>
 
 </div>
 </div>
@@ -621,7 +799,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00433">433</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00560">560</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -637,7 +815,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00408">408</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00535">535</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -653,7 +831,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00320">320</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00444">444</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -669,7 +847,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00355">355</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00479">479</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="ab66807a9b148afa4e282544cf2e93554" name="ab66807a9b148afa4e282544cf2e93554"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab66807a9b148afa4e282544cf2e93554">&#9670;&#160;</a></span>actualPreLicenseSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a889d56bc95ffea5df133d4b299cd59dd">mip_cc_pre_license_format</a> uint8_t const int64_t int64_t* actualPreLicenseSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00345">345</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -685,7 +879,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00221">221</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00306">306</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="ab412bedfe5f6f720a348575778e1c340" name="ab412bedfe5f6f720a348575778e1c340"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab412bedfe5f6f720a348575778e1c340">&#9670;&#160;</a></span>applicationScenarioId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * applicationScenarioId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00158">158</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -701,7 +911,55 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00285">285</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00409">409</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="aa2667cf2338b34b4cc2de4d1446b3f69" name="aa2667cf2338b34b4cc2de4d1446b3f69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2667cf2338b34b4cc2de4d1446b3f69">&#9670;&#160;</a></span>capabilities</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="string__list__cc_8h.html#ae721d927d8ac5819dd6613ff45d278fc">mip_cc_string_list</a>* capabilities</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00635">635</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="af3c42588b140b2ccd7b11145a0fa03d5" name="af3c42588b140b2ccd7b11145a0fa03d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3c42588b140b2ccd7b11145a0fa03d5">&#9670;&#160;</a></span>capability</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* capability</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00602">602</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="ad49cdf427511d129ad28b5263547dd58" name="ad49cdf427511d129ad28b5263547dd58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad49cdf427511d129ad28b5263547dd58">&#9670;&#160;</a></span>cipherMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="protection__crypto__types__cc_8h.html#a39de0bee390b5db78a9bf601689dd35f">mip_cc_cipher_mode</a>* cipherMode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00574">574</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -717,7 +975,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00369">369</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00496">496</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="a9d7dd47c739aad5603092e877886c39f" name="a9d7dd47c739aad5603092e877886c39f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d7dd47c739aad5603092e877886c39f">&#9670;&#160;</a></span>customSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="dictionary__cc_8h.html#a41c9504735733b4261e3ec1a85e8bcb5">mip_cc_dictionary</a> customSettings</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00172">172</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -733,7 +1007,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00116">116</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00126">126</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -744,12 +1018,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="protection__descriptor__cc_8h.html#a0957d65ef02c1883ef582aa2009d363d">mip_cc_protection_descriptor</a>* descriptor</td>
+          <td class="memname"><a class="el" href="protection__descriptor__cc_8h.html#abc1d4c7f60b9bcc6847ba24372c974f3">mip_cc_protection_descriptor</a>* descriptor</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00235">235</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00359">359</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -765,23 +1039,39 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00383">383</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00510">510</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
-<a id="a52ec95201e7703de7cd354f20a962360" name="a52ec95201e7703de7cd354f20a962360"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52ec95201e7703de7cd354f20a962360">&#9670;&#160;</a></span>errorInfo</h2>
+<a id="a02897ef9b48f683d13343c72cc75e663" name="a02897ef9b48f683d13343c72cc75e663"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02897ef9b48f683d13343c72cc75e663">&#9670;&#160;</a></span>errorInfo</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int64_t const uint8_t const int64_t uint8_t const int64_t const bool int64_t <a class="el" href="structmip__cc__error.html">mip_cc_error</a>* errorInfo</td>
+          <td class="memname"><a class="el" href="string__list__cc_8h.html#ae721d927d8ac5819dd6613ff45d278fc">mip_cc_string_list</a> <a class="el" href="structmip__cc__error.html">mip_cc_error</a>* errorInfo</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00059">59</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00069">69</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="a4f70e709f3699f0d1f2993e7ab071c83" name="a4f70e709f3699f0d1f2993e7ab071c83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f70e709f3699f0d1f2993e7ab071c83">&#9670;&#160;</a></span>format</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a889d56bc95ffea5df133d4b299cd59dd">mip_cc_pre_license_format</a> format</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00321">321</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -797,7 +1087,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00270">270</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00394">394</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -813,7 +1103,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00403">403</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00530">530</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -829,7 +1119,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00404">404</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00531">531</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -845,7 +1135,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00086">86</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00096">96</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -861,7 +1151,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00072">72</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00082">82</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -877,7 +1167,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00407">407</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00534">534</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -893,7 +1183,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00170">170</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00226">226</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -909,7 +1199,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00100">100</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00110">110</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -925,7 +1215,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00318">318</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00442">442</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -941,7 +1231,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00319">319</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00443">443</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -957,7 +1247,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00299">299</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00423">423</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -973,7 +1263,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00402">402</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00529">529</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -989,7 +1279,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00405">405</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00532">532</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1005,7 +1295,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00406">406</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00533">533</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1021,7 +1311,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00353">353</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00477">477</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1037,7 +1327,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00354">354</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00478">478</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1053,23 +1343,55 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00334">334</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00458">458</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
-<a id="a3c672bd18955cafc07c240cc1456b445" name="a3c672bd18955cafc07c240cc1456b445"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c672bd18955cafc07c240cc1456b445">&#9670;&#160;</a></span>preLicenseBufferSize</h2>
+<a id="a4e8391011e72f228b060d3368354b17d" name="a4e8391011e72f228b060d3368354b17d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e8391011e72f228b060d3368354b17d">&#9670;&#160;</a></span>preLicenseBuffer</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int64_t preLicenseBufferSize</td>
+          <td class="memname"><a class="el" href="#a889d56bc95ffea5df133d4b299cd59dd">mip_cc_pre_license_format</a> uint8_t* preLicenseBuffer</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00149">149</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00343">343</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="ae0950091dac4d5c7b9ed153f19171fc8" name="ae0950091dac4d5c7b9ed153f19171fc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0950091dac4d5c7b9ed153f19171fc8">&#9670;&#160;</a></span>preLicenseBufferSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a889d56bc95ffea5df133d4b299cd59dd">mip_cc_pre_license_format</a> uint8_t const int64_t preLicenseBufferSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00205">205</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="abb7efea81fe7944ff4ab21c6a09e0ccb" name="abb7efea81fe7944ff4ab21c6a09e0ccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb7efea81fe7944ff4ab21c6a09e0ccb">&#9670;&#160;</a></span>preLicenseUserEmail</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* preLicenseUserEmail</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00142">142</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1085,7 +1407,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00271">271</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00395">395</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1101,7 +1423,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00150">150</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00206">206</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1117,7 +1439,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00131">131</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00187">187</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="a120586a1f189c488dc78745262ae4377" name="a120586a1f189c488dc78745262ae4377"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a120586a1f189c488dc78745262ae4377">&#9670;&#160;</a></span>removed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char bool* removed</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00618">618</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1128,12 +1466,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="string__list__cc_8h.html#a0bd3f7944e2ba2561b201dc773dc1683">mip_cc_string_list</a>* rights</td>
+          <td class="memname"><a class="el" href="string__list__cc_8h.html#ae721d927d8ac5819dd6613ff45d278fc">mip_cc_string_list</a>* rights</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00251">251</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00375">375</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1144,12 +1482,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int64_t const uint8_t const int64_t <a class="el" href="#a52a3770cbacd07d889f98fb81614951c">mip_cc_protection_handler_consumption_settings</a>* settings</td>
+          <td class="memname">const int64_t const uint8_t const int64_t <a class="el" href="#a7ecc89d8f243d343f0ffe4a3ad02fbb4">mip_cc_protection_handler_consumption_settings</a>* settings</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00058">58</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00068">68</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1165,7 +1503,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00269">269</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__handler__cc_8h_source.html#l00393">393</a> of file <a class="el" href="protection__handler__cc_8h_source.html">protection_handler_cc.h</a>.</p>
 
 </div>
 </div>

@@ -111,6 +111,7 @@ $(function(){initNavTree('http__delegate__cc_8h.html',''); initResizable(true); 
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stddef.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="common__types__cc_8h_source.html">mip_cc/common_types_cc.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="error__cc_8h_source.html">mip_cc/error_cc.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mip__macros__cc_8h_source.html">mip_cc/mip_macros_cc.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="result__cc_8h_source.html">mip_cc/result_cc.h</a>&quot;</code><br />
@@ -121,20 +122,24 @@ $(function(){initNavTree('http__delegate__cc_8h.html',''); initResizable(true); 
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="http__delegate__cc_8h__incl.png" border="0" usemap="#asrc_2api_2mip__cc_2http__delegate__cc_8h" alt=""/></div>
 <map name="asrc_2api_2mip__cc_2http__delegate__cc_8h" id="asrc_2api_2mip__cc_2http__delegate__cc_8h">
-<area shape="rect" title="Defines HTTP callback functions." alt="" coords="150,5,295,45"/>
+<area shape="rect" title="Defines HTTP callback functions." alt="" coords="221,5,366,45"/>
 <area shape="rect" title=" " alt="" coords="5,93,80,119"/>
-<area shape="poly" title=" " alt="" coords="181,48,83,90,81,85,178,43"/>
-<area shape="rect" title=" " alt="" coords="137,240,207,265"/>
-<area shape="poly" title=" " alt="" coords="190,47,165,68,145,94,137,129,140,165,150,199,162,227,157,229,144,200,135,166,132,128,140,92,161,64,187,43"/>
-<area shape="rect" href="error__cc_8h.html" title="Error definition and functions." alt="" coords="155,93,291,119"/>
-<area shape="poly" title=" " alt="" coords="225,46,225,79,220,79,220,46"/>
-<area shape="rect" href="result__cc_8h.html" title="Defines success/error result codes." alt="" coords="177,167,319,192"/>
-<area shape="poly" title=" " alt="" coords="259,43,285,64,305,92,308,111,302,129,277,159,273,156,298,127,303,111,300,94,281,68,255,47"/>
-<area shape="rect" href="mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="258,240,443,265"/>
-<area shape="poly" title=" " alt="" coords="267,43,298,64,325,92,341,126,350,162,355,226,349,226,345,163,336,128,320,95,295,68,264,48"/>
-<area shape="poly" title=" " alt="" coords="229,118,242,153,237,155,224,120"/>
-<area shape="poly" title=" " alt="" coords="238,194,196,232,193,229,234,190"/>
-<area shape="poly" title=" " alt="" coords="266,190,324,230,321,234,263,194"/>
+<area shape="poly" title=" " alt="" coords="234,48,93,92,92,87,233,43"/>
+<area shape="rect" title=" " alt="" coords="222,240,293,265"/>
+<area shape="poly" title=" " alt="" coords="262,48,232,69,199,96,168,129,145,168,142,179,144,190,158,208,182,224,210,236,208,240,179,228,154,212,139,192,137,179,140,166,164,126,195,92,229,64,259,43"/>
+<area shape="rect" href="common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="155,167,360,192"/>
+<area shape="poly" title=" " alt="" coords="291,46,266,154,261,152,286,45"/>
+<area shape="rect" href="mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="363,240,549,265"/>
+<area shape="poly" title=" " alt="" coords="367,29,405,36,444,48,483,66,516,91,538,115,550,139,552,164,542,193,523,218,498,236,495,231,519,214,538,191,547,164,545,140,533,118,513,95,480,71,442,53,403,42,366,34"/>
+<area shape="rect" href="error__cc_8h.html" title="Error definition and functions." alt="" coords="367,93,503,119"/>
+<area shape="poly" title=" " alt="" coords="328,43,403,84,400,89,326,48"/>
+<area shape="rect" href="result__cc_8h.html" title="Defines success/error result codes." alt="" coords="385,167,527,192"/>
+<area shape="poly" title=" " alt="" coords="305,44,326,80,357,117,386,140,418,158,415,163,384,144,353,121,322,83,300,47"/>
+<area shape="poly" title=" " alt="" coords="260,192,260,226,255,226,255,192"/>
+<area shape="poly" title=" " alt="" coords="290,190,411,233,410,238,288,195"/>
+<area shape="poly" title=" " alt="" coords="441,118,451,153,446,154,436,120"/>
+<area shape="poly" title=" " alt="" coords="425,195,304,238,302,233,423,190"/>
+<area shape="poly" title=" " alt="" coords="459,192,459,226,453,226,453,192"/>
 </map>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -144,17 +149,22 @@ $(function(){initNavTree('http__delegate__cc_8h.html',''); initResizable(true); 
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="http__delegate__cc_8h__dep__incl.png" border="0" usemap="#asrc_2api_2mip__cc_2http__delegate__cc_8hdep" alt=""/></div>
 <map name="asrc_2api_2mip__cc_2http__delegate__cc_8hdep" id="asrc_2api_2mip__cc_2http__delegate__cc_8hdep">
-<area shape="rect" title="Defines HTTP callback functions." alt="" coords="121,5,267,45"/>
-<area shape="rect" href="protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="5,269,191,309"/>
-<area shape="poly" title=" " alt="" coords="135,54,111,72,92,95,83,117,78,140,77,189,84,233,94,268,89,270,79,235,72,189,73,139,78,115,88,92,107,68,131,50"/>
-<area shape="rect" href="telemetry__configuration__cc_8h.html" title="Defines custom telemetry settings." alt="" coords="103,93,285,133"/>
-<area shape="poly" title=" " alt="" coords="197,59,197,93,191,93,191,59"/>
-<area shape="rect" href="policy__profile__cc_8h.html" title="Contains C API definitions for policy profile." alt="" coords="233,269,379,309"/>
-<area shape="poly" title=" " alt="" coords="255,50,279,68,299,92,309,115,316,139,321,189,319,235,313,270,308,269,313,234,316,189,311,140,304,117,294,95,276,72,252,54"/>
-<area shape="rect" href="mip__context__cc_8h.html" title="Defines C&#45;Style MipContext functions." alt="" coords="122,181,266,221"/>
-<area shape="poly" title=" " alt="" coords="197,147,197,181,191,181,191,147"/>
-<area shape="poly" title=" " alt="" coords="164,233,121,271,117,267,161,229"/>
-<area shape="poly" title=" " alt="" coords="232,228,283,267,280,271,228,232"/>
+<area shape="rect" title="Defines HTTP callback functions." alt="" coords="156,5,301,45"/>
+<area shape="rect" href="protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="5,445,191,485"/>
+<area shape="poly" title=" " alt="" coords="174,54,132,79,92,112,75,131,62,152,53,175,50,200,50,291,54,335,65,377,91,444,86,446,60,379,49,335,45,291,45,200,48,174,57,150,71,128,88,108,129,74,171,49"/>
+<area shape="rect" href="telemetry__configuration__cc_8h.html" title="Defines custom telemetry settings." alt="" coords="137,93,320,133"/>
+<area shape="poly" title=" " alt="" coords="231,59,231,93,226,93,226,59"/>
+<area shape="rect" href="policy__profile__cc_8h.html" title="Contains C API definitions for policy profile." alt="" coords="346,269,493,309"/>
+<area shape="poly" title=" " alt="" coords="281,50,309,68,333,92,365,137,389,187,417,268,412,270,384,189,360,140,329,95,305,73,278,54"/>
+<area shape="rect" href="mip__context__cc_8h.html" title="Defines C&#45;Style MipContext functions." alt="" coords="157,181,301,221"/>
+<area shape="poly" title=" " alt="" coords="231,147,231,181,226,181,226,147"/>
+<area shape="poly" title=" " alt="" coords="171,230,146,248,126,271,106,316,97,365,96,410,98,445,93,445,91,410,92,364,101,314,121,268,142,244,168,226"/>
+<area shape="rect" href="delegation__license__cc_8h.html" title=" " alt="" coords="136,269,321,309"/>
+<area shape="poly" title=" " alt="" coords="231,235,231,269,226,269,226,235"/>
+<area shape="poly" title=" " alt="" coords="284,225,379,267,376,272,282,229"/>
+<area shape="rect" href="protection__engine__cc_8h.html" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="136,357,321,397"/>
+<area shape="poly" title=" " alt="" coords="231,323,231,357,226,357,226,323"/>
+<area shape="poly" title=" " alt="" coords="190,407,128,447,125,443,187,403"/>
 </map>
 </div>
 </div>
@@ -174,8 +184,8 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a3c1730c6a77a3fc434d3ebe04ecf8399" id="r_a3c1730c6a77a3fc434d3ebe04ecf8399"><td class="memItemLeft" align="right" valign="top">typedef void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c1730c6a77a3fc434d3ebe04ecf8399">mip_cc_http_delegate</a></td></tr>
-<tr class="separator:a3c1730c6a77a3fc434d3ebe04ecf8399"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a547792356b33ce457e552680bd5aee87" id="r_a547792356b33ce457e552680bd5aee87"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structmip__cc__handle.html">mip_cc_handle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a547792356b33ce457e552680bd5aee87">mip_cc_http_delegate</a></td></tr>
+<tr class="separator:a547792356b33ce457e552680bd5aee87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -201,7 +211,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a8f94ebe7c855bcfe656c33cb86d6854b" id="r_a8f94ebe7c855bcfe656c33cb86d6854b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f94ebe7c855bcfe656c33cb86d6854b">MIP_CC_API</a> (<a class="el" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_CreateHttpDelegate(const mip_cc_http_send_callback_fn sendCallback</td></tr>
 <tr class="memdesc:a8f94ebe7c855bcfe656c33cb86d6854b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an HTTP delegate which can be used to override MIP's default HTTP stack.  <br /></td></tr>
 <tr class="separator:a8f94ebe7c855bcfe656c33cb86d6854b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb2f5eca1e03beb7ba50f9b47213ccd5" id="r_adb2f5eca1e03beb7ba50f9b47213ccd5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb2f5eca1e03beb7ba50f9b47213ccd5">MIP_CC_API</a> (void) MIP_CC_NotifyHttpDelegateResponse(const <a class="el" href="#a3c1730c6a77a3fc434d3ebe04ecf8399">mip_cc_http_delegate</a> <a class="el" href="#a7c3fd5cf898ea5e73caaada7aefc98d6">httpDelegate</a></td></tr>
+<tr class="memitem:adb2f5eca1e03beb7ba50f9b47213ccd5" id="r_adb2f5eca1e03beb7ba50f9b47213ccd5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb2f5eca1e03beb7ba50f9b47213ccd5">MIP_CC_API</a> (void) MIP_CC_NotifyHttpDelegateResponse(const <a class="el" href="#a547792356b33ce457e552680bd5aee87">mip_cc_http_delegate</a> <a class="el" href="#a7c3fd5cf898ea5e73caaada7aefc98d6">httpDelegate</a></td></tr>
 <tr class="memdesc:adb2f5eca1e03beb7ba50f9b47213ccd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notifies an HTTP delegate that an HTTP response is ready.  <br /></td></tr>
 <tr class="separator:adb2f5eca1e03beb7ba50f9b47213ccd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1acad17e9fb06df9580cf6832fcebc8e" id="r_a1acad17e9fb06df9580cf6832fcebc8e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1acad17e9fb06df9580cf6832fcebc8e">MIP_CC_CALLBACK</a> (mip_cc_http_cancel_callback_fn, void, const char *)</td></tr>
@@ -215,9 +225,9 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:ad0187b69a42883aaaca5a98abb31330b" id="r_ad0187b69a42883aaaca5a98abb31330b"><td class="memItemLeft" align="right" valign="top">const mip_cc_http_cancel_callback_fn&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0187b69a42883aaaca5a98abb31330b">cancelCallback</a></td></tr>
 <tr class="separator:ad0187b69a42883aaaca5a98abb31330b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e3ac725418da1739e4f13e407e4f1a7" id="r_a1e3ac725418da1739e4f13e407e4f1a7"><td class="memItemLeft" align="right" valign="top">const mip_cc_http_cancel_callback_fn <a class="el" href="#a3c1730c6a77a3fc434d3ebe04ecf8399">mip_cc_http_delegate</a> <a class="el" href="structmip__cc__error.html">mip_cc_error</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e3ac725418da1739e4f13e407e4f1a7">errorInfo</a></td></tr>
+<tr class="memitem:a1e3ac725418da1739e4f13e407e4f1a7" id="r_a1e3ac725418da1739e4f13e407e4f1a7"><td class="memItemLeft" align="right" valign="top">const mip_cc_http_cancel_callback_fn <a class="el" href="#a547792356b33ce457e552680bd5aee87">mip_cc_http_delegate</a> <a class="el" href="structmip__cc__error.html">mip_cc_error</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e3ac725418da1739e4f13e407e4f1a7">errorInfo</a></td></tr>
 <tr class="separator:a1e3ac725418da1739e4f13e407e4f1a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c3fd5cf898ea5e73caaada7aefc98d6" id="r_a7c3fd5cf898ea5e73caaada7aefc98d6"><td class="memItemLeft" align="right" valign="top">const mip_cc_http_cancel_callback_fn <a class="el" href="#a3c1730c6a77a3fc434d3ebe04ecf8399">mip_cc_http_delegate</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c3fd5cf898ea5e73caaada7aefc98d6">httpDelegate</a></td></tr>
+<tr class="memitem:a7c3fd5cf898ea5e73caaada7aefc98d6" id="r_a7c3fd5cf898ea5e73caaada7aefc98d6"><td class="memItemLeft" align="right" valign="top">const mip_cc_http_cancel_callback_fn <a class="el" href="#a547792356b33ce457e552680bd5aee87">mip_cc_http_delegate</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c3fd5cf898ea5e73caaada7aefc98d6">httpDelegate</a></td></tr>
 <tr class="separator:a7c3fd5cf898ea5e73caaada7aefc98d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0e16f8cf7fc72a38f42cbf6b6c346c0" id="r_aa0e16f8cf7fc72a38f42cbf6b6c346c0"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0e16f8cf7fc72a38f42cbf6b6c346c0">requestId</a></td></tr>
 <tr class="separator:aa0e16f8cf7fc72a38f42cbf6b6c346c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -231,19 +241,19 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition in file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
-<a id="a3c1730c6a77a3fc434d3ebe04ecf8399" name="a3c1730c6a77a3fc434d3ebe04ecf8399"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c1730c6a77a3fc434d3ebe04ecf8399">&#9670;&#160;</a></span>mip_cc_http_delegate</h2>
+<a id="a547792356b33ce457e552680bd5aee87" name="a547792356b33ce457e552680bd5aee87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a547792356b33ce457e552680bd5aee87">&#9670;&#160;</a></span>mip_cc_http_delegate</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void* <a class="el" href="#a3c1730c6a77a3fc434d3ebe04ecf8399">mip_cc_http_delegate</a></td>
+          <td class="memname">typedef <a class="el" href="structmip__cc__handle.html">mip_cc_handle</a>* <a class="el" href="#a547792356b33ce457e552680bd5aee87">mip_cc_http_delegate</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00113">113</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00114">114</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
 
 </div>
 </div>
@@ -268,14 +278,14 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00047">47</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   47</span>             {</div>
-<div class="line"><span class="lineno">   48</span>  <a class="code hl_enumvalue" href="#a199a8a05259c3fda563b7b929c112ce6ab6627ba865cc0dea358d753becc3821e">HTTP_REQUEST_TYPE_GET</a> = 0,  <span class="comment">/**&lt; HTTP GET */</span></div>
-<div class="line"><span class="lineno">   49</span>  <a class="code hl_enumvalue" href="#a199a8a05259c3fda563b7b929c112ce6ad790b45df82466cd20922146fb83d63e">HTTP_REQUEST_TYPE_POST</a> = 1, <span class="comment">/**&lt; HTTP POST */</span></div>
-<div class="line"><span class="lineno">   50</span>} <a class="code hl_enumeration" href="#a199a8a05259c3fda563b7b929c112ce6">mip_cc_http_request_type</a>;</div>
-<div class="ttc" id="ahttp__delegate__cc_8h_html_a199a8a05259c3fda563b7b929c112ce6"><div class="ttname"><a href="#a199a8a05259c3fda563b7b929c112ce6">mip_cc_http_request_type</a></div><div class="ttdeci">mip_cc_http_request_type</div><div class="ttdoc">HTTP request type.</div><div class="ttdef"><b>Definition</b> <a href="http__delegate__cc_8h_source.html#l00047">http_delegate_cc.h:47</a></div></div>
-<div class="ttc" id="ahttp__delegate__cc_8h_html_a199a8a05259c3fda563b7b929c112ce6ab6627ba865cc0dea358d753becc3821e"><div class="ttname"><a href="#a199a8a05259c3fda563b7b929c112ce6ab6627ba865cc0dea358d753becc3821e">HTTP_REQUEST_TYPE_GET</a></div><div class="ttdeci">@ HTTP_REQUEST_TYPE_GET</div><div class="ttdoc">HTTP GET.</div><div class="ttdef"><b>Definition</b> <a href="http__delegate__cc_8h_source.html#l00048">http_delegate_cc.h:48</a></div></div>
-<div class="ttc" id="ahttp__delegate__cc_8h_html_a199a8a05259c3fda563b7b929c112ce6ad790b45df82466cd20922146fb83d63e"><div class="ttname"><a href="#a199a8a05259c3fda563b7b929c112ce6ad790b45df82466cd20922146fb83d63e">HTTP_REQUEST_TYPE_POST</a></div><div class="ttdeci">@ HTTP_REQUEST_TYPE_POST</div><div class="ttdoc">HTTP POST.</div><div class="ttdef"><b>Definition</b> <a href="http__delegate__cc_8h_source.html#l00049">http_delegate_cc.h:49</a></div></div>
+<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00048">48</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   48</span>             {</div>
+<div class="line"><span class="lineno">   49</span>  <a class="code hl_enumvalue" href="#a199a8a05259c3fda563b7b929c112ce6ab6627ba865cc0dea358d753becc3821e">HTTP_REQUEST_TYPE_GET</a> = 0,  <span class="comment">/**&lt; HTTP GET */</span></div>
+<div class="line"><span class="lineno">   50</span>  <a class="code hl_enumvalue" href="#a199a8a05259c3fda563b7b929c112ce6ad790b45df82466cd20922146fb83d63e">HTTP_REQUEST_TYPE_POST</a> = 1, <span class="comment">/**&lt; HTTP POST */</span></div>
+<div class="line"><span class="lineno">   51</span>} <a class="code hl_enumeration" href="#a199a8a05259c3fda563b7b929c112ce6">mip_cc_http_request_type</a>;</div>
+<div class="ttc" id="ahttp__delegate__cc_8h_html_a199a8a05259c3fda563b7b929c112ce6"><div class="ttname"><a href="#a199a8a05259c3fda563b7b929c112ce6">mip_cc_http_request_type</a></div><div class="ttdeci">mip_cc_http_request_type</div><div class="ttdoc">HTTP request type.</div><div class="ttdef"><b>Definition</b> <a href="http__delegate__cc_8h_source.html#l00048">http_delegate_cc.h:48</a></div></div>
+<div class="ttc" id="ahttp__delegate__cc_8h_html_a199a8a05259c3fda563b7b929c112ce6ab6627ba865cc0dea358d753becc3821e"><div class="ttname"><a href="#a199a8a05259c3fda563b7b929c112ce6ab6627ba865cc0dea358d753becc3821e">HTTP_REQUEST_TYPE_GET</a></div><div class="ttdeci">@ HTTP_REQUEST_TYPE_GET</div><div class="ttdoc">HTTP GET.</div><div class="ttdef"><b>Definition</b> <a href="http__delegate__cc_8h_source.html#l00049">http_delegate_cc.h:49</a></div></div>
+<div class="ttc" id="ahttp__delegate__cc_8h_html_a199a8a05259c3fda563b7b929c112ce6ad790b45df82466cd20922146fb83d63e"><div class="ttname"><a href="#a199a8a05259c3fda563b7b929c112ce6ad790b45df82466cd20922146fb83d63e">HTTP_REQUEST_TYPE_POST</a></div><div class="ttdeci">@ HTTP_REQUEST_TYPE_POST</div><div class="ttdoc">HTTP POST.</div><div class="ttdef"><b>Definition</b> <a href="http__delegate__cc_8h_source.html#l00050">http_delegate_cc.h:50</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -300,14 +310,14 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00055">55</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   55</span>             {</div>
-<div class="line"><span class="lineno">   56</span>  <a class="code hl_enumvalue" href="#ad7e3238044453d0cafc68f2605295817a4ddd744a1753bcdc3bee29f088f5e650">HTTP_RESULT_OK</a> = 0,      <span class="comment">/**&lt; HTTP operation was completed successfull */</span></div>
-<div class="line"><span class="lineno">   57</span>  <a class="code hl_enumvalue" href="#ad7e3238044453d0cafc68f2605295817a31c05a9f80b4498ab002880bbd6f5a33">HTTP_RESULT_FAILURE</a> = 1, <span class="comment">/**&lt; HTTP operation failed (e.g. timeout, network failure, etc.) */</span></div>
-<div class="line"><span class="lineno">   58</span>} <a class="code hl_enumeration" href="#ad7e3238044453d0cafc68f2605295817">mip_cc_http_result</a>;</div>
-<div class="ttc" id="ahttp__delegate__cc_8h_html_ad7e3238044453d0cafc68f2605295817"><div class="ttname"><a href="#ad7e3238044453d0cafc68f2605295817">mip_cc_http_result</a></div><div class="ttdeci">mip_cc_http_result</div><div class="ttdoc">Success/failure state of the HTTP operation.</div><div class="ttdef"><b>Definition</b> <a href="http__delegate__cc_8h_source.html#l00055">http_delegate_cc.h:55</a></div></div>
-<div class="ttc" id="ahttp__delegate__cc_8h_html_ad7e3238044453d0cafc68f2605295817a31c05a9f80b4498ab002880bbd6f5a33"><div class="ttname"><a href="#ad7e3238044453d0cafc68f2605295817a31c05a9f80b4498ab002880bbd6f5a33">HTTP_RESULT_FAILURE</a></div><div class="ttdeci">@ HTTP_RESULT_FAILURE</div><div class="ttdoc">HTTP operation failed (e.g.</div><div class="ttdef"><b>Definition</b> <a href="http__delegate__cc_8h_source.html#l00057">http_delegate_cc.h:57</a></div></div>
-<div class="ttc" id="ahttp__delegate__cc_8h_html_ad7e3238044453d0cafc68f2605295817a4ddd744a1753bcdc3bee29f088f5e650"><div class="ttname"><a href="#ad7e3238044453d0cafc68f2605295817a4ddd744a1753bcdc3bee29f088f5e650">HTTP_RESULT_OK</a></div><div class="ttdeci">@ HTTP_RESULT_OK</div><div class="ttdoc">HTTP operation was completed successfull.</div><div class="ttdef"><b>Definition</b> <a href="http__delegate__cc_8h_source.html#l00056">http_delegate_cc.h:56</a></div></div>
+<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00056">56</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   56</span>             {</div>
+<div class="line"><span class="lineno">   57</span>  <a class="code hl_enumvalue" href="#ad7e3238044453d0cafc68f2605295817a4ddd744a1753bcdc3bee29f088f5e650">HTTP_RESULT_OK</a> = 0,      <span class="comment">/**&lt; HTTP operation was completed successfull */</span></div>
+<div class="line"><span class="lineno">   58</span>  <a class="code hl_enumvalue" href="#ad7e3238044453d0cafc68f2605295817a31c05a9f80b4498ab002880bbd6f5a33">HTTP_RESULT_FAILURE</a> = 1, <span class="comment">/**&lt; HTTP operation failed (e.g. timeout, network failure, etc.) */</span></div>
+<div class="line"><span class="lineno">   59</span>} <a class="code hl_enumeration" href="#ad7e3238044453d0cafc68f2605295817">mip_cc_http_result</a>;</div>
+<div class="ttc" id="ahttp__delegate__cc_8h_html_ad7e3238044453d0cafc68f2605295817"><div class="ttname"><a href="#ad7e3238044453d0cafc68f2605295817">mip_cc_http_result</a></div><div class="ttdeci">mip_cc_http_result</div><div class="ttdoc">Success/failure state of the HTTP operation.</div><div class="ttdef"><b>Definition</b> <a href="http__delegate__cc_8h_source.html#l00056">http_delegate_cc.h:56</a></div></div>
+<div class="ttc" id="ahttp__delegate__cc_8h_html_ad7e3238044453d0cafc68f2605295817a31c05a9f80b4498ab002880bbd6f5a33"><div class="ttname"><a href="#ad7e3238044453d0cafc68f2605295817a31c05a9f80b4498ab002880bbd6f5a33">HTTP_RESULT_FAILURE</a></div><div class="ttdeci">@ HTTP_RESULT_FAILURE</div><div class="ttdoc">HTTP operation failed (e.g.</div><div class="ttdef"><b>Definition</b> <a href="http__delegate__cc_8h_source.html#l00058">http_delegate_cc.h:58</a></div></div>
+<div class="ttc" id="ahttp__delegate__cc_8h_html_ad7e3238044453d0cafc68f2605295817a4ddd744a1753bcdc3bee29f088f5e650"><div class="ttname"><a href="#ad7e3238044453d0cafc68f2605295817a4ddd744a1753bcdc3bee29f088f5e650">HTTP_RESULT_OK</a></div><div class="ttdeci">@ HTTP_RESULT_OK</div><div class="ttdoc">HTTP operation was completed successfull.</div><div class="ttdef"><b>Definition</b> <a href="http__delegate__cc_8h_source.html#l00057">http_delegate_cc.h:57</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -464,7 +474,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00127">127</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00128">128</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
 
 </div>
 </div>
@@ -475,12 +485,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const mip_cc_http_cancel_callback_fn <a class="el" href="#a3c1730c6a77a3fc434d3ebe04ecf8399">mip_cc_http_delegate</a> <a class="el" href="structmip__cc__error.html">mip_cc_error</a>* errorInfo</td>
+          <td class="memname">const mip_cc_http_cancel_callback_fn <a class="el" href="#a547792356b33ce457e552680bd5aee87">mip_cc_http_delegate</a> <a class="el" href="structmip__cc__error.html">mip_cc_error</a>* errorInfo</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00129">129</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00130">130</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
 
 </div>
 </div>
@@ -491,12 +501,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const mip_cc_http_cancel_callback_fn <a class="el" href="#a3c1730c6a77a3fc434d3ebe04ecf8399">mip_cc_http_delegate</a>* httpDelegate</td>
+          <td class="memname">const mip_cc_http_cancel_callback_fn <a class="el" href="#a547792356b33ce457e552680bd5aee87">mip_cc_http_delegate</a>* httpDelegate</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00128">128</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00129">129</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
 
 </div>
 </div>
@@ -512,7 +522,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00144">144</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00145">145</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
 
 </div>
 </div>
@@ -528,7 +538,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00146">146</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00147">147</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
 
 </div>
 </div>
@@ -544,7 +554,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00145">145</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00146">146</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
 
 </div>
 </div>

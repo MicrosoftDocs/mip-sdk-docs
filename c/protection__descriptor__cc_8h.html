@@ -114,6 +114,8 @@ $(function(){initNavTree('protection__descriptor__cc_8h.html',''); initResizable
 <code>#include &quot;<a class="el" href="dictionary__cc_8h_source.html">mip_cc/dictionary_cc.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="error__cc_8h_source.html">mip_cc/error_cc.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="result__cc_8h_source.html">mip_cc/result_cc.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="string__list__cc_8h_source.html">mip_cc/string_list_cc.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="dynamic__watermark__cc_8h_source.html">mip_cc/dynamic_watermark_cc.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for protection_descriptor_cc.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -121,28 +123,40 @@ $(function(){initNavTree('protection__descriptor__cc_8h.html',''); initResizable
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="protection__descriptor__cc_8h__incl.png" border="0" usemap="#asrc_2api_2mip__cc_2protection__descriptor__cc_8h" alt=""/></div>
 <map name="asrc_2api_2mip__cc_2protection__descriptor__cc_8h" id="asrc_2api_2mip__cc_2protection__descriptor__cc_8h">
-<area shape="rect" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="233,5,418,45"/>
-<area shape="rect" title=" " alt="" coords="96,93,160,119"/>
-<area shape="poly" title=" " alt="" coords="279,48,171,91,169,86,277,43"/>
-<area shape="rect" href="common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="5,240,211,265"/>
-<area shape="poly" title=" " alt="" coords="294,48,262,69,230,95,198,129,168,166,124,230,120,227,164,163,194,126,226,91,258,65,291,43"/>
-<area shape="rect" href="dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="240,93,411,119"/>
-<area shape="poly" title=" " alt="" coords="328,46,328,79,323,79,323,46"/>
-<area shape="rect" href="error__cc_8h.html" title="Error definition and functions." alt="" coords="387,167,523,192"/>
-<area shape="poly" title=" " alt="" coords="365,43,396,64,425,92,442,122,452,152,447,154,437,124,421,95,393,68,362,48"/>
-<area shape="rect" href="result__cc_8h.html" title="Defines success/error result codes." alt="" coords="337,240,479,265"/>
-<area shape="poly" title=" " alt="" coords="384,43,425,62,469,88,508,123,524,143,537,166,541,179,539,191,525,211,501,227,472,238,470,233,499,222,522,207,534,189,535,179,532,168,520,146,504,126,466,93,423,67,382,48"/>
-<area shape="rect" title=" " alt="" coords="162,313,233,339"/>
-<area shape="poly" title=" " alt="" coords="124,263,174,302,170,307,121,267"/>
-<area shape="rect" href="mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="257,313,442,339"/>
-<area shape="poly" title=" " alt="" coords="148,263,298,307,296,312,146,268"/>
-<area shape="poly" title=" " alt="" coords="321,120,214,302,209,300,316,118"/>
-<area shape="poly" title=" " alt="" coords="326,119,321,182,321,223,327,265,339,300,334,302,321,266,316,224,316,182,321,119"/>
-<area shape="poly" title=" " alt="" coords="347,116,422,157,420,162,345,121"/>
-<area shape="poly" title=" " alt="" coords="334,118,397,227,392,229,330,120"/>
-<area shape="poly" title=" " alt="" coords="449,194,425,230,421,227,445,191"/>
-<area shape="poly" title=" " alt="" coords="375,268,245,311,243,306,373,263"/>
-<area shape="poly" title=" " alt="" coords="400,267,369,305,365,301,396,264"/>
+<area shape="rect" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="366,5,551,45"/>
+<area shape="rect" title=" " alt="" coords="5,93,69,119"/>
+<area shape="poly" title=" " alt="" coords="366,44,236,66,83,96,82,91,235,61,365,38"/>
+<area shape="rect" href="common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="285,167,491,192"/>
+<area shape="poly" title=" " alt="" coords="391,48,357,67,342,80,330,94,326,111,332,127,345,143,360,157,357,161,341,146,328,130,321,111,326,92,338,76,354,63,389,43"/>
+<area shape="rect" href="dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="93,93,264,119"/>
+<area shape="poly" title=" " alt="" coords="392,48,234,92,232,87,391,43"/>
+<area shape="rect" href="error__cc_8h.html" title="Error definition and functions." alt="" coords="515,167,651,192"/>
+<area shape="poly" title=" " alt="" coords="530,43,565,62,580,76,593,92,599,107,600,124,595,154,590,153,595,123,594,108,588,95,577,80,562,67,527,48"/>
+<area shape="rect" href="result__cc_8h.html" title="Defines success/error result codes." alt="" coords="501,240,643,265"/>
+<area shape="poly" title=" " alt="" coords="552,27,634,34,718,45,791,64,819,76,838,92,852,119,852,132,848,145,830,167,802,187,766,204,726,218,647,240,645,234,725,213,764,199,799,182,827,163,844,142,847,132,847,120,834,95,816,81,790,69,717,50,633,39,552,33"/>
+<area shape="rect" href="string__list__cc_8h.html" title="Contains C API definitions for common string list." alt="" coords="654,93,823,119"/>
+<area shape="poly" title=" " alt="" coords="526,43,685,87,684,92,525,48"/>
+<area shape="rect" href="dynamic__watermark__cc_8h.html" title=" " alt="" coords="339,93,578,119"/>
+<area shape="poly" title=" " alt="" coords="461,46,461,79,456,79,456,46"/>
+<area shape="rect" title=" " alt="" coords="377,313,447,339"/>
+<area shape="poly" title=" " alt="" coords="393,192,410,299,405,300,387,193"/>
+<area shape="rect" href="mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="477,313,662,339"/>
+<area shape="poly" title=" " alt="" coords="403,190,491,263,544,303,541,307,488,267,400,194"/>
+<area shape="poly" title=" " alt="" coords="213,116,342,160,340,165,211,121"/>
+<area shape="poly" title=" " alt="" coords="177,120,169,148,163,186,165,227,171,246,181,264,192,273,209,282,257,298,364,317,363,322,256,303,207,287,189,278,177,267,166,249,160,228,157,186,164,147,172,118"/>
+<area shape="poly" title=" " alt="" coords="185,118,203,153,216,173,232,190,296,233,366,266,435,291,496,308,495,313,433,296,364,271,293,238,229,194,212,176,198,156,181,120"/>
+<area shape="poly" title=" " alt="" coords="244,116,505,162,504,167,243,121"/>
+<area shape="poly" title=" " alt="" coords="190,117,224,154,248,173,275,190,327,211,383,227,487,244,486,249,381,232,325,216,272,194,245,178,221,157,186,121"/>
+<area shape="poly" title=" " alt="" coords="584,193,578,227,573,226,578,192"/>
+<area shape="poly" title=" " alt="" coords="547,268,452,310,450,305,545,263"/>
+<area shape="poly" title=" " alt="" coords="574,266,573,300,568,300,569,266"/>
+<area shape="poly" title=" " alt="" coords="683,121,458,167,457,161,682,116"/>
+<area shape="poly" title=" " alt="" coords="739,120,730,150,715,190,691,232,657,268,582,289,461,317,460,311,581,284,655,263,686,229,710,187,725,148,734,118"/>
+<area shape="poly" title=" " alt="" coords="747,118,760,147,772,185,774,228,769,248,760,267,743,285,722,299,676,318,674,313,720,295,739,281,755,264,764,246,769,227,766,186,755,148,743,120"/>
+<area shape="poly" title=" " alt="" coords="715,121,622,163,620,158,713,116"/>
+<area shape="poly" title=" " alt="" coords="732,121,703,155,664,194,606,235,603,231,661,190,699,152,728,117"/>
+<area shape="poly" title=" " alt="" coords="449,121,411,159,407,155,445,117"/>
+<area shape="poly" title=" " alt="" coords="480,116,552,157,549,162,477,121"/>
 </map>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -152,21 +166,28 @@ $(function(){initNavTree('protection__descriptor__cc_8h.html',''); initResizable
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="protection__descriptor__cc_8h__dep__incl.png" border="0" usemap="#asrc_2api_2mip__cc_2protection__descriptor__cc_8hdep" alt=""/></div>
 <map name="asrc_2api_2mip__cc_2protection__descriptor__cc_8hdep" id="asrc_2api_2mip__cc_2protection__descriptor__cc_8hdep">
-<area shape="rect" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="104,5,289,45"/>
-<area shape="rect" href="protection__handler__cc_8h.html" title="Defines C&#45;Style ProtectionHandler interface." alt="" coords="5,93,191,133"/>
-<area shape="poly" title=" " alt="" coords="166,56,122,95,118,91,163,52"/>
-<area shape="rect" href="document__state__cc_8h.html" title="Describes document state when performing a label&#45;releated operation." alt="" coords="215,93,379,133"/>
-<area shape="poly" title=" " alt="" coords="231,52,276,91,273,95,227,56"/>
-<area shape="rect" href="protection__engine__cc_8h.html" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="5,181,191,221"/>
-<area shape="poly" title=" " alt="" coords="101,147,101,181,95,181,95,147"/>
-<area shape="rect" href="protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="5,269,191,309"/>
-<area shape="poly" title=" " alt="" coords="101,235,101,269,95,269,95,235"/>
-<area shape="rect" href="policy__handler__cc_8h.html" title="Contains C API definitions for policy handler." alt="" coords="219,181,374,221"/>
-<area shape="poly" title=" " alt="" coords="299,147,299,181,294,181,294,147"/>
-<area shape="rect" href="policy__engine__cc_8h.html" title="Contains C API definitions for policy engine." alt="" coords="222,269,371,309"/>
-<area shape="poly" title=" " alt="" coords="299,235,299,269,294,269,294,235"/>
-<area shape="rect" href="policy__profile__cc_8h.html" title="Contains C API definitions for policy profile." alt="" coords="223,357,370,397"/>
-<area shape="poly" title=" " alt="" coords="299,323,299,357,294,357,294,323"/>
+<area shape="rect" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="384,5,569,45"/>
+<area shape="rect" href="protection__handler__cc_8h.html" title="Defines C&#45;Style ProtectionHandler interface." alt="" coords="71,93,256,133"/>
+<area shape="poly" title=" " alt="" coords="395,52,233,96,231,91,394,46"/>
+<area shape="rect" href="user__rights__roles__cc_8h.html" title="Defines C&#45;Style user rights &amp; roles functions." alt="" coords="280,93,465,133"/>
+<area shape="poly" title=" " alt="" coords="445,56,397,95,394,91,441,52"/>
+<area shape="rect" href="protection__descriptor__builder__cc_8h.html" title="Defines C&#45;Style ProtectionDescriptorBuilder interface." alt="" coords="489,93,675,133"/>
+<area shape="poly" title=" " alt="" coords="512,52,560,91,557,95,509,56"/>
+<area shape="rect" href="document__state__cc_8h.html" title="Describes document state when performing a label&#45;related operation." alt="" coords="699,93,863,133"/>
+<area shape="poly" title=" " alt="" coords="558,47,715,91,713,96,556,52"/>
+<area shape="rect" href="delegation__license__cc_8h.html" title=" " alt="" coords="5,181,191,221"/>
+<area shape="poly" title=" " alt="" coords="143,146,115,183,110,179,139,143"/>
+<area shape="rect" href="protection__engine__cc_8h.html" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="71,269,256,309"/>
+<area shape="poly" title=" " alt="" coords="188,144,205,181,208,201,205,222,194,248,180,270,176,267,189,246,199,221,203,201,199,182,183,146"/>
+<area shape="poly" title=" " alt="" coords="123,231,151,267,147,271,119,234"/>
+<area shape="rect" href="protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="71,357,256,397"/>
+<area shape="poly" title=" " alt="" coords="166,323,166,357,161,357,161,323"/>
+<area shape="rect" href="policy__handler__cc_8h.html" title="Contains C API definitions for policy handler." alt="" coords="703,181,858,221"/>
+<area shape="poly" title=" " alt="" coords="783,147,783,181,778,181,778,147"/>
+<area shape="rect" href="policy__engine__cc_8h.html" title="Contains C API definitions for policy engine." alt="" coords="706,269,855,309"/>
+<area shape="poly" title=" " alt="" coords="783,235,783,269,778,269,778,235"/>
+<area shape="rect" href="policy__profile__cc_8h.html" title="Contains C API definitions for policy profile." alt="" coords="707,357,854,397"/>
+<area shape="poly" title=" " alt="" coords="783,323,783,357,778,357,778,323"/>
 </map>
 </div>
 </div>
@@ -183,8 +204,12 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a0957d65ef02c1883ef582aa2009d363d" id="r_a0957d65ef02c1883ef582aa2009d363d"><td class="memItemLeft" align="right" valign="top">typedef void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0957d65ef02c1883ef582aa2009d363d">mip_cc_protection_descriptor</a></td></tr>
-<tr class="separator:a0957d65ef02c1883ef582aa2009d363d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc1d4c7f60b9bcc6847ba24372c974f3" id="r_abc1d4c7f60b9bcc6847ba24372c974f3"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structmip__cc__handle.html">mip_cc_handle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc1d4c7f60b9bcc6847ba24372c974f3">mip_cc_protection_descriptor</a></td></tr>
+<tr class="separator:abc1d4c7f60b9bcc6847ba24372c974f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1889610ac287b3e9e3bb6bb7211711c1" id="r_a1889610ac287b3e9e3bb6bb7211711c1"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structmip__cc__handle.html">mip_cc_handle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1889610ac287b3e9e3bb6bb7211711c1">mip_cc_user_rights_result</a></td></tr>
+<tr class="separator:a1889610ac287b3e9e3bb6bb7211711c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b354133af4f59e8edc0511e3ba11cc4" id="r_a3b354133af4f59e8edc0511e3ba11cc4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structmip__cc__handle.html">mip_cc_handle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b354133af4f59e8edc0511e3ba11cc4">mip_cc_user_roles_result</a></td></tr>
+<tr class="separator:a3b354133af4f59e8edc0511e3ba11cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -202,7 +227,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a3208aff13953236552090072316ebfa1" id="r_a3208aff13953236552090072316ebfa1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3208aff13953236552090072316ebfa1">MIP_CC_API</a> (<a class="el" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_CreateProtectionDescriptorFromTemplate(const char *<a class="el" href="template__descriptor__cc_8h.html#acccabe38124b9cb12f19fb2a98166a93">templateId</a></td></tr>
 <tr class="memdesc:a3208aff13953236552090072316ebfa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a protection descriptor whose access permissions are defined by an RMS template.  <br /></td></tr>
 <tr class="separator:a3208aff13953236552090072316ebfa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0712531d029bdd9981336c125d62379" id="r_af0712531d029bdd9981336c125d62379"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0712531d029bdd9981336c125d62379">MIP_CC_API</a> (void) MIP_CC_ReleaseProtectionDescriptor(<a class="el" href="#a0957d65ef02c1883ef582aa2009d363d">mip_cc_protection_descriptor</a> <a class="el" href="#a9ddc5bb9cc5b14447eec07261e4176e6">protectionDescriptor</a>)</td></tr>
+<tr class="memitem:af0712531d029bdd9981336c125d62379" id="r_af0712531d029bdd9981336c125d62379"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0712531d029bdd9981336c125d62379">MIP_CC_API</a> (void) MIP_CC_ReleaseProtectionDescriptor(<a class="el" href="#abc1d4c7f60b9bcc6847ba24372c974f3">mip_cc_protection_descriptor</a> <a class="el" href="protection__descriptor__builder__cc_8h.html#a9ddc5bb9cc5b14447eec07261e4176e6">protectionDescriptor</a>)</td></tr>
 <tr class="memdesc:af0712531d029bdd9981336c125d62379"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release resources associated with a protection descriptor.  <br /></td></tr>
 <tr class="separator:af0712531d029bdd9981336c125d62379"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -216,14 +241,16 @@ Variables</h2></td></tr>
 <tr class="separator:a3d380e086155421c296c8e698ba06661"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a469a113420464f554db2c126a949237e" id="r_a469a113420464f554db2c126a949237e"><td class="memItemLeft" align="right" valign="top">char const int64_t int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a469a113420464f554db2c126a949237e">actualReferrerSize</a></td></tr>
 <tr class="separator:a469a113420464f554db2c126a949237e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c14c1f54e6e999e9dd8b130a8c4a2e5" id="r_a2c14c1f54e6e999e9dd8b130a8c4a2e5"><td class="memItemLeft" align="right" valign="top">char const int64_t int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c14c1f54e6e999e9dd8b130a8c4a2e5">actualUrlSize</a></td></tr>
+<tr class="separator:a2c14c1f54e6e999e9dd8b130a8c4a2e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a573397163a5578777733d8dae19902" id="r_a4a573397163a5578777733d8dae19902"><td class="memItemLeft" align="right" valign="top">const int64_t const char const char const char const time_t const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a573397163a5578777733d8dae19902">allowOfflineAccess</a></td></tr>
 <tr class="separator:a4a573397163a5578777733d8dae19902"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3557970d354bdad60342eb82bbbcf7b8" id="r_a3557970d354bdad60342eb82bbbcf7b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmip__cc__guid.html">mip_cc_guid</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3557970d354bdad60342eb82bbbcf7b8">contentId</a></td></tr>
 <tr class="separator:a3557970d354bdad60342eb82bbbcf7b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a967bfb9d177a731a53af52d6a7196c02" id="r_a967bfb9d177a731a53af52d6a7196c02"><td class="memItemLeft" align="right" valign="top">const int64_t const char const char const char const time_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a967bfb9d177a731a53af52d6a7196c02">contentValidUntil</a></td></tr>
-<tr class="separator:a967bfb9d177a731a53af52d6a7196c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37f78afa78994036aa8830bac0b4eddd" id="r_a37f78afa78994036aa8830bac0b4eddd"><td class="memItemLeft" align="right" valign="top">const int64_t const char const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37f78afa78994036aa8830bac0b4eddd">description</a></td></tr>
-<tr class="separator:a37f78afa78994036aa8830bac0b4eddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2c3c862cbd03ef12524e851010daa1b" id="r_ac2c3c862cbd03ef12524e851010daa1b"><td class="memItemLeft" align="right" valign="top">const int64_t const char const char const char const time_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2c3c862cbd03ef12524e851010daa1b">contentValidUntil</a></td></tr>
+<tr class="separator:ac2c3c862cbd03ef12524e851010daa1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8544358f1021eb119b4fa57c6474cb9" id="r_ad8544358f1021eb119b4fa57c6474cb9"><td class="memItemLeft" align="right" valign="top">const int64_t const char const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8544358f1021eb119b4fa57c6474cb9">description</a></td></tr>
+<tr class="separator:ad8544358f1021eb119b4fa57c6474cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a151d4b86c91aa1a7234ebf3ecbfe34df" id="r_a151d4b86c91aa1a7234ebf3ecbfe34df"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a151d4b86c91aa1a7234ebf3ecbfe34df">descriptionBuffer</a></td></tr>
 <tr class="separator:a151d4b86c91aa1a7234ebf3ecbfe34df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdaf6e69ad6199b6ee303df17a0593e6" id="r_acdaf6e69ad6199b6ee303df17a0593e6"><td class="memItemLeft" align="right" valign="top">char const int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdaf6e69ad6199b6ee303df17a0593e6">descriptionBufferSize</a></td></tr>
@@ -234,14 +261,16 @@ Variables</h2></td></tr>
 <tr class="separator:a61670ab35e47996fc36d46370f5d30af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f79bd3baade1984cf17761d1de8b11d" id="r_a6f79bd3baade1984cf17761d1de8b11d"><td class="memItemLeft" align="right" valign="top">bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f79bd3baade1984cf17761d1de8b11d">doesContentExpire</a></td></tr>
 <tr class="separator:a6f79bd3baade1984cf17761d1de8b11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0356afe321ef84ba81f32f6418f6922e" id="r_a0356afe321ef84ba81f32f6418f6922e"><td class="memItemLeft" align="right" valign="top">const int64_t const char const char const char const time_t const bool const <a class="el" href="dictionary__cc_8h.html#aa600c4bfebf2082097685bd74fabfd51">mip_cc_dictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0356afe321ef84ba81f32f6418f6922e">encryptedAppData</a></td></tr>
-<tr class="separator:a0356afe321ef84ba81f32f6418f6922e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a915d58ed9d10f42cc2f1e1a3bfac3134" id="r_a915d58ed9d10f42cc2f1e1a3bfac3134"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="dictionary__cc_8h.html#aa600c4bfebf2082097685bd74fabfd51">mip_cc_dictionary</a> <a class="el" href="#a0957d65ef02c1883ef582aa2009d363d">mip_cc_protection_descriptor</a> <a class="el" href="structmip__cc__error.html">mip_cc_error</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a915d58ed9d10f42cc2f1e1a3bfac3134">errorInfo</a></td></tr>
-<tr class="separator:a915d58ed9d10f42cc2f1e1a3bfac3134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a191e6d79f9db124d785a186bd9090b18" id="r_a191e6d79f9db124d785a186bd9090b18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dynamic__watermark__cc_8h.html#a6aee7f0e37bf53942ac1fe0d50463bfa">mip_cc_dynamic_watermark</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a191e6d79f9db124d785a186bd9090b18">dynamicWatermark</a></td></tr>
+<tr class="separator:a191e6d79f9db124d785a186bd9090b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01cb0bf68fe6d6f1cbd5bb408dd211af" id="r_a01cb0bf68fe6d6f1cbd5bb408dd211af"><td class="memItemLeft" align="right" valign="top">const int64_t const char const char const char const time_t const bool const <a class="el" href="dictionary__cc_8h.html#a41c9504735733b4261e3ec1a85e8bcb5">mip_cc_dictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01cb0bf68fe6d6f1cbd5bb408dd211af">encryptedAppData</a></td></tr>
+<tr class="separator:a01cb0bf68fe6d6f1cbd5bb408dd211af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2461b814f4f48390cb9b6bb97fe8f23f" id="r_a2461b814f4f48390cb9b6bb97fe8f23f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="dictionary__cc_8h.html#a41c9504735733b4261e3ec1a85e8bcb5">mip_cc_dictionary</a> <a class="el" href="#abc1d4c7f60b9bcc6847ba24372c974f3">mip_cc_protection_descriptor</a> <a class="el" href="structmip__cc__error.html">mip_cc_error</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2461b814f4f48390cb9b6bb97fe8f23f">errorInfo</a></td></tr>
+<tr class="separator:a2461b814f4f48390cb9b6bb97fe8f23f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a426f5f06931efc7a67be48915b4331" id="r_a5a426f5f06931efc7a67be48915b4331"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmip__cc__guid.html">mip_cc_guid</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a426f5f06931efc7a67be48915b4331">labelId</a></td></tr>
 <tr class="separator:a5a426f5f06931efc7a67be48915b4331"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e6d4ff9e66553448e6cd215514fb726" id="r_a5e6d4ff9e66553448e6cd215514fb726"><td class="memItemLeft" align="right" valign="top">const int64_t const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e6d4ff9e66553448e6cd215514fb726">name</a></td></tr>
-<tr class="separator:a5e6d4ff9e66553448e6cd215514fb726"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afebcff30c2ce3e361dde01f6618e5c46" id="r_afebcff30c2ce3e361dde01f6618e5c46"><td class="memItemLeft" align="right" valign="top">const int64_t const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afebcff30c2ce3e361dde01f6618e5c46">name</a></td></tr>
+<tr class="separator:afebcff30c2ce3e361dde01f6618e5c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5139600313428d7fa76b36ea5178062" id="r_ae5139600313428d7fa76b36ea5178062"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5139600313428d7fa76b36ea5178062">nameBuffer</a></td></tr>
 <tr class="separator:ae5139600313428d7fa76b36ea5178062"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad1e48454f426340f9cc9b44b4ad230a" id="r_aad1e48454f426340f9cc9b44b4ad230a"><td class="memItemLeft" align="right" valign="top">char const int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad1e48454f426340f9cc9b44b4ad230a">nameBufferSize</a></td></tr>
@@ -254,8 +283,8 @@ Variables</h2></td></tr>
 <tr class="separator:af07eaea80c1c4a0d1b723e91cc0456fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa651b65338adef95e6689a29088e968f" id="r_aa651b65338adef95e6689a29088e968f"><td class="memItemLeft" align="right" valign="top">int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa651b65338adef95e6689a29088e968f">ownerSize</a></td></tr>
 <tr class="separator:aa651b65338adef95e6689a29088e968f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ddc5bb9cc5b14447eec07261e4176e6" id="r_a9ddc5bb9cc5b14447eec07261e4176e6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="dictionary__cc_8h.html#aa600c4bfebf2082097685bd74fabfd51">mip_cc_dictionary</a> <a class="el" href="#a0957d65ef02c1883ef582aa2009d363d">mip_cc_protection_descriptor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ddc5bb9cc5b14447eec07261e4176e6">protectionDescriptor</a></td></tr>
-<tr class="separator:a9ddc5bb9cc5b14447eec07261e4176e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a340054084ce4823568291945d9bbf2ba" id="r_a340054084ce4823568291945d9bbf2ba"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="dictionary__cc_8h.html#a41c9504735733b4261e3ec1a85e8bcb5">mip_cc_dictionary</a> <a class="el" href="#abc1d4c7f60b9bcc6847ba24372c974f3">mip_cc_protection_descriptor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a340054084ce4823568291945d9bbf2ba">protectionDescriptor</a></td></tr>
+<tr class="separator:a340054084ce4823568291945d9bbf2ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af73a250c1fd4c732b04d943d2234d8d8" id="r_af73a250c1fd4c732b04d943d2234d8d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a40a1e2cb0d53f1730cdd4213d1dbf85d">mip_cc_protection_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af73a250c1fd4c732b04d943d2234d8d8">protectionType</a></td></tr>
 <tr class="separator:af73a250c1fd4c732b04d943d2234d8d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6306bc2585c77d7d99081b8bd1bff7b8" id="r_a6306bc2585c77d7d99081b8bd1bff7b8"><td class="memItemLeft" align="right" valign="top">const int64_t const char const char const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6306bc2585c77d7d99081b8bd1bff7b8">referrer</a></td></tr>
@@ -266,33 +295,75 @@ Variables</h2></td></tr>
 <tr class="separator:a483986d556bc54ae94a5bec9afb41674"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaec46ed9b0604c33999d25f00dbb6e0" id="r_abaec46ed9b0604c33999d25f00dbb6e0"><td class="memItemLeft" align="right" valign="top">int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaec46ed9b0604c33999d25f00dbb6e0">referrerSize</a></td></tr>
 <tr class="separator:abaec46ed9b0604c33999d25f00dbb6e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a214ec095fc6b0ec1b0de06cef5092cfb" id="r_a214ec095fc6b0ec1b0de06cef5092cfb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="dictionary__cc_8h.html#aa600c4bfebf2082097685bd74fabfd51">mip_cc_dictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a214ec095fc6b0ec1b0de06cef5092cfb">signedAppData</a></td></tr>
-<tr class="separator:a214ec095fc6b0ec1b0de06cef5092cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a482a7cac727cb5fe88f21881f9de464f" id="r_a482a7cac727cb5fe88f21881f9de464f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="dictionary__cc_8h.html#a41c9504735733b4261e3ec1a85e8bcb5">mip_cc_dictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a482a7cac727cb5fe88f21881f9de464f">signedAppData</a></td></tr>
+<tr class="separator:a482a7cac727cb5fe88f21881f9de464f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acccabe38124b9cb12f19fb2a98166a93" id="r_acccabe38124b9cb12f19fb2a98166a93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmip__cc__guid.html">mip_cc_guid</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acccabe38124b9cb12f19fb2a98166a93">templateId</a></td></tr>
 <tr class="separator:acccabe38124b9cb12f19fb2a98166a93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee40663774bf74a5093acd318f2de576" id="r_aee40663774bf74a5093acd318f2de576"><td class="memItemLeft" align="right" valign="top">const int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee40663774bf74a5093acd318f2de576">userRightsCount</a></td></tr>
-<tr class="separator:aee40663774bf74a5093acd318f2de576"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93d253df82801c9833728eb9fdfbf2e0" id="r_a93d253df82801c9833728eb9fdfbf2e0"><td class="memItemLeft" align="right" valign="top">const int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93d253df82801c9833728eb9fdfbf2e0">userRolesCount</a></td></tr>
-<tr class="separator:a93d253df82801c9833728eb9fdfbf2e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a51a58a5bf27e7075a0a8c0a3197136" id="r_a7a51a58a5bf27e7075a0a8c0a3197136"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a51a58a5bf27e7075a0a8c0a3197136">urlBuffer</a></td></tr>
+<tr class="separator:a7a51a58a5bf27e7075a0a8c0a3197136"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a717dab76ecbb4b8240699319b22d8ebb" id="r_a717dab76ecbb4b8240699319b22d8ebb"><td class="memItemLeft" align="right" valign="top">char const int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a717dab76ecbb4b8240699319b22d8ebb">urlBufferSize</a></td></tr>
+<tr class="separator:a717dab76ecbb4b8240699319b22d8ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1a90724d4422c096dff83696af1adc5" id="r_aa1a90724d4422c096dff83696af1adc5"><td class="memItemLeft" align="right" valign="top">int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1a90724d4422c096dff83696af1adc5">urlSize</a></td></tr>
+<tr class="separator:aa1a90724d4422c096dff83696af1adc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52c46bca59e40b531677b30a4995ce06" id="r_a52c46bca59e40b531677b30a4995ce06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1889610ac287b3e9e3bb6bb7211711c1">mip_cc_user_rights_result</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52c46bca59e40b531677b30a4995ce06">userRights</a></td></tr>
+<tr class="separator:a52c46bca59e40b531677b30a4995ce06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ea62a118c2de9d8c8c8493cd1204915" id="r_a9ea62a118c2de9d8c8c8493cd1204915"><td class="memItemLeft" align="right" valign="top">const int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ea62a118c2de9d8c8c8493cd1204915">userRightsCount</a></td></tr>
+<tr class="separator:a9ea62a118c2de9d8c8c8493cd1204915"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef81740861d4761a620f55f476a33120" id="r_aef81740861d4761a620f55f476a33120"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3b354133af4f59e8edc0511e3ba11cc4">mip_cc_user_roles_result</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef81740861d4761a620f55f476a33120">userRoles</a></td></tr>
+<tr class="separator:aef81740861d4761a620f55f476a33120"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb058121c850db07c00d844d6a7debe6" id="r_afb058121c850db07c00d844d6a7debe6"><td class="memItemLeft" align="right" valign="top">const int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb058121c850db07c00d844d6a7debe6">userRolesCount</a></td></tr>
+<tr class="separator:afb058121c850db07c00d844d6a7debe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines C-Style ProtectionDescriptor interface. </p>
 
 <p class="definition">Definition in file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
-<a id="a0957d65ef02c1883ef582aa2009d363d" name="a0957d65ef02c1883ef582aa2009d363d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0957d65ef02c1883ef582aa2009d363d">&#9670;&#160;</a></span>mip_cc_protection_descriptor</h2>
+<a id="abc1d4c7f60b9bcc6847ba24372c974f3" name="abc1d4c7f60b9bcc6847ba24372c974f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc1d4c7f60b9bcc6847ba24372c974f3">&#9670;&#160;</a></span>mip_cc_protection_descriptor</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void* <a class="el" href="#a0957d65ef02c1883ef582aa2009d363d">mip_cc_protection_descriptor</a></td>
+          <td class="memname">typedef <a class="el" href="structmip__cc__handle.html">mip_cc_handle</a>* <a class="el" href="#abc1d4c7f60b9bcc6847ba24372c974f3">mip_cc_protection_descriptor</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00043">43</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00045">45</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="a1889610ac287b3e9e3bb6bb7211711c1" name="a1889610ac287b3e9e3bb6bb7211711c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1889610ac287b3e9e3bb6bb7211711c1">&#9670;&#160;</a></span>mip_cc_user_rights_result</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="structmip__cc__handle.html">mip_cc_handle</a>* <a class="el" href="#a1889610ac287b3e9e3bb6bb7211711c1">mip_cc_user_rights_result</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00046">46</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="a3b354133af4f59e8edc0511e3ba11cc4" name="a3b354133af4f59e8edc0511e3ba11cc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b354133af4f59e8edc0511e3ba11cc4">&#9670;&#160;</a></span>mip_cc_user_roles_result</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="structmip__cc__handle.html">mip_cc_handle</a>* <a class="el" href="#a3b354133af4f59e8edc0511e3ba11cc4">mip_cc_user_roles_result</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00047">47</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -317,14 +388,14 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00048">48</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   48</span>             {</div>
-<div class="line"><span class="lineno">   49</span>  <a class="code hl_enumvalue" href="#a40a1e2cb0d53f1730cdd4213d1dbf85da772df0f6d1140b4720772b7de0c2b0c1">MIP_PROTECTION_TYPE_TEMPLATE_BASED</a> = 0, <span class="comment">/**&lt; Based on an RMS template */</span></div>
-<div class="line"><span class="lineno">   50</span>  <a class="code hl_enumvalue" href="#a40a1e2cb0d53f1730cdd4213d1dbf85da1ea2ebab11433f1f26b5f7404cbe47d1">MIP_PROTECTION_TYPE_CUSTOM</a> = 1,         <span class="comment">/**&lt; Custom, ad-hoc protection */</span></div>
-<div class="line"><span class="lineno">   51</span>} <a class="code hl_enumeration" href="#a40a1e2cb0d53f1730cdd4213d1dbf85d">mip_cc_protection_type</a>;</div>
-<div class="ttc" id="aprotection__descriptor__cc_8h_html_a40a1e2cb0d53f1730cdd4213d1dbf85d"><div class="ttname"><a href="#a40a1e2cb0d53f1730cdd4213d1dbf85d">mip_cc_protection_type</a></div><div class="ttdeci">mip_cc_protection_type</div><div class="ttdoc">A description of whether protection is defined by a template or ad-hoc.</div><div class="ttdef"><b>Definition</b> <a href="protection__descriptor__cc_8h_source.html#l00048">protection_descriptor_cc.h:48</a></div></div>
-<div class="ttc" id="aprotection__descriptor__cc_8h_html_a40a1e2cb0d53f1730cdd4213d1dbf85da1ea2ebab11433f1f26b5f7404cbe47d1"><div class="ttname"><a href="#a40a1e2cb0d53f1730cdd4213d1dbf85da1ea2ebab11433f1f26b5f7404cbe47d1">MIP_PROTECTION_TYPE_CUSTOM</a></div><div class="ttdeci">@ MIP_PROTECTION_TYPE_CUSTOM</div><div class="ttdoc">Custom, ad-hoc protection.</div><div class="ttdef"><b>Definition</b> <a href="protection__descriptor__cc_8h_source.html#l00050">protection_descriptor_cc.h:50</a></div></div>
-<div class="ttc" id="aprotection__descriptor__cc_8h_html_a40a1e2cb0d53f1730cdd4213d1dbf85da772df0f6d1140b4720772b7de0c2b0c1"><div class="ttname"><a href="#a40a1e2cb0d53f1730cdd4213d1dbf85da772df0f6d1140b4720772b7de0c2b0c1">MIP_PROTECTION_TYPE_TEMPLATE_BASED</a></div><div class="ttdeci">@ MIP_PROTECTION_TYPE_TEMPLATE_BASED</div><div class="ttdoc">Based on an RMS template.</div><div class="ttdef"><b>Definition</b> <a href="protection__descriptor__cc_8h_source.html#l00049">protection_descriptor_cc.h:49</a></div></div>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00052">52</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   52</span>             {</div>
+<div class="line"><span class="lineno">   53</span>  <a class="code hl_enumvalue" href="#a40a1e2cb0d53f1730cdd4213d1dbf85da772df0f6d1140b4720772b7de0c2b0c1">MIP_PROTECTION_TYPE_TEMPLATE_BASED</a> = 0, <span class="comment">/**&lt; Based on an RMS template */</span></div>
+<div class="line"><span class="lineno">   54</span>  <a class="code hl_enumvalue" href="#a40a1e2cb0d53f1730cdd4213d1dbf85da1ea2ebab11433f1f26b5f7404cbe47d1">MIP_PROTECTION_TYPE_CUSTOM</a> = 1,         <span class="comment">/**&lt; Custom, ad-hoc protection */</span></div>
+<div class="line"><span class="lineno">   55</span>} <a class="code hl_enumeration" href="#a40a1e2cb0d53f1730cdd4213d1dbf85d">mip_cc_protection_type</a>;</div>
+<div class="ttc" id="aprotection__descriptor__cc_8h_html_a40a1e2cb0d53f1730cdd4213d1dbf85d"><div class="ttname"><a href="#a40a1e2cb0d53f1730cdd4213d1dbf85d">mip_cc_protection_type</a></div><div class="ttdeci">mip_cc_protection_type</div><div class="ttdoc">A description of whether protection is defined by a template or ad-hoc.</div><div class="ttdef"><b>Definition</b> <a href="protection__descriptor__cc_8h_source.html#l00052">protection_descriptor_cc.h:52</a></div></div>
+<div class="ttc" id="aprotection__descriptor__cc_8h_html_a40a1e2cb0d53f1730cdd4213d1dbf85da1ea2ebab11433f1f26b5f7404cbe47d1"><div class="ttname"><a href="#a40a1e2cb0d53f1730cdd4213d1dbf85da1ea2ebab11433f1f26b5f7404cbe47d1">MIP_PROTECTION_TYPE_CUSTOM</a></div><div class="ttdeci">@ MIP_PROTECTION_TYPE_CUSTOM</div><div class="ttdoc">Custom, ad-hoc protection.</div><div class="ttdef"><b>Definition</b> <a href="protection__descriptor__cc_8h_source.html#l00054">protection_descriptor_cc.h:54</a></div></div>
+<div class="ttc" id="aprotection__descriptor__cc_8h_html_a40a1e2cb0d53f1730cdd4213d1dbf85da772df0f6d1140b4720772b7de0c2b0c1"><div class="ttname"><a href="#a40a1e2cb0d53f1730cdd4213d1dbf85da772df0f6d1140b4720772b7de0c2b0c1">MIP_PROTECTION_TYPE_TEMPLATE_BASED</a></div><div class="ttdeci">@ MIP_PROTECTION_TYPE_TEMPLATE_BASED</div><div class="ttdoc">Based on an RMS template.</div><div class="ttdef"><b>Definition</b> <a href="protection__descriptor__cc_8h_source.html#l00053">protection_descriptor_cc.h:53</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -345,6 +416,13 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates a protection descriptor whose access permissions are defined by an RMS template. </p>
+<p>Gets the dynamic watermark.</p>
+<p>Gets List of users-to-roles mappings.</p>
+<p>Gets list of users-to-rights mappings.</p>
+<p>Gets double key URL.</p>
+<p>Gets size of buffer required to store double key URL.</p>
+<p>Gets encrypted application data.</p>
+<p>Gets signed application data.</p>
 <p>Gets protection referrer.</p>
 <p>Gets size of buffer required to store referrer.</p>
 <p>Gets whether or not offline access is allowed.</p>
@@ -502,6 +580,7 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>Note</dt><dd>Publishing licenses will have this identifier surrounded by curly braces "{}". Those braces are removed from the value stored in contentId</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -550,7 +629,78 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
-<dl class="section note"><dt>Note</dt><dd>If referrerBuffer is null or insufficient, MIP_RESULT_ERROR_INSUFFICIENT_BUFFER will be returned and actualReferrerSize will be set to the minimum required buffer size. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If referrerBuffer is null or insufficient, MIP_RESULT_ERROR_INSUFFICIENT_BUFFER will be returned and actualReferrerSize will be set to the minimum required buffer size.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">protectionDescriptor</td><td>Descriptor associated with protected content </td></tr>
+    <tr><td class="paramname">signedAppData</td><td>[Output] Dictionary of key value pairs that are signed as part of publishing license. It is the caller's responsibility to release this dictionary with MIP_CC_ReleaseDictionary </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">protectionDescriptor</td><td>Descriptor associated with protected content </td></tr>
+    <tr><td class="paramname">encryptedAppData</td><td>[Output] Dictionary of key value pairs that are encrypted as part of publishing license. It is the caller's responsibility to release this dictionary with MIP_CC_ReleaseDictionary </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">protectionDescriptor</td><td>Descriptor associated with protected content </td></tr>
+    <tr><td class="paramname">url</td><td>[Output] Size of buffer to hold double key URL (in number of chars) </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">protectionDescriptor</td><td>Descriptor associated with protected content </td></tr>
+    <tr><td class="paramname">urlBuffer</td><td>[Output] Buffer the url will be copied into. </td></tr>
+    <tr><td class="paramname">urlBufferSize</td><td>Size (in number of chars) of the urlBuffer. </td></tr>
+    <tr><td class="paramname">actualUrlSize</td><td>[Output] Number of chars written to the buffer </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If urlBuffer is null or insufficient, MIP_RESULT_ERROR_INSUFFICIENT_BUFFER will be returned and actualUrlSize will be set to the minimum required buffer size.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">protectionDescriptor</td><td>Descriptor associated with protected content </td></tr>
+    <tr><td class="paramname">userRights</td><td>[Output] List of users-to-rights mappings. It is the caller's responsibility to release this list with MIP_CC_ReleaseUserRightsResult </td></tr>
+    <tr><td class="paramname">userRightsCount</td><td>[Output] Number of user/rights groups </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The value of the UserRights property will be empty if the current user doesn't have access to this information (that is, if the user does not have the VIEWRIGHTSDATA right or is not the owner of the content).</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">protectionDescriptor</td><td>Descriptor associated with protected content </td></tr>
+    <tr><td class="paramname">userRoles</td><td>[Output] Gets List of users-to-roles mappings. It is the caller's responsibility to release this list with MIP_CC_ReleaseUserRolesResult </td></tr>
+    <tr><td class="paramname">userRolesCount</td><td>[Output] Number of user/roles groups <br  />
+ </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">protectionDescriptor</td><td>The protection descriptor from which to retrieve the dynamic watermark </td></tr>
+    <tr><td class="paramname">dynamicWatermark</td><td>[Output] The retrieved dynamic watermark (null if not present) </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation results is failure</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The returned 'dynamicWatermark' (mip_cc_dynamic_watermark*) must be freed by calling MIP_CC_ReleaseDynamicWatermark </dd></dl>
 
 </div>
 </div>
@@ -592,7 +742,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00263">263</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00267">267</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -608,7 +758,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00228">228</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00232">232</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -624,7 +774,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00193">193</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00197">197</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -640,7 +790,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00382">382</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00389">389</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="a2c14c1f54e6e999e9dd8b130a8c4a2e5" name="a2c14c1f54e6e999e9dd8b130a8c4a2e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c14c1f54e6e999e9dd8b130a8c4a2e5">&#9670;&#160;</a></span>actualUrlSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char const int64_t int64_t* actualUrlSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00454">454</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -656,7 +822,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00112">112</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00116">116</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -672,39 +838,39 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00305">305</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00312">312</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
-<a id="a967bfb9d177a731a53af52d6a7196c02" name="a967bfb9d177a731a53af52d6a7196c02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a967bfb9d177a731a53af52d6a7196c02">&#9670;&#160;</a></span>contentValidUntil</h2>
+<a id="ac2c3c862cbd03ef12524e851010daa1b" name="ac2c3c862cbd03ef12524e851010daa1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2c3c862cbd03ef12524e851010daa1b">&#9670;&#160;</a></span>contentValidUntil</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int64_t * contentValidUntil</td>
+          <td class="memname">int64_t* contentValidUntil</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00111">111</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00115">115</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
-<a id="a37f78afa78994036aa8830bac0b4eddd" name="a37f78afa78994036aa8830bac0b4eddd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37f78afa78994036aa8830bac0b4eddd">&#9670;&#160;</a></span>description</h2>
+<a id="ad8544358f1021eb119b4fa57c6474cb9" name="ad8544358f1021eb119b4fa57c6474cb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8544358f1021eb119b4fa57c6474cb9">&#9670;&#160;</a></span>description</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int64_t const char const char * description</td>
+          <td class="memname">const int64_t const char const char* description</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00109">109</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00113">113</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -720,7 +886,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00261">261</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00265">265</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -736,7 +902,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00262">262</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00266">266</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -752,7 +918,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00242">242</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00246">246</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -768,7 +934,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00347">347</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00354">354</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -784,39 +950,55 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00319">319</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00326">326</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
-<a id="a0356afe321ef84ba81f32f6418f6922e" name="a0356afe321ef84ba81f32f6418f6922e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0356afe321ef84ba81f32f6418f6922e">&#9670;&#160;</a></span>encryptedAppData</h2>
+<a id="a191e6d79f9db124d785a186bd9090b18" name="a191e6d79f9db124d785a186bd9090b18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a191e6d79f9db124d785a186bd9090b18">&#9670;&#160;</a></span>dynamicWatermark</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int64_t const char const char const char const time_t const bool const <a class="el" href="dictionary__cc_8h.html#aa600c4bfebf2082097685bd74fabfd51">mip_cc_dictionary</a> encryptedAppData</td>
+          <td class="memname"><a class="el" href="dynamic__watermark__cc_8h.html#a6aee7f0e37bf53942ac1fe0d50463bfa">mip_cc_dynamic_watermark</a>* dynamicWatermark</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00113">113</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00508">508</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
-<a id="a915d58ed9d10f42cc2f1e1a3bfac3134" name="a915d58ed9d10f42cc2f1e1a3bfac3134"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a915d58ed9d10f42cc2f1e1a3bfac3134">&#9670;&#160;</a></span>errorInfo</h2>
+<a id="a01cb0bf68fe6d6f1cbd5bb408dd211af" name="a01cb0bf68fe6d6f1cbd5bb408dd211af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01cb0bf68fe6d6f1cbd5bb408dd211af">&#9670;&#160;</a></span>encryptedAppData</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">char const int64_t int64_t <a class="el" href="structmip__cc__error.html">mip_cc_error</a>* errorInfo</td>
+          <td class="memname"><a class="el" href="dictionary__cc_8h.html#a41c9504735733b4261e3ec1a85e8bcb5">mip_cc_dictionary</a> * encryptedAppData</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00087">87</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00117">117</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="a2461b814f4f48390cb9b6bb97fe8f23f" name="a2461b814f4f48390cb9b6bb97fe8f23f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2461b814f4f48390cb9b6bb97fe8f23f">&#9670;&#160;</a></span>errorInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dynamic__watermark__cc_8h.html#a6aee7f0e37bf53942ac1fe0d50463bfa">mip_cc_dynamic_watermark</a> <a class="el" href="structmip__cc__error.html">mip_cc_error</a>* errorInfo</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00091">91</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -832,23 +1014,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00291">291</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00295">295</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
-<a id="a5e6d4ff9e66553448e6cd215514fb726" name="a5e6d4ff9e66553448e6cd215514fb726"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e6d4ff9e66553448e6cd215514fb726">&#9670;&#160;</a></span>name</h2>
+<a id="afebcff30c2ce3e361dde01f6618e5c46" name="afebcff30c2ce3e361dde01f6618e5c46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afebcff30c2ce3e361dde01f6618e5c46">&#9670;&#160;</a></span>name</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int64_t const char * name</td>
+          <td class="memname">const int64_t const char* name</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00108">108</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00112">112</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -864,7 +1046,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00226">226</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00230">230</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -880,7 +1062,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00227">227</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00231">231</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -896,7 +1078,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00207">207</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00211">211</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -912,7 +1094,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00191">191</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00195">195</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -928,7 +1110,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00192">192</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00196">196</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -944,23 +1126,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00172">172</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00176">176</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
-<a id="a9ddc5bb9cc5b14447eec07261e4176e6" name="a9ddc5bb9cc5b14447eec07261e4176e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ddc5bb9cc5b14447eec07261e4176e6">&#9670;&#160;</a></span>protectionDescriptor</h2>
+<a id="a340054084ce4823568291945d9bbf2ba" name="a340054084ce4823568291945d9bbf2ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a340054084ce4823568291945d9bbf2ba">&#9670;&#160;</a></span>protectionDescriptor</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int64_t const char const char const char const time_t const bool const <a class="el" href="dictionary__cc_8h.html#aa600c4bfebf2082097685bd74fabfd51">mip_cc_dictionary</a> const <a class="el" href="dictionary__cc_8h.html#aa600c4bfebf2082097685bd74fabfd51">mip_cc_dictionary</a> <a class="el" href="#a0957d65ef02c1883ef582aa2009d363d">mip_cc_protection_descriptor</a> * protectionDescriptor</td>
+          <td class="memname">const int64_t const char const char const char const time_t const bool const <a class="el" href="dictionary__cc_8h.html#a41c9504735733b4261e3ec1a85e8bcb5">mip_cc_dictionary</a> const <a class="el" href="dictionary__cc_8h.html#a41c9504735733b4261e3ec1a85e8bcb5">mip_cc_dictionary</a> <a class="el" href="#abc1d4c7f60b9bcc6847ba24372c974f3">mip_cc_protection_descriptor</a>* protectionDescriptor</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00086">86</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00090">90</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -976,7 +1158,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00158">158</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00162">162</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -992,7 +1174,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00110">110</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00114">114</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1008,7 +1190,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00380">380</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00387">387</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1024,7 +1206,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00381">381</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00388">388</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1040,23 +1222,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00361">361</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00368">368</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
-<a id="a214ec095fc6b0ec1b0de06cef5092cfb" name="a214ec095fc6b0ec1b0de06cef5092cfb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a214ec095fc6b0ec1b0de06cef5092cfb">&#9670;&#160;</a></span>signedAppData</h2>
+<a id="a482a7cac727cb5fe88f21881f9de464f" name="a482a7cac727cb5fe88f21881f9de464f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a482a7cac727cb5fe88f21881f9de464f">&#9670;&#160;</a></span>signedAppData</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int64_t const char const char const char const time_t const bool const <a class="el" href="dictionary__cc_8h.html#aa600c4bfebf2082097685bd74fabfd51">mip_cc_dictionary</a> const <a class="el" href="dictionary__cc_8h.html#aa600c4bfebf2082097685bd74fabfd51">mip_cc_dictionary</a> signedAppData</td>
+          <td class="memname"><a class="el" href="dictionary__cc_8h.html#a41c9504735733b4261e3ec1a85e8bcb5">mip_cc_dictionary</a> * signedAppData</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00085">85</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00089">89</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1072,39 +1254,119 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00277">277</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00281">281</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
-<a id="aee40663774bf74a5093acd318f2de576" name="aee40663774bf74a5093acd318f2de576"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee40663774bf74a5093acd318f2de576">&#9670;&#160;</a></span>userRightsCount</h2>
+<a id="a7a51a58a5bf27e7075a0a8c0a3197136" name="a7a51a58a5bf27e7075a0a8c0a3197136"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a51a58a5bf27e7075a0a8c0a3197136">&#9670;&#160;</a></span>urlBuffer</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int64_t userRightsCount</td>
+          <td class="memname">char* urlBuffer</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00107">107</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00452">452</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
-<a id="a93d253df82801c9833728eb9fdfbf2e0" name="a93d253df82801c9833728eb9fdfbf2e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93d253df82801c9833728eb9fdfbf2e0">&#9670;&#160;</a></span>userRolesCount</h2>
+<a id="a717dab76ecbb4b8240699319b22d8ebb" name="a717dab76ecbb4b8240699319b22d8ebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a717dab76ecbb4b8240699319b22d8ebb">&#9670;&#160;</a></span>urlBufferSize</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int64_t userRolesCount</td>
+          <td class="memname">char const int64_t urlBufferSize</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00136">136</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00453">453</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="aa1a90724d4422c096dff83696af1adc5" name="aa1a90724d4422c096dff83696af1adc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1a90724d4422c096dff83696af1adc5">&#9670;&#160;</a></span>urlSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t* urlSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00433">433</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="a52c46bca59e40b531677b30a4995ce06" name="a52c46bca59e40b531677b30a4995ce06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52c46bca59e40b531677b30a4995ce06">&#9670;&#160;</a></span>userRights</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a1889610ac287b3e9e3bb6bb7211711c1">mip_cc_user_rights_result</a>* userRights</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00473">473</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="a9ea62a118c2de9d8c8c8493cd1204915" name="a9ea62a118c2de9d8c8c8493cd1204915"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ea62a118c2de9d8c8c8493cd1204915">&#9670;&#160;</a></span>userRightsCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a1889610ac287b3e9e3bb6bb7211711c1">mip_cc_user_rights_result</a> int64_t* userRightsCount</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00111">111</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="aef81740861d4761a620f55f476a33120" name="aef81740861d4761a620f55f476a33120"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef81740861d4761a620f55f476a33120">&#9670;&#160;</a></span>userRoles</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a3b354133af4f59e8edc0511e3ba11cc4">mip_cc_user_roles_result</a>* userRoles</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00490">490</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="afb058121c850db07c00d844d6a7debe6" name="afb058121c850db07c00d844d6a7debe6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb058121c850db07c00d844d6a7debe6">&#9670;&#160;</a></span>userRolesCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a3b354133af4f59e8edc0511e3ba11cc4">mip_cc_user_roles_result</a> int64_t* userRolesCount</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00140">140</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>

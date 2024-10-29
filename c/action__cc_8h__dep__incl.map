@@ -14,18 +14,18 @@
 <area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1199,53,1080,103,1078,98,1197,48"/>
 <area shape="rect" id="Node000011" href="$protect__adhoc__dk__action__cc_8h.html" title=" " alt="" coords="1144,101,1365,141"/>
 <area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1257,59,1257,101,1252,101,1252,59"/>
-<area shape="rect" id="Node000012" href="$protect__by__template__action__cc_8h.html" title="Contains C API definitions for &quot;protect by template&quot; label policy action." alt="" coords="1390,93,1551,148"/>
-<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1312,48,1411,91,1409,96,1310,53"/>
-<area shape="rect" id="Node000013" href="$protect__by__template__dk__action__cc_8h.html" title="Contains C API definitions for &quot;protect by template&quot; label policy action." alt="" coords="1575,93,1737,148"/>
-<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1340,41,1565,91,1576,94,1575,99,1563,96,1339,46"/>
-<area shape="rect" id="Node000014" href="$protect__do__not__forward__dk__action__cc_8h.html" title="Contains C API definitions for &quot;protect do not forward&quot; label policy action." alt="" coords="1761,93,1941,148"/>
-<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="1340,32,1529,55,1750,91,1761,93,1760,98,1749,96,1528,60,1340,38"/>
-<area shape="rect" id="Node000015" href="$remove__content__footer__action__cc_8h.html" title="Contains C API definitions for &quot;remove content footer&quot; label policy action." alt="" coords="1965,93,2144,148"/>
-<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="1340,28,1614,47,1784,66,1954,91,1966,93,1965,98,1953,96,1783,71,1613,53,1339,33"/>
-<area shape="rect" id="Node000016" href="$remove__content__header__action__cc_8h.html" title="Contains C API definitions for &quot;remove content header&quot; label policy action." alt="" coords="2168,93,2352,148"/>
-<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="1340,25,1494,31,1697,42,1926,61,2156,91,2168,93,2167,98,2156,96,1925,66,1697,47,1493,36,1340,31"/>
-<area shape="rect" id="Node000017" href="$remove__watermark__action__cc_8h.html" title="Contains C API definitions for &quot;remove watermark&quot; label policy action." alt="" coords="2376,101,2611,141"/>
-<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="1340,25,1525,30,1780,41,2070,60,2364,91,2410,98,2409,103,2364,96,2070,65,1779,46,1525,35,1340,30"/>
+<area shape="rect" id="Node000012" href="$protect__by__encrypt__only__action__cc_8h.html" title="Contains C API definitions for &quot;protect by encrypt only&quot; label policy action." alt="" coords="1390,93,1541,148"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1311,48,1407,91,1405,96,1308,53"/>
+<area shape="rect" id="Node000013" href="$protect__by__template__action__cc_8h.html" title="Contains C API definitions for &quot;protect by template&quot; label policy action." alt="" coords="1565,93,1726,148"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1340,42,1554,91,1565,94,1564,99,1553,96,1339,47"/>
+<area shape="rect" id="Node000014" href="$protect__do__not__forward__dk__action__cc_8h.html" title="Contains C API definitions for &quot;protect do not forward&quot; label policy action." alt="" coords="1750,93,1930,148"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="1340,33,1524,56,1739,91,1750,93,1749,98,1738,96,1523,61,1340,38"/>
+<area shape="rect" id="Node000015" href="$remove__content__footer__action__cc_8h.html" title="Contains C API definitions for &quot;remove content footer&quot; label policy action." alt="" coords="1955,93,2133,148"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="1340,28,1610,48,1776,66,1943,91,1955,93,1954,98,1942,96,1776,71,1609,53,1340,33"/>
+<area shape="rect" id="Node000016" href="$remove__content__header__action__cc_8h.html" title="Contains C API definitions for &quot;remove content header&quot; label policy action." alt="" coords="2157,93,2341,148"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="1340,26,1491,31,1692,42,1918,61,2146,91,2158,93,2157,98,2145,96,1918,66,1692,47,1491,36,1339,31"/>
+<area shape="rect" id="Node000017" href="$remove__watermark__action__cc_8h.html" title="Contains C API definitions for &quot;remove watermark&quot; label policy action." alt="" coords="2365,101,2600,141"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="1340,25,1523,30,1775,41,2063,60,2354,91,2399,98,2398,103,2353,96,2062,66,1775,46,1523,35,1340,31"/>
 <area shape="rect" id="Node000003" href="$policy__handler__cc_8h.html" title="Contains C API definitions for policy handler." alt="" coords="5,196,160,236"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,154,85,196,80,196,80,154"/>
 <area shape="rect" id="Node000004" href="$policy__engine__cc_8h.html" title="Contains C API definitions for policy engine." alt="" coords="8,284,157,324"/>

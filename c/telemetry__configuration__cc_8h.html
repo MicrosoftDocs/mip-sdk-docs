@@ -112,6 +112,7 @@ $(function(){initNavTree('telemetry__configuration__cc_8h.html',''); initResizab
 <code>#include &quot;<a class="el" href="dictionary__cc_8h_source.html">mip_cc/dictionary_cc.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="error__cc_8h_source.html">mip_cc/error_cc.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="http__delegate__cc_8h_source.html">mip_cc/http_delegate_cc.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="task__dispatcher__delegate__cc_8h_source.html">mip_cc/task_dispatcher_delegate_cc.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for telemetry_configuration_cc.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -119,35 +120,45 @@ $(function(){initNavTree('telemetry__configuration__cc_8h.html',''); initResizab
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="telemetry__configuration__cc_8h__incl.png" border="0" usemap="#asrc_2api_2mip__cc_2telemetry__configuration__cc_8h" alt=""/></div>
 <map name="asrc_2api_2mip__cc_2telemetry__configuration__cc_8h" id="asrc_2api_2mip__cc_2telemetry__configuration__cc_8h">
-<area shape="rect" title="Defines custom telemetry settings." alt="" coords="234,5,417,45"/>
-<area shape="rect" title=" " alt="" coords="83,93,160,119"/>
-<area shape="poly" title=" " alt="" coords="277,48,165,91,163,86,276,43"/>
-<area shape="rect" href="common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="5,240,211,265"/>
-<area shape="poly" title=" " alt="" coords="294,48,262,69,230,95,198,129,168,166,124,230,120,227,164,163,194,126,226,91,258,65,291,43"/>
-<area shape="rect" href="dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="240,93,411,119"/>
-<area shape="poly" title=" " alt="" coords="328,46,328,79,323,79,323,46"/>
-<area shape="rect" href="error__cc_8h.html" title="Error definition and functions." alt="" coords="387,167,523,192"/>
-<area shape="poly" title=" " alt="" coords="365,43,396,64,425,92,442,122,452,152,447,154,437,124,421,95,393,68,362,48"/>
-<area shape="rect" href="http__delegate__cc_8h.html" title="Defines HTTP callback functions." alt="" coords="500,93,695,119"/>
-<area shape="poly" title=" " alt="" coords="391,43,545,87,544,92,390,48"/>
-<area shape="rect" title=" " alt="" coords="217,313,287,339"/>
-<area shape="poly" title=" " alt="" coords="132,263,217,305,215,309,130,268"/>
-<area shape="rect" href="mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="313,313,498,339"/>
-<area shape="poly" title=" " alt="" coords="156,263,345,307,343,313,155,268"/>
-<area shape="poly" title=" " alt="" coords="316,121,298,142,282,168,270,202,262,238,255,300,250,299,257,237,265,201,278,166,294,139,312,117"/>
-<area shape="poly" title=" " alt="" coords="325,119,319,147,314,184,316,225,328,264,346,287,369,304,366,309,342,291,323,267,311,226,309,184,313,146,319,118"/>
-<area shape="poly" title=" " alt="" coords="347,116,422,157,420,162,345,121"/>
-<area shape="rect" href="result__cc_8h.html" title="Defines success/error result codes." alt="" coords="337,240,479,265"/>
-<area shape="poly" title=" " alt="" coords="334,118,397,227,392,229,330,120"/>
-<area shape="poly" title=" " alt="" coords="449,194,425,230,421,227,445,191"/>
-<area shape="poly" title=" " alt="" coords="384,268,291,310,289,305,382,263"/>
-<area shape="poly" title=" " alt="" coords="410,266,409,300,404,300,405,266"/>
-<area shape="poly" title=" " alt="" coords="597,120,587,154,568,193,536,237,493,268,302,316,300,311,491,263,532,233,563,191,582,152,592,118"/>
-<area shape="poly" title=" " alt="" coords="608,118,624,146,640,185,645,228,642,248,631,267,611,282,580,295,503,314,501,308,579,290,609,278,627,264,636,246,640,227,635,187,619,149,603,120"/>
-<area shape="poly" title=" " alt="" coords="576,121,491,163,489,158,573,116"/>
-<area shape="poly" title=" " alt="" coords="593,121,571,156,536,194,498,219,458,238,455,233,495,215,533,190,567,153,589,118"/>
-<area shape="rect" title=" " alt="" coords="699,167,773,192"/>
-<area shape="poly" title=" " alt="" coords="621,116,702,158,700,163,618,121"/>
+<area shape="rect" title="Defines custom telemetry settings." alt="" coords="284,5,466,45"/>
+<area shape="rect" title=" " alt="" coords="40,101,118,126"/>
+<area shape="poly" title=" " alt="" coords="300,48,131,96,123,98,121,93,129,91,299,43"/>
+<area shape="rect" href="common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="132,181,338,207"/>
+<area shape="poly" title=" " alt="" coords="372,46,355,89,342,113,326,135,301,159,273,177,270,173,297,155,322,132,338,110,350,87,367,44"/>
+<area shape="rect" href="dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="142,101,312,126"/>
+<area shape="poly" title=" " alt="" coords="344,48,260,96,257,92,341,43"/>
+<area shape="rect" href="error__cc_8h.html" title="Error definition and functions." alt="" coords="362,181,498,207"/>
+<area shape="poly" title=" " alt="" coords="384,45,424,167,419,169,379,47"/>
+<area shape="rect" href="http__delegate__cc_8h.html" title="Defines HTTP callback functions." alt="" coords="438,101,632,126"/>
+<area shape="poly" title=" " alt="" coords="411,43,503,92,501,97,409,48"/>
+<area shape="rect" href="task__dispatcher__delegate__cc_8h.html" title="Defines task dispatcher callback functions." alt="" coords="657,93,832,133"/>
+<area shape="poly" title=" " alt="" coords="457,43,651,88,650,93,456,48"/>
+<area shape="rect" title=" " alt="" coords="345,328,416,353"/>
+<area shape="poly" title=" " alt="" coords="243,206,261,240,290,278,318,301,346,319,343,324,314,305,286,282,257,243,238,208"/>
+<area shape="rect" href="mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="440,328,625,353"/>
+<area shape="poly" title=" " alt="" coords="253,205,306,239,375,278,431,302,484,321,482,326,429,307,373,282,304,244,250,209"/>
+<area shape="poly" title=" " alt="" coords="231,126,235,167,230,168,226,126"/>
+<area shape="poly" title=" " alt="" coords="170,129,85,152,49,167,28,183,13,208,8,231,13,254,28,278,48,293,78,305,160,323,251,332,331,336,331,341,251,337,159,328,76,311,45,298,24,282,8,256,3,231,8,206,24,180,47,162,83,147,168,123"/>
+<area shape="poly" title=" " alt="" coords="190,129,155,142,124,161,113,171,106,182,105,193,111,205,132,225,164,244,253,277,356,304,451,323,450,328,355,309,252,282,162,248,128,229,106,208,100,194,101,180,109,167,121,156,153,138,188,124"/>
+<area shape="poly" title=" " alt="" coords="258,124,389,174,387,179,256,128"/>
+<area shape="rect" href="result__cc_8h.html" title="Defines success/error result codes." alt="" coords="385,255,528,280"/>
+<area shape="poly" title=" " alt="" coords="196,129,163,143,134,162,123,172,117,183,117,194,122,205,138,217,161,228,225,244,300,255,372,260,371,266,299,260,224,250,160,233,135,222,118,208,111,195,112,182,119,169,130,158,161,138,194,124"/>
+<area shape="poly" title=" " alt="" coords="437,206,450,241,445,243,432,208"/>
+<area shape="poly" title=" " alt="" coords="446,282,405,320,401,317,442,278"/>
+<area shape="poly" title=" " alt="" coords="470,278,512,317,508,320,467,282"/>
+<area shape="poly" title=" " alt="" coords="492,129,292,181,291,175,491,123"/>
+<area shape="poly" title=" " alt="" coords="542,126,552,155,559,196,559,240,553,262,542,282,525,296,497,309,430,330,428,325,495,304,522,292,538,278,548,260,553,239,554,196,547,157,537,127"/>
+<area shape="poly" title=" " alt="" coords="556,124,583,147,597,163,607,180,617,208,621,231,617,254,607,281,590,305,568,323,565,319,586,301,602,279,612,253,615,231,612,209,602,182,592,166,580,151,552,128"/>
+<area shape="poly" title=" " alt="" coords="521,128,458,175,455,171,518,124"/>
+<area shape="poly" title=" " alt="" coords="536,127,529,164,512,208,482,247,478,243,507,205,524,162,531,126"/>
+<area shape="rect" title=" " alt="" coords="674,181,748,207"/>
+<area shape="poly" title=" " alt="" coords="562,124,674,173,672,178,560,128"/>
+<area shape="poly" title=" " alt="" coords="657,134,645,136,335,182,334,177,644,131,656,129"/>
+<area shape="poly" title=" " alt="" coords="765,132,778,149,788,168,792,189,785,208,767,222,734,237,637,270,430,329,428,324,636,265,732,232,765,217,781,205,787,188,783,170,773,151,761,135"/>
+<area shape="poly" title=" " alt="" coords="800,131,832,151,857,180,871,207,876,232,872,257,857,282,843,294,822,304,769,319,704,330,639,337,639,331,704,325,767,314,821,299,840,289,853,278,867,255,871,232,866,209,853,183,828,155,797,136"/>
+<area shape="poly" title=" " alt="" coords="670,136,489,181,488,175,668,131"/>
+<area shape="poly" title=" " alt="" coords="758,133,771,169,771,190,763,208,748,221,727,231,671,247,606,257,542,264,541,259,605,252,670,241,725,226,745,216,758,205,766,189,766,170,753,134"/>
+<area shape="poly" title=" " alt="" coords="739,135,724,170,719,167,734,133"/>
 </map>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -157,13 +168,18 @@ $(function(){initNavTree('telemetry__configuration__cc_8h.html',''); initResizab
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="telemetry__configuration__cc_8h__dep__incl.png" border="0" usemap="#asrc_2api_2mip__cc_2telemetry__configuration__cc_8hdep" alt=""/></div>
 <map name="asrc_2api_2mip__cc_2telemetry__configuration__cc_8hdep" id="asrc_2api_2mip__cc_2telemetry__configuration__cc_8hdep">
-<area shape="rect" title="Defines custom telemetry settings." alt="" coords="101,5,284,45"/>
-<area shape="rect" href="mip__context__cc_8h.html" title="Defines C&#45;Style MipContext functions." alt="" coords="121,93,265,133"/>
-<area shape="poly" title=" " alt="" coords="195,59,195,93,190,93,190,59"/>
-<area shape="rect" href="protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="5,181,191,221"/>
-<area shape="poly" title=" " alt="" coords="163,145,121,183,117,179,160,141"/>
-<area shape="rect" href="policy__profile__cc_8h.html" title="Contains C API definitions for policy profile." alt="" coords="215,181,362,221"/>
-<area shape="poly" title=" " alt="" coords="226,141,269,179,266,183,223,145"/>
+<area shape="rect" title="Defines custom telemetry settings." alt="" coords="137,5,320,45"/>
+<area shape="rect" href="mip__context__cc_8h.html" title="Defines C&#45;Style MipContext functions." alt="" coords="157,93,301,133"/>
+<area shape="poly" title=" " alt="" coords="231,59,231,93,226,93,226,59"/>
+<area shape="rect" href="delegation__license__cc_8h.html" title=" " alt="" coords="5,181,191,221"/>
+<area shape="poly" title=" " alt="" coords="190,143,128,183,125,179,187,139"/>
+<area shape="rect" href="protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="71,357,256,397"/>
+<area shape="poly" title=" " alt="" coords="231,147,225,223,218,267,206,310,194,336,180,359,175,356,189,334,201,308,213,266,220,222,226,147"/>
+<area shape="rect" href="policy__profile__cc_8h.html" title="Contains C API definitions for policy profile." alt="" coords="266,181,413,221"/>
+<area shape="poly" title=" " alt="" coords="266,140,316,179,313,183,263,144"/>
+<area shape="rect" href="protection__engine__cc_8h.html" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="5,269,191,309"/>
+<area shape="poly" title=" " alt="" coords="101,235,101,269,95,269,95,235"/>
+<area shape="poly" title=" " alt="" coords="123,319,151,355,147,359,119,322"/>
 </map>
 </div>
 </div>
@@ -171,63 +187,65 @@ $(function(){initNavTree('telemetry__configuration__cc_8h.html',''); initResizab
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:aa8d1d09910a310b1fe88f6dc0e3d9b96" id="r_aa8d1d09910a310b1fe88f6dc0e3d9b96"><td class="memItemLeft" align="right" valign="top">typedef void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8d1d09910a310b1fe88f6dc0e3d9b96">mip_cc_telemetry_configuration</a></td></tr>
-<tr class="separator:aa8d1d09910a310b1fe88f6dc0e3d9b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af48ba9c47b87995fba4351f33ea48599" id="r_af48ba9c47b87995fba4351f33ea48599"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structmip__cc__handle.html">mip_cc_handle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af48ba9c47b87995fba4351f33ea48599">mip_cc_telemetry_configuration</a></td></tr>
+<tr class="separator:af48ba9c47b87995fba4351f33ea48599"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1a637787f60db4f83885571d1a6dc2ca" id="r_a1a637787f60db4f83885571d1a6dc2ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a637787f60db4f83885571d1a6dc2ca">MIP_CC_API</a> (<a class="el" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_CreateTelemetryConfiguration(<a class="el" href="#aa8d1d09910a310b1fe88f6dc0e3d9b96">mip_cc_telemetry_configuration</a> *telemetryConfig</td></tr>
+<tr class="memitem:a1a637787f60db4f83885571d1a6dc2ca" id="r_a1a637787f60db4f83885571d1a6dc2ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a637787f60db4f83885571d1a6dc2ca">MIP_CC_API</a> (<a class="el" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_CreateTelemetryConfiguration(<a class="el" href="#af48ba9c47b87995fba4351f33ea48599">mip_cc_telemetry_configuration</a> *telemetryConfig</td></tr>
 <tr class="memdesc:a1a637787f60db4f83885571d1a6dc2ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a settings object used to create a protection profile.  <br /></td></tr>
 <tr class="separator:a1a637787f60db4f83885571d1a6dc2ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e2b08b336401d3b29d9fc177b647783" id="r_a1e2b08b336401d3b29d9fc177b647783"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e2b08b336401d3b29d9fc177b647783">MIP_CC_API</a> (void) MIP_CC_ReleaseTelemetryConfiguration(<a class="el" href="#aa8d1d09910a310b1fe88f6dc0e3d9b96">mip_cc_telemetry_configuration</a> telemetryConfig)</td></tr>
+<tr class="memitem:a1e2b08b336401d3b29d9fc177b647783" id="r_a1e2b08b336401d3b29d9fc177b647783"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e2b08b336401d3b29d9fc177b647783">MIP_CC_API</a> (void) MIP_CC_ReleaseTelemetryConfiguration(<a class="el" href="#af48ba9c47b87995fba4351f33ea48599">mip_cc_telemetry_configuration</a> telemetryConfig)</td></tr>
 <tr class="memdesc:a1e2b08b336401d3b29d9fc177b647783"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release resources associated with a protection profile settings.  <br /></td></tr>
 <tr class="separator:a1e2b08b336401d3b29d9fc177b647783"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a9d7dd47c739aad5603092e877886c39f" id="r_a9d7dd47c739aad5603092e877886c39f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="dictionary__cc_8h.html#aa600c4bfebf2082097685bd74fabfd51">mip_cc_dictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d7dd47c739aad5603092e877886c39f">customSettings</a></td></tr>
+<tr class="memitem:a9d7dd47c739aad5603092e877886c39f" id="r_a9d7dd47c739aad5603092e877886c39f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="dictionary__cc_8h.html#a41c9504735733b4261e3ec1a85e8bcb5">mip_cc_dictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d7dd47c739aad5603092e877886c39f">customSettings</a></td></tr>
 <tr class="separator:a9d7dd47c739aad5603092e877886c39f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ec1a885edee10caf91b431cc4e4e2d7" id="r_a1ec1a885edee10caf91b431cc4e4e2d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmip__cc__error.html">mip_cc_error</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ec1a885edee10caf91b431cc4e4e2d7">errorInfo</a></td></tr>
-<tr class="separator:a1ec1a885edee10caf91b431cc4e4e2d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a756370afa9d7c9d96072ccf96878e331" id="r_a756370afa9d7c9d96072ccf96878e331"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmip__cc__error.html">mip_cc_error</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a756370afa9d7c9d96072ccf96878e331">errorInfo</a></td></tr>
+<tr class="separator:a756370afa9d7c9d96072ccf96878e331"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a588256e9f596ec4a4d1396a554a68d3f" id="r_a588256e9f596ec4a4d1396a554a68d3f"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a588256e9f596ec4a4d1396a554a68d3f">eventName</a></td></tr>
 <tr class="separator:a588256e9f596ec4a4d1396a554a68d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d8db6a08f3fbd921a1f69dbf812f680" id="r_a9d8db6a08f3fbd921a1f69dbf812f680"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d8db6a08f3fbd921a1f69dbf812f680">hostName</a></td></tr>
 <tr class="separator:a9d8db6a08f3fbd921a1f69dbf812f680"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5337a2ead87aeb03d4ae400565967e3" id="r_ac5337a2ead87aeb03d4ae400565967e3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="http__delegate__cc_8h.html#a3c1730c6a77a3fc434d3ebe04ecf8399">mip_cc_http_delegate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5337a2ead87aeb03d4ae400565967e3">httpDelegate</a></td></tr>
+<tr class="memitem:ac5337a2ead87aeb03d4ae400565967e3" id="r_ac5337a2ead87aeb03d4ae400565967e3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="http__delegate__cc_8h.html#a547792356b33ce457e552680bd5aee87">mip_cc_http_delegate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5337a2ead87aeb03d4ae400565967e3">httpDelegate</a></td></tr>
 <tr class="separator:ac5337a2ead87aeb03d4ae400565967e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99f5f9462faceba43132fb41e3e04a3d" id="r_a99f5f9462faceba43132fb41e3e04a3d"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99f5f9462faceba43132fb41e3e04a3d">isCachingEnabled</a></td></tr>
 <tr class="separator:a99f5f9462faceba43132fb41e3e04a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed2daec8b3813e4e6c4a50f143e28d5b" id="r_aed2daec8b3813e4e6c4a50f143e28d5b"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed2daec8b3813e4e6c4a50f143e28d5b">isFastShutdownEnabled</a></td></tr>
 <tr class="separator:aed2daec8b3813e4e6c4a50f143e28d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c0e5c9179d66a5d366a8cf81e576dc9" id="r_a7c0e5c9179d66a5d366a8cf81e576dc9"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c0e5c9179d66a5d366a8cf81e576dc9">isMinimalTelemetryEnabled</a></td></tr>
+<tr class="separator:a7c0e5c9179d66a5d366a8cf81e576dc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1a37e8e4ce3ba31c39d129ae9e831c3" id="r_af1a37e8e4ce3ba31c39d129ae9e831c3"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1a37e8e4ce3ba31c39d129ae9e831c3">isNetworkDetectionEnabled</a></td></tr>
 <tr class="separator:af1a37e8e4ce3ba31c39d129ae9e831c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8d5625e1ae11f4a35d93408d09dacf7" id="r_ad8d5625e1ae11f4a35d93408d09dacf7"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8d5625e1ae11f4a35d93408d09dacf7">isTelemetryOptedOut</a></td></tr>
-<tr class="separator:ad8d5625e1ae11f4a35d93408d09dacf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0790e27d26e3ecb4c66dce62329fff1" id="r_ad0790e27d26e3ecb4c66dce62329fff1"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0790e27d26e3ecb4c66dce62329fff1">isTraceLoggingEnabled</a></td></tr>
 <tr class="separator:ad0790e27d26e3ecb4c66dce62329fff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac56671309b02ac240fa9dc5bf05cfd26" id="r_ac56671309b02ac240fa9dc5bf05cfd26"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac56671309b02ac240fa9dc5bf05cfd26">libraryName</a></td></tr>
 <tr class="separator:ac56671309b02ac240fa9dc5bf05cfd26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab1d35d09ec212e766102cc761b33557" id="r_aab1d35d09ec212e766102cc761b33557"><td class="memItemLeft" align="right" valign="top">const char const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab1d35d09ec212e766102cc761b33557">propertyName</a></td></tr>
 <tr class="separator:aab1d35d09ec212e766102cc761b33557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae700328510bfbb8794bf9dadcc09ed81" id="r_ae700328510bfbb8794bf9dadcc09ed81"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="task__dispatcher__delegate__cc_8h.html#a08112461ad0266194b2ba364f9b3c89a">mip_cc_task_dispatcher_delegate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae700328510bfbb8794bf9dadcc09ed81">taskDispatcherDelegate</a></td></tr>
+<tr class="separator:ae700328510bfbb8794bf9dadcc09ed81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines custom telemetry settings. </p>
 
 <p class="definition">Definition in file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
-<a id="aa8d1d09910a310b1fe88f6dc0e3d9b96" name="aa8d1d09910a310b1fe88f6dc0e3d9b96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8d1d09910a310b1fe88f6dc0e3d9b96">&#9670;&#160;</a></span>mip_cc_telemetry_configuration</h2>
+<a id="af48ba9c47b87995fba4351f33ea48599" name="af48ba9c47b87995fba4351f33ea48599"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af48ba9c47b87995fba4351f33ea48599">&#9670;&#160;</a></span>mip_cc_telemetry_configuration</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void* <a class="el" href="#aa8d1d09910a310b1fe88f6dc0e3d9b96">mip_cc_telemetry_configuration</a></td>
+          <td class="memname">typedef <a class="el" href="structmip__cc__handle.html">mip_cc_handle</a>* <a class="el" href="#af48ba9c47b87995fba4351f33ea48599">mip_cc_telemetry_configuration</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00043">43</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00044">44</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
 
 </div>
 </div>
@@ -255,6 +273,7 @@ Variables</h2></td></tr>
 <p>Sets whether or not the telemetry component is allowed to write logs to disk.</p>
 <p>Sets whether or not the telemetry component is allowed to write caches to disk.</p>
 <p>Sets whether or not the telemetry component is allowed ping network status on a background thread.</p>
+<p>Override default async task dispatcher with client's own.</p>
 <p>Override default telemetry HTTP stack with client's own.</p>
 <p>Set a telemetry shared library override.</p>
 <p>Set a telemetry host name which will override internal telemetry settings.</p>
@@ -299,6 +318,15 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">telemetryConfig</td><td>Telemetry configuration </td></tr>
+    <tr><td class="paramname">taskDispatcherDelegate</td><td>Task dispatcher callback instance implemented by client application </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">telemetryConfig</td><td>Telemetry configuration </td></tr>
     <tr><td class="paramname">isCachingEnabled</td><td>Whether or not the telemetry component is allowed ping network status on a background thread </td></tr>
     <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
   </table>
@@ -319,7 +347,7 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">telemetryConfig</td><td>Telemetry configuration </td></tr>
-    <tr><td class="paramname">isTraceLoggingEnabled</td><td>Whether or not the telemetry component is allowed to write logs to disk </td></tr>
+    <tr><td class="paramname">isTraceLoggingEnabled</td><td>Whether or not the telemetry component is allowed to write logs to disk. These files can grow to be very large, and may require manual cleanup from the host application. </td></tr>
     <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
   </table>
   </dd>
@@ -329,7 +357,7 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">telemetryConfig</td><td>Telemetry configuration </td></tr>
-    <tr><td class="paramname">isTelemetryOptedOut</td><td>Whether or not an application/user has opted out of optional telemetry </td></tr>
+    <tr><td class="paramname">isMinimalTelemetryEnabled</td><td>Whether or not an application/user has opted out of optional telemetry </td></tr>
     <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
   </table>
   </dd>
@@ -401,28 +429,28 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="dictionary__cc_8h.html#aa600c4bfebf2082097685bd74fabfd51">mip_cc_dictionary</a> customSettings</td>
+          <td class="memname">const <a class="el" href="dictionary__cc_8h.html#a41c9504735733b4261e3ec1a85e8bcb5">mip_cc_dictionary</a> customSettings</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00198">198</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00214">214</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
 
 </div>
 </div>
-<a id="a1ec1a885edee10caf91b431cc4e4e2d7" name="a1ec1a885edee10caf91b431cc4e4e2d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ec1a885edee10caf91b431cc4e4e2d7">&#9670;&#160;</a></span>errorInfo</h2>
+<a id="a756370afa9d7c9d96072ccf96878e331" name="a756370afa9d7c9d96072ccf96878e331"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a756370afa9d7c9d96072ccf96878e331">&#9670;&#160;</a></span>errorInfo</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const char const char <a class="el" href="structmip__cc__error.html">mip_cc_error</a>* errorInfo</td>
+          <td class="memname">const <a class="el" href="task__dispatcher__delegate__cc_8h.html#a08112461ad0266194b2ba364f9b3c89a">mip_cc_task_dispatcher_delegate</a> <a class="el" href="structmip__cc__error.html">mip_cc_error</a>* errorInfo</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00055">55</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00056">56</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
 
 </div>
 </div>
@@ -438,7 +466,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00213">213</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00229">229</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
 
 </div>
 </div>
@@ -454,7 +482,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00071">71</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00072">72</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
 
 </div>
 </div>
@@ -465,12 +493,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="http__delegate__cc_8h.html#a3c1730c6a77a3fc434d3ebe04ecf8399">mip_cc_http_delegate</a> httpDelegate</td>
+          <td class="memname">const <a class="el" href="http__delegate__cc_8h.html#a547792356b33ce457e552680bd5aee87">mip_cc_http_delegate</a> httpDelegate</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00104">104</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00105">105</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
 
 </div>
 </div>
@@ -486,7 +514,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00136">136</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00151">151</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
 
 </div>
 </div>
@@ -498,6 +526,22 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const bool isFastShutdownEnabled</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00200">200</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="a7c0e5c9179d66a5d366a8cf81e576dc9" name="a7c0e5c9179d66a5d366a8cf81e576dc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c0e5c9179d66a5d366a8cf81e576dc9">&#9670;&#160;</a></span>isMinimalTelemetryEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool isMinimalTelemetryEnabled</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -518,23 +562,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00120">120</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
-
-</div>
-</div>
-<a id="ad8d5625e1ae11f4a35d93408d09dacf7" name="ad8d5625e1ae11f4a35d93408d09dacf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8d5625e1ae11f4a35d93408d09dacf7">&#9670;&#160;</a></span>isTelemetryOptedOut</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const bool isTelemetryOptedOut</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00168">168</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00135">135</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
 
 </div>
 </div>
@@ -550,7 +578,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00152">152</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00168">168</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
 
 </div>
 </div>
@@ -566,7 +594,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00088">88</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00089">89</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
 
 </div>
 </div>
@@ -582,7 +610,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00214">214</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00230">230</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
+
+</div>
+</div>
+<a id="ae700328510bfbb8794bf9dadcc09ed81" name="ae700328510bfbb8794bf9dadcc09ed81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae700328510bfbb8794bf9dadcc09ed81">&#9670;&#160;</a></span>taskDispatcherDelegate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="task__dispatcher__delegate__cc_8h.html#a08112461ad0266194b2ba364f9b3c89a">mip_cc_task_dispatcher_delegate</a> taskDispatcherDelegate</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="telemetry__configuration__cc_8h_source.html#l00119">119</a> of file <a class="el" href="telemetry__configuration__cc_8h_source.html">telemetry_configuration_cc.h</a>.</p>
 
 </div>
 </div>

@@ -1,16 +1,20 @@
 <map id="src/api/mip_cc/task_dispatcher_delegate_cc.h" name="src/api/mip_cc/task_dispatcher_delegate_cc.h">
-<area shape="rect" id="Node000001" title="Defines task dispatcher callback functions." alt="" coords="125,5,320,45"/>
+<area shape="rect" id="Node000001" title="Defines task dispatcher callback functions." alt="" coords="196,5,391,45"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,93,80,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,48,83,90,81,85,178,43"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="137,240,207,265"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,47,165,68,145,94,137,129,140,165,150,199,162,227,157,229,144,200,135,166,132,128,140,92,161,64,187,43"/>
-<area shape="rect" id="Node000004" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="155,93,291,119"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="225,46,225,79,220,79,220,46"/>
-<area shape="rect" id="Node000005" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="177,167,319,192"/>
-<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="259,43,285,64,305,92,308,111,302,129,277,159,273,156,298,127,303,111,300,94,281,68,255,47"/>
-<area shape="rect" id="Node000006" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="258,240,443,265"/>
-<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="267,43,298,64,325,92,341,126,350,162,355,226,349,226,345,163,336,128,320,95,295,68,264,48"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="229,118,242,153,237,155,224,120"/>
-<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="238,194,196,232,193,229,234,190"/>
-<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="266,190,324,230,321,234,263,194"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,48,93,92,92,87,233,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="222,240,293,265"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="262,48,232,69,199,96,168,129,145,168,142,179,144,190,158,208,182,224,210,236,208,240,179,228,154,212,139,192,137,179,140,166,164,126,195,92,229,64,259,43"/>
+<area shape="rect" id="Node000004" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="155,167,360,192"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="291,46,266,154,261,152,286,45"/>
+<area shape="rect" id="Node000005" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="363,240,549,265"/>
+<area shape="poly" id="edge10_Node000001_Node000005" title=" " alt="" coords="392,34,457,54,489,70,516,91,538,115,550,139,552,164,542,193,523,218,498,236,495,231,519,214,538,191,547,164,545,140,533,118,513,95,486,74,455,59,390,39"/>
+<area shape="rect" id="Node000006" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="367,93,503,119"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="328,43,403,84,400,89,326,48"/>
+<area shape="rect" id="Node000007" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="385,167,527,192"/>
+<area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="305,44,326,80,357,117,386,140,418,158,415,163,384,144,353,121,322,83,300,47"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="260,192,260,226,255,226,255,192"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="290,190,411,233,410,238,288,195"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="441,118,451,153,446,154,436,120"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="425,195,304,238,302,233,423,190"/>
+<area shape="poly" id="edge9_Node000007_Node000005" title=" " alt="" coords="459,192,459,226,453,226,453,192"/>
 </map>

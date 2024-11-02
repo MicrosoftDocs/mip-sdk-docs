@@ -69,12 +69,12 @@ var NAVTREEINDEX =
 "classFileProfile_1_1Settings.html#a0def4fe84383f1edd6b8cc90320254b5",
 "classLicenseConnectionInfo.html#a5aa0c3eff88987f2c9b0f682e857c8d2",
 "classNoPermissionsExtendedError.html#a75af81a5a24cda739145edfdb6fa5fb0a1442ed20a359458a7e00c4dc4ae7f1dc",
-"classProtectionDescriptor.html#a0624527c7c1237a97ec0f4b02140c42d",
-"classProtectionSettings.html#a2968601eaa00c8d23277b14d3972c88d",
-"classUserRoles.html#a118c4751869134ce7ad3db96842367d6",
-"diagnostic__types_8h.html#ad8808e2faa037f8eacd24a440c4b6fdfad909d38d705ce75386dd86e611a82f5b",
-"mip__namespace_8h.html",
-"xml__document_8h.html"
+"classProtectDoNotForwardDkAction.html#a69ec3ec23e974139bbdaff3ba0326af9",
+"classProtectionProfile_1_1Settings.html#ad7ed76656b1868c65bf9c1385948f251",
+"classTenantInformation.html#a6e06a97944d1fc15cf9ee863a5bc2c3a",
+"diagnostic__types_8h.html#aa4284266a89cb5c936178b781beee457a1e7428c03bfe3903cc7301b2897d514a",
+"metadata__version_8h.html#aa69ea93ddb0a99b55d6456d21d5c2fad",
+"tenant__information_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

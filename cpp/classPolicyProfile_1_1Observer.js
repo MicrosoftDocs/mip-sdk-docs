@@ -1,6 +1,5 @@
 var classPolicyProfile_1_1Observer =
 [
-    [ "Observer", "classPolicyProfile_1_1Observer.html#ab3fff7b777d15ea9a42244ecf9c3d054", null ],
     [ "OnAddEngineFailure", "classPolicyProfile_1_1Observer.html#a5e497b0832506bbad232e6d4d1e60b6d", null ],
     [ "OnAddEngineStarting", "classPolicyProfile_1_1Observer.html#a6014e968e2d6473e3b84dd6c5e0163c5", null ],
     [ "OnAddEngineSuccess", "classPolicyProfile_1_1Observer.html#aaeca4e0d333478e4cfb00a20266ee0ab", null ],

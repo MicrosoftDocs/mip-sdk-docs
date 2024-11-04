@@ -1,5 +1,0 @@
-<map id="mip::ProtectDoNotForwardDkAction" name="mip::ProtectDoNotForwardDkAction">
-<area shape="rect" id="Node000001" title="An action class that specifies adding do not forward double key protection to the document." alt="" coords="5,79,200,119"/>
-<area shape="rect" id="Node000002" href="$classmip_1_1Action.html" title="Interface for an action." alt="" coords="55,5,151,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,44,105,79,100,79,100,44"/>
-</map>

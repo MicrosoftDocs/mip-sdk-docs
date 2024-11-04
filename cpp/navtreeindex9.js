@@ -1,6 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"structExtendedErrorInfo.html#ae0f313b9fc3e7e260497913fb440290f":[2,0,38,1],
 "structExtendedErrorInfo.html#af6667e9ff915240989060765572511a0":[2,0,38,2],
 "structLabelInfo.html":[2,0,60],
 "structLabelInfo.html#a05be7dbeb3c6065b783fd4fa7fd2a386":[2,0,60,0],

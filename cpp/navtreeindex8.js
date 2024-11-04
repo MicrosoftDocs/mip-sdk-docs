@@ -1,6 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"labeling__options_8h.html":[3,0,0,0,0,1,8],
 "labeling__options_8h_source.html":[3,0,0,0,0,1,8],
 "license__application__data_8h.html":[3,0,0,0,0,2,3],
 "license__application__data_8h_source.html":[3,0,0,0,0,2,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX8 =
 "structDiagnosticConfiguration.html#afa412f8ddc7ea3e05c465561ebb37ecb":[2,0,28,7],
 "structDiagnosticConfiguration.html#aff330994c306764256735f5003dc7b03":[2,0,28,16],
 "structExtendedErrorInfo.html":[2,0,38],
-"structExtendedErrorInfo.html#ab84605d7b7bd38f1532e3e313b7138e4":[2,0,38,0]
+"structExtendedErrorInfo.html#ab84605d7b7bd38f1532e3e313b7138e4":[2,0,38,0],
+"structExtendedErrorInfo.html#ae0f313b9fc3e7e260497913fb440290f":[2,0,38,1]
 };

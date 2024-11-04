@@ -1,6 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"delegation__license__settings_8h.html":[3,0,0,0,0,2,1],
 "delegation__license__settings_8h_source.html":[3,0,0,0,0,2,1],
 "deprecated.html":[0],
 "detailed__classification__result_8h.html":[3,0,0,0,0,3,10],
@@ -249,5 +248,6 @@ var NAVTREEINDEX7 =
 "justify__action_8h.html":[3,0,0,0,0,3,12],
 "justify__action_8h_source.html":[3,0,0,0,0,3,12],
 "label_8h.html":[3,0,0,0,0,3,13],
-"label_8h_source.html":[3,0,0,0,0,3,13]
+"label_8h_source.html":[3,0,0,0,0,3,13],
+"labeling__options_8h.html":[3,0,0,0,0,1,8]
 };

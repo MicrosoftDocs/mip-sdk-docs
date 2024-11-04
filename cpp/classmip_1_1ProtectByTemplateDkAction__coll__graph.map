@@ -1,5 +1,0 @@
-<map id="mip::ProtectByTemplateDkAction" name="mip::ProtectByTemplateDkAction">
-<area shape="rect" id="Node000001" title="An action class that specifies adding protection by template double key to the document." alt="" coords="5,79,201,119"/>
-<area shape="rect" id="Node000002" href="$classmip_1_1Action.html" title="Interface for an action." alt="" coords="55,5,151,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,44,106,79,101,79,101,44"/>
-</map>

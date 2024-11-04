@@ -1,9 +1,0 @@
-<map id="mip::LabelDisabledError" name="mip::LabelDisabledError">
-<area shape="rect" id="Node000001" title="Label is disabled or inactive." alt="" coords="5,225,184,251"/>
-<area shape="rect" id="Node000002" href="$classmip_1_1BadInputError.html" title="Bad input error, thrown when the input to an SDK API is invalid." alt="" coords="23,152,167,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,191,97,225,92,225,92,191"/>
-<area shape="rect" id="Node000003" href="$classmip_1_1Error.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="51,79,138,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,118,97,152,92,152,92,118"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="37,5,152,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="97,44,97,79,92,79,92,44"/>
-</map>

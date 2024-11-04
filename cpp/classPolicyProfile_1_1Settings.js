@@ -1,7 +1,6 @@
 var classPolicyProfile_1_1Settings =
 [
     [ "Settings", "classPolicyProfile_1_1Settings.html#a23291d0f789f185ac481cc9b3a8f8100", null ],
-    [ "~Settings", "classPolicyProfile_1_1Settings.html#a37118c38fa4effccf7c892e4b90c146c", null ],
     [ "GetCacheStorageType", "classPolicyProfile_1_1Settings.html#a6a304507cfacbf5fc132cc7898100d09", null ],
     [ "GetCustomSettings", "classPolicyProfile_1_1Settings.html#ac342df3f068a8c30f5dd8c9bb12f4c8a", null ],
     [ "GetHttpDelegate", "classPolicyProfile_1_1Settings.html#afe73619508fc188ca4089c12a0827ab5", null ],

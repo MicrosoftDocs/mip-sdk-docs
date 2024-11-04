@@ -22,17 +22,6 @@ var classMipConfiguration =
     [ "SetLoggerConfiguration", "classMipConfiguration.html#a84b788149d6906370131b93c20777062", null ],
     [ "SetLoggerDelegate", "classMipConfiguration.html#a30e34b5f36f6b8ce6ca7a188d1ac9eed", null ],
     [ "SetStorageDelegate", "classMipConfiguration.html#af52ebd26841326b1b654304a1b843758", null ],
-    [ "mApiLogCacheMaxMessages", "classMipConfiguration.html#a367e887db499f75845b094047a73cbda", null ],
-    [ "mAppInfo", "classMipConfiguration.html#a1358025783ca4e7c191ae9a48f999f16", null ],
-    [ "mDiagnosticConfiguration", "classMipConfiguration.html#a45087af6c18783ff11cbc7fa587d90e8", null ],
-    [ "mfeatureSettings", "classMipConfiguration.html#aeaf8557e8304642c653c149ee9ee3876", null ],
-    [ "mHttpDelegate", "classMipConfiguration.html#a6d8d21426f9a8b6e18d5dc140d22a417", null ],
-    [ "mIsOfflineOnly", "classMipConfiguration.html#afd5a27ffcc180d20d2902f099e981510", null ],
     [ "mJsonDelegate", "classMipConfiguration.html#a5e56a7ac7a1f2c6d2502fd698c7abbe3", null ],
-    [ "mLoggerConfiguration", "classMipConfiguration.html#ac54f7200c2fd234c2f549a74acf3bb1f", null ],
-    [ "mLoggerDelegate", "classMipConfiguration.html#a534e947b7a5a19d990fdaa556c9eb36b", null ],
-    [ "mPath", "classMipConfiguration.html#a96ba539e3a4760da1b23a036f7556e22", null ],
-    [ "mStorageDelegate", "classMipConfiguration.html#ace5926e39d76e1a4f0c0681c42ed2e6b", null ],
-    [ "mThresholdLogLevel", "classMipConfiguration.html#a1e62c9548b02a37e2a20636d611687c0", null ],
     [ "mXmlDelegate", "classMipConfiguration.html#a0211a2d99f5adf700fbd6bfb7362c5fd", null ]
 ];

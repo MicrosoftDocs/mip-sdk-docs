@@ -99,7 +99,6 @@ $(function(){initNavTree('classxml_1_1XmlParserException.html',''); initResizabl
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classxml_1_1XmlParserException-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">xml::XmlParserException Class Reference</div></div>
 </div><!--header-->
@@ -125,13 +124,9 @@ $(function(){initNavTree('classxml_1_1XmlParserException.html',''); initResizabl
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classxml_1_1XmlParserException__coll__graph.png" border="0" usemap="#axml_1_1XmlParserException_coll__map" alt="Collaboration graph"/></div>
 <map name="axml_1_1XmlParserException_coll__map" id="axml_1_1XmlParserException_coll__map">
-<area shape="rect" title=" " alt="" coords="5,183,191,208"/>
-<area shape="rect" title=" " alt="" coords="19,95,134,120"/>
-<area shape="poly" title=" " alt="" coords="85,133,98,181,92,183,80,134"/>
-<area shape="rect" title=" " alt="" coords="159,95,245,120"/>
-<area shape="poly" title=" " alt="" coords="179,131,114,184,110,180,176,127"/>
-<area shape="rect" title=" " alt="" coords="133,5,271,45"/>
-<area shape="poly" title=" " alt="" coords="205,59,205,94,199,94,199,59"/>
+<area shape="rect" title=" " alt="" coords="5,79,191,104"/>
+<area shape="rect" title=" " alt="" coords="41,5,155,31"/>
+<area shape="poly" title=" " alt="" coords="101,44,101,79,95,79,95,44"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -141,11 +136,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af2e2d28204d88ba9a66c8ad6a899094d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b494bcb2a4703732cb3b175453bf398" id="r_a3b494bcb2a4703732cb3b175453bf398"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b494bcb2a4703732cb3b175453bf398">XmlParserException</a> (const std::string &amp;message, const <a class="el" href="classxml_1_1XmlReader.html">XmlReader</a> &amp;reader)</td></tr>
 <tr class="separator:a3b494bcb2a4703732cb3b175453bf398"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a56c8b12d3f6050b9483b51f23711502e" id="r_a56c8b12d3f6050b9483b51f23711502e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56c8b12d3f6050b9483b51f23711502e">mMessage</a></td></tr>
-<tr class="separator:a56c8b12d3f6050b9483b51f23711502e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -182,15 +172,14 @@ Private Attributes</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">   23</span>                                                                       {</div>
 <div class="line"><span class="lineno">   24</span>    <span class="keywordtype">string</span> name;</div>
 <div class="line"><span class="lineno">   25</span>    <span class="keywordtype">string</span> value;</div>
-<div class="line"><span class="lineno">   26</span>    <a class="code hl_variable" href="#a56c8b12d3f6050b9483b51f23711502e">mMessage</a> = message +</div>
+<div class="line"><span class="lineno">   26</span>    mMessage = message +</div>
 <div class="line"><span class="lineno">   27</span>        <span class="stringliteral">&quot;, NodeType: &quot;</span> + std::to_string(<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(reader.GetNodeType())) +</div>
 <div class="line"><span class="lineno">   28</span>        <span class="stringliteral">&quot;, Name: &quot;</span> + (reader.GetName(name) ? (<span class="stringliteral">&quot;&#39;&quot;</span> + name + <span class="stringliteral">&quot;&#39;&quot;</span>) : <span class="stringliteral">&quot;NONE&quot;</span> )  +</div>
 <div class="line"><span class="lineno">   29</span>        <span class="stringliteral">&quot;, Value: &quot;</span> + (reader.GetValue(value) ? (<span class="stringliteral">&quot;&#39;&quot;</span> + value + <span class="stringliteral">&quot;&#39;&quot;</span>) : <span class="stringliteral">&quot;NONE&quot;</span>) +</div>
 <div class="line"><span class="lineno">   30</span>        <span class="stringliteral">&quot;, Ancestors: &quot;</span> + reader.GetAncestors();</div>
 <div class="line"><span class="lineno">   31</span>  }</div>
-<div class="ttc" id="aclassxml_1_1XmlParserException_html_a56c8b12d3f6050b9483b51f23711502e"><div class="ttname"><a href="#a56c8b12d3f6050b9483b51f23711502e">xml::XmlParserException::mMessage</a></div><div class="ttdeci">std::string mMessage</div><div class="ttdef"><b>Definition</b> <a href="xml__parser__exception_8h_source.html#l00035">xml_parser_exception.h:35</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="classxml_1_1XmlReader.html#a03848be77568bf0ff32a8dbc39efd954">xml::XmlReader::GetAncestors()</a>, <a class="el" href="classxml_1_1XmlReader.html#a9a716f22912e509e06c9f3d41525de30">xml::XmlReader::GetName()</a>, <a class="el" href="classxml_1_1XmlReader.html#a76b99e9eb97d4df332e18126216c3234">xml::XmlReader::GetNodeType()</a>, <a class="el" href="classxml_1_1XmlReader.html#a153915947bc727ae71a90f444b3b43c2">xml::XmlReader::GetValue()</a>, and <a class="el" href="xml__parser__exception_8h_source.html#l00035">mMessage</a>.</p>
+<p class="reference">References <a class="el" href="classxml_1_1XmlReader.html#a03848be77568bf0ff32a8dbc39efd954">xml::XmlReader::GetAncestors()</a>, <a class="el" href="classxml_1_1XmlReader.html#a9a716f22912e509e06c9f3d41525de30">xml::XmlReader::GetName()</a>, <a class="el" href="classxml_1_1XmlReader.html#a76b99e9eb97d4df332e18126216c3234">xml::XmlReader::GetNodeType()</a>, and <a class="el" href="classxml_1_1XmlReader.html#a153915947bc727ae71a90f444b3b43c2">xml::XmlReader::GetValue()</a>.</p>
 
 </div>
 </div>
@@ -219,37 +208,8 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="xml__parser__exception_8h_source.html#l00032">32</a> of file <a class="el" href="xml__parser__exception_8h_source.html">xml_parser_exception.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   32</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a56c8b12d3f6050b9483b51f23711502e">mMessage</a>.c_str(); }</div>
+<div class="fragment"><div class="line"><span class="lineno">   32</span>{ <span class="keywordflow">return</span> mMessage.c_str(); }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="xml__parser__exception_8h_source.html#l00035">mMessage</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a56c8b12d3f6050b9483b51f23711502e" name="a56c8b12d3f6050b9483b51f23711502e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56c8b12d3f6050b9483b51f23711502e">&#9670;&#160;</a></span>mMessage</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string xml::XmlParserException::mMessage</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="xml__parser__exception_8h_source.html#l00035">35</a> of file <a class="el" href="xml__parser__exception_8h_source.html">xml_parser_exception.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="xml__parser__exception_8h_source.html#l00032">what()</a>, and <a class="el" href="xml__parser__exception_8h_source.html#l00023">XmlParserException()</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

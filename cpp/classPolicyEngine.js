@@ -1,8 +1,6 @@
 var classPolicyEngine =
 [
     [ "Settings", "classPolicyEngine_1_1Settings.html", "classPolicyEngine_1_1Settings" ],
-    [ "~PolicyEngine", "classPolicyEngine.html#ab1068863c73e519e18dfd84d98bee98f", null ],
-    [ "PolicyEngine", "classPolicyEngine.html#ab28eba211a4d2073ea00dff82b717d0f", null ],
     [ "CreatePolicyHandler", "classPolicyEngine.html#a6de44bb530efc4ec7e86fc66912d3292", null ],
     [ "GetCustomSettings", "classPolicyEngine.html#a515edf239d043c876bef4c914e20ec05", null ],
     [ "GetDefaultSensitivityLabel", "classPolicyEngine.html#a80ca310f428f8f9b9904ea392aedb99d", null ],

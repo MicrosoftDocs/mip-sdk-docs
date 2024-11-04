@@ -13,9 +13,7 @@ var classNoPermissionsError =
     ] ],
     [ "AddDebugInfo", "classNoPermissionsError.html#a1e9379501df2d1e8315d373cf79949f2", null ],
     [ "Clone", "classNoPermissionsError.html#a34ab84a92eb2a61d10bb2a1720640eb5", null ],
-    [ "CreateFormattedMessage", "classNoPermissionsError.html#aa76e555fb5bcfb69dc804f51fa01ad34", null ],
     [ "GetCategory", "classNoPermissionsError.html#a15948714a8b1976e21eb78830ad13e28", null ],
-    [ "GetCategoryString", "classNoPermissionsError.html#ad1dd963308b393ec8286d395c50bbda6", null ],
     [ "GetDebugInfo", "classNoPermissionsError.html#af00e4c79dbf6834b319b068a2d94ae36", null ],
     [ "GetErrorName", "classNoPermissionsError.html#a27297bdd7abc0571413a249ed4d1f447", null ],
     [ "GetErrorType", "classNoPermissionsError.html#ac4be6cb0be956902a56477a95d41b960", null ],
@@ -24,13 +22,8 @@ var classNoPermissionsError =
     [ "GetReferrer", "classNoPermissionsError.html#a83f5e3b1e0f842b0af5ef2a09f403cf1", null ],
     [ "SetMessage", "classNoPermissionsError.html#afa3a5efa4e38f33ee27b008714149daf", null ],
     [ "what", "classNoPermissionsError.html#a6b5d1714f27d38ba999e5cba27014397", null ],
-    [ "mCategory", "classNoPermissionsError.html#af306adf3f88327f51d7cde601d20d876", null ],
     [ "mDebugInfo", "classNoPermissionsError.html#a0c79a90c3d7a10bad9812f51ba615486", null ],
-    [ "mFormattedMessage", "classNoPermissionsError.html#ae2e20e84e05f13e9a5b67f8b16fd5c38", null ],
-    [ "mMaskedMessage", "classNoPermissionsError.html#aa6b87fa2e501856f7a39e763eebcbe39", null ],
     [ "mMessage", "classNoPermissionsError.html#af31bc6356d7c45845280a5481917bee7", null ],
     [ "mName", "classNoPermissionsError.html#abc98b444b9adbfd6dc8ba5e96db54b37", null ],
-    [ "mOwner", "classNoPermissionsError.html#a1ab065995094ccfd81707d6875162079", null ],
-    [ "mReferrer", "classNoPermissionsError.html#a5945cb978ea38744f59a43b124e3dcc5", null ],
     [ "mType", "classNoPermissionsError.html#ae4af72b4dc19622d365cb1faaeae9385", null ]
 ];

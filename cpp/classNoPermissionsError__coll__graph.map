@@ -1,23 +1,22 @@
 <map id="NoPermissionsError" name="NoPermissionsError">
-<area shape="rect" id="Node000001" title="The user could not get access to the content." alt="" coords="5,485,156,511"/>
-<area shape="rect" id="Node000002" href="$classAccessDeniedError.html" title="The user could not get access to the content." alt="" coords="147,411,291,436"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,445,104,487,102,483,184,440"/>
-<area shape="rect" id="Node000003" href="$classError.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="227,334,281,359"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="245,373,227,411,222,409,240,371"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="102,227,217,253"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="181,261,245,332,241,335,177,265"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="221,108,308,133"/>
-<area shape="poly" id="edge11_Node000001_Node000005" title=" " alt="" coords="209,133,162,146,115,166,96,180,81,197,71,216,67,239,67,425,71,457,79,484,74,486,66,458,62,425,62,238,66,215,77,194,93,176,113,162,160,141,207,128"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="266,147,257,334,252,334,261,147"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="431,220,594,260"/>
-<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="303,137,474,218,472,222,300,142"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="195,5,334,45"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="267,59,267,108,262,108,262,59"/>
-<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="454,268,282,337,280,332,452,263"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="445,108,580,133"/>
-<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="515,147,515,220,510,220,510,147"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="541,13,580,38"/>
-<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="551,51,534,85,521,109,517,106,529,83,546,49"/>
-<area shape="rect" id="Node000010" title=" " alt="" coords="445,13,484,38"/>
-<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="460,52,459,68,463,83,473,96,487,106,484,110,470,99,458,85,454,68,455,51"/>
+<area shape="rect" id="Node000001" title="The user could not get access to the content." alt="" coords="150,463,301,488"/>
+<area shape="rect" id="Node000002" href="$classAccessDeniedError.html" title="The user could not get access to the content." alt="" coords="153,388,297,413"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,428,228,462,223,462,223,428"/>
+<area shape="rect" id="Node000003" href="$classError.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="199,313,252,339"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="228,353,228,388,223,388,223,353"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,218,120,243"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="96,248,207,311,204,316,93,252"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="250,108,337,133"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="327,140,338,156,346,187,345,224,336,260,318,291,304,304,287,313,253,324,252,319,285,308,301,300,314,288,331,258,340,223,341,188,334,158,322,144"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="144,211,307,251"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="281,147,273,159,239,212,235,209,268,156,276,144"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="224,5,363,45"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="296,59,296,108,291,108,291,59"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="228,265,228,313,223,313,223,265"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="58,108,193,133"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="126,147,129,167,137,185,149,198,165,208,162,213,146,202,132,188,124,168,121,148"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="81,13,119,38"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="100,52,104,83,117,106,113,109,99,85,95,52"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="146,13,185,38"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="157,52,133,109,128,107,153,50"/>
 </map>

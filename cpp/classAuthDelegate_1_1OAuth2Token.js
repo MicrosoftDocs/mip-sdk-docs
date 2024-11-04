@@ -5,7 +5,5 @@ var classAuthDelegate_1_1OAuth2Token =
     [ "GetAccessToken", "classAuthDelegate_1_1OAuth2Token.html#aa8fc56361b4e57088ee0550c7a991b4d", null ],
     [ "GetErrorMessage", "classAuthDelegate_1_1OAuth2Token.html#abe96173065af743601caf013f1831112", null ],
     [ "SetAccessToken", "classAuthDelegate_1_1OAuth2Token.html#a09e663a4a6a93169fbb807a61dac275a", null ],
-    [ "SetErrorMessage", "classAuthDelegate_1_1OAuth2Token.html#a5066224a5490ea57642b95259f38b6e2", null ],
-    [ "mAccessToken", "classAuthDelegate_1_1OAuth2Token.html#aca987c414d8c57a90c37105f082a40ea", null ],
-    [ "mErrorMessage", "classAuthDelegate_1_1OAuth2Token.html#a58b01de0be0f44ad96c665941f16ec07", null ]
+    [ "SetErrorMessage", "classAuthDelegate_1_1OAuth2Token.html#a5066224a5490ea57642b95259f38b6e2", null ]
 ];

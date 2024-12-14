@@ -1,0 +1,16 @@
+<map id="src/api/mip/upe/add_dynamic_watermark_action.h" name="src/api/mip/upe/add_dynamic_watermark_action.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="77,5,299,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,83,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,48,78,89,76,84,152,43"/>
+<area shape="rect" id="Node000003" href="$mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="171,167,341,192"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="170,47,158,63,147,81,143,100,148,117,171,142,201,159,198,164,167,146,143,120,138,100,142,79,153,60,166,44"/>
+<area shape="rect" id="Node000004" href="$dynamic__watermark_8h.html" title="Defines DynamicWatermark interface." alt="" coords="157,93,355,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="206,44,239,81,235,84,202,47"/>
+<area shape="rect" id="Node000006" href="$action_8h.html" title="A file containing the Action base class and the ActionType enumerator." alt="" coords="379,93,509,119"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="250,43,395,87,393,92,249,48"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="259,119,259,153,253,153,253,119"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="389,167,448,192"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="283,116,381,159,378,163,281,121"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="415,121,300,164,299,159,413,116"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="442,120,430,155,425,153,437,118"/>
+</map>

@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection (MIP) SDK for C++: Reference<span id="projectnumber">&#160;1.15</span>
+   <div id="projectname">Microsoft Information Protection (MIP) SDK for C++: Reference<span id="projectnumber">&#160;1.16</span>
    </div>
    <div id="projectbrief">Doxygen-generated documentation for MIP SDK written in C++</div>
   </td>
@@ -414,13 +414,21 @@ Enumerations</h2></td></tr>
 <tr class="memitem:aac976a2657d8c65944a48c48a5fe76fa" id="r_aac976a2657d8c65944a48c48a5fe76fa"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac976a2657d8c65944a48c48a5fe76fa">DataBoundary</a> { <br />
 &#160;&#160;<a class="el" href="#aac976a2657d8c65944a48c48a5fe76faa7a1920d61156abc05a60135aefe8bc67">Default</a> = 0
 , <br />
+&#160;&#160;<a class="el" href="#aac976a2657d8c65944a48c48a5fe76faa09d4bca31e2fd8b0f57f79f85ed42bd8">United_States</a> = 1
+, <br />
 &#160;&#160;<a class="el" href="#aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7">North_America</a> = 1
 , <br />
 &#160;&#160;<a class="el" href="#aac976a2657d8c65944a48c48a5fe76faae3685d0362ea638d7f35ebfa03470562">European_Union</a> = 2
 , <br />
+&#160;&#160;<a class="el" href="#aac976a2657d8c65944a48c48a5fe76faad8b00929dec65d422303256336ada04f">Germany</a> = 3
+, <br />
 &#160;&#160;<a class="el" href="#aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53">Europe_MiddleEast_Africa</a> = 3
 , <br />
+&#160;&#160;<a class="el" href="#aac976a2657d8c65944a48c48a5fe76faa53a577bb3bc587b0c28ab808390f1c9b">Japan</a> = 4
+, <br />
 &#160;&#160;<a class="el" href="#aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197">Asia</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="#aac976a2657d8c65944a48c48a5fe76faa4442e4af0916f53a07fb8ca9a49b98ed">Australia</a> = 5
 <br />
  }</td></tr>
 <tr class="memdesc:aac976a2657d8c65944a48c48a5fe76fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Diagnostic region identifier.  <a href="#aac976a2657d8c65944a48c48a5fe76fa">More...</a><br /></td></tr>
@@ -716,12 +724,12 @@ Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00706">706</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  706</span>                            : <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> {</div>
-<div class="line"><span class="lineno">  707</span>  <a class="code hl_enumvalue" href="#a174ba9275624a6880ce3be3fdbaa6c5fa5eeb5d43c7b4ff3dc586c8155071a098">InMemory</a> = 0, <span class="comment">/**&lt; In Memory storage */</span></div>
-<div class="line"><span class="lineno">  708</span>  <a class="code hl_enumvalue" href="#a174ba9275624a6880ce3be3fdbaa6c5fa833090cabdf22e20748ef66fc755e11e">OnDisk</a> = 1, <span class="comment">/**&lt; On Disk storage */</span></div>
-<div class="line"><span class="lineno">  709</span>  <a class="code hl_enumvalue" href="#a174ba9275624a6880ce3be3fdbaa6c5face61c9ea080c2eeab93002c01b8ceb8f">OnDiskEncrypted</a> = 2 <span class="comment">/**&lt; On Disk storage with internal encryption (if supported by the platform) */</span></div>
-<div class="line"><span class="lineno">  710</span>};</div>
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00710">710</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  710</span>                            : <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> {</div>
+<div class="line"><span class="lineno">  711</span>  <a class="code hl_enumvalue" href="#a174ba9275624a6880ce3be3fdbaa6c5fa5eeb5d43c7b4ff3dc586c8155071a098">InMemory</a> = 0, <span class="comment">/**&lt; In Memory storage */</span></div>
+<div class="line"><span class="lineno">  712</span>  <a class="code hl_enumvalue" href="#a174ba9275624a6880ce3be3fdbaa6c5fa833090cabdf22e20748ef66fc755e11e">OnDisk</a> = 1, <span class="comment">/**&lt; On Disk storage */</span></div>
+<div class="line"><span class="lineno">  713</span>  <a class="code hl_enumvalue" href="#a174ba9275624a6880ce3be3fdbaa6c5face61c9ea080c2eeab93002c01b8ceb8f">OnDiskEncrypted</a> = 2 <span class="comment">/**&lt; On Disk storage with internal encryption (if supported by the platform) */</span></div>
+<div class="line"><span class="lineno">  714</span>};</div>
 <div class="ttc" id="acommon__types_8h_html_a174ba9275624a6880ce3be3fdbaa6c5fa5eeb5d43c7b4ff3dc586c8155071a098"><div class="ttname"><a href="#a174ba9275624a6880ce3be3fdbaa6c5fa5eeb5d43c7b4ff3dc586c8155071a098">CacheStorageType::InMemory</a></div><div class="ttdeci">@ InMemory</div><div class="ttdoc">In Memory storage.</div></div>
 <div class="ttc" id="acommon__types_8h_html_a174ba9275624a6880ce3be3fdbaa6c5fa833090cabdf22e20748ef66fc755e11e"><div class="ttname"><a href="#a174ba9275624a6880ce3be3fdbaa6c5fa833090cabdf22e20748ef66fc755e11e">CacheStorageType::OnDisk</a></div><div class="ttdeci">@ OnDisk</div><div class="ttdoc">On Disk storage.</div></div>
 <div class="ttc" id="acommon__types_8h_html_a174ba9275624a6880ce3be3fdbaa6c5face61c9ea080c2eeab93002c01b8ceb8f"><div class="ttname"><a href="#a174ba9275624a6880ce3be3fdbaa6c5face61c9ea080c2eeab93002c01b8ceb8f">CacheStorageType::OnDiskEncrypted</a></div><div class="ttdeci">@ OnDiskEncrypted</div><div class="ttdoc">On Disk storage with internal encryption (if supported by the platform)</div></div>
@@ -813,20 +821,20 @@ Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00724">724</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  724</span>                 {</div>
-<div class="line"><span class="lineno">  725</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a88183b946cc5f0e8c96b2e66e1c74a7e">Unknown</a> = 0,                     <span class="comment">/**&lt; Cloud not specified or URL not recognized as an Azure cloud */</span></div>
-<div class="line"><span class="lineno">  726</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a90589c47f06eb971d548591f23c285af">Custom</a> = 1,                      <span class="comment">/**&lt; Custom cloud: endpoint base URL manually specified by application */</span></div>
-<div class="line"><span class="lineno">  727</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a0cbc6611f5540bd0809a388dc95a615b">Test</a> = 2,                        <span class="comment">/**&lt; Test cloud */</span></div>
-<div class="line"><span class="lineno">  728</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44ab2788e1ab6be65f1c38bf7d23cd081f1">Commercial</a> = 3,                  <span class="comment">/**&lt; Global commercial cloud */</span></div>
-<div class="line"><span class="lineno">  729</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44ad8b00929dec65d422303256336ada04f">Germany</a> = 4,                     <span class="comment">/**&lt; Germany sovereign cloud */</span></div>
-<div class="line"><span class="lineno">  730</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a8e7b1b9b5302ca13d6d8e2dcef4943be">US_DoD</a> = 5,                      <span class="comment">/**&lt; US sovereign cloud (DoD) */</span></div>
-<div class="line"><span class="lineno">  731</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a4ba59984106679807df4974a68402650">US_GCC</a> = 6,                      <span class="comment">/**&lt; US sovereign cloud (GCC) */</span></div>
-<div class="line"><span class="lineno">  732</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a070d83173cca6d78408cb9657251617a">US_GCC_High</a> = 7,                 <span class="comment">/**&lt; US sovereign cloud (GCC-High) */</span></div>
-<div class="line"><span class="lineno">  733</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a0740dfd12afd4beefe013f7143444231">US_Sec</a> = 8,                      <span class="comment">/**&lt; US sovereign cloud (Sec) */</span></div>
-<div class="line"><span class="lineno">  734</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a7354dbd23b54989b85d4eff5daf0ef12">US_Nat</a> = 9,                      <span class="comment">/**&lt; US sovereign cloud (Nat) */</span></div>
-<div class="line"><span class="lineno">  735</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a85a9e2274fffcb1a0d2beb76c72c4c66">China_01</a> = 10,                   <span class="comment">/**&lt; China sovereign cloud */</span></div>
-<div class="line"><span class="lineno">  736</span>};</div>
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00728">728</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  728</span>                 {</div>
+<div class="line"><span class="lineno">  729</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a88183b946cc5f0e8c96b2e66e1c74a7e">Unknown</a> = 0,                     <span class="comment">/**&lt; Cloud not specified or URL not recognized as an Azure cloud */</span></div>
+<div class="line"><span class="lineno">  730</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a90589c47f06eb971d548591f23c285af">Custom</a> = 1,                      <span class="comment">/**&lt; Custom cloud: endpoint base URL manually specified by application */</span></div>
+<div class="line"><span class="lineno">  731</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a0cbc6611f5540bd0809a388dc95a615b">Test</a> = 2,                        <span class="comment">/**&lt; Test cloud */</span></div>
+<div class="line"><span class="lineno">  732</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44ab2788e1ab6be65f1c38bf7d23cd081f1">Commercial</a> = 3,                  <span class="comment">/**&lt; Global commercial cloud */</span></div>
+<div class="line"><span class="lineno">  733</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44ad8b00929dec65d422303256336ada04f">Germany</a> = 4,                     <span class="comment">/**&lt; Germany sovereign cloud */</span></div>
+<div class="line"><span class="lineno">  734</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a8e7b1b9b5302ca13d6d8e2dcef4943be">US_DoD</a> = 5,                      <span class="comment">/**&lt; US sovereign cloud (DoD) */</span></div>
+<div class="line"><span class="lineno">  735</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a4ba59984106679807df4974a68402650">US_GCC</a> = 6,                      <span class="comment">/**&lt; US sovereign cloud (GCC) */</span></div>
+<div class="line"><span class="lineno">  736</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a070d83173cca6d78408cb9657251617a">US_GCC_High</a> = 7,                 <span class="comment">/**&lt; US sovereign cloud (GCC-High) */</span></div>
+<div class="line"><span class="lineno">  737</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a0740dfd12afd4beefe013f7143444231">US_Sec</a> = 8,                      <span class="comment">/**&lt; US sovereign cloud (Sec) */</span></div>
+<div class="line"><span class="lineno">  738</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a7354dbd23b54989b85d4eff5daf0ef12">US_Nat</a> = 9,                      <span class="comment">/**&lt; US sovereign cloud (Nat) */</span></div>
+<div class="line"><span class="lineno">  739</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a85a9e2274fffcb1a0d2beb76c72c4c66">China_01</a> = 10,                   <span class="comment">/**&lt; China sovereign cloud */</span></div>
+<div class="line"><span class="lineno">  740</span>};</div>
 <div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a070d83173cca6d78408cb9657251617a"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a070d83173cca6d78408cb9657251617a">Cloud::US_GCC_High</a></div><div class="ttdeci">@ US_GCC_High</div><div class="ttdoc">US sovereign cloud (GCC-High)</div></div>
 <div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a0740dfd12afd4beefe013f7143444231"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a0740dfd12afd4beefe013f7143444231">Cloud::US_Sec</a></div><div class="ttdeci">@ US_Sec</div><div class="ttdoc">US sovereign cloud (Sec)</div></div>
 <div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a0cbc6611f5540bd0809a388dc95a615b"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a0cbc6611f5540bd0809a388dc95a615b">Cloud::Test</a></div><div class="ttdeci">@ Test</div><div class="ttdoc">Test cloud.</div></div>
@@ -949,29 +957,47 @@ Functions</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faa7a1920d61156abc05a60135aefe8bc67" name="aac976a2657d8c65944a48c48a5fe76faa7a1920d61156abc05a60135aefe8bc67"></a>Default&#160;</td><td class="fielddoc"><p>Region is not specified. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7" name="aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7"></a>North_America&#160;</td><td class="fielddoc"><p>North America region. </p>
+<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faa09d4bca31e2fd8b0f57f79f85ed42bd8" name="aac976a2657d8c65944a48c48a5fe76faa09d4bca31e2fd8b0f57f79f85ed42bd8"></a>United_States&#160;</td><td class="fielddoc"><p>United States region. </p>
+<p>Previously North America region </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7" name="aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7"></a>North_America&#160;</td><td class="fielddoc"><p>DEPRECATED North America region. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faae3685d0362ea638d7f35ebfa03470562" name="aac976a2657d8c65944a48c48a5fe76faae3685d0362ea638d7f35ebfa03470562"></a>European_Union&#160;</td><td class="fielddoc"><p>European Union region. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53" name="aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53"></a>Europe_MiddleEast_Africa&#160;</td><td class="fielddoc"><p>Europe, Middle East &amp; Africa region. </p>
+<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faad8b00929dec65d422303256336ada04f" name="aac976a2657d8c65944a48c48a5fe76faad8b00929dec65d422303256336ada04f"></a>Germany&#160;</td><td class="fielddoc"><p>Germany region. </p>
+<p>Maps to European Union. Previously used for Europe, MiddleEast, and Africa </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197" name="aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197"></a>Asia&#160;</td><td class="fielddoc"><p>Asia region. </p>
+<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53" name="aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53"></a>Europe_MiddleEast_Africa&#160;</td><td class="fielddoc"><p>DEPRECATED Europe, Middle East &amp; Africa region. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faa53a577bb3bc587b0c28ab808390f1c9b" name="aac976a2657d8c65944a48c48a5fe76faa53a577bb3bc587b0c28ab808390f1c9b"></a>Japan&#160;</td><td class="fielddoc"><p>Japan region. </p>
+<p>Previously Asia region </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197" name="aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197"></a>Asia&#160;</td><td class="fielddoc"><p>DEPRECATED Asia region. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faa4442e4af0916f53a07fb8ca9a49b98ed" name="aac976a2657d8c65944a48c48a5fe76faa4442e4af0916f53a07fb8ca9a49b98ed"></a>Australia&#160;</td><td class="fielddoc"><p>Australia region. </p>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00741">741</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  741</span>                        {</div>
-<div class="line"><span class="lineno">  742</span>  <a class="code hl_enumvalue" href="#a51da49d1af35336cd22cf21e1f936a86a7a1920d61156abc05a60135aefe8bc67">Default</a> = 0,                     <span class="comment">/**&lt; Region is not specified */</span></div>
-<div class="line"><span class="lineno">  743</span>  <a class="code hl_enumvalue" href="#aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7">North_America</a> = 1,               <span class="comment">/**&lt; North America region */</span></div>
-<div class="line"><span class="lineno">  744</span>  <a class="code hl_enumvalue" href="#aac976a2657d8c65944a48c48a5fe76faae3685d0362ea638d7f35ebfa03470562">European_Union</a> = 2,              <span class="comment">/**&lt; European Union region */</span></div>
-<div class="line"><span class="lineno">  745</span>  <a class="code hl_enumvalue" href="#aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53">Europe_MiddleEast_Africa</a> = 3,    <span class="comment">/**&lt; Europe, Middle East &amp; Africa region */</span></div>
-<div class="line"><span class="lineno">  746</span>  <a class="code hl_enumvalue" href="#aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197">Asia</a> = 4,                        <span class="comment">/**&lt; Asia region */</span></div>
-<div class="line"><span class="lineno">  747</span>};</div>
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00745">745</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  745</span>                        {</div>
+<div class="line"><span class="lineno">  746</span>  <a class="code hl_enumvalue" href="#a51da49d1af35336cd22cf21e1f936a86a7a1920d61156abc05a60135aefe8bc67">Default</a> = 0,                  <span class="comment">/**&lt; Region is not specified */</span></div>
+<div class="line"><span class="lineno">  747</span>  <a class="code hl_enumvalue" href="#aac976a2657d8c65944a48c48a5fe76faa09d4bca31e2fd8b0f57f79f85ed42bd8">United_States</a> = 1,            <span class="comment">/**&lt; United States region. Previously North America region */</span></div>
+<div class="line"><span class="lineno">  748</span>  <a class="code hl_enumvalue" href="#aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7">North_America</a> = 1,            <span class="comment">/**&lt; DEPRECATED North America region */</span></div>
+<div class="line"><span class="lineno">  749</span>  <a class="code hl_enumvalue" href="#aac976a2657d8c65944a48c48a5fe76faae3685d0362ea638d7f35ebfa03470562">European_Union</a> = 2,           <span class="comment">/**&lt; European Union region */</span></div>
+<div class="line"><span class="lineno">  750</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44ad8b00929dec65d422303256336ada04f">Germany</a> = 3,                  <span class="comment">/**&lt; Germany region. Maps to European Union. Previously used for Europe, MiddleEast, and Africa */</span></div>
+<div class="line"><span class="lineno">  751</span>  <a class="code hl_enumvalue" href="#aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53">Europe_MiddleEast_Africa</a> = 3, <span class="comment">/**&lt; DEPRECATED Europe, Middle East &amp; Africa region */</span></div>
+<div class="line"><span class="lineno">  752</span>  <a class="code hl_enumvalue" href="#aac976a2657d8c65944a48c48a5fe76faa53a577bb3bc587b0c28ab808390f1c9b">Japan</a> = 4,                    <span class="comment">/**&lt; Japan region. Previously Asia region */</span></div>
+<div class="line"><span class="lineno">  753</span>  <a class="code hl_enumvalue" href="#aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197">Asia</a> = 4,                     <span class="comment">/**&lt; DEPRECATED Asia region */</span></div>
+<div class="line"><span class="lineno">  754</span>  <a class="code hl_enumvalue" href="#aac976a2657d8c65944a48c48a5fe76faa4442e4af0916f53a07fb8ca9a49b98ed">Australia</a> = 5,                <span class="comment">/**&lt; Australia region */</span></div>
+<div class="line"><span class="lineno">  755</span>};</div>
 <div class="ttc" id="acommon__types_8h_html_a51da49d1af35336cd22cf21e1f936a86a7a1920d61156abc05a60135aefe8bc67"><div class="ttname"><a href="#a51da49d1af35336cd22cf21e1f936a86a7a1920d61156abc05a60135aefe8bc67">VariableTextMarkingType::Default</a></div><div class="ttdeci">@ Default</div><div class="ttdoc">Known markings are converted unknown marking are removed.</div></div>
-<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197">DataBoundary::Asia</a></div><div class="ttdeci">@ Asia</div><div class="ttdoc">Asia region.</div></div>
+<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faa09d4bca31e2fd8b0f57f79f85ed42bd8"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faa09d4bca31e2fd8b0f57f79f85ed42bd8">DataBoundary::United_States</a></div><div class="ttdeci">@ United_States</div><div class="ttdoc">United States region.</div></div>
+<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197">DataBoundary::Asia</a></div><div class="ttdeci">@ Asia</div><div class="ttdoc">DEPRECATED Asia region.</div></div>
+<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faa4442e4af0916f53a07fb8ca9a49b98ed"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faa4442e4af0916f53a07fb8ca9a49b98ed">DataBoundary::Australia</a></div><div class="ttdeci">@ Australia</div><div class="ttdoc">Australia region.</div></div>
+<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faa53a577bb3bc587b0c28ab808390f1c9b"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faa53a577bb3bc587b0c28ab808390f1c9b">DataBoundary::Japan</a></div><div class="ttdeci">@ Japan</div><div class="ttdoc">Japan region.</div></div>
 <div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faae3685d0362ea638d7f35ebfa03470562"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faae3685d0362ea638d7f35ebfa03470562">DataBoundary::European_Union</a></div><div class="ttdeci">@ European_Union</div><div class="ttdoc">European Union region.</div></div>
-<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7">DataBoundary::North_America</a></div><div class="ttdeci">@ North_America</div><div class="ttdoc">North America region.</div></div>
-<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53">DataBoundary::Europe_MiddleEast_Africa</a></div><div class="ttdeci">@ Europe_MiddleEast_Africa</div><div class="ttdoc">Europe, Middle East &amp; Africa region.</div></div>
+<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7">DataBoundary::North_America</a></div><div class="ttdeci">@ North_America</div><div class="ttdoc">DEPRECATED North America region.</div></div>
+<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53">DataBoundary::Europe_MiddleEast_Africa</a></div><div class="ttdeci">@ Europe_MiddleEast_Africa</div><div class="ttdoc">DEPRECATED Europe, Middle East &amp; Africa region.</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1161,12 +1187,12 @@ Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00715">715</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  715</span>                                  {</div>
-<div class="line"><span class="lineno">  716</span>  <a class="code hl_enumvalue" href="#a51da49d1af35336cd22cf21e1f936a86a7a1920d61156abc05a60135aefe8bc67">Default</a> = 0,     <span class="comment">/**&lt; Extensions will become as SDK default behavior  */</span></div>
-<div class="line"><span class="lineno">  717</span>  <a class="code hl_enumvalue" href="#a0cdd774884c3465004e0f489eeeab9e3a048c35f9b6098c13d400c4bc7bfef4c1">PFileSuffix</a> = 1, <span class="comment">/**&lt; Extensions will become &lt;EXT&gt;.PFILE */</span></div>
-<div class="line"><span class="lineno">  718</span>  <a class="code hl_enumvalue" href="#a0cdd774884c3465004e0f489eeeab9e3a009280086ec16cd72d29f25c5fc461c5">PPrefix</a> = 2,     <span class="comment">/**&lt; Extensions will become P&lt;EXT&gt; */</span></div>
-<div class="line"><span class="lineno">  719</span>};</div>
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00719">719</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  719</span>                                  {</div>
+<div class="line"><span class="lineno">  720</span>  <a class="code hl_enumvalue" href="#a51da49d1af35336cd22cf21e1f936a86a7a1920d61156abc05a60135aefe8bc67">Default</a> = 0,     <span class="comment">/**&lt; Extensions will become as SDK default behavior  */</span></div>
+<div class="line"><span class="lineno">  721</span>  <a class="code hl_enumvalue" href="#a0cdd774884c3465004e0f489eeeab9e3a048c35f9b6098c13d400c4bc7bfef4c1">PFileSuffix</a> = 1, <span class="comment">/**&lt; Extensions will become &lt;EXT&gt;.PFILE */</span></div>
+<div class="line"><span class="lineno">  722</span>  <a class="code hl_enumvalue" href="#a0cdd774884c3465004e0f489eeeab9e3a009280086ec16cd72d29f25c5fc461c5">PPrefix</a> = 2,     <span class="comment">/**&lt; Extensions will become P&lt;EXT&gt; */</span></div>
+<div class="line"><span class="lineno">  723</span>};</div>
 <div class="ttc" id="acommon__types_8h_html_a0cdd774884c3465004e0f489eeeab9e3a009280086ec16cd72d29f25c5fc461c5"><div class="ttname"><a href="#a0cdd774884c3465004e0f489eeeab9e3a009280086ec16cd72d29f25c5fc461c5">PFileExtensionBehavior::PPrefix</a></div><div class="ttdeci">@ PPrefix</div><div class="ttdoc">Extensions will become P&lt;EXT&gt;</div></div>
 <div class="ttc" id="acommon__types_8h_html_a0cdd774884c3465004e0f489eeeab9e3a048c35f9b6098c13d400c4bc7bfef4c1"><div class="ttname"><a href="#a0cdd774884c3465004e0f489eeeab9e3a048c35f9b6098c13d400c4bc7bfef4c1">PFileExtensionBehavior::PFileSuffix</a></div><div class="ttdeci">@ PFileSuffix</div><div class="ttdoc">Extensions will become &lt;EXT&gt;.PFILE.</div></div>
 </div><!-- fragment -->

@@ -1,0 +1,16 @@
+<map id="MipConfiguration" name="MipConfiguration">
+<area shape="rect" id="Node000001" title="Configuration used by MIP sdk during its creation and throughout its lifetime." alt="" coords="165,284,299,309"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,189,240,214"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,221,190,258,219,282,216,286,186,262,144,225"/>
+<area shape="rect" id="Node000003" href="$classJsonDelegate.html" title=" " alt="" coords="42,93,150,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,132,100,157,116,187,111,190,95,158,92,132"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="199,93,356,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="209,125,170,145,147,167,131,190,127,187,143,164,166,140,207,120"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="265,181,423,221"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="290,130,305,156,325,179,321,183,300,159,285,133"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="258,5,297,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="280,45,280,93,275,93,275,45"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="322,234,294,262,257,286,254,282,290,258,318,230"/>
+<area shape="rect" id="Node000007" href="$classxml_1_1XmlDelegate.html" title="Interface for overriding XML handling (must be capable of handling multiple threads)" alt="" coords="415,93,555,119"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="478,133,458,159,438,173,416,184,414,179,435,169,454,155,473,130"/>
+</map>

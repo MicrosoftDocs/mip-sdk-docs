@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection (MIP) SDK for C: Reference<span id="projectnumber">&#160;1.15</span>
+   <div id="projectname">Microsoft Information Protection (MIP) SDK for C: Reference<span id="projectnumber">&#160;1.16</span>
    </div>
    <div id="projectbrief">Doxygen-generated documentation for MIP SDK written in C</div>
   </td>
@@ -360,6 +360,8 @@ Variables</h2></td></tr>
 <p>Set a telemetry shared library override.</p>
 <p>Set a telemetry host name which will override internal telemetry settings.</p>
 <p>Get strings that compose a string list.</p>
+<p>Gets a value from the supplemental info dictionary.</p>
+<p>Gets size of buffer required to store a specific supplemental info value.</p>
 <p>Gets List of users-to-roles mappings.</p>
 <p>Gets list of users-to-rights mappings.</p>
 <p>Gets double key URL.</p>
@@ -1699,6 +1701,29 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>The returned 'dynamicWatermark' (mip_cc_dynamic_watermark*) must be freed by calling MIP_CC_ReleaseDynamicWatermark</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">protectionDescriptor</td><td>Descriptor associated with protected content </td></tr>
+    <tr><td class="paramname">supplementalInfoKey</td><td>[Input] The key to the data searched for. </td></tr>
+    <tr><td class="paramname">supplementalInfoSize</td><td>[Output] Size of buffer to hold the supplemental info value (in number of chars) </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">protectionDescriptor</td><td>Descriptor associated with protected content </td></tr>
+    <tr><td class="paramname">supplementalInfoKey</td><td>[Input] The key to the data searched for. </td></tr>
+    <tr><td class="paramname">supplementalInfoBuffer</td><td>[Output] Buffer the value will be copied into. </td></tr>
+    <tr><td class="paramname">supplementalInfoBufferSize</td><td>Size (in number of chars) of the supplementalInfoBuffer. </td></tr>
+    <tr><td class="paramname">actualsupplementalInfoSize</td><td>[Output] Number of chars written to the buffer </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If supplementalInfoBuffer is null or insufficient, MIP_RESULT_ERROR_INSUFFICIENT_BUFFER will be returned and actualsupplementalInfoSize will be set to the minimum required buffer size.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">stringList</td><td>Source string list </td></tr>

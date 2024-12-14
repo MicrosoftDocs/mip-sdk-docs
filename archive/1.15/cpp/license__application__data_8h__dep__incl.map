@@ -1,0 +1,33 @@
+<map id="src/api/mip/protection/license_application_data.h" name="src/api/mip/protection/license_application_data.h">
+<area shape="rect" id="Node000001" title="Defines LicenseApplicationData interface." alt="" coords="75,5,274,45"/>
+<area shape="rect" id="Node000002" href="$parsed__publishing__license_8h.html" title="Contains details of a parsed publishing license." alt="" coords="142,93,351,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,54,233,91,229,95,197,58"/>
+<area shape="rect" id="Node000003" href="$parsed__publishing__license__builder_8h.html" title="Contains a class that allows creating parsed publishing license details." alt="" coords="5,181,203,236"/>
+<area shape="poly" id="edge18_Node000001_Node000003" title=" " alt="" coords="153,57,132,94,117,140,110,182,104,181,112,138,127,92,149,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="208,143,146,183,143,179,205,139"/>
+<area shape="rect" id="Node000004" href="$protection__common__types_8h.html" title="A file containing the common types used by the protection module." alt="" coords="227,189,437,229"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="275,142,317,187,313,190,271,145"/>
+<area shape="rect" id="Node000005" href="$delegation__license__settings_8h.html" title="Defines DelegationLicenseSettings class." alt="" coords="320,372,539,412"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="351,240,422,371,417,373,346,242"/>
+<area shape="rect" id="Node000006" href="$protection__engine_8h.html" title="Defines ProtectionEngine interface." alt="" coords="141,460,305,500"/>
+<area shape="poly" id="edge11_Node000004_Node000006" title=" " alt="" coords="324,243,295,321,258,413,235,461,230,458,254,411,290,319,319,241"/>
+<area shape="rect" id="Node000011" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="333,548,497,588"/>
+<area shape="poly" id="edge17_Node000004_Node000011" title=" " alt="" coords="392,232,434,255,479,286,521,325,553,371,561,398,559,425,548,451,532,475,489,518,447,550,443,546,486,514,528,472,543,448,553,424,556,398,548,373,517,328,476,290,432,260,389,237"/>
+<area shape="rect" id="Node000012" href="$protection__handler_8h.html" title="Defines ProtectionHandler interface." alt="" coords="21,284,185,324"/>
+<area shape="poly" id="edge12_Node000004_Node000012" title=" " alt="" coords="274,236,150,286,148,281,272,231"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="372,420,269,462,267,458,370,415"/>
+<area shape="rect" id="Node000007" href="$file__handler_8h.html" title=" " alt="" coords="6,548,149,588"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="180,509,111,550,108,546,177,505"/>
+<area shape="poly" id="edge10_Node000006_Node000011" title=" " alt="" coords="278,503,374,546,372,550,276,508"/>
+<area shape="rect" id="Node000008" href="$file__execution__state_8h.html" title=" " alt="" coords="5,636,149,676"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="80,602,80,636,75,636,75,602"/>
+<area shape="rect" id="Node000009" href="$file__engine_8h.html" title=" " alt="" coords="6,724,149,764"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="80,690,80,724,75,724,75,690"/>
+<area shape="rect" id="Node000010" href="$file__profile_8h.html" title=" " alt="" coords="6,812,149,852"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="80,778,80,812,75,812,75,778"/>
+<area shape="poly" id="edge16_Node000012_Node000006" title=" " alt="" coords="82,337,65,374,64,393,70,411,84,427,101,441,141,460,139,465,99,445,80,431,66,413,59,394,60,373,77,335"/>
+<area shape="poly" id="edge13_Node000012_Node000007" title=" " alt="" coords="79,336,67,354,59,373,51,421,54,470,63,514,73,547,68,549,58,515,49,470,46,421,53,371,62,351,74,333"/>
+<area shape="rect" id="Node000013" href="$delegation__license_8h.html" title="Defines DelegationLicense interface." alt="" coords="81,372,245,412"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="126,334,152,370,147,373,122,337"/>
+<area shape="poly" id="edge15_Node000013_Node000006" title=" " alt="" coords="186,422,212,458,207,461,182,425"/>
+</map>

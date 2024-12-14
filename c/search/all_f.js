@@ -8,7 +8,7 @@ var searchData=
   ['policyfileidbuffer_5',['policyFileIdBuffer',['../policy__engine__cc_8h.html#aa1d30c16c0a8608c416c546339fe7c84',1,'policy_engine_cc.h']]],
   ['policyfileidbuffersize_6',['policyFileIdBufferSize',['../policy__engine__cc_8h.html#a42ef2989d19e31b1438fa7d93d92847b',1,'policy_engine_cc.h']]],
   ['policyfileidsize_7',['policyFileIdSize',['../policy__engine__cc_8h.html#a13341ca423aa51484152657f522ff204',1,'policy_engine_cc.h']]],
-  ['positioncallback_8',['positionCallback',['../stream__cc_8h.html#a000d15ccf75ef91ea0a7ce81d306cdc3',1,'stream_cc.h']]],
+  ['positioncallback_8',['positionCallback',['../editable__stream__cc_8h.html#a79ed1f50340c30b10429676b0226de51',1,'positionCallback:&#160;editable_stream_cc.h'],['../stream__cc_8h.html#a000d15ccf75ef91ea0a7ce81d306cdc3',1,'positionCallback:&#160;stream_cc.h']]],
   ['prelicensebuffer_9',['preLicenseBuffer',['../protection__handler__cc_8h.html#a4e8391011e72f228b060d3368354b17d',1,'protection_handler_cc.h']]],
   ['prelicensebuffersize_10',['preLicenseBufferSize',['../protection__handler__cc_8h.html#ae0950091dac4d5c7b9ed153f19171fc8',1,'protection_handler_cc.h']]],
   ['prelicenseuseremail_11',['preLicenseUserEmail',['../protection__handler__cc_8h.html#abb7efea81fe7944ff4ab21c6a09e0ccb',1,'protection_handler_cc.h']]],

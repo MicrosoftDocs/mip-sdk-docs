@@ -7,6 +7,7 @@ var classLabel =
     [ "GetContentFormats", "classLabel.html#a315474d9113d0bf0865414ba9a49f903", null ],
     [ "GetCustomSettings", "classLabel.html#a94d4b75bb02c052eb04644275f75a1b3", null ],
     [ "GetDescription", "classLabel.html#a3416e39d26e7af893d08d0b3bb9f231a", null ],
+    [ "GetDoubleKeyUrl", "classLabel.html#a6655e0c40b624d5549f6238d6a84ff07", null ],
     [ "GetId", "classLabel.html#ac350ce380dc380cf409da9f84c8bc5e2", null ],
     [ "GetName", "classLabel.html#af92ca8dd1fe77decd096bf90ecbdb01c", null ],
     [ "GetParent", "classLabel.html#ada70cceb833ab881b2ae53fd3d70912d", null ],

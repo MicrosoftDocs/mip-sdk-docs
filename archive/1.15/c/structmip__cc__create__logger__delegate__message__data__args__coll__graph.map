@@ -1,0 +1,7 @@
+<map id="mip_cc_create_logger_delegate_message_data_args" name="mip_cc_create_logger_delegate_message_data_args">
+<area shape="rect" id="Node000001" title=" " alt="" coords="21,93,244,133"/>
+<area shape="rect" id="Node000002" href="$structmip__cc__handle.html" title="Opaque handle to MIP object." alt="" coords="5,5,124,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,44,70,68,80,81,93,91,90,95,76,84,65,70,59,45"/>
+<area shape="rect" id="Node000003" href="$structmip__cc__error.html" title="Error information." alt="" coords="149,5,255,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,45,175,71,154,95,150,92,171,68,187,42"/>
+</map>

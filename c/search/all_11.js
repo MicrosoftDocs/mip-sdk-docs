@@ -2,7 +2,7 @@ var searchData=
 [
   ['scope_0',['scope',['../structmip__cc__oauth2__challenge.html#aa5092355d0b755be90ef1f3b2e8a61a0',1,'mip_cc_oauth2_challenge']]],
   ['sdk_20for_20c_3a_20reference_1',['Microsoft Information Protection (MIP) SDK for C: Reference',['../index.html',1,'']]],
-  ['seekcallback_2',['seekCallback',['../stream__cc_8h.html#a6c24be5bca8695982b9b985aebd31827',1,'stream_cc.h']]],
+  ['seekcallback_2',['seekCallback',['../editable__stream__cc_8h.html#a462a4c6d3beff943b416579fac2d9036',1,'seekCallback:&#160;editable_stream_cc.h'],['../stream__cc_8h.html#a6c24be5bca8695982b9b985aebd31827',1,'seekCallback:&#160;stream_cc.h']]],
   ['sensitivity_3',['sensitivity',['../label__cc_8h.html#a4a46b61d11c12eed442e6304fd03daf9',1,'label_cc.h']]],
   ['sensitivity_5ftype_5fcc_2eh_4',['sensitivity_type_cc.h',['../sensitivity__type__cc_8h.html',1,'']]],
   ['sensitivityfileidbuffer_5',['sensitivityFileIdBuffer',['../policy__engine__cc_8h.html#a06d66c96692457135882530f329ba68c',1,'policy_engine_cc.h']]],
@@ -17,15 +17,19 @@ var searchData=
   ['serializedtemplatesize_14',['serializedTemplateSize',['../protection__descriptor__builder__cc_8h.html#a1ff168705ae25922353370c7e6e2f1e8',1,'protection_descriptor_builder_cc.h']]],
   ['servicedisablederror_5fextent_15',['serviceDisabledError_Extent',['../structmip__cc__error.html#a00adefd6751f1ca9cf7767466d14d19d',1,'mip_cc_error']]],
   ['sessionid_16',['sessionId',['../protection__engine__cc_8h.html#a4e9654a39c7db6001861533a76f3188a',1,'sessionId:&#160;protection_engine_cc.h'],['../protection__profile__cc_8h.html#a4e9654a39c7db6001861533a76f3188a',1,'sessionId:&#160;protection_profile_cc.h'],['../policy__engine__cc_8h.html#a4e9654a39c7db6001861533a76f3188a',1,'sessionId:&#160;policy_engine_cc.h'],['../policy__profile__cc_8h.html#a4e9654a39c7db6001861533a76f3188a',1,'sessionId:&#160;policy_profile_cc.h']]],
-  ['setsizecallback_17',['setSizeCallback',['../stream__cc_8h.html#a291046e575b9aef327a695e3b95ecf7d',1,'stream_cc.h']]],
+  ['setsizecallback_17',['setSizeCallback',['../editable__stream__cc_8h.html#a09fc6cb902c369531550fbfc12904619',1,'setSizeCallback:&#160;editable_stream_cc.h'],['../stream__cc_8h.html#a291046e575b9aef327a695e3b95ecf7d',1,'setSizeCallback:&#160;stream_cc.h']]],
   ['settings_18',['settings',['../protection__engine__cc_8h.html#a5674b78f8ab334a31002be77655812a1',1,'settings:&#160;protection_engine_cc.h'],['../protection__handler__cc_8h.html#a47aff80cc5824f0c7ca89910c0043207',1,'settings:&#160;protection_handler_cc.h'],['../protection__profile__cc_8h.html#a5a45f8546117b9d306acfd0c991d0768',1,'settings:&#160;protection_profile_cc.h'],['../label__cc_8h.html#a2b73680a1840fc3dd39c4ea568fd1b7d',1,'settings:&#160;label_cc.h'],['../policy__engine__cc_8h.html#a374e887f88b56d6509d3a7722e6be9d6',1,'settings:&#160;policy_engine_cc.h'],['../policy__profile__cc_8h.html#a563f0ef2b05fffa9d349d2cf58aa6e65',1,'settings:&#160;policy_profile_cc.h']]],
   ['signedappdata_19',['signedAppData',['../protection__descriptor__cc_8h.html#a482a7cac727cb5fe88f21881f9de464f',1,'protection_descriptor_cc.h']]],
   ['size_20',['size',['../structmip__cc__log__message__data.html#a735da3524f2d2e379ce8ff4dab03b3cd',1,'mip_cc_log_message_data::size'],['../structmip__cc__create__logger__delegate__message__data__args.html#a120439a4f0860760ac0332ccead79524',1,'mip_cc_create_logger_delegate_message_data_args::size']]],
   ['statuscode_21',['statusCode',['../structmip__cc__http__response.html#a9a7808dcada8f245c4a12163b80f9cc3',1,'mip_cc_http_response']]],
-  ['stream_22',['stream',['../stream__cc_8h.html#a13c16c8ba236afb722db57fed0f55f31',1,'stream_cc.h']]],
+  ['stream_22',['stream',['../editable__stream__cc_8h.html#a3c4c6879ae9e727f3e494cf848991660',1,'stream:&#160;editable_stream_cc.h'],['../stream__cc_8h.html#a13c16c8ba236afb722db57fed0f55f31',1,'stream:&#160;stream_cc.h']]],
   ['stream_5fcc_2eh_23',['stream_cc.h',['../stream__cc_8h.html',1,'']]],
   ['string_5flist_5fcc_2eh_24',['string_list_cc.h',['../string__list__cc_8h.html',1,'']]],
   ['stringlist_25',['stringList',['../string__list__cc_8h.html#ad71fb0383bec1d1e2f67526d24982940',1,'string_list_cc.h']]],
   ['strings_26',['strings',['../string__list__cc_8h.html#a73c50071bf764938d3e29dcc82a6c1fe',1,'string_list_cc.h']]],
-  ['supportedactions_27',['supportedActions',['../structmip__cc__application__action__state.html#a1542f0f2e6bc741c566a85268f805906',1,'mip_cc_application_action_state']]]
+  ['supplementalinfobuffer_27',['supplementalInfoBuffer',['../protection__descriptor__cc_8h.html#a3a15cf8b464aea24d43f5598cbcaffa5',1,'protection_descriptor_cc.h']]],
+  ['supplementalinfobuffersize_28',['supplementalInfoBufferSize',['../protection__descriptor__cc_8h.html#a62848159c950f085378f35a1048281b0',1,'protection_descriptor_cc.h']]],
+  ['supplementalinfokey_29',['supplementalInfoKey',['../protection__descriptor__cc_8h.html#a9e9d450d091c175c3aa1b3c6bffe76f1',1,'protection_descriptor_cc.h']]],
+  ['supplementalinfosize_30',['supplementalInfoSize',['../protection__descriptor__cc_8h.html#a638f4da84b1636002115f4e9a794c107',1,'protection_descriptor_cc.h']]],
+  ['supportedactions_31',['supportedActions',['../structmip__cc__application__action__state.html#a1542f0f2e6bc741c566a85268f805906',1,'mip_cc_application_action_state']]]
 ];

@@ -1,0 +1,27 @@
+<map id="src/api/mip/upe/add_content_footer_action.h" name="src/api/mip/upe/add_content_footer_action.h">
+<area shape="rect" id="Node000001" title="A file Containing the AddContentFooterAction class." alt="" coords="544,5,727,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="619,167,678,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="626,46,613,80,610,99,613,118,621,137,632,154,627,157,616,140,607,119,605,99,608,79,621,44"/>
+<area shape="rect" id="Node000003" href="$common__types_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="385,93,547,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="596,48,505,90,502,85,594,43"/>
+<area shape="rect" id="Node000010" href="$mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="702,167,873,192"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="697,43,734,63,767,92,782,122,789,152,783,153,777,123,763,95,731,67,695,48"/>
+<area shape="rect" id="Node000011" href="$action_8h.html" title="A file containing the Action base class and the ActionType enumerator." alt="" coords="622,93,753,119"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="650,44,674,80,670,83,646,47"/>
+<area shape="poly" id="edge7_Node000003_Node000002" title=" " alt="" coords="496,116,607,159,605,164,494,121"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="241,167,307,192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="436,121,319,164,317,159,434,116"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="332,167,419,192"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="453,121,403,160,399,156,450,117"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="443,167,494,192"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="469,119,470,153,465,153,464,119"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="518,167,595,192"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="482,117,533,156,529,160,479,121"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="5,167,129,192"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="402,121,144,167,143,162,401,116"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="153,167,216,192"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="421,121,230,169,229,164,419,116"/>
+<area shape="poly" id="edge10_Node000003_Node000010" title=" " alt="" coords="518,116,723,161,722,166,517,121"/>
+<area shape="poly" id="edge13_Node000011_Node000002" title=" " alt="" coords="683,120,664,156,659,153,679,118"/>
+<area shape="poly" id="edge14_Node000011_Node000010" title=" " alt="" coords="705,117,761,156,758,161,702,121"/>
+</map>

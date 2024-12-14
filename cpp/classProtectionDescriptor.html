@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection (MIP) SDK for C++: Reference<span id="projectnumber">&#160;1.15</span>
+   <div id="projectname">Microsoft Information Protection (MIP) SDK for C++: Reference<span id="projectnumber">&#160;1.16</span>
    </div>
    <div id="projectbrief">Doxygen-generated documentation for MIP SDK written in C++</div>
   </td>
@@ -159,6 +159,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0624527c7c1237a97ec0f4b02140c42d" id="r_a0624527c7c1237a97ec0f4b02140c42d"><td class="memItemLeft" align="right" valign="top">virtual std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0624527c7c1237a97ec0f4b02140c42d">GetSignedAppData</a> () const =0</td></tr>
 <tr class="memdesc:a0624527c7c1237a97ec0f4b02140c42d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the app-specific data that was signed.  <br /></td></tr>
 <tr class="separator:a0624527c7c1237a97ec0f4b02140c42d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaca83688360b8639590e6e96417c6acf" id="r_aaca83688360b8639590e6e96417c6acf"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaca83688360b8639590e6e96417c6acf">GetSupplementalInfo</a> (const std::string &amp;dataNeeded) const =0</td></tr>
+<tr class="memdesc:aaca83688360b8639590e6e96417c6acf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get supplemental information associated with this <a class="el" href="classProtectionDescriptor.html" title="Description of protection associated with a piece of content.">ProtectionDescriptor</a>.  <br /></td></tr>
+<tr class="separator:aaca83688360b8639590e6e96417c6acf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac55bd8aab132f8613f72420a0d784a9a" id="r_ac55bd8aab132f8613f72420a0d784a9a"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac55bd8aab132f8613f72420a0d784a9a">GetTemplateId</a> () const =0</td></tr>
 <tr class="memdesc:ac55bd8aab132f8613f72420a0d784a9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the protection template ID, if any.  <br /></td></tr>
 <tr class="separator:ac55bd8aab132f8613f72420a0d784a9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -626,6 +629,35 @@ Public Member Functions</h2></td></tr>
 <p>Gets the app-specific data that was signed. </p>
 <dl class="section return"><dt>Returns</dt><dd>App-specific data</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>A <a class="el" href="classProtectionHandler.html" title="Manages protection-related actions for a specific protection configuration.">ProtectionHandler</a> may hold a dictionary of app-specific data that was signed by the protection service. This signed data is independent of the encrypted data accessible via <a class="el" href="#a1cb9a6cb79d37008c3918a6e0e3337c7" title="Gets app-specific data that was encrypted.">ProtectionDescriptor::GetEncryptedAppData</a> </dd></dl>
+
+</div>
+</div>
+<a id="aaca83688360b8639590e6e96417c6acf" name="aaca83688360b8639590e6e96417c6acf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaca83688360b8639590e6e96417c6acf">&#9670;&#160;</a></span>GetSupplementalInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string ProtectionDescriptor::GetSupplementalInfo </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>dataNeeded</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get supplemental information associated with this <a class="el" href="classProtectionDescriptor.html" title="Description of protection associated with a piece of content.">ProtectionDescriptor</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>Internal metadata value associated with this <a class="el" href="classProtectionDescriptor.html" title="Description of protection associated with a piece of content.">ProtectionDescriptor</a></dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Any values provided are not required for normal operation of the SDK </dd></dl>
 
 </div>
 </div>

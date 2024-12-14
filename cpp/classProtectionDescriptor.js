@@ -16,6 +16,7 @@ var classProtectionDescriptor =
     [ "GetReferrer", "classProtectionDescriptor.html#a4e456d6a40adba88c0282105208b881a", null ],
     [ "GetSerializedTemplate", "classProtectionDescriptor.html#a4111047ba423f26a738e162fadc0e0fa", null ],
     [ "GetSignedAppData", "classProtectionDescriptor.html#a0624527c7c1237a97ec0f4b02140c42d", null ],
+    [ "GetSupplementalInfo", "classProtectionDescriptor.html#aaca83688360b8639590e6e96417c6acf", null ],
     [ "GetTemplateId", "classProtectionDescriptor.html#ac55bd8aab132f8613f72420a0d784a9a", null ],
     [ "GetUserRights", "classProtectionDescriptor.html#a556cb47fcaa7577a693f41af102aa291", null ],
     [ "GetUserRoles", "classProtectionDescriptor.html#ae61a664da972a68e490eea09bd4e065a", null ]

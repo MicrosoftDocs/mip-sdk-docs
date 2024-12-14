@@ -1,0 +1,24 @@
+<map id="src/api/mip_cc/protection_descriptor_cc.h" name="src/api/mip_cc/protection_descriptor_cc.h">
+<area shape="rect" id="Node000001" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="384,5,569,45"/>
+<area shape="rect" id="Node000002" href="$protection__handler__cc_8h.html" title="Defines C&#45;Style ProtectionHandler interface." alt="" coords="71,93,256,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="395,52,233,96,231,91,394,46"/>
+<area shape="rect" id="Node000006" href="$user__rights__roles__cc_8h.html" title="Defines C&#45;Style user rights &amp; roles functions." alt="" coords="280,93,465,133"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="445,56,397,95,394,91,441,52"/>
+<area shape="rect" id="Node000007" href="$protection__descriptor__builder__cc_8h.html" title="Defines C&#45;Style ProtectionDescriptorBuilder interface." alt="" coords="489,93,675,133"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="512,52,560,91,557,95,509,56"/>
+<area shape="rect" id="Node000008" href="$document__state__cc_8h.html" title="Describes document state when performing a label&#45;related operation." alt="" coords="699,93,863,133"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="558,47,715,91,713,96,556,52"/>
+<area shape="rect" id="Node000003" href="$delegation__license__cc_8h.html" title=" " alt="" coords="5,181,191,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="143,146,115,183,110,179,139,143"/>
+<area shape="rect" id="Node000004" href="$protection__engine__cc_8h.html" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="71,269,256,309"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="188,144,205,181,208,201,205,222,194,248,180,270,176,267,189,246,199,221,203,201,199,182,183,146"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="123,231,151,267,147,271,119,234"/>
+<area shape="rect" id="Node000005" href="$protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="71,357,256,397"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="166,323,166,357,161,357,161,323"/>
+<area shape="rect" id="Node000009" href="$policy__handler__cc_8h.html" title="Contains C API definitions for policy handler." alt="" coords="703,181,858,221"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="783,147,783,181,778,181,778,147"/>
+<area shape="rect" id="Node000010" href="$policy__engine__cc_8h.html" title="Contains C API definitions for policy engine." alt="" coords="706,269,855,309"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="783,235,783,269,778,269,778,235"/>
+<area shape="rect" id="Node000011" href="$policy__profile__cc_8h.html" title="Contains C API definitions for policy profile." alt="" coords="707,357,854,397"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="783,323,783,357,778,357,778,323"/>
+</map>

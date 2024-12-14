@@ -15,6 +15,7 @@ var classPublishingLicenseInfo =
     [ "GetOwner", "classPublishingLicenseInfo.html#ae97364af3e6e15b0e2cfcd6d23b7b8c0", null ],
     [ "GetPreLicense", "classPublishingLicenseInfo.html#a1a7cc6051228ce60580164f902e6f29c", null ],
     [ "GetReferralInfoUrl", "classPublishingLicenseInfo.html#a673f306357e430b63fda49e8f71a25bc", null ],
+    [ "GetSealedKeyType", "classPublishingLicenseInfo.html#a27e0de215ef00c529a63e4066d6c4b25", null ],
     [ "GetSerializedPublishingLicense", "classPublishingLicenseInfo.html#a22c39c0071dae0562ceb44f463aa4b2d", null ],
     [ "GetServerPublicCertificate", "classPublishingLicenseInfo.html#a5bda1364d2354370e3a6b7c1afbe524d", null ],
     [ "GetSignedApplicationData", "classPublishingLicenseInfo.html#abf45c26cb06c874abf3356cfe0020328", null ],

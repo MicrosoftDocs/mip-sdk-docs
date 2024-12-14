@@ -1,0 +1,9 @@
+<map id="src/api/mip/protection/rights.h" name="src/api/mip/protection/rights.h">
+<area shape="rect" id="Node000001" title="Defines functions describing rights." alt="" coords="38,5,202,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,64,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,48,59,86,56,82,98,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="89,93,151,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="123,46,123,79,117,79,117,46"/>
+<area shape="rect" id="Node000004" href="$mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="176,93,347,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="155,43,229,84,227,89,153,48"/>
+</map>

@@ -56,10 +56,14 @@ var common__types_8h =
     ] ],
     [ "DataBoundary", "common__types_8h.html#aac976a2657d8c65944a48c48a5fe76fa", [
       [ "Default", "common__types_8h.html#aac976a2657d8c65944a48c48a5fe76faa7a1920d61156abc05a60135aefe8bc67", null ],
+      [ "United_States", "common__types_8h.html#aac976a2657d8c65944a48c48a5fe76faa09d4bca31e2fd8b0f57f79f85ed42bd8", null ],
       [ "North_America", "common__types_8h.html#aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7", null ],
       [ "European_Union", "common__types_8h.html#aac976a2657d8c65944a48c48a5fe76faae3685d0362ea638d7f35ebfa03470562", null ],
+      [ "Germany", "common__types_8h.html#aac976a2657d8c65944a48c48a5fe76faad8b00929dec65d422303256336ada04f", null ],
       [ "Europe_MiddleEast_Africa", "common__types_8h.html#aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53", null ],
-      [ "Asia", "common__types_8h.html#aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197", null ]
+      [ "Japan", "common__types_8h.html#aac976a2657d8c65944a48c48a5fe76faa53a577bb3bc587b0c28ab808390f1c9b", null ],
+      [ "Asia", "common__types_8h.html#aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197", null ],
+      [ "Australia", "common__types_8h.html#aac976a2657d8c65944a48c48a5fe76faa4442e4af0916f53a07fb8ca9a49b98ed", null ]
     ] ],
     [ "DataState", "common__types_8h.html#a5737dca05518564ac984b7e47f7ba9ba", [
       [ "REST", "common__types_8h.html#a5737dca05518564ac984b7e47f7ba9baa50780f47f6839d47d60bc4555ee00c3f", null ],

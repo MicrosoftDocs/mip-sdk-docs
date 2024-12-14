@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection (MIP) SDK for C++: Reference<span id="projectnumber">&#160;1.15</span>
+   <div id="projectname">Microsoft Information Protection (MIP) SDK for C++: Reference<span id="projectnumber">&#160;1.16</span>
    </div>
    <div id="projectbrief">Doxygen-generated documentation for MIP SDK written in C++</div>
   </td>
@@ -132,6 +132,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3416e39d26e7af893d08d0b3bb9f231a" id="r_a3416e39d26e7af893d08d0b3bb9f231a"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3416e39d26e7af893d08d0b3bb9f231a">GetDescription</a> () const =0</td></tr>
 <tr class="memdesc:a3416e39d26e7af893d08d0b3bb9f231a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the label description.  <br /></td></tr>
 <tr class="separator:a3416e39d26e7af893d08d0b3bb9f231a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6655e0c40b624d5549f6238d6a84ff07" id="r_a6655e0c40b624d5549f6238d6a84ff07"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6655e0c40b624d5549f6238d6a84ff07">GetDoubleKeyUrl</a> () const =0</td></tr>
+<tr class="memdesc:a6655e0c40b624d5549f6238d6a84ff07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the double key URL, if the label requires double key user defined protection.  <br /></td></tr>
+<tr class="separator:a6655e0c40b624d5549f6238d6a84ff07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac350ce380dc380cf409da9f84c8bc5e2" id="r_ac350ce380dc380cf409da9f84c8bc5e2"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac350ce380dc380cf409da9f84c8bc5e2">GetId</a> () const =0</td></tr>
 <tr class="memdesc:ac350ce380dc380cf409da9f84c8bc5e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the label ID.  <br /></td></tr>
 <tr class="separator:ac350ce380dc380cf409da9f84c8bc5e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -292,7 +295,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets content types. </p>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The content types that the label can be applied to. </dd></dl>
 
 </div>
 </div>
@@ -349,6 +352,35 @@ Public Member Functions</h2></td></tr>
 
 <p>Get the label description. </p>
 <dl class="section return"><dt>Returns</dt><dd>the label description. </dd></dl>
+
+</div>
+</div>
+<a id="a6655e0c40b624d5549f6238d6a84ff07" name="a6655e0c40b624d5549f6238d6a84ff07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6655e0c40b624d5549f6238d6a84ff07">&#9670;&#160;</a></span>GetDoubleKeyUrl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string Label::GetDoubleKeyUrl </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the double key URL, if the label requires double key user defined protection. </p>
+<dl class="section note"><dt>Note</dt><dd>Will return empty string if the label does not use double key or if the label uses template protection.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The double key URL. </dd></dl>
 
 </div>
 </div>

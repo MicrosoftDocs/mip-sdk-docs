@@ -1,0 +1,11 @@
+<map id="src/api/mip/task_dispatcher_delegate.h" name="src/api/mip/task_dispatcher_delegate.h">
+<area shape="rect" id="Node000001" title="A file containing the TaskDispatcherDelegate interface to be used to override MIP async task executor..." alt="" coords="100,5,301,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,92,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,48,85,89,82,84,163,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="117,93,194,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,47,171,83,167,80,187,44"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="218,93,277,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="214,44,236,80,231,83,210,47"/>
+<area shape="rect" id="Node000005" href="$mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="301,93,471,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="246,43,347,85,345,90,244,48"/>
+</map>

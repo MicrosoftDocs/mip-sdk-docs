@@ -1,0 +1,7 @@
+<map id="src/api/mip/dns_redirection.h" name="src/api/mip/dns_redirection.h">
+<area shape="rect" id="Node000001" title="A file Containing types used to control dns redirection." alt="" coords="59,5,270,31"/>
+<area shape="rect" id="Node000002" href="$file__profile_8h.html" title=" " alt="" coords="5,79,148,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,42,100,81,96,77,140,38"/>
+<area shape="rect" id="Node000003" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="172,79,336,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,38,234,77,231,81,186,42"/>
+</map>

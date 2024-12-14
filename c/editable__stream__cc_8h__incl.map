@@ -1,0 +1,23 @@
+<map id="src/api/mip_cc/editable_stream_cc.h" name="src/api/mip_cc/editable_stream_cc.h">
+<area shape="rect" id="Node000001" title="Defines editable stream callback functions." alt="" coords="317,5,489,45"/>
+<area shape="rect" id="Node000002" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="5,240,211,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="317,44,258,63,229,78,203,95,173,126,149,162,119,228,114,226,145,159,169,123,200,91,226,73,256,58,315,38"/>
+<area shape="rect" id="Node000004" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="239,313,425,339"/>
+<area shape="poly" id="edge8_Node000001_Node000004" title=" " alt="" coords="441,43,469,64,493,92,506,118,513,141,512,165,504,193,481,233,448,266,411,291,376,310,373,305,408,287,445,262,477,230,499,191,507,164,507,142,501,120,488,95,466,68,438,48"/>
+<area shape="rect" id="Node000005" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="331,167,467,192"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="405,46,402,153,397,153,399,46"/>
+<area shape="rect" id="Node000006" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="286,240,429,265"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="426,44,452,73,477,111,486,131,490,152,489,173,481,193,455,220,423,238,420,233,452,216,476,191,484,172,485,153,481,133,472,113,448,77,422,48"/>
+<area shape="rect" id="Node000007" href="$stream__cc_8h.html" title="Defines stream callback functions." alt="" coords="214,93,365,119"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="377,48,319,87,316,83,374,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="121,313,191,339"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,264,143,301,138,304,114,267"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="145,263,284,307,282,312,143,268"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="394,194,373,229,369,227,390,191"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="326,268,202,311,201,306,324,263"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="356,267,343,301,338,300,351,265"/>
+<area shape="poly" id="edge11_Node000007_Node000002" title=" " alt="" coords="276,121,135,233,132,229,273,117"/>
+<area shape="poly" id="edge13_Node000007_Node000004" title=" " alt="" coords="287,120,278,147,270,183,267,224,276,264,289,285,306,303,303,307,285,289,271,266,262,225,264,183,273,145,282,118"/>
+<area shape="poly" id="edge12_Node000007_Node000005" title=" " alt="" coords="308,116,371,157,368,161,305,121"/>
+<area shape="poly" id="edge14_Node000007_Node000006" title=" " alt="" coords="295,118,305,152,321,191,343,227,338,230,316,193,300,153,290,120"/>
+</map>

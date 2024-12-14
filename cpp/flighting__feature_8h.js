@@ -33,8 +33,11 @@ var flighting__feature_8h =
       [ "UseRapidJson", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0af45ce179cec30d47f52df7ea49ede0fe", null ],
       [ "EnforceMinimumTls13", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a79f9f10c41ca7067a18a19c7798c45cb", null ],
       [ "IgnoreEmptyMsipLabelNameParseError", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a8c9edfca0b8a42a92bed65bb5a93a9b2", null ],
+      [ "EnableEngineSettingsTelemetry", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a7ca400344ef990d15cc0f246276939fd", null ],
+      [ "EnableMP4Files", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a312a8e6111d2abd8039d045c3e0b5416", null ],
       [ "PrioritizeHtmlInMsgs", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a35628ecd102b21571ff41aa78796e0a5", null ],
-      [ "EnableExtendedErrors", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a077cbd307021e7dfc306bbc0338046c5", null ]
+      [ "EnableExtendedErrors", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a077cbd307021e7dfc306bbc0338046c5", null ],
+      [ "LoadCrossTenantUserCertOffline", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a50534c8ba4a600e28c8896d978d64776", null ]
     ] ],
     [ "GetDefaultFeatureSettings", "flighting__feature_8h.html#a86e976962ef2f547436d8cd1355fb718", null ]
 ];

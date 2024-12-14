@@ -14,6 +14,7 @@ var dir_a7043e653a48665e063227b454d13d4f =
     [ "diagnostic_types.h", "diagnostic__types_8h.html", "diagnostic__types_8h" ],
     [ "dns_redirection.h", "dns__redirection_8h.html", "dns__redirection_8h" ],
     [ "dynamic_watermark.h", "dynamic__watermark_8h.html", "dynamic__watermark_8h" ],
+    [ "editable_stream.h", "editable__stream_8h.html", "editable__stream_8h" ],
     [ "error.h", "error_8h.html", "error_8h" ],
     [ "event.h", "event_8h.html", "event_8h" ],
     [ "event_context.h", "event__context_8h.html", "event__context_8h" ],

@@ -13,6 +13,7 @@ var classParsedPublishingLicenseBuilder =
     [ "SetLabelInfo", "classParsedPublishingLicenseBuilder.html#a4ff36c523b06a2ea6659911ba12f02e1", null ],
     [ "SetOwner", "classParsedPublishingLicenseBuilder.html#a143d48fb2b4121c48c943a425710675f", null ],
     [ "SetReferralInfoUrl", "classParsedPublishingLicenseBuilder.html#a078e42479efb4a9c2271be31cbdc55f2", null ],
+    [ "SetSealedKeyType", "classParsedPublishingLicenseBuilder.html#a8602d364c87ab2f79ff23da37b885581", null ],
     [ "SetServerPublicCert", "classParsedPublishingLicenseBuilder.html#a23de9722e6f689a0df3b51b48b0fdb22", null ],
     [ "SetSignedApplicationData", "classParsedPublishingLicenseBuilder.html#acd96bce00ac0ec8730d580fdfd77f79c", null ]
 ];

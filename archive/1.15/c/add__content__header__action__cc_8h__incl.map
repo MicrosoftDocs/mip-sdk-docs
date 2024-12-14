@@ -1,0 +1,19 @@
+<map id="src/api/mip_cc/upe/add_content_header_action_cc.h" name="src/api/mip_cc/upe/add_content_header_action_cc.h">
+<area shape="rect" id="Node000001" title="Contains C API definitions for &quot;add content header&quot; label policy action." alt="" coords="49,5,208,60"/>
+<area shape="rect" id="Node000002" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="9,181,145,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,61,95,109,82,168,77,167,90,107,111,59"/>
+<area shape="rect" id="Node000006" href="$action__cc_8h.html" title="Contains C API definitions for label policy actions." alt="" coords="105,108,278,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="150,58,177,95,172,98,146,62"/>
+<area shape="rect" id="Node000003" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="5,255,148,280"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="79,207,79,241,74,241,74,207"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="64,328,135,353"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="83,280,94,314,89,316,78,281"/>
+<area shape="rect" id="Node000005" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="171,328,356,353"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="108,278,221,321,219,325,106,283"/>
+<area shape="poly" id="edge9_Node000006_Node000002" title=" " alt="" coords="174,136,108,176,106,172,172,131"/>
+<area shape="poly" id="edge10_Node000006_Node000003" title=" " alt="" coords="191,134,180,169,159,208,136,231,111,250,108,245,133,227,155,205,175,167,186,133"/>
+<area shape="rect" id="Node000007" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="173,255,378,280"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="201,132,264,241,259,244,196,135"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="248,282,142,325,140,320,246,278"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="276,281,270,315,265,314,271,280"/>
+</map>

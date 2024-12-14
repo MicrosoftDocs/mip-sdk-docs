@@ -1,0 +1,20 @@
+<map id="AccessDeniedError" name="AccessDeniedError">
+<area shape="rect" id="Node000001" title="The user could not get access to the content." alt="" coords="153,388,297,413"/>
+<area shape="rect" id="Node000002" href="$classError.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="199,313,252,339"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,353,228,388,223,388,223,353"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,218,120,243"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,248,207,311,204,316,93,252"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="250,108,337,133"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="327,140,338,156,346,187,345,224,336,260,318,291,304,304,287,313,253,324,252,319,285,308,301,300,314,288,331,258,340,223,341,188,334,158,322,144"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="144,211,307,251"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="281,147,273,159,239,212,235,209,268,156,276,144"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="224,5,363,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="296,59,296,108,291,108,291,59"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="228,265,228,313,223,313,223,265"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="58,108,193,133"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="126,147,129,167,137,185,149,198,165,208,162,213,146,202,132,188,124,168,121,148"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="81,13,119,38"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="100,52,104,83,117,106,113,109,99,85,95,52"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="146,13,185,38"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="157,52,133,109,128,107,153,50"/>
+</map>

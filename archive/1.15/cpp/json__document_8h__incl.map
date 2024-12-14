@@ -1,0 +1,17 @@
+<map id="src/api/mip/json_document.h" name="src/api/mip/json_document.h">
+<area shape="rect" id="Node000001" title="A file containing the JsonDocument interface." alt="" coords="101,5,310,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,152,83,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,33,153,54,118,81,88,112,63,142,59,139,84,108,114,77,150,49,183,29"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="107,152,165,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,33,152,52,139,65,129,80,125,94,124,109,129,138,124,139,118,109,119,93,124,78,135,62,149,48,178,29"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="190,152,253,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="232,29,262,48,276,62,286,78,290,97,283,116,269,132,253,146,250,142,265,129,278,113,284,97,282,80,272,65,259,52,230,33"/>
+<area shape="rect" id="Node000005" href="$json__value_8h.html" title="A file containing the JsonValue interface." alt="" coords="139,79,272,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="208,31,208,65,203,65,203,31"/>
+<area shape="rect" id="Node000006" href="$mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="277,152,448,177"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="232,28,268,49,306,77,332,108,352,138,348,141,328,111,302,81,265,53,229,33"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="180,106,84,149,82,144,178,102"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="196,106,159,144,155,140,192,102"/>
+<area shape="poly" id="edge7_Node000005_Node000004" title=" " alt="" coords="211,104,218,138,213,139,205,105"/>
+<area shape="poly" id="edge8_Node000005_Node000006" title=" " alt="" coords="232,102,326,144,324,149,230,106"/>
+</map>

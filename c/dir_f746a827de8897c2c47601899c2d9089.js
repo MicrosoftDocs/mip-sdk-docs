@@ -8,6 +8,7 @@ var dir_f746a827de8897c2c47601899c2d9089 =
     [ "consent_callback_cc.h", "consent__callback__cc_8h.html", "consent__callback__cc_8h" ],
     [ "dictionary_cc.h", "dictionary__cc_8h.html", "dictionary__cc_8h" ],
     [ "dynamic_watermark_cc.h", "dynamic__watermark__cc_8h.html", "dynamic__watermark__cc_8h" ],
+    [ "editable_stream_cc.h", "editable__stream__cc_8h.html", "editable__stream__cc_8h" ],
     [ "error_cc.h", "error__cc_8h.html", "error__cc_8h" ],
     [ "flighting_feature_cc.h", "flighting__feature__cc_8h.html", "flighting__feature__cc_8h" ],
     [ "http_delegate_cc.h", "http__delegate__cc_8h.html", "http__delegate__cc_8h" ],

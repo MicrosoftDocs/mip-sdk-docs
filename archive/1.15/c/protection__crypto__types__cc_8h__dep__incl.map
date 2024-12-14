@@ -1,0 +1,12 @@
+<map id="src/api/mip_cc/protection/protection_crypto_types_cc.h" name="src/api/mip_cc/protection/protection_crypto_types_cc.h">
+<area shape="rect" id="Node000001" title="Defines C&#45;Style crypto types." alt="" coords="55,5,271,45"/>
+<area shape="rect" id="Node000002" href="$protection__handler__cc_8h.html" title="Defines C&#45;Style ProtectionHandler interface." alt="" coords="71,93,256,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,59,166,93,161,93,161,59"/>
+<area shape="rect" id="Node000003" href="$delegation__license__cc_8h.html" title=" " alt="" coords="5,181,191,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="143,146,115,183,110,179,139,143"/>
+<area shape="rect" id="Node000004" href="$protection__engine__cc_8h.html" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="71,269,256,309"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="189,144,206,181,210,201,206,222,195,248,181,270,176,267,190,246,201,221,204,201,201,182,184,146"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="123,231,151,267,147,271,119,234"/>
+<area shape="rect" id="Node000005" href="$protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="71,357,256,397"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="166,323,166,357,161,357,161,323"/>
+</map>

@@ -1,0 +1,43 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classAction.html" title="Interface for an action." alt="" coords="5,475,68,500"/>
+<area shape="rect" id="Node000001" href="$classAddContentFooterAction.html" title="An action class that specifies adding a content footer to the document." alt="" coords="149,5,329,31"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="36,461,41,367,54,241,64,178,77,120,93,73,114,40,130,28,148,20,150,25,133,33,118,44,98,75,82,121,69,179,59,242,47,368,41,461"/>
+<area shape="rect" id="Node000002" href="$classAddContentHeaderAction.html" title="An action class that specifies adding content header." alt="" coords="146,55,333,80"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="37,461,43,377,57,266,80,159,95,118,114,90,128,78,144,71,147,76,131,83,118,93,100,120,85,161,62,267,49,378,42,461"/>
+<area shape="rect" id="Node000003" href="$classAddDynamicWatermarkAction.html" title="An action class that specifies adding watermark." alt="" coords="130,104,349,129"/>
+<area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="38,460,46,386,61,290,83,199,97,163,114,139,129,127,133,132,118,143,102,166,88,200,66,291,51,387,43,461"/>
+<area shape="rect" id="Node000004" href="$classAddWatermarkAction.html" title="An action class that specifies adding watermark." alt="" coords="159,153,319,179"/>
+<area shape="poly" id="edge4_Node000000_Node000004" title=" " alt="" coords="39,461,48,396,64,314,86,238,99,208,114,188,135,174,158,166,160,171,137,179,118,192,104,211,91,240,70,316,54,397,44,462"/>
+<area shape="rect" id="Node000005" href="$classApplyLabelAction.html" title="Apply label actions requires the calling application to apply a specific label." alt="" coords="172,203,307,228"/>
+<area shape="poly" id="edge5_Node000000_Node000005" title=" " alt="" coords="35,460,39,412,51,352,74,290,92,262,114,237,141,221,171,213,172,218,143,226,118,241,96,265,79,292,56,353,44,413,41,460"/>
+<area shape="rect" id="Node000006" href="$classCustomAction.html" title="CustomAction is a generic action class that captures all the sub&#45;properties of the action as a proper..." alt="" coords="183,252,296,277"/>
+<area shape="poly" id="edge6_Node000000_Node000006" title=" " alt="" coords="38,460,44,421,58,374,80,327,96,305,114,287,147,269,182,262,183,267,149,274,118,291,100,309,85,329,63,376,50,423,43,461"/>
+<area shape="rect" id="Node000007" href="$classJustifyAction.html" title="Justify Action requires providing a justification to a label downgrade and setting the response in th..." alt="" coords="188,301,291,327"/>
+<area shape="poly" id="edge7_Node000000_Node000007" title=" " alt="" coords="42,460,51,431,66,397,87,364,114,336,150,319,187,311,188,317,151,324,118,340,91,367,71,400,56,433,47,462"/>
+<area shape="rect" id="Node000008" href="$classMetadataAction.html" title="An Action that adds metadata information to the content." alt="" coords="177,351,302,376"/>
+<area shape="poly" id="edge8_Node000000_Node000008" title=" " alt="" coords="49,461,75,421,93,401,115,385,145,372,176,364,177,369,146,377,117,390,97,405,79,425,53,464"/>
+<area shape="rect" id="Node000009" href="$classProtectAdhocAction.html" title="An action class that specifies adding adhoc protection to the document." alt="" coords="165,400,314,425"/>
+<area shape="poly" id="edge9_Node000000_Node000009" title=" " alt="" coords="63,464,88,448,115,434,164,420,165,425,117,439,90,453,66,468"/>
+<area shape="rect" id="Node000010" href="$classProtectAdhocDkAction.html" title="An action class that specifies adding adhoc double key protection to the document." alt="" coords="156,449,323,475"/>
+<area shape="poly" id="edge10_Node000000_Node000010" title=" " alt="" coords="81,479,155,470,156,475,82,484"/>
+<area shape="rect" id="Node000011" href="$classProtectByEncryptOnlyAction.html" title="An action class that specifies adding encrypt only protection to the document." alt="" coords="137,499,342,524"/>
+<area shape="poly" id="edge11_Node000000_Node000011" title=" " alt="" coords="82,490,137,497,136,502,82,495"/>
+<area shape="rect" id="Node000012" href="$classProtectByTemplateAction.html" title="An action class that specifies adding protection by template to the document." alt="" coords="146,548,333,573"/>
+<area shape="poly" id="edge12_Node000000_Node000012" title=" " alt="" coords="67,506,117,533,158,545,156,550,115,538,65,510"/>
+<area shape="rect" id="Node000013" href="$classProtectDoNotForwardAction.html" title="An action class that specifies adding do not forward protection to the document." alt="" coords="138,597,341,623"/>
+<area shape="poly" id="edge13_Node000000_Node000013" title=" " alt="" coords="53,511,80,548,97,567,117,582,145,595,142,600,115,587,94,571,76,552,49,514"/>
+<area shape="rect" id="Node000014" href="$classProtectDoNotForwardDkAction.html" title="An action class that specifies adding do not forward double key protection to the document." alt="" coords="129,647,349,672"/>
+<area shape="poly" id="edge14_Node000000_Node000014" title=" " alt="" coords="47,512,71,574,91,605,118,632,139,644,137,649,114,636,87,609,66,576,42,514"/>
+<area shape="rect" id="Node000015" href="$classRecommendLabelAction.html" title="Recommend label actions is meant to suggest a label to the users." alt="" coords="149,696,329,721"/>
+<area shape="poly" id="edge15_Node000000_Node000015" title=" " alt="" coords="43,514,50,552,64,597,85,643,100,664,118,681,150,699,148,703,114,685,96,667,81,646,59,599,45,553,38,514"/>
+<area shape="rect" id="Node000016" href="$classRemoveContentFooterAction.html" title="An action class that specifies removing the content footer from the document." alt="" coords="135,745,344,771"/>
+<area shape="poly" id="edge16_Node000000_Node000016" title=" " alt="" coords="41,514,45,561,56,620,79,680,96,707,118,731,136,743,133,748,114,735,92,710,75,682,51,621,40,562,36,514"/>
+<area shape="rect" id="Node000017" href="$classRemoveContentHeaderAction.html" title="An action class that specifies removing the content header from the document." alt="" coords="132,795,347,820"/>
+<area shape="poly" id="edge17_Node000000_Node000017" title=" " alt="" coords="44,513,54,577,70,658,92,733,104,761,118,780,135,792,132,797,114,784,100,764,87,734,65,659,49,578,39,514"/>
+<area shape="rect" id="Node000018" href="$classRemoveDynamicWatermarkAction.html" title="An action class that specifies removing the watermarking from the document." alt="" coords="116,844,363,869"/>
+<area shape="poly" id="edge18_Node000000_Node000018" title=" " alt="" coords="43,513,51,587,66,682,88,772,102,807,118,829,135,842,132,846,114,833,98,809,83,774,61,683,46,588,38,514"/>
+<area shape="rect" id="Node000019" href="$classRemoveProtectionAction.html" title="An action class that specifies removing protection from the document." alt="" coords="148,893,331,919"/>
+<area shape="poly" id="edge19_Node000000_Node000019" title=" " alt="" coords="42,514,49,597,63,707,85,812,100,852,118,879,132,890,149,898,147,902,129,894,114,882,96,854,80,813,58,708,44,598,37,514"/>
+<area shape="rect" id="Node000020" href="$classRemoveWatermarkAction.html" title="An action class that specifies removing the watermarking from the document." alt="" coords="145,943,334,968"/>
+<area shape="poly" id="edge20_Node000000_Node000020" title=" " alt="" coords="42,513,47,606,60,731,70,794,82,851,98,897,118,928,146,946,143,951,114,932,94,900,77,852,64,795,54,732,42,607,36,514"/>
+</map>

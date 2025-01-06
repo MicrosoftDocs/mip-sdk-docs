@@ -1,6 +1,5 @@
 var dir_a7043e653a48665e063227b454d13d4f =
 [
-    [ "delegate_errors", "dir_f7a9b30ec03eddd99bc93bc61fd0e54a.html", "dir_f7a9b30ec03eddd99bc93bc61fd0e54a" ],
     [ "file", "dir_cbf21115387959de8d7d0a96b7f8e9d5.html", "dir_cbf21115387959de8d7d0a96b7f8e9d5" ],
     [ "protection", "dir_b963b2ed0016de8cc23bff8c63b09d6e.html", "dir_b963b2ed0016de8cc23bff8c63b09d6e" ],
     [ "upe", "dir_7fa708744bee6d8892cc3d29435268c2.html", "dir_7fa708744bee6d8892cc3d29435268c2" ],
@@ -44,9 +43,5 @@ var dir_a7043e653a48665e063227b454d13d4f =
     [ "telemetry_event.h", "telemetry__event_8h.html", "telemetry__event_8h" ],
     [ "user_rights.h", "user__rights_8h.html", "user__rights_8h" ],
     [ "user_roles.h", "user__roles_8h.html", "user__roles_8h" ],
-    [ "version.h", "version_8h.html", null ],
-    [ "xml_delegate.h", "xml__delegate_8h.html", "xml__delegate_8h" ],
-    [ "xml_document.h", "xml__document_8h.html", "xml__document_8h" ],
-    [ "xml_node.h", "xml__node_8h.html", "xml__node_8h" ],
-    [ "xml_reader.h", "xml__reader_8h.html", "xml__reader_8h" ]
+    [ "version.h", "version_8h.html", null ]
 ];

@@ -81,9 +81,7 @@ var hierarchy =
         [ "NotSupportedError", "classNotSupportedError.html", null ],
         [ "OperationCancelledError", "classOperationCancelledError.html", null ],
         [ "PrivilegedRequiredError", "classPrivilegedRequiredError.html", null ]
-      ] ],
-      [ "xml::XmlLoadException", "classxml_1_1XmlLoadException.html", null ],
-      [ "xml::XmlParserException", "classxml_1_1XmlParserException.html", null ]
+      ] ]
     ] ],
     [ "ExecutionState", "classExecutionState.html", null ],
     [ "ExtendedErrorInfo", "structExtendedErrorInfo.html", null ],
@@ -158,10 +156,5 @@ var hierarchy =
     [ "TenantInformation", "classTenantInformation.html", null ],
     [ "UniqueIdsAndContentFormats", "structUniqueIdsAndContentFormats.html", null ],
     [ "UserRights", "classUserRights.html", null ],
-    [ "UserRoles", "classUserRoles.html", null ],
-    [ "xml::XmlDelegate", "classxml_1_1XmlDelegate.html", null ],
-    [ "xml::XmlDocument", "classxml_1_1XmlDocument.html", null ],
-    [ "xml::XmlNamespace", "structxml_1_1XmlNamespace.html", null ],
-    [ "xml::XmlNode", "classxml_1_1XmlNode.html", null ],
-    [ "xml::XmlReader", "classxml_1_1XmlReader.html", null ]
+    [ "UserRoles", "classUserRoles.html", null ]
 ];

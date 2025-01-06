@@ -8,15 +8,12 @@ var searchData=
   ['diagonal_5',['DIAGONAL',['../common__types_8h.html#ac3b70878cf52996e6c71c7039076840fad3fbf8a4dbb33b1e296fcaa32703b66d',1,'common_types.h']]],
   ['disabled_6',['Disabled',['../audit__delegate_8h.html#a73536d0ceff37ac4a0c0f06a086ba98fab9f5c797ebbf55adccdd8539a65a0241',1,'Disabled:&#160;audit_delegate.h'],['../dns__redirection_8h.html#aedc87df4f0412a0242ba2f903aa88a81ab9f5c797ebbf55adccdd8539a65a0241',1,'Disabled:&#160;dns_redirection.h']]],
   ['disabled_5fservice_7',['DISABLED_SERVICE',['../error_8h.html#af7a9c5a9d19bf72299ab821bd983e131a4c8cf17895f9878abcab3fd106323904',1,'error.h']]],
-  ['document_8',['DOCUMENT',['../namespacexml.html#a4fb3009600ec5826dc321c46fee9c6c0ac231fa48df3ee393c92dccac4dba5e7d',1,'xml']]],
-  ['document_5ffragment_9',['DOCUMENT_FRAGMENT',['../namespacexml.html#a4fb3009600ec5826dc321c46fee9c6c0af8c9ea6622c7fec81e1966bb37c92199',1,'xml']]],
-  ['document_5ftype_10',['DOCUMENT_TYPE',['../namespacexml.html#a4fb3009600ec5826dc321c46fee9c6c0a3026bdc1392028d5423045dea2cdeacf',1,'xml']]],
-  ['donotforward_11',['DoNotForward',['../classProtectionDescriptorBuilder.html#a7961e18fdcfc8626116c3c16145e940dab3cae175ad911edec3e87369d9e889ab',1,'ProtectionDescriptorBuilder']]],
-  ['donotforwardprotection_12',['DoNotForwardProtection',['../common__types_8h.html#a858bf8ad8a1305b382d18e21e1e60b60a5748aad7b40bea59a8300141c04a2f26',1,'common_types.h']]],
-  ['double_13',['Double',['../diagnostic__types_8h.html#ad8808e2faa037f8eacd24a440c4b6fdfad909d38d705ce75386dd86e611a82f5b',1,'diagnostic_types.h']]],
-  ['double_5fkey_5fdisabled_14',['DOUBLE_KEY_DISABLED',['../error_8h.html#af7a9c5a9d19bf72299ab821bd983e131add04b07d92f95efa21589efb027db17e',1,'error.h']]],
-  ['doublekey_15',['DoubleKey',['../classBadInputError.html#a6d0012cf1bc07830bb1d963394a9bedfaa3f59350f64e6abac1bff0a30f346d42',1,'BadInputError::DoubleKey'],['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a79a2346f06e778e57215ef8954901099',1,'DoubleKey:&#160;flighting_feature.h']]],
-  ['doublekeyprotection_16',['DoubleKeyProtection',['../common__types_8h.html#a858bf8ad8a1305b382d18e21e1e60b60acd0f8be310f64ce3f466205703dc33a8',1,'common_types.h']]],
-  ['doublekeyuserdefinedprotection_17',['DoubleKeyUserDefinedProtection',['../common__types_8h.html#a858bf8ad8a1305b382d18e21e1e60b60a115cd3a8cd6ffd4528918022beebc9b9',1,'common_types.h']]],
-  ['dynamicwatermarkingenabled_18',['DynamicWatermarkingEnabled',['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0ab99e7ec078e51d67b859d4bb121cb18f',1,'flighting_feature.h']]]
+  ['donotforward_8',['DoNotForward',['../classProtectionDescriptorBuilder.html#a7961e18fdcfc8626116c3c16145e940dab3cae175ad911edec3e87369d9e889ab',1,'ProtectionDescriptorBuilder']]],
+  ['donotforwardprotection_9',['DoNotForwardProtection',['../common__types_8h.html#a858bf8ad8a1305b382d18e21e1e60b60a5748aad7b40bea59a8300141c04a2f26',1,'common_types.h']]],
+  ['double_10',['Double',['../diagnostic__types_8h.html#ad8808e2faa037f8eacd24a440c4b6fdfad909d38d705ce75386dd86e611a82f5b',1,'diagnostic_types.h']]],
+  ['double_5fkey_5fdisabled_11',['DOUBLE_KEY_DISABLED',['../error_8h.html#af7a9c5a9d19bf72299ab821bd983e131add04b07d92f95efa21589efb027db17e',1,'error.h']]],
+  ['doublekey_12',['DoubleKey',['../classBadInputError.html#a6d0012cf1bc07830bb1d963394a9bedfaa3f59350f64e6abac1bff0a30f346d42',1,'BadInputError::DoubleKey'],['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a79a2346f06e778e57215ef8954901099',1,'DoubleKey:&#160;flighting_feature.h']]],
+  ['doublekeyprotection_13',['DoubleKeyProtection',['../common__types_8h.html#a858bf8ad8a1305b382d18e21e1e60b60acd0f8be310f64ce3f466205703dc33a8',1,'common_types.h']]],
+  ['doublekeyuserdefinedprotection_14',['DoubleKeyUserDefinedProtection',['../common__types_8h.html#a858bf8ad8a1305b382d18e21e1e60b60a115cd3a8cd6ffd4528918022beebc9b9',1,'common_types.h']]],
+  ['dynamicwatermarkingenabled_15',['DynamicWatermarkingEnabled',['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0ab99e7ec078e51d67b859d4bb121cb18f',1,'flighting_feature.h']]]
 ];

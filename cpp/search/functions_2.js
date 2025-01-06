@@ -41,6 +41,5 @@ var searchData=
   ['createstoragetable_38',['CreateStorageTable',['../classStorageDelegate.html#a9756761bdad72e4aafab1be08bd98e04',1,'StorageDelegate']]],
   ['createstreamfrombuffer_39',['CreateStreamFromBuffer',['../stream__utils_8h.html#a19ce32783071c950cd6b543beb030685',1,'stream_utils.h']]],
   ['createstreamfromstdstream_40',['CreateStreamFromStdStream',['../stream__utils_8h.html#a3770bf1b09c2f55aabc8e76ed6e0e392',1,'CreateStreamFromStdStream(const std::shared_ptr&lt; std::istream &gt; &amp;stdIStream):&#160;stream_utils.h'],['../stream__utils_8h.html#afbd7ed3ef1b3220b96a8cb9d8addd059',1,'CreateStreamFromStdStream(const std::shared_ptr&lt; std::ostream &gt; &amp;stdOStream):&#160;stream_utils.h'],['../stream__utils_8h.html#a603b7212b7d7149922bac0cc880c4c98',1,'CreateStreamFromStdStream(const std::shared_ptr&lt; std::iostream &gt; &amp;stdIOStream):&#160;stream_utils.h']]],
-  ['createwithcustomfeaturesettings_41',['CreateWithCustomFeatureSettings',['../classMipContext.html#a28a171f08ef58df6fdc3dd19f1e5c6e8',1,'MipContext']]],
-  ['createxmlreader_42',['CreateXmlReader',['../classxml_1_1XmlDelegate.html#a3a896baf2ba21b7a8df923693affa60d',1,'xml::XmlDelegate']]]
+  ['createwithcustomfeaturesettings_41',['CreateWithCustomFeatureSettings',['../classMipContext.html#a28a171f08ef58df6fdc3dd19f1e5c6e8',1,'MipContext']]]
 ];

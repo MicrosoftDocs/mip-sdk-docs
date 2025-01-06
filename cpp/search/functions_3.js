@@ -13,6 +13,5 @@ var searchData=
   ['doesallowofflineaccess_10',['DoesAllowOfflineAccess',['../classProtectionDescriptor.html#aec2ee49903d638c123df1c116d3a4562',1,'ProtectionDescriptor']]],
   ['doescontentexpire_11',['DoesContentExpire',['../classLicenseRightsData.html#a77a0e0d9b7ebd472becb5c4e69a5e9e7',1,'LicenseRightsData::DoesContentExpire()'],['../classProtectionDescriptor.html#ae24d88008daaeafc9b51c561d621c5c1',1,'ProtectionDescriptor::DoesContentExpire()']]],
   ['doesusedeprecatedalgorithms_12',['DoesUseDeprecatedAlgorithms',['../classProtectionHandler.html#ad4643b687ab98a0ba4be7c7c2c83a83d',1,'ProtectionHandler']]],
-  ['donotforwardrights_13',['DoNotForwardRights',['../namespacerights.html#a8b7a9f9a5f237552d449e583c3da9dc8',1,'rights']]],
-  ['dumpnode_14',['DumpNode',['../classxml_1_1XmlReader.html#a6bdb96303a246c3b8950106375d16fdd',1,'xml::XmlReader']]]
+  ['donotforwardrights_13',['DoNotForwardRights',['../namespacerights.html#a8b7a9f9a5f237552d449e583c3da9dc8',1,'rights']]]
 ];

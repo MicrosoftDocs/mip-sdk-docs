@@ -30,9 +30,7 @@ var NAVTREE =
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ],
-        [ "Typedefs", "namespacemembers_type.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ]
+        [ "Functions", "namespacemembers_func.html", null ]
       ] ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -57,23 +55,21 @@ var NAVTREE =
         [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
-    ] ],
-    [ "Examples", "examples.html", "examples" ]
+    ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"1-example.html",
-"classDelegateResponseError.html#af00e4c79dbf6834b319b068a2d94ae36",
-"classHttpDelegate.html",
-"classMetadataVersion.html#aef6c56f62742bf53eb6e531cc2abe133",
-"classProtectByTemplateAction.html#a1a56946e660a3892e79ffcf60d3a0a25",
-"classProtectionProfile_1_1Settings.html#afa9d4cbecfaf5e167deb38393fe49d42",
-"classxml_1_1XmlNode.html#a1abf7b4c18afd2784373718ffdcec8c4",
-"error_8h.html#af7a9c5a9d19bf72299ab821bd983e131a3e0f0104cf5c342efec795a429264c47",
-"namespacerights.html#a3b4c5996cf11ea0cf6d1127b835ea337",
-"xml__node_8h.html#a4fb3009600ec5826dc321c46fee9c6c0ac231fa48df3ee393c92dccac4dba5e7d"
+"action_8h.html",
+"classDelegationLicense.html",
+"classHttpDelegate.html#ad1e1fee58018a110361c61a6fecbe3a3",
+"classMipConfiguration.html#a039c8774dd7275b7c3128212380f51b0",
+"classProtectDoNotForwardAction.html",
+"classProtectionProfile_1_1Settings.html#afefcfec965cd99c11f1c1d06655285de",
+"common__types_8h.html#a2c4b0d75b3d00e7f9e539e94f61243f3",
+"flighting__feature_8h.html#a86e976962ef2f547436d8cd1355fb718",
+"rights_8h.html#a1ef49307b68c4b19ff4020aebf8bf493"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

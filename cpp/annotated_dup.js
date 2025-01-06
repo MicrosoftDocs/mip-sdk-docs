@@ -1,14 +1,5 @@
 var annotated_dup =
 [
-    [ "xml", "namespacexml.html", [
-      [ "XmlDelegate", "classxml_1_1XmlDelegate.html", "classxml_1_1XmlDelegate" ],
-      [ "XmlDocument", "classxml_1_1XmlDocument.html", "classxml_1_1XmlDocument" ],
-      [ "XmlLoadException", "classxml_1_1XmlLoadException.html", "classxml_1_1XmlLoadException" ],
-      [ "XmlNamespace", "structxml_1_1XmlNamespace.html", "structxml_1_1XmlNamespace" ],
-      [ "XmlNode", "classxml_1_1XmlNode.html", "classxml_1_1XmlNode" ],
-      [ "XmlParserException", "classxml_1_1XmlParserException.html", "classxml_1_1XmlParserException" ],
-      [ "XmlReader", "classxml_1_1XmlReader.html", "classxml_1_1XmlReader" ]
-    ] ],
     [ "AccessDeniedError", "classAccessDeniedError.html", "classAccessDeniedError" ],
     [ "Action", "classAction.html", "classAction" ],
     [ "AddContentFooterAction", "classAddContentFooterAction.html", "classAddContentFooterAction" ],

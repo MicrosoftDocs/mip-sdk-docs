@@ -42,6 +42,5 @@ var namespaces_dup =
       [ "CoOwner", "namespaceroles.html#a030d82b8b7e041b4b54da8712e1079f8", null ],
       [ "Reviewer", "namespaceroles.html#a270bbe1b4ed905b7e8533997022006c5", null ],
       [ "Viewer", "namespaceroles.html#a561b08d7ace604dbd0f7a3c3fec9b550", null ]
-    ] ],
-    [ "xml", "namespacexml.html", "namespacexml" ]
+    ] ]
 ];

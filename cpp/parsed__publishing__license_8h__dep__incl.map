@@ -7,24 +7,25 @@
 <area shape="rect" id="Node000004" href="$delegation__license__settings_8h.html" title="Defines DelegationLicenseSettings class." alt="" coords="320,284,539,324"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="351,152,422,283,417,285,346,154"/>
 <area shape="rect" id="Node000005" href="$protection__engine_8h.html" title="Defines ProtectionEngine interface." alt="" coords="141,372,305,412"/>
-<area shape="poly" id="edge10_Node000003_Node000005" title=" " alt="" coords="324,155,295,233,258,325,235,373,230,370,254,323,290,231,319,153"/>
+<area shape="poly" id="edge11_Node000003_Node000005" title=" " alt="" coords="324,155,295,233,258,325,235,373,230,370,254,323,290,231,319,153"/>
 <area shape="rect" id="Node000010" href="$protection__profile_8h.html" title="Defines ProtectionProfile interface." alt="" coords="333,460,497,500"/>
-<area shape="poly" id="edge16_Node000003_Node000010" title=" " alt="" coords="392,144,434,167,479,198,521,237,553,283,561,310,559,337,548,363,532,387,489,430,447,462,443,458,486,426,528,384,543,360,553,336,556,310,548,285,517,240,476,202,432,172,389,149"/>
+<area shape="poly" id="edge17_Node000003_Node000010" title=" " alt="" coords="392,144,434,167,479,198,521,237,553,283,561,310,559,337,548,363,532,387,489,430,447,462,443,458,486,426,528,384,543,360,553,336,556,310,548,285,517,240,476,202,432,172,389,149"/>
 <area shape="rect" id="Node000011" href="$protection__handler_8h.html" title="Defines ProtectionHandler interface." alt="" coords="21,196,185,236"/>
-<area shape="poly" id="edge11_Node000003_Node000011" title=" " alt="" coords="274,148,150,198,148,193,272,143"/>
+<area shape="poly" id="edge12_Node000003_Node000011" title=" " alt="" coords="274,148,150,198,148,193,272,143"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="372,332,269,374,267,370,370,327"/>
 <area shape="rect" id="Node000006" href="$file__handler_8h.html" title=" " alt="" coords="6,460,149,500"/>
 <area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="180,421,111,462,108,458,177,417"/>
-<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="278,415,374,458,372,462,276,420"/>
-<area shape="rect" id="Node000007" href="$file__execution__state_8h.html" title=" " alt="" coords="5,548,149,588"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="80,514,80,548,75,548,75,514"/>
-<area shape="rect" id="Node000008" href="$file__engine_8h.html" title=" " alt="" coords="6,636,149,676"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="80,602,80,636,75,636,75,602"/>
-<area shape="rect" id="Node000009" href="$file__profile_8h.html" title=" " alt="" coords="6,724,149,764"/>
-<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="80,690,80,724,75,724,75,690"/>
-<area shape="poly" id="edge15_Node000011_Node000005" title=" " alt="" coords="82,249,65,286,64,305,70,323,84,339,101,353,141,372,139,377,99,357,80,343,66,325,59,306,60,285,77,247"/>
-<area shape="poly" id="edge12_Node000011_Node000006" title=" " alt="" coords="79,248,67,266,59,285,51,333,54,382,63,426,73,459,68,461,58,427,49,382,46,333,53,283,62,263,74,245"/>
+<area shape="poly" id="edge10_Node000005_Node000010" title=" " alt="" coords="278,415,374,458,372,462,276,420"/>
+<area shape="rect" id="Node000007" href="$file__engine_8h.html" title="Provides an interface for file&#45;related engine functions." alt="" coords="6,636,149,676"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="63,514,51,549,48,568,51,587,58,612,69,634,64,637,53,614,45,589,43,568,45,547,58,512"/>
+<area shape="rect" id="Node000009" href="$file__execution__state_8h.html" title=" " alt="" coords="60,548,204,588"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="99,510,122,546,118,549,95,513"/>
+<area shape="rect" id="Node000008" href="$file__profile_8h.html" title=" " alt="" coords="6,724,149,764"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="80,690,80,724,75,724,75,690"/>
+<area shape="poly" id="edge9_Node000009_Node000007" title=" " alt="" coords="115,601,92,637,87,634,110,598"/>
+<area shape="poly" id="edge16_Node000011_Node000005" title=" " alt="" coords="82,249,65,286,64,305,70,323,84,339,101,353,141,372,139,377,99,357,80,343,66,325,59,306,60,285,77,247"/>
+<area shape="poly" id="edge13_Node000011_Node000006" title=" " alt="" coords="79,248,67,266,59,285,51,333,54,382,63,426,73,459,68,461,58,427,49,382,46,333,53,283,62,263,74,245"/>
 <area shape="rect" id="Node000012" href="$delegation__license_8h.html" title="Defines DelegationLicense interface." alt="" coords="81,284,245,324"/>
-<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="126,246,152,282,147,285,122,249"/>
-<area shape="poly" id="edge14_Node000012_Node000005" title=" " alt="" coords="186,334,212,370,207,373,182,337"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="126,246,152,282,147,285,122,249"/>
+<area shape="poly" id="edge15_Node000012_Node000005" title=" " alt="" coords="186,334,212,370,207,373,182,337"/>
 </map>

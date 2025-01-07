@@ -1,27 +1,28 @@
 <map id="src/api/mip/upe/metadata_entry.h" name="src/api/mip/upe/metadata_entry.h">
-<area shape="rect" id="Node000001" title="This file contains the MetadataEntry class." alt="" coords="273,5,463,45"/>
-<area shape="rect" id="Node000002" href="$content__label_8h.html" title="A file Containing the ContentLabel class." alt="" coords="90,93,265,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="315,53,220,96,218,91,313,49"/>
-<area shape="rect" id="Node000009" href="$policy__handler_8h.html" title="This file contains the PolicyHandler class." alt="" coords="224,181,389,221"/>
-<area shape="poly" id="edge14_Node000001_Node000009" title=" " alt="" coords="349,58,330,94,318,141,311,181,306,181,312,139,326,92,345,56"/>
-<area shape="rect" id="Node000010" href="$execution__state_8h.html" title="This file contains the ExecutionState class." alt="" coords="340,93,529,133"/>
-<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="393,55,422,91,418,95,389,58"/>
-<area shape="rect" id="Node000011" href="$metadata__action_8h.html" title="This file contains the MetadataAction class." alt="" coords="553,93,743,133"/>
-<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="443,47,587,91,586,96,442,52"/>
-<area shape="rect" id="Node000003" href="$file__handler_8h.html" title=" " alt="" coords="6,181,149,221"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="147,144,101,183,98,179,143,140"/>
-<area shape="rect" id="Node000007" href="$policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="224,269,389,309"/>
-<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="185,147,195,184,214,220,240,246,270,267,267,271,237,250,210,223,190,186,180,148"/>
-<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="219,139,280,179,277,183,216,144"/>
-<area shape="rect" id="Node000004" href="$file__execution__state_8h.html" title=" " alt="" coords="5,269,149,309"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="80,235,80,269,75,269,75,235"/>
-<area shape="rect" id="Node000005" href="$file__engine_8h.html" title=" " alt="" coords="6,357,149,397"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="80,323,80,357,75,357,75,323"/>
-<area shape="rect" id="Node000006" href="$file__profile_8h.html" title=" " alt="" coords="6,445,149,485"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="80,411,80,445,75,445,75,411"/>
-<area shape="rect" id="Node000008" href="$policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="224,357,389,397"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="309,323,309,357,304,357,304,323"/>
-<area shape="poly" id="edge9_Node000009_Node000007" title=" " alt="" coords="309,235,309,269,304,269,304,235"/>
-<area shape="poly" id="edge11_Node000010_Node000007" title=" " alt="" coords="433,148,423,186,403,223,376,251,346,271,343,267,373,246,399,220,418,184,428,147"/>
-<area shape="poly" id="edge12_Node000010_Node000009" title=" " alt="" coords="396,144,336,183,334,179,393,139"/>
+<area shape="rect" id="Node000001" title="This file contains the MetadataEntry class." alt="" coords="277,5,466,45"/>
+<area shape="rect" id="Node000002" href="$content__label_8h.html" title="A file Containing the ContentLabel class." alt="" coords="93,93,268,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="318,53,224,96,221,91,316,49"/>
+<area shape="rect" id="Node000009" href="$policy__handler_8h.html" title="This file contains the PolicyHandler class." alt="" coords="227,181,393,221"/>
+<area shape="poly" id="edge15_Node000001_Node000009" title=" " alt="" coords="353,58,334,94,321,141,314,181,309,181,316,139,329,92,348,56"/>
+<area shape="rect" id="Node000010" href="$execution__state_8h.html" title="This file contains the ExecutionState class." alt="" coords="343,93,533,133"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="397,55,425,91,421,95,392,58"/>
+<area shape="rect" id="Node000011" href="$metadata__action_8h.html" title="This file contains the MetadataAction class." alt="" coords="557,93,746,133"/>
+<area shape="poly" id="edge14_Node000001_Node000011" title=" " alt="" coords="447,47,591,91,589,96,445,52"/>
+<area shape="rect" id="Node000003" href="$file__handler_8h.html" title=" " alt="" coords="9,181,152,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="150,144,105,183,101,179,146,140"/>
+<area shape="rect" id="Node000007" href="$policy__engine_8h.html" title="This file contains the PolicyEngine class which includes the PolicyEngine::Settings class." alt="" coords="227,269,393,309"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="188,147,199,184,217,220,244,246,274,267,271,271,240,250,213,223,194,186,183,148"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="222,139,283,179,280,183,220,144"/>
+<area shape="rect" id="Node000004" href="$file__engine_8h.html" title="Provides an interface for file&#45;related engine functions." alt="" coords="5,357,148,397"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="64,234,50,270,47,289,50,309,58,334,68,356,63,358,53,336,45,310,42,289,45,269,59,233"/>
+<area shape="rect" id="Node000006" href="$file__execution__state_8h.html" title=" " alt="" coords="59,269,203,309"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="101,232,122,268,118,270,97,235"/>
+<area shape="rect" id="Node000005" href="$file__profile_8h.html" title=" " alt="" coords="5,445,148,485"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="79,411,79,445,74,445,74,411"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="114,322,91,359,87,356,110,320"/>
+<area shape="rect" id="Node000008" href="$policy__profile_8h.html" title="This file contains the PolicyProfile class which includes the PolicyProfile::Observer and the PolicyP..." alt="" coords="227,357,393,397"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="313,323,313,357,307,357,307,323"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="313,235,313,269,307,269,307,235"/>
+<area shape="poly" id="edge12_Node000010_Node000007" title=" " alt="" coords="436,148,426,186,407,223,380,251,349,271,346,267,376,246,403,220,421,184,431,147"/>
+<area shape="poly" id="edge13_Node000010_Node000009" title=" " alt="" coords="400,144,340,183,337,179,397,139"/>
 </map>

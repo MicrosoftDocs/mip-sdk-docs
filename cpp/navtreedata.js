@@ -64,14 +64,14 @@ var NAVTREEINDEX =
 [
 "action_8h.html",
 "classCustomerKeyUnavailableError.html#a6b5d1714f27d38ba999e5cba27014397",
-"classFileProfile_1_1Observer.html#a8b7e17d2d7eaf7a61f0dd482a20ce7bb",
-"classLabelingOptions.html#a5b39189d3f6d59ea893a27e3327cac0c",
-"classNoPermissionsExtendedError.html#a0c79a90c3d7a10bad9812f51ba615486",
-"classProtectByEncryptOnlyAction.html#aa4139755e9db4c903448d7b51f6ec281",
-"classProtectionProfile_1_1Settings.html#a85187eee3c98da50a677da491c59b333",
-"classTemplateNotFoundError.html#a6d0012cf1bc07830bb1d963394a9bedfac017f125c246b0b07b81f9b27ef2f4dd",
-"execution__state_8h.html#a6f922b51113575a27adab5d52db65f45",
-"protect__adhoc__dk__action_8h.html"
+"classFileIOError.html#aa6b87fa2e501856f7a39e763eebcbe39",
+"classLabelNotFoundError.html#a126830db2540cb5d75971e196603b8a1",
+"classNoPermissionsError.html#a1e9379501df2d1e8315d373cf79949f2",
+"classPolicyProfile_1_1Settings.html#aa068c84f289bc18e089658b291fbd31b",
+"classProtectionProfile.html#aca5880d2f560a0d8cfca1b6b2599ae5c",
+"classTemplateArchivedError.html#aa6b87fa2e501856f7a39e763eebcbe39",
+"error_8h.html#af7a9c5a9d19bf72299ab821bd983e131a4905ac9d6a22bdfc1ae096094ce6248d",
+"namespacerights.html#a9551a8149ed6fb783ce7c187d37be59d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

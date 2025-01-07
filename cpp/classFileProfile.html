@@ -129,7 +129,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:abf69570cb4b3920875bdd3f46208394f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts adding a new file engine to the profile.  <br /></td></tr>
 <tr class="separator:abf69570cb4b3920875bdd3f46208394f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8992bd35c633bc43e6e9b92176d28f82" id="r_a8992bd35c633bc43e6e9b92176d28f82"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classAsyncControl.html">AsyncControl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8992bd35c633bc43e6e9b92176d28f82">DeleteEngineAsync</a> (const std::string &amp;id, const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
-<tr class="memdesc:a8992bd35c633bc43e6e9b92176d28f82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts deleting the file engine with the given ID.  <br /></td></tr>
+<tr class="memdesc:a8992bd35c633bc43e6e9b92176d28f82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts deleting the file engine with the given ID. All data for the given profile will be deleted.  <br /></td></tr>
 <tr class="separator:a8992bd35c633bc43e6e9b92176d28f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98bdef30cd0dff8057728b4c3a9ab011" id="r_a98bdef30cd0dff8057728b4c3a9ab011"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classFileProfile_1_1Settings.html">Settings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98bdef30cd0dff8057728b4c3a9ab011">GetSettings</a> () const =0</td></tr>
 <tr class="memdesc:a98bdef30cd0dff8057728b4c3a9ab011"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the profile settings.  <br /></td></tr>
@@ -255,8 +255,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Starts deleting the file engine with the given ID. </p>
-<p>All data for the given profile will be deleted. </p><dl class="section return"><dt>Returns</dt><dd>Async control object.</dd></dl>
+<p>Starts deleting the file engine with the given ID. All data for the given profile will be deleted. </p>
+<dl class="section return"><dt>Returns</dt><dd>Async control object.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd><a class="el" href="classFileProfile_1_1Observer.html" title="Observer interface for clients to get notifications for profile related events.">FileProfile::Observer</a> will be called upon success or failure. </dd></dl>
 
 </div>

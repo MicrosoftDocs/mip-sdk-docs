@@ -1,6 +1,6 @@
 <map id="NoAuthTokenError" name="NoAuthTokenError">
 <area shape="rect" id="Node000001" title="The user could not get access to the content due to missing authentication token." alt="" coords="8,225,147,251"/>
-<area shape="rect" id="Node000002" href="$classAccessDeniedError.html" title="The user could not get access to the content." alt="" coords="5,152,149,177"/>
+<area shape="rect" id="Node000002" href="$classAccessDeniedError.html" title="The user could not get access to the content. For example, no permissions, content revoked." alt="" coords="5,152,149,177"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,191,80,225,75,225,75,191"/>
 <area shape="rect" id="Node000003" href="$classError.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="51,79,104,104"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="80,118,80,152,75,152,75,118"/>

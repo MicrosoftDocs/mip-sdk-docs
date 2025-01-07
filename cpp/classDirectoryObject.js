@@ -10,5 +10,9 @@ var classDirectoryObject =
     [ "GetDirectoryObjectType", "classDirectoryObject.html#a73d425510f9d3fe5f4ef286ee0316c81", null ],
     [ "GetEmail", "classDirectoryObject.html#af45e756dfc12a0307739ef151453b043", null ],
     [ "GetObjectId", "classDirectoryObject.html#ac1a6fba5e4c43e23341c95dda473c5cf", null ],
-    [ "GetPuid", "classDirectoryObject.html#a233d5c16fb6aa4c30926e8bec8dc1140", null ]
+    [ "GetPuid", "classDirectoryObject.html#a233d5c16fb6aa4c30926e8bec8dc1140", null ],
+    [ "mEmail", "classDirectoryObject.html#a4d5d64518ca5bdfa5b512c13c4e9ac25", null ],
+    [ "mObjectId", "classDirectoryObject.html#a5c8f43d631e762910a3b98e079c2470c", null ],
+    [ "mPuid", "classDirectoryObject.html#aebc54648eef71923dfb1584d91d8d980", null ],
+    [ "mType", "classDirectoryObject.html#afed2e180e977a3a573e0ad02962ea2d4", null ]
 ];

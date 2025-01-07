@@ -1,5 +1,5 @@
 <map id="CustomAction" name="CustomAction">
 <area shape="rect" id="Node000001" title="CustomAction is a generic action class that captures all the sub&#45;properties of the action as a proper..." alt="" coords="5,79,119,104"/>
-<area shape="rect" id="Node000002" href="$classAction.html" title="Interface for an action." alt="" coords="31,5,93,31"/>
+<area shape="rect" id="Node000002" href="$classAction.html" title="Interface for an action. Each action translates to a step that needs to be taken by the application t..." alt="" coords="31,5,93,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,44,65,79,59,79,59,44"/>
 </map>

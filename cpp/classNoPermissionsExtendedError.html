@@ -101,6 +101,8 @@ $(function(){initNavTree('classNoPermissionsExtendedError.html',''); initResizab
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classNoPermissionsExtendedError-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">NoPermissionsExtendedError Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
@@ -110,17 +112,15 @@ $(function(){initNavTree('classNoPermissionsExtendedError.html',''); initResizab
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="error_8h_source.html">src/api/mip/error.h</a>&gt;</code></p>
-<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for NoPermissionsExtendedError:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="dynheader">
+Inheritance diagram for NoPermissionsExtendedError:</div>
+<div class="dyncontent">
 <div class="center"><img src="classNoPermissionsExtendedError__inherit__graph.png" border="0" usemap="#aNoPermissionsExtendedError_inherit__map" alt="Inheritance graph"/></div>
 <map name="aNoPermissionsExtendedError_inherit__map" id="aNoPermissionsExtendedError_inherit__map">
 <area shape="rect" title="The user could not get access to the content due to extended Access checks like ABAC." alt="" coords="5,299,216,324"/>
-<area shape="rect" href="classNoPermissionsError.html" title="The user could not get access to the content." alt="" coords="35,225,186,251"/>
+<area shape="rect" href="classNoPermissionsError.html" title="The user could not get access to the content. For example, no permissions, content revoked." alt="" coords="35,225,186,251"/>
 <area shape="poly" title=" " alt="" coords="113,264,113,299,108,299,108,264"/>
-<area shape="rect" href="classAccessDeniedError.html" title="The user could not get access to the content." alt="" coords="39,152,183,177"/>
+<area shape="rect" href="classAccessDeniedError.html" title="The user could not get access to the content. For example, no permissions, content revoked." alt="" coords="39,152,183,177"/>
 <area shape="poly" title=" " alt="" coords="113,191,113,225,108,225,108,191"/>
 <area shape="rect" href="classError.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="84,79,137,104"/>
 <area shape="poly" title=" " alt="" coords="113,118,113,152,108,152,108,118"/>
@@ -128,35 +128,43 @@ $(function(){initNavTree('classNoPermissionsExtendedError.html',''); initResizab
 <area shape="poly" title=" " alt="" coords="113,44,113,79,108,79,108,44"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Collaboration diagram for NoPermissionsExtendedError:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="dynheader">
+Collaboration diagram for NoPermissionsExtendedError:</div>
+<div class="dyncontent">
 <div class="center"><img src="classNoPermissionsExtendedError__coll__graph.png" border="0" usemap="#aNoPermissionsExtendedError_coll__map" alt="Collaboration graph"/></div>
 <map name="aNoPermissionsExtendedError_coll__map" id="aNoPermissionsExtendedError_coll__map">
-<area shape="rect" title="The user could not get access to the content due to extended Access checks like ABAC." alt="" coords="120,537,331,563"/>
-<area shape="rect" href="classNoPermissionsError.html" title="The user could not get access to the content." alt="" coords="150,463,301,488"/>
-<area shape="poly" title=" " alt="" coords="228,502,228,537,223,537,223,502"/>
-<area shape="rect" href="classAccessDeniedError.html" title="The user could not get access to the content." alt="" coords="153,388,297,413"/>
-<area shape="poly" title=" " alt="" coords="228,428,228,462,223,462,223,428"/>
-<area shape="rect" href="classError.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="199,313,252,339"/>
-<area shape="poly" title=" " alt="" coords="228,353,228,388,223,388,223,353"/>
-<area shape="rect" title=" " alt="" coords="5,218,120,243"/>
-<area shape="poly" title=" " alt="" coords="96,248,207,311,204,316,93,252"/>
-<area shape="rect" title=" " alt="" coords="250,108,337,133"/>
-<area shape="poly" title=" " alt="" coords="327,140,338,156,346,187,345,224,336,260,318,291,304,304,287,313,253,324,252,319,285,308,301,300,314,288,331,258,340,223,341,188,334,158,322,144"/>
-<area shape="rect" title=" " alt="" coords="144,211,307,251"/>
-<area shape="poly" title=" " alt="" coords="281,147,273,159,239,212,235,209,268,156,276,144"/>
-<area shape="rect" title=" " alt="" coords="224,5,363,45"/>
-<area shape="poly" title=" " alt="" coords="296,59,296,108,291,108,291,59"/>
-<area shape="poly" title=" " alt="" coords="228,265,228,313,223,313,223,265"/>
-<area shape="rect" title=" " alt="" coords="58,108,193,133"/>
-<area shape="poly" title=" " alt="" coords="126,147,129,167,137,185,149,198,165,208,162,213,146,202,132,188,124,168,121,148"/>
-<area shape="rect" title=" " alt="" coords="81,13,119,38"/>
-<area shape="poly" title=" " alt="" coords="100,52,104,83,117,106,113,109,99,85,95,52"/>
-<area shape="rect" title=" " alt="" coords="146,13,185,38"/>
-<area shape="poly" title=" " alt="" coords="157,52,133,109,128,107,153,50"/>
+<area shape="rect" title="The user could not get access to the content due to extended Access checks like ABAC." alt="" coords="253,588,464,613"/>
+<area shape="rect" href="classNoPermissionsError.html" title="The user could not get access to the content. For example, no permissions, content revoked." alt="" coords="130,513,281,539"/>
+<area shape="poly" title=" " alt="" coords="243,542,336,586,333,590,241,547"/>
+<area shape="rect" href="classAccessDeniedError.html" title="The user could not get access to the content. For example, no permissions, content revoked." alt="" coords="133,431,277,457"/>
+<area shape="poly" title=" " alt="" coords="208,470,208,513,203,513,203,470"/>
+<area shape="rect" href="classError.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="179,334,232,359"/>
+<area shape="poly" title=" " alt="" coords="208,373,208,431,203,431,203,373"/>
+<area shape="rect" title=" " alt="" coords="43,227,157,253"/>
+<area shape="poly" title=" " alt="" coords="123,260,195,332,191,335,119,264"/>
+<area shape="rect" title=" " alt="" coords="235,108,322,133"/>
+<area shape="poly" title=" " alt="" coords="221,125,154,131,118,139,84,149,54,164,30,184,14,208,8,239,8,445,11,464,19,479,31,491,47,501,87,515,130,521,129,526,86,520,45,506,28,495,15,482,6,465,3,446,3,238,9,206,26,180,51,160,82,144,117,134,153,126,221,120"/>
+<area shape="poly" title=" " alt="" coords="261,145,238,176,220,212,211,245,207,280,207,334,202,334,202,279,206,244,215,210,234,173,257,142"/>
+<area shape="rect" title=" " alt="" coords="372,220,535,260"/>
+<area shape="poly" title=" " alt="" coords="309,139,427,218,424,222,306,143"/>
+<area shape="rect" href="structExtendedErrorInfo.html" title=" " alt="" coords="464,334,603,359"/>
+<area shape="poly" title=" " alt="" coords="336,120,389,126,448,140,477,152,504,167,528,186,549,209,563,234,569,257,567,281,560,309,546,335,541,332,555,307,562,280,563,257,558,236,544,212,525,190,501,171,475,157,446,145,388,131,335,125"/>
+<area shape="rect" title=" " alt="" coords="209,5,348,45"/>
+<area shape="poly" title=" " alt="" coords="281,59,281,108,276,108,276,59"/>
+<area shape="poly" title=" " alt="" coords="397,268,233,336,231,332,395,263"/>
+<area shape="poly" title=" " alt="" coords="478,270,526,332,522,335,474,273"/>
+<area shape="rect" title=" " alt="" coords="562,108,697,133"/>
+<area shape="poly" title=" " alt="" coords="602,143,483,222,480,218,599,139"/>
+<area shape="rect" title=" " alt="" coords="610,13,649,38"/>
+<area shape="poly" title=" " alt="" coords="632,52,632,108,627,108,627,52"/>
+<area shape="rect" title=" " alt="" coords="735,13,774,38"/>
+<area shape="poly" title=" " alt="" coords="730,48,646,110,643,106,727,44"/>
+<area shape="rect" title=" " alt="" coords="747,159,877,185"/>
+<area shape="poly" title=" " alt="" coords="767,50,810,158,805,160,762,52"/>
+<area shape="rect" title=" " alt="" coords="434,424,633,464"/>
+<area shape="poly" title=" " alt="" coords="503,475,374,590,370,586,500,471"/>
+<area shape="poly" title=" " alt="" coords="536,373,536,424,531,424,531,373"/>
+<area shape="poly" title=" " alt="" coords="797,197,719,291,665,348,606,402,570,426,567,422,602,398,661,345,715,287,793,194"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -164,20 +172,14 @@ $(function(){initNavTree('classNoPermissionsExtendedError.html',''); initResizab
 Public Types</h2></td></tr>
 <tr class="memitem:a75af81a5a24cda739145edfdb6fa5fb0" id="r_a75af81a5a24cda739145edfdb6fa5fb0"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0">Category</a> { <br />
 &#160;&#160;<a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a88183b946cc5f0e8c96b2e66e1c74a7e">Unknown</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a5e349b2189e271e32f633c077d4ff028">UserNotFound</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0acbcc0759909213e7cdba1f0cbf253126">AccessDenied</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a1442ed20a359458a7e00c4dc4ae7f1dc">AccessExpired</a> = 3
+, <a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a5e349b2189e271e32f633c077d4ff028">UserNotFound</a> = 1
+, <a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0acbcc0759909213e7cdba1f0cbf253126">AccessDenied</a> = 2
+, <a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a1442ed20a359458a7e00c4dc4ae7f1dc">AccessExpired</a> = 3
 , <br />
 &#160;&#160;<a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a45d3c76b79a4795dae38fb5d5b48ad45">InvalidEmail</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0aaee984d7046000b4ce59ec663eb9df77">UnknownTenant</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a7201db7b64ef9ffc729d75e7273453c0">NotOwner</a> = 6
-, <br />
-&#160;&#160;<a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0ab3b40c088b31a35c92d2604302b6e117">NotPremiumLicenseUser</a> = 7
+, <a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0aaee984d7046000b4ce59ec663eb9df77">UnknownTenant</a> = 5
+, <a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a7201db7b64ef9ffc729d75e7273453c0">NotOwner</a> = 6
+, <a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0ab3b40c088b31a35c92d2604302b6e117">NotPremiumLicenseUser</a> = 7
 , <br />
 &#160;&#160;<a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0ac2332e9a96671ade5772884489080edc">ClientVersionNotSupported</a> = 8
 <br />
@@ -231,6 +233,30 @@ Public Attributes</h2></td></tr>
 <tr class="separator:abc98b444b9adbfd6dc8ba5e96db54b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4af72b4dc19622d365cb1faaeae9385" id="r_ae4af72b4dc19622d365cb1faaeae9385"><td class="memItemLeft" align="right" valign="top"><a class="el" href="error_8h.html#af7a9c5a9d19bf72299ab821bd983e131">ErrorType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classError.html#ae4af72b4dc19622d365cb1faaeae9385">mType</a></td></tr>
 <tr class="separator:ae4af72b4dc19622d365cb1faaeae9385"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a87fa1755ed531b57944b2d1c7a63f895" id="r_a87fa1755ed531b57944b2d1c7a63f895"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87fa1755ed531b57944b2d1c7a63f895">AddExtendedErrorInfoToDebugInfo</a> (const std::vector&lt; <a class="el" href="structExtendedErrorInfo.html">ExtendedErrorInfo</a> &gt; &amp;extendedErrorInfo)</td></tr>
+<tr class="separator:a87fa1755ed531b57944b2d1c7a63f895"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa76e555fb5bcfb69dc804f51fa01ad34" id="r_aa76e555fb5bcfb69dc804f51fa01ad34"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classError.html#aa76e555fb5bcfb69dc804f51fa01ad34">CreateFormattedMessage</a> (const std::string &amp;message) const</td></tr>
+<tr class="separator:aa76e555fb5bcfb69dc804f51fa01ad34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1dd963308b393ec8286d395c50bbda6" id="r_ad1dd963308b393ec8286d395c50bbda6"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNoPermissionsError.html#ad1dd963308b393ec8286d395c50bbda6">GetCategoryString</a> (<a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0">Category</a> category) const</td></tr>
+<tr class="separator:ad1dd963308b393ec8286d395c50bbda6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:af306adf3f88327f51d7cde601d20d876" id="r_af306adf3f88327f51d7cde601d20d876"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0">Category</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNoPermissionsError.html#af306adf3f88327f51d7cde601d20d876">mCategory</a></td></tr>
+<tr class="separator:af306adf3f88327f51d7cde601d20d876"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba1e47494459a506e0cb239da4c31cfa" id="r_aba1e47494459a506e0cb239da4c31cfa"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structExtendedErrorInfo.html">ExtendedErrorInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba1e47494459a506e0cb239da4c31cfa">mExtendedErrorInfo</a></td></tr>
+<tr class="separator:aba1e47494459a506e0cb239da4c31cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2e20e84e05f13e9a5b67f8b16fd5c38" id="r_ae2e20e84e05f13e9a5b67f8b16fd5c38"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classError.html#ae2e20e84e05f13e9a5b67f8b16fd5c38">mFormattedMessage</a></td></tr>
+<tr class="separator:ae2e20e84e05f13e9a5b67f8b16fd5c38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6b87fa2e501856f7a39e763eebcbe39" id="r_aa6b87fa2e501856f7a39e763eebcbe39"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classError.html#aa6b87fa2e501856f7a39e763eebcbe39">mMaskedMessage</a></td></tr>
+<tr class="separator:aa6b87fa2e501856f7a39e763eebcbe39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ab065995094ccfd81707d6875162079" id="r_a1ab065995094ccfd81707d6875162079"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNoPermissionsError.html#a1ab065995094ccfd81707d6875162079">mOwner</a></td></tr>
+<tr class="separator:a1ab065995094ccfd81707d6875162079"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5945cb978ea38744f59a43b124e3dcc5" id="r_a5945cb978ea38744f59a43b124e3dcc5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNoPermissionsError.html#a5945cb978ea38744f59a43b124e3dcc5">mReferrer</a></td></tr>
+<tr class="separator:a5945cb978ea38744f59a43b124e3dcc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The user could not get access to the content due to extended Access checks like ABAC. </p>
@@ -259,20 +285,19 @@ Public Attributes</h2></td></tr>
 
 <p>Category of no permissions error. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a75af81a5a24cda739145edfdb6fa5fb0a88183b946cc5f0e8c96b2e66e1c74a7e" name="a75af81a5a24cda739145edfdb6fa5fb0a88183b946cc5f0e8c96b2e66e1c74a7e"></a>Unknown&#160;</td><td class="fielddoc"><p>Unknown no permissions failure. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a75af81a5a24cda739145edfdb6fa5fb0a88183b946cc5f0e8c96b2e66e1c74a7e" name="a75af81a5a24cda739145edfdb6fa5fb0a88183b946cc5f0e8c96b2e66e1c74a7e"></a>Unknown&#160;</td><td class="fielddoc"><p>Unknown no permissions failure </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a75af81a5a24cda739145edfdb6fa5fb0a5e349b2189e271e32f633c077d4ff028" name="a75af81a5a24cda739145edfdb6fa5fb0a5e349b2189e271e32f633c077d4ff028"></a>UserNotFound&#160;</td><td class="fielddoc"><p>Requested user was not found failure. </p>
+<tr><td class="fieldname"><a id="a75af81a5a24cda739145edfdb6fa5fb0a5e349b2189e271e32f633c077d4ff028" name="a75af81a5a24cda739145edfdb6fa5fb0a5e349b2189e271e32f633c077d4ff028"></a>UserNotFound&#160;</td><td class="fielddoc"><p>Requested user was not found failure </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a75af81a5a24cda739145edfdb6fa5fb0acbcc0759909213e7cdba1f0cbf253126" name="a75af81a5a24cda739145edfdb6fa5fb0acbcc0759909213e7cdba1f0cbf253126"></a>AccessDenied&#160;</td><td class="fielddoc"><p>Access to content or action was not permitted. </p>
+<tr><td class="fieldname"><a id="a75af81a5a24cda739145edfdb6fa5fb0acbcc0759909213e7cdba1f0cbf253126" name="a75af81a5a24cda739145edfdb6fa5fb0acbcc0759909213e7cdba1f0cbf253126"></a>AccessDenied&#160;</td><td class="fielddoc"><p>Access to content or action was not permitted </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a75af81a5a24cda739145edfdb6fa5fb0a1442ed20a359458a7e00c4dc4ae7f1dc" name="a75af81a5a24cda739145edfdb6fa5fb0a1442ed20a359458a7e00c4dc4ae7f1dc"></a>AccessExpired&#160;</td><td class="fielddoc"><p>Access to content or action has expired. </p>
+<tr><td class="fieldname"><a id="a75af81a5a24cda739145edfdb6fa5fb0a1442ed20a359458a7e00c4dc4ae7f1dc" name="a75af81a5a24cda739145edfdb6fa5fb0a1442ed20a359458a7e00c4dc4ae7f1dc"></a>AccessExpired&#160;</td><td class="fielddoc"><p>Access to content or action has expired </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a75af81a5a24cda739145edfdb6fa5fb0a45d3c76b79a4795dae38fb5d5b48ad45" name="a75af81a5a24cda739145edfdb6fa5fb0a45d3c76b79a4795dae38fb5d5b48ad45"></a>InvalidEmail&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a75af81a5a24cda739145edfdb6fa5fb0aaee984d7046000b4ce59ec663eb9df77" name="a75af81a5a24cda739145edfdb6fa5fb0aaee984d7046000b4ce59ec663eb9df77"></a>UnknownTenant&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a75af81a5a24cda739145edfdb6fa5fb0a7201db7b64ef9ffc729d75e7273453c0" name="a75af81a5a24cda739145edfdb6fa5fb0a7201db7b64ef9ffc729d75e7273453c0"></a>NotOwner&#160;</td><td class="fielddoc"><p>User needs to be owner to perform action. </p>
+<tr><td class="fieldname"><a id="a75af81a5a24cda739145edfdb6fa5fb0a7201db7b64ef9ffc729d75e7273453c0" name="a75af81a5a24cda739145edfdb6fa5fb0a7201db7b64ef9ffc729d75e7273453c0"></a>NotOwner&#160;</td><td class="fielddoc"><p>User needs to be owner to perform action </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a75af81a5a24cda739145edfdb6fa5fb0ab3b40c088b31a35c92d2604302b6e117" name="a75af81a5a24cda739145edfdb6fa5fb0ab3b40c088b31a35c92d2604302b6e117"></a>NotPremiumLicenseUser&#160;</td><td class="fielddoc"><p>User needs to be a premium license holder to perform action. </p>
-<p>Tracking and Revocation for example </p>
+<tr><td class="fieldname"><a id="a75af81a5a24cda739145edfdb6fa5fb0ab3b40c088b31a35c92d2604302b6e117" name="a75af81a5a24cda739145edfdb6fa5fb0ab3b40c088b31a35c92d2604302b6e117"></a>NotPremiumLicenseUser&#160;</td><td class="fielddoc"><p>User needs to be a premium license holder to perform action. Tracking and Revocation for example </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a75af81a5a24cda739145edfdb6fa5fb0ac2332e9a96671ade5772884489080edc" name="a75af81a5a24cda739145edfdb6fa5fb0ac2332e9a96671ade5772884489080edc"></a>ClientVersionNotSupported&#160;</td><td class="fielddoc"><p>User needs to update their client in order to support features used within this document &gt; </p>
 </td></tr>
@@ -290,15 +315,15 @@ Public Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  685</span>    <a class="code hl_enumvalue" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0ab3b40c088b31a35c92d2604302b6e117">NotPremiumLicenseUser</a> = 7,  <span class="comment">/**&lt; User needs to be a premium license holder to perform action. Tracking and Revocation for example */</span></div>
 <div class="line"><span class="lineno">  686</span>    <a class="code hl_enumvalue" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0ac2332e9a96671ade5772884489080edc">ClientVersionNotSupported</a> = 8, <span class="comment">/**&lt; User needs to update their client in order to support features used within this document &gt;*/</span></div>
 <div class="line"><span class="lineno">  687</span>  };</div>
-<div class="ttc" id="aclassNoPermissionsError_html_a75af81a5a24cda739145edfdb6fa5fb0a1442ed20a359458a7e00c4dc4ae7f1dc"><div class="ttname"><a href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a1442ed20a359458a7e00c4dc4ae7f1dc">NoPermissionsError::Category::AccessExpired</a></div><div class="ttdeci">@ AccessExpired</div><div class="ttdoc">Access to content or action has expired.</div></div>
+<div class="ttc" id="aclassNoPermissionsError_html_a75af81a5a24cda739145edfdb6fa5fb0a1442ed20a359458a7e00c4dc4ae7f1dc"><div class="ttname"><a href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a1442ed20a359458a7e00c4dc4ae7f1dc">NoPermissionsError::Category::AccessExpired</a></div><div class="ttdeci">@ AccessExpired</div></div>
 <div class="ttc" id="aclassNoPermissionsError_html_a75af81a5a24cda739145edfdb6fa5fb0a45d3c76b79a4795dae38fb5d5b48ad45"><div class="ttname"><a href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a45d3c76b79a4795dae38fb5d5b48ad45">NoPermissionsError::Category::InvalidEmail</a></div><div class="ttdeci">@ InvalidEmail</div></div>
-<div class="ttc" id="aclassNoPermissionsError_html_a75af81a5a24cda739145edfdb6fa5fb0a5e349b2189e271e32f633c077d4ff028"><div class="ttname"><a href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a5e349b2189e271e32f633c077d4ff028">NoPermissionsError::Category::UserNotFound</a></div><div class="ttdeci">@ UserNotFound</div><div class="ttdoc">Requested user was not found failure.</div></div>
-<div class="ttc" id="aclassNoPermissionsError_html_a75af81a5a24cda739145edfdb6fa5fb0a7201db7b64ef9ffc729d75e7273453c0"><div class="ttname"><a href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a7201db7b64ef9ffc729d75e7273453c0">NoPermissionsError::Category::NotOwner</a></div><div class="ttdeci">@ NotOwner</div><div class="ttdoc">User needs to be owner to perform action.</div></div>
-<div class="ttc" id="aclassNoPermissionsError_html_a75af81a5a24cda739145edfdb6fa5fb0a88183b946cc5f0e8c96b2e66e1c74a7e"><div class="ttname"><a href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a88183b946cc5f0e8c96b2e66e1c74a7e">NoPermissionsError::Category::Unknown</a></div><div class="ttdeci">@ Unknown</div><div class="ttdoc">Unknown no permissions failure.</div></div>
+<div class="ttc" id="aclassNoPermissionsError_html_a75af81a5a24cda739145edfdb6fa5fb0a5e349b2189e271e32f633c077d4ff028"><div class="ttname"><a href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a5e349b2189e271e32f633c077d4ff028">NoPermissionsError::Category::UserNotFound</a></div><div class="ttdeci">@ UserNotFound</div></div>
+<div class="ttc" id="aclassNoPermissionsError_html_a75af81a5a24cda739145edfdb6fa5fb0a7201db7b64ef9ffc729d75e7273453c0"><div class="ttname"><a href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a7201db7b64ef9ffc729d75e7273453c0">NoPermissionsError::Category::NotOwner</a></div><div class="ttdeci">@ NotOwner</div></div>
+<div class="ttc" id="aclassNoPermissionsError_html_a75af81a5a24cda739145edfdb6fa5fb0a88183b946cc5f0e8c96b2e66e1c74a7e"><div class="ttname"><a href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a88183b946cc5f0e8c96b2e66e1c74a7e">NoPermissionsError::Category::Unknown</a></div><div class="ttdeci">@ Unknown</div></div>
 <div class="ttc" id="aclassNoPermissionsError_html_a75af81a5a24cda739145edfdb6fa5fb0aaee984d7046000b4ce59ec663eb9df77"><div class="ttname"><a href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0aaee984d7046000b4ce59ec663eb9df77">NoPermissionsError::Category::UnknownTenant</a></div><div class="ttdeci">@ UnknownTenant</div></div>
-<div class="ttc" id="aclassNoPermissionsError_html_a75af81a5a24cda739145edfdb6fa5fb0ab3b40c088b31a35c92d2604302b6e117"><div class="ttname"><a href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0ab3b40c088b31a35c92d2604302b6e117">NoPermissionsError::Category::NotPremiumLicenseUser</a></div><div class="ttdeci">@ NotPremiumLicenseUser</div><div class="ttdoc">User needs to be a premium license holder to perform action.</div></div>
-<div class="ttc" id="aclassNoPermissionsError_html_a75af81a5a24cda739145edfdb6fa5fb0ac2332e9a96671ade5772884489080edc"><div class="ttname"><a href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0ac2332e9a96671ade5772884489080edc">NoPermissionsError::Category::ClientVersionNotSupported</a></div><div class="ttdeci">@ ClientVersionNotSupported</div><div class="ttdoc">User needs to update their client in order to support features used within this document &gt;</div></div>
-<div class="ttc" id="aclassNoPermissionsError_html_a75af81a5a24cda739145edfdb6fa5fb0acbcc0759909213e7cdba1f0cbf253126"><div class="ttname"><a href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0acbcc0759909213e7cdba1f0cbf253126">NoPermissionsError::Category::AccessDenied</a></div><div class="ttdeci">@ AccessDenied</div><div class="ttdoc">Access to content or action was not permitted.</div></div>
+<div class="ttc" id="aclassNoPermissionsError_html_a75af81a5a24cda739145edfdb6fa5fb0ab3b40c088b31a35c92d2604302b6e117"><div class="ttname"><a href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0ab3b40c088b31a35c92d2604302b6e117">NoPermissionsError::Category::NotPremiumLicenseUser</a></div><div class="ttdeci">@ NotPremiumLicenseUser</div></div>
+<div class="ttc" id="aclassNoPermissionsError_html_a75af81a5a24cda739145edfdb6fa5fb0ac2332e9a96671ade5772884489080edc"><div class="ttname"><a href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0ac2332e9a96671ade5772884489080edc">NoPermissionsError::Category::ClientVersionNotSupported</a></div><div class="ttdeci">@ ClientVersionNotSupported</div></div>
+<div class="ttc" id="aclassNoPermissionsError_html_a75af81a5a24cda739145edfdb6fa5fb0acbcc0759909213e7cdba1f0cbf253126"><div class="ttname"><a href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0acbcc0759909213e7cdba1f0cbf253126">NoPermissionsError::Category::AccessDenied</a></div><div class="ttdeci">@ AccessDenied</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -348,15 +373,83 @@ Public Attributes</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">  179</span>                                                                                          {</div>
 <div class="line"><span class="lineno">  180</span>    <span class="keywordflow">if</span> (!key.empty() &amp;&amp; !value.empty()) {</div>
 <div class="line"><span class="lineno">  181</span>      <a class="code hl_variable" href="classError.html#a0c79a90c3d7a10bad9812f51ba615486">mDebugInfo</a>[key] = value;</div>
-<div class="line"><span class="lineno">  182</span>      mFormattedMessage = mFormattedMessage + <span class="stringliteral">&quot;, &quot;</span> + key + <span class="stringliteral">&quot;=&quot;</span> + value;</div>
-<div class="line"><span class="lineno">  183</span>      mMaskedMessage = mMaskedMessage + <span class="stringliteral">&quot;, &quot;</span> + key + <span class="stringliteral">&quot;=&quot;</span> + (sensitive ? <span class="stringliteral">&quot;***&quot;</span> : value);</div>
+<div class="line"><span class="lineno">  182</span>      <a class="code hl_variable" href="classError.html#ae2e20e84e05f13e9a5b67f8b16fd5c38">mFormattedMessage</a> = <a class="code hl_variable" href="classError.html#ae2e20e84e05f13e9a5b67f8b16fd5c38">mFormattedMessage</a> + <span class="stringliteral">&quot;, &quot;</span> + key + <span class="stringliteral">&quot;=&quot;</span> + value;</div>
+<div class="line"><span class="lineno">  183</span>      <a class="code hl_variable" href="classError.html#aa6b87fa2e501856f7a39e763eebcbe39">mMaskedMessage</a> = <a class="code hl_variable" href="classError.html#aa6b87fa2e501856f7a39e763eebcbe39">mMaskedMessage</a> + <span class="stringliteral">&quot;, &quot;</span> + key + <span class="stringliteral">&quot;=&quot;</span> + (sensitive ? <span class="stringliteral">&quot;***&quot;</span> : value);</div>
 <div class="line"><span class="lineno">  184</span>    }</div>
 <div class="line"><span class="lineno">  185</span>  }</div>
 <div class="ttc" id="aclassError_html_a0c79a90c3d7a10bad9812f51ba615486"><div class="ttname"><a href="classError.html#a0c79a90c3d7a10bad9812f51ba615486">Error::mDebugInfo</a></div><div class="ttdeci">std::map&lt; std::string, std::string &gt; mDebugInfo</div><div class="ttdef"><b>Definition</b> <a href="error_8h_source.html#l00225">error.h:225</a></div></div>
+<div class="ttc" id="aclassError_html_aa6b87fa2e501856f7a39e763eebcbe39"><div class="ttname"><a href="classError.html#aa6b87fa2e501856f7a39e763eebcbe39">Error::mMaskedMessage</a></div><div class="ttdeci">std::string mMaskedMessage</div><div class="ttdef"><b>Definition</b> <a href="error_8h_source.html#l00241">error.h:241</a></div></div>
+<div class="ttc" id="aclassError_html_ae2e20e84e05f13e9a5b67f8b16fd5c38"><div class="ttname"><a href="classError.html#ae2e20e84e05f13e9a5b67f8b16fd5c38">Error::mFormattedMessage</a></div><div class="ttdeci">std::string mFormattedMessage</div><div class="ttdef"><b>Definition</b> <a href="error_8h_source.html#l00240">error.h:240</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="error_8h_source.html#l00225">Error::mDebugInfo</a>.</p>
+<p class="reference">References <a class="el" href="error_8h_source.html#l00225">Error::mDebugInfo</a>, <a class="el" href="error_8h_source.html#l00240">Error::mFormattedMessage</a>, and <a class="el" href="error_8h_source.html#l00241">Error::mMaskedMessage</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="error_8h_source.html#l00345">DelegateResponseError::DelegateResponseError()</a>, <a class="el" href="error_8h_source.html#l00381">DelegateResponseError::DelegateResponseError()</a>, and <a class="el" href="error_8h_source.html#l00362">DelegateResponseError::DelegateResponseError()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="error_8h_source.html#l00813">AddExtendedErrorInfoToDebugInfo()</a>, <a class="el" href="error_8h_source.html#l00345">DelegateResponseError::DelegateResponseError()</a>, <a class="el" href="error_8h_source.html#l00381">DelegateResponseError::DelegateResponseError()</a>, and <a class="el" href="error_8h_source.html#l00362">DelegateResponseError::DelegateResponseError()</a>.</p>
+
+</div>
+</div>
+<a id="a87fa1755ed531b57944b2d1c7a63f895" name="a87fa1755ed531b57944b2d1c7a63f895"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87fa1755ed531b57944b2d1c7a63f895">&#9670;&#160;</a></span>AddExtendedErrorInfoToDebugInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NoPermissionsExtendedError::AddExtendedErrorInfoToDebugInfo </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structExtendedErrorInfo.html">ExtendedErrorInfo</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>extendedErrorInfo</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="error_8h_source.html#l00813">813</a> of file <a class="el" href="error_8h_source.html">error.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  813</span>                                                                                              {</div>
+<div class="line"><span class="lineno">  814</span>    std::stringstream codesStream;</div>
+<div class="line"><span class="lineno">  815</span>    std::stringstream messagesStream;</div>
+<div class="line"><span class="lineno">  816</span>    std::stringstream detailsStream;</div>
+<div class="line"><span class="lineno">  817</span> </div>
+<div class="line"><span class="lineno">  818</span>    <span class="keyword">static</span> <span class="keyword">const</span> std::string seperator = <span class="stringliteral">&quot;,&quot;</span>;</div>
+<div class="line"><span class="lineno">  819</span>    <span class="keyword">static</span> <span class="keyword">const</span> std::string objSeperator = <span class="stringliteral">&quot;;&quot;</span>;</div>
+<div class="line"><span class="lineno">  820</span>    <span class="keyword">static</span> <span class="keyword">const</span> std::string mapElementSeperator = <span class="stringliteral">&quot;|&quot;</span>;</div>
+<div class="line"><span class="lineno">  821</span>    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; extendedErrorInfo.size(); i++) {</div>
+<div class="line"><span class="lineno">  822</span>      codesStream &lt;&lt; extendedErrorInfo[i].code;</div>
+<div class="line"><span class="lineno">  823</span>      messagesStream &lt;&lt; extendedErrorInfo[i].message;</div>
+<div class="line"><span class="lineno">  824</span>      std::map&lt;std::string, std::string&gt;::const_iterator detailsIter = extendedErrorInfo[i].details.begin();</div>
+<div class="line"><span class="lineno">  825</span>      <span class="keywordflow">while</span> (detailsIter != extendedErrorInfo[i].details.end()) {</div>
+<div class="line"><span class="lineno">  826</span>        detailsStream &lt;&lt; detailsIter-&gt;first &lt;&lt; seperator &lt;&lt; detailsIter-&gt;second;</div>
+<div class="line"><span class="lineno">  827</span>        detailsIter++;</div>
+<div class="line"><span class="lineno">  828</span>        <span class="keywordflow">if</span> (detailsIter != extendedErrorInfo[i].details.end()) {</div>
+<div class="line"><span class="lineno">  829</span>          detailsStream &lt;&lt; mapElementSeperator;</div>
+<div class="line"><span class="lineno">  830</span>        }</div>
+<div class="line"><span class="lineno">  831</span>      }</div>
+<div class="line"><span class="lineno">  832</span> </div>
+<div class="line"><span class="lineno">  833</span>      <span class="keywordflow">if</span> (i + 1 &lt; extendedErrorInfo.size()) {</div>
+<div class="line"><span class="lineno">  834</span>        codesStream &lt;&lt; objSeperator;</div>
+<div class="line"><span class="lineno">  835</span>        messagesStream &lt;&lt; objSeperator;</div>
+<div class="line"><span class="lineno">  836</span>        detailsStream &lt;&lt; objSeperator;</div>
+<div class="line"><span class="lineno">  837</span>      }</div>
+<div class="line"><span class="lineno">  838</span>    }</div>
+<div class="line"><span class="lineno">  839</span> </div>
+<div class="line"><span class="lineno">  840</span>    <span class="keywordflow">if</span> (!extendedErrorInfo.empty()) {</div>
+<div class="line"><span class="lineno">  841</span>      <a class="code hl_function" href="classError.html#a1e9379501df2d1e8315d373cf79949f2">AddDebugInfo</a>(<a class="code hl_function" href="namespaceanonymous__namespace_02error_8h_03.html#a46182191b75cf061af114b92e1b067da">GetErrorInfoCodesKey</a>(), codesStream.str());</div>
+<div class="line"><span class="lineno">  842</span>      <a class="code hl_function" href="classError.html#a1e9379501df2d1e8315d373cf79949f2">AddDebugInfo</a>(<a class="code hl_function" href="namespaceanonymous__namespace_02error_8h_03.html#aadcd02ba966bddb2e8c693b1671cd3f7">GetErrorInfoMessagesKey</a>(), messagesStream.str());</div>
+<div class="line"><span class="lineno">  843</span>      <a class="code hl_function" href="classError.html#a1e9379501df2d1e8315d373cf79949f2">AddDebugInfo</a>(<a class="code hl_function" href="namespaceanonymous__namespace_02error_8h_03.html#a832252849c487eab39515d19ffd45527">GetErrorInfoDetailsKey</a>(), detailsStream.str());</div>
+<div class="line"><span class="lineno">  844</span>    }</div>
+<div class="line"><span class="lineno">  845</span>  }</div>
+<div class="ttc" id="aclassError_html_a1e9379501df2d1e8315d373cf79949f2"><div class="ttname"><a href="classError.html#a1e9379501df2d1e8315d373cf79949f2">Error::AddDebugInfo</a></div><div class="ttdeci">void AddDebugInfo(const std::string &amp;key, const std::string &amp;value, bool sensitive=false)</div><div class="ttdoc">Add debug info entry.</div><div class="ttdef"><b>Definition</b> <a href="error_8h_source.html#l00179">error.h:179</a></div></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02error_8h_03_html_a46182191b75cf061af114b92e1b067da"><div class="ttname"><a href="namespaceanonymous__namespace_02error_8h_03.html#a46182191b75cf061af114b92e1b067da">anonymous_namespace{error.h}::GetErrorInfoCodesKey</a></div><div class="ttdeci">constexpr const char * GetErrorInfoCodesKey()</div><div class="ttdef"><b>Definition</b> <a href="error_8h_source.html#l00064">error.h:64</a></div></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02error_8h_03_html_a832252849c487eab39515d19ffd45527"><div class="ttname"><a href="namespaceanonymous__namespace_02error_8h_03.html#a832252849c487eab39515d19ffd45527">anonymous_namespace{error.h}::GetErrorInfoDetailsKey</a></div><div class="ttdeci">constexpr const char * GetErrorInfoDetailsKey()</div><div class="ttdef"><b>Definition</b> <a href="error_8h_source.html#l00068">error.h:68</a></div></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02error_8h_03_html_aadcd02ba966bddb2e8c693b1671cd3f7"><div class="ttname"><a href="namespaceanonymous__namespace_02error_8h_03.html#aadcd02ba966bddb2e8c693b1671cd3f7">anonymous_namespace{error.h}::GetErrorInfoMessagesKey</a></div><div class="ttdeci">constexpr const char * GetErrorInfoMessagesKey()</div><div class="ttdef"><b>Definition</b> <a href="error_8h_source.html#l00066">error.h:66</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="error_8h_source.html#l00179">Error::AddDebugInfo()</a>, <a class="el" href="error_8h_source.html#l00064">anonymous_namespace{error.h}::GetErrorInfoCodesKey()</a>, <a class="el" href="error_8h_source.html#l00068">anonymous_namespace{error.h}::GetErrorInfoDetailsKey()</a>, and <a class="el" href="error_8h_source.html#l00066">anonymous_namespace{error.h}::GetErrorInfoMessagesKey()</a>.</p>
 
 </div>
 </div>
@@ -390,6 +483,42 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aa76e555fb5bcfb69dc804f51fa01ad34" name="aa76e555fb5bcfb69dc804f51fa01ad34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa76e555fb5bcfb69dc804f51fa01ad34">&#9670;&#160;</a></span>CreateFormattedMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Error::CreateFormattedMessage </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>message</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="error_8h_source.html#l00230">230</a> of file <a class="el" href="error_8h_source.html">error.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  230</span>                                                                   {</div>
+<div class="line"><span class="lineno">  231</span>    <span class="keyword">auto</span> formattedMessage = message;</div>
+<div class="line"><span class="lineno">  232</span> </div>
+<div class="line"><span class="lineno">  233</span>    <span class="comment">// Remove stray newlines</span></div>
+<div class="line"><span class="lineno">  234</span>    <span class="keyword">auto</span> isNewlineFn = [](<span class="keywordtype">char</span> c) { <span class="keywordflow">return</span> c == <span class="charliteral">&#39;\n&#39;</span> || c == <span class="charliteral">&#39;\r&#39;</span>; };</div>
+<div class="line"><span class="lineno">  235</span>    formattedMessage.erase(std::remove_if(formattedMessage.begin(), formattedMessage.end(), isNewlineFn), formattedMessage.end());</div>
+<div class="line"><span class="lineno">  236</span> </div>
+<div class="line"><span class="lineno">  237</span>    <span class="keywordflow">return</span> formattedMessage;</div>
+<div class="line"><span class="lineno">  238</span>  }</div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="a15948714a8b1976e21eb78830ad13e28" name="a15948714a8b1976e21eb78830ad13e28"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a15948714a8b1976e21eb78830ad13e28">&#9670;&#160;</a></span>GetCategory()</h2>
 
@@ -417,8 +546,55 @@ Public Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Category of no permissions failure </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="error_8h_source.html#l00755">755</a> of file <a class="el" href="error_8h_source.html">error.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  755</span>{ <span class="keywordflow">return</span> mCategory; }</div>
+<div class="fragment"><div class="line"><span class="lineno">  755</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="classNoPermissionsError.html#af306adf3f88327f51d7cde601d20d876">mCategory</a>; }</div>
+<div class="ttc" id="aclassNoPermissionsError_html_af306adf3f88327f51d7cde601d20d876"><div class="ttname"><a href="classNoPermissionsError.html#af306adf3f88327f51d7cde601d20d876">NoPermissionsError::mCategory</a></div><div class="ttdeci">Category mCategory</div><div class="ttdef"><b>Definition</b> <a href="error_8h_source.html#l00758">error.h:758</a></div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="error_8h_source.html#l00758">NoPermissionsError::mCategory</a>.</p>
+
+</div>
+</div>
+<a id="ad1dd963308b393ec8286d395c50bbda6" name="ad1dd963308b393ec8286d395c50bbda6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1dd963308b393ec8286d395c50bbda6">&#9670;&#160;</a></span>GetCategoryString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; NoPermissionsError::GetCategoryString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0">Category</a></td>          <td class="paramname"><span class="paramname"><em>category</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="error_8h_source.html#l00762">762</a> of file <a class="el" href="error_8h_source.html">error.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  762</span>                                                              {</div>
+<div class="line"><span class="lineno">  763</span>    <span class="keyword">static</span> <span class="keyword">const</span> std::string kUnrecognized = <span class="stringliteral">&quot;UNRECOGNIZED&quot;</span>;</div>
+<div class="line"><span class="lineno">  764</span>    <span class="keyword">static</span> <span class="keyword">const</span> std::map&lt;Category, std::string&gt; kCategories = {</div>
+<div class="line"><span class="lineno">  765</span>        { <a class="code hl_enumvalue" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a88183b946cc5f0e8c96b2e66e1c74a7e">Category::Unknown</a>,                    <span class="stringliteral">&quot;Unknown&quot;</span> },</div>
+<div class="line"><span class="lineno">  766</span>        { <a class="code hl_enumvalue" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a5e349b2189e271e32f633c077d4ff028">Category::UserNotFound</a>,               <span class="stringliteral">&quot;UserNotFound&quot;</span> },</div>
+<div class="line"><span class="lineno">  767</span>        { <a class="code hl_enumvalue" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0acbcc0759909213e7cdba1f0cbf253126">Category::AccessDenied</a>,               <span class="stringliteral">&quot;AccessDenied&quot;</span> },</div>
+<div class="line"><span class="lineno">  768</span>        { <a class="code hl_enumvalue" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a1442ed20a359458a7e00c4dc4ae7f1dc">Category::AccessExpired</a>,              <span class="stringliteral">&quot;AccessExpired&quot;</span> },</div>
+<div class="line"><span class="lineno">  769</span>        { <a class="code hl_enumvalue" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a45d3c76b79a4795dae38fb5d5b48ad45">Category::InvalidEmail</a>,               <span class="stringliteral">&quot;InvalidEmail&quot;</span> },</div>
+<div class="line"><span class="lineno">  770</span>        { <a class="code hl_enumvalue" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0aaee984d7046000b4ce59ec663eb9df77">Category::UnknownTenant</a>,              <span class="stringliteral">&quot;UnknownTenant&quot;</span> },</div>
+<div class="line"><span class="lineno">  771</span>        { <a class="code hl_enumvalue" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a7201db7b64ef9ffc729d75e7273453c0">Category::NotOwner</a>,                   <span class="stringliteral">&quot;NotOwner&quot;</span> },</div>
+<div class="line"><span class="lineno">  772</span>        { <a class="code hl_enumvalue" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0ab3b40c088b31a35c92d2604302b6e117">Category::NotPremiumLicenseUser</a>,      <span class="stringliteral">&quot;NotPremiumLicenseUser&quot;</span> },</div>
+<div class="line"><span class="lineno">  773</span>        { <a class="code hl_enumvalue" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0ac2332e9a96671ade5772884489080edc">Category::ClientVersionNotSupported</a>,  <span class="stringliteral">&quot;ClientVersionNotSupported&quot;</span> }</div>
+<div class="line"><span class="lineno">  774</span>    };</div>
+<div class="line"><span class="lineno">  775</span>    <span class="keywordflow">return</span> kCategories.count(category) ? kCategories.at(category) : kUnrecognized;</div>
+<div class="line"><span class="lineno">  776</span>  }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0acbcc0759909213e7cdba1f0cbf253126">NoPermissionsError::AccessDenied</a>, <a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a1442ed20a359458a7e00c4dc4ae7f1dc">NoPermissionsError::AccessExpired</a>, <a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0ac2332e9a96671ade5772884489080edc">NoPermissionsError::ClientVersionNotSupported</a>, <a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a45d3c76b79a4795dae38fb5d5b48ad45">NoPermissionsError::InvalidEmail</a>, <a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a7201db7b64ef9ffc729d75e7273453c0">NoPermissionsError::NotOwner</a>, <a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0ab3b40c088b31a35c92d2604302b6e117">NoPermissionsError::NotPremiumLicenseUser</a>, <a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a88183b946cc5f0e8c96b2e66e1c74a7e">NoPermissionsError::Unknown</a>, <a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0aaee984d7046000b4ce59ec663eb9df77">NoPermissionsError::UnknownTenant</a>, and <a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a5e349b2189e271e32f633c077d4ff028">NoPermissionsError::UserNotFound</a>.</p>
+
 </div>
 </div>
 <a id="af00e4c79dbf6834b319b068a2d94ae36" name="af00e4c79dbf6834b319b068a2d94ae36"></a>
@@ -550,9 +726,11 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="error_8h_source.html#l00151">151</a> of file <a class="el" href="error_8h_source.html">error.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  151</span>                                                          {</div>
-<div class="line"><span class="lineno">  152</span>    <span class="keywordflow">return</span> maskPII ? mMaskedMessage : mFormattedMessage;</div>
+<div class="line"><span class="lineno">  152</span>    <span class="keywordflow">return</span> maskPII ? <a class="code hl_variable" href="classError.html#aa6b87fa2e501856f7a39e763eebcbe39">mMaskedMessage</a> : <a class="code hl_variable" href="classError.html#ae2e20e84e05f13e9a5b67f8b16fd5c38">mFormattedMessage</a>;</div>
 <div class="line"><span class="lineno">  153</span>  }</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="error_8h_source.html#l00240">Error::mFormattedMessage</a>, and <a class="el" href="error_8h_source.html#l00241">Error::mMaskedMessage</a>.</p>
+
 </div>
 </div>
 <a id="a32e9a45a1342ea4ffdf39d9496a711f0" name="a32e9a45a1342ea4ffdf39d9496a711f0"></a>
@@ -582,8 +760,11 @@ Public Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Document owner </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="error_8h_source.html#l00748">748</a> of file <a class="el" href="error_8h_source.html">error.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  748</span>{ <span class="keywordflow">return</span> mOwner; }</div>
+<div class="fragment"><div class="line"><span class="lineno">  748</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="classNoPermissionsError.html#a1ab065995094ccfd81707d6875162079">mOwner</a>; }</div>
+<div class="ttc" id="aclassNoPermissionsError_html_a1ab065995094ccfd81707d6875162079"><div class="ttname"><a href="classNoPermissionsError.html#a1ab065995094ccfd81707d6875162079">NoPermissionsError::mOwner</a></div><div class="ttdeci">std::string mOwner</div><div class="ttdef"><b>Definition</b> <a href="error_8h_source.html#l00760">error.h:760</a></div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="error_8h_source.html#l00760">NoPermissionsError::mOwner</a>.</p>
+
 </div>
 </div>
 <a id="a83f5e3b1e0f842b0af5ef2a09f403cf1" name="a83f5e3b1e0f842b0af5ef2a09f403cf1"></a>
@@ -613,8 +794,11 @@ Public Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The contact in case of missing rights to the document. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="error_8h_source.html#l00741">741</a> of file <a class="el" href="error_8h_source.html">error.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  741</span>{ <span class="keywordflow">return</span> mReferrer; }</div>
+<div class="fragment"><div class="line"><span class="lineno">  741</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="classNoPermissionsError.html#a5945cb978ea38744f59a43b124e3dcc5">mReferrer</a>; }</div>
+<div class="ttc" id="aclassNoPermissionsError_html_a5945cb978ea38744f59a43b124e3dcc5"><div class="ttname"><a href="classNoPermissionsError.html#a5945cb978ea38744f59a43b124e3dcc5">NoPermissionsError::mReferrer</a></div><div class="ttdeci">std::string mReferrer</div><div class="ttdef"><b>Definition</b> <a href="error_8h_source.html#l00759">error.h:759</a></div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="error_8h_source.html#l00759">NoPermissionsError::mReferrer</a>.</p>
+
 </div>
 </div>
 <a id="afa3a5efa4e38f33ee27b008714149daf" name="afa3a5efa4e38f33ee27b008714149daf"></a>
@@ -650,7 +834,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="error_8h_source.html#l00160">160</a> of file <a class="el" href="error_8h_source.html">error.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  160</span>                                        {</div>
-<div class="line"><span class="lineno">  161</span>    std::string* targetStrings[] = { &amp;mFormattedMessage, &amp;mMaskedMessage };</div>
+<div class="line"><span class="lineno">  161</span>    std::string* targetStrings[] = { &amp;<a class="code hl_variable" href="classError.html#ae2e20e84e05f13e9a5b67f8b16fd5c38">mFormattedMessage</a>, &amp;<a class="code hl_variable" href="classError.html#aa6b87fa2e501856f7a39e763eebcbe39">mMaskedMessage</a> };</div>
 <div class="line"><span class="lineno">  162</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span>* targetString : targetStrings) {</div>
 <div class="line"><span class="lineno">  163</span>      <span class="keywordtype">size_t</span> pos = targetString-&gt;find(<a class="code hl_variable" href="classError.html#af31bc6356d7c45845280a5481917bee7">mMessage</a>);</div>
 <div class="line"><span class="lineno">  164</span>      <span class="keywordflow">if</span> (pos != std::string::npos) {</div>
@@ -663,7 +847,7 @@ Public Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  171</span>  }</div>
 <div class="ttc" id="aclassError_html_af31bc6356d7c45845280a5481917bee7"><div class="ttname"><a href="classError.html#af31bc6356d7c45845280a5481917bee7">Error::mMessage</a></div><div class="ttdeci">std::string mMessage</div><div class="ttdef"><b>Definition</b> <a href="error_8h_source.html#l00224">error.h:224</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="error_8h_source.html#l00224">Error::mMessage</a>.</p>
+<p class="reference">References <a class="el" href="error_8h_source.html#l00240">Error::mFormattedMessage</a>, <a class="el" href="error_8h_source.html#l00241">Error::mMaskedMessage</a>, and <a class="el" href="error_8h_source.html#l00224">Error::mMessage</a>.</p>
 
 </div>
 </div>
@@ -695,12 +879,40 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="error_8h_source.html#l00121">121</a> of file <a class="el" href="error_8h_source.html">error.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  121</span>                                             {</div>
-<div class="line"><span class="lineno">  122</span>    <span class="keywordflow">return</span> mFormattedMessage.c_str();</div>
+<div class="line"><span class="lineno">  122</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="classError.html#ae2e20e84e05f13e9a5b67f8b16fd5c38">mFormattedMessage</a>.c_str();</div>
 <div class="line"><span class="lineno">  123</span>  }</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="error_8h_source.html#l00240">Error::mFormattedMessage</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="af306adf3f88327f51d7cde601d20d876" name="af306adf3f88327f51d7cde601d20d876"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af306adf3f88327f51d7cde601d20d876">&#9670;&#160;</a></span>mCategory</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0">Category</a> NoPermissionsError::mCategory</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="error_8h_source.html#l00758">758</a> of file <a class="el" href="error_8h_source.html">error.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="error_8h_source.html#l00755">NoPermissionsError::GetCategory()</a>.</p>
+
+</div>
+</div>
 <a id="a0c79a90c3d7a10bad9812f51ba615486" name="a0c79a90c3d7a10bad9812f51ba615486"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0c79a90c3d7a10bad9812f51ba615486">&#9670;&#160;</a></span>mDebugInfo</h2>
 
@@ -724,6 +936,82 @@ Public Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="error_8h_source.html#l00225">225</a> of file <a class="el" href="error_8h_source.html">error.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="error_8h_source.html#l00179">Error::AddDebugInfo()</a>, and <a class="el" href="error_8h_source.html#l00192">Error::GetDebugInfo()</a>.</p>
+
+</div>
+</div>
+<a id="aba1e47494459a506e0cb239da4c31cfa" name="aba1e47494459a506e0cb239da4c31cfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba1e47494459a506e0cb239da4c31cfa">&#9670;&#160;</a></span>mExtendedErrorInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structExtendedErrorInfo.html">ExtendedErrorInfo</a>&gt; NoPermissionsExtendedError::mExtendedErrorInfo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="error_8h_source.html#l00847">847</a> of file <a class="el" href="error_8h_source.html">error.h</a>.</p>
+
+</div>
+</div>
+<a id="ae2e20e84e05f13e9a5b67f8b16fd5c38" name="ae2e20e84e05f13e9a5b67f8b16fd5c38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2e20e84e05f13e9a5b67f8b16fd5c38">&#9670;&#160;</a></span>mFormattedMessage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Error::mFormattedMessage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="error_8h_source.html#l00240">240</a> of file <a class="el" href="error_8h_source.html">error.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="error_8h_source.html#l00179">Error::AddDebugInfo()</a>, <a class="el" href="error_8h_source.html#l00151">Error::GetMessage()</a>, <a class="el" href="error_8h_source.html#l00160">Error::SetMessage()</a>, and <a class="el" href="error_8h_source.html#l00121">Error::what()</a>.</p>
+
+</div>
+</div>
+<a id="aa6b87fa2e501856f7a39e763eebcbe39" name="aa6b87fa2e501856f7a39e763eebcbe39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6b87fa2e501856f7a39e763eebcbe39">&#9670;&#160;</a></span>mMaskedMessage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Error::mMaskedMessage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="error_8h_source.html#l00241">241</a> of file <a class="el" href="error_8h_source.html">error.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="error_8h_source.html#l00179">Error::AddDebugInfo()</a>, <a class="el" href="error_8h_source.html#l00151">Error::GetMessage()</a>, and <a class="el" href="error_8h_source.html#l00160">Error::SetMessage()</a>.</p>
 
 </div>
 </div>
@@ -776,6 +1064,58 @@ Public Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="error_8h_source.html#l00226">226</a> of file <a class="el" href="error_8h_source.html">error.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="error_8h_source.html#l00144">Error::GetErrorName()</a>.</p>
+
+</div>
+</div>
+<a id="a1ab065995094ccfd81707d6875162079" name="a1ab065995094ccfd81707d6875162079"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ab065995094ccfd81707d6875162079">&#9670;&#160;</a></span>mOwner</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string NoPermissionsError::mOwner</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="error_8h_source.html#l00760">760</a> of file <a class="el" href="error_8h_source.html">error.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="error_8h_source.html#l00748">NoPermissionsError::GetOwner()</a>.</p>
+
+</div>
+</div>
+<a id="a5945cb978ea38744f59a43b124e3dcc5" name="a5945cb978ea38744f59a43b124e3dcc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5945cb978ea38744f59a43b124e3dcc5">&#9670;&#160;</a></span>mReferrer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string NoPermissionsError::mReferrer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="error_8h_source.html#l00759">759</a> of file <a class="el" href="error_8h_source.html">error.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="error_8h_source.html#l00741">NoPermissionsError::GetReferrer()</a>.</p>
 
 </div>
 </div>

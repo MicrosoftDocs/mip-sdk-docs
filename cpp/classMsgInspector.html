@@ -105,11 +105,9 @@ $(function(){initNavTree('classMsgInspector.html',''); initResizable(true); });
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="msg__inspector_8h_source.html">src/api/mip/file/msg_inspector.h</a>&gt;</code></p>
-<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MsgInspector:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="dynheader">
+Inheritance diagram for MsgInspector:</div>
+<div class="dyncontent">
 <div class="center"><img src="classMsgInspector__inherit__graph.png" border="0" usemap="#aMsgInspector_inherit__map" alt="Inheritance graph"/></div>
 <map name="aMsgInspector_inherit__map" id="aMsgInspector_inherit__map">
 <area shape="rect" title=" " alt="" coords="5,79,115,104"/>
@@ -117,11 +115,9 @@ $(function(){initNavTree('classMsgInspector.html',''); initResizable(true); });
 <area shape="poly" title=" " alt="" coords="63,44,63,79,57,79,57,44"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Collaboration diagram for MsgInspector:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="dynheader">
+Collaboration diagram for MsgInspector:</div>
+<div class="dyncontent">
 <div class="center"><img src="classMsgInspector__coll__graph.png" border="0" usemap="#aMsgInspector_coll__map" alt="Collaboration graph"/></div>
 <map name="aMsgInspector_coll__map" id="aMsgInspector_coll__map">
 <area shape="rect" title=" " alt="" coords="5,79,115,104"/>
@@ -136,7 +132,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad24e271799bba205e1c9517a74579fb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of attachment as msg attachment data objects.  <br /></td></tr>
 <tr class="separator:ad24e271799bba205e1c9517a74579fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc40d79321498845665ad0659ea79080" id="r_abc40d79321498845665ad0659ea79080"><td class="memItemLeft" align="right" valign="top">virtual const std::vector&lt; uint8_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc40d79321498845665ad0659ea79080">GetBody</a> () const =0</td></tr>
-<tr class="memdesc:abc40d79321498845665ad0659ea79080"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the body of the msg.  <br /></td></tr>
+<tr class="memdesc:abc40d79321498845665ad0659ea79080"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the body of the msg. if TXT/HTML formatted as utf8.  <br /></td></tr>
 <tr class="separator:abc40d79321498845665ad0659ea79080"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3d0390509b980e12d5c1bbf13f2b35a" id="r_ac3d0390509b980e12d5c1bbf13f2b35a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="msg__inspector_8h.html#ae41dd8630d22c65135d91fe542e27215">BodyType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3d0390509b980e12d5c1bbf13f2b35a">GetBodyType</a> () const =0</td></tr>
 <tr class="memdesc:ac3d0390509b980e12d5c1bbf13f2b35a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get body type.  <br /></td></tr>
@@ -206,8 +202,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get the body of the msg. </p>
-<p>if TXT/HTML formatted as utf8.</p>
+<p>Get the body of the msg. if TXT/HTML formatted as utf8. </p>
 <dl class="section return"><dt>Returns</dt><dd>a vector of bytes. </dd></dl>
 
 </div>

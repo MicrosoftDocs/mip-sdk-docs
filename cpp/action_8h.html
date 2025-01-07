@@ -105,15 +105,13 @@ $(function(){initNavTree('action_8h.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 
-<p>A file containing the <a class="el" href="classAction.html" title="Interface for an action.">Action</a> base class and the ActionType enumerator.  
+<p>A file containing the <a class="el" href="classAction.html" title="Interface for an action. Each action translates to a step that needs to be taken by the application t...">Action</a> base class and the ActionType enumerator.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;string&gt;</code><br />
 <code>#include &quot;<a class="el" href="mip__namespace_8h_source.html">mip/mip_namespace.h</a>&quot;</code><br />
-</div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for action.h:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for action.h:</div>
+<div class="dyncontent">
 <div class="center"><img src="action_8h__incl.png" border="0" usemap="#asrc_2api_2mip_2upe_2action_8h" alt=""/></div>
 <map name="asrc_2api_2mip_2upe_2action_8h" id="asrc_2api_2mip_2upe_2action_8h">
 <area shape="rect" title="A file containing the Action base class and the ActionType enumerator." alt="" coords="15,5,193,31"/>
@@ -123,11 +121,9 @@ $(function(){initNavTree('action_8h.html',''); initResizable(true); });
 <area shape="poly" title=" " alt="" coords="117,29,155,67,151,71,114,33"/>
 </map>
 </div>
-</div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
 <div class="center"><img src="action_8h__dep__incl.png" border="0" usemap="#asrc_2api_2mip_2upe_2action_8hdep" alt=""/></div>
 <map name="asrc_2api_2mip_2upe_2action_8hdep" id="asrc_2api_2mip_2upe_2action_8hdep">
 <area shape="rect" title="A file containing the Action base class and the ActionType enumerator." alt="" coords="2025,5,2204,31"/>
@@ -198,51 +194,36 @@ $(function(){initNavTree('action_8h.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAction.html">Action</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for an action.  <a href="classAction.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for an action. Each action translates to a step that needs to be taken by the application to apply the label (as defined in the policy)  <a href="classAction.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:a97669588a9e315e77c536d525c4940e1" id="r_a97669588a9e315e77c536d525c4940e1"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97669588a9e315e77c536d525c4940e1">ActionType</a> : unsigned int { <br />
 &#160;&#160;<a class="el" href="#a97669588a9e315e77c536d525c4940e1a2365630b34fc2286faf2a0d0256aef90">ADD_CONTENT_FOOTER</a> = 1 &lt;&lt; 0
-, <br />
-&#160;&#160;<a class="el" href="#a97669588a9e315e77c536d525c4940e1a99ff29ed57bc681f577e9c1bfae35506">ADD_CONTENT_HEADER</a> = 1 &lt;&lt; 1
-, <br />
-&#160;&#160;<a class="el" href="#a97669588a9e315e77c536d525c4940e1a1737cca12ec8b2b9c1889805a423724a">ADD_WATERMARK</a> = 1 &lt;&lt; 2
-, <br />
-&#160;&#160;<a class="el" href="#a97669588a9e315e77c536d525c4940e1a72baef04098f035e8a320b03ad197818">CUSTOM</a> = 1 &lt;&lt; 3
+, <a class="el" href="#a97669588a9e315e77c536d525c4940e1a99ff29ed57bc681f577e9c1bfae35506">ADD_CONTENT_HEADER</a> = 1 &lt;&lt; 1
+, <a class="el" href="#a97669588a9e315e77c536d525c4940e1a1737cca12ec8b2b9c1889805a423724a">ADD_WATERMARK</a> = 1 &lt;&lt; 2
+, <a class="el" href="#a97669588a9e315e77c536d525c4940e1a72baef04098f035e8a320b03ad197818">CUSTOM</a> = 1 &lt;&lt; 3
 , <br />
 &#160;&#160;<a class="el" href="#a97669588a9e315e77c536d525c4940e1a1a8c137fb3ff9dc6fa1a59e8743fc1e9">JUSTIFY</a> = 1 &lt;&lt; 4
-, <br />
-&#160;&#160;<a class="el" href="#a97669588a9e315e77c536d525c4940e1a8a9c0818e0622aadfcb2e59cfe5299b4">METADATA</a> = 1 &lt;&lt; 5
-, <br />
-&#160;&#160;<a class="el" href="#a97669588a9e315e77c536d525c4940e1a971fdd2239c52b26c80a84f93ea73e10">PROTECT_ADHOC</a> = 1 &lt;&lt; 6
-, <br />
-&#160;&#160;<a class="el" href="#a97669588a9e315e77c536d525c4940e1ac57642bfdbbca367c4b974ce2500e99a">PROTECT_BY_TEMPLATE</a> = 1 &lt;&lt; 7
+, <a class="el" href="#a97669588a9e315e77c536d525c4940e1a8a9c0818e0622aadfcb2e59cfe5299b4">METADATA</a> = 1 &lt;&lt; 5
+, <a class="el" href="#a97669588a9e315e77c536d525c4940e1a971fdd2239c52b26c80a84f93ea73e10">PROTECT_ADHOC</a> = 1 &lt;&lt; 6
+, <a class="el" href="#a97669588a9e315e77c536d525c4940e1ac57642bfdbbca367c4b974ce2500e99a">PROTECT_BY_TEMPLATE</a> = 1 &lt;&lt; 7
 , <br />
 &#160;&#160;<a class="el" href="#a97669588a9e315e77c536d525c4940e1a1b7a114d16c5f3481fcaeca4c511f427">PROTECT_DO_NOT_FORWARD</a> = 1 &lt;&lt; 8
-, <br />
-&#160;&#160;<a class="el" href="#a97669588a9e315e77c536d525c4940e1a00ee5738c7bbec86bb4781107ac7e9be">REMOVE_CONTENT_FOOTER</a> = 1 &lt;&lt; 9
-, <br />
-&#160;&#160;<a class="el" href="#a97669588a9e315e77c536d525c4940e1a1a6a15d9c9c41d5d8b9f3abf79bdf3ef">REMOVE_CONTENT_HEADER</a> = 1 &lt;&lt; 10
-, <br />
-&#160;&#160;<a class="el" href="#a97669588a9e315e77c536d525c4940e1ac5775074668508fae03d95c1f85ea3c5">REMOVE_PROTECTION</a> = 1 &lt;&lt; 11
+, <a class="el" href="#a97669588a9e315e77c536d525c4940e1a00ee5738c7bbec86bb4781107ac7e9be">REMOVE_CONTENT_FOOTER</a> = 1 &lt;&lt; 9
+, <a class="el" href="#a97669588a9e315e77c536d525c4940e1a1a6a15d9c9c41d5d8b9f3abf79bdf3ef">REMOVE_CONTENT_HEADER</a> = 1 &lt;&lt; 10
+, <a class="el" href="#a97669588a9e315e77c536d525c4940e1ac5775074668508fae03d95c1f85ea3c5">REMOVE_PROTECTION</a> = 1 &lt;&lt; 11
 , <br />
 &#160;&#160;<a class="el" href="#a97669588a9e315e77c536d525c4940e1a5a8e4d1eb18a385e99bf7a02d2779b7b">REMOVE_WATERMARK</a> = 1 &lt;&lt; 12
-, <br />
-&#160;&#160;<a class="el" href="#a97669588a9e315e77c536d525c4940e1a079b5a46106afebd8f22ee08c2f17e17">APPLY_LABEL</a> = 1 &lt;&lt; 13
-, <br />
-&#160;&#160;<a class="el" href="#a97669588a9e315e77c536d525c4940e1adc994cff1cfcef7323718172b76cbb94">RECOMMEND_LABEL</a> = 1 &lt;&lt; 14
-, <br />
-&#160;&#160;<a class="el" href="#a97669588a9e315e77c536d525c4940e1af230696bfcb098e93e6a442583fdf3dc">PROTECT_ADHOC_DK</a> = 1 &lt;&lt; 15
+, <a class="el" href="#a97669588a9e315e77c536d525c4940e1a079b5a46106afebd8f22ee08c2f17e17">APPLY_LABEL</a> = 1 &lt;&lt; 13
+, <a class="el" href="#a97669588a9e315e77c536d525c4940e1adc994cff1cfcef7323718172b76cbb94">RECOMMEND_LABEL</a> = 1 &lt;&lt; 14
+, <a class="el" href="#a97669588a9e315e77c536d525c4940e1af230696bfcb098e93e6a442583fdf3dc">PROTECT_ADHOC_DK</a> = 1 &lt;&lt; 15
 , <br />
 &#160;&#160;<a class="el" href="#a97669588a9e315e77c536d525c4940e1acee880b5c2743d455349b8a08899322d">PROTECT_DO_NOT_FORWARD_DK</a> = 1 &lt;&lt; 17
-, <br />
-&#160;&#160;<a class="el" href="#a97669588a9e315e77c536d525c4940e1a684c9c435a2a227da9b5d1df21b81453">PROTECT_BY_ENCRYPT_ONLY</a> = 1 &lt;&lt; 18
-, <br />
-&#160;&#160;<a class="el" href="#a97669588a9e315e77c536d525c4940e1a0fa6e523e5aadaeceecf8915e3a52166">ADD_DYNAMIC_WATERMARK</a> = 1 &lt;&lt; 19
-, <br />
-&#160;&#160;<a class="el" href="#a97669588a9e315e77c536d525c4940e1a8db29c78c684038f8ad0d573423af3cb">REMOVE_DYNAMIC_WATERMARK</a> = 1 &lt;&lt; 20
+, <a class="el" href="#a97669588a9e315e77c536d525c4940e1a684c9c435a2a227da9b5d1df21b81453">PROTECT_BY_ENCRYPT_ONLY</a> = 1 &lt;&lt; 18
+, <a class="el" href="#a97669588a9e315e77c536d525c4940e1a0fa6e523e5aadaeceecf8915e3a52166">ADD_DYNAMIC_WATERMARK</a> = 1 &lt;&lt; 19
+, <a class="el" href="#a97669588a9e315e77c536d525c4940e1a8db29c78c684038f8ad0d573423af3cb">REMOVE_DYNAMIC_WATERMARK</a> = 1 &lt;&lt; 20
 <br />
  }</td></tr>
 <tr class="memdesc:a97669588a9e315e77c536d525c4940e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Different action types.  <a href="#a97669588a9e315e77c536d525c4940e1">More...</a><br /></td></tr>
@@ -251,17 +232,17 @@ Enumerations</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ae03e100b02d5e1ce8fd21ed4ff39ee6d" id="r_ae03e100b02d5e1ce8fd21ed4ff39ee6d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="#a97669588a9e315e77c536d525c4940e1">ActionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae03e100b02d5e1ce8fd21ed4ff39ee6d">operator&amp;</a> (<a class="el" href="#a97669588a9e315e77c536d525c4940e1">ActionType</a> a, <a class="el" href="#a97669588a9e315e77c536d525c4940e1">ActionType</a> b)</td></tr>
-<tr class="memdesc:ae03e100b02d5e1ce8fd21ed4ff39ee6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">And (&amp;) operator for <a class="el" href="classAction.html" title="Interface for an action.">Action</a> type enum.  <br /></td></tr>
+<tr class="memdesc:ae03e100b02d5e1ce8fd21ed4ff39ee6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">And (&amp;) operator for <a class="el" href="classAction.html" title="Interface for an action. Each action translates to a step that needs to be taken by the application t...">Action</a> type enum.  <br /></td></tr>
 <tr class="separator:ae03e100b02d5e1ce8fd21ed4ff39ee6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47e653418591f5f14f567679d9e193cb" id="r_a47e653418591f5f14f567679d9e193cb"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="#a97669588a9e315e77c536d525c4940e1">ActionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47e653418591f5f14f567679d9e193cb">operator^</a> (<a class="el" href="#a97669588a9e315e77c536d525c4940e1">ActionType</a> a, <a class="el" href="#a97669588a9e315e77c536d525c4940e1">ActionType</a> b)</td></tr>
-<tr class="memdesc:a47e653418591f5f14f567679d9e193cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Xor (^) operator for <a class="el" href="classAction.html" title="Interface for an action.">Action</a> type enum.  <br /></td></tr>
+<tr class="memdesc:a47e653418591f5f14f567679d9e193cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Xor (^) operator for <a class="el" href="classAction.html" title="Interface for an action. Each action translates to a step that needs to be taken by the application t...">Action</a> type enum.  <br /></td></tr>
 <tr class="separator:a47e653418591f5f14f567679d9e193cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a415e2d362253624c5d0bf1d2ae285d41" id="r_a415e2d362253624c5d0bf1d2ae285d41"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="#a97669588a9e315e77c536d525c4940e1">ActionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a415e2d362253624c5d0bf1d2ae285d41">operator|</a> (<a class="el" href="#a97669588a9e315e77c536d525c4940e1">ActionType</a> a, <a class="el" href="#a97669588a9e315e77c536d525c4940e1">ActionType</a> b)</td></tr>
-<tr class="memdesc:a415e2d362253624c5d0bf1d2ae285d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Or (|) operator for <a class="el" href="classAction.html" title="Interface for an action.">Action</a> type enum.  <br /></td></tr>
+<tr class="memdesc:a415e2d362253624c5d0bf1d2ae285d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Or (|) operator for <a class="el" href="classAction.html" title="Interface for an action. Each action translates to a step that needs to be taken by the application t...">Action</a> type enum.  <br /></td></tr>
 <tr class="separator:a415e2d362253624c5d0bf1d2ae285d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A file containing the <a class="el" href="classAction.html" title="Interface for an action.">Action</a> base class and the ActionType enumerator. </p>
+<div class="textblock"><p>A file containing the <a class="el" href="classAction.html" title="Interface for an action. Each action translates to a step that needs to be taken by the application t...">Action</a> base class and the ActionType enumerator. </p>
 
 <p class="definition">Definition in file <a class="el" href="action_8h_source.html">action.h</a>.</p>
 </div><h2 class="groupheader">Enumeration Type Documentation</h2>
@@ -354,26 +335,26 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">   66</span>  <a class="code hl_enumvalue" href="#a97669588a9e315e77c536d525c4940e1a0fa6e523e5aadaeceecf8915e3a52166">ADD_DYNAMIC_WATERMARK</a> = 1 &lt;&lt; 19,     <span class="comment">/**&lt; Add a dynamic watermark to the entire document action type.*/</span></div>
 <div class="line"><span class="lineno">   67</span>  <a class="code hl_enumvalue" href="#a97669588a9e315e77c536d525c4940e1a8db29c78c684038f8ad0d573423af3cb">REMOVE_DYNAMIC_WATERMARK</a> = 1 &lt;&lt; 20,  <span class="comment">/**&lt; Remove dynamic watermark action type.*/</span></div>
 <div class="line"><span class="lineno">   68</span>};</div>
-<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a00ee5738c7bbec86bb4781107ac7e9be"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a00ee5738c7bbec86bb4781107ac7e9be">ActionType::REMOVE_CONTENT_FOOTER</a></div><div class="ttdeci">@ REMOVE_CONTENT_FOOTER</div><div class="ttdoc">Remove content footer action type.</div></div>
-<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a079b5a46106afebd8f22ee08c2f17e17"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a079b5a46106afebd8f22ee08c2f17e17">ActionType::APPLY_LABEL</a></div><div class="ttdeci">@ APPLY_LABEL</div><div class="ttdoc">Apply label action type.</div></div>
-<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a0fa6e523e5aadaeceecf8915e3a52166"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a0fa6e523e5aadaeceecf8915e3a52166">ActionType::ADD_DYNAMIC_WATERMARK</a></div><div class="ttdeci">@ ADD_DYNAMIC_WATERMARK</div><div class="ttdoc">Add a dynamic watermark to the entire document action type.</div></div>
-<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a1737cca12ec8b2b9c1889805a423724a"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a1737cca12ec8b2b9c1889805a423724a">ActionType::ADD_WATERMARK</a></div><div class="ttdeci">@ ADD_WATERMARK</div><div class="ttdoc">Add a water mark to the entire document action type.</div></div>
-<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a1a6a15d9c9c41d5d8b9f3abf79bdf3ef"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a1a6a15d9c9c41d5d8b9f3abf79bdf3ef">ActionType::REMOVE_CONTENT_HEADER</a></div><div class="ttdeci">@ REMOVE_CONTENT_HEADER</div><div class="ttdoc">Remove content header action type.</div></div>
-<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a1a8c137fb3ff9dc6fa1a59e8743fc1e9"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a1a8c137fb3ff9dc6fa1a59e8743fc1e9">ActionType::JUSTIFY</a></div><div class="ttdeci">@ JUSTIFY</div><div class="ttdoc">A justify action type.</div></div>
-<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a1b7a114d16c5f3481fcaeca4c511f427"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a1b7a114d16c5f3481fcaeca4c511f427">ActionType::PROTECT_DO_NOT_FORWARD</a></div><div class="ttdeci">@ PROTECT_DO_NOT_FORWARD</div><div class="ttdoc">A protect by do not forward action type.</div></div>
-<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a2365630b34fc2286faf2a0d0256aef90"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a2365630b34fc2286faf2a0d0256aef90">ActionType::ADD_CONTENT_FOOTER</a></div><div class="ttdeci">@ ADD_CONTENT_FOOTER</div><div class="ttdoc">Add a content footer to the document action type.</div></div>
-<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a5a8e4d1eb18a385e99bf7a02d2779b7b"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a5a8e4d1eb18a385e99bf7a02d2779b7b">ActionType::REMOVE_WATERMARK</a></div><div class="ttdeci">@ REMOVE_WATERMARK</div><div class="ttdoc">Remove watermarking action type.</div></div>
-<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a684c9c435a2a227da9b5d1df21b81453"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a684c9c435a2a227da9b5d1df21b81453">ActionType::PROTECT_BY_ENCRYPT_ONLY</a></div><div class="ttdeci">@ PROTECT_BY_ENCRYPT_ONLY</div><div class="ttdoc">A protect by encryption only action type.</div></div>
-<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a72baef04098f035e8a320b03ad197818"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a72baef04098f035e8a320b03ad197818">ActionType::CUSTOM</a></div><div class="ttdeci">@ CUSTOM</div><div class="ttdoc">A custom defined action type.</div></div>
-<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a8a9c0818e0622aadfcb2e59cfe5299b4"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a8a9c0818e0622aadfcb2e59cfe5299b4">ActionType::METADATA</a></div><div class="ttdeci">@ METADATA</div><div class="ttdoc">A Meta data change action type.</div></div>
-<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a8db29c78c684038f8ad0d573423af3cb"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a8db29c78c684038f8ad0d573423af3cb">ActionType::REMOVE_DYNAMIC_WATERMARK</a></div><div class="ttdeci">@ REMOVE_DYNAMIC_WATERMARK</div><div class="ttdoc">Remove dynamic watermark action type.</div></div>
-<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a971fdd2239c52b26c80a84f93ea73e10"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a971fdd2239c52b26c80a84f93ea73e10">ActionType::PROTECT_ADHOC</a></div><div class="ttdeci">@ PROTECT_ADHOC</div><div class="ttdoc">A protect by adhoc policy action type.</div></div>
-<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a99ff29ed57bc681f577e9c1bfae35506"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a99ff29ed57bc681f577e9c1bfae35506">ActionType::ADD_CONTENT_HEADER</a></div><div class="ttdeci">@ ADD_CONTENT_HEADER</div><div class="ttdoc">Add a content header to the document action type.</div></div>
-<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1ac57642bfdbbca367c4b974ce2500e99a"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1ac57642bfdbbca367c4b974ce2500e99a">ActionType::PROTECT_BY_TEMPLATE</a></div><div class="ttdeci">@ PROTECT_BY_TEMPLATE</div><div class="ttdoc">A protect by template action type.</div></div>
-<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1ac5775074668508fae03d95c1f85ea3c5"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1ac5775074668508fae03d95c1f85ea3c5">ActionType::REMOVE_PROTECTION</a></div><div class="ttdeci">@ REMOVE_PROTECTION</div><div class="ttdoc">Remove protection action type.</div></div>
-<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1acee880b5c2743d455349b8a08899322d"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1acee880b5c2743d455349b8a08899322d">ActionType::PROTECT_DO_NOT_FORWARD_DK</a></div><div class="ttdeci">@ PROTECT_DO_NOT_FORWARD_DK</div><div class="ttdoc">A protect by do not forward action type with double key.</div></div>
-<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1adc994cff1cfcef7323718172b76cbb94"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1adc994cff1cfcef7323718172b76cbb94">ActionType::RECOMMEND_LABEL</a></div><div class="ttdeci">@ RECOMMEND_LABEL</div><div class="ttdoc">Recommend label action type.</div></div>
-<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1af230696bfcb098e93e6a442583fdf3dc"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1af230696bfcb098e93e6a442583fdf3dc">ActionType::PROTECT_ADHOC_DK</a></div><div class="ttdeci">@ PROTECT_ADHOC_DK</div><div class="ttdoc">A protect by adhoc policy action type.</div></div>
+<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a00ee5738c7bbec86bb4781107ac7e9be"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a00ee5738c7bbec86bb4781107ac7e9be">ActionType::REMOVE_CONTENT_FOOTER</a></div><div class="ttdeci">@ REMOVE_CONTENT_FOOTER</div></div>
+<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a079b5a46106afebd8f22ee08c2f17e17"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a079b5a46106afebd8f22ee08c2f17e17">ActionType::APPLY_LABEL</a></div><div class="ttdeci">@ APPLY_LABEL</div></div>
+<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a0fa6e523e5aadaeceecf8915e3a52166"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a0fa6e523e5aadaeceecf8915e3a52166">ActionType::ADD_DYNAMIC_WATERMARK</a></div><div class="ttdeci">@ ADD_DYNAMIC_WATERMARK</div></div>
+<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a1737cca12ec8b2b9c1889805a423724a"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a1737cca12ec8b2b9c1889805a423724a">ActionType::ADD_WATERMARK</a></div><div class="ttdeci">@ ADD_WATERMARK</div></div>
+<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a1a6a15d9c9c41d5d8b9f3abf79bdf3ef"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a1a6a15d9c9c41d5d8b9f3abf79bdf3ef">ActionType::REMOVE_CONTENT_HEADER</a></div><div class="ttdeci">@ REMOVE_CONTENT_HEADER</div></div>
+<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a1a8c137fb3ff9dc6fa1a59e8743fc1e9"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a1a8c137fb3ff9dc6fa1a59e8743fc1e9">ActionType::JUSTIFY</a></div><div class="ttdeci">@ JUSTIFY</div></div>
+<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a1b7a114d16c5f3481fcaeca4c511f427"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a1b7a114d16c5f3481fcaeca4c511f427">ActionType::PROTECT_DO_NOT_FORWARD</a></div><div class="ttdeci">@ PROTECT_DO_NOT_FORWARD</div></div>
+<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a2365630b34fc2286faf2a0d0256aef90"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a2365630b34fc2286faf2a0d0256aef90">ActionType::ADD_CONTENT_FOOTER</a></div><div class="ttdeci">@ ADD_CONTENT_FOOTER</div></div>
+<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a5a8e4d1eb18a385e99bf7a02d2779b7b"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a5a8e4d1eb18a385e99bf7a02d2779b7b">ActionType::REMOVE_WATERMARK</a></div><div class="ttdeci">@ REMOVE_WATERMARK</div></div>
+<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a684c9c435a2a227da9b5d1df21b81453"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a684c9c435a2a227da9b5d1df21b81453">ActionType::PROTECT_BY_ENCRYPT_ONLY</a></div><div class="ttdeci">@ PROTECT_BY_ENCRYPT_ONLY</div></div>
+<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a72baef04098f035e8a320b03ad197818"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a72baef04098f035e8a320b03ad197818">ActionType::CUSTOM</a></div><div class="ttdeci">@ CUSTOM</div></div>
+<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a8a9c0818e0622aadfcb2e59cfe5299b4"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a8a9c0818e0622aadfcb2e59cfe5299b4">ActionType::METADATA</a></div><div class="ttdeci">@ METADATA</div></div>
+<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a8db29c78c684038f8ad0d573423af3cb"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a8db29c78c684038f8ad0d573423af3cb">ActionType::REMOVE_DYNAMIC_WATERMARK</a></div><div class="ttdeci">@ REMOVE_DYNAMIC_WATERMARK</div></div>
+<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a971fdd2239c52b26c80a84f93ea73e10"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a971fdd2239c52b26c80a84f93ea73e10">ActionType::PROTECT_ADHOC</a></div><div class="ttdeci">@ PROTECT_ADHOC</div></div>
+<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1a99ff29ed57bc681f577e9c1bfae35506"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1a99ff29ed57bc681f577e9c1bfae35506">ActionType::ADD_CONTENT_HEADER</a></div><div class="ttdeci">@ ADD_CONTENT_HEADER</div></div>
+<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1ac57642bfdbbca367c4b974ce2500e99a"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1ac57642bfdbbca367c4b974ce2500e99a">ActionType::PROTECT_BY_TEMPLATE</a></div><div class="ttdeci">@ PROTECT_BY_TEMPLATE</div></div>
+<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1ac5775074668508fae03d95c1f85ea3c5"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1ac5775074668508fae03d95c1f85ea3c5">ActionType::REMOVE_PROTECTION</a></div><div class="ttdeci">@ REMOVE_PROTECTION</div></div>
+<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1acee880b5c2743d455349b8a08899322d"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1acee880b5c2743d455349b8a08899322d">ActionType::PROTECT_DO_NOT_FORWARD_DK</a></div><div class="ttdeci">@ PROTECT_DO_NOT_FORWARD_DK</div></div>
+<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1adc994cff1cfcef7323718172b76cbb94"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1adc994cff1cfcef7323718172b76cbb94">ActionType::RECOMMEND_LABEL</a></div><div class="ttdeci">@ RECOMMEND_LABEL</div></div>
+<div class="ttc" id="aaction_8h_html_a97669588a9e315e77c536d525c4940e1af230696bfcb098e93e6a442583fdf3dc"><div class="ttname"><a href="#a97669588a9e315e77c536d525c4940e1af230696bfcb098e93e6a442583fdf3dc">ActionType::PROTECT_ADHOC_DK</a></div><div class="ttdeci">@ PROTECT_ADHOC_DK</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -405,7 +386,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>And (&amp;) operator for <a class="el" href="classAction.html" title="Interface for an action.">Action</a> type enum. </p>
+<p>And (&amp;) operator for <a class="el" href="classAction.html" title="Interface for an action. Each action translates to a step that needs to be taken by the application t...">Action</a> type enum. </p>
 
 <p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00079">79</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   79</span>                                                                   {</div>
@@ -442,7 +423,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Xor (^) operator for <a class="el" href="classAction.html" title="Interface for an action.">Action</a> type enum. </p>
+<p>Xor (^) operator for <a class="el" href="classAction.html" title="Interface for an action. Each action translates to a step that needs to be taken by the application t...">Action</a> type enum. </p>
 
 <p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00085">85</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   85</span>                                                                   {</div>
@@ -478,7 +459,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Or (|) operator for <a class="el" href="classAction.html" title="Interface for an action.">Action</a> type enum. </p>
+<p>Or (|) operator for <a class="el" href="classAction.html" title="Interface for an action. Each action translates to a step that needs to be taken by the application t...">Action</a> type enum. </p>
 
 <p class="definition">Definition at line <a class="el" href="action_8h_source.html#l00073">73</a> of file <a class="el" href="action_8h_source.html">action.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   73</span>                                                                   {</div>

@@ -138,14 +138,10 @@ var menudata={children:[
 {text:"v",url:"globals.html#index_v"},
 {text:"w",url:"globals.html#index_w"}]},
 {text:"Functions",url:"globals_func.html",children:[
-{text:"a",url:"globals_func.html#index_a"},
 {text:"c",url:"globals_func.html#index_c"},
-{text:"d",url:"globals_func.html#index_d"},
 {text:"g",url:"globals_func.html#index_g"},
-{text:"l",url:"globals_func.html#index_l"},
 {text:"o",url:"globals_func.html#index_o"},
-{text:"r",url:"globals_func.html#index_r"},
-{text:"u",url:"globals_func.html#index_u"}]},
+{text:"r",url:"globals_func.html#index_r"}]},
 {text:"Variables",url:"globals_vars.html"},
 {text:"Typedefs",url:"globals_type.html"},
 {text:"Enumerations",url:"globals_enum.html",children:[

@@ -108,11 +108,9 @@ $(function(){initNavTree('structDiagnosticConfiguration.html',''); initResizable
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="diagnostic__configuration_8h_source.html">src/api/mip/diagnostic_configuration.h</a>&gt;</code></p>
-<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for DiagnosticConfiguration:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="dynheader">
+Collaboration diagram for DiagnosticConfiguration:</div>
+<div class="dyncontent">
 <div class="center"><img src="structDiagnosticConfiguration__coll__graph.png" border="0" usemap="#aDiagnosticConfiguration_coll__map" alt="Collaboration graph"/></div>
 <map name="aDiagnosticConfiguration_coll__map" id="aDiagnosticConfiguration_coll__map">
 <area shape="rect" title="Custom diagnostic configurations (not commonly used)" alt="" coords="1631,323,1809,348"/>
@@ -174,55 +172,40 @@ $(function(){initNavTree('structDiagnosticConfiguration.html',''); initResizable
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a5868b88df1b78e9b2fc7e4f9150998db" id="r_a5868b88df1b78e9b2fc7e4f9150998db"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classAuditDelegate.html">AuditDelegate</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5868b88df1b78e9b2fc7e4f9150998db">auditPipelineDelegateOverride</a></td></tr>
-<tr class="memdesc:a5868b88df1b78e9b2fc7e4f9150998db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Audit delegate override for writting audit events.  <br /></td></tr>
 <tr class="separator:a5868b88df1b78e9b2fc7e4f9150998db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0f0a2b2907b1023f2a1a16408dd6367" id="r_ad0f0a2b2907b1023f2a1a16408dd6367"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__types_8h.html#a10dec50806bcdc01b5b0f3b5a5aafe44">Cloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0f0a2b2907b1023f2a1a16408dd6367">cloud</a> {<a class="el" href="common__types_8h.html#a10dec50806bcdc01b5b0f3b5a5aafe44a88183b946cc5f0e8c96b2e66e1c74a7e">Cloud::Unknown</a>}</td></tr>
-<tr class="memdesc:ad0f0a2b2907b1023f2a1a16408dd6367"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cloud type for controlling telemetry and audit events for sovereign cloud scenario.  <br /></td></tr>
 <tr class="separator:ad0f0a2b2907b1023f2a1a16408dd6367"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af70753ed0e5182d5f9abc6934532fceb" id="r_af70753ed0e5182d5f9abc6934532fceb"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af70753ed0e5182d5f9abc6934532fceb">customSettings</a></td></tr>
-<tr class="memdesc:af70753ed0e5182d5f9abc6934532fceb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Custom audit/telemetry settings &gt;  <br /></td></tr>
 <tr class="separator:af70753ed0e5182d5f9abc6934532fceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a008434bc9e322bc4c5901d6273962519" id="r_a008434bc9e322bc4c5901d6273962519"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__types_8h.html#aac976a2657d8c65944a48c48a5fe76fa">DataBoundary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a008434bc9e322bc4c5901d6273962519">dataBoundary</a> {<a class="el" href="common__types_8h.html#aac976a2657d8c65944a48c48a5fe76faa7a1920d61156abc05a60135aefe8bc67">DataBoundary::Default</a>}</td></tr>
-<tr class="memdesc:a008434bc9e322bc4c5901d6273962519"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default regional boundary that defines where telemetry and audit events are stored.  <br /></td></tr>
 <tr class="separator:a008434bc9e322bc4c5901d6273962519"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9057bca053062afe1ffa491b590caaad" id="r_a9057bca053062afe1ffa491b590caaad"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9057bca053062afe1ffa491b590caaad">hostNameOverride</a></td></tr>
-<tr class="memdesc:a9057bca053062afe1ffa491b590caaad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Host audit/telemetry instance name.  <br /></td></tr>
 <tr class="separator:a9057bca053062afe1ffa491b590caaad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad29f3a040df3d5c734356a65c8b02771" id="r_ad29f3a040df3d5c734356a65c8b02771"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classHttpDelegate.html">HttpDelegate</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad29f3a040df3d5c734356a65c8b02771">httpDelegateOverride</a></td></tr>
-<tr class="memdesc:ad29f3a040df3d5c734356a65c8b02771"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set, HTTP handling will be managed by this instance.  <br /></td></tr>
 <tr class="separator:ad29f3a040df3d5c734356a65c8b02771"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dc9ae188131ba65c79e386603265354" id="r_a1dc9ae188131ba65c79e386603265354"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dc9ae188131ba65c79e386603265354">isAuditPriorityEnhanced</a> {false}</td></tr>
-<tr class="memdesc:a1dc9ae188131ba65c79e386603265354"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set, Audit events will be uploaded immediately upon logging in default audit pipeline of MIP SDK.  <br /></td></tr>
 <tr class="separator:a1dc9ae188131ba65c79e386603265354"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa412f8ddc7ea3e05c465561ebb37ecb" id="r_afa412f8ddc7ea3e05c465561ebb37ecb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa412f8ddc7ea3e05c465561ebb37ecb">isFastShutdownEnabled</a> {false}</td></tr>
-<tr class="memdesc:afa412f8ddc7ea3e05c465561ebb37ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set, No events will be uploaded on shutdown, Audit events will be uploaded immediately upon logging.  <br /></td></tr>
 <tr class="separator:afa412f8ddc7ea3e05c465561ebb37ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cbbe599a6e3bed982007f150bfef88b" id="r_a3cbbe599a6e3bed982007f150bfef88b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cbbe599a6e3bed982007f150bfef88b">isLocalCachingEnabled</a> {true}</td></tr>
-<tr class="memdesc:a3cbbe599a6e3bed982007f150bfef88b"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set, audit/telemetry component will use on-disk caching.  <br /></td></tr>
 <tr class="separator:a3cbbe599a6e3bed982007f150bfef88b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae82cc0b5f4aa660fe68c0f6f4c804c2" id="r_aae82cc0b5f4aa660fe68c0f6f4c804c2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae82cc0b5f4aa660fe68c0f6f4c804c2">isMaxTeardownTimeEnabled</a> {false}</td></tr>
 <tr class="separator:aae82cc0b5f4aa660fe68c0f6f4c804c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acda5412c484906c2e47ebfab219a3e2d" id="r_acda5412c484906c2e47ebfab219a3e2d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acda5412c484906c2e47ebfab219a3e2d">isMinimalTelemetryEnabled</a> {false}</td></tr>
-<tr class="memdesc:acda5412c484906c2e47ebfab219a3e2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set, only necessary service data telemetry will be sent.  <br /></td></tr>
 <tr class="separator:acda5412c484906c2e47ebfab219a3e2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aceed29392537799369d86df1a6c1c47d" id="r_aceed29392537799369d86df1a6c1c47d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aceed29392537799369d86df1a6c1c47d">isNetworkDetectionEnabled</a> {true}</td></tr>
-<tr class="memdesc:aceed29392537799369d86df1a6c1c47d"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set, audit/telemetry component will ping network status on background thread.  <br /></td></tr>
 <tr class="separator:aceed29392537799369d86df1a6c1c47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad78ece641154287d12b9bfe66fffc9df" id="r_ad78ece641154287d12b9bfe66fffc9df"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad78ece641154287d12b9bfe66fffc9df">isTraceLoggingEnabled</a> {false}</td></tr>
 <tr class="separator:ad78ece641154287d12b9bfe66fffc9df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e0f648fa92dbd85d9856f3091601a24" id="r_a1e0f648fa92dbd85d9856f3091601a24"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e0f648fa92dbd85d9856f3091601a24">libraryNameOverride</a></td></tr>
-<tr class="memdesc:a1e0f648fa92dbd85d9856f3091601a24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alternate audit/telemetry library (DLL) filename.  <br /></td></tr>
 <tr class="separator:a1e0f648fa92dbd85d9856f3091601a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08e64b255e24cca49e2b6ed04ee627f3" id="r_a08e64b255e24cca49e2b6ed04ee627f3"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08e64b255e24cca49e2b6ed04ee627f3">maskedProperties</a></td></tr>
-<tr class="memdesc:a08e64b255e24cca49e2b6ed04ee627f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Audit/Telemetry events/properties which should be masked.  <br /></td></tr>
 <tr class="separator:a08e64b255e24cca49e2b6ed04ee627f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1be6b621579558698c6ba6d383407406" id="r_a1be6b621579558698c6ba6d383407406"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1be6b621579558698c6ba6d383407406">maxTeardownTimeSec</a> {2}</td></tr>
-<tr class="memdesc:a1be6b621579558698c6ba6d383407406"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set, Shutdown will take this much time, Audit &amp; Telemetry events will be uploaded on shutdown.  <br /></td></tr>
 <tr class="separator:a1be6b621579558698c6ba6d383407406"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff330994c306764256735f5003dc7b03" id="r_aff330994c306764256735f5003dc7b03"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classTaskDispatcherDelegate.html">TaskDispatcherDelegate</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff330994c306764256735f5003dc7b03">taskDispatcherDelegateOverride</a></td></tr>
 <tr class="separator:aff330994c306764256735f5003dc7b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a313ebfa16bcf36704493204c3cd8ddd8" id="r_a313ebfa16bcf36704493204c3cd8ddd8"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classTelemetryDelegate.html">TelemetryDelegate</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a313ebfa16bcf36704493204c3cd8ddd8">telemetryPipelineDelegateOverride</a></td></tr>
-<tr class="memdesc:a313ebfa16bcf36704493204c3cd8ddd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Telemetry delegate override for writting telemetry events.  <br /></td></tr>
 <tr class="separator:a313ebfa16bcf36704493204c3cd8ddd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -241,8 +224,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Audit delegate override for writting audit events. </p>
+<p>Audit delegate override for writting audit events </p>
 
 <p class="definition">Definition at line <a class="el" href="diagnostic__configuration_8h_source.html#l00068">68</a> of file <a class="el" href="diagnostic__configuration_8h_source.html">diagnostic_configuration.h</a>.</p>
 
@@ -259,12 +241,11 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Cloud type for controlling telemetry and audit events for sovereign cloud scenario. </p>
+<p>Cloud type for controlling telemetry and audit events for sovereign cloud scenario </p>
 
 <p class="definition">Definition at line <a class="el" href="diagnostic__configuration_8h_source.html#l00070">70</a> of file <a class="el" href="diagnostic__configuration_8h_source.html">diagnostic_configuration.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   70</span>{<a class="code hl_enumvalue" href="common__types_8h.html#a10dec50806bcdc01b5b0f3b5a5aafe44a88183b946cc5f0e8c96b2e66e1c74a7e">Cloud::Unknown</a>};  <span class="comment">/**&lt; Cloud type for controlling telemetry and audit events for sovereign cloud scenario */</span></div>
-<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a88183b946cc5f0e8c96b2e66e1c74a7e"><div class="ttname"><a href="common__types_8h.html#a10dec50806bcdc01b5b0f3b5a5aafe44a88183b946cc5f0e8c96b2e66e1c74a7e">Cloud::Unknown</a></div><div class="ttdeci">@ Unknown</div><div class="ttdoc">Cloud not specified or URL not recognized as an Azure cloud.</div></div>
+<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a88183b946cc5f0e8c96b2e66e1c74a7e"><div class="ttname"><a href="common__types_8h.html#a10dec50806bcdc01b5b0f3b5a5aafe44a88183b946cc5f0e8c96b2e66e1c74a7e">Cloud::Unknown</a></div><div class="ttdeci">@ Unknown</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -279,7 +260,6 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
 <p>Custom audit/telemetry settings &gt; </p>
 
 <p class="definition">Definition at line <a class="el" href="diagnostic__configuration_8h_source.html#l00066">66</a> of file <a class="el" href="diagnostic__configuration_8h_source.html">diagnostic_configuration.h</a>.</p>
@@ -297,12 +277,11 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
 <p>Default regional boundary that defines where telemetry and audit events are stored. </p>
 
 <p class="definition">Definition at line <a class="el" href="diagnostic__configuration_8h_source.html#l00071">71</a> of file <a class="el" href="diagnostic__configuration_8h_source.html">diagnostic_configuration.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   71</span>{<a class="code hl_enumvalue" href="common__types_8h.html#aac976a2657d8c65944a48c48a5fe76faa7a1920d61156abc05a60135aefe8bc67">DataBoundary::Default</a>};  <span class="comment">/**&lt; Default regional boundary that defines where telemetry and audit events are stored. */</span></div>
-<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faa7a1920d61156abc05a60135aefe8bc67"><div class="ttname"><a href="common__types_8h.html#aac976a2657d8c65944a48c48a5fe76faa7a1920d61156abc05a60135aefe8bc67">DataBoundary::Default</a></div><div class="ttdeci">@ Default</div><div class="ttdoc">Region is not specified.</div></div>
+<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faa7a1920d61156abc05a60135aefe8bc67"><div class="ttname"><a href="common__types_8h.html#aac976a2657d8c65944a48c48a5fe76faa7a1920d61156abc05a60135aefe8bc67">DataBoundary::Default</a></div><div class="ttdeci">@ Default</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -317,9 +296,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Host audit/telemetry instance name. </p>
-<p>If not set, MIP will act as its own host. </p>
+<p>Host audit/telemetry instance name. If not set, MIP will act as its own host. </p>
 
 <p class="definition">Definition at line <a class="el" href="diagnostic__configuration_8h_source.html#l00053">53</a> of file <a class="el" href="diagnostic__configuration_8h_source.html">diagnostic_configuration.h</a>.</p>
 
@@ -336,9 +313,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>If set, HTTP handling will be managed by this instance. </p>
-<p>If set, async task handling will be managed by this instance, taskDispatcherDelegateOverides should not be shared as they can hold audit/telemetry objects, and prevent their release until taskDispatcher is freed </p>
+<p>If set, HTTP handling will be managed by this instance If set, async task handling will be managed by this instance, taskDispatcherDelegateOverides should not be shared as they can hold audit/telemetry objects, and prevent their release until taskDispatcher is freed </p>
 
 <p class="definition">Definition at line <a class="el" href="diagnostic__configuration_8h_source.html#l00055">55</a> of file <a class="el" href="diagnostic__configuration_8h_source.html">diagnostic_configuration.h</a>.</p>
 
@@ -355,8 +330,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>If set, Audit events will be uploaded immediately upon logging in default audit pipeline of MIP SDK. </p>
+<p>If set, Audit events will be uploaded immediately upon logging in default audit pipeline of MIP SDK </p>
 
 <p class="definition">Definition at line <a class="el" href="diagnostic__configuration_8h_source.html#l00072">72</a> of file <a class="el" href="diagnostic__configuration_8h_source.html">diagnostic_configuration.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   72</span>{<span class="keyword">false</span>}; <span class="comment">/**&lt; If set, Audit events will be uploaded immediately upon logging in default audit pipeline of MIP SDK*/</span></div>
@@ -374,8 +348,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>If set, No events will be uploaded on shutdown, Audit events will be uploaded immediately upon logging. </p>
+<p>If set, No events will be uploaded on shutdown, Audit events will be uploaded immediately upon logging </p>
 
 <p class="definition">Definition at line <a class="el" href="diagnostic__configuration_8h_source.html#l00065">65</a> of file <a class="el" href="diagnostic__configuration_8h_source.html">diagnostic_configuration.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   65</span>{<span class="keyword">false</span>}; <span class="comment">/**&lt; If set, No events will be uploaded on shutdown, Audit events will be uploaded immediately upon logging */</span></div>
@@ -393,9 +366,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>If set, audit/telemetry component will use on-disk caching. </p>
-<p>If set, audit/telemetry component will write warning/error logs to disk. These files can grow to be very large, and may require manual cleanup from the host application </p>
+<p>If set, audit/telemetry component will use on-disk caching If set, audit/telemetry component will write warning/error logs to disk. These files can grow to be very large, and may require manual cleanup from the host application </p>
 
 <p class="definition">Definition at line <a class="el" href="diagnostic__configuration_8h_source.html#l00060">60</a> of file <a class="el" href="diagnostic__configuration_8h_source.html">diagnostic_configuration.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   60</span>{<span class="keyword">true</span>}; <span class="comment">/**&lt; If set, audit/telemetry component will use on-disk caching */</span></div>
@@ -430,8 +401,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>If set, only necessary service data telemetry will be sent. </p>
+<p>If set, only necessary service data telemetry will be sent </p>
 
 <p class="definition">Definition at line <a class="el" href="diagnostic__configuration_8h_source.html#l00064">64</a> of file <a class="el" href="diagnostic__configuration_8h_source.html">diagnostic_configuration.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   64</span>{<span class="keyword">false</span>}; <span class="comment">/**&lt; If set, only necessary service data telemetry will be sent */</span></div>
@@ -449,8 +419,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>If set, audit/telemetry component will ping network status on background thread. </p>
+<p>If set, audit/telemetry component will ping network status on background thread </p>
 
 <p class="definition">Definition at line <a class="el" href="diagnostic__configuration_8h_source.html#l00059">59</a> of file <a class="el" href="diagnostic__configuration_8h_source.html">diagnostic_configuration.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   59</span>{<span class="keyword">true</span>}; <span class="comment">/**&lt; If set, audit/telemetry component will ping network status on background thread */</span></div>
@@ -485,7 +454,6 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
 <p>Alternate audit/telemetry library (DLL) filename. </p>
 
 <p class="definition">Definition at line <a class="el" href="diagnostic__configuration_8h_source.html#l00054">54</a> of file <a class="el" href="diagnostic__configuration_8h_source.html">diagnostic_configuration.h</a>.</p>
@@ -503,8 +471,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Audit/Telemetry events/properties which should be masked. </p>
+<p>Audit/Telemetry events/properties which should be masked </p>
 
 <p class="definition">Definition at line <a class="el" href="diagnostic__configuration_8h_source.html#l00067">67</a> of file <a class="el" href="diagnostic__configuration_8h_source.html">diagnostic_configuration.h</a>.</p>
 
@@ -521,9 +488,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>If set, Shutdown will take this much time, Audit &amp; Telemetry events will be uploaded on shutdown. </p>
-<p>Value must be &gt;= 2. </p>
+<p>If set, Shutdown will take this much time, Audit &amp; Telemetry events will be uploaded on shutdown. Value must be &gt;= 2. </p>
 
 <p class="definition">Definition at line <a class="el" href="diagnostic__configuration_8h_source.html#l00073">73</a> of file <a class="el" href="diagnostic__configuration_8h_source.html">diagnostic_configuration.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   73</span>{2}; <span class="comment">/**&lt; If set, Shutdown will take this much time, Audit &amp; Telemetry events will be uploaded on shutdown. Value must be &gt;= 2. */</span></div>
@@ -557,8 +522,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Telemetry delegate override for writting telemetry events. </p>
+<p>Telemetry delegate override for writting telemetry events </p>
 
 <p class="definition">Definition at line <a class="el" href="diagnostic__configuration_8h_source.html#l00069">69</a> of file <a class="el" href="diagnostic__configuration_8h_source.html">diagnostic_configuration.h</a>.</p>
 

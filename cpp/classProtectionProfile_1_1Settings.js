@@ -23,5 +23,18 @@ var classProtectionProfile_1_1Settings =
     [ "SetLoggerContext", "classProtectionProfile_1_1Settings.html#a4a46743d4b57d178a78c0941ef7bd07f", null ],
     [ "SetSessionId", "classProtectionProfile_1_1Settings.html#afa9d4cbecfaf5e167deb38393fe49d42", null ],
     [ "SetStorageDelegate", "classProtectionProfile_1_1Settings.html#aa415713beb816f90d8ad44786c23b8a3", null ],
-    [ "SetTaskDispatcherDelegate", "classProtectionProfile_1_1Settings.html#a84f079a977a18946187aba4dc946ada2", null ]
+    [ "SetTaskDispatcherDelegate", "classProtectionProfile_1_1Settings.html#a84f079a977a18946187aba4dc946ada2", null ],
+    [ "mCacheStorageType", "classProtectionProfile_1_1Settings.html#a62bf2ff2b2410fa0bc641212add23f04", null ],
+    [ "mCanCacheLicenses", "classProtectionProfile_1_1Settings.html#acf4eaebc562540cb8f4bed030d82bb35", null ],
+    [ "mConsentDelegate", "classProtectionProfile_1_1Settings.html#a3114c927476b2cc7f835d92e8b1009cc", null ],
+    [ "mCustomSettings", "classProtectionProfile_1_1Settings.html#a8fceee2c522a0ccdae978c6f26a32034", null ],
+    [ "mDnsRedirection", "classProtectionProfile_1_1Settings.html#a8311811e7793a8ca788befb0d2719e89", null ],
+    [ "mHttpDelegate", "classProtectionProfile_1_1Settings.html#a0ce8c3fc7e41466fc73deb942d059f94", null ],
+    [ "mLoggerContext", "classProtectionProfile_1_1Settings.html#aafae8d5b82083edc0f9ae6deff3f1725", null ],
+    [ "mMipContext", "classProtectionProfile_1_1Settings.html#a09f2bc6f7774804f323eb972ec2c5f78", null ],
+    [ "mObserver", "classProtectionProfile_1_1Settings.html#aaddff9fea1f074599d77cf997b218e2b", null ],
+    [ "mRedirectionUris", "classProtectionProfile_1_1Settings.html#a2e3baaf140ff34dcbb52d1a548ff0800", null ],
+    [ "mSessionId", "classProtectionProfile_1_1Settings.html#abb1910ebc76855b54caad1dde45becdf", null ],
+    [ "mStorageDelegate", "classProtectionProfile_1_1Settings.html#a4588da327b23dda97b77d62766c79e69", null ],
+    [ "mTaskDispatcherDelegate", "classProtectionProfile_1_1Settings.html#a1cdafe618c707d2848a7432d70f326a7", null ]
 ];

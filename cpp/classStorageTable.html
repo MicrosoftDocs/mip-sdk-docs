@@ -115,7 +115,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6c8330e38f59b98c8bf5b13a8a69afb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete a set of rows specified by queryColumns and queryValues.  <br /></td></tr>
 <tr class="separator:a6c8330e38f59b98c8bf5b13a8a69afb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb1ed6502c88d83f881c818c24a23d9c" id="r_afb1ed6502c88d83f881c818c24a23d9c"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb1ed6502c88d83f881c818c24a23d9c">Find</a> (const std::vector&lt; std::string &gt; &amp;queryColumns, const std::vector&lt; std::string &gt; &amp;queryValues)=0</td></tr>
-<tr class="memdesc:afb1ed6502c88d83f881c818c24a23d9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a set of rows specified by <code>queryColumns</code> and <code>queryValues</code>.  <br /></td></tr>
+<tr class="memdesc:afb1ed6502c88d83f881c818c24a23d9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a set of rows specified by <code>queryColumns</code> and <code>queryValues</code>. This method can return multiple rows based on the filter.  <br /></td></tr>
 <tr class="separator:afb1ed6502c88d83f881c818c24a23d9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d345af61ddb3be20cebe93529f13093" id="r_a6d345af61ddb3be20cebe93529f13093"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d345af61ddb3be20cebe93529f13093">Insert</a> (const std::vector&lt; std::string &gt; &amp;allColumnValues)</td></tr>
 <tr class="memdesc:a6d345af61ddb3be20cebe93529f13093"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a row to the table.  <br /></td></tr>
@@ -200,8 +200,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Find a set of rows specified by <code>queryColumns</code> and <code>queryValues</code>. </p>
-<p>This method can return multiple rows based on the filter.</p>
+<p>Find a set of rows specified by <code>queryColumns</code> and <code>queryValues</code>. This method can return multiple rows based on the filter. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">queryColumns</td><td>List of column names that identify the table rows to find. </td></tr>

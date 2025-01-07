@@ -112,7 +112,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a80544a5fa9a1dc8286fafc3d3eb75bde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a boolean member to an Object with the specified key and value.  <br /></td></tr>
 <tr class="separator:a80544a5fa9a1dc8286fafc3d3eb75bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3299b9f37c3d84ea5a8259f25bccade6" id="r_a3299b9f37c3d84ea5a8259f25bccade6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3299b9f37c3d84ea5a8259f25bccade6">AddMember</a> (const std::string &amp;key, const std::shared_ptr&lt; <a class="el" href="classJsonValue.html">JsonValue</a> &gt; &amp;jsonValue)=0</td></tr>
-<tr class="memdesc:a3299b9f37c3d84ea5a8259f25bccade6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a value member to an Object.  <br /></td></tr>
+<tr class="memdesc:a3299b9f37c3d84ea5a8259f25bccade6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a value member to an Object. The object should not be modified after being added.  <br /></td></tr>
 <tr class="separator:a3299b9f37c3d84ea5a8259f25bccade6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4c3afd5bab339119089e67a778dad5b" id="r_ae4c3afd5bab339119089e67a778dad5b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4c3afd5bab339119089e67a778dad5b">AddMember</a> (const std::string &amp;key, const std::string &amp;member)=0</td></tr>
 <tr class="separator:ae4c3afd5bab339119089e67a778dad5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,7 +144,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a171966c2db8de5015ed72a05f735448d"><td class="mdescLeft">&#160;</td><td class="mdescRight">return value array as strings, skip non string elements.  <br /></td></tr>
 <tr class="separator:a171966c2db8de5015ed72a05f735448d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8c25575d3c246f62a5c38fdc30ff3f9" id="r_ad8c25575d3c246f62a5c38fdc30ff3f9"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8c25575d3c246f62a5c38fdc30ff3f9">GetStringObjectMembers</a> () const =0</td></tr>
-<tr class="memdesc:ad8c25575d3c246f62a5c38fdc30ff3f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all string members of this object and their keys, skip non string elements.  <br /></td></tr>
+<tr class="memdesc:ad8c25575d3c246f62a5c38fdc30ff3f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all string members of this object and their keys, skip non string elements. Example: for the json object {"a": "b", "c": "d", "e": 1, "f": {"g": "h"}} this method would return a vector of two pairs: ("a", "b") and ("c", "d").  <br /></td></tr>
 <tr class="separator:ad8c25575d3c246f62a5c38fdc30ff3f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6f2995f0827885d338c8e0208289793" id="r_aa6f2995f0827885d338c8e0208289793"><td class="memItemLeft" align="right" valign="top">virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6f2995f0827885d338c8e0208289793">GetUint</a> () const =0</td></tr>
 <tr class="memdesc:aa6f2995f0827885d338c8e0208289793"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the current value is a uint, return it.  <br /></td></tr>
@@ -174,7 +174,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3646e0e721e3aa2bbfc9d6d6834517dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the current value is an unsigned int.  <br /></td></tr>
 <tr class="separator:a3646e0e721e3aa2bbfc9d6d6834517dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a515e5e916befeffc5b84a27ae0276019" id="r_a515e5e916befeffc5b84a27ae0276019"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a515e5e916befeffc5b84a27ae0276019">PushBack</a> (const std::shared_ptr&lt; <a class="el" href="classJsonValue.html">JsonValue</a> &gt; &amp;jsonValue)=0</td></tr>
-<tr class="memdesc:a515e5e916befeffc5b84a27ae0276019"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a value member to an Array.  <br /></td></tr>
+<tr class="memdesc:a515e5e916befeffc5b84a27ae0276019"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a value member to an Array. The object should not be modified after being added.  <br /></td></tr>
 <tr class="separator:a515e5e916befeffc5b84a27ae0276019"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36ab753579a69d69e3e9f02022aec00f" id="r_a36ab753579a69d69e3e9f02022aec00f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36ab753579a69d69e3e9f02022aec00f">PushBack</a> (const std::string &amp;member)=0</td></tr>
 <tr class="memdesc:a36ab753579a69d69e3e9f02022aec00f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a string member to an Array with the specified value.  <br /></td></tr>
@@ -255,8 +255,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Add a value member to an Object. </p>
-<p>The object should not be modified after being added. </p>
+<p>Add a value member to an Object. The object should not be modified after being added. </p>
 
 </div>
 </div>
@@ -584,8 +583,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return all string members of this object and their keys, skip non string elements. </p>
-<p>Example: for the json object {"a": "b", "c": "d", "e": 1, "f": {"g": "h"}} this method would return a vector of two pairs: ("a", "b") and ("c", "d"). </p><dl class="section return"><dt>Returns</dt><dd>all string members of this object and their keys as a vector of pairs. </dd></dl>
+<p>Return all string members of this object and their keys, skip non string elements. Example: for the json object {"a": "b", "c": "d", "e": 1, "f": {"g": "h"}} this method would return a vector of two pairs: ("a", "b") and ("c", "d"). </p>
+<dl class="section return"><dt>Returns</dt><dd>all string members of this object and their keys as a vector of pairs. </dd></dl>
 
 </div>
 </div>
@@ -864,8 +863,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Add a value member to an Array. </p>
-<p>The object should not be modified after being added. </p>
+<p>Add a value member to an Array. The object should not be modified after being added. </p>
 
 </div>
 </div>

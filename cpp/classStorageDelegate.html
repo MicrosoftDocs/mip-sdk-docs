@@ -119,7 +119,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9756761bdad72e4aafab1be08bd98e04" id="r_a9756761bdad72e4aafab1be08bd98e04"><td class="memItemLeft" align="right" valign="top">virtual mip::StorageTableResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9756761bdad72e4aafab1be08bd98e04">CreateStorageTable</a> (const std::string &amp;path, const <a class="el" href="storage__delegate_8h.html#a96a7b2207da23bc5c9800d75a120fa49">MipComponent</a> mipComponent, const std::string &amp;tableName, const std::vector&lt; std::string &gt; &amp;allColumns, const std::vector&lt; std::string &gt; &amp;encryptedColumns, const std::vector&lt; std::string &gt; &amp;keyColumns) const =0</td></tr>
-<tr class="memdesc:a9756761bdad72e4aafab1be08bd98e04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an instance of a storage table that MIP uses for caching.  <br /></td></tr>
+<tr class="memdesc:a9756761bdad72e4aafab1be08bd98e04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an instance of a storage table that MIP uses for caching. If a table already exists &amp; schema doesnt match with <code>allColumns</code> , implementatiion should drop the table and re-create new one.  <br /></td></tr>
 <tr class="separator:a9756761bdad72e4aafab1be08bd98e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0daa50574628bed5a29da723153cbced" id="r_a0daa50574628bed5a29da723153cbced"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classStorageDelegate_1_1StorageSettings.html">StorageSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0daa50574628bed5a29da723153cbced">GetSettings</a> () const =0</td></tr>
 <tr class="memdesc:a0daa50574628bed5a29da723153cbced"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets settings used by <a class="el" href="classStorageDelegate.html" title="A class that defines the interface to the MIP SDK storage for caching.">StorageDelegate</a>.  <br /></td></tr>
@@ -177,8 +177,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Creates an instance of a storage table that MIP uses for caching. </p>
-<p>If a table already exists &amp; schema doesnt match with <code>allColumns</code> , implementatiion should drop the table and re-create new one.</p>
+<p>Creates an instance of a storage table that MIP uses for caching. If a table already exists &amp; schema doesnt match with <code>allColumns</code> , implementatiion should drop the table and re-create new one. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">path</td><td>Default path for mip storage. Will end in file extension returned from <a class="el" href="classStorageDelegate_1_1StorageSettings.html#a48050a5a152f5e0b5ea85033a0124722" title="Gets the extension that the delegate will use when storing a table on disk.">StorageSettings::OnDiskExtension()</a> </td></tr>

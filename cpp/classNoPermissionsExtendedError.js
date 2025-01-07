@@ -12,8 +12,11 @@ var classNoPermissionsExtendedError =
       [ "ClientVersionNotSupported", "classNoPermissionsExtendedError.html#a75af81a5a24cda739145edfdb6fa5fb0ac2332e9a96671ade5772884489080edc", null ]
     ] ],
     [ "AddDebugInfo", "classNoPermissionsExtendedError.html#a1e9379501df2d1e8315d373cf79949f2", null ],
+    [ "AddExtendedErrorInfoToDebugInfo", "classNoPermissionsExtendedError.html#a87fa1755ed531b57944b2d1c7a63f895", null ],
     [ "Clone", "classNoPermissionsExtendedError.html#a34ab84a92eb2a61d10bb2a1720640eb5", null ],
+    [ "CreateFormattedMessage", "classNoPermissionsExtendedError.html#aa76e555fb5bcfb69dc804f51fa01ad34", null ],
     [ "GetCategory", "classNoPermissionsExtendedError.html#a15948714a8b1976e21eb78830ad13e28", null ],
+    [ "GetCategoryString", "classNoPermissionsExtendedError.html#ad1dd963308b393ec8286d395c50bbda6", null ],
     [ "GetDebugInfo", "classNoPermissionsExtendedError.html#af00e4c79dbf6834b319b068a2d94ae36", null ],
     [ "GetErrorName", "classNoPermissionsExtendedError.html#a27297bdd7abc0571413a249ed4d1f447", null ],
     [ "GetErrorType", "classNoPermissionsExtendedError.html#ac4be6cb0be956902a56477a95d41b960", null ],
@@ -22,8 +25,14 @@ var classNoPermissionsExtendedError =
     [ "GetReferrer", "classNoPermissionsExtendedError.html#a83f5e3b1e0f842b0af5ef2a09f403cf1", null ],
     [ "SetMessage", "classNoPermissionsExtendedError.html#afa3a5efa4e38f33ee27b008714149daf", null ],
     [ "what", "classNoPermissionsExtendedError.html#a6b5d1714f27d38ba999e5cba27014397", null ],
+    [ "mCategory", "classNoPermissionsExtendedError.html#af306adf3f88327f51d7cde601d20d876", null ],
     [ "mDebugInfo", "classNoPermissionsExtendedError.html#a0c79a90c3d7a10bad9812f51ba615486", null ],
+    [ "mExtendedErrorInfo", "classNoPermissionsExtendedError.html#aba1e47494459a506e0cb239da4c31cfa", null ],
+    [ "mFormattedMessage", "classNoPermissionsExtendedError.html#ae2e20e84e05f13e9a5b67f8b16fd5c38", null ],
+    [ "mMaskedMessage", "classNoPermissionsExtendedError.html#aa6b87fa2e501856f7a39e763eebcbe39", null ],
     [ "mMessage", "classNoPermissionsExtendedError.html#af31bc6356d7c45845280a5481917bee7", null ],
     [ "mName", "classNoPermissionsExtendedError.html#abc98b444b9adbfd6dc8ba5e96db54b37", null ],
+    [ "mOwner", "classNoPermissionsExtendedError.html#a1ab065995094ccfd81707d6875162079", null ],
+    [ "mReferrer", "classNoPermissionsExtendedError.html#a5945cb978ea38744f59a43b124e3dcc5", null ],
     [ "mType", "classNoPermissionsExtendedError.html#ae4af72b4dc19622d365cb1faaeae9385", null ]
 ];

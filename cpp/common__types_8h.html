@@ -116,11 +116,9 @@ $(function(){initNavTree('common__types_8h.html',''); initResizable(true); });
 <code>#include &lt;unordered_map&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &quot;<a class="el" href="mip__namespace_8h_source.html">mip/mip_namespace.h</a>&quot;</code><br />
-</div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for common_types.h:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for common_types.h:</div>
+<div class="dyncontent">
 <div class="center"><img src="common__types_8h__incl.png" border="0" usemap="#asrc_2api_2mip_2common__types_8h" alt=""/></div>
 <map name="asrc_2api_2mip_2common__types_8h" id="asrc_2api_2mip_2common__types_8h">
 <area shape="rect" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="289,5,444,45"/>
@@ -142,11 +140,9 @@ $(function(){initNavTree('common__types_8h.html',''); initResizable(true); });
 <area shape="poly" title=" " alt="" coords="445,38,714,88,713,93,444,44"/>
 </map>
 </div>
-</div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
 <div class="center"><img src="common__types_8h__dep__incl.png" border="0" usemap="#asrc_2api_2mip_2common__types_8hdep" alt=""/></div>
 <map name="asrc_2api_2mip_2common__types_8hdep" id="asrc_2api_2mip_2common__types_8hdep">
 <area shape="rect" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="1621,5,1776,45"/>
@@ -313,128 +309,85 @@ Typedefs</h2></td></tr>
 <tr class="memitem:abca0df54ec7356b29584fc85dee02f1f" id="r_abca0df54ec7356b29584fc85dee02f1f"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="#a90401a791d9bfc4317c205ca1a086b51">mip::Classifier</a>, <a class="el" href="structUniqueIdsAndContentFormats.html">UniqueIdsAndContentFormats</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abca0df54ec7356b29584fc85dee02f1f">ClassifierUniqueIdsAndContentFormats</a></td></tr>
 <tr class="separator:abca0df54ec7356b29584fc85dee02f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0425e0f2bfd53d606bc0599008380a1" id="r_ad0425e0f2bfd53d606bc0599008380a1"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60">LabelFilterType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0425e0f2bfd53d606bc0599008380a1">FunctionalityFilterType</a></td></tr>
-<tr class="memdesc:ad0425e0f2bfd53d606bc0599008380a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name change within the cpp workspace to imply the filters has greater scope than just label behavior.  <br /></td></tr>
+<tr class="memdesc:ad0425e0f2bfd53d606bc0599008380a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name change within the cpp workspace to imply the filters has greater scope than just label behavior. Avoided changing name fully to prevent breaking on client operations.  <br /></td></tr>
 <tr class="separator:ad0425e0f2bfd53d606bc0599008380a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ac34db49a584f832ee354519ed7eda09a" id="r_ac34db49a584f832ee354519ed7eda09a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac34db49a584f832ee354519ed7eda09a">ActionSource</a> : unsigned int { <br />
-&#160;&#160;<a class="el" href="#ac34db49a584f832ee354519ed7eda09aaa60a6a471c0681e5a49c4f5d00f6bc5a">MANUAL</a>
-, <br />
-&#160;&#160;<a class="el" href="#ac34db49a584f832ee354519ed7eda09aa008f6cdd0c190839e9885cf9f9e2a652">AUTOMATIC</a>
-, <br />
-&#160;&#160;<a class="el" href="#ac34db49a584f832ee354519ed7eda09aa518cdfa32f1ed31b018005fe679a2167">RECOMMENDED</a>
-, <br />
-&#160;&#160;<a class="el" href="#ac34db49a584f832ee354519ed7eda09aa5b39c8b553c821e7cddc6da64b5bd2ee">DEFAULT</a>
-<br />
+<tr class="memitem:ac34db49a584f832ee354519ed7eda09a" id="r_ac34db49a584f832ee354519ed7eda09a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac34db49a584f832ee354519ed7eda09a">ActionSource</a> : unsigned int { <a class="el" href="#ac34db49a584f832ee354519ed7eda09aaa60a6a471c0681e5a49c4f5d00f6bc5a">MANUAL</a>
+, <a class="el" href="#ac34db49a584f832ee354519ed7eda09aa008f6cdd0c190839e9885cf9f9e2a652">AUTOMATIC</a>
+, <a class="el" href="#ac34db49a584f832ee354519ed7eda09aa518cdfa32f1ed31b018005fe679a2167">RECOMMENDED</a>
+, <a class="el" href="#ac34db49a584f832ee354519ed7eda09aa5b39c8b553c821e7cddc6da64b5bd2ee">DEFAULT</a>
  }</td></tr>
 <tr class="memdesc:ac34db49a584f832ee354519ed7eda09a"><td class="mdescLeft">&#160;</td><td class="mdescRight">defines what triggered the SetLabel event  <a href="#ac34db49a584f832ee354519ed7eda09a">More...</a><br /></td></tr>
 <tr class="separator:ac34db49a584f832ee354519ed7eda09a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1368c269afcb86a2b4c3331a0a1f4ae9" id="r_a1368c269afcb86a2b4c3331a0a1f4ae9"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1368c269afcb86a2b4c3331a0a1f4ae9">AssignmentMethod</a> : unsigned int { <br />
-&#160;&#160;<a class="el" href="#a1368c269afcb86a2b4c3331a0a1f4ae9a94e94133f4bdc1794c6b647b8ea134d0">STANDARD</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="#a1368c269afcb86a2b4c3331a0a1f4ae9aaba1439bd1a9fd4f9270ffab08fe59a6">PRIVILEGED</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="#a1368c269afcb86a2b4c3331a0a1f4ae9ae1f2d5134ed2543d38a0de9751cf75d9">AUTO</a> = 2
-<br />
+<tr class="memitem:a1368c269afcb86a2b4c3331a0a1f4ae9" id="r_a1368c269afcb86a2b4c3331a0a1f4ae9"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1368c269afcb86a2b4c3331a0a1f4ae9">AssignmentMethod</a> : unsigned int { <a class="el" href="#a1368c269afcb86a2b4c3331a0a1f4ae9a94e94133f4bdc1794c6b647b8ea134d0">STANDARD</a> = 0
+, <a class="el" href="#a1368c269afcb86a2b4c3331a0a1f4ae9aaba1439bd1a9fd4f9270ffab08fe59a6">PRIVILEGED</a> = 1
+, <a class="el" href="#a1368c269afcb86a2b4c3331a0a1f4ae9ae1f2d5134ed2543d38a0de9751cf75d9">AUTO</a> = 2
  }</td></tr>
-<tr class="memdesc:a1368c269afcb86a2b4c3331a0a1f4ae9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The assignment method of the label on the document.  <a href="#a1368c269afcb86a2b4c3331a0a1f4ae9">More...</a><br /></td></tr>
+<tr class="memdesc:a1368c269afcb86a2b4c3331a0a1f4ae9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The assignment method of the label on the document. Whether the Assignment of the label was done automatically, standard or as a privileged operation (The equivalent to an administrator operation).  <a href="#a1368c269afcb86a2b4c3331a0a1f4ae9">More...</a><br /></td></tr>
 <tr class="separator:a1368c269afcb86a2b4c3331a0a1f4ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a174ba9275624a6880ce3be3fdbaa6c5f" id="r_a174ba9275624a6880ce3be3fdbaa6c5f"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a174ba9275624a6880ce3be3fdbaa6c5f">CacheStorageType</a> : unsigned int { <br />
-&#160;&#160;<a class="el" href="#a174ba9275624a6880ce3be3fdbaa6c5fa5eeb5d43c7b4ff3dc586c8155071a098">InMemory</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="#a174ba9275624a6880ce3be3fdbaa6c5fa833090cabdf22e20748ef66fc755e11e">OnDisk</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="#a174ba9275624a6880ce3be3fdbaa6c5face61c9ea080c2eeab93002c01b8ceb8f">OnDiskEncrypted</a> = 2
-<br />
+<tr class="memitem:a174ba9275624a6880ce3be3fdbaa6c5f" id="r_a174ba9275624a6880ce3be3fdbaa6c5f"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a174ba9275624a6880ce3be3fdbaa6c5f">CacheStorageType</a> : unsigned int { <a class="el" href="#a174ba9275624a6880ce3be3fdbaa6c5fa5eeb5d43c7b4ff3dc586c8155071a098">InMemory</a> = 0
+, <a class="el" href="#a174ba9275624a6880ce3be3fdbaa6c5fa833090cabdf22e20748ef66fc755e11e">OnDisk</a> = 1
+, <a class="el" href="#a174ba9275624a6880ce3be3fdbaa6c5face61c9ea080c2eeab93002c01b8ceb8f">OnDiskEncrypted</a> = 2
  }</td></tr>
 <tr class="memdesc:a174ba9275624a6880ce3be3fdbaa6c5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Storage type for the caches.  <a href="#a174ba9275624a6880ce3be3fdbaa6c5f">More...</a><br /></td></tr>
 <tr class="separator:a174ba9275624a6880ce3be3fdbaa6c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90401a791d9bfc4317c205ca1a086b51" id="r_a90401a791d9bfc4317c205ca1a086b51"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90401a791d9bfc4317c205ca1a086b51">Classifier</a> : unsigned int { <br />
-&#160;&#160;<a class="el" href="#a90401a791d9bfc4317c205ca1a086b51ac448477e9c2bcd5c2c55316fbd7cf5c1">SensitiveInformation</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="#a90401a791d9bfc4317c205ca1a086b51ad7e1a77b27b0f3b33a6e13ee6ec7ae09">MachineLearning</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="#a90401a791d9bfc4317c205ca1a086b51a06b0d0a9d1ee7db244a01f52b0ffb069">ExtendedSensitiveInformation</a> = 2
-<br />
+<tr class="memitem:a90401a791d9bfc4317c205ca1a086b51" id="r_a90401a791d9bfc4317c205ca1a086b51"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90401a791d9bfc4317c205ca1a086b51">Classifier</a> : unsigned int { <a class="el" href="#a90401a791d9bfc4317c205ca1a086b51ac448477e9c2bcd5c2c55316fbd7cf5c1">SensitiveInformation</a> = 0
+, <a class="el" href="#a90401a791d9bfc4317c205ca1a086b51ad7e1a77b27b0f3b33a6e13ee6ec7ae09">MachineLearning</a> = 1
+, <a class="el" href="#a90401a791d9bfc4317c205ca1a086b51a06b0d0a9d1ee7db244a01f52b0ffb069">ExtendedSensitiveInformation</a> = 2
  }</td></tr>
 <tr class="memdesc:a90401a791d9bfc4317c205ca1a086b51"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of classification the application should be running on the data to determine autolabeling status.  <a href="#a90401a791d9bfc4317c205ca1a086b51">More...</a><br /></td></tr>
 <tr class="separator:a90401a791d9bfc4317c205ca1a086b51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10dec50806bcdc01b5b0f3b5a5aafe44" id="r_a10dec50806bcdc01b5b0f3b5a5aafe44"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44">Cloud</a> { <br />
 &#160;&#160;<a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a88183b946cc5f0e8c96b2e66e1c74a7e">Unknown</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a90589c47f06eb971d548591f23c285af">Custom</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a0cbc6611f5540bd0809a388dc95a615b">Test</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44ab2788e1ab6be65f1c38bf7d23cd081f1">Commercial</a> = 3
+, <a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a90589c47f06eb971d548591f23c285af">Custom</a> = 1
+, <a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a0cbc6611f5540bd0809a388dc95a615b">Test</a> = 2
+, <a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44ab2788e1ab6be65f1c38bf7d23cd081f1">Commercial</a> = 3
 , <br />
 &#160;&#160;<a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44ad8b00929dec65d422303256336ada04f">Germany</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a8e7b1b9b5302ca13d6d8e2dcef4943be">US_DoD</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a4ba59984106679807df4974a68402650">US_GCC</a> = 6
-, <br />
-&#160;&#160;<a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a070d83173cca6d78408cb9657251617a">US_GCC_High</a> = 7
+, <a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a8e7b1b9b5302ca13d6d8e2dcef4943be">US_DoD</a> = 5
+, <a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a4ba59984106679807df4974a68402650">US_GCC</a> = 6
+, <a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a070d83173cca6d78408cb9657251617a">US_GCC_High</a> = 7
 , <br />
 &#160;&#160;<a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a0740dfd12afd4beefe013f7143444231">US_Sec</a> = 8
-, <br />
-&#160;&#160;<a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a7354dbd23b54989b85d4eff5daf0ef12">US_Nat</a> = 9
-, <br />
-&#160;&#160;<a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a85a9e2274fffcb1a0d2beb76c72c4c66">China_01</a> = 10
+, <a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a7354dbd23b54989b85d4eff5daf0ef12">US_Nat</a> = 9
+, <a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a85a9e2274fffcb1a0d2beb76c72c4c66">China_01</a> = 10
 <br />
  }</td></tr>
 <tr class="memdesc:a10dec50806bcdc01b5b0f3b5a5aafe44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Azure cloud identifier.  <a href="#a10dec50806bcdc01b5b0f3b5a5aafe44">More...</a><br /></td></tr>
 <tr class="separator:a10dec50806bcdc01b5b0f3b5a5aafe44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66fb847b8e5ed8b08dfbc3248984a5a7" id="r_a66fb847b8e5ed8b08dfbc3248984a5a7"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66fb847b8e5ed8b08dfbc3248984a5a7">Consent</a> : unsigned int { <br />
-&#160;&#160;<a class="el" href="#a66fb847b8e5ed8b08dfbc3248984a5a7aa94d9e3241b43997479db5d067bafd4d">AcceptAlways</a>
-, <br />
-&#160;&#160;<a class="el" href="#a66fb847b8e5ed8b08dfbc3248984a5a7ac4408d335012a56ff58937d78050efad">Accept</a>
-, <br />
-&#160;&#160;<a class="el" href="#a66fb847b8e5ed8b08dfbc3248984a5a7ad98ac12774fca5c3cbaffe276840c55f">Reject</a>
-<br />
+<tr class="memitem:a66fb847b8e5ed8b08dfbc3248984a5a7" id="r_a66fb847b8e5ed8b08dfbc3248984a5a7"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66fb847b8e5ed8b08dfbc3248984a5a7">Consent</a> : unsigned int { <a class="el" href="#a66fb847b8e5ed8b08dfbc3248984a5a7aa94d9e3241b43997479db5d067bafd4d">AcceptAlways</a>
+, <a class="el" href="#a66fb847b8e5ed8b08dfbc3248984a5a7ac4408d335012a56ff58937d78050efad">Accept</a>
+, <a class="el" href="#a66fb847b8e5ed8b08dfbc3248984a5a7ad98ac12774fca5c3cbaffe276840c55f">Reject</a>
  }</td></tr>
 <tr class="memdesc:a66fb847b8e5ed8b08dfbc3248984a5a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">A user's response when consent is requested to connect to a service endpoint.  <a href="#a66fb847b8e5ed8b08dfbc3248984a5a7">More...</a><br /></td></tr>
 <tr class="separator:a66fb847b8e5ed8b08dfbc3248984a5a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a641eae31b3fab746f2aabb8efd804f46" id="r_a641eae31b3fab746f2aabb8efd804f46"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a641eae31b3fab746f2aabb8efd804f46">ContentMarkAlignment</a> : unsigned int { <br />
-&#160;&#160;<a class="el" href="#a641eae31b3fab746f2aabb8efd804f46a684d325a7303f52e64011467ff5c5758">LEFT</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="#a641eae31b3fab746f2aabb8efd804f46a21507b40c80068eda19865706fdc2403">RIGHT</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="#a641eae31b3fab746f2aabb8efd804f46ac397289ee45877be0cd49811fe245b4e">CENTER</a> = 2
-<br />
+<tr class="memitem:a641eae31b3fab746f2aabb8efd804f46" id="r_a641eae31b3fab746f2aabb8efd804f46"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a641eae31b3fab746f2aabb8efd804f46">ContentMarkAlignment</a> : unsigned int { <a class="el" href="#a641eae31b3fab746f2aabb8efd804f46a684d325a7303f52e64011467ff5c5758">LEFT</a> = 0
+, <a class="el" href="#a641eae31b3fab746f2aabb8efd804f46a21507b40c80068eda19865706fdc2403">RIGHT</a> = 1
+, <a class="el" href="#a641eae31b3fab746f2aabb8efd804f46ac397289ee45877be0cd49811fe245b4e">CENTER</a> = 2
  }</td></tr>
 <tr class="memdesc:a641eae31b3fab746f2aabb8efd804f46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alignment for content marks (content header or content footer).  <a href="#a641eae31b3fab746f2aabb8efd804f46">More...</a><br /></td></tr>
 <tr class="separator:a641eae31b3fab746f2aabb8efd804f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac976a2657d8c65944a48c48a5fe76fa" id="r_aac976a2657d8c65944a48c48a5fe76fa"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac976a2657d8c65944a48c48a5fe76fa">DataBoundary</a> { <br />
 &#160;&#160;<a class="el" href="#aac976a2657d8c65944a48c48a5fe76faa7a1920d61156abc05a60135aefe8bc67">Default</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="#aac976a2657d8c65944a48c48a5fe76faa09d4bca31e2fd8b0f57f79f85ed42bd8">United_States</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="#aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7">North_America</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="#aac976a2657d8c65944a48c48a5fe76faae3685d0362ea638d7f35ebfa03470562">European_Union</a> = 2
+, <a class="el" href="#aac976a2657d8c65944a48c48a5fe76faa09d4bca31e2fd8b0f57f79f85ed42bd8">United_States</a> = 1
+, <a class="el" href="#aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7">North_America</a> = 1
+, <a class="el" href="#aac976a2657d8c65944a48c48a5fe76faae3685d0362ea638d7f35ebfa03470562">European_Union</a> = 2
 , <br />
 &#160;&#160;<a class="el" href="#aac976a2657d8c65944a48c48a5fe76faad8b00929dec65d422303256336ada04f">Germany</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="#aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53">Europe_MiddleEast_Africa</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="#aac976a2657d8c65944a48c48a5fe76faa53a577bb3bc587b0c28ab808390f1c9b">Japan</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="#aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197">Asia</a> = 4
+, <a class="el" href="#aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53">Europe_MiddleEast_Africa</a> = 3
+, <a class="el" href="#aac976a2657d8c65944a48c48a5fe76faa53a577bb3bc587b0c28ab808390f1c9b">Japan</a> = 4
+, <a class="el" href="#aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197">Asia</a> = 4
 , <br />
 &#160;&#160;<a class="el" href="#aac976a2657d8c65944a48c48a5fe76faa4442e4af0916f53a07fb8ca9a49b98ed">Australia</a> = 5
 <br />
  }</td></tr>
 <tr class="memdesc:aac976a2657d8c65944a48c48a5fe76fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Diagnostic region identifier.  <a href="#aac976a2657d8c65944a48c48a5fe76fa">More...</a><br /></td></tr>
 <tr class="separator:aac976a2657d8c65944a48c48a5fe76fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5737dca05518564ac984b7e47f7ba9ba" id="r_a5737dca05518564ac984b7e47f7ba9ba"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5737dca05518564ac984b7e47f7ba9ba">DataState</a> : unsigned int { <br />
-&#160;&#160;<a class="el" href="#a5737dca05518564ac984b7e47f7ba9baa50780f47f6839d47d60bc4555ee00c3f">REST</a>
-, <br />
-&#160;&#160;<a class="el" href="#a5737dca05518564ac984b7e47f7ba9baaf96e6ea7a7375bd60bad3f3caae3cf27">MOTION</a>
-, <br />
-&#160;&#160;<a class="el" href="#a5737dca05518564ac984b7e47f7ba9baa7dc33953b23388ad93a4db20e33d26e4">USE</a>
-<br />
+<tr class="memitem:a5737dca05518564ac984b7e47f7ba9ba" id="r_a5737dca05518564ac984b7e47f7ba9ba"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5737dca05518564ac984b7e47f7ba9ba">DataState</a> : unsigned int { <a class="el" href="#a5737dca05518564ac984b7e47f7ba9baa50780f47f6839d47d60bc4555ee00c3f">REST</a>
+, <a class="el" href="#a5737dca05518564ac984b7e47f7ba9baaf96e6ea7a7375bd60bad3f3caae3cf27">MOTION</a>
+, <a class="el" href="#a5737dca05518564ac984b7e47f7ba9baa7dc33953b23388ad93a4db20e33d26e4">USE</a>
  }</td></tr>
 <tr class="memdesc:a5737dca05518564ac984b7e47f7ba9ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines what state of the data is the application acting upon.  <a href="#a5737dca05518564ac984b7e47f7ba9ba">More...</a><br /></td></tr>
 <tr class="separator:a5737dca05518564ac984b7e47f7ba9ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -444,67 +397,44 @@ Enumerations</h2></td></tr>
 <tr class="separator:a0953a16075b5b6f322db47a6cd9fb79b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a858bf8ad8a1305b382d18e21e1e60b60" id="r_a858bf8ad8a1305b382d18e21e1e60b60"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60">LabelFilterType</a> : unsigned int { <br />
 &#160;&#160;<a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60ac9d3e887722f2bc482bcca9d41c512af">None</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60a21a72ecb67df34f626eba74cd4ec16e8">CustomProtection</a> = 1 &lt;&lt; 0
-, <br />
-&#160;&#160;<a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60a2ee8a7a23e6ebd28b9639f4b7acf5629">TemplateProtection</a> = 1 &lt;&lt; 1
-, <br />
-&#160;&#160;<a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60a5748aad7b40bea59a8300141c04a2f26">DoNotForwardProtection</a> = 1 &lt;&lt; 2
+, <a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60a21a72ecb67df34f626eba74cd4ec16e8">CustomProtection</a> = 1 &lt;&lt; 0
+, <a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60a2ee8a7a23e6ebd28b9639f4b7acf5629">TemplateProtection</a> = 1 &lt;&lt; 1
+, <a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60a5748aad7b40bea59a8300141c04a2f26">DoNotForwardProtection</a> = 1 &lt;&lt; 2
 , <br />
 &#160;&#160;<a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60aa4ae42ed32210b6ed3cfa8640fc77370">AdhocProtection</a> = 1 &lt;&lt; 3
-, <br />
-&#160;&#160;<a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60a75bd4394233b6c667b5376e57aa6fb01">HyokProtection</a> = 1 &lt;&lt; 4
-, <br />
-&#160;&#160;<a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60ae6f24381b96fe834834b770de3785183">PredefinedTemplateProtection</a> = 1 &lt;&lt; 5
-, <br />
-&#160;&#160;<a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60acd0f8be310f64ce3f466205703dc33a8">DoubleKeyProtection</a> = 1 &lt;&lt; 6
+, <a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60a75bd4394233b6c667b5376e57aa6fb01">HyokProtection</a> = 1 &lt;&lt; 4
+, <a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60ae6f24381b96fe834834b770de3785183">PredefinedTemplateProtection</a> = 1 &lt;&lt; 5
+, <a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60acd0f8be310f64ce3f466205703dc33a8">DoubleKeyProtection</a> = 1 &lt;&lt; 6
 , <br />
 &#160;&#160;<a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60a115cd3a8cd6ffd4528918022beebc9b9">DoubleKeyUserDefinedProtection</a> = 1 &lt;&lt; 7
-, <br />
-&#160;&#160;<a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60a370aba9a52e1f588a2a713353627b375">EncryptOnlyProtection</a> = 1 &lt;&lt; 8
-, <br />
-&#160;&#160;<a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60ae53c8c7f007c4569555a8ba0a2c3ad97">SensitiveInformationClassifier</a> = 1 &lt;&lt; 9
-, <br />
-&#160;&#160;<a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60a9503d84ad1879cf896888c64baeee314">MachineLearningClassifier</a> = 1 &lt;&lt; 10
+, <a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60a370aba9a52e1f588a2a713353627b375">EncryptOnlyProtection</a> = 1 &lt;&lt; 8
+, <a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60ae53c8c7f007c4569555a8ba0a2c3ad97">SensitiveInformationClassifier</a> = 1 &lt;&lt; 9
+, <a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60a9503d84ad1879cf896888c64baeee314">MachineLearningClassifier</a> = 1 &lt;&lt; 10
 , <br />
 &#160;&#160;<a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60ad637512973c118f0b8d1276625b52587">ExtendedSensitiveInformationClassifier</a> = 1 &lt;&lt; 11
 <br />
  }</td></tr>
 <tr class="memdesc:a858bf8ad8a1305b382d18e21e1e60b60"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLabel.html" title="Abstraction for a single Microsoft Information Protection label.">Label</a> filter types, optional set of properties that can be used to filter labels or label behavior when calling list sensitivity labels or autoclassifying data.  <a href="#a858bf8ad8a1305b382d18e21e1e60b60">More...</a><br /></td></tr>
 <tr class="separator:a858bf8ad8a1305b382d18e21e1e60b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cdd774884c3465004e0f489eeeab9e3" id="r_a0cdd774884c3465004e0f489eeeab9e3"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cdd774884c3465004e0f489eeeab9e3">PFileExtensionBehavior</a> { <br />
-&#160;&#160;<a class="el" href="#a0cdd774884c3465004e0f489eeeab9e3a7a1920d61156abc05a60135aefe8bc67">Default</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="#a0cdd774884c3465004e0f489eeeab9e3a048c35f9b6098c13d400c4bc7bfef4c1">PFileSuffix</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="#a0cdd774884c3465004e0f489eeeab9e3a009280086ec16cd72d29f25c5fc461c5">PPrefix</a> = 2
-<br />
+<tr class="memitem:a0cdd774884c3465004e0f489eeeab9e3" id="r_a0cdd774884c3465004e0f489eeeab9e3"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cdd774884c3465004e0f489eeeab9e3">PFileExtensionBehavior</a> { <a class="el" href="#a0cdd774884c3465004e0f489eeeab9e3a7a1920d61156abc05a60135aefe8bc67">Default</a> = 0
+, <a class="el" href="#a0cdd774884c3465004e0f489eeeab9e3a048c35f9b6098c13d400c4bc7bfef4c1">PFileSuffix</a> = 1
+, <a class="el" href="#a0cdd774884c3465004e0f489eeeab9e3a009280086ec16cd72d29f25c5fc461c5">PPrefix</a> = 2
  }</td></tr>
 <tr class="memdesc:a0cdd774884c3465004e0f489eeeab9e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes PFile extensions behavior.  <a href="#a0cdd774884c3465004e0f489eeeab9e3">More...</a><br /></td></tr>
 <tr class="separator:a0cdd774884c3465004e0f489eeeab9e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51da49d1af35336cd22cf21e1f936a86" id="r_a51da49d1af35336cd22cf21e1f936a86"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51da49d1af35336cd22cf21e1f936a86">VariableTextMarkingType</a> : unsigned int { <br />
-&#160;&#160;<a class="el" href="#a51da49d1af35336cd22cf21e1f936a86a7a1920d61156abc05a60135aefe8bc67">Default</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="#a51da49d1af35336cd22cf21e1f936a86ae1ff6a7360e99cb46db6bb5d3ff8e2eb">PassThrough</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="#a51da49d1af35336cd22cf21e1f936a86a6adf97f83acf6453d4a6a4b1070f3754">None</a> = 2
-<br />
+<tr class="memitem:a51da49d1af35336cd22cf21e1f936a86" id="r_a51da49d1af35336cd22cf21e1f936a86"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51da49d1af35336cd22cf21e1f936a86">VariableTextMarkingType</a> : unsigned int { <a class="el" href="#a51da49d1af35336cd22cf21e1f936a86a7a1920d61156abc05a60135aefe8bc67">Default</a> = 0
+, <a class="el" href="#a51da49d1af35336cd22cf21e1f936a86ae1ff6a7360e99cb46db6bb5d3ff8e2eb">PassThrough</a> = 1
+, <a class="el" href="#a51da49d1af35336cd22cf21e1f936a86a6adf97f83acf6453d4a6a4b1070f3754">None</a> = 2
  }</td></tr>
 <tr class="memdesc:a51da49d1af35336cd22cf21e1f936a86"><td class="mdescLeft">&#160;</td><td class="mdescRight">various dynamic fields can be set into the text message of the application Some known: ${Item.Label} ${Item.Name} ${Item.Location} ${User.Name} ${User.PrincipalName} ${Event.DateTime} Others are still not defined: The sdk will replace them with correct values using these control flags.  <a href="#a51da49d1af35336cd22cf21e1f936a86">More...</a><br /></td></tr>
 <tr class="separator:a51da49d1af35336cd22cf21e1f936a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3b70878cf52996e6c71c7039076840f" id="r_ac3b70878cf52996e6c71c7039076840f"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3b70878cf52996e6c71c7039076840f">WatermarkLayout</a> : unsigned int { <br />
-&#160;&#160;<a class="el" href="#ac3b70878cf52996e6c71c7039076840fa86e5d0d8407ce71f7e2004ef3949894e">HORIZONTAL</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="#ac3b70878cf52996e6c71c7039076840fad3fbf8a4dbb33b1e296fcaa32703b66d">DIAGONAL</a> = 1
-<br />
+<tr class="memitem:ac3b70878cf52996e6c71c7039076840f" id="r_ac3b70878cf52996e6c71c7039076840f"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3b70878cf52996e6c71c7039076840f">WatermarkLayout</a> : unsigned int { <a class="el" href="#ac3b70878cf52996e6c71c7039076840fa86e5d0d8407ce71f7e2004ef3949894e">HORIZONTAL</a> = 0
+, <a class="el" href="#ac3b70878cf52996e6c71c7039076840fad3fbf8a4dbb33b1e296fcaa32703b66d">DIAGONAL</a> = 1
  }</td></tr>
 <tr class="memdesc:ac3b70878cf52996e6c71c7039076840f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layout for watermarks.  <a href="#ac3b70878cf52996e6c71c7039076840f">More...</a><br /></td></tr>
 <tr class="separator:ac3b70878cf52996e6c71c7039076840f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81d84fb9dff7fc21964e0b2ef63a3770" id="r_a81d84fb9dff7fc21964e0b2ef63a3770"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81d84fb9dff7fc21964e0b2ef63a3770">Workload</a> : unsigned int { <br />
-&#160;&#160;<a class="el" href="#a81d84fb9dff7fc21964e0b2ef63a3770adf814135652a5a308fea15bff37ea284">Office</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="#a81d84fb9dff7fc21964e0b2ef63a3770af764b876dffa25c65f84dce7c3e417c0">Purview</a> = 1
-<br />
+<tr class="memitem:a81d84fb9dff7fc21964e0b2ef63a3770" id="r_a81d84fb9dff7fc21964e0b2ef63a3770"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81d84fb9dff7fc21964e0b2ef63a3770">Workload</a> : unsigned int { <a class="el" href="#a81d84fb9dff7fc21964e0b2ef63a3770adf814135652a5a308fea15bff37ea284">Office</a> = 0
+, <a class="el" href="#a81d84fb9dff7fc21964e0b2ef63a3770af764b876dffa25c65f84dce7c3e417c0">Purview</a> = 1
  }</td></tr>
 <tr class="memdesc:a81d84fb9dff7fc21964e0b2ef63a3770"><td class="mdescLeft">&#160;</td><td class="mdescRight">The workload the application is working on, used primary to check for consent.  <a href="#a81d84fb9dff7fc21964e0b2ef63a3770">More...</a><br /></td></tr>
 <tr class="separator:a81d84fb9dff7fc21964e0b2ef63a3770"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -530,10 +460,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:a2a14e789ffb1edce3c9483d76a380078"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the setting to explicitly specify policy data.  <br /></td></tr>
 <tr class="separator:a2a14e789ffb1edce3c9483d76a380078"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a933bb1c46478c22393d3c656cbe71113" id="r_a933bb1c46478c22393d3c656cbe71113"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a933bb1c46478c22393d3c656cbe71113">GetCustomSettingPolicyTtlDays</a> ()</td></tr>
-<tr class="memdesc:a933bb1c46478c22393d3c656cbe71113"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the setting that enables overriding policy ttl in days be default it will be 30 days.  <br /></td></tr>
+<tr class="memdesc:a933bb1c46478c22393d3c656cbe71113"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the setting that enables overriding policy ttl in days be default it will be 30 days. Values should be set as string integers i &lt; 0 means infinite time to live.  <br /></td></tr>
 <tr class="separator:a933bb1c46478c22393d3c656cbe71113"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3927dba1e1ea9f2062b3b50e62fbc1fd" id="r_a3927dba1e1ea9f2062b3b50e62fbc1fd"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3927dba1e1ea9f2062b3b50e62fbc1fd">GetCustomSettingSensitivityPolicyTtlDays</a> ()</td></tr>
-<tr class="memdesc:a3927dba1e1ea9f2062b3b50e62fbc1fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the setting that enables overriding sensitivity policy ttl in days be default it will be 30 days.  <br /></td></tr>
+<tr class="memdesc:a3927dba1e1ea9f2062b3b50e62fbc1fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the setting that enables overriding sensitivity policy ttl in days be default it will be 30 days. Values should be set as string integers i &lt; 0 means infinite time to live.  <br /></td></tr>
 <tr class="separator:a3927dba1e1ea9f2062b3b50e62fbc1fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d32f644b584a655e89bab25db73616d" id="r_a9d32f644b584a655e89bab25db73616d"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d32f644b584a655e89bab25db73616d">GetCustomSettingSensitivityTypesDataFile</a> ()</td></tr>
 <tr class="memdesc:a9d32f644b584a655e89bab25db73616d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the setting to explicitly specify sensitivity types data file path.  <br /></td></tr>
@@ -592,8 +522,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Name change within the cpp workspace to imply the filters has greater scope than just label behavior. </p>
-<p>Avoided changing name fully to prevent breaking on client operations. </p>
+<p>Name change within the cpp workspace to imply the filters has greater scope than just label behavior. Avoided changing name fully to prevent breaking on client operations. </p>
 
 <p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00134">134</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
 
@@ -622,13 +551,13 @@ Functions</h2></td></tr>
 
 <p>defines what triggered the SetLabel event </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac34db49a584f832ee354519ed7eda09aaa60a6a471c0681e5a49c4f5d00f6bc5a" name="ac34db49a584f832ee354519ed7eda09aaa60a6a471c0681e5a49c4f5d00f6bc5a"></a>MANUAL&#160;</td><td class="fielddoc"><p>Selected manually by user. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac34db49a584f832ee354519ed7eda09aaa60a6a471c0681e5a49c4f5d00f6bc5a" name="ac34db49a584f832ee354519ed7eda09aaa60a6a471c0681e5a49c4f5d00f6bc5a"></a>MANUAL&#160;</td><td class="fielddoc"><p>Selected manually by user </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ac34db49a584f832ee354519ed7eda09aa008f6cdd0c190839e9885cf9f9e2a652" name="ac34db49a584f832ee354519ed7eda09aa008f6cdd0c190839e9885cf9f9e2a652"></a>AUTOMATIC&#160;</td><td class="fielddoc"><p>Set by policy conditions. </p>
+<tr><td class="fieldname"><a id="ac34db49a584f832ee354519ed7eda09aa008f6cdd0c190839e9885cf9f9e2a652" name="ac34db49a584f832ee354519ed7eda09aa008f6cdd0c190839e9885cf9f9e2a652"></a>AUTOMATIC&#160;</td><td class="fielddoc"><p>Set by policy conditions </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ac34db49a584f832ee354519ed7eda09aa518cdfa32f1ed31b018005fe679a2167" name="ac34db49a584f832ee354519ed7eda09aa518cdfa32f1ed31b018005fe679a2167"></a>RECOMMENDED&#160;</td><td class="fielddoc"><p>Set by user after label was recommended by policy conditions. </p>
+<tr><td class="fieldname"><a id="ac34db49a584f832ee354519ed7eda09aa518cdfa32f1ed31b018005fe679a2167" name="ac34db49a584f832ee354519ed7eda09aa518cdfa32f1ed31b018005fe679a2167"></a>RECOMMENDED&#160;</td><td class="fielddoc"><p>Set by user after label was recommended by policy conditions </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ac34db49a584f832ee354519ed7eda09aa5b39c8b553c821e7cddc6da64b5bd2ee" name="ac34db49a584f832ee354519ed7eda09aa5b39c8b553c821e7cddc6da64b5bd2ee"></a>DEFAULT&#160;</td><td class="fielddoc"><p>Set by default in policy. </p>
+<tr><td class="fieldname"><a id="ac34db49a584f832ee354519ed7eda09aa5b39c8b553c821e7cddc6da64b5bd2ee" name="ac34db49a584f832ee354519ed7eda09aa5b39c8b553c821e7cddc6da64b5bd2ee"></a>DEFAULT&#160;</td><td class="fielddoc"><p>Set by default in policy </p>
 </td></tr>
 </table>
 
@@ -639,10 +568,10 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">   87</span>  <a class="code hl_enumvalue" href="#ac34db49a584f832ee354519ed7eda09aa518cdfa32f1ed31b018005fe679a2167">RECOMMENDED</a>, <span class="comment">/**&lt; Set by user after label was recommended by policy conditions */</span></div>
 <div class="line"><span class="lineno">   88</span>  <a class="code hl_enumvalue" href="#ac34db49a584f832ee354519ed7eda09aa5b39c8b553c821e7cddc6da64b5bd2ee">DEFAULT</a> <span class="comment">/**&lt; Set by default in policy */</span></div>
 <div class="line"><span class="lineno">   89</span>};</div>
-<div class="ttc" id="acommon__types_8h_html_ac34db49a584f832ee354519ed7eda09aa008f6cdd0c190839e9885cf9f9e2a652"><div class="ttname"><a href="#ac34db49a584f832ee354519ed7eda09aa008f6cdd0c190839e9885cf9f9e2a652">ActionSource::AUTOMATIC</a></div><div class="ttdeci">@ AUTOMATIC</div><div class="ttdoc">Set by policy conditions.</div></div>
-<div class="ttc" id="acommon__types_8h_html_ac34db49a584f832ee354519ed7eda09aa518cdfa32f1ed31b018005fe679a2167"><div class="ttname"><a href="#ac34db49a584f832ee354519ed7eda09aa518cdfa32f1ed31b018005fe679a2167">ActionSource::RECOMMENDED</a></div><div class="ttdeci">@ RECOMMENDED</div><div class="ttdoc">Set by user after label was recommended by policy conditions.</div></div>
-<div class="ttc" id="acommon__types_8h_html_ac34db49a584f832ee354519ed7eda09aa5b39c8b553c821e7cddc6da64b5bd2ee"><div class="ttname"><a href="#ac34db49a584f832ee354519ed7eda09aa5b39c8b553c821e7cddc6da64b5bd2ee">ActionSource::DEFAULT</a></div><div class="ttdeci">@ DEFAULT</div><div class="ttdoc">Set by default in policy.</div></div>
-<div class="ttc" id="acommon__types_8h_html_ac34db49a584f832ee354519ed7eda09aaa60a6a471c0681e5a49c4f5d00f6bc5a"><div class="ttname"><a href="#ac34db49a584f832ee354519ed7eda09aaa60a6a471c0681e5a49c4f5d00f6bc5a">ActionSource::MANUAL</a></div><div class="ttdeci">@ MANUAL</div><div class="ttdoc">Selected manually by user.</div></div>
+<div class="ttc" id="acommon__types_8h_html_ac34db49a584f832ee354519ed7eda09aa008f6cdd0c190839e9885cf9f9e2a652"><div class="ttname"><a href="#ac34db49a584f832ee354519ed7eda09aa008f6cdd0c190839e9885cf9f9e2a652">ActionSource::AUTOMATIC</a></div><div class="ttdeci">@ AUTOMATIC</div></div>
+<div class="ttc" id="acommon__types_8h_html_ac34db49a584f832ee354519ed7eda09aa518cdfa32f1ed31b018005fe679a2167"><div class="ttname"><a href="#ac34db49a584f832ee354519ed7eda09aa518cdfa32f1ed31b018005fe679a2167">ActionSource::RECOMMENDED</a></div><div class="ttdeci">@ RECOMMENDED</div></div>
+<div class="ttc" id="acommon__types_8h_html_ac34db49a584f832ee354519ed7eda09aa5b39c8b553c821e7cddc6da64b5bd2ee"><div class="ttname"><a href="#ac34db49a584f832ee354519ed7eda09aa5b39c8b553c821e7cddc6da64b5bd2ee">ActionSource::DEFAULT</a></div><div class="ttdeci">@ DEFAULT</div></div>
+<div class="ttc" id="acommon__types_8h_html_ac34db49a584f832ee354519ed7eda09aaa60a6a471c0681e5a49c4f5d00f6bc5a"><div class="ttname"><a href="#ac34db49a584f832ee354519ed7eda09aaa60a6a471c0681e5a49c4f5d00f6bc5a">ActionSource::MANUAL</a></div><div class="ttdeci">@ MANUAL</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -666,14 +595,13 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The assignment method of the label on the document. </p>
-<p>Whether the Assignment of the label was done automatically, standard or as a privileged operation (The equivalent to an administrator operation). </p>
+<p>The assignment method of the label on the document. Whether the Assignment of the label was done automatically, standard or as a privileged operation (The equivalent to an administrator operation). </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1368c269afcb86a2b4c3331a0a1f4ae9a94e94133f4bdc1794c6b647b8ea134d0" name="a1368c269afcb86a2b4c3331a0a1f4ae9a94e94133f4bdc1794c6b647b8ea134d0"></a>STANDARD&#160;</td><td class="fielddoc"><p><a class="el" href="classLabel.html" title="Abstraction for a single Microsoft Information Protection label.">Label</a> assignment method is standard. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1368c269afcb86a2b4c3331a0a1f4ae9a94e94133f4bdc1794c6b647b8ea134d0" name="a1368c269afcb86a2b4c3331a0a1f4ae9a94e94133f4bdc1794c6b647b8ea134d0"></a>STANDARD&#160;</td><td class="fielddoc"><p><a class="el" href="classLabel.html" title="Abstraction for a single Microsoft Information Protection label.">Label</a> assignment method is standard </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a1368c269afcb86a2b4c3331a0a1f4ae9aaba1439bd1a9fd4f9270ffab08fe59a6" name="a1368c269afcb86a2b4c3331a0a1f4ae9aaba1439bd1a9fd4f9270ffab08fe59a6"></a>PRIVILEGED&#160;</td><td class="fielddoc"><p><a class="el" href="classLabel.html" title="Abstraction for a single Microsoft Information Protection label.">Label</a> assignment method is privileged. </p>
+<tr><td class="fieldname"><a id="a1368c269afcb86a2b4c3331a0a1f4ae9aaba1439bd1a9fd4f9270ffab08fe59a6" name="a1368c269afcb86a2b4c3331a0a1f4ae9aaba1439bd1a9fd4f9270ffab08fe59a6"></a>PRIVILEGED&#160;</td><td class="fielddoc"><p><a class="el" href="classLabel.html" title="Abstraction for a single Microsoft Information Protection label.">Label</a> assignment method is privileged </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a1368c269afcb86a2b4c3331a0a1f4ae9ae1f2d5134ed2543d38a0de9751cf75d9" name="a1368c269afcb86a2b4c3331a0a1f4ae9ae1f2d5134ed2543d38a0de9751cf75d9"></a>AUTO&#160;</td><td class="fielddoc"><p><a class="el" href="classLabel.html" title="Abstraction for a single Microsoft Information Protection label.">Label</a> assignment method is automatic. </p>
+<tr><td class="fieldname"><a id="a1368c269afcb86a2b4c3331a0a1f4ae9ae1f2d5134ed2543d38a0de9751cf75d9" name="a1368c269afcb86a2b4c3331a0a1f4ae9ae1f2d5134ed2543d38a0de9751cf75d9"></a>AUTO&#160;</td><td class="fielddoc"><p><a class="el" href="classLabel.html" title="Abstraction for a single Microsoft Information Protection label.">Label</a> assignment method is automatic </p>
 </td></tr>
 </table>
 
@@ -683,9 +611,9 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">   77</span>  <a class="code hl_enumvalue" href="#a1368c269afcb86a2b4c3331a0a1f4ae9aaba1439bd1a9fd4f9270ffab08fe59a6">PRIVILEGED</a> = 1, <span class="comment">/**&lt; Label assignment method is privileged */</span></div>
 <div class="line"><span class="lineno">   78</span>  <a class="code hl_enumvalue" href="#a1368c269afcb86a2b4c3331a0a1f4ae9ae1f2d5134ed2543d38a0de9751cf75d9">AUTO</a> = 2, <span class="comment">/**&lt; Label assignment method is automatic */</span></div>
 <div class="line"><span class="lineno">   79</span>};</div>
-<div class="ttc" id="acommon__types_8h_html_a1368c269afcb86a2b4c3331a0a1f4ae9a94e94133f4bdc1794c6b647b8ea134d0"><div class="ttname"><a href="#a1368c269afcb86a2b4c3331a0a1f4ae9a94e94133f4bdc1794c6b647b8ea134d0">AssignmentMethod::STANDARD</a></div><div class="ttdeci">@ STANDARD</div><div class="ttdoc">Label assignment method is standard.</div></div>
-<div class="ttc" id="acommon__types_8h_html_a1368c269afcb86a2b4c3331a0a1f4ae9aaba1439bd1a9fd4f9270ffab08fe59a6"><div class="ttname"><a href="#a1368c269afcb86a2b4c3331a0a1f4ae9aaba1439bd1a9fd4f9270ffab08fe59a6">AssignmentMethod::PRIVILEGED</a></div><div class="ttdeci">@ PRIVILEGED</div><div class="ttdoc">Label assignment method is privileged.</div></div>
-<div class="ttc" id="acommon__types_8h_html_a1368c269afcb86a2b4c3331a0a1f4ae9ae1f2d5134ed2543d38a0de9751cf75d9"><div class="ttname"><a href="#a1368c269afcb86a2b4c3331a0a1f4ae9ae1f2d5134ed2543d38a0de9751cf75d9">AssignmentMethod::AUTO</a></div><div class="ttdeci">@ AUTO</div><div class="ttdoc">Label assignment method is automatic.</div></div>
+<div class="ttc" id="acommon__types_8h_html_a1368c269afcb86a2b4c3331a0a1f4ae9a94e94133f4bdc1794c6b647b8ea134d0"><div class="ttname"><a href="#a1368c269afcb86a2b4c3331a0a1f4ae9a94e94133f4bdc1794c6b647b8ea134d0">AssignmentMethod::STANDARD</a></div><div class="ttdeci">@ STANDARD</div></div>
+<div class="ttc" id="acommon__types_8h_html_a1368c269afcb86a2b4c3331a0a1f4ae9aaba1439bd1a9fd4f9270ffab08fe59a6"><div class="ttname"><a href="#a1368c269afcb86a2b4c3331a0a1f4ae9aaba1439bd1a9fd4f9270ffab08fe59a6">AssignmentMethod::PRIVILEGED</a></div><div class="ttdeci">@ PRIVILEGED</div></div>
+<div class="ttc" id="acommon__types_8h_html_a1368c269afcb86a2b4c3331a0a1f4ae9ae1f2d5134ed2543d38a0de9751cf75d9"><div class="ttname"><a href="#a1368c269afcb86a2b4c3331a0a1f4ae9ae1f2d5134ed2543d38a0de9751cf75d9">AssignmentMethod::AUTO</a></div><div class="ttdeci">@ AUTO</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -711,9 +639,9 @@ Functions</h2></td></tr>
 
 <p>Storage type for the caches. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a174ba9275624a6880ce3be3fdbaa6c5fa5eeb5d43c7b4ff3dc586c8155071a098" name="a174ba9275624a6880ce3be3fdbaa6c5fa5eeb5d43c7b4ff3dc586c8155071a098"></a>InMemory&#160;</td><td class="fielddoc"><p>In Memory storage. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a174ba9275624a6880ce3be3fdbaa6c5fa5eeb5d43c7b4ff3dc586c8155071a098" name="a174ba9275624a6880ce3be3fdbaa6c5fa5eeb5d43c7b4ff3dc586c8155071a098"></a>InMemory&#160;</td><td class="fielddoc"><p>In Memory storage </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a174ba9275624a6880ce3be3fdbaa6c5fa833090cabdf22e20748ef66fc755e11e" name="a174ba9275624a6880ce3be3fdbaa6c5fa833090cabdf22e20748ef66fc755e11e"></a>OnDisk&#160;</td><td class="fielddoc"><p>On Disk storage. </p>
+<tr><td class="fieldname"><a id="a174ba9275624a6880ce3be3fdbaa6c5fa833090cabdf22e20748ef66fc755e11e" name="a174ba9275624a6880ce3be3fdbaa6c5fa833090cabdf22e20748ef66fc755e11e"></a>OnDisk&#160;</td><td class="fielddoc"><p>On Disk storage </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a174ba9275624a6880ce3be3fdbaa6c5face61c9ea080c2eeab93002c01b8ceb8f" name="a174ba9275624a6880ce3be3fdbaa6c5face61c9ea080c2eeab93002c01b8ceb8f"></a>OnDiskEncrypted&#160;</td><td class="fielddoc"><p>On Disk storage with internal encryption (if supported by the platform) </p>
 </td></tr>
@@ -725,9 +653,9 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  712</span>  <a class="code hl_enumvalue" href="#a174ba9275624a6880ce3be3fdbaa6c5fa833090cabdf22e20748ef66fc755e11e">OnDisk</a> = 1, <span class="comment">/**&lt; On Disk storage */</span></div>
 <div class="line"><span class="lineno">  713</span>  <a class="code hl_enumvalue" href="#a174ba9275624a6880ce3be3fdbaa6c5face61c9ea080c2eeab93002c01b8ceb8f">OnDiskEncrypted</a> = 2 <span class="comment">/**&lt; On Disk storage with internal encryption (if supported by the platform) */</span></div>
 <div class="line"><span class="lineno">  714</span>};</div>
-<div class="ttc" id="acommon__types_8h_html_a174ba9275624a6880ce3be3fdbaa6c5fa5eeb5d43c7b4ff3dc586c8155071a098"><div class="ttname"><a href="#a174ba9275624a6880ce3be3fdbaa6c5fa5eeb5d43c7b4ff3dc586c8155071a098">CacheStorageType::InMemory</a></div><div class="ttdeci">@ InMemory</div><div class="ttdoc">In Memory storage.</div></div>
-<div class="ttc" id="acommon__types_8h_html_a174ba9275624a6880ce3be3fdbaa6c5fa833090cabdf22e20748ef66fc755e11e"><div class="ttname"><a href="#a174ba9275624a6880ce3be3fdbaa6c5fa833090cabdf22e20748ef66fc755e11e">CacheStorageType::OnDisk</a></div><div class="ttdeci">@ OnDisk</div><div class="ttdoc">On Disk storage.</div></div>
-<div class="ttc" id="acommon__types_8h_html_a174ba9275624a6880ce3be3fdbaa6c5face61c9ea080c2eeab93002c01b8ceb8f"><div class="ttname"><a href="#a174ba9275624a6880ce3be3fdbaa6c5face61c9ea080c2eeab93002c01b8ceb8f">CacheStorageType::OnDiskEncrypted</a></div><div class="ttdeci">@ OnDiskEncrypted</div><div class="ttdoc">On Disk storage with internal encryption (if supported by the platform)</div></div>
+<div class="ttc" id="acommon__types_8h_html_a174ba9275624a6880ce3be3fdbaa6c5fa5eeb5d43c7b4ff3dc586c8155071a098"><div class="ttname"><a href="#a174ba9275624a6880ce3be3fdbaa6c5fa5eeb5d43c7b4ff3dc586c8155071a098">CacheStorageType::InMemory</a></div><div class="ttdeci">@ InMemory</div></div>
+<div class="ttc" id="acommon__types_8h_html_a174ba9275624a6880ce3be3fdbaa6c5fa833090cabdf22e20748ef66fc755e11e"><div class="ttname"><a href="#a174ba9275624a6880ce3be3fdbaa6c5fa833090cabdf22e20748ef66fc755e11e">CacheStorageType::OnDisk</a></div><div class="ttdeci">@ OnDisk</div></div>
+<div class="ttc" id="acommon__types_8h_html_a174ba9275624a6880ce3be3fdbaa6c5face61c9ea080c2eeab93002c01b8ceb8f"><div class="ttname"><a href="#a174ba9275624a6880ce3be3fdbaa6c5face61c9ea080c2eeab93002c01b8ceb8f">CacheStorageType::OnDiskEncrypted</a></div><div class="ttdeci">@ OnDiskEncrypted</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -792,15 +720,15 @@ Functions</h2></td></tr>
 
 <p>Azure cloud identifier. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a10dec50806bcdc01b5b0f3b5a5aafe44a88183b946cc5f0e8c96b2e66e1c74a7e" name="a10dec50806bcdc01b5b0f3b5a5aafe44a88183b946cc5f0e8c96b2e66e1c74a7e"></a>Unknown&#160;</td><td class="fielddoc"><p>Cloud not specified or URL not recognized as an Azure cloud. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a10dec50806bcdc01b5b0f3b5a5aafe44a88183b946cc5f0e8c96b2e66e1c74a7e" name="a10dec50806bcdc01b5b0f3b5a5aafe44a88183b946cc5f0e8c96b2e66e1c74a7e"></a>Unknown&#160;</td><td class="fielddoc"><p>Cloud not specified or URL not recognized as an Azure cloud </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a10dec50806bcdc01b5b0f3b5a5aafe44a90589c47f06eb971d548591f23c285af" name="a10dec50806bcdc01b5b0f3b5a5aafe44a90589c47f06eb971d548591f23c285af"></a>Custom&#160;</td><td class="fielddoc"><p>Custom cloud: endpoint base URL manually specified by application. </p>
+<tr><td class="fieldname"><a id="a10dec50806bcdc01b5b0f3b5a5aafe44a90589c47f06eb971d548591f23c285af" name="a10dec50806bcdc01b5b0f3b5a5aafe44a90589c47f06eb971d548591f23c285af"></a>Custom&#160;</td><td class="fielddoc"><p>Custom cloud: endpoint base URL manually specified by application </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a10dec50806bcdc01b5b0f3b5a5aafe44a0cbc6611f5540bd0809a388dc95a615b" name="a10dec50806bcdc01b5b0f3b5a5aafe44a0cbc6611f5540bd0809a388dc95a615b"></a>Test&#160;</td><td class="fielddoc"><p>Test cloud. </p>
+<tr><td class="fieldname"><a id="a10dec50806bcdc01b5b0f3b5a5aafe44a0cbc6611f5540bd0809a388dc95a615b" name="a10dec50806bcdc01b5b0f3b5a5aafe44a0cbc6611f5540bd0809a388dc95a615b"></a>Test&#160;</td><td class="fielddoc"><p>Test cloud </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a10dec50806bcdc01b5b0f3b5a5aafe44ab2788e1ab6be65f1c38bf7d23cd081f1" name="a10dec50806bcdc01b5b0f3b5a5aafe44ab2788e1ab6be65f1c38bf7d23cd081f1"></a>Commercial&#160;</td><td class="fielddoc"><p>Global commercial cloud. </p>
+<tr><td class="fieldname"><a id="a10dec50806bcdc01b5b0f3b5a5aafe44ab2788e1ab6be65f1c38bf7d23cd081f1" name="a10dec50806bcdc01b5b0f3b5a5aafe44ab2788e1ab6be65f1c38bf7d23cd081f1"></a>Commercial&#160;</td><td class="fielddoc"><p>Global commercial cloud </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a10dec50806bcdc01b5b0f3b5a5aafe44ad8b00929dec65d422303256336ada04f" name="a10dec50806bcdc01b5b0f3b5a5aafe44ad8b00929dec65d422303256336ada04f"></a>Germany&#160;</td><td class="fielddoc"><p>Germany sovereign cloud. </p>
+<tr><td class="fieldname"><a id="a10dec50806bcdc01b5b0f3b5a5aafe44ad8b00929dec65d422303256336ada04f" name="a10dec50806bcdc01b5b0f3b5a5aafe44ad8b00929dec65d422303256336ada04f"></a>Germany&#160;</td><td class="fielddoc"><p>Germany sovereign cloud </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a10dec50806bcdc01b5b0f3b5a5aafe44a8e7b1b9b5302ca13d6d8e2dcef4943be" name="a10dec50806bcdc01b5b0f3b5a5aafe44a8e7b1b9b5302ca13d6d8e2dcef4943be"></a>US_DoD&#160;</td><td class="fielddoc"><p>US sovereign cloud (DoD) </p>
 </td></tr>
@@ -812,7 +740,7 @@ Functions</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a10dec50806bcdc01b5b0f3b5a5aafe44a7354dbd23b54989b85d4eff5daf0ef12" name="a10dec50806bcdc01b5b0f3b5a5aafe44a7354dbd23b54989b85d4eff5daf0ef12"></a>US_Nat&#160;</td><td class="fielddoc"><p>US sovereign cloud (Nat) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a10dec50806bcdc01b5b0f3b5a5aafe44a85a9e2274fffcb1a0d2beb76c72c4c66" name="a10dec50806bcdc01b5b0f3b5a5aafe44a85a9e2274fffcb1a0d2beb76c72c4c66"></a>China_01&#160;</td><td class="fielddoc"><p>China sovereign cloud. </p>
+<tr><td class="fieldname"><a id="a10dec50806bcdc01b5b0f3b5a5aafe44a85a9e2274fffcb1a0d2beb76c72c4c66" name="a10dec50806bcdc01b5b0f3b5a5aafe44a85a9e2274fffcb1a0d2beb76c72c4c66"></a>China_01&#160;</td><td class="fielddoc"><p>China sovereign cloud </p>
 </td></tr>
 </table>
 
@@ -830,17 +758,17 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  738</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a7354dbd23b54989b85d4eff5daf0ef12">US_Nat</a> = 9,                      <span class="comment">/**&lt; US sovereign cloud (Nat) */</span></div>
 <div class="line"><span class="lineno">  739</span>  <a class="code hl_enumvalue" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a85a9e2274fffcb1a0d2beb76c72c4c66">China_01</a> = 10,                   <span class="comment">/**&lt; China sovereign cloud */</span></div>
 <div class="line"><span class="lineno">  740</span>};</div>
-<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a070d83173cca6d78408cb9657251617a"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a070d83173cca6d78408cb9657251617a">Cloud::US_GCC_High</a></div><div class="ttdeci">@ US_GCC_High</div><div class="ttdoc">US sovereign cloud (GCC-High)</div></div>
-<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a0740dfd12afd4beefe013f7143444231"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a0740dfd12afd4beefe013f7143444231">Cloud::US_Sec</a></div><div class="ttdeci">@ US_Sec</div><div class="ttdoc">US sovereign cloud (Sec)</div></div>
-<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a0cbc6611f5540bd0809a388dc95a615b"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a0cbc6611f5540bd0809a388dc95a615b">Cloud::Test</a></div><div class="ttdeci">@ Test</div><div class="ttdoc">Test cloud.</div></div>
-<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a4ba59984106679807df4974a68402650"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a4ba59984106679807df4974a68402650">Cloud::US_GCC</a></div><div class="ttdeci">@ US_GCC</div><div class="ttdoc">US sovereign cloud (GCC)</div></div>
-<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a7354dbd23b54989b85d4eff5daf0ef12"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a7354dbd23b54989b85d4eff5daf0ef12">Cloud::US_Nat</a></div><div class="ttdeci">@ US_Nat</div><div class="ttdoc">US sovereign cloud (Nat)</div></div>
-<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a85a9e2274fffcb1a0d2beb76c72c4c66"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a85a9e2274fffcb1a0d2beb76c72c4c66">Cloud::China_01</a></div><div class="ttdeci">@ China_01</div><div class="ttdoc">China sovereign cloud.</div></div>
-<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a88183b946cc5f0e8c96b2e66e1c74a7e"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a88183b946cc5f0e8c96b2e66e1c74a7e">Cloud::Unknown</a></div><div class="ttdeci">@ Unknown</div><div class="ttdoc">Cloud not specified or URL not recognized as an Azure cloud.</div></div>
-<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a8e7b1b9b5302ca13d6d8e2dcef4943be"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a8e7b1b9b5302ca13d6d8e2dcef4943be">Cloud::US_DoD</a></div><div class="ttdeci">@ US_DoD</div><div class="ttdoc">US sovereign cloud (DoD)</div></div>
-<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a90589c47f06eb971d548591f23c285af"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a90589c47f06eb971d548591f23c285af">Cloud::Custom</a></div><div class="ttdeci">@ Custom</div><div class="ttdoc">Custom cloud: endpoint base URL manually specified by application.</div></div>
-<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44ab2788e1ab6be65f1c38bf7d23cd081f1"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44ab2788e1ab6be65f1c38bf7d23cd081f1">Cloud::Commercial</a></div><div class="ttdeci">@ Commercial</div><div class="ttdoc">Global commercial cloud.</div></div>
-<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44ad8b00929dec65d422303256336ada04f"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44ad8b00929dec65d422303256336ada04f">Cloud::Germany</a></div><div class="ttdeci">@ Germany</div><div class="ttdoc">Germany sovereign cloud.</div></div>
+<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a070d83173cca6d78408cb9657251617a"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a070d83173cca6d78408cb9657251617a">Cloud::US_GCC_High</a></div><div class="ttdeci">@ US_GCC_High</div></div>
+<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a0740dfd12afd4beefe013f7143444231"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a0740dfd12afd4beefe013f7143444231">Cloud::US_Sec</a></div><div class="ttdeci">@ US_Sec</div></div>
+<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a0cbc6611f5540bd0809a388dc95a615b"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a0cbc6611f5540bd0809a388dc95a615b">Cloud::Test</a></div><div class="ttdeci">@ Test</div></div>
+<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a4ba59984106679807df4974a68402650"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a4ba59984106679807df4974a68402650">Cloud::US_GCC</a></div><div class="ttdeci">@ US_GCC</div></div>
+<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a7354dbd23b54989b85d4eff5daf0ef12"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a7354dbd23b54989b85d4eff5daf0ef12">Cloud::US_Nat</a></div><div class="ttdeci">@ US_Nat</div></div>
+<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a85a9e2274fffcb1a0d2beb76c72c4c66"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a85a9e2274fffcb1a0d2beb76c72c4c66">Cloud::China_01</a></div><div class="ttdeci">@ China_01</div></div>
+<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a88183b946cc5f0e8c96b2e66e1c74a7e"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a88183b946cc5f0e8c96b2e66e1c74a7e">Cloud::Unknown</a></div><div class="ttdeci">@ Unknown</div></div>
+<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a8e7b1b9b5302ca13d6d8e2dcef4943be"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a8e7b1b9b5302ca13d6d8e2dcef4943be">Cloud::US_DoD</a></div><div class="ttdeci">@ US_DoD</div></div>
+<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44a90589c47f06eb971d548591f23c285af"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44a90589c47f06eb971d548591f23c285af">Cloud::Custom</a></div><div class="ttdeci">@ Custom</div></div>
+<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44ab2788e1ab6be65f1c38bf7d23cd081f1"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44ab2788e1ab6be65f1c38bf7d23cd081f1">Cloud::Commercial</a></div><div class="ttdeci">@ Commercial</div></div>
+<div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44ad8b00929dec65d422303256336ada04f"><div class="ttname"><a href="#a10dec50806bcdc01b5b0f3b5a5aafe44ad8b00929dec65d422303256336ada04f">Cloud::Germany</a></div><div class="ttdeci">@ Germany</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -866,11 +794,11 @@ Functions</h2></td></tr>
 
 <p>A user's response when consent is requested to connect to a service endpoint. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a66fb847b8e5ed8b08dfbc3248984a5a7aa94d9e3241b43997479db5d067bafd4d" name="a66fb847b8e5ed8b08dfbc3248984a5a7aa94d9e3241b43997479db5d067bafd4d"></a>AcceptAlways&#160;</td><td class="fielddoc"><p>Consent, and remember this decision. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a66fb847b8e5ed8b08dfbc3248984a5a7aa94d9e3241b43997479db5d067bafd4d" name="a66fb847b8e5ed8b08dfbc3248984a5a7aa94d9e3241b43997479db5d067bafd4d"></a>AcceptAlways&#160;</td><td class="fielddoc"><p>Consent, and remember this decision </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a66fb847b8e5ed8b08dfbc3248984a5a7ac4408d335012a56ff58937d78050efad" name="a66fb847b8e5ed8b08dfbc3248984a5a7ac4408d335012a56ff58937d78050efad"></a>Accept&#160;</td><td class="fielddoc"><p>Consent, just one time. </p>
+<tr><td class="fieldname"><a id="a66fb847b8e5ed8b08dfbc3248984a5a7ac4408d335012a56ff58937d78050efad" name="a66fb847b8e5ed8b08dfbc3248984a5a7ac4408d335012a56ff58937d78050efad"></a>Accept&#160;</td><td class="fielddoc"><p>Consent, just one time </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a66fb847b8e5ed8b08dfbc3248984a5a7ad98ac12774fca5c3cbaffe276840c55f" name="a66fb847b8e5ed8b08dfbc3248984a5a7ad98ac12774fca5c3cbaffe276840c55f"></a>Reject&#160;</td><td class="fielddoc"><p>Do not consent. </p>
+<tr><td class="fieldname"><a id="a66fb847b8e5ed8b08dfbc3248984a5a7ad98ac12774fca5c3cbaffe276840c55f" name="a66fb847b8e5ed8b08dfbc3248984a5a7ad98ac12774fca5c3cbaffe276840c55f"></a>Reject&#160;</td><td class="fielddoc"><p>Do not consent </p>
 </td></tr>
 </table>
 
@@ -880,9 +808,9 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  486</span>  <a class="code hl_enumvalue" href="#a66fb847b8e5ed8b08dfbc3248984a5a7ac4408d335012a56ff58937d78050efad">Accept</a>,       <span class="comment">/**&lt; Consent, just one time */</span></div>
 <div class="line"><span class="lineno">  487</span>  <a class="code hl_enumvalue" href="#a66fb847b8e5ed8b08dfbc3248984a5a7ad98ac12774fca5c3cbaffe276840c55f">Reject</a>        <span class="comment">/**&lt; Do not consent */</span></div>
 <div class="line"><span class="lineno">  488</span>};</div>
-<div class="ttc" id="acommon__types_8h_html_a66fb847b8e5ed8b08dfbc3248984a5a7aa94d9e3241b43997479db5d067bafd4d"><div class="ttname"><a href="#a66fb847b8e5ed8b08dfbc3248984a5a7aa94d9e3241b43997479db5d067bafd4d">Consent::AcceptAlways</a></div><div class="ttdeci">@ AcceptAlways</div><div class="ttdoc">Consent, and remember this decision.</div></div>
-<div class="ttc" id="acommon__types_8h_html_a66fb847b8e5ed8b08dfbc3248984a5a7ac4408d335012a56ff58937d78050efad"><div class="ttname"><a href="#a66fb847b8e5ed8b08dfbc3248984a5a7ac4408d335012a56ff58937d78050efad">Consent::Accept</a></div><div class="ttdeci">@ Accept</div><div class="ttdoc">Consent, just one time.</div></div>
-<div class="ttc" id="acommon__types_8h_html_a66fb847b8e5ed8b08dfbc3248984a5a7ad98ac12774fca5c3cbaffe276840c55f"><div class="ttname"><a href="#a66fb847b8e5ed8b08dfbc3248984a5a7ad98ac12774fca5c3cbaffe276840c55f">Consent::Reject</a></div><div class="ttdeci">@ Reject</div><div class="ttdoc">Do not consent.</div></div>
+<div class="ttc" id="acommon__types_8h_html_a66fb847b8e5ed8b08dfbc3248984a5a7aa94d9e3241b43997479db5d067bafd4d"><div class="ttname"><a href="#a66fb847b8e5ed8b08dfbc3248984a5a7aa94d9e3241b43997479db5d067bafd4d">Consent::AcceptAlways</a></div><div class="ttdeci">@ AcceptAlways</div></div>
+<div class="ttc" id="acommon__types_8h_html_a66fb847b8e5ed8b08dfbc3248984a5a7ac4408d335012a56ff58937d78050efad"><div class="ttname"><a href="#a66fb847b8e5ed8b08dfbc3248984a5a7ac4408d335012a56ff58937d78050efad">Consent::Accept</a></div><div class="ttdeci">@ Accept</div></div>
+<div class="ttc" id="acommon__types_8h_html_a66fb847b8e5ed8b08dfbc3248984a5a7ad98ac12774fca5c3cbaffe276840c55f"><div class="ttname"><a href="#a66fb847b8e5ed8b08dfbc3248984a5a7ad98ac12774fca5c3cbaffe276840c55f">Consent::Reject</a></div><div class="ttdeci">@ Reject</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -908,11 +836,11 @@ Functions</h2></td></tr>
 
 <p>Alignment for content marks (content header or content footer). </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a641eae31b3fab746f2aabb8efd804f46a684d325a7303f52e64011467ff5c5758" name="a641eae31b3fab746f2aabb8efd804f46a684d325a7303f52e64011467ff5c5758"></a>LEFT&#160;</td><td class="fielddoc"><p>Content marking is aligned to the left. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a641eae31b3fab746f2aabb8efd804f46a684d325a7303f52e64011467ff5c5758" name="a641eae31b3fab746f2aabb8efd804f46a684d325a7303f52e64011467ff5c5758"></a>LEFT&#160;</td><td class="fielddoc"><p>Content marking is aligned to the left </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a641eae31b3fab746f2aabb8efd804f46a21507b40c80068eda19865706fdc2403" name="a641eae31b3fab746f2aabb8efd804f46a21507b40c80068eda19865706fdc2403"></a>RIGHT&#160;</td><td class="fielddoc"><p>Content marking is aligned to the right. </p>
+<tr><td class="fieldname"><a id="a641eae31b3fab746f2aabb8efd804f46a21507b40c80068eda19865706fdc2403" name="a641eae31b3fab746f2aabb8efd804f46a21507b40c80068eda19865706fdc2403"></a>RIGHT&#160;</td><td class="fielddoc"><p>Content marking is aligned to the right </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a641eae31b3fab746f2aabb8efd804f46ac397289ee45877be0cd49811fe245b4e" name="a641eae31b3fab746f2aabb8efd804f46ac397289ee45877be0cd49811fe245b4e"></a>CENTER&#160;</td><td class="fielddoc"><p>Content marking is centered. </p>
+<tr><td class="fieldname"><a id="a641eae31b3fab746f2aabb8efd804f46ac397289ee45877be0cd49811fe245b4e" name="a641eae31b3fab746f2aabb8efd804f46ac397289ee45877be0cd49811fe245b4e"></a>CENTER&#160;</td><td class="fielddoc"><p>Content marking is centered </p>
 </td></tr>
 </table>
 
@@ -922,9 +850,9 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">   67</span>  <a class="code hl_enumvalue" href="#a641eae31b3fab746f2aabb8efd804f46a21507b40c80068eda19865706fdc2403">RIGHT</a> = 1, <span class="comment">/**&lt; Content marking is aligned to the right */</span></div>
 <div class="line"><span class="lineno">   68</span>  <a class="code hl_enumvalue" href="#a641eae31b3fab746f2aabb8efd804f46ac397289ee45877be0cd49811fe245b4e">CENTER</a> = 2, <span class="comment">/**&lt; Content marking is centered */</span></div>
 <div class="line"><span class="lineno">   69</span>};</div>
-<div class="ttc" id="acommon__types_8h_html_a641eae31b3fab746f2aabb8efd804f46a21507b40c80068eda19865706fdc2403"><div class="ttname"><a href="#a641eae31b3fab746f2aabb8efd804f46a21507b40c80068eda19865706fdc2403">ContentMarkAlignment::RIGHT</a></div><div class="ttdeci">@ RIGHT</div><div class="ttdoc">Content marking is aligned to the right.</div></div>
-<div class="ttc" id="acommon__types_8h_html_a641eae31b3fab746f2aabb8efd804f46a684d325a7303f52e64011467ff5c5758"><div class="ttname"><a href="#a641eae31b3fab746f2aabb8efd804f46a684d325a7303f52e64011467ff5c5758">ContentMarkAlignment::LEFT</a></div><div class="ttdeci">@ LEFT</div><div class="ttdoc">Content marking is aligned to the left.</div></div>
-<div class="ttc" id="acommon__types_8h_html_a641eae31b3fab746f2aabb8efd804f46ac397289ee45877be0cd49811fe245b4e"><div class="ttname"><a href="#a641eae31b3fab746f2aabb8efd804f46ac397289ee45877be0cd49811fe245b4e">ContentMarkAlignment::CENTER</a></div><div class="ttdeci">@ CENTER</div><div class="ttdoc">Content marking is centered.</div></div>
+<div class="ttc" id="acommon__types_8h_html_a641eae31b3fab746f2aabb8efd804f46a21507b40c80068eda19865706fdc2403"><div class="ttname"><a href="#a641eae31b3fab746f2aabb8efd804f46a21507b40c80068eda19865706fdc2403">ContentMarkAlignment::RIGHT</a></div><div class="ttdeci">@ RIGHT</div></div>
+<div class="ttc" id="acommon__types_8h_html_a641eae31b3fab746f2aabb8efd804f46a684d325a7303f52e64011467ff5c5758"><div class="ttname"><a href="#a641eae31b3fab746f2aabb8efd804f46a684d325a7303f52e64011467ff5c5758">ContentMarkAlignment::LEFT</a></div><div class="ttdeci">@ LEFT</div></div>
+<div class="ttc" id="acommon__types_8h_html_a641eae31b3fab746f2aabb8efd804f46ac397289ee45877be0cd49811fe245b4e"><div class="ttname"><a href="#a641eae31b3fab746f2aabb8efd804f46ac397289ee45877be0cd49811fe245b4e">ContentMarkAlignment::CENTER</a></div><div class="ttdeci">@ CENTER</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -950,26 +878,23 @@ Functions</h2></td></tr>
 
 <p>Diagnostic region identifier. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faa7a1920d61156abc05a60135aefe8bc67" name="aac976a2657d8c65944a48c48a5fe76faa7a1920d61156abc05a60135aefe8bc67"></a>Default&#160;</td><td class="fielddoc"><p>Region is not specified. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faa7a1920d61156abc05a60135aefe8bc67" name="aac976a2657d8c65944a48c48a5fe76faa7a1920d61156abc05a60135aefe8bc67"></a>Default&#160;</td><td class="fielddoc"><p>Region is not specified </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faa09d4bca31e2fd8b0f57f79f85ed42bd8" name="aac976a2657d8c65944a48c48a5fe76faa09d4bca31e2fd8b0f57f79f85ed42bd8"></a>United_States&#160;</td><td class="fielddoc"><p>United States region. </p>
-<p>Previously North America region </p>
+<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faa09d4bca31e2fd8b0f57f79f85ed42bd8" name="aac976a2657d8c65944a48c48a5fe76faa09d4bca31e2fd8b0f57f79f85ed42bd8"></a>United_States&#160;</td><td class="fielddoc"><p>United States region. Previously North America region </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7" name="aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7"></a>North_America&#160;</td><td class="fielddoc"><p>DEPRECATED North America region. </p>
+<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7" name="aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7"></a>North_America&#160;</td><td class="fielddoc"><p>DEPRECATED North America region </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faae3685d0362ea638d7f35ebfa03470562" name="aac976a2657d8c65944a48c48a5fe76faae3685d0362ea638d7f35ebfa03470562"></a>European_Union&#160;</td><td class="fielddoc"><p>European Union region. </p>
+<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faae3685d0362ea638d7f35ebfa03470562" name="aac976a2657d8c65944a48c48a5fe76faae3685d0362ea638d7f35ebfa03470562"></a>European_Union&#160;</td><td class="fielddoc"><p>European Union region </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faad8b00929dec65d422303256336ada04f" name="aac976a2657d8c65944a48c48a5fe76faad8b00929dec65d422303256336ada04f"></a>Germany&#160;</td><td class="fielddoc"><p>Germany region. </p>
-<p>Maps to European Union. Previously used for Europe, MiddleEast, and Africa </p>
+<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faad8b00929dec65d422303256336ada04f" name="aac976a2657d8c65944a48c48a5fe76faad8b00929dec65d422303256336ada04f"></a>Germany&#160;</td><td class="fielddoc"><p>Germany region. Maps to European Union. Previously used for Europe, MiddleEast, and Africa </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53" name="aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53"></a>Europe_MiddleEast_Africa&#160;</td><td class="fielddoc"><p>DEPRECATED Europe, Middle East &amp; Africa region. </p>
+<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53" name="aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53"></a>Europe_MiddleEast_Africa&#160;</td><td class="fielddoc"><p>DEPRECATED Europe, Middle East &amp; Africa region </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faa53a577bb3bc587b0c28ab808390f1c9b" name="aac976a2657d8c65944a48c48a5fe76faa53a577bb3bc587b0c28ab808390f1c9b"></a>Japan&#160;</td><td class="fielddoc"><p>Japan region. </p>
-<p>Previously Asia region </p>
+<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faa53a577bb3bc587b0c28ab808390f1c9b" name="aac976a2657d8c65944a48c48a5fe76faa53a577bb3bc587b0c28ab808390f1c9b"></a>Japan&#160;</td><td class="fielddoc"><p>Japan region. Previously Asia region </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197" name="aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197"></a>Asia&#160;</td><td class="fielddoc"><p>DEPRECATED Asia region. </p>
+<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197" name="aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197"></a>Asia&#160;</td><td class="fielddoc"><p>DEPRECATED Asia region </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faa4442e4af0916f53a07fb8ca9a49b98ed" name="aac976a2657d8c65944a48c48a5fe76faa4442e4af0916f53a07fb8ca9a49b98ed"></a>Australia&#160;</td><td class="fielddoc"><p>Australia region. </p>
+<tr><td class="fieldname"><a id="aac976a2657d8c65944a48c48a5fe76faa4442e4af0916f53a07fb8ca9a49b98ed" name="aac976a2657d8c65944a48c48a5fe76faa4442e4af0916f53a07fb8ca9a49b98ed"></a>Australia&#160;</td><td class="fielddoc"><p>Australia region </p>
 </td></tr>
 </table>
 
@@ -985,14 +910,14 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  753</span>  <a class="code hl_enumvalue" href="#aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197">Asia</a> = 4,                     <span class="comment">/**&lt; DEPRECATED Asia region */</span></div>
 <div class="line"><span class="lineno">  754</span>  <a class="code hl_enumvalue" href="#aac976a2657d8c65944a48c48a5fe76faa4442e4af0916f53a07fb8ca9a49b98ed">Australia</a> = 5,                <span class="comment">/**&lt; Australia region */</span></div>
 <div class="line"><span class="lineno">  755</span>};</div>
-<div class="ttc" id="acommon__types_8h_html_a51da49d1af35336cd22cf21e1f936a86a7a1920d61156abc05a60135aefe8bc67"><div class="ttname"><a href="#a51da49d1af35336cd22cf21e1f936a86a7a1920d61156abc05a60135aefe8bc67">VariableTextMarkingType::Default</a></div><div class="ttdeci">@ Default</div><div class="ttdoc">Known markings are converted unknown marking are removed.</div></div>
-<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faa09d4bca31e2fd8b0f57f79f85ed42bd8"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faa09d4bca31e2fd8b0f57f79f85ed42bd8">DataBoundary::United_States</a></div><div class="ttdeci">@ United_States</div><div class="ttdoc">United States region.</div></div>
-<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197">DataBoundary::Asia</a></div><div class="ttdeci">@ Asia</div><div class="ttdoc">DEPRECATED Asia region.</div></div>
-<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faa4442e4af0916f53a07fb8ca9a49b98ed"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faa4442e4af0916f53a07fb8ca9a49b98ed">DataBoundary::Australia</a></div><div class="ttdeci">@ Australia</div><div class="ttdoc">Australia region.</div></div>
-<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faa53a577bb3bc587b0c28ab808390f1c9b"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faa53a577bb3bc587b0c28ab808390f1c9b">DataBoundary::Japan</a></div><div class="ttdeci">@ Japan</div><div class="ttdoc">Japan region.</div></div>
-<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faae3685d0362ea638d7f35ebfa03470562"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faae3685d0362ea638d7f35ebfa03470562">DataBoundary::European_Union</a></div><div class="ttdeci">@ European_Union</div><div class="ttdoc">European Union region.</div></div>
-<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7">DataBoundary::North_America</a></div><div class="ttdeci">@ North_America</div><div class="ttdoc">DEPRECATED North America region.</div></div>
-<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53">DataBoundary::Europe_MiddleEast_Africa</a></div><div class="ttdeci">@ Europe_MiddleEast_Africa</div><div class="ttdoc">DEPRECATED Europe, Middle East &amp; Africa region.</div></div>
+<div class="ttc" id="acommon__types_8h_html_a51da49d1af35336cd22cf21e1f936a86a7a1920d61156abc05a60135aefe8bc67"><div class="ttname"><a href="#a51da49d1af35336cd22cf21e1f936a86a7a1920d61156abc05a60135aefe8bc67">VariableTextMarkingType::Default</a></div><div class="ttdeci">@ Default</div></div>
+<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faa09d4bca31e2fd8b0f57f79f85ed42bd8"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faa09d4bca31e2fd8b0f57f79f85ed42bd8">DataBoundary::United_States</a></div><div class="ttdeci">@ United_States</div></div>
+<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faa154a67340e8c14dd5253dc4ff6120197">DataBoundary::Asia</a></div><div class="ttdeci">@ Asia</div></div>
+<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faa4442e4af0916f53a07fb8ca9a49b98ed"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faa4442e4af0916f53a07fb8ca9a49b98ed">DataBoundary::Australia</a></div><div class="ttdeci">@ Australia</div></div>
+<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faa53a577bb3bc587b0c28ab808390f1c9b"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faa53a577bb3bc587b0c28ab808390f1c9b">DataBoundary::Japan</a></div><div class="ttdeci">@ Japan</div></div>
+<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faae3685d0362ea638d7f35ebfa03470562"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faae3685d0362ea638d7f35ebfa03470562">DataBoundary::European_Union</a></div><div class="ttdeci">@ European_Union</div></div>
+<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faae7c41906776caccb62dda345ba194dc7">DataBoundary::North_America</a></div><div class="ttdeci">@ North_America</div></div>
+<div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53"><div class="ttname"><a href="#aac976a2657d8c65944a48c48a5fe76faaeb00e57a56a6a8c64f9b46144d75db53">DataBoundary::Europe_MiddleEast_Africa</a></div><div class="ttdeci">@ Europe_MiddleEast_Africa</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1018,11 +943,11 @@ Functions</h2></td></tr>
 
 <p>Defines what state of the data is the application acting upon. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5737dca05518564ac984b7e47f7ba9baa50780f47f6839d47d60bc4555ee00c3f" name="a5737dca05518564ac984b7e47f7ba9baa50780f47f6839d47d60bc4555ee00c3f"></a>REST&#160;</td><td class="fielddoc"><p>Inactive data stored physically in databases/file/warehouses. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5737dca05518564ac984b7e47f7ba9baa50780f47f6839d47d60bc4555ee00c3f" name="a5737dca05518564ac984b7e47f7ba9baa50780f47f6839d47d60bc4555ee00c3f"></a>REST&#160;</td><td class="fielddoc"><p>Inactive data stored physically in databases/file/warehouses </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a5737dca05518564ac984b7e47f7ba9baaf96e6ea7a7375bd60bad3f3caae3cf27" name="a5737dca05518564ac984b7e47f7ba9baaf96e6ea7a7375bd60bad3f3caae3cf27"></a>MOTION&#160;</td><td class="fielddoc"><p>Data traversing a network or temporarily residing in computer memory to be read or updated. </p>
+<tr><td class="fieldname"><a id="a5737dca05518564ac984b7e47f7ba9baaf96e6ea7a7375bd60bad3f3caae3cf27" name="a5737dca05518564ac984b7e47f7ba9baaf96e6ea7a7375bd60bad3f3caae3cf27"></a>MOTION&#160;</td><td class="fielddoc"><p>Data traversing a network or temporarily residing in computer memory to be read or updated </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a5737dca05518564ac984b7e47f7ba9baa7dc33953b23388ad93a4db20e33d26e4" name="a5737dca05518564ac984b7e47f7ba9baa7dc33953b23388ad93a4db20e33d26e4"></a>USE&#160;</td><td class="fielddoc"><p>Active data under constant change stored physically in databases/file/warehouses etc. </p>
+<tr><td class="fieldname"><a id="a5737dca05518564ac984b7e47f7ba9baa7dc33953b23388ad93a4db20e33d26e4" name="a5737dca05518564ac984b7e47f7ba9baa7dc33953b23388ad93a4db20e33d26e4"></a>USE&#160;</td><td class="fielddoc"><p>Active data under constant change stored physically in databases/file/warehouses etc </p>
 </td></tr>
 </table>
 
@@ -1032,9 +957,9 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">   96</span>  <a class="code hl_enumvalue" href="#a5737dca05518564ac984b7e47f7ba9baaf96e6ea7a7375bd60bad3f3caae3cf27">MOTION</a>, <span class="comment">/**&lt; Data traversing a network or temporarily residing in computer memory to be read or updated */</span></div>
 <div class="line"><span class="lineno">   97</span>  <a class="code hl_enumvalue" href="#a5737dca05518564ac984b7e47f7ba9baa7dc33953b23388ad93a4db20e33d26e4">USE</a>, <span class="comment">/**&lt; Active data under constant change stored physically in databases/file/warehouses etc */</span></div>
 <div class="line"><span class="lineno">   98</span>};</div>
-<div class="ttc" id="acommon__types_8h_html_a5737dca05518564ac984b7e47f7ba9baa50780f47f6839d47d60bc4555ee00c3f"><div class="ttname"><a href="#a5737dca05518564ac984b7e47f7ba9baa50780f47f6839d47d60bc4555ee00c3f">DataState::REST</a></div><div class="ttdeci">@ REST</div><div class="ttdoc">Inactive data stored physically in databases/file/warehouses.</div></div>
-<div class="ttc" id="acommon__types_8h_html_a5737dca05518564ac984b7e47f7ba9baa7dc33953b23388ad93a4db20e33d26e4"><div class="ttname"><a href="#a5737dca05518564ac984b7e47f7ba9baa7dc33953b23388ad93a4db20e33d26e4">DataState::USE</a></div><div class="ttdeci">@ USE</div><div class="ttdoc">Active data under constant change stored physically in databases/file/warehouses etc.</div></div>
-<div class="ttc" id="acommon__types_8h_html_a5737dca05518564ac984b7e47f7ba9baaf96e6ea7a7375bd60bad3f3caae3cf27"><div class="ttname"><a href="#a5737dca05518564ac984b7e47f7ba9baaf96e6ea7a7375bd60bad3f3caae3cf27">DataState::MOTION</a></div><div class="ttdeci">@ MOTION</div><div class="ttdoc">Data traversing a network or temporarily residing in computer memory to be read or updated.</div></div>
+<div class="ttc" id="acommon__types_8h_html_a5737dca05518564ac984b7e47f7ba9baa50780f47f6839d47d60bc4555ee00c3f"><div class="ttname"><a href="#a5737dca05518564ac984b7e47f7ba9baa50780f47f6839d47d60bc4555ee00c3f">DataState::REST</a></div><div class="ttdeci">@ REST</div></div>
+<div class="ttc" id="acommon__types_8h_html_a5737dca05518564ac984b7e47f7ba9baa7dc33953b23388ad93a4db20e33d26e4"><div class="ttname"><a href="#a5737dca05518564ac984b7e47f7ba9baa7dc33953b23388ad93a4db20e33d26e4">DataState::USE</a></div><div class="ttdeci">@ USE</div></div>
+<div class="ttc" id="acommon__types_8h_html_a5737dca05518564ac984b7e47f7ba9baaf96e6ea7a7375bd60bad3f3caae3cf27"><div class="ttname"><a href="#a5737dca05518564ac984b7e47f7ba9baaf96e6ea7a7375bd60bad3f3caae3cf27">DataState::MOTION</a></div><div class="ttdeci">@ MOTION</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1060,7 +985,7 @@ Functions</h2></td></tr>
 
 <p>Defines new features by name. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0953a16075b5b6f322db47a6cd9fb79ba2e96e13acab0d47fac3637a3d4f27bb3" name="a0953a16075b5b6f322db47a6cd9fb79ba2e96e13acab0d47fac3637a3d4f27bb3"></a>EncryptOnly&#160;</td><td class="fielddoc"><p>Check if server supports EncryptOnly feature. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0953a16075b5b6f322db47a6cd9fb79ba2e96e13acab0d47fac3637a3d4f27bb3" name="a0953a16075b5b6f322db47a6cd9fb79ba2e96e13acab0d47fac3637a3d4f27bb3"></a>EncryptOnly&#160;</td><td class="fielddoc"><p>Check if server supports EncryptOnly feature </p>
 </td></tr>
 </table>
 
@@ -1068,7 +993,7 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">  151</span>                     : <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> {</div>
 <div class="line"><span class="lineno">  152</span>  <a class="code hl_enumvalue" href="#a0953a16075b5b6f322db47a6cd9fb79ba2e96e13acab0d47fac3637a3d4f27bb3">EncryptOnly</a>, <span class="comment">/**&lt; Check if server supports EncryptOnly feature */</span></div>
 <div class="line"><span class="lineno">  153</span>};</div>
-<div class="ttc" id="acommon__types_8h_html_a0953a16075b5b6f322db47a6cd9fb79ba2e96e13acab0d47fac3637a3d4f27bb3"><div class="ttname"><a href="#a0953a16075b5b6f322db47a6cd9fb79ba2e96e13acab0d47fac3637a3d4f27bb3">FeatureId::EncryptOnly</a></div><div class="ttdeci">@ EncryptOnly</div><div class="ttdoc">Check if server supports EncryptOnly feature.</div></div>
+<div class="ttc" id="acommon__types_8h_html_a0953a16075b5b6f322db47a6cd9fb79ba2e96e13acab0d47fac3637a3d4f27bb3"><div class="ttname"><a href="#a0953a16075b5b6f322db47a6cd9fb79ba2e96e13acab0d47fac3637a3d4f27bb3">FeatureId::EncryptOnly</a></div><div class="ttdeci">@ EncryptOnly</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1086,36 +1011,31 @@ Functions</h2></td></tr>
 
 <p><a class="el" href="classLabel.html" title="Abstraction for a single Microsoft Information Protection label.">Label</a> filter types, optional set of properties that can be used to filter labels or label behavior when calling list sensitivity labels or autoclassifying data. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60ac9d3e887722f2bc482bcca9d41c512af" name="a858bf8ad8a1305b382d18e21e1e60b60ac9d3e887722f2bc482bcca9d41c512af"></a>None&#160;</td><td class="fielddoc"><p>Disable default labeling filtration. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60ac9d3e887722f2bc482bcca9d41c512af" name="a858bf8ad8a1305b382d18e21e1e60b60ac9d3e887722f2bc482bcca9d41c512af"></a>None&#160;</td><td class="fielddoc"><p>Disable default labeling filtration </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60a21a72ecb67df34f626eba74cd4ec16e8" name="a858bf8ad8a1305b382d18e21e1e60b60a21a72ecb67df34f626eba74cd4ec16e8"></a>CustomProtection&#160;</td><td class="fielddoc"><p>Filter labels that may result in custom protection. </p>
+<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60a21a72ecb67df34f626eba74cd4ec16e8" name="a858bf8ad8a1305b382d18e21e1e60b60a21a72ecb67df34f626eba74cd4ec16e8"></a>CustomProtection&#160;</td><td class="fielddoc"><p>Filter labels that may result in custom protection </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60a2ee8a7a23e6ebd28b9639f4b7acf5629" name="a858bf8ad8a1305b382d18e21e1e60b60a2ee8a7a23e6ebd28b9639f4b7acf5629"></a>TemplateProtection&#160;</td><td class="fielddoc"><p>Filter labels that may result in template protection. </p>
+<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60a2ee8a7a23e6ebd28b9639f4b7acf5629" name="a858bf8ad8a1305b382d18e21e1e60b60a2ee8a7a23e6ebd28b9639f4b7acf5629"></a>TemplateProtection&#160;</td><td class="fielddoc"><p>Filter labels that may result in template protection </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60a5748aad7b40bea59a8300141c04a2f26" name="a858bf8ad8a1305b382d18e21e1e60b60a5748aad7b40bea59a8300141c04a2f26"></a>DoNotForwardProtection&#160;</td><td class="fielddoc"><p>Filter labels that may result in do not forward. </p>
+<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60a5748aad7b40bea59a8300141c04a2f26" name="a858bf8ad8a1305b382d18e21e1e60b60a5748aad7b40bea59a8300141c04a2f26"></a>DoNotForwardProtection&#160;</td><td class="fielddoc"><p>Filter labels that may result in do not forward </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60aa4ae42ed32210b6ed3cfa8640fc77370" name="a858bf8ad8a1305b382d18e21e1e60b60aa4ae42ed32210b6ed3cfa8640fc77370"></a>AdhocProtection&#160;</td><td class="fielddoc"><p>Filter labels that may result in adhoc protection. </p>
+<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60aa4ae42ed32210b6ed3cfa8640fc77370" name="a858bf8ad8a1305b382d18e21e1e60b60aa4ae42ed32210b6ed3cfa8640fc77370"></a>AdhocProtection&#160;</td><td class="fielddoc"><p>Filter labels that may result in adhoc protection </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60a75bd4394233b6c667b5376e57aa6fb01" name="a858bf8ad8a1305b382d18e21e1e60b60a75bd4394233b6c667b5376e57aa6fb01"></a>HyokProtection&#160;</td><td class="fielddoc"><p>Filter labels that may result in hyok protection. </p>
+<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60a75bd4394233b6c667b5376e57aa6fb01" name="a858bf8ad8a1305b382d18e21e1e60b60a75bd4394233b6c667b5376e57aa6fb01"></a>HyokProtection&#160;</td><td class="fielddoc"><p>Filter labels that may result in hyok protection </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60ae6f24381b96fe834834b770de3785183" name="a858bf8ad8a1305b382d18e21e1e60b60ae6f24381b96fe834834b770de3785183"></a>PredefinedTemplateProtection&#160;</td><td class="fielddoc"><p>Filter labels that may result in predefined template protection. </p>
+<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60ae6f24381b96fe834834b770de3785183" name="a858bf8ad8a1305b382d18e21e1e60b60ae6f24381b96fe834834b770de3785183"></a>PredefinedTemplateProtection&#160;</td><td class="fielddoc"><p>Filter labels that may result in predefined template protection </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60acd0f8be310f64ce3f466205703dc33a8" name="a858bf8ad8a1305b382d18e21e1e60b60acd0f8be310f64ce3f466205703dc33a8"></a>DoubleKeyProtection&#160;</td><td class="fielddoc"><p>Filter labels that may result in protection that requires double key, can be template, adhoc, dnf. </p>
-<p>This filter removes support for all double key labels </p>
+<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60acd0f8be310f64ce3f466205703dc33a8" name="a858bf8ad8a1305b382d18e21e1e60b60acd0f8be310f64ce3f466205703dc33a8"></a>DoubleKeyProtection&#160;</td><td class="fielddoc"><p>Filter labels that may result in protection that requires double key, can be template, adhoc, dnf. This filter removes support for all double key labels </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60a115cd3a8cd6ffd4528918022beebc9b9" name="a858bf8ad8a1305b382d18e21e1e60b60a115cd3a8cd6ffd4528918022beebc9b9"></a>DoubleKeyUserDefinedProtection&#160;</td><td class="fielddoc"><p>Filter labels that may result in protection that requires double key adhoc and dnf. </p>
-<p>This filter removes support for double key adhoc labels. It is more selective than DoubleKeyProtection filter which removes all support </p>
+<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60a115cd3a8cd6ffd4528918022beebc9b9" name="a858bf8ad8a1305b382d18e21e1e60b60a115cd3a8cd6ffd4528918022beebc9b9"></a>DoubleKeyUserDefinedProtection&#160;</td><td class="fielddoc"><p>Filter labels that may result in protection that requires double key adhoc and dnf. This filter removes support for double key adhoc labels. It is more selective than DoubleKeyProtection filter which removes all support </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60a370aba9a52e1f588a2a713353627b375" name="a858bf8ad8a1305b382d18e21e1e60b60a370aba9a52e1f588a2a713353627b375"></a>EncryptOnlyProtection&#160;</td><td class="fielddoc"><p>Filter labels that may result in encrypt only. </p>
+<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60a370aba9a52e1f588a2a713353627b375" name="a858bf8ad8a1305b382d18e21e1e60b60a370aba9a52e1f588a2a713353627b375"></a>EncryptOnlyProtection&#160;</td><td class="fielddoc"><p>Filter labels that may result in encrypt only </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60ae53c8c7f007c4569555a8ba0a2c3ad97" name="a858bf8ad8a1305b382d18e21e1e60b60ae53c8c7f007c4569555a8ba0a2c3ad97"></a>SensitiveInformationClassifier&#160;</td><td class="fielddoc"><p>Classifier based on Sensitive Information Detection (e.g. </p>
-<p>Credit card number or SSN) uses the Microsoft Classification Engine (MCE) </p>
+<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60ae53c8c7f007c4569555a8ba0a2c3ad97" name="a858bf8ad8a1305b382d18e21e1e60b60ae53c8c7f007c4569555a8ba0a2c3ad97"></a>SensitiveInformationClassifier&#160;</td><td class="fielddoc"><p>Classifier based on Sensitive Information Detection (e.g. Credit card number or SSN) uses the Microsoft Classification Engine (MCE) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60a9503d84ad1879cf896888c64baeee314" name="a858bf8ad8a1305b382d18e21e1e60b60a9503d84ad1879cf896888c64baeee314"></a>MachineLearningClassifier&#160;</td><td class="fielddoc"><p>Classifier based on Machine Learning (e.g. </p>
-<p>Offensive Language) </p>
+<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60a9503d84ad1879cf896888c64baeee314" name="a858bf8ad8a1305b382d18e21e1e60b60a9503d84ad1879cf896888c64baeee314"></a>MachineLearningClassifier&#160;</td><td class="fielddoc"><p>Classifier based on Machine Learning (e.g. Offensive Language) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60ad637512973c118f0b8d1276625b52587" name="a858bf8ad8a1305b382d18e21e1e60b60ad637512973c118f0b8d1276625b52587"></a>ExtendedSensitiveInformationClassifier&#160;</td><td class="fielddoc"><p>Classifier based on Sensitive Information Detection (e.g. </p>
-<p>Credit card number or SSN) does not use MCE </p>
+<tr><td class="fieldname"><a id="a858bf8ad8a1305b382d18e21e1e60b60ad637512973c118f0b8d1276625b52587" name="a858bf8ad8a1305b382d18e21e1e60b60ad637512973c118f0b8d1276625b52587"></a>ExtendedSensitiveInformationClassifier&#160;</td><td class="fielddoc"><p>Classifier based on Sensitive Information Detection (e.g. Credit card number or SSN) does not use MCE </p>
 </td></tr>
 </table>
 
@@ -1135,19 +1055,19 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  126</span>  <a class="code hl_enumvalue" href="#a858bf8ad8a1305b382d18e21e1e60b60a9503d84ad1879cf896888c64baeee314">MachineLearningClassifier</a>               = 1 &lt;&lt; 10, <span class="comment">/**&lt; Classifier based on Machine Learning (e.g. Offensive Language) */</span></div>
 <div class="line"><span class="lineno">  127</span>  <a class="code hl_enumvalue" href="#a858bf8ad8a1305b382d18e21e1e60b60ad637512973c118f0b8d1276625b52587">ExtendedSensitiveInformationClassifier</a>  = 1 &lt;&lt; 11, <span class="comment">/**&lt; Classifier based on Sensitive Information Detection (e.g. Credit card number or SSN) does not use MCE */</span></div>
 <div class="line"><span class="lineno">  128</span>};</div>
-<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60a115cd3a8cd6ffd4528918022beebc9b9"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60a115cd3a8cd6ffd4528918022beebc9b9">DoubleKeyUserDefinedProtection</a></div><div class="ttdeci">@ DoubleKeyUserDefinedProtection</div><div class="ttdoc">Filter labels that may result in protection that requires double key adhoc and dnf.</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00123">common_types.h:123</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60a21a72ecb67df34f626eba74cd4ec16e8"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60a21a72ecb67df34f626eba74cd4ec16e8">CustomProtection</a></div><div class="ttdeci">@ CustomProtection</div><div class="ttdoc">Filter labels that may result in custom protection.</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00116">common_types.h:116</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60a2ee8a7a23e6ebd28b9639f4b7acf5629"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60a2ee8a7a23e6ebd28b9639f4b7acf5629">TemplateProtection</a></div><div class="ttdeci">@ TemplateProtection</div><div class="ttdoc">Filter labels that may result in template protection.</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00117">common_types.h:117</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60a370aba9a52e1f588a2a713353627b375"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60a370aba9a52e1f588a2a713353627b375">EncryptOnlyProtection</a></div><div class="ttdeci">@ EncryptOnlyProtection</div><div class="ttdoc">Filter labels that may result in encrypt only.</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00124">common_types.h:124</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60a5748aad7b40bea59a8300141c04a2f26"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60a5748aad7b40bea59a8300141c04a2f26">DoNotForwardProtection</a></div><div class="ttdeci">@ DoNotForwardProtection</div><div class="ttdoc">Filter labels that may result in do not forward.</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00118">common_types.h:118</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60a75bd4394233b6c667b5376e57aa6fb01"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60a75bd4394233b6c667b5376e57aa6fb01">HyokProtection</a></div><div class="ttdeci">@ HyokProtection</div><div class="ttdoc">Filter labels that may result in hyok protection.</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00120">common_types.h:120</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60a9503d84ad1879cf896888c64baeee314"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60a9503d84ad1879cf896888c64baeee314">MachineLearningClassifier</a></div><div class="ttdeci">@ MachineLearningClassifier</div><div class="ttdoc">Classifier based on Machine Learning (e.g.</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00126">common_types.h:126</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60aa4ae42ed32210b6ed3cfa8640fc77370"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60aa4ae42ed32210b6ed3cfa8640fc77370">AdhocProtection</a></div><div class="ttdeci">@ AdhocProtection</div><div class="ttdoc">Filter labels that may result in adhoc protection.</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00119">common_types.h:119</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60ac9d3e887722f2bc482bcca9d41c512af"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60ac9d3e887722f2bc482bcca9d41c512af">None</a></div><div class="ttdeci">@ None</div><div class="ttdoc">Disable default labeling filtration.</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00115">common_types.h:115</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60acd0f8be310f64ce3f466205703dc33a8"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60acd0f8be310f64ce3f466205703dc33a8">DoubleKeyProtection</a></div><div class="ttdeci">@ DoubleKeyProtection</div><div class="ttdoc">Filter labels that may result in protection that requires double key, can be template,...</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00122">common_types.h:122</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60ad637512973c118f0b8d1276625b52587"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60ad637512973c118f0b8d1276625b52587">ExtendedSensitiveInformationClassifier</a></div><div class="ttdeci">@ ExtendedSensitiveInformationClassifier</div><div class="ttdoc">Classifier based on Sensitive Information Detection (e.g.</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00127">common_types.h:127</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60ae53c8c7f007c4569555a8ba0a2c3ad97"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60ae53c8c7f007c4569555a8ba0a2c3ad97">SensitiveInformationClassifier</a></div><div class="ttdeci">@ SensitiveInformationClassifier</div><div class="ttdoc">Classifier based on Sensitive Information Detection (e.g.</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00125">common_types.h:125</a></div></div>
-<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60ae6f24381b96fe834834b770de3785183"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60ae6f24381b96fe834834b770de3785183">PredefinedTemplateProtection</a></div><div class="ttdeci">@ PredefinedTemplateProtection</div><div class="ttdoc">Filter labels that may result in predefined template protection.</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00121">common_types.h:121</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60a115cd3a8cd6ffd4528918022beebc9b9"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60a115cd3a8cd6ffd4528918022beebc9b9">DoubleKeyUserDefinedProtection</a></div><div class="ttdeci">@ DoubleKeyUserDefinedProtection</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00123">common_types.h:123</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60a21a72ecb67df34f626eba74cd4ec16e8"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60a21a72ecb67df34f626eba74cd4ec16e8">CustomProtection</a></div><div class="ttdeci">@ CustomProtection</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00116">common_types.h:116</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60a2ee8a7a23e6ebd28b9639f4b7acf5629"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60a2ee8a7a23e6ebd28b9639f4b7acf5629">TemplateProtection</a></div><div class="ttdeci">@ TemplateProtection</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00117">common_types.h:117</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60a370aba9a52e1f588a2a713353627b375"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60a370aba9a52e1f588a2a713353627b375">EncryptOnlyProtection</a></div><div class="ttdeci">@ EncryptOnlyProtection</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00124">common_types.h:124</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60a5748aad7b40bea59a8300141c04a2f26"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60a5748aad7b40bea59a8300141c04a2f26">DoNotForwardProtection</a></div><div class="ttdeci">@ DoNotForwardProtection</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00118">common_types.h:118</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60a75bd4394233b6c667b5376e57aa6fb01"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60a75bd4394233b6c667b5376e57aa6fb01">HyokProtection</a></div><div class="ttdeci">@ HyokProtection</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00120">common_types.h:120</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60a9503d84ad1879cf896888c64baeee314"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60a9503d84ad1879cf896888c64baeee314">MachineLearningClassifier</a></div><div class="ttdeci">@ MachineLearningClassifier</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00126">common_types.h:126</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60aa4ae42ed32210b6ed3cfa8640fc77370"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60aa4ae42ed32210b6ed3cfa8640fc77370">AdhocProtection</a></div><div class="ttdeci">@ AdhocProtection</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00119">common_types.h:119</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60ac9d3e887722f2bc482bcca9d41c512af"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60ac9d3e887722f2bc482bcca9d41c512af">None</a></div><div class="ttdeci">@ None</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00115">common_types.h:115</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60acd0f8be310f64ce3f466205703dc33a8"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60acd0f8be310f64ce3f466205703dc33a8">DoubleKeyProtection</a></div><div class="ttdeci">@ DoubleKeyProtection</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00122">common_types.h:122</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60ad637512973c118f0b8d1276625b52587"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60ad637512973c118f0b8d1276625b52587">ExtendedSensitiveInformationClassifier</a></div><div class="ttdeci">@ ExtendedSensitiveInformationClassifier</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00127">common_types.h:127</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60ae53c8c7f007c4569555a8ba0a2c3ad97"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60ae53c8c7f007c4569555a8ba0a2c3ad97">SensitiveInformationClassifier</a></div><div class="ttdeci">@ SensitiveInformationClassifier</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00125">common_types.h:125</a></div></div>
+<div class="ttc" id="acommon__types_8h_html_a858bf8ad8a1305b382d18e21e1e60b60ae6f24381b96fe834834b770de3785183"><div class="ttname"><a href="#a858bf8ad8a1305b382d18e21e1e60b60ae6f24381b96fe834834b770de3785183">PredefinedTemplateProtection</a></div><div class="ttdeci">@ PredefinedTemplateProtection</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00121">common_types.h:121</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1176,7 +1096,7 @@ Functions</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0cdd774884c3465004e0f489eeeab9e3a7a1920d61156abc05a60135aefe8bc67" name="a0cdd774884c3465004e0f489eeeab9e3a7a1920d61156abc05a60135aefe8bc67"></a>Default&#160;</td><td class="fielddoc"><p>Extensions will become as SDK default behavior <br  />
  </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a0cdd774884c3465004e0f489eeeab9e3a048c35f9b6098c13d400c4bc7bfef4c1" name="a0cdd774884c3465004e0f489eeeab9e3a048c35f9b6098c13d400c4bc7bfef4c1"></a>PFileSuffix&#160;</td><td class="fielddoc"><p>Extensions will become &lt;EXT&gt;.PFILE. </p>
+<tr><td class="fieldname"><a id="a0cdd774884c3465004e0f489eeeab9e3a048c35f9b6098c13d400c4bc7bfef4c1" name="a0cdd774884c3465004e0f489eeeab9e3a048c35f9b6098c13d400c4bc7bfef4c1"></a>PFileSuffix&#160;</td><td class="fielddoc"><p>Extensions will become &lt;EXT&gt;.PFILE </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a0cdd774884c3465004e0f489eeeab9e3a009280086ec16cd72d29f25c5fc461c5" name="a0cdd774884c3465004e0f489eeeab9e3a009280086ec16cd72d29f25c5fc461c5"></a>PPrefix&#160;</td><td class="fielddoc"><p>Extensions will become P&lt;EXT&gt; </p>
 </td></tr>
@@ -1188,8 +1108,8 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  721</span>  <a class="code hl_enumvalue" href="#a0cdd774884c3465004e0f489eeeab9e3a048c35f9b6098c13d400c4bc7bfef4c1">PFileSuffix</a> = 1, <span class="comment">/**&lt; Extensions will become &lt;EXT&gt;.PFILE */</span></div>
 <div class="line"><span class="lineno">  722</span>  <a class="code hl_enumvalue" href="#a0cdd774884c3465004e0f489eeeab9e3a009280086ec16cd72d29f25c5fc461c5">PPrefix</a> = 2,     <span class="comment">/**&lt; Extensions will become P&lt;EXT&gt; */</span></div>
 <div class="line"><span class="lineno">  723</span>};</div>
-<div class="ttc" id="acommon__types_8h_html_a0cdd774884c3465004e0f489eeeab9e3a009280086ec16cd72d29f25c5fc461c5"><div class="ttname"><a href="#a0cdd774884c3465004e0f489eeeab9e3a009280086ec16cd72d29f25c5fc461c5">PFileExtensionBehavior::PPrefix</a></div><div class="ttdeci">@ PPrefix</div><div class="ttdoc">Extensions will become P&lt;EXT&gt;</div></div>
-<div class="ttc" id="acommon__types_8h_html_a0cdd774884c3465004e0f489eeeab9e3a048c35f9b6098c13d400c4bc7bfef4c1"><div class="ttname"><a href="#a0cdd774884c3465004e0f489eeeab9e3a048c35f9b6098c13d400c4bc7bfef4c1">PFileExtensionBehavior::PFileSuffix</a></div><div class="ttdeci">@ PFileSuffix</div><div class="ttdoc">Extensions will become &lt;EXT&gt;.PFILE.</div></div>
+<div class="ttc" id="acommon__types_8h_html_a0cdd774884c3465004e0f489eeeab9e3a009280086ec16cd72d29f25c5fc461c5"><div class="ttname"><a href="#a0cdd774884c3465004e0f489eeeab9e3a009280086ec16cd72d29f25c5fc461c5">PFileExtensionBehavior::PPrefix</a></div><div class="ttdeci">@ PPrefix</div></div>
+<div class="ttc" id="acommon__types_8h_html_a0cdd774884c3465004e0f489eeeab9e3a048c35f9b6098c13d400c4bc7bfef4c1"><div class="ttname"><a href="#a0cdd774884c3465004e0f489eeeab9e3a048c35f9b6098c13d400c4bc7bfef4c1">PFileExtensionBehavior::PFileSuffix</a></div><div class="ttdeci">@ PFileSuffix</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1215,11 +1135,11 @@ Functions</h2></td></tr>
 
 <p>various dynamic fields can be set into the text message of the application Some known: ${Item.Label} ${Item.Name} ${Item.Location} ${User.Name} ${User.PrincipalName} ${Event.DateTime} Others are still not defined: The sdk will replace them with correct values using these control flags. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a51da49d1af35336cd22cf21e1f936a86a7a1920d61156abc05a60135aefe8bc67" name="a51da49d1af35336cd22cf21e1f936a86a7a1920d61156abc05a60135aefe8bc67"></a>Default&#160;</td><td class="fielddoc"><p>Known markings are converted unknown marking are removed. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a51da49d1af35336cd22cf21e1f936a86a7a1920d61156abc05a60135aefe8bc67" name="a51da49d1af35336cd22cf21e1f936a86a7a1920d61156abc05a60135aefe8bc67"></a>Default&#160;</td><td class="fielddoc"><p>Known markings are converted unknown marking are removed </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a51da49d1af35336cd22cf21e1f936a86ae1ff6a7360e99cb46db6bb5d3ff8e2eb" name="a51da49d1af35336cd22cf21e1f936a86ae1ff6a7360e99cb46db6bb5d3ff8e2eb"></a>PassThrough&#160;</td><td class="fielddoc"><p>Known markings are converted unknown marking are passed through. </p>
+<tr><td class="fieldname"><a id="a51da49d1af35336cd22cf21e1f936a86ae1ff6a7360e99cb46db6bb5d3ff8e2eb" name="a51da49d1af35336cd22cf21e1f936a86ae1ff6a7360e99cb46db6bb5d3ff8e2eb"></a>PassThrough&#160;</td><td class="fielddoc"><p>Known markings are converted unknown marking are passed through </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a51da49d1af35336cd22cf21e1f936a86a6adf97f83acf6453d4a6a4b1070f3754" name="a51da49d1af35336cd22cf21e1f936a86a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"><p>All markings are passed through. </p>
+<tr><td class="fieldname"><a id="a51da49d1af35336cd22cf21e1f936a86a6adf97f83acf6453d4a6a4b1070f3754" name="a51da49d1af35336cd22cf21e1f936a86a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"><p>All markings are passed through </p>
 </td></tr>
 </table>
 
@@ -1229,7 +1149,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  169</span>  <a class="code hl_enumvalue" href="#a51da49d1af35336cd22cf21e1f936a86ae1ff6a7360e99cb46db6bb5d3ff8e2eb">PassThrough</a> = 1, <span class="comment">/**&lt; Known markings are converted unknown marking are passed through */</span></div>
 <div class="line"><span class="lineno">  170</span>  <a class="code hl_enumvalue" href="#a858bf8ad8a1305b382d18e21e1e60b60ac9d3e887722f2bc482bcca9d41c512af">None</a> = 2, <span class="comment">/**&lt; All markings are passed through */</span></div>
 <div class="line"><span class="lineno">  171</span>};</div>
-<div class="ttc" id="acommon__types_8h_html_a51da49d1af35336cd22cf21e1f936a86ae1ff6a7360e99cb46db6bb5d3ff8e2eb"><div class="ttname"><a href="#a51da49d1af35336cd22cf21e1f936a86ae1ff6a7360e99cb46db6bb5d3ff8e2eb">VariableTextMarkingType::PassThrough</a></div><div class="ttdeci">@ PassThrough</div><div class="ttdoc">Known markings are converted unknown marking are passed through.</div></div>
+<div class="ttc" id="acommon__types_8h_html_a51da49d1af35336cd22cf21e1f936a86ae1ff6a7360e99cb46db6bb5d3ff8e2eb"><div class="ttname"><a href="#a51da49d1af35336cd22cf21e1f936a86ae1ff6a7360e99cb46db6bb5d3ff8e2eb">VariableTextMarkingType::PassThrough</a></div><div class="ttdeci">@ PassThrough</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1255,9 +1175,9 @@ Functions</h2></td></tr>
 
 <p>Layout for watermarks. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac3b70878cf52996e6c71c7039076840fa86e5d0d8407ce71f7e2004ef3949894e" name="ac3b70878cf52996e6c71c7039076840fa86e5d0d8407ce71f7e2004ef3949894e"></a>HORIZONTAL&#160;</td><td class="fielddoc"><p>Watermark layout is horizontal. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac3b70878cf52996e6c71c7039076840fa86e5d0d8407ce71f7e2004ef3949894e" name="ac3b70878cf52996e6c71c7039076840fa86e5d0d8407ce71f7e2004ef3949894e"></a>HORIZONTAL&#160;</td><td class="fielddoc"><p>Watermark layout is horizontal </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ac3b70878cf52996e6c71c7039076840fad3fbf8a4dbb33b1e296fcaa32703b66d" name="ac3b70878cf52996e6c71c7039076840fad3fbf8a4dbb33b1e296fcaa32703b66d"></a>DIAGONAL&#160;</td><td class="fielddoc"><p>Watermark layout is diagonal. </p>
+<tr><td class="fieldname"><a id="ac3b70878cf52996e6c71c7039076840fad3fbf8a4dbb33b1e296fcaa32703b66d" name="ac3b70878cf52996e6c71c7039076840fad3fbf8a4dbb33b1e296fcaa32703b66d"></a>DIAGONAL&#160;</td><td class="fielddoc"><p>Watermark layout is diagonal </p>
 </td></tr>
 </table>
 
@@ -1266,8 +1186,8 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">   58</span>  <a class="code hl_enumvalue" href="#ac3b70878cf52996e6c71c7039076840fa86e5d0d8407ce71f7e2004ef3949894e">HORIZONTAL</a> = 0, <span class="comment">/**&lt; Watermark layout is horizontal */</span></div>
 <div class="line"><span class="lineno">   59</span>  <a class="code hl_enumvalue" href="#ac3b70878cf52996e6c71c7039076840fad3fbf8a4dbb33b1e296fcaa32703b66d">DIAGONAL</a> = 1, <span class="comment">/**&lt; Watermark layout is diagonal */</span></div>
 <div class="line"><span class="lineno">   60</span>};</div>
-<div class="ttc" id="acommon__types_8h_html_ac3b70878cf52996e6c71c7039076840fa86e5d0d8407ce71f7e2004ef3949894e"><div class="ttname"><a href="#ac3b70878cf52996e6c71c7039076840fa86e5d0d8407ce71f7e2004ef3949894e">WatermarkLayout::HORIZONTAL</a></div><div class="ttdeci">@ HORIZONTAL</div><div class="ttdoc">Watermark layout is horizontal.</div></div>
-<div class="ttc" id="acommon__types_8h_html_ac3b70878cf52996e6c71c7039076840fad3fbf8a4dbb33b1e296fcaa32703b66d"><div class="ttname"><a href="#ac3b70878cf52996e6c71c7039076840fad3fbf8a4dbb33b1e296fcaa32703b66d">WatermarkLayout::DIAGONAL</a></div><div class="ttdeci">@ DIAGONAL</div><div class="ttdoc">Watermark layout is diagonal.</div></div>
+<div class="ttc" id="acommon__types_8h_html_ac3b70878cf52996e6c71c7039076840fa86e5d0d8407ce71f7e2004ef3949894e"><div class="ttname"><a href="#ac3b70878cf52996e6c71c7039076840fa86e5d0d8407ce71f7e2004ef3949894e">WatermarkLayout::HORIZONTAL</a></div><div class="ttdeci">@ HORIZONTAL</div></div>
+<div class="ttc" id="acommon__types_8h_html_ac3b70878cf52996e6c71c7039076840fad3fbf8a4dbb33b1e296fcaa32703b66d"><div class="ttname"><a href="#ac3b70878cf52996e6c71c7039076840fad3fbf8a4dbb33b1e296fcaa32703b66d">WatermarkLayout::DIAGONAL</a></div><div class="ttdeci">@ DIAGONAL</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1543,8 +1463,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Name of the setting that enables overriding policy ttl in days be default it will be 30 days. </p>
-<p>Values should be set as string integers i &lt; 0 means infinite time to live.</p>
+<p>Name of the setting that enables overriding policy ttl in days be default it will be 30 days. Values should be set as string integers i &lt; 0 means infinite time to live. </p>
 <dl class="section return"><dt>Returns</dt><dd>the custom settings key. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00583">583</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
@@ -1577,8 +1496,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Name of the setting that enables overriding sensitivity policy ttl in days be default it will be 30 days. </p>
-<p>Values should be set as string integers i &lt; 0 means infinite time to live.</p>
+<p>Name of the setting that enables overriding sensitivity policy ttl in days be default it will be 30 days. Values should be set as string integers i &lt; 0 means infinite time to live. </p>
 <dl class="section return"><dt>Returns</dt><dd>the custom settings key. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00592">592</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>

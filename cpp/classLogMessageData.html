@@ -99,6 +99,7 @@ $(function(){initNavTree('classLogMessageData.html',''); initResizable(true); })
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classLogMessageData-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">LogMessageData Class Reference</div></div>
 </div><!--header-->
@@ -108,6 +109,24 @@ $(function(){initNavTree('classLogMessageData.html',''); initResizable(true); })
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="log__message__data_8h_source.html">src/api/mip/log_message_data.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for LogMessageData:</div>
+<div class="dyncontent">
+<div class="center"><img src="classLogMessageData__coll__graph.png" border="0" usemap="#aLogMessageData_coll__map" alt="Collaboration graph"/></div>
+<map name="aLogMessageData_coll__map" id="aLogMessageData_coll__map">
+<area shape="rect" title="A class that stores log messages." alt="" coords="93,313,227,339"/>
+<area shape="rect" title=" " alt="" coords="39,196,126,221"/>
+<area shape="poly" title=" " alt="" coords="88,235,96,262,109,288,122,301,137,311,134,315,118,305,105,291,91,264,83,236"/>
+<area shape="rect" title=" " alt="" coords="5,93,144,133"/>
+<area shape="poly" title=" " alt="" coords="80,147,84,195,79,196,75,147"/>
+<area shape="rect" title=" " alt="" coords="154,196,331,221"/>
+<area shape="poly" title=" " alt="" coords="235,235,222,263,203,291,178,315,174,311,199,288,217,260,231,233"/>
+<area shape="rect" title=" " alt="" coords="168,101,325,126"/>
+<area shape="poly" title=" " alt="" coords="248,140,246,196,240,196,243,140"/>
+<area shape="rect" title=" " alt="" coords="227,5,266,31"/>
+<area shape="poly" title=" " alt="" coords="249,44,249,101,244,101,244,44"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -137,6 +156,25 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7d645b9b20c1480e99e8da57f6059821"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68f2afe1d53ddb97994ff4d6bb604b21" id="r_a68f2afe1d53ddb97994ff4d6bb604b21"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68f2afe1d53ddb97994ff4d6bb604b21">LogMessageData</a> (const <a class="el" href="log__message__data_8h.html#a7a38c7496c92835c0d835ecb2f8135c1">LogLevel</a> level, const std::string &amp;message, const std::string &amp;function, const std::string &amp;file, int32_t line, const std::shared_ptr&lt; void &gt; &amp;context, std::chrono::time_point&lt; std::chrono::system_clock &gt; messageTime, std::thread::id messageThreadId)</td></tr>
 <tr class="separator:a68f2afe1d53ddb97994ff4d6bb604b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ab13d7d230bf823188e54c6cad496a1f7" id="r_ab13d7d230bf823188e54c6cad496a1f7"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab13d7d230bf823188e54c6cad496a1f7">mContext</a></td></tr>
+<tr class="separator:ab13d7d230bf823188e54c6cad496a1f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a050c68b9d406415f919046ca635ee487" id="r_a050c68b9d406415f919046ca635ee487"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a050c68b9d406415f919046ca635ee487">mFile</a></td></tr>
+<tr class="separator:a050c68b9d406415f919046ca635ee487"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14dd745697181e25ecbfd21372539cac" id="r_a14dd745697181e25ecbfd21372539cac"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14dd745697181e25ecbfd21372539cac">mFunction</a></td></tr>
+<tr class="separator:a14dd745697181e25ecbfd21372539cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefec4efb37353e981bd412b8cceeb92d" id="r_aefec4efb37353e981bd412b8cceeb92d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="log__message__data_8h.html#a7a38c7496c92835c0d835ecb2f8135c1">LogLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefec4efb37353e981bd412b8cceeb92d">mLevel</a></td></tr>
+<tr class="separator:aefec4efb37353e981bd412b8cceeb92d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa6326f930c51bae95316b536d3edbf5" id="r_afa6326f930c51bae95316b536d3edbf5"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa6326f930c51bae95316b536d3edbf5">mLine</a></td></tr>
+<tr class="separator:afa6326f930c51bae95316b536d3edbf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fabb33723efa11b4fe710cd5446cb42" id="r_a2fabb33723efa11b4fe710cd5446cb42"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fabb33723efa11b4fe710cd5446cb42">mLogMessage</a></td></tr>
+<tr class="separator:a2fabb33723efa11b4fe710cd5446cb42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a104da444bf2ff31a9b5b8bf24a8bd4cc" id="r_a104da444bf2ff31a9b5b8bf24a8bd4cc"><td class="memItemLeft" align="right" valign="top">std::thread::id&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a104da444bf2ff31a9b5b8bf24a8bd4cc">mMessageThreadId</a></td></tr>
+<tr class="separator:a104da444bf2ff31a9b5b8bf24a8bd4cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fe7d3658c84b7d7b9b929752353405a" id="r_a5fe7d3658c84b7d7b9b929752353405a"><td class="memItemLeft" align="right" valign="top">std::chrono::time_point&lt; std::chrono::system_clock &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fe7d3658c84b7d7b9b929752353405a">mMessageTime</a></td></tr>
+<tr class="separator:a5fe7d3658c84b7d7b9b929752353405a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class that stores log messages. </p>
@@ -201,15 +239,23 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="log__message__data_8h_source.html#l00060">60</a> of file <a class="el" href="log__message__data_8h_source.html">log_message_data.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   69</span>    : mLevel(level),</div>
-<div class="line"><span class="lineno">   70</span>      mLogMessage(message),</div>
-<div class="line"><span class="lineno">   71</span>      mFunction(function),</div>
-<div class="line"><span class="lineno">   72</span>      mFile(file),</div>
-<div class="line"><span class="lineno">   73</span>      mLine(line),</div>
-<div class="line"><span class="lineno">   74</span>      mContext(context),</div>
-<div class="line"><span class="lineno">   75</span>      mMessageTime(messageTime),</div>
-<div class="line"><span class="lineno">   76</span>      mMessageThreadId(messageThreadId) {</div>
+<div class="fragment"><div class="line"><span class="lineno">   69</span>    : <a class="code hl_variable" href="#aefec4efb37353e981bd412b8cceeb92d">mLevel</a>(level),</div>
+<div class="line"><span class="lineno">   70</span>      <a class="code hl_variable" href="#a2fabb33723efa11b4fe710cd5446cb42">mLogMessage</a>(message),</div>
+<div class="line"><span class="lineno">   71</span>      <a class="code hl_variable" href="#a14dd745697181e25ecbfd21372539cac">mFunction</a>(function),</div>
+<div class="line"><span class="lineno">   72</span>      <a class="code hl_variable" href="#a050c68b9d406415f919046ca635ee487">mFile</a>(file),</div>
+<div class="line"><span class="lineno">   73</span>      <a class="code hl_variable" href="#afa6326f930c51bae95316b536d3edbf5">mLine</a>(line),</div>
+<div class="line"><span class="lineno">   74</span>      <a class="code hl_variable" href="#ab13d7d230bf823188e54c6cad496a1f7">mContext</a>(context),</div>
+<div class="line"><span class="lineno">   75</span>      <a class="code hl_variable" href="#a5fe7d3658c84b7d7b9b929752353405a">mMessageTime</a>(messageTime),</div>
+<div class="line"><span class="lineno">   76</span>      <a class="code hl_variable" href="#a104da444bf2ff31a9b5b8bf24a8bd4cc">mMessageThreadId</a>(messageThreadId) {</div>
 <div class="line"><span class="lineno">   77</span>  }</div>
+<div class="ttc" id="aclassLogMessageData_html_a050c68b9d406415f919046ca635ee487"><div class="ttname"><a href="#a050c68b9d406415f919046ca635ee487">LogMessageData::mFile</a></div><div class="ttdeci">std::string mFile</div><div class="ttdef"><b>Definition</b> <a href="log__message__data_8h_source.html#l00123">log_message_data.h:123</a></div></div>
+<div class="ttc" id="aclassLogMessageData_html_a104da444bf2ff31a9b5b8bf24a8bd4cc"><div class="ttname"><a href="#a104da444bf2ff31a9b5b8bf24a8bd4cc">LogMessageData::mMessageThreadId</a></div><div class="ttdeci">std::thread::id mMessageThreadId</div><div class="ttdef"><b>Definition</b> <a href="log__message__data_8h_source.html#l00127">log_message_data.h:127</a></div></div>
+<div class="ttc" id="aclassLogMessageData_html_a14dd745697181e25ecbfd21372539cac"><div class="ttname"><a href="#a14dd745697181e25ecbfd21372539cac">LogMessageData::mFunction</a></div><div class="ttdeci">std::string mFunction</div><div class="ttdef"><b>Definition</b> <a href="log__message__data_8h_source.html#l00122">log_message_data.h:122</a></div></div>
+<div class="ttc" id="aclassLogMessageData_html_a2fabb33723efa11b4fe710cd5446cb42"><div class="ttname"><a href="#a2fabb33723efa11b4fe710cd5446cb42">LogMessageData::mLogMessage</a></div><div class="ttdeci">std::string mLogMessage</div><div class="ttdef"><b>Definition</b> <a href="log__message__data_8h_source.html#l00121">log_message_data.h:121</a></div></div>
+<div class="ttc" id="aclassLogMessageData_html_a5fe7d3658c84b7d7b9b929752353405a"><div class="ttname"><a href="#a5fe7d3658c84b7d7b9b929752353405a">LogMessageData::mMessageTime</a></div><div class="ttdeci">std::chrono::time_point&lt; std::chrono::system_clock &gt; mMessageTime</div><div class="ttdef"><b>Definition</b> <a href="log__message__data_8h_source.html#l00126">log_message_data.h:126</a></div></div>
+<div class="ttc" id="aclassLogMessageData_html_ab13d7d230bf823188e54c6cad496a1f7"><div class="ttname"><a href="#ab13d7d230bf823188e54c6cad496a1f7">LogMessageData::mContext</a></div><div class="ttdeci">std::shared_ptr&lt; void &gt; mContext</div><div class="ttdef"><b>Definition</b> <a href="log__message__data_8h_source.html#l00125">log_message_data.h:125</a></div></div>
+<div class="ttc" id="aclassLogMessageData_html_aefec4efb37353e981bd412b8cceeb92d"><div class="ttname"><a href="#aefec4efb37353e981bd412b8cceeb92d">LogMessageData::mLevel</a></div><div class="ttdeci">LogLevel mLevel</div><div class="ttdef"><b>Definition</b> <a href="log__message__data_8h_source.html#l00120">log_message_data.h:120</a></div></div>
+<div class="ttc" id="aclassLogMessageData_html_afa6326f930c51bae95316b536d3edbf5"><div class="ttname"><a href="#afa6326f930c51bae95316b536d3edbf5">LogMessageData::mLine</a></div><div class="ttdeci">int32_t mLine</div><div class="ttdef"><b>Definition</b> <a href="log__message__data_8h_source.html#l00124">log_message_data.h:124</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -240,8 +286,10 @@ Public Member Functions</h2></td></tr>
 <p>The logger context for the log statement. </p>
 
 <p class="definition">Definition at line <a class="el" href="log__message__data_8h_source.html#l00107">107</a> of file <a class="el" href="log__message__data_8h_source.html">log_message_data.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  107</span>{ <span class="keywordflow">return</span> mContext; }</div>
+<div class="fragment"><div class="line"><span class="lineno">  107</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#ab13d7d230bf823188e54c6cad496a1f7">mContext</a>; }</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="log__message__data_8h_source.html#l00125">mContext</a>.</p>
+
 <p class="reference">Referenced by <a class="el" href="logger__delegate_8h_source.html#l00102">LoggerDelegate::WriteToLogWithLogMessage()</a>.</p>
 
 </div>
@@ -272,8 +320,10 @@ Public Member Functions</h2></td></tr>
 <p>The file name for the log statement. </p>
 
 <p class="definition">Definition at line <a class="el" href="log__message__data_8h_source.html#l00097">97</a> of file <a class="el" href="log__message__data_8h_source.html">log_message_data.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   97</span>{ <span class="keywordflow">return</span> mFile; }</div>
+<div class="fragment"><div class="line"><span class="lineno">   97</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a050c68b9d406415f919046ca635ee487">mFile</a>; }</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="log__message__data_8h_source.html#l00123">mFile</a>.</p>
+
 <p class="reference">Referenced by <a class="el" href="logger__delegate_8h_source.html#l00102">LoggerDelegate::WriteToLogWithLogMessage()</a>.</p>
 
 </div>
@@ -304,8 +354,10 @@ Public Member Functions</h2></td></tr>
 <p>The function name for the log statement. </p>
 
 <p class="definition">Definition at line <a class="el" href="log__message__data_8h_source.html#l00092">92</a> of file <a class="el" href="log__message__data_8h_source.html">log_message_data.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   92</span>{ <span class="keywordflow">return</span> mFunction; }</div>
+<div class="fragment"><div class="line"><span class="lineno">   92</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a14dd745697181e25ecbfd21372539cac">mFunction</a>; }</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="log__message__data_8h_source.html#l00122">mFunction</a>.</p>
+
 <p class="reference">Referenced by <a class="el" href="logger__delegate_8h_source.html#l00102">LoggerDelegate::WriteToLogWithLogMessage()</a>.</p>
 
 </div>
@@ -336,8 +388,10 @@ Public Member Functions</h2></td></tr>
 <p>The log level for the log statement. </p>
 
 <p class="definition">Definition at line <a class="el" href="log__message__data_8h_source.html#l00082">82</a> of file <a class="el" href="log__message__data_8h_source.html">log_message_data.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   82</span>{ <span class="keywordflow">return</span> mLevel; }</div>
+<div class="fragment"><div class="line"><span class="lineno">   82</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#aefec4efb37353e981bd412b8cceeb92d">mLevel</a>; }</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="log__message__data_8h_source.html#l00120">mLevel</a>.</p>
+
 <p class="reference">Referenced by <a class="el" href="logger__delegate_8h_source.html#l00102">LoggerDelegate::WriteToLogWithLogMessage()</a>.</p>
 
 </div>
@@ -368,8 +422,10 @@ Public Member Functions</h2></td></tr>
 <p>The line number for the log statement. </p>
 
 <p class="definition">Definition at line <a class="el" href="log__message__data_8h_source.html#l00102">102</a> of file <a class="el" href="log__message__data_8h_source.html">log_message_data.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  102</span>{ <span class="keywordflow">return</span> mLine; }</div>
+<div class="fragment"><div class="line"><span class="lineno">  102</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#afa6326f930c51bae95316b536d3edbf5">mLine</a>; }</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="log__message__data_8h_source.html#l00124">mLine</a>.</p>
+
 <p class="reference">Referenced by <a class="el" href="logger__delegate_8h_source.html#l00102">LoggerDelegate::WriteToLogWithLogMessage()</a>.</p>
 
 </div>
@@ -400,8 +456,10 @@ Public Member Functions</h2></td></tr>
 <p>The message for the log statement. </p>
 
 <p class="definition">Definition at line <a class="el" href="log__message__data_8h_source.html#l00087">87</a> of file <a class="el" href="log__message__data_8h_source.html">log_message_data.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   87</span>{ <span class="keywordflow">return</span> mLogMessage; }</div>
+<div class="fragment"><div class="line"><span class="lineno">   87</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a2fabb33723efa11b4fe710cd5446cb42">mLogMessage</a>; }</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="log__message__data_8h_source.html#l00121">mLogMessage</a>.</p>
+
 <p class="reference">Referenced by <a class="el" href="logger__delegate_8h_source.html#l00102">LoggerDelegate::WriteToLogWithLogMessage()</a>.</p>
 
 </div>
@@ -432,8 +490,10 @@ Public Member Functions</h2></td></tr>
 <p>The thread id of the log statement. </p>
 
 <p class="definition">Definition at line <a class="el" href="log__message__data_8h_source.html#l00117">117</a> of file <a class="el" href="log__message__data_8h_source.html">log_message_data.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  117</span>{ <span class="keywordflow">return</span> mMessageThreadId; }</div>
+<div class="fragment"><div class="line"><span class="lineno">  117</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a104da444bf2ff31a9b5b8bf24a8bd4cc">mMessageThreadId</a>; }</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="log__message__data_8h_source.html#l00127">mMessageThreadId</a>.</p>
+
 </div>
 </div>
 <a id="a7d645b9b20c1480e99e8da57f6059821" name="a7d645b9b20c1480e99e8da57f6059821"></a>
@@ -462,8 +522,219 @@ Public Member Functions</h2></td></tr>
 <p>The message time of the log statement. </p>
 
 <p class="definition">Definition at line <a class="el" href="log__message__data_8h_source.html#l00112">112</a> of file <a class="el" href="log__message__data_8h_source.html">log_message_data.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  112</span>{ <span class="keywordflow">return</span> mMessageTime; }</div>
+<div class="fragment"><div class="line"><span class="lineno">  112</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a5fe7d3658c84b7d7b9b929752353405a">mMessageTime</a>; }</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="log__message__data_8h_source.html#l00126">mMessageTime</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab13d7d230bf823188e54c6cad496a1f7" name="ab13d7d230bf823188e54c6cad496a1f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab13d7d230bf823188e54c6cad496a1f7">&#9670;&#160;</a></span>mContext</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;void&gt; LogMessageData::mContext</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="log__message__data_8h_source.html#l00125">125</a> of file <a class="el" href="log__message__data_8h_source.html">log_message_data.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="log__message__data_8h_source.html#l00107">GetContext()</a>.</p>
+
+</div>
+</div>
+<a id="a050c68b9d406415f919046ca635ee487" name="a050c68b9d406415f919046ca635ee487"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a050c68b9d406415f919046ca635ee487">&#9670;&#160;</a></span>mFile</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string LogMessageData::mFile</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="log__message__data_8h_source.html#l00123">123</a> of file <a class="el" href="log__message__data_8h_source.html">log_message_data.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="log__message__data_8h_source.html#l00097">GetFile()</a>.</p>
+
+</div>
+</div>
+<a id="a14dd745697181e25ecbfd21372539cac" name="a14dd745697181e25ecbfd21372539cac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14dd745697181e25ecbfd21372539cac">&#9670;&#160;</a></span>mFunction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string LogMessageData::mFunction</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="log__message__data_8h_source.html#l00122">122</a> of file <a class="el" href="log__message__data_8h_source.html">log_message_data.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="log__message__data_8h_source.html#l00092">GetFunction()</a>.</p>
+
+</div>
+</div>
+<a id="aefec4efb37353e981bd412b8cceeb92d" name="aefec4efb37353e981bd412b8cceeb92d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefec4efb37353e981bd412b8cceeb92d">&#9670;&#160;</a></span>mLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="log__message__data_8h.html#a7a38c7496c92835c0d835ecb2f8135c1">LogLevel</a> LogMessageData::mLevel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="log__message__data_8h_source.html#l00120">120</a> of file <a class="el" href="log__message__data_8h_source.html">log_message_data.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="log__message__data_8h_source.html#l00082">GetLevel()</a>.</p>
+
+</div>
+</div>
+<a id="afa6326f930c51bae95316b536d3edbf5" name="afa6326f930c51bae95316b536d3edbf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa6326f930c51bae95316b536d3edbf5">&#9670;&#160;</a></span>mLine</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t LogMessageData::mLine</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="log__message__data_8h_source.html#l00124">124</a> of file <a class="el" href="log__message__data_8h_source.html">log_message_data.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="log__message__data_8h_source.html#l00102">GetLine()</a>.</p>
+
+</div>
+</div>
+<a id="a2fabb33723efa11b4fe710cd5446cb42" name="a2fabb33723efa11b4fe710cd5446cb42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fabb33723efa11b4fe710cd5446cb42">&#9670;&#160;</a></span>mLogMessage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string LogMessageData::mLogMessage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="log__message__data_8h_source.html#l00121">121</a> of file <a class="el" href="log__message__data_8h_source.html">log_message_data.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="log__message__data_8h_source.html#l00087">GetLogMessage()</a>.</p>
+
+</div>
+</div>
+<a id="a104da444bf2ff31a9b5b8bf24a8bd4cc" name="a104da444bf2ff31a9b5b8bf24a8bd4cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a104da444bf2ff31a9b5b8bf24a8bd4cc">&#9670;&#160;</a></span>mMessageThreadId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::thread::id LogMessageData::mMessageThreadId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="log__message__data_8h_source.html#l00127">127</a> of file <a class="el" href="log__message__data_8h_source.html">log_message_data.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="log__message__data_8h_source.html#l00117">GetMessageThreadId()</a>.</p>
+
+</div>
+</div>
+<a id="a5fe7d3658c84b7d7b9b929752353405a" name="a5fe7d3658c84b7d7b9b929752353405a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fe7d3658c84b7d7b9b929752353405a">&#9670;&#160;</a></span>mMessageTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::chrono::time_point&lt;std::chrono::system_clock&gt; LogMessageData::mMessageTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="log__message__data_8h_source.html#l00126">126</a> of file <a class="el" href="log__message__data_8h_source.html">log_message_data.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="log__message__data_8h_source.html#l00112">GetMessageTime()</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

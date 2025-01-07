@@ -1,0 +1,16 @@
+<map id="DirectoryObjectRights" name="DirectoryObjectRights">
+<area shape="rect" id="Node000001" title="The directory object and rights associated with it." alt="" coords="123,313,289,339"/>
+<area shape="rect" id="Node000002" href="$classDirectoryObject.html" title="The directory object information which includes&#45; type, email, objectId and PUID." alt="" coords="235,225,359,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="276,262,220,315,217,311,273,258"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="205,108,292,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="264,144,270,156,295,224,290,226,265,158,259,147"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="23,225,210,251"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="218,143,199,159,186,181,173,203,141,227,138,223,169,200,182,178,195,156,214,139"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="179,5,318,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="251,59,251,108,246,108,246,59"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="140,258,195,311,192,315,137,262"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,108,135,133"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="68,147,67,174,74,200,83,213,96,223,93,227,80,217,69,202,62,174,62,147"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="51,13,89,38"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="73,52,73,108,67,108,67,52"/>
+</map>

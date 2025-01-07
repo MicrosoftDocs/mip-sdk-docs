@@ -143,10 +143,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1c73e586dccb9aa01f295310bd0f1e30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the collection of properties (including usage rights) associated with a user for a given label ID.  <br /></td></tr>
 <tr class="separator:a1c73e586dccb9aa01f295310bd0f1e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3372e9be3bdf01ac9e621c6164f6283" id="r_ae3372e9be3bdf01ac9e621c6164f6283"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classLicenseRightsData.html">LicenseRightsData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3372e9be3bdf01ac9e621c6164f6283">GetLicenseRightsData</a> (const std::vector&lt; uint8_t &gt; &amp;serializedPublishingLicense, const std::shared_ptr&lt; void &gt; &amp;context, const <a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a> &amp;settings=<a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a>())=0</td></tr>
-<tr class="memdesc:ae3372e9be3bdf01ac9e621c6164f6283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the rights data for a license.  <br /></td></tr>
+<tr class="memdesc:ae3372e9be3bdf01ac9e621c6164f6283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the rights data for a license. This method requires the requesting identity to be included in the super user list for your organization. Alternatively, the identity must have been granted VIEWRIGHTSDATA, EDITRIGHTSDATA, or OWNER rights to the content.  <br /></td></tr>
 <tr class="separator:ae3372e9be3bdf01ac9e621c6164f6283"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0860c37683c7a506b17da43b5727d3d9" id="r_a0860c37683c7a506b17da43b5727d3d9"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classAsyncControl.html">AsyncControl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0860c37683c7a506b17da43b5727d3d9">GetLicenseRightsDataAsync</a> (const std::vector&lt; uint8_t &gt; &amp;serializedPublishingLicense, const std::shared_ptr&lt; <a class="el" href="classProtectionEngine_1_1Observer.html">ProtectionEngine::Observer</a> &gt; &amp;observer, const std::shared_ptr&lt; void &gt; &amp;context, const <a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a> &amp;settings=<a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a>())=0</td></tr>
-<tr class="memdesc:a0860c37683c7a506b17da43b5727d3d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the rights data for a license.  <br /></td></tr>
+<tr class="memdesc:a0860c37683c7a506b17da43b5727d3d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the rights data for a license. This method requires the requesting identity to be included in the super user list for your organization. Alternatively, the identity must have been granted VIEWRIGHTSDATA, EDITRIGHTSDATA, or OWNER rights to the content.  <br /></td></tr>
 <tr class="separator:a0860c37683c7a506b17da43b5727d3d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27188c4cdc1099e8d3eb9b3e63e7329b" id="r_a27188c4cdc1099e8d3eb9b3e63e7329b"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27188c4cdc1099e8d3eb9b3e63e7329b">GetRightsForLabelId</a> (const std::string &amp;documentId, const std::string &amp;labelId, const std::string &amp;ownerEmail, const std::string &amp;delegatedUserEmail, const std::shared_ptr&lt; void &gt; &amp;context, const <a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a> &amp;settings=<a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a>())=0</td></tr>
 <tr class="memdesc:a27188c4cdc1099e8d3eb9b3e63e7329b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get collection of rights available to a user for a labelId.  <br /></td></tr>
@@ -556,8 +556,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get the rights data for a license. </p>
-<p>This method requires the requesting identity to be included in the super user list for your organization. Alternatively, the identity must have been granted VIEWRIGHTSDATA, EDITRIGHTSDATA, or OWNER rights to the content.</p>
+<p>Get the rights data for a license. This method requires the requesting identity to be included in the super user list for your organization. Alternatively, the identity must have been granted VIEWRIGHTSDATA, EDITRIGHTSDATA, or OWNER rights to the content. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">serializedPublishingLicense</td><td>Serialized publishing license from protected content </td></tr>
@@ -607,8 +606,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get the rights data for a license. </p>
-<p>This method requires the requesting identity to be included in the super user list for your organization. Alternatively, the identity must have been granted VIEWRIGHTSDATA, EDITRIGHTSDATA, or OWNER rights to the content.</p>
+<p>Get the rights data for a license. This method requires the requesting identity to be included in the super user list for your organization. Alternatively, the identity must have been granted VIEWRIGHTSDATA, EDITRIGHTSDATA, or OWNER rights to the content. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">serializedPublishingLicense</td><td>Serialized publishing license from protected content </td></tr>

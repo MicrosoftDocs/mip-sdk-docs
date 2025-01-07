@@ -153,7 +153,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a779d55c1ae8bf1dcc68db30ff24e8023"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a file inspector object, used to retrieve file contents from compatible file formats.  <br /></td></tr>
 <tr class="separator:a779d55c1ae8bf1dcc68db30ff24e8023"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af188d8ad574b19a2e6ea660c154b3429" id="r_af188d8ad574b19a2e6ea660c154b3429"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af188d8ad574b19a2e6ea660c154b3429">IsModified</a> ()=0</td></tr>
-<tr class="memdesc:af188d8ad574b19a2e6ea660c154b3429"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if there are changes to commit to the file.  <br /></td></tr>
+<tr class="memdesc:af188d8ad574b19a2e6ea660c154b3429"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if there are changes to commit to the file. <br  />
+  <br /></td></tr>
 <tr class="separator:af188d8ad574b19a2e6ea660c154b3429"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb689c03ba38e46190b0a76477f9f33d" id="r_adb689c03ba38e46190b0a76477f9f33d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb689c03ba38e46190b0a76477f9f33d">NotifyCommitSuccessful</a> (const std::string &amp;actualFilePath)=0</td></tr>
 <tr class="memdesc:adb689c03ba38e46190b0a76477f9f33d"><td class="mdescLeft">&#160;</td><td class="mdescRight">To be called when the changes have been committed to disk.  <br /></td></tr>
@@ -162,7 +163,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa2897f59f5128c70af1affd5d3d04aa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register the content for tracking and revocation.  <br /></td></tr>
 <tr class="separator:aa2897f59f5128c70af1affd5d3d04aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5226807a5ebc9ec2199c5888cbb41484" id="r_a5226807a5ebc9ec2199c5888cbb41484"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5226807a5ebc9ec2199c5888cbb41484">RemoveProtection</a> ()=0</td></tr>
-<tr class="memdesc:a5226807a5ebc9ec2199c5888cbb41484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes protection from the file.  <br /></td></tr>
+<tr class="memdesc:a5226807a5ebc9ec2199c5888cbb41484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes protection from the file. If the original file format does not support labeling, the label will be lost when protection is removed. When the native format supports labeling, the label metadata is maintained.  <br /></td></tr>
 <tr class="separator:a5226807a5ebc9ec2199c5888cbb41484"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad55e697d9fd18e4400dc705892ac9df7" id="r_ad55e697d9fd18e4400dc705892ac9df7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad55e697d9fd18e4400dc705892ac9df7">RevokeContentAsync</a> (const std::shared_ptr&lt; <a class="el" href="classProtectionEngine_1_1Observer.html">ProtectionEngine::Observer</a> &gt; &amp;observer, const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
 <tr class="memdesc:ad55e697d9fd18e4400dc705892ac9df7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform revocation for the content.  <br /></td></tr>
@@ -1049,9 +1050,9 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Checks if there are changes to commit to the file. </p>
-<p><br  />
- </p><dl class="section note"><dt>Note</dt><dd>Changes won't be written to the file until CommitAsync is called. <br  />
+<p>Checks if there are changes to commit to the file. <br  />
+ </p>
+<dl class="section note"><dt>Note</dt><dd>Changes won't be written to the file until CommitAsync is called. <br  />
  </dd></dl>
 
 </div>
@@ -1346,8 +1347,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Removes protection from the file. </p>
-<p>If the original file format does not support labeling, the label will be lost when protection is removed. When the native format supports labeling, the label metadata is maintained.</p>
+<p>Removes protection from the file. If the original file format does not support labeling, the label will be lost when protection is removed. When the native format supports labeling, the label metadata is maintained. </p>
 <dl class="section note"><dt>Note</dt><dd>Changes won't be written to the file until CommitAsync is called. </dd></dl>
 
 </div>

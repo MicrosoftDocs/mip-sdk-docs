@@ -116,7 +116,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a201a2ae28594f4fd185533da4866fbae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the delegated user.  <br /></td></tr>
 <tr class="separator:a201a2ae28594f4fd185533da4866fbae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24ba3df545f16d1a25d2bd0d34e9f212" id="r_a24ba3df545f16d1a25d2bd0d34e9f212"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24ba3df545f16d1a25d2bd0d34e9f212">SetDelegatedUserEmail</a> (const std::string &amp;delegatedUserEmail)=0</td></tr>
-<tr class="memdesc:a24ba3df545f16d1a25d2bd0d34e9f212"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the optional delegated user.  <br /></td></tr>
+<tr class="memdesc:a24ba3df545f16d1a25d2bd0d34e9f212"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the optional delegated user. If this is not set then the prelicense is for the user in the token.  <br /></td></tr>
 <tr class="separator:a24ba3df545f16d1a25d2bd0d34e9f212"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -212,8 +212,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets the optional delegated user. </p>
-<p>If this is not set then the prelicense is for the user in the token</p>
+<p>Sets the optional delegated user. If this is not set then the prelicense is for the user in the token. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">delegatedUserEmail</td><td>the delegation email.</td></tr>

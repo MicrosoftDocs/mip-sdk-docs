@@ -112,13 +112,15 @@ $(function(){initNavTree('classFileStatus.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5457b68043e90e10db80751180eac5f7" id="r_a5457b68043e90e10db80751180eac5f7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5457b68043e90e10db80751180eac5f7">ContainsProtectedObjects</a> ()=0</td></tr>
-<tr class="memdesc:a5457b68043e90e10db80751180eac5f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the unprotected container file contains protected objects.  <br /></td></tr>
+<tr class="memdesc:a5457b68043e90e10db80751180eac5f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the unprotected container file contains protected objects. Returns false if this file is protected or not a container file <br  />
+  <br /></td></tr>
 <tr class="separator:a5457b68043e90e10db80751180eac5f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af17bc3b0916df146783c88f39333ebfb" id="r_af17bc3b0916df146783c88f39333ebfb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af17bc3b0916df146783c88f39333ebfb">IsLabeled</a> ()=0</td></tr>
 <tr class="memdesc:af17bc3b0916df146783c88f39333ebfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a file is labeled or not.  <br /></td></tr>
 <tr class="separator:af17bc3b0916df146783c88f39333ebfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e424f7d7398607dd5ca709b9d8eef44" id="r_a3e424f7d7398607dd5ca709b9d8eef44"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e424f7d7398607dd5ca709b9d8eef44">IsProtected</a> ()=0</td></tr>
-<tr class="memdesc:a3e424f7d7398607dd5ca709b9d8eef44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a file is protected or not.  <br /></td></tr>
+<tr class="memdesc:a3e424f7d7398607dd5ca709b9d8eef44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a file is protected or not. <br  />
+  <br /></td></tr>
 <tr class="separator:a3e424f7d7398607dd5ca709b9d8eef44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -149,8 +151,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Checks if the unprotected container file contains protected objects. </p>
-<p>Returns false if this file is protected or not a container file <br  />
+<p>Checks if the unprotected container file contains protected objects. Returns false if this file is protected or not a container file <br  />
  </p>
 
 </div>
@@ -205,8 +206,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Checks if a file is protected or not. </p>
-<p><br  />
+<p>Checks if a file is protected or not. <br  />
  </p>
 
 </div>

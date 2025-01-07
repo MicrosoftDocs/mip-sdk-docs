@@ -108,11 +108,9 @@ $(function(){initNavTree('classDiagnosticDelegate.html',''); initResizable(true)
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="diagnostic__delegate_8h_source.html">src/api/mip/diagnostic_delegate.h</a>&gt;</code></p>
-<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for DiagnosticDelegate&lt; T &gt;:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="dynheader">
+Inheritance diagram for DiagnosticDelegate&lt; T &gt;:</div>
+<div class="dyncontent">
 <div class="center"><img src="classDiagnosticDelegate__inherit__graph.png" border="0" usemap="#aDiagnosticDelegate_3_01T_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="aDiagnosticDelegate_3_01T_01_4_inherit__map" id="aDiagnosticDelegate_3_01T_01_4_inherit__map">
 <area shape="rect" title="A class that defines the interface to the MIP SDK audit/telemetry notifications." alt="" coords="75,5,263,31"/>
@@ -130,7 +128,7 @@ $(function(){initNavTree('classDiagnosticDelegate.html',''); initResizable(true)
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab3a21b96a53f97ab2921d201990c1c68" id="r_ab3a21b96a53f97ab2921d201990c1c68"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3a21b96a53f97ab2921d201990c1c68">Flush</a> ()=0</td></tr>
-<tr class="memdesc:ab3a21b96a53f97ab2921d201990c1c68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush any queued events (e.g.  <br /></td></tr>
+<tr class="memdesc:ab3a21b96a53f97ab2921d201990c1c68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush any queued events (e.g. due to shutdown)  <br /></td></tr>
 <tr class="separator:ab3a21b96a53f97ab2921d201990c1c68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a593e9c0012f9fc0ad5301b92b29b2a1c" id="r_a593e9c0012f9fc0ad5301b92b29b2a1c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a593e9c0012f9fc0ad5301b92b29b2a1c">WriteEvent</a> (const std::shared_ptr&lt; T &gt; &amp;event)=0</td></tr>
 <tr class="memdesc:a593e9c0012f9fc0ad5301b92b29b2a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log a diagnostic event.  <br /></td></tr>
@@ -170,8 +168,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Flush any queued events (e.g. </p>
-<p>due to shutdown) </p>
+<p>Flush any queued events (e.g. due to shutdown) </p>
 
 </div>
 </div>

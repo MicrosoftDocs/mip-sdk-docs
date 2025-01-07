@@ -1,5 +1,5 @@
 <map id="JustifyAction" name="JustifyAction">
 <area shape="rect" id="Node000001" title="Justify Action requires providing a justification to a label downgrade and setting the response in th..." alt="" coords="5,79,108,104"/>
-<area shape="rect" id="Node000002" href="$classAction.html" title="Interface for an action." alt="" coords="25,5,88,31"/>
+<area shape="rect" id="Node000002" href="$classAction.html" title="Interface for an action. Each action translates to a step that needs to be taken by the application t..." alt="" coords="25,5,88,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,44,59,79,54,79,54,44"/>
 </map>

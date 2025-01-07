@@ -104,7 +104,7 @@ $(function(){initNavTree('structLoggerConfiguration.html',''); initResizable(tru
 </div><!--header-->
 <div class="contents">
 
-<p>Configuration to use when default logging is enabled.  
+<p>Configuration to use when default logging is enabled. This is set only once per process and any later change will be ignored.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="diagnostic__configuration_8h_source.html">src/api/mip/diagnostic_configuration.h</a>&gt;</code></p>
@@ -112,18 +112,14 @@ $(function(){initNavTree('structLoggerConfiguration.html',''); initResizable(tru
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ad79e5a36f90608b22d6afb226ca0e09b" id="r_ad79e5a36f90608b22d6afb226ca0e09b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad79e5a36f90608b22d6afb226ca0e09b">isPiiAllowed</a> = true</td></tr>
-<tr class="memdesc:ad79e5a36f90608b22d6afb226ca0e09b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to allow PII in the logs (default is true).  <br /></td></tr>
 <tr class="separator:ad79e5a36f90608b22d6afb226ca0e09b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34cc0c823739780fc490b2d15f39a86e" id="r_a34cc0c823739780fc490b2d15f39a86e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34cc0c823739780fc490b2d15f39a86e">maxLogFileCount</a> = 2</td></tr>
-<tr class="memdesc:a34cc0c823739780fc490b2d15f39a86e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of logfiles to store (default is 2).  <br /></td></tr>
 <tr class="separator:a34cc0c823739780fc490b2d15f39a86e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77a2fbd2e611a58ce9780370df8beb83" id="r_a77a2fbd2e611a58ce9780370df8beb83"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77a2fbd2e611a58ce9780370df8beb83">maxLogFileSizeMb</a> = 20</td></tr>
-<tr class="memdesc:a77a2fbd2e611a58ce9780370df8beb83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum size for a logfile in MB (default is 20).  <br /></td></tr>
 <tr class="separator:a77a2fbd2e611a58ce9780370df8beb83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Configuration to use when default logging is enabled. </p>
-<p>This is set only once per process and any later change will be ignored. </p>
+<div class="textblock"><p>Configuration to use when default logging is enabled. This is set only once per process and any later change will be ignored. </p>
 
 <p class="definition">Definition at line <a class="el" href="diagnostic__configuration_8h_source.html#l00080">80</a> of file <a class="el" href="diagnostic__configuration_8h_source.html">diagnostic_configuration.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
@@ -138,9 +134,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Whether to allow PII in the logs (default is true). </p>
-<p>Set to true to allow Pii in logs. Set to false to mask Pii. OII data will not be masked. </p>
+<p>Whether to allow PII in the logs (default is true). Set to true to allow Pii in logs. Set to false to mask Pii. OII data will not be masked. </p>
 
 <p class="definition">Definition at line <a class="el" href="diagnostic__configuration_8h_source.html#l00083">83</a> of file <a class="el" href="diagnostic__configuration_8h_source.html">diagnostic_configuration.h</a>.</p>
 
@@ -157,9 +151,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Maximum number of logfiles to store (default is 2). </p>
-<p>The valid range for maxLogFileCount is -1 to INT_MAX. Set to 0 to disable logging. Set to -1 to indicate no limit. </p>
+<p>Maximum number of logfiles to store (default is 2). The valid range for maxLogFileCount is -1 to INT_MAX. Set to 0 to disable logging. Set to -1 to indicate no limit. </p>
 
 <p class="definition">Definition at line <a class="el" href="diagnostic__configuration_8h_source.html#l00082">82</a> of file <a class="el" href="diagnostic__configuration_8h_source.html">diagnostic_configuration.h</a>.</p>
 
@@ -176,9 +168,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Maximum size for a logfile in MB (default is 20). </p>
-<p>The valid range for maxLogFileSizeMb is -1 through 1024. Set to 0 to disable logging. Set to -1 to indicate no limit. </p>
+<p>Maximum size for a logfile in MB (default is 20). The valid range for maxLogFileSizeMb is -1 through 1024. Set to 0 to disable logging. Set to -1 to indicate no limit. </p>
 
 <p class="definition">Definition at line <a class="el" href="diagnostic__configuration_8h_source.html#l00081">81</a> of file <a class="el" href="diagnostic__configuration_8h_source.html">diagnostic_configuration.h</a>.</p>
 

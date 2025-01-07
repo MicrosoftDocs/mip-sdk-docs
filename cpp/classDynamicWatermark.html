@@ -112,7 +112,7 @@ $(function(){initNavTree('classDynamicWatermark.html',''); initResizable(true); 
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a411cd516146e9fa64ba4ac6d3e208fca" id="r_a411cd516146e9fa64ba4ac6d3e208fca"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a411cd516146e9fa64ba4ac6d3e208fca">GetFormatString</a> () const =0</td></tr>
-<tr class="memdesc:a411cd516146e9fa64ba4ac6d3e208fca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the raw formatted string the admin has configured, which may include variables such as ${Consumer.PrincipalName}.  <br /></td></tr>
+<tr class="memdesc:a411cd516146e9fa64ba4ac6d3e208fca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the raw formatted string the admin has configured, which may include variables such as ${Consumer.PrincipalName}. This string can be populated from the label in the protection flow or it can be populated from the use license in the consumption flow.  <br /></td></tr>
 <tr class="separator:a411cd516146e9fa64ba4ac6d3e208fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4622a85b10755d9fdfeaea6467bfb184" id="r_a4622a85b10755d9fdfeaea6467bfb184"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4622a85b10755d9fdfeaea6467bfb184">GetText</a> () const =0</td></tr>
 <tr class="memdesc:a4622a85b10755d9fdfeaea6467bfb184"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the text which will be displayed to the end user by replacing the variables in the format string.  <br /></td></tr>
@@ -146,8 +146,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the raw formatted string the admin has configured, which may include variables such as ${Consumer.PrincipalName}. </p>
-<p>This string can be populated from the label in the protection flow or it can be populated from the use license in the consumption flow.</p>
+<p>Gets the raw formatted string the admin has configured, which may include variables such as ${Consumer.PrincipalName}. This string can be populated from the label in the protection flow or it can be populated from the use license in the consumption flow. </p>
 <dl class="section return"><dt>Returns</dt><dd>The raw format string </dd></dl>
 
 </div>

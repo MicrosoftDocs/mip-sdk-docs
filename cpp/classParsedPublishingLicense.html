@@ -124,7 +124,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a817fc78e5dd6c7e67702d0699e09926e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the double key algorithm.  <br /></td></tr>
 <tr class="separator:a817fc78e5dd6c7e67702d0699e09926e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac43ec9a66af64719b0cbeafbdc427d2" id="r_aac43ec9a66af64719b0cbeafbdc427d2"><td class="memItemLeft" align="right" valign="top">virtual const std::vector&lt; uint8_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac43ec9a66af64719b0cbeafbdc427d2">GetEncryptedRightsData</a> ()=0</td></tr>
-<tr class="memdesc:aac43ec9a66af64719b0cbeafbdc427d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the encrypted rights data.  <br /></td></tr>
+<tr class="memdesc:aac43ec9a66af64719b0cbeafbdc427d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the encrypted rights data. Used internally by the SDK. Applications should not try to decipher or modify this data.  <br /></td></tr>
 <tr class="separator:aac43ec9a66af64719b0cbeafbdc427d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b36203f74e2168bafd7d0193ee86f90" id="r_a3b36203f74e2168bafd7d0193ee86f90"><td class="memItemLeft" align="right" valign="top">virtual const std::chrono::time_point&lt; std::chrono::system_clock &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b36203f74e2168bafd7d0193ee86f90">GetIssuedTime</a> ()=0</td></tr>
 <tr class="memdesc:a3b36203f74e2168bafd7d0193ee86f90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the issued time.  <br /></td></tr>
@@ -313,8 +313,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the encrypted rights data. </p>
-<p>Used internally by the SDK. Applications should not try to decipher or modify this data. </p>
+<p>Gets the encrypted rights data. Used internally by the SDK. Applications should not try to decipher or modify this data. </p>
 
 </div>
 </div>

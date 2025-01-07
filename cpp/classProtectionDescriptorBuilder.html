@@ -113,11 +113,8 @@ $(function(){initNavTree('classProtectionDescriptorBuilder.html',''); initResiza
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a7961e18fdcfc8626116c3c16145e940d" id="r_a7961e18fdcfc8626116c3c16145e940d"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7961e18fdcfc8626116c3c16145e940d">LicenseType</a> { <br />
-&#160;&#160;<a class="el" href="#a7961e18fdcfc8626116c3c16145e940dab3cae175ad911edec3e87369d9e889ab">DoNotForward</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="#a7961e18fdcfc8626116c3c16145e940da2e96e13acab0d47fac3637a3d4f27bb3">EncryptOnly</a>
-<br />
+<tr class="memitem:a7961e18fdcfc8626116c3c16145e940d" id="r_a7961e18fdcfc8626116c3c16145e940d"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7961e18fdcfc8626116c3c16145e940d">LicenseType</a> { <a class="el" href="#a7961e18fdcfc8626116c3c16145e940dab3cae175ad911edec3e87369d9e889ab">DoNotForward</a> = 0
+, <a class="el" href="#a7961e18fdcfc8626116c3c16145e940da2e96e13acab0d47fac3637a3d4f27bb3">EncryptOnly</a>
  }</td></tr>
 <tr class="memdesc:a7961e18fdcfc8626116c3c16145e940d"><td class="mdescLeft">&#160;</td><td class="mdescRight">License type to create a specialized license.  <a href="#a7961e18fdcfc8626116c3c16145e940d">More...</a><br /></td></tr>
 <tr class="separator:a7961e18fdcfc8626116c3c16145e940d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,7 +140,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a651a1a770513196ac1226fa874af7888"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets app-specific data that should be encrypted.  <br /></td></tr>
 <tr class="separator:a651a1a770513196ac1226fa874af7888"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ba06eef7f1672a3113b37011d6489bc" id="r_a9ba06eef7f1672a3113b37011d6489bc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ba06eef7f1672a3113b37011d6489bc">SetLabelInfo</a> (const <a class="el" href="structLabelInfo.html">LabelInfo</a> &amp;labelId)=0</td></tr>
-<tr class="memdesc:a9ba06eef7f1672a3113b37011d6489bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the label id and tenant id for UDP protection.  <br /></td></tr>
+<tr class="memdesc:a9ba06eef7f1672a3113b37011d6489bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the label id and tenant id for UDP protection. Only allowed for custom protection type.  <br /></td></tr>
 <tr class="separator:a9ba06eef7f1672a3113b37011d6489bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71f58796ef573cc6ba9c7ec0ce8923a0" id="r_a71f58796ef573cc6ba9c7ec0ce8923a0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71f58796ef573cc6ba9c7ec0ce8923a0">SetName</a> (const std::string &amp;value)=0</td></tr>
 <tr class="memdesc:a71f58796ef573cc6ba9c7ec0ce8923a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets protection policy name.  <br /></td></tr>
@@ -658,8 +655,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets the label id and tenant id for UDP protection. </p>
-<p>Only allowed for custom protection type.</p>
+<p>Sets the label id and tenant id for UDP protection. Only allowed for custom protection type. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname"><a class="el" href="structLabelInfo.html" title="Label information for a template or ad-hoc (custom) protection.">LabelInfo</a></td><td>label info containing labelId and tenantId. </td></tr>

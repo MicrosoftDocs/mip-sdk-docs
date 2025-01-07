@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classAction.html" title="Interface for an action." alt="" coords="5,475,68,500"/>
+<area shape="rect" id="Node000000" href="$classAction.html" title="Interface for an action. Each action translates to a step that needs to be taken by the application t..." alt="" coords="5,475,68,500"/>
 <area shape="rect" id="Node000001" href="$classAddContentFooterAction.html" title="An action class that specifies adding a content footer to the document." alt="" coords="149,5,329,31"/>
 <area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="36,461,41,367,54,241,64,178,77,120,93,73,114,40,130,28,148,20,150,25,133,33,118,44,98,75,82,121,69,179,59,242,47,368,41,461"/>
 <area shape="rect" id="Node000002" href="$classAddContentHeaderAction.html" title="An action class that specifies adding content header." alt="" coords="146,55,333,80"/>
@@ -28,7 +28,7 @@
 <area shape="poly" id="edge13_Node000000_Node000013" title=" " alt="" coords="53,511,80,548,97,567,117,582,145,595,142,600,115,587,94,571,76,552,49,514"/>
 <area shape="rect" id="Node000014" href="$classProtectDoNotForwardDkAction.html" title="An action class that specifies adding do not forward double key protection to the document." alt="" coords="129,647,349,672"/>
 <area shape="poly" id="edge14_Node000000_Node000014" title=" " alt="" coords="47,512,71,574,91,605,118,632,139,644,137,649,114,636,87,609,66,576,42,514"/>
-<area shape="rect" id="Node000015" href="$classRecommendLabelAction.html" title="Recommend label actions is meant to suggest a label to the users." alt="" coords="149,696,329,721"/>
+<area shape="rect" id="Node000015" href="$classRecommendLabelAction.html" title="Recommend label actions is meant to suggest a label to the users. Suppressing this call after a user ..." alt="" coords="149,696,329,721"/>
 <area shape="poly" id="edge15_Node000000_Node000015" title=" " alt="" coords="43,514,50,552,64,597,85,643,100,664,118,681,150,699,148,703,114,685,96,667,81,646,59,599,45,553,38,514"/>
 <area shape="rect" id="Node000016" href="$classRemoveContentFooterAction.html" title="An action class that specifies removing the content footer from the document." alt="" coords="135,745,344,771"/>
 <area shape="poly" id="edge16_Node000000_Node000016" title=" " alt="" coords="41,514,45,561,56,620,79,680,96,707,118,731,136,743,133,748,114,735,92,710,75,682,51,621,40,562,36,514"/>

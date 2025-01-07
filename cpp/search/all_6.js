@@ -25,7 +25,7 @@ var searchData=
   ['flighting_5ffeature_2eh_22',['flighting_feature.h',['../flighting__feature_8h.html',1,'']]],
   ['flightingfeature_23',['FlightingFeature',['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0',1,'flighting_feature.h']]],
   ['flush_24',['Flush',['../classDiagnosticDelegate.html#ab3a21b96a53f97ab2921d201990c1c68',1,'DiagnosticDelegate::Flush()'],['../classLoggerDelegate.html#a334cd06a0bb1ea59594bbb251c78106f',1,'LoggerDelegate::Flush()'],['../classStream.html#adba05e142a47f7b29694428f8ac63a54',1,'Stream::Flush()']]],
-  ['for_20c_20_3a_20reference_25',['Microsoft Information Protection (MIP) SDK for C++: Reference',['../index.html',1,'']]],
+  ['for_20c_201_2016_3a_20reference_25',['Microsoft Information Protection (MIP) SDK for C++ 1.16: Reference',['../index.html',1,'']]],
   ['forcerefresh_26',['ForceRefresh',['../classGetTemplatesSettings.html#aac5aa5adf263ad2ac723e8f114eab2de',1,'GetTemplatesSettings']]],
   ['forward_27',['Forward',['../namespacerights.html#ac27ea01b2f166a7f3c3feb03a5e9ccb7',1,'rights']]],
   ['fqdn_28',['Fqdn',['../diagnostic__types_8h.html#a9f6f929d7eab3f90b04c20833a4e9802a1cfc44e063e4a93753e1df994eb8e485',1,'Fqdn:&#160;diagnostic_types.h'],['../diagnostic__types_8h.html#aa4284266a89cb5c936178b781beee457a1cfc44e063e4a93753e1df994eb8e485',1,'Fqdn:&#160;diagnostic_types.h']]],

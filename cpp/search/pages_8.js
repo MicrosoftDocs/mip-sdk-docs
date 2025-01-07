@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['reference_0',['Microsoft Information Protection (MIP) SDK for C++: Reference',['../index.html',1,'']]]
+  ['reference_0',['Microsoft Information Protection (MIP) SDK for C++ 1.16: Reference',['../index.html',1,'']]]
 ];

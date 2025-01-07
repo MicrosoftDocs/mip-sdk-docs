@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['c_20_3a_20reference_0',['Microsoft Information Protection (MIP) SDK for C++: Reference',['../index.html',1,'']]],
+  ['c_201_2016_3a_20reference_0',['Microsoft Information Protection (MIP) SDK for C++ 1.16: Reference',['../index.html',1,'']]],
   ['cachestoragetype_1',['CacheStorageType',['../common__types_8h.html#a174ba9275624a6880ce3be3fdbaa6c5f',1,'common_types.h']]],
   ['cancachelicenses_2',['CanCacheLicenses',['../classFileProfile_1_1Settings.html#a6da03600a76583812d7952adcb5922d1',1,'FileProfile::Settings::CanCacheLicenses()'],['../classProtectionProfile_1_1Settings.html#a3fd33e394a53c49dee5453652a9caaaa',1,'ProtectionProfile::Settings::CanCacheLicenses()']]],
   ['cancel_3',['Cancel',['../classAsyncControl.html#ab7351ee430dc686b3c16977dd32250f9',1,'AsyncControl']]],

@@ -51,7 +51,7 @@ var searchData=
   ['protectdonotforwardaction_48',['ProtectDoNotForwardAction',['../classProtectDoNotForwardAction.html',1,'']]],
   ['protectdonotforwarddkaction_49',['ProtectDoNotForwardDkAction',['../classProtectDoNotForwardDkAction.html',1,'']]],
   ['protection_50',['Protection',['../storage__delegate_8h.html#a96a7b2207da23bc5c9800d75a120fa49a83f1d9ca1a0c4c2fc51a371c0d773f76',1,'storage_delegate.h']]],
-  ['protection_20mip_20sdk_20for_20c_20_3a_20reference_51',['Microsoft Information Protection (MIP) SDK for C++: Reference',['../index.html',1,'']]],
+  ['protection_20mip_20sdk_20for_20c_201_2016_3a_20reference_51',['Microsoft Information Protection (MIP) SDK for C++ 1.16: Reference',['../index.html',1,'']]],
   ['protection_5fcommon_5fsettings_2eh_52',['protection_common_settings.h',['../protection__common__settings_8h.html',1,'']]],
   ['protection_5fcommon_5ftypes_2eh_53',['protection_common_types.h',['../protection__common__types_8h.html',1,'']]],
   ['protection_5fdescriptor_2eh_54',['protection_descriptor.h',['../protection__descriptor_8h.html',1,'']]],

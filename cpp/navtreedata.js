@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "Microsoft Information Protection (MIP) SDK for C++: Reference", "index.html", [
+    [ "Microsoft Information Protection (MIP) SDK for C++ 1.16: Reference", "index.html", null ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -70,7 +71,7 @@ var NAVTREEINDEX =
 "classProtectionProfile_1_1Settings.html#a85187eee3c98da50a677da491c59b333",
 "classTemplateNotFoundError.html#a6d0012cf1bc07830bb1d963394a9bedfac017f125c246b0b07b81f9b27ef2f4dd",
 "execution__state_8h.html#a6f922b51113575a27adab5d52db65f45",
-"protect__adhoc__dk__action_8h_source.html"
+"protect__adhoc__dk__action_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

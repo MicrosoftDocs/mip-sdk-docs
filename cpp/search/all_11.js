@@ -7,7 +7,7 @@ var searchData=
   ['recommend_5flabel_5faction_2eh_4',['recommend_label_action.h',['../recommend__label__action_8h.html',1,'']]],
   ['recommended_5',['RECOMMENDED',['../common__types_8h.html#ac34db49a584f832ee354519ed7eda09aa518cdfa32f1ed31b018005fe679a2167',1,'common_types.h']]],
   ['recommendlabelaction_6',['RecommendLabelAction',['../classRecommendLabelAction.html',1,'']]],
-  ['reference_7',['Microsoft Information Protection (MIP) SDK for C++: Reference',['../index.html',1,'']]],
+  ['reference_7',['Microsoft Information Protection (MIP) SDK for C++ 1.16: Reference',['../index.html',1,'']]],
   ['registercontentfortrackingandrevocation_8',['RegisterContentForTrackingAndRevocation',['../classProtectionEngine.html#a734220935a7b68a9a35d38facef221c2',1,'ProtectionEngine']]],
   ['registercontentfortrackingandrevocationasync_9',['RegisterContentForTrackingAndRevocationAsync',['../classFileHandler.html#aa2897f59f5128c70af1affd5d3d04aa9',1,'FileHandler::RegisterContentForTrackingAndRevocationAsync()'],['../classProtectionEngine.html#add428fe5c54b08eb69bbf9ecd133bba1',1,'ProtectionEngine::RegisterContentForTrackingAndRevocationAsync()']]],
   ['reject_10',['Reject',['../common__types_8h.html#a66fb847b8e5ed8b08dfbc3248984a5a7ad98ac12774fca5c3cbaffe276840c55f',1,'common_types.h']]],

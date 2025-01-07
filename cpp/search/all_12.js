@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['sdk_20for_20c_20_3a_20reference_0',['Microsoft Information Protection (MIP) SDK for C++: Reference',['../index.html',1,'']]],
+  ['sdk_20for_20c_201_2016_3a_20reference_0',['Microsoft Information Protection (MIP) SDK for C++ 1.16: Reference',['../index.html',1,'']]],
   ['seek_1',['Seek',['../classStream.html#a6ef590c7a12860ad79f05a3e5b361a46',1,'Stream']]],
   ['send_2',['Send',['../classHttpDelegate.html#aaf9b1859d45008cbe51629c0c1cd9993',1,'HttpDelegate']]],
   ['sendapplicationauditevent_3',['SendApplicationAuditEvent',['../classPolicyEngine.html#a96aeb9637a6600182c8577881d851aed',1,'PolicyEngine']]],

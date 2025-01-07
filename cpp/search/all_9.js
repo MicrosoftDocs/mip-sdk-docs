@@ -5,7 +5,7 @@ var searchData=
   ['importantservicedata_2',['ImportantServiceData',['../diagnostic__types_8h.html#a82ffb821068e72d285d7e653cdc65a3ea7d074398a64cd41b145f78a0762d8c03',1,'diagnostic_types.h']]],
   ['index_2emd_3',['index.md',['../index_8md.html',1,'']]],
   ['info_4',['Info',['../log__message__data_8h.html#a7a38c7496c92835c0d835ecb2f8135c1a4059b0251f66a18cb56f544728796875',1,'log_message_data.h']]],
-  ['information_20protection_20mip_20sdk_20for_20c_20_3a_20reference_5',['Microsoft Information Protection (MIP) SDK for C++: Reference',['../index.html',1,'']]],
+  ['information_20protection_20mip_20sdk_20for_20c_201_2016_3a_20reference_5',['Microsoft Information Protection (MIP) SDK for C++ 1.16: Reference',['../index.html',1,'']]],
   ['init_6',['Init',['../classLoggerDelegate.html#a9e9228267e042f33ce132eef6e490c27',1,'LoggerDelegate']]],
   ['inmemory_7',['InMemory',['../common__types_8h.html#a174ba9275624a6880ce3be3fdbaa6c5fa5eeb5d43c7b4ff3dc586c8155071a098',1,'common_types.h']]],
   ['insert_8',['Insert',['../classEditableStream.html#a12deeb0697f83c5d007cb13603667847',1,'EditableStream::Insert()'],['../classStorageTable.html#a6d345af61ddb3be20cebe93529f13093',1,'StorageTable::Insert(const std::vector&lt; std::string &gt; &amp;allColumnValues)']]],

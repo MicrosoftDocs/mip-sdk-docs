@@ -7,7 +7,7 @@ var dir_a7043e653a48665e063227b454d13d4f =
     [ "audit_delegate.h", "audit__delegate_8h.html", "audit__delegate_8h" ],
     [ "audit_event.h", "audit__event_8h.html", "audit__event_8h" ],
     [ "common_types.h", "common__types_8h.html", "common__types_8h" ],
-    [ "delegate_response.h", "delegate__response_8h.html", "delegate__response_8h" ],
+    [ "delegate_response.h", "delegate__response_8h.html", null ],
     [ "diagnostic_configuration.h", "diagnostic__configuration_8h.html", "diagnostic__configuration_8h" ],
     [ "diagnostic_delegate.h", "diagnostic__delegate_8h.html", "diagnostic__delegate_8h" ],
     [ "diagnostic_types.h", "diagnostic__types_8h.html", "diagnostic__types_8h" ],

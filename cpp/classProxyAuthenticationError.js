@@ -17,9 +17,7 @@ var classProxyAuthenticationError =
     ] ],
     [ "AddDebugInfo", "classProxyAuthenticationError.html#a1e9379501df2d1e8315d373cf79949f2", null ],
     [ "Clone", "classProxyAuthenticationError.html#a34ab84a92eb2a61d10bb2a1720640eb5", null ],
-    [ "CreateFormattedMessage", "classProxyAuthenticationError.html#aa76e555fb5bcfb69dc804f51fa01ad34", null ],
     [ "GetCategory", "classProxyAuthenticationError.html#a242ee9146137e810addd69b5c5b21b7c", null ],
-    [ "GetCategoryString", "classProxyAuthenticationError.html#a5a3ae12a08e0138f150f0f2384746a51", null ],
     [ "GetDebugInfo", "classProxyAuthenticationError.html#af00e4c79dbf6834b319b068a2d94ae36", null ],
     [ "GetErrorName", "classProxyAuthenticationError.html#a27297bdd7abc0571413a249ed4d1f447", null ],
     [ "GetErrorType", "classProxyAuthenticationError.html#ac4be6cb0be956902a56477a95d41b960", null ],
@@ -27,12 +25,8 @@ var classProxyAuthenticationError =
     [ "GetResponseStatusCode", "classProxyAuthenticationError.html#aeafa03b58e0319fdb5d504722905ca99", null ],
     [ "SetMessage", "classProxyAuthenticationError.html#afa3a5efa4e38f33ee27b008714149daf", null ],
     [ "what", "classProxyAuthenticationError.html#a6b5d1714f27d38ba999e5cba27014397", null ],
-    [ "mCategory", "classProxyAuthenticationError.html#aa90fefeae56c219a8b12af05fe7d82db", null ],
     [ "mDebugInfo", "classProxyAuthenticationError.html#a0c79a90c3d7a10bad9812f51ba615486", null ],
-    [ "mFormattedMessage", "classProxyAuthenticationError.html#ae2e20e84e05f13e9a5b67f8b16fd5c38", null ],
-    [ "mMaskedMessage", "classProxyAuthenticationError.html#aa6b87fa2e501856f7a39e763eebcbe39", null ],
     [ "mMessage", "classProxyAuthenticationError.html#af31bc6356d7c45845280a5481917bee7", null ],
     [ "mName", "classProxyAuthenticationError.html#abc98b444b9adbfd6dc8ba5e96db54b37", null ],
-    [ "mResponseStatusCode", "classProxyAuthenticationError.html#ac180bdeba0e85a37937458aa5ce9e330", null ],
     [ "mType", "classProxyAuthenticationError.html#ae4af72b4dc19622d365cb1faaeae9385", null ]
 ];

@@ -1,11 +1,5 @@
 <map id="DelegateResponse&lt; T &gt;" name="DelegateResponse&lt; T &gt;">
-<area shape="rect" id="Node000001" title="Template class to return delegate operation results." alt="" coords="23,284,206,309"/>
-<area shape="rect" id="Node000002" href="$classDelegateResponseBase.html" title="Base class for all DelegateResponse classes." alt="" coords="5,189,181,214"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,227,115,283,109,284,96,228"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="206,181,405,221"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="256,230,139,286,137,282,253,225"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="227,93,384,119"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="308,132,308,181,303,181,303,132"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="286,5,325,31"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="308,45,308,93,303,93,303,45"/>
+<area shape="rect" id="Node000001" title="Template class to return delegate operation results." alt="" coords="5,79,188,104"/>
+<area shape="rect" id="Node000002" href="$classDelegateResponseBase.html" title="Base class for all DelegateResponse classes." alt="" coords="9,5,185,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,44,99,79,94,79,94,44"/>
 </map>

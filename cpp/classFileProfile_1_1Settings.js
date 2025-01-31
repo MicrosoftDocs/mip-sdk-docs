@@ -16,16 +16,5 @@ var classFileProfile_1_1Settings =
     [ "SetHttpDelegate", "classFileProfile_1_1Settings.html#a3f1ac6fc55ca0c24b77a6b7c2e3573f0", null ],
     [ "SetLoggerContext", "classFileProfile_1_1Settings.html#af2bcd146e23938bce8f25c1baddc9084", null ],
     [ "SetSessionId", "classFileProfile_1_1Settings.html#aa1e105bdafbae2079de2cc57d7f0fdb5", null ],
-    [ "SetTaskDispatcherDelegate", "classFileProfile_1_1Settings.html#a0fc00220ab2fce9c6f1e92cf21a5dfdd", null ],
-    [ "mCacheStorageType", "classFileProfile_1_1Settings.html#a63f230cb0c708ee65b1e567d3b4201aa", null ],
-    [ "mCanCacheLicenses", "classFileProfile_1_1Settings.html#a779232dec11e59b9e100980c1c396ea3", null ],
-    [ "mConsentDelegate", "classFileProfile_1_1Settings.html#a283da1e62ed08251d902c4e2a1dc525c", null ],
-    [ "mDnsRedirection", "classFileProfile_1_1Settings.html#a0def4fe84383f1edd6b8cc90320254b5", null ],
-    [ "mHttpDelegate", "classFileProfile_1_1Settings.html#a0f15e20a347e42b275e7d66691d0a5cb", null ],
-    [ "mLoggerContext", "classFileProfile_1_1Settings.html#ac1b3ecc37475cf246b7661bdcfd32f89", null ],
-    [ "mMipContext", "classFileProfile_1_1Settings.html#a5bd90595f90f1744c37aea995989e94d", null ],
-    [ "mObserver", "classFileProfile_1_1Settings.html#ad91dc5cee9f3b25855a4697995b557db", null ],
-    [ "mPath", "classFileProfile_1_1Settings.html#a42f6c740a8d0e75290feef6753796e34", null ],
-    [ "mSessionId", "classFileProfile_1_1Settings.html#a24c95a42d3f033fcfd95865c86ed883f", null ],
-    [ "mTaskDispatcherDelegate", "classFileProfile_1_1Settings.html#a2c1424d9dd84debd2f2eafb76415a8f5", null ]
+    [ "SetTaskDispatcherDelegate", "classFileProfile_1_1Settings.html#a0fc00220ab2fce9c6f1e92cf21a5dfdd", null ]
 ];

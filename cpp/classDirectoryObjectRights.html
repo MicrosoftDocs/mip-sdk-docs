@@ -99,7 +99,6 @@ $(function(){initNavTree('classDirectoryObjectRights.html',''); initResizable(tr
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classDirectoryObjectRights-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">DirectoryObjectRights Class Reference</div></div>
 </div><!--header-->
@@ -109,27 +108,6 @@ $(function(){initNavTree('classDirectoryObjectRights.html',''); initResizable(tr
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="license__rights__data_8h_source.html">src/api/mip/protection/license_rights_data.h</a>&gt;</code></p>
-<div class="dynheader">
-Collaboration diagram for DirectoryObjectRights:</div>
-<div class="dyncontent">
-<div class="center"><img src="classDirectoryObjectRights__coll__graph.png" border="0" usemap="#aDirectoryObjectRights_coll__map" alt="Collaboration graph"/></div>
-<map name="aDirectoryObjectRights_coll__map" id="aDirectoryObjectRights_coll__map">
-<area shape="rect" title="The directory object and rights associated with it." alt="" coords="123,313,289,339"/>
-<area shape="rect" href="classDirectoryObject.html" title="The directory object information which includes&#45; type, email, objectId and PUID." alt="" coords="235,225,359,251"/>
-<area shape="poly" title=" " alt="" coords="276,262,220,315,217,311,273,258"/>
-<area shape="rect" title=" " alt="" coords="205,108,292,133"/>
-<area shape="poly" title=" " alt="" coords="264,144,270,156,295,224,290,226,265,158,259,147"/>
-<area shape="rect" title=" " alt="" coords="23,225,210,251"/>
-<area shape="poly" title=" " alt="" coords="218,143,199,159,186,181,173,203,141,227,138,223,169,200,182,178,195,156,214,139"/>
-<area shape="rect" title=" " alt="" coords="179,5,318,45"/>
-<area shape="poly" title=" " alt="" coords="251,59,251,108,246,108,246,59"/>
-<area shape="poly" title=" " alt="" coords="140,258,195,311,192,315,137,262"/>
-<area shape="rect" title=" " alt="" coords="5,108,135,133"/>
-<area shape="poly" title=" " alt="" coords="68,147,67,174,74,200,83,213,96,223,93,227,80,217,69,202,62,174,62,147"/>
-<area shape="rect" title=" " alt="" coords="51,13,89,38"/>
-<area shape="poly" title=" " alt="" coords="73,52,73,108,67,108,67,52"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -142,13 +120,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa0361356b6b6671710000decb80d73f0" id="r_aa0361356b6b6671710000decb80d73f0"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0361356b6b6671710000decb80d73f0">GetRights</a> () const</td></tr>
 <tr class="memdesc:aa0361356b6b6671710000decb80d73f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets rights associated with the directory object.  <br /></td></tr>
 <tr class="separator:aa0361356b6b6671710000decb80d73f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a085102b8e538214ae791129df63712a1" id="r_a085102b8e538214ae791129df63712a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDirectoryObject.html">DirectoryObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a085102b8e538214ae791129df63712a1">mDirectoryObject</a></td></tr>
-<tr class="separator:a085102b8e538214ae791129df63712a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc75dd660e5e8251e7a7dbe042ed172b" id="r_abc75dd660e5e8251e7a7dbe042ed172b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc75dd660e5e8251e7a7dbe042ed172b">mRights</a></td></tr>
-<tr class="separator:abc75dd660e5e8251e7a7dbe042ed172b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The directory object and rights associated with it. </p>
@@ -192,9 +163,7 @@ Private Attributes</h2></td></tr>
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="license__rights__data_8h_source.html#l00118">118</a> of file <a class="el" href="license__rights__data_8h_source.html">license_rights_data.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  119</span>      : <a class="code hl_variable" href="#a085102b8e538214ae791129df63712a1">mDirectoryObject</a>(directoryObject), <a class="code hl_variable" href="#abc75dd660e5e8251e7a7dbe042ed172b">mRights</a>(<a class="code hl_namespace" href="namespacerights.html">rights</a>){};</div>
-<div class="ttc" id="aclassDirectoryObjectRights_html_a085102b8e538214ae791129df63712a1"><div class="ttname"><a href="#a085102b8e538214ae791129df63712a1">DirectoryObjectRights::mDirectoryObject</a></div><div class="ttdeci">DirectoryObject mDirectoryObject</div><div class="ttdef"><b>Definition</b> <a href="license__rights__data_8h_source.html#l00136">license_rights_data.h:136</a></div></div>
-<div class="ttc" id="aclassDirectoryObjectRights_html_abc75dd660e5e8251e7a7dbe042ed172b"><div class="ttname"><a href="#abc75dd660e5e8251e7a7dbe042ed172b">DirectoryObjectRights::mRights</a></div><div class="ttdeci">std::vector&lt; std::string &gt; mRights</div><div class="ttdef"><b>Definition</b> <a href="license__rights__data_8h_source.html#l00137">license_rights_data.h:137</a></div></div>
+<div class="fragment"><div class="line"><span class="lineno">  119</span>      : mDirectoryObject(directoryObject), mRights(<a class="code hl_namespace" href="namespacerights.html">rights</a>){};</div>
 <div class="ttc" id="anamespacerights_html"><div class="ttname"><a href="namespacerights.html">rights</a></div><div class="ttdef"><b>Definition</b> <a href="rights_8h_source.html#l00043">rights.h:43</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -227,10 +196,8 @@ Private Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The directory object </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="license__rights__data_8h_source.html#l00126">126</a> of file <a class="el" href="license__rights__data_8h_source.html">license_rights_data.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  126</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a085102b8e538214ae791129df63712a1">mDirectoryObject</a>; };</div>
+<div class="fragment"><div class="line"><span class="lineno">  126</span>{ <span class="keywordflow">return</span> mDirectoryObject; };</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="license__rights__data_8h_source.html#l00136">mDirectoryObject</a>.</p>
-
 </div>
 </div>
 <a id="aa0361356b6b6671710000decb80d73f0" name="aa0361356b6b6671710000decb80d73f0"></a>
@@ -260,63 +227,8 @@ Private Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Rights associated with the directory object </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="license__rights__data_8h_source.html#l00133">133</a> of file <a class="el" href="license__rights__data_8h_source.html">license_rights_data.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  133</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#abc75dd660e5e8251e7a7dbe042ed172b">mRights</a>; };</div>
+<div class="fragment"><div class="line"><span class="lineno">  133</span>{ <span class="keywordflow">return</span> mRights; };</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="license__rights__data_8h_source.html#l00137">mRights</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a085102b8e538214ae791129df63712a1" name="a085102b8e538214ae791129df63712a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a085102b8e538214ae791129df63712a1">&#9670;&#160;</a></span>mDirectoryObject</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classDirectoryObject.html">DirectoryObject</a> DirectoryObjectRights::mDirectoryObject</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="license__rights__data_8h_source.html#l00136">136</a> of file <a class="el" href="license__rights__data_8h_source.html">license_rights_data.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="license__rights__data_8h_source.html#l00126">GetDirectoryObject()</a>.</p>
-
-</div>
-</div>
-<a id="abc75dd660e5e8251e7a7dbe042ed172b" name="abc75dd660e5e8251e7a7dbe042ed172b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc75dd660e5e8251e7a7dbe042ed172b">&#9670;&#160;</a></span>mRights</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::string&gt; DirectoryObjectRights::mRights</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="license__rights__data_8h_source.html#l00137">137</a> of file <a class="el" href="license__rights__data_8h_source.html">license_rights_data.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="license__rights__data_8h_source.html#l00133">GetRights()</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

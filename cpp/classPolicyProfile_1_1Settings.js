@@ -1,7 +1,6 @@
 var classPolicyProfile_1_1Settings =
 [
     [ "Settings", "classPolicyProfile_1_1Settings.html#a23291d0f789f185ac481cc9b3a8f8100", null ],
-    [ "~Settings", "classPolicyProfile_1_1Settings.html#a37118c38fa4effccf7c892e4b90c146c", null ],
     [ "GetCacheStorageType", "classPolicyProfile_1_1Settings.html#a6a304507cfacbf5fc132cc7898100d09", null ],
     [ "GetCustomSettings", "classPolicyProfile_1_1Settings.html#ac342df3f068a8c30f5dd8c9bb12f4c8a", null ],
     [ "GetHttpDelegate", "classPolicyProfile_1_1Settings.html#afe73619508fc188ca4089c12a0827ab5", null ],
@@ -16,14 +15,5 @@ var classPolicyProfile_1_1Settings =
     [ "SetLoggerContext", "classPolicyProfile_1_1Settings.html#a41160dd2db9ffec601effa960b50e53c", null ],
     [ "SetSessionId", "classPolicyProfile_1_1Settings.html#a0e6bef7de5fa293d63e814a28d3ce006", null ],
     [ "SetStorageDelegate", "classPolicyProfile_1_1Settings.html#a9f0021f26ce2ba8a1488e2be6ee16642", null ],
-    [ "SetTaskDispatcherDelegate", "classPolicyProfile_1_1Settings.html#a8ba0c544cde2e37a623e35c9fd6f2464", null ],
-    [ "mCacheStorageType", "classPolicyProfile_1_1Settings.html#a3aa69d568e833452f477a33f54dd8132", null ],
-    [ "mCustomSettings", "classPolicyProfile_1_1Settings.html#a8d0ef15f9e7950d99f00e35fb2d44dc9", null ],
-    [ "mHttpDelegate", "classPolicyProfile_1_1Settings.html#aa97b85067fb7352f3f216f7f8d5df8c5", null ],
-    [ "mLoggerContext", "classPolicyProfile_1_1Settings.html#a8f04e9190569f6ff93d3b9febdb9f16e", null ],
-    [ "mMipContext", "classPolicyProfile_1_1Settings.html#a52cebb9d1e88b24d84b09bf35a30d395", null ],
-    [ "mObserver", "classPolicyProfile_1_1Settings.html#a72a69d9fe395f510783af2c1a039c9d5", null ],
-    [ "mSessionId", "classPolicyProfile_1_1Settings.html#a8d3fceca794e3698a9c8aa17bca785f9", null ],
-    [ "mStorageDelegate", "classPolicyProfile_1_1Settings.html#a692841b09f02a2145bdbb0d76dbf6d71", null ],
-    [ "mTaskDispatcherDelegate", "classPolicyProfile_1_1Settings.html#a2daaa403d5af54b92be60f51c7a5551b", null ]
+    [ "SetTaskDispatcherDelegate", "classPolicyProfile_1_1Settings.html#a8ba0c544cde2e37a623e35c9fd6f2464", null ]
 ];

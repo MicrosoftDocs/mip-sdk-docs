@@ -22,22 +22,5 @@ var classPublishingLicenseInfo =
     [ "HasPreLicense", "classPublishingLicenseInfo.html#ac0c1c4ba1b0ce36175a63ae094bd544c", null ],
     [ "IsLicenseParsed", "classPublishingLicenseInfo.html#a2226f490766dc341dff4b9e16e2074cc", null ],
     [ "SetParsedData", "classPublishingLicenseInfo.html#ad523a5422f084989100e2d09934940e8", null ],
-    [ "SetParsedData", "classPublishingLicenseInfo.html#ab55cfd699a03cab68a68e91af02cc299", null ],
-    [ "mConnectionInfo", "classPublishingLicenseInfo.html#a974520fe0f1c3c262fab8b486676a895", null ],
-    [ "mContentId", "classPublishingLicenseInfo.html#a324a3ee568d678bdb400cb7431020e31", null ],
-    [ "mDescriptor", "classPublishingLicenseInfo.html#a50de22a96f092dfbcc2167b0ad3d3f63", null ],
-    [ "mDomains", "classPublishingLicenseInfo.html#aa9b629743c1be9e6ea676a4d21bf1ef3", null ],
-    [ "mDoubleKeyAlgorithm", "classPublishingLicenseInfo.html#aa6d2024f3d19190857130428068863ae", null ],
-    [ "mEncryptedRightsData", "classPublishingLicenseInfo.html#aa7acc64350933d0956e7d753819899fe", null ],
-    [ "mIsParsed", "classPublishingLicenseInfo.html#ac633be31a04859bd0faae50473335d55", null ],
-    [ "mIssuedTime", "classPublishingLicenseInfo.html#ab03325c901bae4cdb8b366fffc6d18c7", null ],
-    [ "mIssuerId", "classPublishingLicenseInfo.html#a0cbd5b20a439166e54c9abfe4df0fa76", null ],
-    [ "mLabelInfo", "classPublishingLicenseInfo.html#ad7d797c1e220f493be356dbf6ff12fd7", null ],
-    [ "mOwner", "classPublishingLicenseInfo.html#a839641c8839bdd68ec2c264233254a77", null ],
-    [ "mPreLicense", "classPublishingLicenseInfo.html#a9086ad5728e4d6b782f2d57bde3a8ca6", null ],
-    [ "mReferralInfoUrl", "classPublishingLicenseInfo.html#a83207e829f671176c0f45797d44dc048", null ],
-    [ "mSealedKeyType", "classPublishingLicenseInfo.html#a248a1eb00facfd9ef7599357b4160ced", null ],
-    [ "mSerializedPublishingLicense", "classPublishingLicenseInfo.html#a00bcaa05a7f88f86349cb110a89b0c15", null ],
-    [ "mServerPublicCert", "classPublishingLicenseInfo.html#a53f87c99b950d01a242217b07fcca817", null ],
-    [ "mSignedApplicationData", "classPublishingLicenseInfo.html#a22a4a224654bd33a5d79fce535d75603", null ]
+    [ "SetParsedData", "classPublishingLicenseInfo.html#ab55cfd699a03cab68a68e91af02cc299", null ]
 ];

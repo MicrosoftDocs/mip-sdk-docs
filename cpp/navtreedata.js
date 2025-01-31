@@ -64,14 +64,14 @@ var NAVTREEINDEX =
 [
 "action_8h.html",
 "classCustomerKeyUnavailableError.html#a6b5d1714f27d38ba999e5cba27014397",
-"classFileProfile_1_1Observer.html#a8b7e17d2d7eaf7a61f0dd482a20ce7bb",
-"classLabelingOptions.html#a5b39189d3f6d59ea893a27e3327cac0c",
-"classNoPermissionsExtendedError.html#a0c79a90c3d7a10bad9812f51ba615486",
-"classProtectionDescriptor.html#a68950cf2164349dad1e072baae53892c",
-"classProtectionSettings.html#af2074d2b1c20e7661b52a4bdc4df5158",
-"classUserRoles.html#a9b4190d6620c02e56eafe54e06e81945",
-"flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a077cbd307021e7dfc306bbc0338046c5",
-"protection__engine_8h.html"
+"classFileHandler.html#a124b78509688de69902fe732917415dd",
+"classJustificationRequiredError.html#abd77395fff3113cac334c064566eee06",
+"classNetworkError.html#a242ee9146137e810addd69b5c5b21b7c",
+"classPolicyHandler.html#a223a9faed4b53f7fd2c48149e8ecee3b",
+"classProtectionHandler_1_1PublishingSettings.html#a8514a60e6cb21bd216da498646027164",
+"classTelemetryEvent.html#a43a57565903018b48a548d426cfb3813",
+"dns__redirection_8h.html#aedc87df4f0412a0242ba2f903aa88a81ab9f5c797ebbf55adccdd8539a65a0241",
+"namespaceanonymous__namespace_02error_8h_03.html#a46182191b75cf061af114b92e1b067da"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

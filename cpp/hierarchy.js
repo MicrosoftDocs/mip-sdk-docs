@@ -152,6 +152,7 @@ var hierarchy =
     [ "FileEngine::Settings", "classFileEngine_1_1Settings.html", null ],
     [ "FileProfile::Settings", "classFileProfile_1_1Settings.html", null ],
     [ "PolicyEngine::Settings", "classPolicyEngine_1_1Settings.html", null ],
+    [ "PolicyProfile::Settings", "classPolicyProfile_1_1Settings.html", null ],
     [ "ProtectionEngine::Settings", "classProtectionEngine_1_1Settings.html", null ],
     [ "ProtectionProfile::Settings", "classProtectionProfile_1_1Settings.html", null ],
     [ "StorageDelegate", "classStorageDelegate.html", null ],

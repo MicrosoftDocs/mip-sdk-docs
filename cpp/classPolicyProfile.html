@@ -116,6 +116,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPolicyProfile_1_1Observer.html">Observer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPolicyProfile_1_1Observer.html" title="Observer interface for clients to get notifications for profile related events.">Observer</a> interface for clients to get notifications for profile related events.  <a href="classPolicyProfile_1_1Observer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPolicyProfile_1_1Settings.html">Settings</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPolicyProfile_1_1Settings.html" title="Settings used by PolicyProfile during its creation and throughout its lifetime.">Settings</a> used by <a class="el" href="classPolicyProfile.html" title="PolicyProfile class is the root class for using the Microsoft Information Protection operations....">PolicyProfile</a> during its creation and throughout its lifetime.  <a href="classPolicyProfile_1_1Settings.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -134,7 +137,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5fee5eefc6aeafc125db91155b4f7768" id="r_a5fee5eefc6aeafc125db91155b4f7768"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classAsyncControl.html">AsyncControl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fee5eefc6aeafc125db91155b4f7768">DeleteEngineAsync</a> (const std::string &amp;id, const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
 <tr class="memdesc:a5fee5eefc6aeafc125db91155b4f7768"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts deleting the policy engine with the given ID. All data for the given profile will be deleted.  <br /></td></tr>
 <tr class="separator:a5fee5eefc6aeafc125db91155b4f7768"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf4a75730a383752e1910f9b1c999cb1" id="r_acf4a75730a383752e1910f9b1c999cb1"><td class="memItemLeft" align="right" valign="top">virtual const Settings &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf4a75730a383752e1910f9b1c999cb1">GetSettings</a> () const =0</td></tr>
+<tr class="memitem:acf4a75730a383752e1910f9b1c999cb1" id="r_acf4a75730a383752e1910f9b1c999cb1"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classPolicyProfile_1_1Settings.html">Settings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf4a75730a383752e1910f9b1c999cb1">GetSettings</a> () const =0</td></tr>
 <tr class="memdesc:acf4a75730a383752e1910f9b1c999cb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the settings set on the profile.  <br /></td></tr>
 <tr class="separator:acf4a75730a383752e1910f9b1c999cb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3022718038f902a2fc3e1d85a2a2c03b" id="r_a3022718038f902a2fc3e1d85a2a2c03b"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3022718038f902a2fc3e1d85a2a2c03b">ListEngines</a> ()=0</td></tr>
@@ -155,10 +158,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:acc3e3d28e2de7b8c454eaa74523119d5" id="r_acc3e3d28e2de7b8c454eaa74523119d5"><td class="memItemLeft" align="right" valign="top">static MIP_API const char *__CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc3e3d28e2de7b8c454eaa74523119d5">GetVersion</a> ()</td></tr>
 <tr class="memdesc:acc3e3d28e2de7b8c454eaa74523119d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the library version.  <br /></td></tr>
 <tr class="separator:acc3e3d28e2de7b8c454eaa74523119d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bac63e5b7cd40a844d7d61e4f6a84b1" id="r_a8bac63e5b7cd40a844d7d61e4f6a84b1"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; <a class="el" href="classPolicyProfile.html">PolicyProfile</a> &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bac63e5b7cd40a844d7d61e4f6a84b1">Load</a> (const Settings &amp;settings)</td></tr>
+<tr class="memitem:a8bac63e5b7cd40a844d7d61e4f6a84b1" id="r_a8bac63e5b7cd40a844d7d61e4f6a84b1"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; <a class="el" href="classPolicyProfile.html">PolicyProfile</a> &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bac63e5b7cd40a844d7d61e4f6a84b1">Load</a> (const <a class="el" href="classPolicyProfile_1_1Settings.html">Settings</a> &amp;settings)</td></tr>
 <tr class="memdesc:a8bac63e5b7cd40a844d7d61e4f6a84b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loading a profile based on the provided settings.  <br /></td></tr>
 <tr class="separator:a8bac63e5b7cd40a844d7d61e4f6a84b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae40180aa06d14d3aaba105df5c4e6280" id="r_ae40180aa06d14d3aaba105df5c4e6280"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; <a class="el" href="classAsyncControl.html">AsyncControl</a> &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae40180aa06d14d3aaba105df5c4e6280">LoadAsync</a> (const Settings &amp;settings, const std::shared_ptr&lt; void &gt; &amp;context)</td></tr>
+<tr class="memitem:ae40180aa06d14d3aaba105df5c4e6280" id="r_ae40180aa06d14d3aaba105df5c4e6280"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; <a class="el" href="classAsyncControl.html">AsyncControl</a> &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae40180aa06d14d3aaba105df5c4e6280">LoadAsync</a> (const <a class="el" href="classPolicyProfile_1_1Settings.html">Settings</a> &amp;settings, const std::shared_ptr&lt; void &gt; &amp;context)</td></tr>
 <tr class="memdesc:ae40180aa06d14d3aaba105df5c4e6280"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts loading a profile based on the provided settings.  <br /></td></tr>
 <tr class="separator:ae40180aa06d14d3aaba105df5c4e6280"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -366,7 +369,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const Settings &amp; PolicyProfile::GetSettings </td>
+          <td class="memname">virtual const <a class="el" href="classPolicyProfile_1_1Settings.html">Settings</a> &amp; PolicyProfile::GetSettings </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -486,7 +489,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">static MIP_API std::shared_ptr&lt; <a class="el" href="classPolicyProfile.html">PolicyProfile</a> &gt; __CDECL PolicyProfile::Load </td>
           <td>(</td>
-          <td class="paramtype">const Settings &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classPolicyProfile_1_1Settings.html">Settings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -500,7 +503,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Loading a profile based on the provided settings. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">settings</td><td>Settings used by <a class="el" href="classPolicyProfile.html" title="PolicyProfile class is the root class for using the Microsoft Information Protection operations....">PolicyProfile</a> during its initialization and throughout its lifetime</td></tr>
+    <tr><td class="paramname">settings</td><td><a class="el" href="classPolicyProfile_1_1Settings.html" title="Settings used by PolicyProfile during its creation and throughout its lifetime.">Settings</a> used by <a class="el" href="classPolicyProfile.html" title="PolicyProfile class is the root class for using the Microsoft Information Protection operations....">PolicyProfile</a> during its initialization and throughout its lifetime</td></tr>
   </table>
   </dd>
 </dl>
@@ -520,7 +523,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">static MIP_API std::shared_ptr&lt; <a class="el" href="classAsyncControl.html">AsyncControl</a> &gt; __CDECL PolicyProfile::LoadAsync </td>
           <td>(</td>
-          <td class="paramtype">const Settings &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classPolicyProfile_1_1Settings.html">Settings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

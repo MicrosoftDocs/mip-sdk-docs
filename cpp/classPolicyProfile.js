@@ -1,6 +1,7 @@
 var classPolicyProfile =
 [
     [ "Observer", "classPolicyProfile_1_1Observer.html", "classPolicyProfile_1_1Observer" ],
+    [ "Settings", "classPolicyProfile_1_1Settings.html", "classPolicyProfile_1_1Settings" ],
     [ "AcquireAuthToken", "classPolicyProfile.html#afa9ec3fca26f2efe84d8d41f3d4aba66", null ],
     [ "AddEngine", "classPolicyProfile.html#a7d0b5817eafb94f69873a9bf6bdb329e", null ],
     [ "AddEngineAsync", "classPolicyProfile.html#a3aaf31124d495546bddab82fdaa2a8bf", null ],

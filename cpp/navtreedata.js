@@ -64,13 +64,13 @@ var NAVTREEINDEX =
 [
 "action_8h.html",
 "classDelegateResponseError.html#abc98b444b9adbfd6dc8ba5e96db54b37",
-"classFileProfile.html#a2969c199d512f3dcd66ac24ecb644f48",
-"classLicenseNotRegisteredError.html",
-"classParsedPublishingLicense.html#a710c8a333b60afc1d2ee0a135f19b1cf",
-"classProtectionEngine_1_1Observer.html#acb203e845490619471b3ba75e8a03dde",
-"classServiceDisabledError.html#a6263b135629b24de3c2ab4e250ee4eeda8f9bfe9d1345237cb3b2b205864da075",
-"diagnostic__types_8h.html#a82ffb821068e72d285d7e653cdc65a3ea972e73b7a882d0802a4e3a16946a2f94",
-"license__rights__data_8h_source.html"
+"classGetTemplatesSettings.html#ade833b017bf76da965006545867ed717",
+"classMetadataVersion.html",
+"classPolicyEngine_1_1Settings.html#a194a226a148d97af8b3dd3c204835d36",
+"classProtectionHandler.html#ad752c6469e18cd7d768dc98a46415d1f",
+"classTelemetryEvent.html#a742e5df84902031f4dc146d0602edf62",
+"error_8h.html#af7a9c5a9d19bf72299ab821bd983e131a008e0fd6f70ce69f70a52a55086c93a3",
+"namespacerights.html#a19d71da3d99aade00d89febb2ebb8e44"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

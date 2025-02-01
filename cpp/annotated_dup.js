@@ -41,6 +41,7 @@ var annotated_dup =
     [ "EventProperty", "classEventProperty.html", "classEventProperty" ],
     [ "ExecutionState", "classExecutionState.html", "classExecutionState" ],
     [ "ExtendedErrorInfo", "structExtendedErrorInfo.html", "structExtendedErrorInfo" ],
+    [ "FileEngine", "classFileEngine.html", "classFileEngine" ],
     [ "FileExecutionState", "classFileExecutionState.html", "classFileExecutionState" ],
     [ "FileHandler", "classFileHandler.html", "classFileHandler" ],
     [ "FileInspector", "classFileInspector.html", "classFileInspector" ],

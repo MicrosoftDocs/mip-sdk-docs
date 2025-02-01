@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['hasclassificationrules_0',['HasClassificationRules',['../classPolicyEngine.html#a19f1d12f86b983b5d65f555ce384827d',1,'PolicyEngine']]],
+  ['hasclassificationrules_0',['HasClassificationRules',['../classFileEngine.html#adf74b265c3e26b211639d0003c633b0b',1,'FileEngine::HasClassificationRules()'],['../classPolicyEngine.html#a19f1d12f86b983b5d65f555ce384827d',1,'PolicyEngine::HasClassificationRules()']]],
   ['hasflag_1',['HasFlag',['../classMetadataVersion.html#a0dc01865d5d3e924d7d9ddec19640443',1,'MetadataVersion']]],
   ['hasmember_2',['HasMember',['../classJsonValue.html#aae8f17956276a9ee4f2ee7c27cc57d31',1,'JsonValue']]],
   ['hasprelicense_3',['HasPreLicense',['../classPublishingLicenseInfo.html#ac0c1c4ba1b0ce36175a63ae094bd544c',1,'PublishingLicenseInfo']]],
-  ['hasworkloadconsent_4',['HasWorkloadConsent',['../classPolicyEngine.html#a453a4195d65876d4173aac2b531730f8',1,'PolicyEngine']]],
+  ['hasworkloadconsent_4',['HasWorkloadConsent',['../classFileEngine.html#a8ca928c4c1a0e2e3362852d74c687036',1,'FileEngine::HasWorkloadConsent()'],['../classPolicyEngine.html#a453a4195d65876d4173aac2b531730f8',1,'PolicyEngine::HasWorkloadConsent()']]],
   ['horizontal_5',['HORIZONTAL',['../common__types_8h.html#ac3b70878cf52996e6c71c7039076840fa86e5d0d8407ce71f7e2004ef3949894e',1,'common_types.h']]],
   ['hostnameoverride_6',['hostNameOverride',['../structDiagnosticConfiguration.html#a9057bca053062afe1ffa491b590caaad',1,'DiagnosticConfiguration']]],
   ['html_7',['HTML',['../msg__inspector_8h.html#ae41dd8630d22c65135d91fe542e27215a4c4ad5fca2e7a3f74dbb1ced00381aa4',1,'msg_inspector.h']]],

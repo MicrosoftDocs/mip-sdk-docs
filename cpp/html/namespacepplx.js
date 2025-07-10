@@ -1,0 +1,36 @@
+var namespacepplx =
+[
+    [ "_Continuation_func_transformer", "classpplx_1_1__Continuation__func__transformer.html", null ],
+    [ "_Continuation_func_transformer< _InType, void >", "classpplx_1_1__Continuation__func__transformer_3_01__InType_00_01void_01_4.html", null ],
+    [ "_Continuation_func_transformer< void, _OutType >", "classpplx_1_1__Continuation__func__transformer_3_01void_00_01__OutType_01_4.html", null ],
+    [ "_Continuation_func_transformer< void, void >", "classpplx_1_1__Continuation__func__transformer_3_01void_00_01void_01_4.html", null ],
+    [ "_Init_func_transformer", "classpplx_1_1__Init__func__transformer.html", null ],
+    [ "_Init_func_transformer< void >", "classpplx_1_1__Init__func__transformer_3_01void_01_4.html", null ],
+    [ "cancellation_token", "classpplx_1_1cancellation__token.html", "classpplx_1_1cancellation__token" ],
+    [ "cancellation_token_registration", "classpplx_1_1cancellation__token__registration.html", null ],
+    [ "cancellation_token_source", "classpplx_1_1cancellation__token__source.html", "classpplx_1_1cancellation__token__source" ],
+    [ "invalid_operation", "classpplx_1_1invalid__operation.html", "classpplx_1_1invalid__operation" ],
+    [ "scheduler_ptr", "structpplx_1_1scheduler__ptr.html", "structpplx_1_1scheduler__ptr" ],
+    [ "scoped_lock", "classpplx_1_1scoped__lock.html", null ],
+    [ "task", "classpplx_1_1task.html", "classpplx_1_1task" ],
+    [ "task< void >", "classpplx_1_1task_3_01void_01_4.html", "classpplx_1_1task_3_01void_01_4" ],
+    [ "task_canceled", "classpplx_1_1task__canceled.html", "classpplx_1_1task__canceled" ],
+    [ "task_completion_event", "classpplx_1_1task__completion__event.html", "classpplx_1_1task__completion__event" ],
+    [ "task_completion_event< void >", "classpplx_1_1task__completion__event_3_01void_01_4.html", "classpplx_1_1task__completion__event_3_01void_01_4" ],
+    [ "task_continuation_context", "classpplx_1_1task__continuation__context.html", null ],
+    [ "task_options", "classpplx_1_1task__options.html", "classpplx_1_1task__options" ],
+    [ "default_scheduler_t", "namespacepplx.html#a8f3f734bd9b91ceed71bacf4ae1fee6a", null ],
+    [ "task_status", "namespacepplx.html#a44290e93feb32970ccf02e7bdb5672b6", null ],
+    [ "TaskProc_t", "namespacepplx.html#a7c7ed31f7256a8bce6fae58c08feced6", null ],
+    [ "task_group_status", "namespacepplx.html#a7569c24382f33970242029beed764a6e", [
+      [ "not_complete", "namespacepplx.html#a7569c24382f33970242029beed764a6ea716faa59dcf6afa0531293efd19eba46", null ],
+      [ "completed", "namespacepplx.html#a7569c24382f33970242029beed764a6ea87039ec3b562b36fda8b3182cc8c833d", null ],
+      [ "canceled", "namespacepplx.html#a7569c24382f33970242029beed764a6eab75a9c53022cfdf92b382692f6576462", null ]
+    ] ],
+    [ "__declspec", "namespacepplx.html#a3c1c52832cc5ca1f95afd095a73f751d", null ],
+    [ "__declspec", "namespacepplx.html#afbfb18aca8adbc42db2317c6fb13661d", null ],
+    [ "__declspec", "namespacepplx.html#ab0b83a64b9d8b887cae207de8d253342", null ],
+    [ "get_ambient_scheduler", "namespacepplx.html#a85b3bbf70cb2adc7e94594ddf4ffdfc5", null ],
+    [ "is_task_cancellation_requested", "namespacepplx.html#aa2429fe4b49957feae53b2dee7077455", null ],
+    [ "set_ambient_scheduler", "namespacepplx.html#ac98993a43756c17916a9a14d89f1ca05", null ]
+];

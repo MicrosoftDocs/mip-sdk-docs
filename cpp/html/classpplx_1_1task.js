@@ -1,0 +1,28 @@
+var classpplx_1_1task =
+[
+    [ "result_type", "classpplx_1_1task.html#a0ff2d497b06bc06809e6259878cf7d63", null ],
+    [ "task", "classpplx_1_1task.html#abcb3e615ddfab9be2d29c205a17a8748", null ],
+    [ "task", "classpplx_1_1task.html#a66ddb8d05c86973606fc8d36ea8f9b45", null ],
+    [ "task", "classpplx_1_1task.html#a8d5161438d7876ba21697984775e8ffd", null ],
+    [ "__declspec", "classpplx_1_1task.html#aa6ebbfa15a1b4d6dd1673305eeffdc77", null ],
+    [ "__declspec", "classpplx_1_1task.html#aa6ebbfa15a1b4d6dd1673305eeffdc77", null ],
+    [ "__declspec", "classpplx_1_1task.html#a107299e44477536400e0fdc722cd3a7c", null ],
+    [ "__declspec", "classpplx_1_1task.html#aa79813ab02210dd0719747789e35fa30", null ],
+    [ "__declspec", "classpplx_1_1task.html#ad8a731b9c4f99bb49ed978baa5ea60c2", null ],
+    [ "_CreateImpl", "classpplx_1_1task.html#aa6b17239539dc42d461c53a38438405c", null ],
+    [ "_GetImpl", "classpplx_1_1task.html#a0ccab990727f1dbe5e54682e93db513e", null ],
+    [ "_SetAsync", "classpplx_1_1task.html#a403448dea50f25c5dc00dbecd1600da7", null ],
+    [ "_SetImpl", "classpplx_1_1task.html#afbdb7ad54b2b7d9ad4b92c7b44c79220", null ],
+    [ "_SetImpl", "classpplx_1_1task.html#ab6525adcb85c74fda6035b7ba22ea1a8", null ],
+    [ "_SetTaskCreationCallstack", "classpplx_1_1task.html#a7ba8302e9e8d36b2f97c4334e6c1c281", null ],
+    [ "_Then", "classpplx_1_1task.html#ac1fc1f163011f3b6894a68a714161fd3", null ],
+    [ "get", "classpplx_1_1task.html#a5e349210fd6e7837a7275c25b184a265", null ],
+    [ "is_apartment_aware", "classpplx_1_1task.html#a725e604504e01e751d01fbefd2b722e0", null ],
+    [ "is_done", "classpplx_1_1task.html#a053a47f4ba8ea41ecf743e17bada6024", null ],
+    [ "operator!=", "classpplx_1_1task.html#a6eba93b14336d74a8ecea512327ab7f9", null ],
+    [ "operator=", "classpplx_1_1task.html#af19dabf024046b31567517f391417c07", null ],
+    [ "operator=", "classpplx_1_1task.html#ad426e790d2c69250ac9b2e58f99830f8", null ],
+    [ "operator==", "classpplx_1_1task.html#a3b75c49b588ecc05921e9eece4450a23", null ],
+    [ "scheduler", "classpplx_1_1task.html#a075b2230639bea738b4da4ce6db8ca3f", null ],
+    [ "wait", "classpplx_1_1task.html#a78a26aff25657f6c666528aefb2df7ff", null ]
+];

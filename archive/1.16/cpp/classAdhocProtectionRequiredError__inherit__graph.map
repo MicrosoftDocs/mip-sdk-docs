@@ -1,0 +1,7 @@
+<map id="AdhocProtectionRequiredError" name="AdhocProtectionRequiredError">
+<area shape="rect" id="Node000001" title="Adhoc protection should be set to complete the action on the file." alt="" coords="5,152,223,177"/>
+<area shape="rect" id="Node000002" href="$classError.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="87,79,141,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,118,117,152,111,152,111,118"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="57,5,171,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,44,117,79,111,79,111,44"/>
+</map>

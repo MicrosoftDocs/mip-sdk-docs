@@ -1,0 +1,5 @@
+<map id="MetadataAction" name="MetadataAction">
+<area shape="rect" id="Node000001" title="An Action that adds metadata information to the content." alt="" coords="5,79,131,104"/>
+<area shape="rect" id="Node000002" href="$classAction.html" title="Interface for an action. Each action translates to a step that needs to be taken by the application t..." alt="" coords="37,5,99,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,44,71,79,65,79,65,44"/>
+</map>

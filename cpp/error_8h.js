@@ -16,6 +16,7 @@ var error_8h =
     [ "LabelDisabledError", "classLabelDisabledError.html", "classLabelDisabledError" ],
     [ "LabelNotFoundError", "classLabelNotFoundError.html", "classLabelNotFoundError" ],
     [ "LicenseNotRegisteredError", "classLicenseNotRegisteredError.html", "classLicenseNotRegisteredError" ],
+    [ "MaxDepthReachedError", "classMaxDepthReachedError.html", "classMaxDepthReachedError" ],
     [ "NetworkError", "classNetworkError.html", "classNetworkError" ],
     [ "NoAuthTokenError", "classNoAuthTokenError.html", "classNoAuthTokenError" ],
     [ "NoPermissionsError", "classNoPermissionsError.html", "classNoPermissionsError" ],
@@ -56,6 +57,7 @@ var error_8h =
       [ "TEMPLATE_ARCHIVED", "error_8h.html#af7a9c5a9d19bf72299ab821bd983e131ae2bcbafd56d4c7b0da20a538c8c3ea8a", null ],
       [ "CUSTOMER_KEY_UNAVAILABLE", "error_8h.html#af7a9c5a9d19bf72299ab821bd983e131aa18e84971bdd1fc22579e2d0fc53b9f3", null ],
       [ "DELEGATE_RESPONSE", "error_8h.html#af7a9c5a9d19bf72299ab821bd983e131af78d6ffb871dcc365478781b4d0cbdc1", null ],
+      [ "MAX_DEPTH_REACHED", "error_8h.html#af7a9c5a9d19bf72299ab821bd983e131a68461ddbac1293fb1c9d33491c4d60e7", null ],
       [ "COUNT", "error_8h.html#af7a9c5a9d19bf72299ab821bd983e131a4905ac9d6a22bdfc1ae096094ce6248d", null ]
     ] ],
     [ "GetBadInputErrorString", "error_8h.html#ad51f8e6bf7b6220a23d9c9dff01758e0", null ],

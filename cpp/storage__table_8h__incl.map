@@ -1,9 +1,11 @@
 <map id="src/api/mip/storage_table.h" name="src/api/mip/storage_table.h">
-<area shape="rect" id="Node000001" title="Defines StorageTable interface." alt="" coords="47,5,193,45"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,64,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,48,59,86,56,82,98,44"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="89,93,151,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="123,46,123,79,117,79,117,46"/>
-<area shape="rect" id="Node000004" href="$mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="176,93,347,119"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="155,43,229,84,227,89,153,48"/>
+<area shape="rect" id="Node000001" title="Defines StorageTable interface." alt="" coords="95,5,241,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,72,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,48,71,88,68,84,135,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="96,93,155,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="160,47,140,83,136,80,155,44"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="179,93,242,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="181,44,200,80,196,83,176,47"/>
+<area shape="rect" id="Node000005" href="$mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="267,93,437,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="213,43,314,85,311,90,211,48"/>
 </map>

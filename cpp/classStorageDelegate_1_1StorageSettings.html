@@ -111,6 +111,9 @@ $(function(){initNavTree('classStorageDelegate_1_1StorageSettings.html',''); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a7f17e32c51902ec6f263e2c15552aaa4" id="r_a7f17e32c51902ec6f263e2c15552aaa4"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f17e32c51902ec6f263e2c15552aaa4">GetStorageTableVersion</a> () const</td></tr>
+<tr class="memdesc:a7f17e32c51902ec6f263e2c15552aaa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the version of the underlying storage tables that will be created by this <a class="el" href="classStorageDelegate.html" title="A class that defines the interface to the MIP SDK storage for caching.">StorageDelegate</a>.  <br /></td></tr>
+<tr class="separator:a7f17e32c51902ec6f263e2c15552aaa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26bb363f68ffeb8710dd2110fed9f758" id="r_a26bb363f68ffeb8710dd2110fed9f758"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26bb363f68ffeb8710dd2110fed9f758">IsInMemoryStorageSupported</a> () const</td></tr>
 <tr class="memdesc:a26bb363f68ffeb8710dd2110fed9f758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether the delegate supports in-memory storage.  <br /></td></tr>
 <tr class="separator:a26bb363f68ffeb8710dd2110fed9f758"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,17 +123,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a48050a5a152f5e0b5ea85033a0124722" id="r_a48050a5a152f5e0b5ea85033a0124722"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48050a5a152f5e0b5ea85033a0124722">OnDiskExtension</a> () const</td></tr>
 <tr class="memdesc:a48050a5a152f5e0b5ea85033a0124722"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the extension that the delegate will use when storing a table on disk.  <br /></td></tr>
 <tr class="separator:a48050a5a152f5e0b5ea85033a0124722"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a200f218843315f9f6f5cc49d331a010f" id="r_a200f218843315f9f6f5cc49d331a010f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a200f218843315f9f6f5cc49d331a010f">StorageSettings</a> (bool isRemoteStorage, bool isInMemoryStorageSupported, const std::string &amp;onDiskExtension=<a class="el" href="common__types_8h.html#a069a1611cbaf951f35ea1e89c8fb88bd">GetSqliteExtension</a>())</td></tr>
-<tr class="memdesc:a200f218843315f9f6f5cc49d331a010f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for configuring the storage settings.  <br /></td></tr>
-<tr class="separator:a200f218843315f9f6f5cc49d331a010f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab23bfb0a8c95a8d17810f3aefa3e3164" id="r_ab23bfb0a8c95a8d17810f3aefa3e3164"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab23bfb0a8c95a8d17810f3aefa3e3164">StorageSettings</a> (bool isRemoteStorage, bool isInMemoryStorageSupported, const std::string &amp;onDiskExtension=<a class="el" href="common__types_8h.html#a069a1611cbaf951f35ea1e89c8fb88bd">GetSqliteExtension</a>(), <a class="el" href="common__types_8h.html#a35be8535c2570bd764af6252223fe54f">StorageTableVersion</a> storageTableVersion=<a class="el" href="common__types_8h.html#a35be8535c2570bd764af6252223fe54fa06c2cea18679d64399783748fa367bdd">StorageTableVersion::One</a>)</td></tr>
+<tr class="memdesc:ab23bfb0a8c95a8d17810f3aefa3e3164"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for configuring the storage settings.  <br /></td></tr>
+<tr class="separator:ab23bfb0a8c95a8d17810f3aefa3e3164"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Settings used by <a class="el" href="classStorageDelegate.html" title="A class that defines the interface to the MIP SDK storage for caching.">StorageDelegate</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="storage__delegate_8h_source.html#l00090">90</a> of file <a class="el" href="storage__delegate_8h_source.html">storage_delegate.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="storage__delegate_8h_source.html#l00091">91</a> of file <a class="el" href="storage__delegate_8h_source.html">storage_delegate.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a200f218843315f9f6f5cc49d331a010f" name="a200f218843315f9f6f5cc49d331a010f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a200f218843315f9f6f5cc49d331a010f">&#9670;&#160;</a></span>StorageSettings()</h2>
+<a id="ab23bfb0a8c95a8d17810f3aefa3e3164" name="ab23bfb0a8c95a8d17810f3aefa3e3164"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab23bfb0a8c95a8d17810f3aefa3e3164">&#9670;&#160;</a></span>StorageSettings()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -151,7 +154,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>onDiskExtension</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="common__types_8h.html#a069a1611cbaf951f35ea1e89c8fb88bd">GetSqliteExtension</a>()</span>&#160;)</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>onDiskExtension</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="common__types_8h.html#a069a1611cbaf951f35ea1e89c8fb88bd">GetSqliteExtension</a>()</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common__types_8h.html#a35be8535c2570bd764af6252223fe54f">StorageTableVersion</a></td>          <td class="paramname"><span class="paramname"><em>storageTableVersion</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="common__types_8h.html#a35be8535c2570bd764af6252223fe54fa06c2cea18679d64399783748fa367bdd">StorageTableVersion::One</a></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -167,18 +175,59 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">isRemoteStore</td><td>represents if store is remote. This will be taken into account for internal encryption. </td></tr>
     <tr><td class="paramname">isInMemoryStorageSupported</td><td>Declares whether the delegate supports in-memory storage. </td></tr>
     <tr><td class="paramname">onDiskExtension</td><td>The file extension that will be used to store the data if it is needed. Should begin with ".". </td></tr>
+    <tr><td class="paramname">storageTableVersion</td><td>The version of the storage table that will be created by this delegate. If this is greater than 1, a cast can be made in internal code. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="storage__delegate_8h_source.html#l00099">99</a> of file <a class="el" href="storage__delegate_8h_source.html">storage_delegate.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  103</span>        : mIsRemoteStorage(isRemoteStorage),</div>
-<div class="line"><span class="lineno">  104</span>          mIsInMemoryStorageSupported(isInMemoryStorageSupported),</div>
-<div class="line"><span class="lineno">  105</span>          mOnDiskExtension(onDiskExtension) {}</div>
+<p class="definition">Definition at line <a class="el" href="storage__delegate_8h_source.html#l00101">101</a> of file <a class="el" href="storage__delegate_8h_source.html">storage_delegate.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  106</span>        : mIsRemoteStorage(isRemoteStorage),</div>
+<div class="line"><span class="lineno">  107</span>          mIsInMemoryStorageSupported(isInMemoryStorageSupported),</div>
+<div class="line"><span class="lineno">  108</span>          mOnDiskExtension(onDiskExtension),</div>
+<div class="line"><span class="lineno">  109</span>          mStorageTableVersion(<span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span><span class="keyword">&gt;</span>(storageTableVersion)) {</div>
+<div class="line"><span class="lineno">  110</span>      <span class="keywordflow">if</span> (mStorageTableVersion &lt; <span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code hl_enumvalue" href="common__types_8h.html#a35be8535c2570bd764af6252223fe54fa06c2cea18679d64399783748fa367bdd">StorageTableVersion::One</a>) || mStorageTableVersion &gt; <span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code hl_enumvalue" href="common__types_8h.html#a35be8535c2570bd764af6252223fe54faaada29daee1d64ed0fe907043855cb7e">StorageTableVersion::Two</a>)) {</div>
+<div class="line"><span class="lineno">  111</span>        <span class="keywordflow">throw</span> std::invalid_argument(<span class="stringliteral">&quot;Storage table version must be between StorageTableVersion::One and StorageTableVersion::Two&quot;</span>);</div>
+<div class="line"><span class="lineno">  112</span>      }</div>
+<div class="line"><span class="lineno">  113</span>    }</div>
+<div class="ttc" id="acommon__types_8h_html_a35be8535c2570bd764af6252223fe54fa06c2cea18679d64399783748fa367bdd"><div class="ttname"><a href="common__types_8h.html#a35be8535c2570bd764af6252223fe54fa06c2cea18679d64399783748fa367bdd">StorageTableVersion::One</a></div><div class="ttdeci">@ One</div></div>
+<div class="ttc" id="acommon__types_8h_html_a35be8535c2570bd764af6252223fe54faaada29daee1d64ed0fe907043855cb7e"><div class="ttname"><a href="common__types_8h.html#a35be8535c2570bd764af6252223fe54faaada29daee1d64ed0fe907043855cb7e">StorageTableVersion::Two</a></div><div class="ttdeci">@ Two</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="common__types_8h.html#a35be8535c2570bd764af6252223fe54fa06c2cea18679d64399783748fa367bdd">One</a>, and <a class="el" href="common__types_8h.html#a35be8535c2570bd764af6252223fe54faaada29daee1d64ed0fe907043855cb7e">Two</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7f17e32c51902ec6f263e2c15552aaa4" name="a7f17e32c51902ec6f263e2c15552aaa4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f17e32c51902ec6f263e2c15552aaa4">&#9670;&#160;</a></span>GetStorageTableVersion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int StorageDelegate::StorageSettings::GetStorageTableVersion </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the version of the underlying storage tables that will be created by this <a class="el" href="classStorageDelegate.html" title="A class that defines the interface to the MIP SDK storage for caching.">StorageDelegate</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>The version of the StorageTables created </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="storage__delegate_8h_source.html#l00143">143</a> of file <a class="el" href="storage__delegate_8h_source.html">storage_delegate.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  143</span>{ <span class="keywordflow">return</span> mStorageTableVersion; }</div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="a26bb363f68ffeb8710dd2110fed9f758" name="a26bb363f68ffeb8710dd2110fed9f758"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a26bb363f68ffeb8710dd2110fed9f758">&#9670;&#160;</a></span>IsInMemoryStorageSupported()</h2>
 
@@ -205,8 +254,8 @@ Public Member Functions</h2></td></tr>
 <p>Gets whether the delegate supports in-memory storage. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> if the delegate supports in-memory storage. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="storage__delegate_8h_source.html#l00119">119</a> of file <a class="el" href="storage__delegate_8h_source.html">storage_delegate.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  119</span>{ <span class="keywordflow">return</span> mIsInMemoryStorageSupported; }</div>
+<p class="definition">Definition at line <a class="el" href="storage__delegate_8h_source.html#l00127">127</a> of file <a class="el" href="storage__delegate_8h_source.html">storage_delegate.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  127</span>{ <span class="keywordflow">return</span> mIsInMemoryStorageSupported; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -236,8 +285,8 @@ Public Member Functions</h2></td></tr>
 <p>Gets whether remote storage is used or not. </p>
 <dl class="section return"><dt>Returns</dt><dd>whether remote storage is used or not. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="storage__delegate_8h_source.html#l00112">112</a> of file <a class="el" href="storage__delegate_8h_source.html">storage_delegate.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  112</span>{ <span class="keywordflow">return</span> mIsRemoteStorage; }</div>
+<p class="definition">Definition at line <a class="el" href="storage__delegate_8h_source.html#l00120">120</a> of file <a class="el" href="storage__delegate_8h_source.html">storage_delegate.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  120</span>{ <span class="keywordflow">return</span> mIsRemoteStorage; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -268,8 +317,8 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The extension that will be used. Default to ".sqlite3".</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Extension will have "." preceding it </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="storage__delegate_8h_source.html#l00128">128</a> of file <a class="el" href="storage__delegate_8h_source.html">storage_delegate.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  128</span>{ <span class="keywordflow">return</span> mOnDiskExtension; }</div>
+<p class="definition">Definition at line <a class="el" href="storage__delegate_8h_source.html#l00136">136</a> of file <a class="el" href="storage__delegate_8h_source.html">storage_delegate.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  136</span>{ <span class="keywordflow">return</span> mOnDiskExtension; }</div>
 </div><!-- fragment -->
 </div>
 </div>

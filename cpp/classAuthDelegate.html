@@ -131,7 +131,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Delegate for auth related operations. </p>
 
-<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00322">322</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00330">330</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a5b0653443548be7e18410bbd79c0a8a6" name="a5b0653443548be7e18410bbd79c0a8a6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5b0653443548be7e18410bbd79c0a8a6">&#9670;&#160;</a></span>AcquireOAuth2Token() <span class="overload">[1/2]</span></h2>
@@ -183,16 +183,16 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>True if token successfully acquired, else false</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>On failure, if token output parameter contains an error message, it will be included in the <a class="el" href="classNoAuthTokenError.html" title="The user could not get access to the content due to missing authentication token.">NoAuthTokenError</a> exception that will later be raised to the application. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00463">463</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  467</span>                          {</div>
-<div class="line"><span class="lineno">  468</span>    <span class="comment">// Temporarily call into old &#39;AcquireOAuth2Token&#39; method until it is fully deprecated (in case application</span></div>
-<div class="line"><span class="lineno">  469</span>    <span class="comment">// hasn&#39;t yet implemented this new method)</span></div>
-<div class="line"><span class="lineno">  470</span>    UNUSED(context);</div>
-<div class="line"><span class="lineno">  471</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="#ace3ec6c0708bde7d12679412e26ee3ca">AcquireOAuth2Token</a>(identity, challenge, token);</div>
-<div class="line"><span class="lineno">  472</span>  }</div>
-<div class="ttc" id="aclassAuthDelegate_html_ace3ec6c0708bde7d12679412e26ee3ca"><div class="ttname"><a href="#ace3ec6c0708bde7d12679412e26ee3ca">AuthDelegate::AcquireOAuth2Token</a></div><div class="ttdeci">virtual bool AcquireOAuth2Token(const Identity &amp;identity, const OAuth2Challenge &amp;challenge, OAuth2Token &amp;token)</div><div class="ttdoc">This method is called when an auth token is required for the policy engine with the given identity an...</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00444">common_types.h:444</a></div></div>
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00471">471</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  475</span>                          {</div>
+<div class="line"><span class="lineno">  476</span>    <span class="comment">// Temporarily call into old &#39;AcquireOAuth2Token&#39; method until it is fully deprecated (in case application</span></div>
+<div class="line"><span class="lineno">  477</span>    <span class="comment">// hasn&#39;t yet implemented this new method)</span></div>
+<div class="line"><span class="lineno">  478</span>    UNUSED(context);</div>
+<div class="line"><span class="lineno">  479</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="#ace3ec6c0708bde7d12679412e26ee3ca">AcquireOAuth2Token</a>(identity, challenge, token);</div>
+<div class="line"><span class="lineno">  480</span>  }</div>
+<div class="ttc" id="aclassAuthDelegate_html_ace3ec6c0708bde7d12679412e26ee3ca"><div class="ttname"><a href="#ace3ec6c0708bde7d12679412e26ee3ca">AuthDelegate::AcquireOAuth2Token</a></div><div class="ttdeci">virtual bool AcquireOAuth2Token(const Identity &amp;identity, const OAuth2Challenge &amp;challenge, OAuth2Token &amp;token)</div><div class="ttdoc">This method is called when an auth token is required for the policy engine with the given identity an...</div><div class="ttdef"><b>Definition</b> <a href="common__types_8h_source.html#l00452">common_types.h:452</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="common__types_8h_source.html#l00444">AcquireOAuth2Token()</a>.</p>
+<p class="reference">References <a class="el" href="common__types_8h_source.html#l00452">AcquireOAuth2Token()</a>.</p>
 
 </div>
 </div>
@@ -241,10 +241,10 @@ Public Member Functions</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>On failure, if token output parameter contains an error message, it will be included in the <a class="el" href="classNoAuthTokenError.html" title="The user could not get access to the content due to missing authentication token.">NoAuthTokenError</a> exception that will later be raised to the application.</dd></dl>
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated</a></b></dt><dd>This method will soon be deprecated in favor of the one accepting a context parameter. If the new version has been implemented, there is no need to implement this version. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00444">444</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  447</span>                          { UNUSED(identity); UNUSED(challenge); UNUSED(token); <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
+<p class="definition">Definition at line <a class="el" href="common__types_8h_source.html#l00452">452</a> of file <a class="el" href="common__types_8h_source.html">common_types.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  455</span>                          { UNUSED(identity); UNUSED(challenge); UNUSED(token); <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="common__types_8h_source.html#l00463">AcquireOAuth2Token()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="common__types_8h_source.html#l00471">AcquireOAuth2Token()</a>.</p>
 
 </div>
 </div>

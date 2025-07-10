@@ -25,7 +25,6 @@
 var NAVTREE =
 [
   [ "Microsoft Information Protection (MIP) SDK for C++: Reference", "index.html", [
-    [ "Microsoft Information Protection (MIP) SDK for C++ 1.16: Reference", "index.html", null ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -63,14 +62,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "action_8h.html",
-"classDelegateResponseError.html#abc98b444b9adbfd6dc8ba5e96db54b37",
-"classFileProfile.html#a2969c199d512f3dcd66ac24ecb644f48",
-"classLicenseNotRegisteredError.html",
-"classParsedPublishingLicense.html#a710c8a333b60afc1d2ee0a135f19b1cf",
-"classProtectionEngine_1_1Observer.html#acb203e845490619471b3ba75e8a03dde",
-"classServiceDisabledError.html#a6263b135629b24de3c2ab4e250ee4eeda8f9bfe9d1345237cb3b2b205864da075",
-"diagnostic__types_8h.html#a82ffb821068e72d285d7e653cdc65a3ea972e73b7a882d0802a4e3a16946a2f94",
-"license__rights__data_8h_source.html"
+"classDelegateResponseError.html#a47a4a0b6c07e375a5faa5e3dbb1dc50d",
+"classGetTemplatesSettings.html#a64e3a1be023b0ba0b7e8c3be4bc6a718",
+"classMaxDepthReachedError.html#a27297bdd7abc0571413a249ed4d1f447",
+"classParsedPublishingLicenseBuilder.html#a1dc8f42f424563ec24450a6e54785d6b",
+"classProtectionHandler_1_1PublishingSettings.html#afd860eba9eee4b4a15e4c65438ac83aa",
+"classTemplateNotFoundError.html#a34ab84a92eb2a61d10bb2a1720640eb5",
+"error_8h.html#af7a9c5a9d19bf72299ab821bd983e131af78d6ffb871dcc365478781b4d0cbdc1",
+"namespacerights.html#a9551a8149ed6fb783ce7c187d37be59d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

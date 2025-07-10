@@ -4,6 +4,8 @@ var classMipContext =
     [ "Create", "classMipContext.html#ad049d89d52678ce1c18908af3aa32918", null ],
     [ "CreateWithCustomFeatureSettings", "classMipContext.html#a28a171f08ef58df6fdc3dd19f1e5c6e8", null ],
     [ "GetApplicationInfo", "classMipContext.html#a305593ffc30951634d0e9a71f3633ba5", null ],
+    [ "GetCacheStorageType", "classMipContext.html#a997db49423e4c4e5a91d72e1bbffe201", null ],
+    [ "GetCloudDiscoveryDelegate", "classMipContext.html#aec0e60257adbe0a3f327c3d1b661cce9", null ],
     [ "GetFlightingFeatures", "classMipContext.html#ac1a2a233ea5466fc16a08bd8218533d0", null ],
     [ "GetHttpDelegate", "classMipContext.html#a1fde6750d8b257cb4ed0978ad5c19b27", null ],
     [ "GetLoggerConfiguration", "classMipContext.html#af0fad83d16f0fa9b540981c52787230a", null ],

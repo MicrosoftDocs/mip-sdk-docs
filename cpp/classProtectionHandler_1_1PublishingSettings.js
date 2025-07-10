@@ -16,6 +16,7 @@ var classProtectionHandler_1_1PublishingSettings =
     [ "GetPublishingLicenseForRepublish", "classProtectionHandler_1_1PublishingSettings.html#a570474d619c60667ce00115d61c8ed69", null ],
     [ "GetRegenerateContentKey", "classProtectionHandler_1_1PublishingSettings.html#a4b12f98b4c443451190c4112c5f2bc62", null ],
     [ "GetRepairLabelIdAllowed", "classProtectionHandler_1_1PublishingSettings.html#a630a7df7c92f25264bef8cb2362603e1", null ],
+    [ "GetShouldRefreshTemplates", "classProtectionHandler_1_1PublishingSettings.html#a9d5910467cfa34ce754e0f3874091283", null ],
     [ "IsPublishingFormatJson", "classProtectionHandler_1_1PublishingSettings.html#ae896597837cd3c1a7d86fa95628fb4f2", null ],
     [ "SetApplicationScenarioId", "classProtectionHandler_1_1PublishingSettings.html#a3e1f64999230823061d1d8707172eb17", null ],
     [ "SetCustomSettings", "classProtectionHandler_1_1PublishingSettings.html#a64e3a1be023b0ba0b7e8c3be4bc6a718", null ],
@@ -27,5 +28,6 @@ var classProtectionHandler_1_1PublishingSettings =
     [ "SetPublishingFormatJson", "classProtectionHandler_1_1PublishingSettings.html#a6b86aa18270925ec6e63eefbdf4e1ba3", null ],
     [ "SetRegenerateContentKey", "classProtectionHandler_1_1PublishingSettings.html#ae6f0f6c7158ca3e6d84e3167b40efe33", null ],
     [ "SetRepairLabelIdAllowed", "classProtectionHandler_1_1PublishingSettings.html#a52853c8f970eb97eafad8d11cc70c9eb", null ],
-    [ "SetRequestPreLicense", "classProtectionHandler_1_1PublishingSettings.html#a0507bdebeb4660567e939fc85ee75109", null ]
+    [ "SetRequestPreLicense", "classProtectionHandler_1_1PublishingSettings.html#a0507bdebeb4660567e939fc85ee75109", null ],
+    [ "SetShouldRefreshTemplates", "classProtectionHandler_1_1PublishingSettings.html#aac2e782bc430776ba1d473e2f580f814", null ]
 ];

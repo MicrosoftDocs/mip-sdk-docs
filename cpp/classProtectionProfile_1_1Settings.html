@@ -230,25 +230,24 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mipContext</td><td>Global context settings </td></tr>
-    <tr><td class="paramname">cacheStorageType</td><td>Store any cached state in memory or on disk </td></tr>
+    <tr><td class="paramname">cacheStorageType</td><td>Store any cached state in memory or on disk, ignored if cacheStorageType is specified in <a class="el" href="classMipConfiguration.html" title="Configuration used by MIP sdk during its creation and throughout its lifetime.">MipConfiguration</a> </td></tr>
     <tr><td class="paramname">consentDelegate</td><td>Delegate used to obtain user permission to access external resources </td></tr>
     <tr><td class="paramname">observer</td><td><a class="el" href="classProtectionProfile_1_1Observer.html" title="Interface that receives notifications related to ProtectionProfile.">Observer</a> instance that will receive notifications of events related to <a class="el" href="classProtectionProfile.html" title="ProtectionProfile is the root class for performing protection operations.">ProtectionProfile</a> </td></tr>
-    <tr><td class="paramname">applicationInfo</td><td>Info about application that is consuming the protection SDK </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00178">178</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  183</span>        : mMipContext(mipContext),</div>
-<div class="line"><span class="lineno">  184</span>          mCacheStorageType(cacheStorageType),</div>
-<div class="line"><span class="lineno">  185</span>          mConsentDelegate(consentDelegate),</div>
-<div class="line"><span class="lineno">  186</span>          mObserver(observer),</div>
-<div class="line"><span class="lineno">  187</span>          mCanCacheLicenses(<span class="keyword">true</span>),</div>
-<div class="line"><span class="lineno">  188</span><span class="preprocessor">#if defined(MIP_OFFLINE_PUBLISHING_ENABLED) || defined(SWIG) || defined(SWIG_DIRECTORS)</span></div>
-<div class="line"><span class="lineno">  189</span>          mOfflinePublishing(<span class="keyword">false</span>),</div>
-<div class="line"><span class="lineno">  190</span><span class="preprocessor">#endif </span><span class="comment">// MIP_OFFLINE_PUBLISHING_ENABLED</span></div>
-<div class="line"><span class="lineno">  191</span>          mDnsRedirection(<a class="code hl_enumvalue" href="dns__redirection_8h.html#aedc87df4f0412a0242ba2f903aa88a81afa52842fa0347830a7cf991a153ca378">DnsRedirection::MDEDiscovery</a>) {</div>
-<div class="line"><span class="lineno">  192</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00177">177</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  182</span>        : mMipContext(mipContext),</div>
+<div class="line"><span class="lineno">  183</span>          mCacheStorageType(cacheStorageType),</div>
+<div class="line"><span class="lineno">  184</span>          mConsentDelegate(consentDelegate),</div>
+<div class="line"><span class="lineno">  185</span>          mObserver(observer),</div>
+<div class="line"><span class="lineno">  186</span>          mCanCacheLicenses(<span class="keyword">true</span>),</div>
+<div class="line"><span class="lineno">  187</span><span class="preprocessor">#if defined(MIP_OFFLINE_PUBLISHING_ENABLED) || defined(SWIG) || defined(SWIG_DIRECTORS)</span></div>
+<div class="line"><span class="lineno">  188</span>          mOfflinePublishing(<span class="keyword">false</span>),</div>
+<div class="line"><span class="lineno">  189</span><span class="preprocessor">#endif </span><span class="comment">// MIP_OFFLINE_PUBLISHING_ENABLED</span></div>
+<div class="line"><span class="lineno">  190</span>          mDnsRedirection(<a class="code hl_enumvalue" href="dns__redirection_8h.html#aedc87df4f0412a0242ba2f903aa88a81afa52842fa0347830a7cf991a153ca378">DnsRedirection::MDEDiscovery</a>) {</div>
+<div class="line"><span class="lineno">  191</span>    }</div>
 <div class="ttc" id="adns__redirection_8h_html_aedc87df4f0412a0242ba2f903aa88a81afa52842fa0347830a7cf991a153ca378"><div class="ttname"><a href="dns__redirection_8h.html#aedc87df4f0412a0242ba2f903aa88a81afa52842fa0347830a7cf991a153ca378">DnsRedirection::MDEDiscovery</a></div><div class="ttdeci">@ MDEDiscovery</div></div>
 </div><!-- fragment -->
 </div>
@@ -289,17 +288,16 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mipContext</td><td>Global context settings </td></tr>
-    <tr><td class="paramname">cacheStorageType</td><td>Store any cached state in memory or on disk </td></tr>
+    <tr><td class="paramname">cacheStorageType</td><td>Store any cached state in memory or on disk, ignored if cacheStorageType is specified in <a class="el" href="classMipConfiguration.html" title="Configuration used by MIP sdk during its creation and throughout its lifetime.">MipConfiguration</a> </td></tr>
     <tr><td class="paramname">consentDelegate</td><td>Delegate used to obtain user permission to access external resources </td></tr>
-    <tr><td class="paramname">applicationInfo</td><td>Info about application which is consuming the protection SDK </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00202">202</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  206</span>        : <a class="code hl_function" href="#a35b1fb4e27e62ed6b46cb7881303caa1">Settings</a>(mipContext, cacheStorageType, consentDelegate, <span class="keyword">nullptr</span> <span class="comment">/*observer*/</span>) {</div>
-<div class="line"><span class="lineno">  207</span>    }</div>
-<div class="ttc" id="aclassProtectionProfile_1_1Settings_html_a35b1fb4e27e62ed6b46cb7881303caa1"><div class="ttname"><a href="#a35b1fb4e27e62ed6b46cb7881303caa1">ProtectionProfile::Settings::Settings</a></div><div class="ttdeci">Settings(const std::shared_ptr&lt; MipContext &gt; &amp;mipContext, CacheStorageType cacheStorageType, const std::shared_ptr&lt; ConsentDelegate &gt; &amp;consentDelegate, const std::shared_ptr&lt; ProtectionProfile::Observer &gt; &amp;observer)</div><div class="ttdoc">ProtectionProfile::Settings constructor that specifies an observer to be used for async operations.</div><div class="ttdef"><b>Definition</b> <a href="protection__profile_8h_source.html#l00178">protection_profile.h:178</a></div></div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00200">200</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  204</span>        : <a class="code hl_function" href="#a35b1fb4e27e62ed6b46cb7881303caa1">Settings</a>(mipContext, cacheStorageType, consentDelegate, <span class="keyword">nullptr</span> <span class="comment">/*observer*/</span>) {</div>
+<div class="line"><span class="lineno">  205</span>    }</div>
+<div class="ttc" id="aclassProtectionProfile_1_1Settings_html_a35b1fb4e27e62ed6b46cb7881303caa1"><div class="ttname"><a href="#a35b1fb4e27e62ed6b46cb7881303caa1">ProtectionProfile::Settings::Settings</a></div><div class="ttdeci">Settings(const std::shared_ptr&lt; MipContext &gt; &amp;mipContext, CacheStorageType cacheStorageType, const std::shared_ptr&lt; ConsentDelegate &gt; &amp;consentDelegate, const std::shared_ptr&lt; ProtectionProfile::Observer &gt; &amp;observer)</div><div class="ttdoc">ProtectionProfile::Settings constructor that specifies an observer to be used for async operations.</div><div class="ttdef"><b>Definition</b> <a href="protection__profile_8h_source.html#l00177">protection_profile.h:177</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -341,10 +339,10 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>Use this function to provide a domain that should be redirected to another Uri The originalUri will be normalized before comparison with the domain for the current request. If the domain of the current request matches that of the originalUri then the redirectUri will be used instead This redirection will occur before DNS lookup redirection </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00371">371</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  371</span>                                                                                       {</div>
-<div class="line"><span class="lineno">  372</span>      mRedirectionUris[originalUri] = redirectUri;</div>
-<div class="line"><span class="lineno">  373</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00369">369</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  369</span>                                                                                       {</div>
+<div class="line"><span class="lineno">  370</span>      mRedirectionUris[originalUri] = redirectUri;</div>
+<div class="line"><span class="lineno">  371</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -374,10 +372,10 @@ Public Member Functions</h2></td></tr>
 <p>Gets whether or not end user licenses (EULs) are cached locally. </p>
 <dl class="section return"><dt>Returns</dt><dd>License caching configuration </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00319">319</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  319</span>                                  {</div>
-<div class="line"><span class="lineno">  320</span>      <span class="keywordflow">return</span> mCanCacheLicenses;</div>
-<div class="line"><span class="lineno">  321</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00317">317</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  317</span>                                  {</div>
+<div class="line"><span class="lineno">  318</span>      <span class="keywordflow">return</span> mCanCacheLicenses;</div>
+<div class="line"><span class="lineno">  319</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -407,8 +405,8 @@ Public Member Functions</h2></td></tr>
 <p>Get whether caches are stored in memory or on disk. </p>
 <dl class="section return"><dt>Returns</dt><dd>storage type used </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00218">218</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  218</span>{ <span class="keywordflow">return</span> mCacheStorageType; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00216">216</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  216</span>{ <span class="keywordflow">return</span> mCacheStorageType; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -438,8 +436,8 @@ Public Member Functions</h2></td></tr>
 <p>Gets the consent delegate used for connecting to services. </p>
 <dl class="section return"><dt>Returns</dt><dd>Consent delegate used for connecting to services </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00225">225</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  225</span>{ <span class="keywordflow">return</span> mConsentDelegate; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00223">223</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  223</span>{ <span class="keywordflow">return</span> mConsentDelegate; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -469,10 +467,10 @@ Public Member Functions</h2></td></tr>
 <p>Get the custom settings, used for feature gating and testing. </p>
 <dl class="section return"><dt>Returns</dt><dd>List of name/value pairs. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00337">337</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  337</span>                                                                              {</div>
-<div class="line"><span class="lineno">  338</span>      <span class="keywordflow">return</span> mCustomSettings;</div>
-<div class="line"><span class="lineno">  339</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00335">335</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  335</span>                                                                              {</div>
+<div class="line"><span class="lineno">  336</span>      <span class="keywordflow">return</span> mCustomSettings;</div>
+<div class="line"><span class="lineno">  337</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -502,10 +500,10 @@ Public Member Functions</h2></td></tr>
 <p>Gets the dns redirect mode. </p>
 <dl class="section return"><dt>Returns</dt><dd>The redirect mode used </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00409">409</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  409</span>                                             {</div>
-<div class="line"><span class="lineno">  410</span>      <span class="keywordflow">return</span> mDnsRedirection;</div>
-<div class="line"><span class="lineno">  411</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00407">407</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  407</span>                                             {</div>
+<div class="line"><span class="lineno">  408</span>      <span class="keywordflow">return</span> mDnsRedirection;</div>
+<div class="line"><span class="lineno">  409</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -535,8 +533,8 @@ Public Member Functions</h2></td></tr>
 <p>Get the HTTP delegate (if any) provided by the application. </p>
 <dl class="section return"><dt>Returns</dt><dd>HTTP delegate to be used for HTTP operations </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00246">246</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  246</span>{ <span class="keywordflow">return</span> mHttpDelegate; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00244">244</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  244</span>{ <span class="keywordflow">return</span> mHttpDelegate; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -566,8 +564,8 @@ Public Member Functions</h2></td></tr>
 <p>Get logger context that will be opaquely passed to the logger delegate for logs associated with the created profile. </p>
 <dl class="section return"><dt>Returns</dt><dd>The logger context </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00347">347</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  347</span>{ <span class="keywordflow">return</span> mLoggerContext; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00345">345</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  345</span>{ <span class="keywordflow">return</span> mLoggerContext; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -597,8 +595,8 @@ Public Member Functions</h2></td></tr>
 <p>Get MIP context which represents shared state across all profiles. </p>
 <dl class="section return"><dt>Returns</dt><dd>MIP context </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00239">239</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  239</span>{ <span class="keywordflow">return</span> mMipContext; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00237">237</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  237</span>{ <span class="keywordflow">return</span> mMipContext; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -628,8 +626,8 @@ Public Member Functions</h2></td></tr>
 <p>Gets the observer that receives notifications of events related to <a class="el" href="classProtectionProfile.html" title="ProtectionProfile is the root class for performing protection operations.">ProtectionProfile</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classProtectionProfile_1_1Observer.html" title="Interface that receives notifications related to ProtectionProfile.">Observer</a> that receives notifications of events related to <a class="el" href="classProtectionProfile.html" title="ProtectionProfile is the root class for performing protection operations.">ProtectionProfile</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00232">232</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  232</span>{ <span class="keywordflow">return</span> mObserver; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00230">230</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  230</span>{ <span class="keywordflow">return</span> mObserver; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -659,10 +657,10 @@ Public Member Functions</h2></td></tr>
 <p>Gets the redirection uris. </p>
 <dl class="section return"><dt>Returns</dt><dd>Map of redirection uris </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00380">380</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  380</span>                                                                   {</div>
-<div class="line"><span class="lineno">  381</span>      <span class="keywordflow">return</span> mRedirectionUris;</div>
-<div class="line"><span class="lineno">  382</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00378">378</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  378</span>                                                                   {</div>
+<div class="line"><span class="lineno">  379</span>      <span class="keywordflow">return</span> mRedirectionUris;</div>
+<div class="line"><span class="lineno">  380</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -692,8 +690,8 @@ Public Member Functions</h2></td></tr>
 <p>Gets the session ID. </p>
 <dl class="section return"><dt>Returns</dt><dd>Session ID that will be used to correlate logs/telemetry </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00300">300</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  300</span>{ <span class="keywordflow">return</span> mSessionId; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00298">298</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  298</span>{ <span class="keywordflow">return</span> mSessionId; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -723,8 +721,8 @@ Public Member Functions</h2></td></tr>
 <p>Get the <a class="el" href="classStorageDelegate.html" title="A class that defines the interface to the MIP SDK storage for caching.">StorageDelegate</a> (if any) provided by the application. </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classStorageDelegate.html" title="A class that defines the interface to the MIP SDK storage for caching.">StorageDelegate</a> to be used for caching </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00260">260</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  260</span>{ <span class="keywordflow">return</span> mStorageDelegate; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00258">258</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  258</span>{ <span class="keywordflow">return</span> mStorageDelegate; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -754,8 +752,8 @@ Public Member Functions</h2></td></tr>
 <p>Get the TaskDispatcher delegate (if any) provided by the application. </p>
 <dl class="section return"><dt>Returns</dt><dd>TaskDispatcher delegate to be used for executing asynchronous tasks </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00274">274</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  274</span>{ <span class="keywordflow">return</span> mTaskDispatcherDelegate; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00272">272</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  272</span>{ <span class="keywordflow">return</span> mTaskDispatcherDelegate; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -791,10 +789,10 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>If true, opening protected content will cache the associated license locally. If false, opening protected content will always perform HTTP operation to acquire the license from the RMS service. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00310">310</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  310</span>                                                    {</div>
-<div class="line"><span class="lineno">  311</span>      mCanCacheLicenses = canCacheLicenses;</div>
-<div class="line"><span class="lineno">  312</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00308">308</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  308</span>                                                    {</div>
+<div class="line"><span class="lineno">  309</span>      mCanCacheLicenses = canCacheLicenses;</div>
+<div class="line"><span class="lineno">  310</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -829,10 +827,10 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00328">328</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  328</span>                                                                                           {</div>
-<div class="line"><span class="lineno">  329</span>      mCustomSettings = customSettings;</div>
-<div class="line"><span class="lineno">  330</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00326">326</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  326</span>                                                                                           {</div>
+<div class="line"><span class="lineno">  327</span>      mCustomSettings = customSettings;</div>
+<div class="line"><span class="lineno">  328</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -867,10 +865,10 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00418">418</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  418</span>                                                          {</div>
-<div class="line"><span class="lineno">  419</span>      mDnsRedirection = dnsRedirection;</div>
-<div class="line"><span class="lineno">  420</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00416">416</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  416</span>                                                          {</div>
+<div class="line"><span class="lineno">  417</span>      mDnsRedirection = dnsRedirection;</div>
+<div class="line"><span class="lineno">  418</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -905,8 +903,8 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00253">253</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  253</span>{ mHttpDelegate = httpDelegate; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00251">251</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  251</span>{ mHttpDelegate = httpDelegate; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -941,10 +939,10 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00356">356</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  356</span>                                                                    {</div>
-<div class="line"><span class="lineno">  357</span>      mLoggerContext = loggerContext;</div>
-<div class="line"><span class="lineno">  358</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00354">354</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  354</span>                                                                    {</div>
+<div class="line"><span class="lineno">  355</span>      mLoggerContext = loggerContext;</div>
+<div class="line"><span class="lineno">  356</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -979,8 +977,8 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00293">293</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  293</span>{ mSessionId = sessionId; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00291">291</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  291</span>{ mSessionId = sessionId; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1015,8 +1013,8 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00267">267</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  267</span>{ mStorageDelegate = storageDelegate; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00265">265</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  265</span>{ mStorageDelegate = storageDelegate; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1052,10 +1050,10 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>tasks can reference profile objects preventing its destruction as a result taskdispatcher queues should not be shared. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00284">284</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  284</span>                                                                                                        {</div>
-<div class="line"><span class="lineno">  285</span>      mTaskDispatcherDelegate = taskDispatcherDelegate;</div>
-<div class="line"><span class="lineno">  286</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="protection__profile_8h_source.html#l00282">282</a> of file <a class="el" href="protection__profile_8h_source.html">protection_profile.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  282</span>                                                                                                        {</div>
+<div class="line"><span class="lineno">  283</span>      mTaskDispatcherDelegate = taskDispatcherDelegate;</div>
+<div class="line"><span class="lineno">  284</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>

@@ -1,0 +1,12 @@
+<map id="src/api/mip_cc/auth_callback_cc.h" name="src/api/mip_cc/auth_callback_cc.h">
+<area shape="rect" id="Node000001" title="Defines auth callback functions." alt="" coords="216,5,364,45"/>
+<area shape="rect" id="Node000002" href="$protection__engine__cc_8h.html" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="5,93,191,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,53,141,96,139,91,234,49"/>
+<area shape="rect" id="Node000004" href="$policy__engine__cc_8h.html" title="Contains C API definitions for policy engine." alt="" coords="215,93,365,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="293,59,293,93,287,93,287,59"/>
+<area shape="rect" id="Node000005" href="$policy__profile__cc_8h.html" title="Contains C API definitions for policy profile." alt="" coords="273,181,419,221"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="341,51,363,69,379,92,385,116,381,141,362,182,357,180,376,139,379,116,374,94,359,73,338,55"/>
+<area shape="rect" id="Node000003" href="$protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="5,181,191,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,147,101,181,95,181,95,147"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="312,144,336,180,331,183,308,146"/>
+</map>

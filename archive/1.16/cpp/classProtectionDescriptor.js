@@ -1,0 +1,23 @@
+var classProtectionDescriptor =
+[
+    [ "DoesAllowOfflineAccess", "classProtectionDescriptor.html#aec2ee49903d638c123df1c116d3a4562", null ],
+    [ "DoesContentExpire", "classProtectionDescriptor.html#ae24d88008daaeafc9b51c561d621c5c1", null ],
+    [ "GetContentId", "classProtectionDescriptor.html#a3ad91c16f579811e8673f8eb6004e5c5", null ],
+    [ "GetContentValidUntil", "classProtectionDescriptor.html#ac2a22325714a9e161e2f1a2408b72a1c", null ],
+    [ "GetDescription", "classProtectionDescriptor.html#a8b8551d313562fb5e4e403201f344261", null ],
+    [ "GetDoubleKeyUrl", "classProtectionDescriptor.html#a52dfee7cba1549739bb6b532e38b9389", null ],
+    [ "GetDynamicWatermark", "classProtectionDescriptor.html#a7b26f5966dd431af2d96b24fadb2452b", null ],
+    [ "GetEncryptedAppData", "classProtectionDescriptor.html#a1cb9a6cb79d37008c3918a6e0e3337c7", null ],
+    [ "GetLabelId", "classProtectionDescriptor.html#ab83b4d04a4f73f8f31cde55bbaf9dcce", null ],
+    [ "GetLabelInfo", "classProtectionDescriptor.html#a68950cf2164349dad1e072baae53892c", null ],
+    [ "GetName", "classProtectionDescriptor.html#aedfbe9bb62744b4876a6440e2e49cf2d", null ],
+    [ "GetOwner", "classProtectionDescriptor.html#a9292105d07ba991c1f51d5c548a58090", null ],
+    [ "GetProtectionType", "classProtectionDescriptor.html#ac7365f49c26e97e454e26471a9f182e5", null ],
+    [ "GetReferrer", "classProtectionDescriptor.html#a4e456d6a40adba88c0282105208b881a", null ],
+    [ "GetSerializedTemplate", "classProtectionDescriptor.html#a4111047ba423f26a738e162fadc0e0fa", null ],
+    [ "GetSignedAppData", "classProtectionDescriptor.html#a0624527c7c1237a97ec0f4b02140c42d", null ],
+    [ "GetSupplementalInfo", "classProtectionDescriptor.html#aaca83688360b8639590e6e96417c6acf", null ],
+    [ "GetTemplateId", "classProtectionDescriptor.html#ac55bd8aab132f8613f72420a0d784a9a", null ],
+    [ "GetUserRights", "classProtectionDescriptor.html#a556cb47fcaa7577a693f41af102aa291", null ],
+    [ "GetUserRoles", "classProtectionDescriptor.html#ae61a664da972a68e490eea09bd4e065a", null ]
+];

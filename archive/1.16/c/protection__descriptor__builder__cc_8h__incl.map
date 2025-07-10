@@ -1,0 +1,38 @@
+<map id="src/api/mip_cc/protection_descriptor_builder_cc.h" name="src/api/mip_cc/protection_descriptor_builder_cc.h">
+<area shape="rect" id="Node000001" title="Defines C&#45;Style ProtectionDescriptorBuilder interface." alt="" coords="366,5,551,45"/>
+<area shape="rect" id="Node000002" href="$protection__descriptor__cc_8h.html" title="Defines C&#45;Style ProtectionDescriptor interface." alt="" coords="337,93,580,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="461,46,461,79,456,79,456,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,167,69,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="371,121,240,141,84,169,83,164,239,136,371,116"/>
+<area shape="rect" id="Node000004" href="$common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules." alt="" coords="285,240,491,265"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="401,121,361,139,344,152,330,168,326,184,332,200,344,216,360,230,357,234,341,219,327,203,321,184,326,165,340,148,359,134,399,116"/>
+<area shape="rect" id="Node000007" href="$dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary." alt="" coords="93,167,264,192"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="414,121,238,166,237,161,413,116"/>
+<area shape="rect" id="Node000008" href="$error__cc_8h.html" title="Error definition and functions." alt="" coords="515,240,651,265"/>
+<area shape="poly" id="edge15_Node000002_Node000008" title=" " alt="" coords="519,116,560,134,578,148,593,165,599,180,601,197,595,227,590,227,595,197,594,182,588,168,575,152,557,139,517,121"/>
+<area shape="rect" id="Node000009" href="$result__cc_8h.html" title="Defines success/error result codes." alt="" coords="501,313,643,339"/>
+<area shape="poly" id="edge16_Node000002_Node000009" title=" " alt="" coords="580,107,657,113,733,123,797,140,821,151,838,165,848,179,852,192,853,205,849,218,831,240,802,260,766,277,726,291,646,313,645,308,724,286,764,272,799,255,827,236,844,215,847,205,847,193,843,181,834,168,818,156,795,145,732,128,656,118,580,113"/>
+<area shape="rect" id="Node000010" href="$string__list__cc_8h.html" title="Contains C API definitions for common string list." alt="" coords="654,167,823,192"/>
+<area shape="poly" id="edge17_Node000002_Node000010" title=" " alt="" coords="504,116,681,161,680,166,503,121"/>
+<area shape="rect" id="Node000011" href="$dynamic__watermark__cc_8h.html" title=" " alt="" coords="339,167,578,192"/>
+<area shape="poly" id="edge23_Node000002_Node000011" title=" " alt="" coords="461,119,461,153,456,153,456,119"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="377,387,447,412"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="393,265,410,373,405,373,387,266"/>
+<area shape="rect" id="Node000006" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="477,387,662,412"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="403,264,491,337,544,376,541,381,488,341,400,268"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="213,189,342,233,340,238,211,195"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="177,193,169,221,163,260,165,301,171,320,181,337,192,347,209,356,257,371,364,390,363,395,256,376,207,361,189,351,177,340,166,322,160,302,157,259,164,220,172,191"/>
+<area shape="poly" id="edge13_Node000007_Node000006" title=" " alt="" coords="185,191,203,227,216,246,232,263,296,306,366,340,435,364,496,381,495,386,433,369,364,345,293,311,229,267,212,250,198,229,181,193"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="244,189,505,235,504,240,243,195"/>
+<area shape="poly" id="edge14_Node000007_Node000009" title=" " alt="" coords="190,190,224,227,248,247,275,263,327,285,383,300,487,317,486,322,381,305,325,290,272,268,245,251,221,231,186,194"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="584,266,578,300,573,299,578,265"/>
+<area shape="poly" id="edge11_Node000009_Node000005" title=" " alt="" coords="547,341,452,383,450,379,545,336"/>
+<area shape="poly" id="edge12_Node000009_Node000006" title=" " alt="" coords="574,339,573,373,568,373,569,339"/>
+<area shape="poly" id="edge19_Node000010_Node000004" title=" " alt="" coords="683,195,458,240,457,235,682,189"/>
+<area shape="poly" id="edge18_Node000010_Node000005" title=" " alt="" coords="739,193,730,223,715,263,691,305,657,341,582,362,461,390,460,385,581,357,655,336,686,302,710,261,725,221,734,192"/>
+<area shape="poly" id="edge21_Node000010_Node000006" title=" " alt="" coords="747,191,760,220,772,259,774,301,769,321,760,340,743,358,722,373,676,391,674,386,720,368,739,354,755,337,764,320,769,300,766,260,755,222,743,193"/>
+<area shape="poly" id="edge20_Node000010_Node000008" title=" " alt="" coords="715,194,622,237,620,232,713,190"/>
+<area shape="poly" id="edge22_Node000010_Node000009" title=" " alt="" coords="732,194,703,228,664,267,606,309,603,304,661,263,699,225,728,191"/>
+<area shape="poly" id="edge24_Node000011_Node000004" title=" " alt="" coords="449,194,411,232,407,228,445,190"/>
+<area shape="poly" id="edge25_Node000011_Node000008" title=" " alt="" coords="480,190,552,231,549,235,477,194"/>
+</map>

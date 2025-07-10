@@ -2,7 +2,7 @@ var dynamic__watermark__cc_8h =
 [
     [ "mip_cc_dynamic_watermark", "dynamic__watermark__cc_8h.html#a6aee7f0e37bf53942ac1fe0d50463bfa", null ],
     [ "MIP_CC_API", "dynamic__watermark__cc_8h.html#a079af28aff5f52198e6364aa4c4f6997", null ],
-    [ "MIP_CC_API_IMPL", "dynamic__watermark__cc_8h.html#ad2ee93b25ebabec2f8cace2a05f696bc", null ],
+    [ "MIP_CC_API", "dynamic__watermark__cc_8h.html#a2f12348a4b39d3bfd7b4c4f56f74914b", null ],
     [ "actualFormatStringSize", "dynamic__watermark__cc_8h.html#a8d3c886f6985282124af095bf2533085", null ],
     [ "actualTextSize", "dynamic__watermark__cc_8h.html#abcf6bc02310e77003edb7150e49b9238", null ],
     [ "errorInfo", "dynamic__watermark__cc_8h.html#a915d58ed9d10f42cc2f1e1a3bfac3134", null ],

@@ -117,6 +117,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1e9e71b10d6884dd6edf813b0964bcdc" id="r_a1e9e71b10d6884dd6edf813b0964bcdc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="common__types_8h.html#aac976a2657d8c65944a48c48a5fe76fa">DataBoundary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e9e71b10d6884dd6edf813b0964bcdc">GetDataBoundary</a> () const =0</td></tr>
 <tr class="memdesc:a1e9e71b10d6884dd6edf813b0964bcdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the data boundary region.  <br /></td></tr>
 <tr class="separator:a1e9e71b10d6884dd6edf813b0964bcdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a026cabc6eb8eaa47d0d19577ac50d0d5" id="r_a026cabc6eb8eaa47d0d19577ac50d0d5"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a026cabc6eb8eaa47d0d19577ac50d0d5">GetDomainInfo</a> () const =0</td></tr>
+<tr class="memdesc:a026cabc6eb8eaa47d0d19577ac50d0d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the domain name or tenant ID.  <br /></td></tr>
+<tr class="separator:a026cabc6eb8eaa47d0d19577ac50d0d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A single audit/telemetry event context. </p>
@@ -176,6 +179,34 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets the data boundary region. </p>
 <dl class="section return"><dt>Returns</dt><dd>DataBoundary </dd></dl>
+
+</div>
+</div>
+<a id="a026cabc6eb8eaa47d0d19577ac50d0d5" name="a026cabc6eb8eaa47d0d19577ac50d0d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a026cabc6eb8eaa47d0d19577ac50d0d5">&#9670;&#160;</a></span>GetDomainInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string EventContext::GetDomainInfo </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the domain name or tenant ID. </p>
+<dl class="section return"><dt>Returns</dt><dd>domain info </dd></dl>
 
 </div>
 </div>

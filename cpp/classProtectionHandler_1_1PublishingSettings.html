@@ -132,7 +132,7 @@ Collaboration diagram for ProtectionHandler::PublishingSettings:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a899d7f70bfd50bfd4ef727ec137d1261" id="r_a899d7f70bfd50bfd4ef727ec137d1261"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProtectionCommonSettings.html#a899d7f70bfd50bfd4ef727ec137d1261">GetApplicationScenarioId</a> () const</td></tr>
-<tr class="memdesc:a899d7f70bfd50bfd4ef727ec137d1261"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the scenario Id provided by the application which is used to correlation with the server.  <br /></td></tr>
+<tr class="memdesc:a899d7f70bfd50bfd4ef727ec137d1261"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the scenario Id provided by the application which is used to correlate with the server.  <br /></td></tr>
 <tr class="separator:a899d7f70bfd50bfd4ef727ec137d1261"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd860eba9eee4b4a15e4c65438ac83aa" id="r_afd860eba9eee4b4a15e4c65438ac83aa"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProtectionCommonSettings.html#afd860eba9eee4b4a15e4c65438ac83aa">GetCustomSettings</a> () const</td></tr>
 <tr class="memdesc:afd860eba9eee4b4a15e4c65438ac83aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the custom settings, used for feature gating and testing.  <br /></td></tr>
@@ -169,6 +169,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a630a7df7c92f25264bef8cb2362603e1" id="r_a630a7df7c92f25264bef8cb2362603e1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a630a7df7c92f25264bef8cb2362603e1">GetRepairLabelIdAllowed</a> () const</td></tr>
 <tr class="memdesc:a630a7df7c92f25264bef8cb2362603e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether or not label id can be added to publishing license on republish.  <br /></td></tr>
 <tr class="separator:a630a7df7c92f25264bef8cb2362603e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d5910467cfa34ce754e0f3874091283" id="r_a9d5910467cfa34ce754e0f3874091283"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d5910467cfa34ce754e0f3874091283">GetShouldRefreshTemplates</a> () const</td></tr>
+<tr class="memdesc:a9d5910467cfa34ce754e0f3874091283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether or not templates should be forcibly refreshed during offline publishing.  <br /></td></tr>
+<tr class="separator:a9d5910467cfa34ce754e0f3874091283"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae896597837cd3c1a7d86fa95628fb4f2" id="r_ae896597837cd3c1a7d86fa95628fb4f2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae896597837cd3c1a7d86fa95628fb4f2">IsPublishingFormatJson</a> () const</td></tr>
 <tr class="memdesc:ae896597837cd3c1a7d86fa95628fb4f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether or not the returned pl is in json format (xml format is more widely accepted and is the default).  <br /></td></tr>
 <tr class="separator:ae896597837cd3c1a7d86fa95628fb4f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -214,6 +217,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0507bdebeb4660567e939fc85ee75109" id="r_a0507bdebeb4660567e939fc85ee75109"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0507bdebeb4660567e939fc85ee75109">SetRequestPreLicense</a> (std::shared_ptr&lt; <a class="el" href="classPublishingUseLicenseRequest.html">PublishingUseLicenseRequest</a> &gt; publishingUseLicenseRequest)</td></tr>
 <tr class="memdesc:a0507bdebeb4660567e939fc85ee75109"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setting this will cause the publishing request to include a pre-license.  <br /></td></tr>
 <tr class="separator:a0507bdebeb4660567e939fc85ee75109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac2e782bc430776ba1d473e2f580f814" id="r_aac2e782bc430776ba1d473e2f580f814"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac2e782bc430776ba1d473e2f580f814">SetShouldRefreshTemplates</a> (bool shouldRefreshTemplates)</td></tr>
+<tr class="memdesc:aac2e782bc430776ba1d473e2f580f814"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets whether or not templates should be forcibly refreshed during offline publishing.  <br /></td></tr>
+<tr class="separator:aac2e782bc430776ba1d473e2f580f814"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Settings used to create a <a class="el" href="classProtectionHandler.html" title="Manages protection-related actions for a specific protection configuration.">ProtectionHandler</a> to protect new content. </p>
@@ -257,7 +263,8 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno">  238</span>          mIsDeprecatedAlgorithmPreferred(<span class="keyword">false</span>),</div>
 <div class="line"><span class="lineno">  239</span>          mIsPublishingFormatJson(<span class="keyword">false</span>),</div>
 <div class="line"><span class="lineno">  240</span>          mRepairLabelIdAllowed(<span class="keyword">false</span>),</div>
-<div class="line"><span class="lineno">  241</span>          mRegenerateContentKey(<span class="keyword">false</span>) {}</div>
+<div class="line"><span class="lineno">  241</span>          mRegenerateContentKey(<span class="keyword">false</span>),</div>
+<div class="line"><span class="lineno">  242</span>          mShouldRefreshTemplates(<span class="keyword">false</span>) {}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -297,14 +304,15 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00249">249</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  252</span>        : mProtectionDescriptor(protectionDescriptor),</div>
-<div class="line"><span class="lineno">  253</span>          mRepublishingLicense(serializedPublishingLicense),</div>
-<div class="line"><span class="lineno">  254</span>          mIsAuditedExtractionAllowed(<span class="keyword">false</span>),</div>
-<div class="line"><span class="lineno">  255</span>          mIsDeprecatedAlgorithmPreferred(<span class="keyword">false</span>),</div>
-<div class="line"><span class="lineno">  256</span>          mIsPublishingFormatJson(<span class="keyword">false</span>),</div>
-<div class="line"><span class="lineno">  257</span>          mRepairLabelIdAllowed(<span class="keyword">false</span>),</div>
-<div class="line"><span class="lineno">  258</span>          mRegenerateContentKey(<span class="keyword">false</span>) {}</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00250">250</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  253</span>        : mProtectionDescriptor(protectionDescriptor),</div>
+<div class="line"><span class="lineno">  254</span>          mRepublishingLicense(serializedPublishingLicense),</div>
+<div class="line"><span class="lineno">  255</span>          mIsAuditedExtractionAllowed(<span class="keyword">false</span>),</div>
+<div class="line"><span class="lineno">  256</span>          mIsDeprecatedAlgorithmPreferred(<span class="keyword">false</span>),</div>
+<div class="line"><span class="lineno">  257</span>          mIsPublishingFormatJson(<span class="keyword">false</span>),</div>
+<div class="line"><span class="lineno">  258</span>          mRepairLabelIdAllowed(<span class="keyword">false</span>),</div>
+<div class="line"><span class="lineno">  259</span>          mRegenerateContentKey(<span class="keyword">false</span>),</div>
+<div class="line"><span class="lineno">  260</span>          mShouldRefreshTemplates(<span class="keyword">false</span>) {}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -344,14 +352,15 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00266">266</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  269</span>        : mProtectionDescriptor(protectionDescriptor),</div>
-<div class="line"><span class="lineno">  270</span>          mProtectionHandler(protectionHandler),</div>
-<div class="line"><span class="lineno">  271</span>          mIsAuditedExtractionAllowed(<span class="keyword">false</span>),</div>
-<div class="line"><span class="lineno">  272</span>          mIsDeprecatedAlgorithmPreferred(<span class="keyword">false</span>),</div>
-<div class="line"><span class="lineno">  273</span>          mIsPublishingFormatJson(<span class="keyword">false</span>),</div>
-<div class="line"><span class="lineno">  274</span>          mRepairLabelIdAllowed(<span class="keyword">false</span>),</div>
-<div class="line"><span class="lineno">  275</span>          mRegenerateContentKey(<span class="keyword">false</span>) {}</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00268">268</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  271</span>        : mProtectionDescriptor(protectionDescriptor),</div>
+<div class="line"><span class="lineno">  272</span>          mProtectionHandler(protectionHandler),</div>
+<div class="line"><span class="lineno">  273</span>          mIsAuditedExtractionAllowed(<span class="keyword">false</span>),</div>
+<div class="line"><span class="lineno">  274</span>          mIsDeprecatedAlgorithmPreferred(<span class="keyword">false</span>),</div>
+<div class="line"><span class="lineno">  275</span>          mIsPublishingFormatJson(<span class="keyword">false</span>),</div>
+<div class="line"><span class="lineno">  276</span>          mRepairLabelIdAllowed(<span class="keyword">false</span>),</div>
+<div class="line"><span class="lineno">  277</span>          mRegenerateContentKey(<span class="keyword">false</span>),</div>
+<div class="line"><span class="lineno">  278</span>          mShouldRefreshTemplates(<span class="keyword">false</span>) {}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -379,7 +388,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the scenario Id provided by the application which is used to correlation with the server. </p>
+<p>Gets the scenario Id provided by the application which is used to correlate with the server. </p>
 <dl class="section return"><dt>Returns</dt><dd>Application scenario Id </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="protection__common__settings_8h_source.html#l00057">57</a> of file <a class="el" href="protection__common__settings_8h_source.html">protection_common_settings.h</a>.</p>
@@ -449,8 +458,8 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Delegated user</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>A delegated user is specified when the authenticating user/application is acting on behalf of another user </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00332">332</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  332</span>{ <span class="keywordflow">return</span> mDelegatedUserEmail; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00335">335</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  335</span>{ <span class="keywordflow">return</span> mDelegatedUserEmail; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -480,8 +489,8 @@ Public Member Functions</h2></td></tr>
 <p>Gets whether or not non-MIP-aware applications are allowed to open protected content. </p>
 <dl class="section return"><dt>Returns</dt><dd>If non-MIP-aware applications are allowed to open protected content </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00289">289</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  289</span>{ <span class="keywordflow">return</span> mIsAuditedExtractionAllowed; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00292">292</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  292</span>{ <span class="keywordflow">return</span> mIsAuditedExtractionAllowed; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -511,8 +520,8 @@ Public Member Functions</h2></td></tr>
 <p>Gets whether or not deprecated crypto algorithm (ECB) is preferred for backwards compatibility. </p>
 <dl class="section return"><dt>Returns</dt><dd>If deprecated crypto algorithm is preferred </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00305">305</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  305</span>{ <span class="keywordflow">return</span> mIsDeprecatedAlgorithmPreferred; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00308">308</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  308</span>{ <span class="keywordflow">return</span> mIsDeprecatedAlgorithmPreferred; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -574,10 +583,10 @@ Public Member Functions</h2></td></tr>
 <p>Gets the pre-license request. </p>
 <dl class="section return"><dt>Returns</dt><dd>Pre-license request </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00421">421</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  421</span>                                                                            {</div>
-<div class="line"><span class="lineno">  422</span>      <span class="keywordflow">return</span> mPublishingUseLicenseRequest;</div>
-<div class="line"><span class="lineno">  423</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00424">424</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  424</span>                                                                            {</div>
+<div class="line"><span class="lineno">  425</span>      <span class="keywordflow">return</span> mPublishingUseLicenseRequest;</div>
+<div class="line"><span class="lineno">  426</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -607,10 +616,10 @@ Public Member Functions</h2></td></tr>
 <p>Gets the pre-license user. </p>
 <dl class="section return"><dt>Returns</dt><dd>Pre-license user </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00392">392</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  392</span>                                                    {</div>
-<div class="line"><span class="lineno">  393</span>      <span class="keyword">static</span> std::string empty;</div>
-<div class="line"><span class="lineno">  394</span>      <span class="keywordflow">return</span> mPublishingUseLicenseRequest != <span class="keyword">nullptr</span> ? mPublishingUseLicenseRequest-&gt;GetDelegatedUserEmail() : empty; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00395">395</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  395</span>                                                    {</div>
+<div class="line"><span class="lineno">  396</span>      <span class="keyword">static</span> std::string empty;</div>
+<div class="line"><span class="lineno">  397</span>      <span class="keywordflow">return</span> mPublishingUseLicenseRequest != <span class="keyword">nullptr</span> ? mPublishingUseLicenseRequest-&gt;GetDelegatedUserEmail() : empty; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -637,8 +646,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00277">277</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  277</span>{ <span class="keywordflow">return</span> mProtectionDescriptor; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00280">280</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  280</span>{ <span class="keywordflow">return</span> mProtectionDescriptor; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -667,8 +676,8 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets protection handler for republishing scenario. </p>
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00282">282</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  282</span>{ <span class="keywordflow">return</span> mProtectionHandler; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00285">285</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  285</span>{ <span class="keywordflow">return</span> mProtectionHandler; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -698,10 +707,10 @@ Public Member Functions</h2></td></tr>
 <p>Gets the serialized republishing license. </p>
 <dl class="section return"><dt>Returns</dt><dd>The serialized republishing license </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00401">401</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  401</span>                                                                       {</div>
-<div class="line"><span class="lineno">  402</span>      <span class="keywordflow">return</span> mRepublishingLicense;</div>
-<div class="line"><span class="lineno">  403</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00404">404</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  404</span>                                                                       {</div>
+<div class="line"><span class="lineno">  405</span>      <span class="keywordflow">return</span> mRepublishingLicense;</div>
+<div class="line"><span class="lineno">  406</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -731,8 +740,8 @@ Public Member Functions</h2></td></tr>
 <p>Gets whether or not the content key and ID should be regenerated during republishing. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if the content key and ID should be regenerated. False otherwise. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00356">356</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  356</span>{ <span class="keywordflow">return</span> mRegenerateContentKey; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00359">359</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  359</span>{ <span class="keywordflow">return</span> mRegenerateContentKey; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -763,8 +772,41 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>True if label info data in protection descriptor can be added to publishing license</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>This will only take effect if offline protection is used for republishing. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00432">432</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  432</span>{ <span class="keywordflow">return</span> mRepairLabelIdAllowed; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00435">435</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  435</span>{ <span class="keywordflow">return</span> mRepairLabelIdAllowed; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9d5910467cfa34ce754e0f3874091283" name="a9d5910467cfa34ce754e0f3874091283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d5910467cfa34ce754e0f3874091283">&#9670;&#160;</a></span>GetShouldRefreshTemplates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProtectionHandler::PublishingSettings::GetShouldRefreshTemplates </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets whether or not templates should be forcibly refreshed during offline publishing. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if templates will be refreshed, false if template refresh will be decided by age of current templates </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00454">454</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  454</span>                                           {</div>
+<div class="line"><span class="lineno">  455</span>      <span class="keywordflow">return</span> mShouldRefreshTemplates;</div>
+<div class="line"><span class="lineno">  456</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -794,8 +836,8 @@ Public Member Functions</h2></td></tr>
 <p>Gets whether or not the returned pl is in json format (xml format is more widely accepted and is the default). </p>
 <dl class="section return"><dt>Returns</dt><dd>true if is set to json format output. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00340">340</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  340</span>{ <span class="keywordflow">return</span> mIsPublishingFormatJson; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00343">343</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  343</span>{ <span class="keywordflow">return</span> mIsPublishingFormatJson; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -825,7 +867,7 @@ Public Member Functions</h2></td></tr>
 <p>Sets the scenario Id provided by the application. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">The</td><td>application scenario Id </td></tr>
+    <tr><td class="paramname">applicationScenarioId</td><td>application scenario Id which is used to correlate with the server. </td></tr>
   </table>
   </dd>
 </dl>
@@ -905,8 +947,8 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>A delegated user is specified when the authenticating user/application is acting on behalf of another user </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00323">323</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  323</span>{ mDelegatedUserEmail = delegatedUserEmail; }</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00326">326</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  326</span>{ mDelegatedUserEmail = delegatedUserEmail; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -941,10 +983,10 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00296">296</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  296</span>                                                                        {</div>
-<div class="line"><span class="lineno">  297</span>      mIsAuditedExtractionAllowed = isAuditedExtractionAllowed;</div>
-<div class="line"><span class="lineno">  298</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00299">299</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  299</span>                                                                        {</div>
+<div class="line"><span class="lineno">  300</span>      mIsAuditedExtractionAllowed = isAuditedExtractionAllowed;</div>
+<div class="line"><span class="lineno">  301</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -979,10 +1021,10 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00312">312</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  312</span>                                                                                {</div>
-<div class="line"><span class="lineno">  313</span>      mIsDeprecatedAlgorithmPreferred = isDeprecatedAlgorithmPreferred;</div>
-<div class="line"><span class="lineno">  314</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00315">315</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  315</span>                                                                                {</div>
+<div class="line"><span class="lineno">  316</span>      mIsDeprecatedAlgorithmPreferred = isDeprecatedAlgorithmPreferred;</div>
+<div class="line"><span class="lineno">  317</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1055,13 +1097,13 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>If no pre-license user is specified, a pre-license will not be obtained </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00377">377</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  377</span>                                                                      {</div>
-<div class="line"><span class="lineno">  378</span>      <span class="keywordflow">if</span>(mPublishingUseLicenseRequest == <span class="keyword">nullptr</span>) {</div>
-<div class="line"><span class="lineno">  379</span>        mPublishingUseLicenseRequest = <a class="code hl_function" href="classPublishingUseLicenseRequest.html#ae71730ba8de7650879a8fa83c7e51e0e">PublishingUseLicenseRequest::CreatePublishingUseLicenseRequest</a>();</div>
-<div class="line"><span class="lineno">  380</span>      }</div>
-<div class="line"><span class="lineno">  381</span>      mPublishingUseLicenseRequest-&gt;SetDelegatedUserEmail(preLicenseUserEmail);</div>
-<div class="line"><span class="lineno">  382</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00380">380</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  380</span>                                                                      {</div>
+<div class="line"><span class="lineno">  381</span>      <span class="keywordflow">if</span>(mPublishingUseLicenseRequest == <span class="keyword">nullptr</span>) {</div>
+<div class="line"><span class="lineno">  382</span>        mPublishingUseLicenseRequest = <a class="code hl_function" href="classPublishingUseLicenseRequest.html#ae71730ba8de7650879a8fa83c7e51e0e">PublishingUseLicenseRequest::CreatePublishingUseLicenseRequest</a>();</div>
+<div class="line"><span class="lineno">  383</span>      }</div>
+<div class="line"><span class="lineno">  384</span>      mPublishingUseLicenseRequest-&gt;SetDelegatedUserEmail(preLicenseUserEmail);</div>
+<div class="line"><span class="lineno">  385</span>    }</div>
 <div class="ttc" id="aclassPublishingUseLicenseRequest_html_ae71730ba8de7650879a8fa83c7e51e0e"><div class="ttname"><a href="classPublishingUseLicenseRequest.html#ae71730ba8de7650879a8fa83c7e51e0e">PublishingUseLicenseRequest::CreatePublishingUseLicenseRequest</a></div><div class="ttdeci">static MIP_API std::shared_ptr&lt; PublishingUseLicenseRequest &gt; __CDECL CreatePublishingUseLicenseRequest()</div><div class="ttdoc">Creates a PublishingUseLicenseRequest object.</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classPublishingUseLicenseRequest.html#ae71730ba8de7650879a8fa83c7e51e0e">PublishingUseLicenseRequest::CreatePublishingUseLicenseRequest()</a>.</p>
@@ -1099,10 +1141,10 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00347">347</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  347</span>                                                              {</div>
-<div class="line"><span class="lineno">  348</span>      mIsPublishingFormatJson = isPublishingFormatJson;</div>
-<div class="line"><span class="lineno">  349</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00350">350</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  350</span>                                                              {</div>
+<div class="line"><span class="lineno">  351</span>      mIsPublishingFormatJson = isPublishingFormatJson;</div>
+<div class="line"><span class="lineno">  352</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1137,10 +1179,10 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00363">363</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  363</span>                                                            {</div>
-<div class="line"><span class="lineno">  364</span>      mRegenerateContentKey = regenerateContentKey;</div>
-<div class="line"><span class="lineno">  365</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00366">366</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  366</span>                                                            {</div>
+<div class="line"><span class="lineno">  367</span>      mRegenerateContentKey = regenerateContentKey;</div>
+<div class="line"><span class="lineno">  368</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1176,10 +1218,10 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>This will only take effect if offline protection is used for republishing. Should only be used to add a label to adhoc protection that is missing it. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00442">442</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  442</span>                                                     {</div>
-<div class="line"><span class="lineno">  443</span>      mRepairLabelIdAllowed = repairAllowed;</div>
-<div class="line"><span class="lineno">  444</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00445">445</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  445</span>                                                     {</div>
+<div class="line"><span class="lineno">  446</span>      mRepairLabelIdAllowed = repairAllowed;</div>
+<div class="line"><span class="lineno">  447</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1215,10 +1257,48 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>If no pre-license request is specified, a pre-license will not be obtained </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00412">412</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  412</span>                                                                                                      {</div>
-<div class="line"><span class="lineno">  413</span>      mPublishingUseLicenseRequest = publishingUseLicenseRequest;</div>
-<div class="line"><span class="lineno">  414</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00415">415</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  415</span>                                                                                                      {</div>
+<div class="line"><span class="lineno">  416</span>      mPublishingUseLicenseRequest = publishingUseLicenseRequest;</div>
+<div class="line"><span class="lineno">  417</span>    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aac2e782bc430776ba1d473e2f580f814" name="aac2e782bc430776ba1d473e2f580f814"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac2e782bc430776ba1d473e2f580f814">&#9670;&#160;</a></span>SetShouldRefreshTemplates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProtectionHandler::PublishingSettings::SetShouldRefreshTemplates </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>shouldRefreshTemplates</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets whether or not templates should be forcibly refreshed during offline publishing. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">shouldRefreshTemplates</td><td>If templates should be forcibly refreshed </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="protection__handler_8h_source.html#l00463">463</a> of file <a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  463</span>                                                                {</div>
+<div class="line"><span class="lineno">  464</span>      mShouldRefreshTemplates = shouldRefreshTemplates;</div>
+<div class="line"><span class="lineno">  465</span>    }</div>
 </div><!-- fragment -->
 </div>
 </div>

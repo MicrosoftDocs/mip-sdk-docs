@@ -217,9 +217,11 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="#a40a1e2cb0d53f1730cdd4213d1dbf85da772df0f6d1140b4720772b7de0c2b0c1">MIP_PROTECTION_TYPE_TEMPLATE_BASED</a> = 0
 , <br />
 &#160;&#160;<a class="el" href="#a40a1e2cb0d53f1730cdd4213d1dbf85da1ea2ebab11433f1f26b5f7404cbe47d1">MIP_PROTECTION_TYPE_CUSTOM</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="#a40a1e2cb0d53f1730cdd4213d1dbf85da9f3b7b0a54fd86ee65bf984acf531817">MIP_PROTECTION_TYPE_DYNAMIC</a> = 2
 <br />
  }</td></tr>
-<tr class="memdesc:a40a1e2cb0d53f1730cdd4213d1dbf85d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A description of whether protection is defined by a template or ad-hoc.  <a href="#a40a1e2cb0d53f1730cdd4213d1dbf85d">More...</a><br /></td></tr>
+<tr class="memdesc:a40a1e2cb0d53f1730cdd4213d1dbf85d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A description of how protection is defined.  <a href="#a40a1e2cb0d53f1730cdd4213d1dbf85d">More...</a><br /></td></tr>
 <tr class="separator:a40a1e2cb0d53f1730cdd4213d1dbf85d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -390,11 +392,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>A description of whether protection is defined by a template or ad-hoc. </p>
+<p>A description of how protection is defined. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a40a1e2cb0d53f1730cdd4213d1dbf85da772df0f6d1140b4720772b7de0c2b0c1" name="a40a1e2cb0d53f1730cdd4213d1dbf85da772df0f6d1140b4720772b7de0c2b0c1"></a>MIP_PROTECTION_TYPE_TEMPLATE_BASED&#160;</td><td class="fielddoc"><p>Based on an RMS template. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a40a1e2cb0d53f1730cdd4213d1dbf85da1ea2ebab11433f1f26b5f7404cbe47d1" name="a40a1e2cb0d53f1730cdd4213d1dbf85da1ea2ebab11433f1f26b5f7404cbe47d1"></a>MIP_PROTECTION_TYPE_CUSTOM&#160;</td><td class="fielddoc"><p>Custom, ad-hoc protection. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a40a1e2cb0d53f1730cdd4213d1dbf85da9f3b7b0a54fd86ee65bf984acf531817" name="a40a1e2cb0d53f1730cdd4213d1dbf85da9f3b7b0a54fd86ee65bf984acf531817"></a>MIP_PROTECTION_TYPE_DYNAMIC&#160;</td><td class="fielddoc"><p>Protection is defined by the service at the time of use license generation. </p>
+<p>May not be used when protecting content. </p>
 </td></tr>
 </table>
 
@@ -402,10 +407,12 @@ Variables</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">   52</span>             {</div>
 <div class="line"><span class="lineno">   53</span>  <a class="code hl_enumvalue" href="#a40a1e2cb0d53f1730cdd4213d1dbf85da772df0f6d1140b4720772b7de0c2b0c1">MIP_PROTECTION_TYPE_TEMPLATE_BASED</a> = 0, <span class="comment">/**&lt; Based on an RMS template */</span></div>
 <div class="line"><span class="lineno">   54</span>  <a class="code hl_enumvalue" href="#a40a1e2cb0d53f1730cdd4213d1dbf85da1ea2ebab11433f1f26b5f7404cbe47d1">MIP_PROTECTION_TYPE_CUSTOM</a> = 1,         <span class="comment">/**&lt; Custom, ad-hoc protection */</span></div>
-<div class="line"><span class="lineno">   55</span>} <a class="code hl_enumeration" href="#a40a1e2cb0d53f1730cdd4213d1dbf85d">mip_cc_protection_type</a>;</div>
-<div class="ttc" id="aprotection__descriptor__cc_8h_html_a40a1e2cb0d53f1730cdd4213d1dbf85d"><div class="ttname"><a href="#a40a1e2cb0d53f1730cdd4213d1dbf85d">mip_cc_protection_type</a></div><div class="ttdeci">mip_cc_protection_type</div><div class="ttdoc">A description of whether protection is defined by a template or ad-hoc.</div><div class="ttdef"><b>Definition</b> <a href="protection__descriptor__cc_8h_source.html#l00052">protection_descriptor_cc.h:52</a></div></div>
+<div class="line"><span class="lineno">   55</span>  <a class="code hl_enumvalue" href="#a40a1e2cb0d53f1730cdd4213d1dbf85da9f3b7b0a54fd86ee65bf984acf531817">MIP_PROTECTION_TYPE_DYNAMIC</a> = 2,        <span class="comment">/**&lt; Protection is defined by the service at the time of use license generation. May not be used when protecting content. */</span></div>
+<div class="line"><span class="lineno">   56</span>} <a class="code hl_enumeration" href="#a40a1e2cb0d53f1730cdd4213d1dbf85d">mip_cc_protection_type</a>;</div>
+<div class="ttc" id="aprotection__descriptor__cc_8h_html_a40a1e2cb0d53f1730cdd4213d1dbf85d"><div class="ttname"><a href="#a40a1e2cb0d53f1730cdd4213d1dbf85d">mip_cc_protection_type</a></div><div class="ttdeci">mip_cc_protection_type</div><div class="ttdoc">A description of how protection is defined.</div><div class="ttdef"><b>Definition</b> <a href="protection__descriptor__cc_8h_source.html#l00052">protection_descriptor_cc.h:52</a></div></div>
 <div class="ttc" id="aprotection__descriptor__cc_8h_html_a40a1e2cb0d53f1730cdd4213d1dbf85da1ea2ebab11433f1f26b5f7404cbe47d1"><div class="ttname"><a href="#a40a1e2cb0d53f1730cdd4213d1dbf85da1ea2ebab11433f1f26b5f7404cbe47d1">MIP_PROTECTION_TYPE_CUSTOM</a></div><div class="ttdeci">@ MIP_PROTECTION_TYPE_CUSTOM</div><div class="ttdoc">Custom, ad-hoc protection.</div><div class="ttdef"><b>Definition</b> <a href="protection__descriptor__cc_8h_source.html#l00054">protection_descriptor_cc.h:54</a></div></div>
 <div class="ttc" id="aprotection__descriptor__cc_8h_html_a40a1e2cb0d53f1730cdd4213d1dbf85da772df0f6d1140b4720772b7de0c2b0c1"><div class="ttname"><a href="#a40a1e2cb0d53f1730cdd4213d1dbf85da772df0f6d1140b4720772b7de0c2b0c1">MIP_PROTECTION_TYPE_TEMPLATE_BASED</a></div><div class="ttdeci">@ MIP_PROTECTION_TYPE_TEMPLATE_BASED</div><div class="ttdoc">Based on an RMS template.</div><div class="ttdef"><b>Definition</b> <a href="protection__descriptor__cc_8h_source.html#l00053">protection_descriptor_cc.h:53</a></div></div>
+<div class="ttc" id="aprotection__descriptor__cc_8h_html_a40a1e2cb0d53f1730cdd4213d1dbf85da9f3b7b0a54fd86ee65bf984acf531817"><div class="ttname"><a href="#a40a1e2cb0d53f1730cdd4213d1dbf85da9f3b7b0a54fd86ee65bf984acf531817">MIP_PROTECTION_TYPE_DYNAMIC</a></div><div class="ttdeci">@ MIP_PROTECTION_TYPE_DYNAMIC</div><div class="ttdoc">Protection is defined by the service at the time of use license generation.</div><div class="ttdef"><b>Definition</b> <a href="protection__descriptor__cc_8h_source.html#l00055">protection_descriptor_cc.h:55</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -777,7 +784,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00267">267</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00268">268</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -793,7 +800,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00232">232</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00233">233</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -809,7 +816,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00197">197</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00198">198</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -825,7 +832,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00389">389</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00390">390</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -841,7 +848,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00547">547</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00548">548</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -857,7 +864,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00454">454</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00455">455</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -873,7 +880,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00116">116</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00117">117</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -889,7 +896,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00312">312</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00313">313</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -905,7 +912,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00115">115</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00116">116</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -921,7 +928,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00113">113</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00114">114</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -937,7 +944,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00265">265</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00266">266</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -953,7 +960,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00266">266</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00267">267</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -969,7 +976,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00246">246</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00247">247</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -985,7 +992,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00354">354</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00355">355</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1001,7 +1008,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00326">326</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00327">327</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1017,7 +1024,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00508">508</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00509">509</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1033,7 +1040,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00117">117</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00118">118</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1049,7 +1056,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00091">91</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00092">92</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1065,7 +1072,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00295">295</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00296">296</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1081,7 +1088,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00112">112</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00113">113</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1097,7 +1104,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00230">230</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00231">231</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1113,7 +1120,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00231">231</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00232">232</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1129,7 +1136,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00211">211</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00212">212</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1145,7 +1152,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00195">195</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00196">196</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1161,7 +1168,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00196">196</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00197">197</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1177,7 +1184,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00176">176</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00177">177</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1193,7 +1200,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00090">90</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00091">91</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1209,7 +1216,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00162">162</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00163">163</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1225,7 +1232,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00114">114</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00115">115</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1241,7 +1248,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00387">387</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00388">388</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1257,7 +1264,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00388">388</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00389">389</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1273,7 +1280,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00368">368</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00369">369</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1289,7 +1296,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00089">89</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00090">90</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1305,7 +1312,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00545">545</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00546">546</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1321,7 +1328,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00546">546</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00547">547</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1337,7 +1344,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00523">523</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00524">524</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1353,7 +1360,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00524">524</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00525">525</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1369,7 +1376,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00281">281</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00282">282</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1385,7 +1392,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00452">452</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00453">453</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1401,7 +1408,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00453">453</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00454">454</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1417,7 +1424,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00433">433</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00434">434</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1433,7 +1440,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00473">473</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00474">474</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1449,7 +1456,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00111">111</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00112">112</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1465,7 +1472,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00490">490</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00491">491</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>
@@ -1481,7 +1488,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00140">140</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="protection__descriptor__cc_8h_source.html#l00141">141</a> of file <a class="el" href="protection__descriptor__cc_8h_source.html">protection_descriptor_cc.h</a>.</p>
 
 </div>
 </div>

@@ -27,11 +27,10 @@ var hierarchy =
     [ "AuthDelegate", "classAuthDelegate.html", null ],
     [ "ClassificationRequest", "classClassificationRequest.html", null ],
     [ "ClassificationResult", "classClassificationResult.html", null ],
+    [ "CloudDiscoveryDelegate", "classCloudDiscoveryDelegate.html", null ],
+    [ "CloudDiscoveryResult", "classCloudDiscoveryResult.html", null ],
     [ "ConsentDelegate", "classConsentDelegate.html", null ],
     [ "ContentLabel", "classContentLabel.html", null ],
-    [ "DelegateResponseBase", "classDelegateResponseBase.html", [
-      [ "DelegateResponse< T >", "classDelegateResponse.html", null ]
-    ] ],
     [ "DelegationLicense", "classDelegationLicense.html", null ],
     [ "DetailedClassificationResult", "classDetailedClassificationResult.html", null ],
     [ "DiagnosticConfiguration", "structDiagnosticConfiguration.html", null ],
@@ -77,6 +76,7 @@ var hierarchy =
         [ "FileIOError", "classFileIOError.html", null ],
         [ "InternalError", "classInternalError.html", null ],
         [ "JustificationRequiredError", "classJustificationRequiredError.html", null ],
+        [ "MaxDepthReachedError", "classMaxDepthReachedError.html", null ],
         [ "NetworkError", "classNetworkError.html", [
           [ "ProxyAuthenticationError", "classProxyAuthenticationError.html", null ]
         ] ],
@@ -88,7 +88,6 @@ var hierarchy =
     ] ],
     [ "ExecutionState", "classExecutionState.html", null ],
     [ "ExtendedErrorInfo", "structExtendedErrorInfo.html", null ],
-    [ "FileEngine", "classFileEngine.html", null ],
     [ "FileExecutionState", "classFileExecutionState.html", null ],
     [ "FileHandler", "classFileHandler.html", null ],
     [ "FileInspector", "classFileInspector.html", [
@@ -125,15 +124,12 @@ var hierarchy =
     [ "AuthDelegate::OAuth2Token", "classAuthDelegate_1_1OAuth2Token.html", null ],
     [ "FileHandler::Observer", "classFileHandler_1_1Observer.html", null ],
     [ "FileProfile::Observer", "classFileProfile_1_1Observer.html", null ],
-    [ "PolicyProfile::Observer", "classPolicyProfile_1_1Observer.html", null ],
     [ "ProtectionEngine::Observer", "classProtectionEngine_1_1Observer.html", null ],
     [ "ProtectionHandler::Observer", "classProtectionHandler_1_1Observer.html", null ],
     [ "ProtectionProfile::Observer", "classProtectionProfile_1_1Observer.html", null ],
     [ "ParsedPublishingLicense", "classParsedPublishingLicense.html", null ],
     [ "ParsedPublishingLicenseBuilder", "classParsedPublishingLicenseBuilder.html", null ],
-    [ "PolicyEngine", "classPolicyEngine.html", null ],
     [ "PolicyHandler", "classPolicyHandler.html", null ],
-    [ "PolicyProfile", "classPolicyProfile.html", null ],
     [ "ProtectionCommonSettings", "classProtectionCommonSettings.html", [
       [ "DelegationLicenseSettings", "classDelegationLicenseSettings.html", null ],
       [ "GetTemplatesSettings", "classGetTemplatesSettings.html", null ],
@@ -149,15 +145,15 @@ var hierarchy =
     [ "PublishingLicenseInfo", "classPublishingLicenseInfo.html", null ],
     [ "PublishingUseLicenseRequest", "classPublishingUseLicenseRequest.html", null ],
     [ "SensitivityTypesRulePackage", "classSensitivityTypesRulePackage.html", null ],
-    [ "FileEngine::Settings", "classFileEngine_1_1Settings.html", null ],
+    [ "ServiceInfo", "classServiceInfo.html", null ],
     [ "FileProfile::Settings", "classFileProfile_1_1Settings.html", null ],
-    [ "PolicyEngine::Settings", "classPolicyEngine_1_1Settings.html", null ],
-    [ "PolicyProfile::Settings", "classPolicyProfile_1_1Settings.html", null ],
     [ "ProtectionEngine::Settings", "classProtectionEngine_1_1Settings.html", null ],
     [ "ProtectionProfile::Settings", "classProtectionProfile_1_1Settings.html", null ],
     [ "StorageDelegate", "classStorageDelegate.html", null ],
     [ "StorageDelegate::StorageSettings", "classStorageDelegate_1_1StorageSettings.html", null ],
-    [ "StorageTable", "classStorageTable.html", null ],
+    [ "StorageTable", "classStorageTable.html", [
+      [ "StorageTableV2", "classStorageTableV2.html", null ]
+    ] ],
     [ "Stream", "classStream.html", [
       [ "EditableStream", "classEditableStream.html", null ]
     ] ],

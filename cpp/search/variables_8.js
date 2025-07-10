@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['taskdispatcherdelegateoverride_0',['taskDispatcherDelegateOverride',['../structDiagnosticConfiguration.html#aff330994c306764256735f5003dc7b03',1,'DiagnosticConfiguration']]],
-  ['telemetrypipelinedelegateoverride_1',['telemetryPipelineDelegateOverride',['../structDiagnosticConfiguration.html#a313ebfa16bcf36704493204c3cd8ddd8',1,'DiagnosticConfiguration']]],
-  ['tenantid_2',['tenantId',['../structLabelInfo.html#a4aad17605ab552d93bfec357eca060fc',1,'LabelInfo']]]
+  ['path_0',['path',['../classMipConfiguration.html#a792711c6b5b87d7e66e07ec82e6e11ef',1,'MipConfiguration']]]
 ];

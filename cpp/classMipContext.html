@@ -115,6 +115,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a305593ffc30951634d0e9a71f3633ba5" id="r_a305593ffc30951634d0e9a71f3633ba5"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="structApplicationInfo.html">ApplicationInfo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a305593ffc30951634d0e9a71f3633ba5">GetApplicationInfo</a> () const =0</td></tr>
 <tr class="memdesc:a305593ffc30951634d0e9a71f3633ba5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get application description.  <br /></td></tr>
 <tr class="separator:a305593ffc30951634d0e9a71f3633ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a997db49423e4c4e5a91d72e1bbffe201" id="r_a997db49423e4c4e5a91d72e1bbffe201"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="common__types_8h.html#a174ba9275624a6880ce3be3fdbaa6c5f">CacheStorageType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a997db49423e4c4e5a91d72e1bbffe201">GetCacheStorageType</a> () const =0</td></tr>
+<tr class="memdesc:a997db49423e4c4e5a91d72e1bbffe201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get whether caches are stored in memory or on disk.  <br /></td></tr>
+<tr class="separator:a997db49423e4c4e5a91d72e1bbffe201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec0e60257adbe0a3f327c3d1b661cce9" id="r_aec0e60257adbe0a3f327c3d1b661cce9"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classCloudDiscoveryDelegate.html">CloudDiscoveryDelegate</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec0e60257adbe0a3f327c3d1b661cce9">GetCloudDiscoveryDelegate</a> () const =0</td></tr>
+<tr class="memdesc:aec0e60257adbe0a3f327c3d1b661cce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Cloud Discovery Delegate implementation if provided.  <br /></td></tr>
+<tr class="separator:aec0e60257adbe0a3f327c3d1b661cce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1a2a233ea5466fc16a08bd8218533d0" id="r_ac1a2a233ea5466fc16a08bd8218533d0"><td class="memItemLeft" align="right" valign="top">virtual const std::map&lt; <a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0">FlightingFeature</a>, bool &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1a2a233ea5466fc16a08bd8218533d0">GetFlightingFeatures</a> () const =0</td></tr>
 <tr class="memdesc:ac1a2a233ea5466fc16a08bd8218533d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get flighting feature set.  <br /></td></tr>
 <tr class="separator:ac1a2a233ea5466fc16a08bd8218533d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,7 +173,7 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classMipContext.html" title="MipContext represents state that is shared across all profiles, engines, handlers.">MipContext</a> represents state that is shared across all profiles, engines, handlers. </p>
 
-<p class="definition">Definition at line <a class="el" href="mip__context_8h_source.html#l00072">72</a> of file <a class="el" href="mip__context_8h_source.html">mip_context.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mip__context_8h_source.html#l00066">66</a> of file <a class="el" href="mip__context_8h_source.html">mip_context.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a283578093989bc548ac6cfeb505d9f8a" name="a283578093989bc548ac6cfeb505d9f8a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a283578093989bc548ac6cfeb505d9f8a">&#9670;&#160;</a></span>Create() <span class="overload">[1/2]</span></h2>
@@ -360,6 +366,62 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get application description. </p>
 <dl class="section return"><dt>Returns</dt><dd>Application description </dd></dl>
+
+</div>
+</div>
+<a id="a997db49423e4c4e5a91d72e1bbffe201" name="a997db49423e4c4e5a91d72e1bbffe201"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a997db49423e4c4e5a91d72e1bbffe201">&#9670;&#160;</a></span>GetCacheStorageType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::shared_ptr&lt; <a class="el" href="common__types_8h.html#a174ba9275624a6880ce3be3fdbaa6c5f">CacheStorageType</a> &gt; MipContext::GetCacheStorageType </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get whether caches are stored in memory or on disk. </p>
+<dl class="section return"><dt>Returns</dt><dd>storage type used <a class="el" href="common__types_8h.html#a174ba9275624a6880ce3be3fdbaa6c5f" title="Storage type for the caches.">CacheStorageType</a> </dd></dl>
+
+</div>
+</div>
+<a id="aec0e60257adbe0a3f327c3d1b661cce9" name="aec0e60257adbe0a3f327c3d1b661cce9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec0e60257adbe0a3f327c3d1b661cce9">&#9670;&#160;</a></span>GetCloudDiscoveryDelegate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::shared_ptr&lt; <a class="el" href="classCloudDiscoveryDelegate.html">CloudDiscoveryDelegate</a> &gt; MipContext::GetCloudDiscoveryDelegate </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get Cloud Discovery Delegate implementation if provided. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classCloudDiscoveryDelegate.html" title="Interface for overriding cloud discovery.">CloudDiscoveryDelegate</a> </dd></dl>
 
 </div>
 </div>

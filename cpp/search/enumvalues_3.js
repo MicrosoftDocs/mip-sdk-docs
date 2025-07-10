@@ -15,5 +15,7 @@ var searchData=
   ['doublekey_12',['DoubleKey',['../classBadInputError.html#a6d0012cf1bc07830bb1d963394a9bedfaa3f59350f64e6abac1bff0a30f346d42',1,'BadInputError::DoubleKey'],['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a79a2346f06e778e57215ef8954901099',1,'DoubleKey:&#160;flighting_feature.h']]],
   ['doublekeyprotection_13',['DoubleKeyProtection',['../common__types_8h.html#a858bf8ad8a1305b382d18e21e1e60b60acd0f8be310f64ce3f466205703dc33a8',1,'common_types.h']]],
   ['doublekeyuserdefinedprotection_14',['DoubleKeyUserDefinedProtection',['../common__types_8h.html#a858bf8ad8a1305b382d18e21e1e60b60a115cd3a8cd6ffd4528918022beebc9b9',1,'common_types.h']]],
-  ['dynamicwatermarkingenabled_15',['DynamicWatermarkingEnabled',['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0ab99e7ec078e51d67b859d4bb121cb18f',1,'flighting_feature.h']]]
+  ['dynamic_15',['Dynamic',['../protection__descriptor_8h.html#a99a0aa7276aadbabc1cca5d95afd8625a971fd8cc345d8bd9f92e9f7d88fdf20c',1,'protection_descriptor.h']]],
+  ['dynamicprotectiontypeforconsumption_16',['DynamicProtectionTypeForConsumption',['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0aa558eb06ac007210f2ab83c4d78657a6',1,'flighting_feature.h']]],
+  ['dynamicwatermarkingenabled_17',['DynamicWatermarkingEnabled',['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0ab99e7ec078e51d67b859d4bb121cb18f',1,'flighting_feature.h']]]
 ];

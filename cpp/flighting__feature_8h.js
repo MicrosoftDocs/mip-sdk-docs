@@ -37,7 +37,24 @@ var flighting__feature_8h =
       [ "EnableMP4Files", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a312a8e6111d2abd8039d045c3e0b5416", null ],
       [ "PrioritizeHtmlInMsgs", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a35628ecd102b21571ff41aa78796e0a5", null ],
       [ "EnableExtendedErrors", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a077cbd307021e7dfc306bbc0338046c5", null ],
-      [ "LoadCrossTenantUserCertOffline", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a50534c8ba4a600e28c8896d978d64776", null ]
+      [ "LoadCrossTenantUserCertOffline", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a50534c8ba4a600e28c8896d978d64776", null ],
+      [ "CachePrelicenseEUL", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0acc8e9f62d2f9928bf44ecc8241b72721", null ],
+      [ "DynamicProtectionTypeForConsumption", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0aa558eb06ac007210f2ab83c4d78657a6", null ],
+      [ "CloudAutoDiscovery", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a9dec68876c316623f7e7cafa65dafd6c", null ],
+      [ "FixOutlookMultiMsgAttachmentParsing", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a97a6322d35b7c1f138bed7c4d34336c0", null ],
+      [ "ExponentialBackoffRetries", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a16f82285d11ea866d0cb944bc262b45c", null ],
+      [ "GetBinaryHtmlBodyInMsgs", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a826c5dd4a361107f3ed7f730cb2add0c", null ],
+      [ "SetMsgPropertiesAsEmbeddedMessageForRpmsg", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a2ac7185fc6974ac33fa14889e64c5ba7", null ],
+      [ "GetCorrectCodePageInMsgInspectorUnicode", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0ab75dea4e42cd48a50385a0742befd12b", null ],
+      [ "EnableMsgToHandleEmlAttachments", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0aa42e89a1cc05161fbce023e13f05e235", null ],
+      [ "LimitMaxDepthWhenProcessingNestedAttachments", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0af3800896130044213ae52465630bce1e", null ],
+      [ "CacheDnsResults", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0af0c732d70e7d6e01abeb454c9dbd7065", null ],
+      [ "FileSDKOfflinePublishing", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0ad483de7c63e33d5ad13773fb268977f5", null ],
+      [ "ProtectionAPITelemetryPropertyAdd", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a13bcf65cde7e317102676141f5a41293", null ],
+      [ "ProtectionSDKDataBoundarySetInMipContext", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0abc450f9f9f7b51bc64b4b706fceb5441", null ],
+      [ "UseSubstrateLabelPolicyEndpoints", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a84f2afe10292be32600a10f0891c218b", null ],
+      [ "MultipleLabelResolution", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0abc360af31ad8cf65123e06d2b9aed446", null ],
+      [ "TargetCrossCloudProtectionLicenseEndpoint", "flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a39ed83ae9a96fdb3d0de38d40773512a", null ]
     ] ],
     [ "GetDefaultFeatureSettings", "flighting__feature_8h.html#a86e976962ef2f547436d8cd1355fb718", null ]
 ];

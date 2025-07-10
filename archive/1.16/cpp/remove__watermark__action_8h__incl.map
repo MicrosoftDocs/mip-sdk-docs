@@ -1,0 +1,13 @@
+<map id="src/api/mip/upe/remove_watermark_action.h" name="src/api/mip/upe/remove_watermark_action.h">
+<area shape="rect" id="Node000001" title="A file Containing the RemoveWatermarkAction class." alt="" coords="25,5,201,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="32,167,91,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,48,35,67,12,95,8,110,13,126,37,156,33,159,8,129,3,111,7,92,32,63,63,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="22,93,85,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="101,47,73,84,69,81,97,44"/>
+<area shape="rect" id="Node000004" href="$mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="140,167,311,192"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="190,43,226,62,242,76,254,92,260,108,259,125,245,156,240,154,253,124,255,109,250,95,238,80,223,67,188,48"/>
+<area shape="rect" id="Node000005" href="$action_8h.html" title="A file containing the Action base class and the ActionType enumerator." alt="" coords="109,93,240,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="130,44,159,81,155,84,126,47"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="158,121,93,162,90,157,155,116"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="185,117,211,154,207,157,181,121"/>
+</map>

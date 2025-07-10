@@ -19,6 +19,9 @@ var flighting__feature__cc_8h =
       [ "MIP_FLIGHTING_FEATURE_DYNAMIC_WATERMARKING_MOCK_RESPONSE", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca35d9647da45c5dc38e3a07c58ff069fa", null ],
       [ "MIP_FLIGHTING_FEATURE_ENFORCE_MINIMUM_TLS13", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca4e44882a2f1170996bedab8eb70517f0", null ],
       [ "MIP_FLIGHTING_FEATURE_IGNORE_EMPTY_MSIP_LABEL_NAME_PARSER_ERROR", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca33258e23eef30e479ccb839e3a800727", null ],
-      [ "MIP_FLIGHTING_FEATURE_ENABLE_MP4_FILES", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca96f165407f7a8a04153659096aa11a29", null ]
+      [ "MIP_FLIGHTING_FEATURE_ENABLE_MP4_FILES", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca96f165407f7a8a04153659096aa11a29", null ],
+      [ "MIP_FLIGHTING_FEATURE_DYNAMIC_PROTECTION_FOR_CONSUMPTION", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca3e3d80cd5bcb5941fdfa185a0a8477e5", null ],
+      [ "MIP_FLIGHTING_FEATURE_EXPONENTIAL_BACKOFF_RETRIES", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca830096e6d1666cd3100aa68793b2e1f9", null ],
+      [ "MIP_FLIGHTING_FEATURE_CLOUD_AUTO_DISCOVERY", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca0003f604367bdf629fd5f06f1f9bf306", null ]
     ] ]
 ];

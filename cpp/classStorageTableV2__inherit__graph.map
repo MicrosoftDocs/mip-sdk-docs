@@ -1,0 +1,5 @@
+<map id="StorageTableV2" name="StorageTableV2">
+<area shape="rect" id="Node000001" title="An extension to the class that defines the interface to the MIP SDK storage table used for caching." alt="" coords="5,79,128,104"/>
+<area shape="rect" id="Node000002" href="$classStorageTable.html" title="A class that defines the interface to the MIP SDK storage table used for caching." alt="" coords="13,5,120,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,44,69,79,64,79,64,44"/>
+</map>

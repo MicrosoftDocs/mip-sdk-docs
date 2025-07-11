@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection (MIP) SDK for C: Reference: mip_cc_http_response Struct Reference</title>
+<title>Microsoft Information Protection SDK - C: mip_cc_http_response Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection (MIP) SDK for C: Reference<span id="projectnumber">&#160;1.16</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">Doxygen-generated documentation for MIP SDK written in C</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -98,7 +98,8 @@ $(function(){initNavTree('structmip__cc__http__response.html',''); initResizable
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Data Fields</a>  </div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="structmip__cc__http__response-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mip_cc_http_response Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -106,46 +107,26 @@ $(function(){initNavTree('structmip__cc__http__response.html',''); initResizable
 <p>HTTP response.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="http__delegate__cc_8h_source.html">src/api/mip_cc/http_delegate_cc.h</a>&gt;</code></p>
-<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for mip_cc_http_response:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="structmip__cc__http__response__coll__graph.png" border="0" usemap="#amip__cc__http__response_coll__map" alt="Collaboration graph"/></div>
-<map name="amip__cc__http__response_coll__map" id="amip__cc__http__response_coll__map">
-<area shape="rect" title="HTTP response." alt="" coords="5,93,172,119"/>
-<area shape="rect" href="structmip__cc__http__header.html" title="HTTP request/response header." alt="" coords="12,5,165,31"/>
-<area shape="poly" title=" " alt="" coords="91,45,91,93,86,93,86,45"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<p><code>#include &lt;<a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Data Fields</h2></td></tr>
-<tr class="memitem:af75a5f9f69d70acb38654fc01c245dc9" id="r_af75a5f9f69d70acb38654fc01c245dc9"><td class="memItemLeft" align="right" valign="top">const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af75a5f9f69d70acb38654fc01c245dc9">body</a></td></tr>
-<tr class="memdesc:af75a5f9f69d70acb38654fc01c245dc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Buffer containg HTTP response body.  <br /></td></tr>
-<tr class="separator:af75a5f9f69d70acb38654fc01c245dc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6762b2c6075a204837958ec03820b170" id="r_a6762b2c6075a204837958ec03820b170"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6762b2c6075a204837958ec03820b170">bodySize</a></td></tr>
-<tr class="memdesc:a6762b2c6075a204837958ec03820b170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of HTTP response body in bytes.  <br /></td></tr>
-<tr class="separator:a6762b2c6075a204837958ec03820b170"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e26b82ac6d6964610edcbf751556614" id="r_a2e26b82ac6d6964610edcbf751556614"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structmip__cc__http__header.html">mip_cc_http_header</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e26b82ac6d6964610edcbf751556614">headers</a></td></tr>
-<tr class="memdesc:a2e26b82ac6d6964610edcbf751556614"><td class="mdescLeft">&#160;</td><td class="mdescRight">Buffer containing HTTP response headers.  <br /></td></tr>
-<tr class="separator:a2e26b82ac6d6964610edcbf751556614"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab78eb592db0f3dcfba1272dc656bc507" id="r_ab78eb592db0f3dcfba1272dc656bc507"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab78eb592db0f3dcfba1272dc656bc507">headersCount</a></td></tr>
-<tr class="memdesc:ab78eb592db0f3dcfba1272dc656bc507"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of HTTP response headers.  <br /></td></tr>
-<tr class="separator:ab78eb592db0f3dcfba1272dc656bc507"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Public Attributes</h2></td></tr>
 <tr class="memitem:ac63ed68bd9814e910be0d33897dcb361" id="r_ac63ed68bd9814e910be0d33897dcb361"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac63ed68bd9814e910be0d33897dcb361">id</a></td></tr>
-<tr class="memdesc:ac63ed68bd9814e910be0d33897dcb361"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unique request ID&ndash;correlated with the same property in <a class="el" href="structmip__cc__http__request.html" title="HTTP request.">mip_cc_http_request</a>.  <br /></td></tr>
 <tr class="separator:ac63ed68bd9814e910be0d33897dcb361"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a7808dcada8f245c4a12163b80f9cc3" id="r_a9a7808dcada8f245c4a12163b80f9cc3"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a7808dcada8f245c4a12163b80f9cc3">statusCode</a></td></tr>
-<tr class="memdesc:a9a7808dcada8f245c4a12163b80f9cc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">HTTP response status code.  <br /></td></tr>
 <tr class="separator:a9a7808dcada8f245c4a12163b80f9cc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6762b2c6075a204837958ec03820b170" id="r_a6762b2c6075a204837958ec03820b170"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6762b2c6075a204837958ec03820b170">bodySize</a></td></tr>
+<tr class="separator:a6762b2c6075a204837958ec03820b170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af75a5f9f69d70acb38654fc01c245dc9" id="r_af75a5f9f69d70acb38654fc01c245dc9"><td class="memItemLeft" align="right" valign="top">const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af75a5f9f69d70acb38654fc01c245dc9">body</a></td></tr>
+<tr class="separator:af75a5f9f69d70acb38654fc01c245dc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab78eb592db0f3dcfba1272dc656bc507" id="r_ab78eb592db0f3dcfba1272dc656bc507"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab78eb592db0f3dcfba1272dc656bc507">headersCount</a></td></tr>
+<tr class="separator:ab78eb592db0f3dcfba1272dc656bc507"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e26b82ac6d6964610edcbf751556614" id="r_a2e26b82ac6d6964610edcbf751556614"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structmip__cc__http__header.html">mip_cc_http_header</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e26b82ac6d6964610edcbf751556614">headers</a></td></tr>
+<tr class="separator:a2e26b82ac6d6964610edcbf751556614"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>HTTP response. </p>
-
-<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00085">85</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
-</div><h2 class="groupheader">Field Documentation</h2>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="af75a5f9f69d70acb38654fc01c245dc9" name="af75a5f9f69d70acb38654fc01c245dc9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af75a5f9f69d70acb38654fc01c245dc9">&#9670;&#160;</a></span>body</h2>
 
@@ -157,10 +138,7 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Buffer containg HTTP response body. </p>
-
-<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00089">89</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
+<p>Buffer containg HTTP response body </p>
 
 </div>
 </div>
@@ -175,10 +153,7 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Size of HTTP response body in bytes. </p>
-
-<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00088">88</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
+<p>Size of HTTP response body in bytes </p>
 
 </div>
 </div>
@@ -193,10 +168,7 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Buffer containing HTTP response headers. </p>
-
-<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00091">91</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
+<p>Buffer containing HTTP response headers </p>
 
 </div>
 </div>
@@ -211,10 +183,7 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Number of HTTP response headers. </p>
-
-<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00090">90</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
+<p>Number of HTTP response headers </p>
 
 </div>
 </div>
@@ -229,10 +198,7 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Unique request ID&ndash;correlated with the same property in <a class="el" href="structmip__cc__http__request.html" title="HTTP request.">mip_cc_http_request</a>. </p>
-
-<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00086">86</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
+<p>Unique request ID&ndash;correlated with the same property in <a class="el" href="structmip__cc__http__request.html" title="HTTP request.">mip_cc_http_request</a> </p>
 
 </div>
 </div>
@@ -247,15 +213,12 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>HTTP response status code. </p>
-
-<p class="definition">Definition at line <a class="el" href="http__delegate__cc_8h_source.html#l00087">87</a> of file <a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a>.</p>
+<p>HTTP response status code </p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>src/api/mip_cc/<a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a></li>
+<li>/home/mbaldwin/docs/mip-sdk-for-cpp/src/api/mip_cc/<a class="el" href="http__delegate__cc_8h_source.html">http_delegate_cc.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

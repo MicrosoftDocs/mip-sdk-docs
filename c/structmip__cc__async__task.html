@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection (MIP) SDK for C: Reference: mip_cc_async_task Struct Reference</title>
+<title>Microsoft Information Protection SDK - C: mip_cc_async_task Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection (MIP) SDK for C: Reference<span id="projectnumber">&#160;1.16</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">Doxygen-generated documentation for MIP SDK written in C</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -98,7 +98,8 @@ $(function(){initNavTree('structmip__cc__async__task.html',''); initResizable(tr
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Data Fields</a>  </div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="structmip__cc__async__task-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mip_cc_async_task Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -106,28 +107,22 @@ $(function(){initNavTree('structmip__cc__async__task.html',''); initResizable(tr
 <p>Defines a single async task dispatch request.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="task__dispatcher__delegate__cc_8h_source.html">src/api/mip_cc/task_dispatcher_delegate_cc.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="task__dispatcher__delegate__cc_8h_source.html">task_dispatcher_delegate_cc.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Data Fields</h2></td></tr>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a562e32b66c7dd9e3b2e609d19fab3fe8" id="r_a562e32b66c7dd9e3b2e609d19fab3fe8"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a562e32b66c7dd9e3b2e609d19fab3fe8">id</a></td></tr>
+<tr class="separator:a562e32b66c7dd9e3b2e609d19fab3fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5dd8435fe5377b89d2e0f8aeb9245a1" id="r_ac5dd8435fe5377b89d2e0f8aeb9245a1"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5dd8435fe5377b89d2e0f8aeb9245a1">delayMs</a></td></tr>
-<tr class="memdesc:ac5dd8435fe5377b89d2e0f8aeb9245a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delay until task execution (in milliseconds)  <br /></td></tr>
 <tr class="separator:ac5dd8435fe5377b89d2e0f8aeb9245a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45901cd15ab80b8d6af4459763103da8" id="r_a45901cd15ab80b8d6af4459763103da8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45901cd15ab80b8d6af4459763103da8">executeOnIndependentThread</a></td></tr>
-<tr class="memdesc:a45901cd15ab80b8d6af4459763103da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this task should execute on a completely independent thread or can re-use a shared thread.  <br /></td></tr>
 <tr class="separator:a45901cd15ab80b8d6af4459763103da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a562e32b66c7dd9e3b2e609d19fab3fe8" id="r_a562e32b66c7dd9e3b2e609d19fab3fe8"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a562e32b66c7dd9e3b2e609d19fab3fe8">id</a></td></tr>
-<tr class="memdesc:a562e32b66c7dd9e3b2e609d19fab3fe8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Task ID.  <br /></td></tr>
-<tr class="separator:a562e32b66c7dd9e3b2e609d19fab3fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08fd8756ea36d1a2f6a519636266f3ba" id="r_a08fd8756ea36d1a2f6a519636266f3ba"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08fd8756ea36d1a2f6a519636266f3ba">loggerContext</a></td></tr>
-<tr class="memdesc:a08fd8756ea36d1a2f6a519636266f3ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">logger context that should be used with the logger delegate before the task is run  <br /></td></tr>
 <tr class="separator:a08fd8756ea36d1a2f6a519636266f3ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines a single async task dispatch request. </p>
-
-<p class="definition">Definition at line <a class="el" href="task__dispatcher__delegate__cc_8h_source.html#l00048">48</a> of file <a class="el" href="task__dispatcher__delegate__cc_8h_source.html">task_dispatcher_delegate_cc.h</a>.</p>
-</div><h2 class="groupheader">Field Documentation</h2>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="ac5dd8435fe5377b89d2e0f8aeb9245a1" name="ac5dd8435fe5377b89d2e0f8aeb9245a1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac5dd8435fe5377b89d2e0f8aeb9245a1">&#9670;&#160;</a></span>delayMs</h2>
 
@@ -139,10 +134,7 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
 <p>Delay until task execution (in milliseconds) </p>
-
-<p class="definition">Definition at line <a class="el" href="task__dispatcher__delegate__cc_8h_source.html#l00050">50</a> of file <a class="el" href="task__dispatcher__delegate__cc_8h_source.html">task_dispatcher_delegate_cc.h</a>.</p>
 
 </div>
 </div>
@@ -157,10 +149,7 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Whether this task should execute on a completely independent thread or can re-use a shared thread. </p>
-
-<p class="definition">Definition at line <a class="el" href="task__dispatcher__delegate__cc_8h_source.html#l00051">51</a> of file <a class="el" href="task__dispatcher__delegate__cc_8h_source.html">task_dispatcher_delegate_cc.h</a>.</p>
+<p>Whether this task should execute on a completely independent thread or can re-use a shared thread </p>
 
 </div>
 </div>
@@ -175,10 +164,7 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Task ID. </p>
-
-<p class="definition">Definition at line <a class="el" href="task__dispatcher__delegate__cc_8h_source.html#l00049">49</a> of file <a class="el" href="task__dispatcher__delegate__cc_8h_source.html">task_dispatcher_delegate_cc.h</a>.</p>
+<p>Task ID </p>
 
 </div>
 </div>
@@ -193,15 +179,12 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
 <p>logger context that should be used with the logger delegate before the task is run </p>
-
-<p class="definition">Definition at line <a class="el" href="task__dispatcher__delegate__cc_8h_source.html#l00052">52</a> of file <a class="el" href="task__dispatcher__delegate__cc_8h_source.html">task_dispatcher_delegate_cc.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>src/api/mip_cc/<a class="el" href="task__dispatcher__delegate__cc_8h_source.html">task_dispatcher_delegate_cc.h</a></li>
+<li>/home/mbaldwin/docs/mip-sdk-for-cpp/src/api/mip_cc/<a class="el" href="task__dispatcher__delegate__cc_8h_source.html">task_dispatcher_delegate_cc.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

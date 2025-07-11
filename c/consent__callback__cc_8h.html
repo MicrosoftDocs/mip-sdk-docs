@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection (MIP) SDK for C: Reference: src/api/mip_cc/consent_callback_cc.h File Reference</title>
+<title>Microsoft Information Protection SDK - C: /home/mbaldwin/docs/mip-sdk-for-cpp/src/api/mip_cc/consent_callback_cc.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection (MIP) SDK for C: Reference<span id="projectnumber">&#160;1.16</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">Doxygen-generated documentation for MIP SDK written in C</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -108,47 +108,14 @@ $(function(){initNavTree('consent__callback__cc_8h.html',''); initResizable(true
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="mip__macros__cc_8h_source.html">mip_cc/mip_macros_cc.h</a>&quot;</code><br />
-</div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for consent_callback_cc.h:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="consent__callback__cc_8h__incl.png" border="0" usemap="#asrc_2api_2mip__cc_2consent__callback__cc_8h" alt=""/></div>
-<map name="asrc_2api_2mip__cc_2consent__callback__cc_8h" id="asrc_2api_2mip__cc_2consent__callback__cc_8h">
-<area shape="rect" title="Defines consent callback functions." alt="" coords="31,5,202,45"/>
-<area shape="rect" title=" " alt="" coords="5,93,76,119"/>
-<area shape="poly" title=" " alt="" coords="100,47,64,85,60,81,96,44"/>
-<area shape="rect" href="mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="100,93,285,119"/>
-<area shape="poly" title=" " alt="" coords="137,44,174,81,170,85,133,47"/>
-</map>
-</div>
-</div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="consent__callback__cc_8h__dep__incl.png" border="0" usemap="#asrc_2api_2mip__cc_2consent__callback__cc_8hdep" alt=""/></div>
-<map name="asrc_2api_2mip__cc_2consent__callback__cc_8hdep" id="asrc_2api_2mip__cc_2consent__callback__cc_8hdep">
-<area shape="rect" title="Defines consent callback functions." alt="" coords="78,5,249,45"/>
-<area shape="rect" href="protection__engine__cc_8h.html" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="5,93,191,133"/>
-<area shape="poly" title=" " alt="" coords="143,58,115,95,110,91,139,55"/>
-<area shape="rect" href="protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="71,181,256,221"/>
-<area shape="poly" title=" " alt="" coords="189,56,206,93,210,113,206,134,195,160,181,182,176,179,190,158,201,133,204,113,201,94,184,58"/>
-<area shape="poly" title=" " alt="" coords="123,143,151,179,147,183,119,146"/>
-</map>
-</div>
 </div>
 <p><a href="consent__callback__cc_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ab594ebb7f179fa3647a97f17f04ca9ca" id="r_ab594ebb7f179fa3647a97f17f04ca9ca"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab594ebb7f179fa3647a97f17f04ca9ca">mip_cc_consent</a> { <br />
-&#160;&#160;<a class="el" href="#ab594ebb7f179fa3647a97f17f04ca9caab9594586e165c222f8a06a25e11c6381">MIP_CONSENT_ACCEPT_ALWAYS</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="#ab594ebb7f179fa3647a97f17f04ca9caa6d52d35c20a458ed3ab2c36781f24bcb">MIP_CONSENT_ACCEPT</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="#ab594ebb7f179fa3647a97f17f04ca9caaee146c1d9f83624c21492828175ab194">MIP_CONSENT_REJECT</a> = 2
-<br />
+<tr class="memitem:ab594ebb7f179fa3647a97f17f04ca9ca" id="r_ab594ebb7f179fa3647a97f17f04ca9ca"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab594ebb7f179fa3647a97f17f04ca9ca">mip_cc_consent</a> { <a class="el" href="#ab594ebb7f179fa3647a97f17f04ca9caab9594586e165c222f8a06a25e11c6381">MIP_CONSENT_ACCEPT_ALWAYS</a> = 0
+, <a class="el" href="#ab594ebb7f179fa3647a97f17f04ca9caa6d52d35c20a458ed3ab2c36781f24bcb">MIP_CONSENT_ACCEPT</a> = 1
+, <a class="el" href="#ab594ebb7f179fa3647a97f17f04ca9caaee146c1d9f83624c21492828175ab194">MIP_CONSENT_REJECT</a> = 2
  }</td></tr>
 <tr class="memdesc:ab594ebb7f179fa3647a97f17f04ca9ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">A user's response when consent is requested to connect to an unrecognized service endpoint.  <a href="#ab594ebb7f179fa3647a97f17f04ca9ca">More...</a><br /></td></tr>
 <tr class="separator:ab594ebb7f179fa3647a97f17f04ca9ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,8 +128,6 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines consent callback functions. </p>
-
-<p class="definition">Definition in file <a class="el" href="consent__callback__cc_8h_source.html">consent_callback_cc.h</a>.</p>
 </div><h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="ab594ebb7f179fa3647a97f17f04ca9ca" name="ab594ebb7f179fa3647a97f17f04ca9ca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab594ebb7f179fa3647a97f17f04ca9ca">&#9670;&#160;</a></span>mip_cc_consent</h2>
@@ -178,25 +143,14 @@ Functions</h2></td></tr>
 
 <p>A user's response when consent is requested to connect to an unrecognized service endpoint. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab594ebb7f179fa3647a97f17f04ca9caab9594586e165c222f8a06a25e11c6381" name="ab594ebb7f179fa3647a97f17f04ca9caab9594586e165c222f8a06a25e11c6381"></a>MIP_CONSENT_ACCEPT_ALWAYS&#160;</td><td class="fielddoc"><p>Consent and remember this decision. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab594ebb7f179fa3647a97f17f04ca9caab9594586e165c222f8a06a25e11c6381" name="ab594ebb7f179fa3647a97f17f04ca9caab9594586e165c222f8a06a25e11c6381"></a>MIP_CONSENT_ACCEPT_ALWAYS&#160;</td><td class="fielddoc"><p>Consent and remember this decision </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ab594ebb7f179fa3647a97f17f04ca9caa6d52d35c20a458ed3ab2c36781f24bcb" name="ab594ebb7f179fa3647a97f17f04ca9caa6d52d35c20a458ed3ab2c36781f24bcb"></a>MIP_CONSENT_ACCEPT&#160;</td><td class="fielddoc"><p>Consent just one time. </p>
+<tr><td class="fieldname"><a id="ab594ebb7f179fa3647a97f17f04ca9caa6d52d35c20a458ed3ab2c36781f24bcb" name="ab594ebb7f179fa3647a97f17f04ca9caa6d52d35c20a458ed3ab2c36781f24bcb"></a>MIP_CONSENT_ACCEPT&#160;</td><td class="fielddoc"><p>Consent just one time </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ab594ebb7f179fa3647a97f17f04ca9caaee146c1d9f83624c21492828175ab194" name="ab594ebb7f179fa3647a97f17f04ca9caaee146c1d9f83624c21492828175ab194"></a>MIP_CONSENT_REJECT&#160;</td><td class="fielddoc"><p>Do not consent. </p>
+<tr><td class="fieldname"><a id="ab594ebb7f179fa3647a97f17f04ca9caaee146c1d9f83624c21492828175ab194" name="ab594ebb7f179fa3647a97f17f04ca9caaee146c1d9f83624c21492828175ab194"></a>MIP_CONSENT_REJECT&#160;</td><td class="fielddoc"><p>Do not consent </p>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="consent__callback__cc_8h_source.html#l00044">44</a> of file <a class="el" href="consent__callback__cc_8h_source.html">consent_callback_cc.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   44</span>             {</div>
-<div class="line"><span class="lineno">   45</span>  <a class="code hl_enumvalue" href="#ab594ebb7f179fa3647a97f17f04ca9caab9594586e165c222f8a06a25e11c6381">MIP_CONSENT_ACCEPT_ALWAYS</a> = 0, <span class="comment">/**&lt; Consent and remember this decision */</span></div>
-<div class="line"><span class="lineno">   46</span>  <a class="code hl_enumvalue" href="#ab594ebb7f179fa3647a97f17f04ca9caa6d52d35c20a458ed3ab2c36781f24bcb">MIP_CONSENT_ACCEPT</a> = 1,        <span class="comment">/**&lt; Consent just one time */</span></div>
-<div class="line"><span class="lineno">   47</span>  <a class="code hl_enumvalue" href="#ab594ebb7f179fa3647a97f17f04ca9caaee146c1d9f83624c21492828175ab194">MIP_CONSENT_REJECT</a> = 2         <span class="comment">/**&lt; Do not consent */</span></div>
-<div class="line"><span class="lineno">   48</span>} <a class="code hl_enumeration" href="#ab594ebb7f179fa3647a97f17f04ca9ca">mip_cc_consent</a>;</div>
-<div class="ttc" id="aconsent__callback__cc_8h_html_ab594ebb7f179fa3647a97f17f04ca9ca"><div class="ttname"><a href="#ab594ebb7f179fa3647a97f17f04ca9ca">mip_cc_consent</a></div><div class="ttdeci">mip_cc_consent</div><div class="ttdoc">A user's response when consent is requested to connect to an unrecognized service endpoint.</div><div class="ttdef"><b>Definition</b> <a href="consent__callback__cc_8h_source.html#l00044">consent_callback_cc.h:44</a></div></div>
-<div class="ttc" id="aconsent__callback__cc_8h_html_ab594ebb7f179fa3647a97f17f04ca9caa6d52d35c20a458ed3ab2c36781f24bcb"><div class="ttname"><a href="#ab594ebb7f179fa3647a97f17f04ca9caa6d52d35c20a458ed3ab2c36781f24bcb">MIP_CONSENT_ACCEPT</a></div><div class="ttdeci">@ MIP_CONSENT_ACCEPT</div><div class="ttdoc">Consent just one time.</div><div class="ttdef"><b>Definition</b> <a href="consent__callback__cc_8h_source.html#l00046">consent_callback_cc.h:46</a></div></div>
-<div class="ttc" id="aconsent__callback__cc_8h_html_ab594ebb7f179fa3647a97f17f04ca9caab9594586e165c222f8a06a25e11c6381"><div class="ttname"><a href="#ab594ebb7f179fa3647a97f17f04ca9caab9594586e165c222f8a06a25e11c6381">MIP_CONSENT_ACCEPT_ALWAYS</a></div><div class="ttdeci">@ MIP_CONSENT_ACCEPT_ALWAYS</div><div class="ttdoc">Consent and remember this decision.</div><div class="ttdef"><b>Definition</b> <a href="consent__callback__cc_8h_source.html#l00045">consent_callback_cc.h:45</a></div></div>
-<div class="ttc" id="aconsent__callback__cc_8h_html_ab594ebb7f179fa3647a97f17f04ca9caaee146c1d9f83624c21492828175ab194"><div class="ttname"><a href="#ab594ebb7f179fa3647a97f17f04ca9caaee146c1d9f83624c21492828175ab194">MIP_CONSENT_REJECT</a></div><div class="ttdeci">@ MIP_CONSENT_REJECT</div><div class="ttdoc">Do not consent.</div><div class="ttdef"><b>Definition</b> <a href="consent__callback__cc_8h_source.html#l00048">consent_callback_cc.h:47</a></div></div>
-</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
@@ -240,7 +194,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_da61e3e9a357748887e3ca8d7c5a0c16.html">api</a></li><li class="navelem"><a class="el" href="dir_f746a827de8897c2c47601899c2d9089.html">mip_cc</a></li><li class="navelem"><a class="el" href="consent__callback__cc_8h.html">consent_callback_cc.h</a></li>
+    <li class="navelem"><a class="el" href="dir_ed23b7e0ff82d04a8565e406d9d9df9a.html">mip-sdk-for-cpp</a></li><li class="navelem"><a class="el" href="dir_5a92ca31a1d1cd11ee59a3526a96cc89.html">src</a></li><li class="navelem"><a class="el" href="dir_e50a1d5d74e01fc8d143b32c54f27ce0.html">api</a></li><li class="navelem"><a class="el" href="dir_c3e04355e45d1ded316250c59adeda59.html">mip_cc</a></li><li class="navelem"><a class="el" href="consent__callback__cc_8h.html">consent_callback_cc.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>

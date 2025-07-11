@@ -24,19 +24,19 @@
 */
 var NAVTREE =
 [
-  [ "Microsoft Information Protection (MIP) SDK for C: Reference", "index.html", [
+  [ "Microsoft Information Protection SDK - C", "index.html", [
     [ "Deprecated List", "deprecated.html", null ],
-    [ "Data Structures", "annotated.html", [
-      [ "Data Structures", "annotated.html", "annotated_dup" ],
-      [ "Data Structure Index", "classes.html", null ],
-      [ "Data Fields", "functions.html", [
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
+      [ "Class Index", "classes.html", null ],
+      [ "Class Members", "functions.html", [
         [ "All", "functions.html", null ],
         [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
-      [ "Globals", "globals.html", [
+      [ "File Members", "globals.html", [
         [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", "globals_vars" ],
@@ -52,10 +52,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "action__cc_8h.html",
-"dynamic__watermark__cc_8h.html#ad2df396e46c64eff09ca15d48e033f14",
-"mip__context__cc_8h.html#ab8654dd1583a8a21a84adc1d0c0090e2",
-"protection__engine__cc_8h.html#a6da284d8bedc938382741c4c3bafc889",
-"structmip__cc__http__request.html"
+"dynamic__watermark__cc_8h.html#abcf6bc02310e77003edb7150e49b9238",
+"mip__context__cc_8h.html#a59cf001d3314862d6e59474687382cd7",
+"protection__engine__cc_8h.html#a5bfd5c649442d13e5b3be0c950595f8c",
+"structmip__cc__http__header.html#ae8d67a3937a2db2e49635b80d1ece6d8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

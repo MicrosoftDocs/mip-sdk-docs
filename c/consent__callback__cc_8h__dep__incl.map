@@ -1,8 +1,0 @@
-<map id="src/api/mip_cc/consent_callback_cc.h" name="src/api/mip_cc/consent_callback_cc.h">
-<area shape="rect" id="Node000001" title="Defines consent callback functions." alt="" coords="78,5,249,45"/>
-<area shape="rect" id="Node000002" href="$protection__engine__cc_8h.html" title="Defines C&#45;Style ProtectionEngine functions." alt="" coords="5,93,191,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,58,115,95,110,91,139,55"/>
-<area shape="rect" id="Node000003" href="$protection__profile__cc_8h.html" title="Defines C&#45;Style ProtectionProfile functions." alt="" coords="71,181,256,221"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="189,56,206,93,210,113,206,134,195,160,181,182,176,179,190,158,201,133,204,113,201,94,184,58"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,143,151,179,147,183,119,146"/>
-</map>

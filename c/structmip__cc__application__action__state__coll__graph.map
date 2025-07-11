@@ -1,5 +1,0 @@
-<map id="mip_cc_application_action_state" name="mip_cc_application_action_state">
-<area shape="rect" id="Node000001" title="Represents the current state of the application as it performs a label&#45;related operation." alt="" coords="5,108,152,148"/>
-<area shape="rect" id="Node000002" href="$structmip__cc__handle.html" title="Opaque handle to MIP object." alt="" coords="19,5,138,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,45,81,108,76,108,76,45"/>
-</map>

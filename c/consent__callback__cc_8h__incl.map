@@ -1,7 +1,0 @@
-<map id="src/api/mip_cc/consent_callback_cc.h" name="src/api/mip_cc/consent_callback_cc.h">
-<area shape="rect" id="Node000001" title="Defines consent callback functions." alt="" coords="31,5,202,45"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,76,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,47,64,85,60,81,96,44"/>
-<area shape="rect" id="Node000003" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="100,93,285,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="137,44,174,81,170,85,133,47"/>
-</map>

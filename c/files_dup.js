@@ -1,4 +1,4 @@
 var files_dup =
 [
-    [ "src", "dir_68267d1309a1af8e8297ef4c3efbcdba.html", "dir_68267d1309a1af8e8297ef4c3efbcdba" ]
+    [ "mip-sdk-for-cpp", "dir_ed23b7e0ff82d04a8565e406d9d9df9a.html", "dir_ed23b7e0ff82d04a8565e406d9d9df9a" ]
 ];

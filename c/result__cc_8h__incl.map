@@ -1,7 +1,0 @@
-<map id="src/api/mip_cc/result_cc.h" name="src/api/mip_cc/result_cc.h">
-<area shape="rect" id="Node000001" title="Defines success/error result codes." alt="" coords="22,5,211,31"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,76,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,33,65,71,61,67,103,29"/>
-<area shape="rect" id="Node000003" href="$mip__macros__cc_8h.html" title="Export/import and other macros for C API." alt="" coords="100,79,285,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="131,29,172,67,168,71,127,33"/>
-</map>

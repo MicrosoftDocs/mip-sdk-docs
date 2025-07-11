@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+h1, h2, h3 {
+  color: #003366;
+}
+table.directory {
+  width: 100%;
+  border-collapse: collapse;
+}
+table.directory th, table.directory td {
+  padding: 6px;
+  border-bottom: 1px solid #ccc;
+}
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+pre {
+  background: #f5f5f5;
+  padding: 10px;
+  border-radius: 4px;
+}

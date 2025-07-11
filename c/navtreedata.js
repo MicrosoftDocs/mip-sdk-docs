@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "Microsoft Information Protection SDK - C", "index.html", [
+    [ "# Microsoft Information Protection SDK (C)Welcome to the reference documentation for the Microsoft Information Protection SDK.Use the navigation panel on the left to browse classes, modules, and related APIs.## Class List| Name | Description ||---—|----------—|| <a href=\"structmip__cc__application__info.html\" >mip_cc_application_info</a> | A struct that includes application specific information || <a href=\"structmip__cc__async__task.html\" >mip_cc_async_task</a> | Defines a single async task dispatch request || <a href=\"structmip__cc__create__logger__delegate__message__data__args.html\" >mip_cc_create_logger_delegate_message_data_args</a> |  || <a href=\"structmip__cc__document__state.html\" >mip_cc_document_state</a> | Represents the current state of a label-aware document || <a href=\"structmip__cc__error.html\" >mip_cc_error</a> | Error information || <a href=\"structmip__cc__feature__override.html\" >mip_cc_feature_override</a> | Defines a single feature's enabled/disabled state || <a href=\"structmip__cc__guid.html\" >mip_cc_guid</a> | GUID || <a href=\"structmip__cc__handle.html\" >mip_cc_handle</a> | Opaque handle to MIP object || <a href=\"structmip__cc__http__header.html\" >mip_cc_http_header</a> | HTTP request/response header || <a href=\"structmip__cc__http__request.html\" >mip_cc_http_request</a> | HTTP request || <a href=\"structmip__cc__http__response.html\" >mip_cc_http_response</a> | HTTP response || <a href=\"structmip__cc__identity.html\" >mip_cc_identity</a> | A struct that contains user identification info || <a href=\"structmip__cc__kv__pair.html\" >mip_cc_kv_pair</a> | Key/value pair || <a href=\"structmip__cc__log__message__data.html\" >mip_cc_log_message_data</a> |  || <a href=\"structmip__cc__metadata__entry.html\" >mip_cc_metadata_entry</a> | Metadata entry || <a href=\"structmip__cc__oauth2__challenge.html\" >mip_cc_oauth2_challenge</a> | Information provided by a server to generate an OAuth2 token || <a href=\"structmip__cc__user__rights.html\" >mip_cc_user_rights</a> | A group of users and the rights associated with them || <a href=\"structmip__cc__user__roles.html\" >mip_cc_user_roles</a> | A group of users and the roles associated with them |", "index.html", null ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -53,9 +54,9 @@ var NAVTREEINDEX =
 [
 "action__cc_8h.html",
 "dynamic__watermark__cc_8h.html#abcf6bc02310e77003edb7150e49b9238",
-"mip__context__cc_8h.html#a59cf001d3314862d6e59474687382cd7",
-"protection__engine__cc_8h.html#a5bfd5c649442d13e5b3be0c950595f8c",
-"structmip__cc__http__header.html#ae8d67a3937a2db2e49635b80d1ece6d8"
+"mip__context__cc_8h.html#a48904b7103f833ad382daa5e1ab36bad",
+"protection__engine__cc_8h.html#a5674b78f8ab334a31002be77655812a1",
+"structmip__cc__http__header.html#abe16b541f4458d60519e139b8975ae28"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

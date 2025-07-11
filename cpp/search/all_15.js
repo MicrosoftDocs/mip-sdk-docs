@@ -1,13 +1,11 @@
 var searchData=
 [
-  ['warning_0',['Warning',['../log__message__data_8h.html#a7a38c7496c92835c0d835ecb2f8135c1a0eaadb4fcb48a0a0ed7bc9868be9fbaa',1,'log_message_data.h']]],
-  ['watermarklayout_1',['WatermarkLayout',['../common__types_8h.html#ac3b70878cf52996e6c71c7039076840f',1,'common_types.h']]],
-  ['what_2',['what',['../classxml_1_1XmlLoadException.html#a995be4d63f209668c9a6fd9203b39677',1,'xml::XmlLoadException::what()'],['../classxml_1_1XmlParserException.html#af2e2d28204d88ba9a66c8ad6a899094d',1,'xml::XmlParserException::what()'],['../classError.html#a6b5d1714f27d38ba999e5cba27014397',1,'Error::what()']]],
-  ['whitespace_3',['WHITESPACE',['../namespacexml.html#a4fb3009600ec5826dc321c46fee9c6c0a52f1e315372b38db1b8f4e3666c4f721',1,'xml']]],
-  ['workload_4',['Workload',['../common__types_8h.html#a81d84fb9dff7fc21964e0b2ef63a3770',1,'common_types.h']]],
-  ['write_5',['Write',['../classStream.html#a67e7e739198f480dac2925d06010c60b',1,'Stream']]],
-  ['writeevent_6',['WriteEvent',['../classDiagnosticDelegate.html#a593e9c0012f9fc0ad5301b92b29b2a1c',1,'DiagnosticDelegate::WriteEvent(const std::shared_ptr&lt; T &gt; &amp;event)=0'],['../classDiagnosticDelegate.html#ae70dde19c003ff4f4d557cb9cdd43dee',1,'DiagnosticDelegate::WriteEvent(const std::shared_ptr&lt; T &gt; &amp;event, const mip::EventContext &amp;eventContext)=0']]],
-  ['writetolog_7',['WriteToLog',['../classLoggerDelegate.html#a34169cd16f08b0b8ab8fb54bfc3581db',1,'LoggerDelegate']]],
-  ['writetologwithcontext_8',['WriteToLogWithContext',['../classLoggerDelegate.html#a2e50863d645eb9d6f1dda4f8858754ec',1,'LoggerDelegate']]],
-  ['writetologwithlogmessage_9',['WriteToLogWithLogMessage',['../classLoggerDelegate.html#a981088ae3983c0fbc195a4d578f0dc69',1,'LoggerDelegate']]]
+  ['variablepolicyttl_0',['VariablePolicyTtl',['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a331b540817c6176278d9c431101764df',1,'flighting_feature.h']]],
+  ['variabletextmarking_1',['VariableTextMarking',['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a7f45e5e845aa0a5a3226f49d3209ea2e',1,'flighting_feature.h']]],
+  ['variabletextmarkingtype_2',['VariableTextMarkingType',['../common__types_8h.html#a51da49d1af35336cd22cf21e1f936a86',1,'common_types.h']]],
+  ['version_2eh_3',['version.h',['../version_8h.html',1,'']]],
+  ['versions_4',['Previous Versions',['../index.html#autotoc_md0',1,'']]],
+  ['view_5',['View',['../namespacerights.html#a1f9ac51acbbcffbf90b72a86dedd07e3',1,'rights']]],
+  ['viewer_6',['Viewer',['../namespaceroles.html#a561b08d7ace604dbd0f7a3c3fec9b550',1,'roles']]],
+  ['viewrightsdata_7',['ViewRightsData',['../namespacerights.html#a69fdab24dd5ecc1120271f7a766e5e99',1,'rights']]]
 ];

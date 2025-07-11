@@ -24,12 +24,56 @@
 */
 var NAVTREE =
 [
-  [ "Microsoft Information Protection SDK - C++", "index.html", ]
+  [ "Microsoft Information Protection SDK - C++", "index.html", [
+    [ "Deprecated List", "deprecated.html", null ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Functions", "namespacemembers_func.html", null ],
+        [ "Typedefs", "namespacemembers_type.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ]
+      ] ]
+    ] ],
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
+      [ "Class Index", "classes.html", null ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
+      [ "Class Members", "functions.html", [
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", "functions_func" ],
+        [ "Variables", "functions_vars.html", null ],
+        [ "Enumerations", "functions_enum.html", null ]
+      ] ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ],
+        [ "Macros", "globals_defs.html", null ]
+      ] ]
+    ] ],
+    [ "Examples", "examples.html", "examples" ]
+  ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"1-example.html",
+"classComputeEngine_1_1Settings.html#aabfeb961176e385741eeb5944efef545",
+"classFileProfile_1_1Observer.html#ac4726dc54a961ac9276bc814b21f87e3",
+"classMipConfiguration.html#a08888a40c70ba076d1a4ad062641ffb4",
+"classProtectionEngine.html#a1c73e586dccb9aa01f295310bd0f1e30",
+"classPublishingUseLicenseRequest.html#a201a2ae28594f4fd185533da4866fbae",
+"common__types_8h.html#a10dec50806bcdc01b5b0f3b5a5aafe44a4ba59984106679807df4974a68402650",
+"flighting__feature_8h.html",
+"namespacexml.html#a4fb3009600ec5826dc321c46fee9c6c0af14c971c6627c138fd9433f43741ffc3",
+"xml__node_8h.html#a4fb3009600ec5826dc321c46fee9c6c0aa48419b6a460abbb482d80e4a420643e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

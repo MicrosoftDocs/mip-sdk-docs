@@ -1,9 +1,0 @@
-<map id="ServiceDisabledError" name="ServiceDisabledError">
-<area shape="rect" id="Node000001" title="The user could not get access to the content due to a service being disabled." alt="" coords="5,225,164,251"/>
-<area shape="rect" id="Node000002" href="$classAccessDeniedError.html" title="The user could not get access to the content. For example, no permissions, content revoked." alt="" coords="13,152,157,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,191,87,225,82,225,82,191"/>
-<area shape="rect" id="Node000003" href="$classError.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="58,79,111,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,118,87,152,82,152,82,118"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="27,5,142,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,44,87,79,82,79,82,44"/>
-</map>

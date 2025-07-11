@@ -1,7 +1,0 @@
-<map id="src/api/mip/upe/action.h" name="src/api/mip/upe/action.h">
-<area shape="rect" id="Node000001" title="A file containing the Action base class and the ActionType enumerator." alt="" coords="15,5,193,31"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,64,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,33,57,71,53,67,91,29"/>
-<area shape="rect" id="Node000003" href="$mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="88,79,259,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="117,29,155,67,151,71,114,33"/>
-</map>

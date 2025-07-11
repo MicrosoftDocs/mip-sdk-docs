@@ -1,4 +1,0 @@
-var dir_83c95b8768054043ed5b993965267817 =
-[
-    [ "version", "dir_c3ddf3351b4b574e02c057743a58197c.html", "dir_c3ddf3351b4b574e02c057743a58197c" ]
-];

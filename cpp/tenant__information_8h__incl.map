@@ -1,9 +1,0 @@
-<map id="src/api/mip/protection/tenant_information.h" name="src/api/mip/protection/tenant_information.h">
-<area shape="rect" id="Node000001" title="Defines TenantInformation interface." alt="" coords="54,5,218,45"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,83,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,48,70,86,66,82,112,44"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="107,93,165,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="139,46,139,79,133,79,133,46"/>
-<area shape="rect" id="Node000004" href="$mip__namespace_8h.html" title="MIP namespace macros." alt="" coords="189,93,360,119"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="171,43,243,84,241,89,168,48"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="CustomerKeyUnavailableError" name="CustomerKeyUnavailableError">
-<area shape="rect" id="Node000001" title="Bring your own encryption key needed and unavailable." alt="" coords="5,225,224,251"/>
-<area shape="rect" id="Node000002" href="$classAccessDeniedError.html" title="The user could not get access to the content. For example, no permissions, content revoked." alt="" coords="43,152,187,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,191,117,225,112,225,112,191"/>
-<area shape="rect" id="Node000003" href="$classError.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="88,79,141,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,118,117,152,112,152,112,118"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="57,5,172,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="117,44,117,79,112,79,112,44"/>
-</map>

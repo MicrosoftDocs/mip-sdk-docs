@@ -1,5 +1,0 @@
-<map id="ApplyLabelAction" name="ApplyLabelAction">
-<area shape="rect" id="Node000001" title="Apply label actions requires the calling application to apply a specific label." alt="" coords="5,79,140,104"/>
-<area shape="rect" id="Node000002" href="$classAction.html" title="Interface for an action. Each action translates to a step that needs to be taken by the application t..." alt="" coords="41,5,104,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,44,75,79,70,79,70,44"/>
-</map>

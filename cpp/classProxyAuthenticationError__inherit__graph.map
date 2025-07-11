@@ -1,9 +1,0 @@
-<map id="ProxyAuthenticationError" name="ProxyAuthenticationError">
-<area shape="rect" id="Node000001" title="Proxy authentication failure." alt="" coords="5,225,191,251"/>
-<area shape="rect" id="Node000002" href="$classNetworkError.html" title="Networking error. Caused by unexpected behavior when making network calls to service endpoints." alt="" coords="44,152,152,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,191,101,225,95,225,95,191"/>
-<area shape="rect" id="Node000003" href="$classError.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK." alt="" coords="71,79,125,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,118,101,152,95,152,95,118"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="41,5,155,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="101,44,101,79,95,79,95,44"/>
-</map>

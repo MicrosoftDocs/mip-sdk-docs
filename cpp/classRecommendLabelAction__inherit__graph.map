@@ -1,5 +1,0 @@
-<map id="RecommendLabelAction" name="RecommendLabelAction">
-<area shape="rect" id="Node000001" title="Recommend label actions is meant to suggest a label to the users. Suppressing this call after a user ..." alt="" coords="5,79,185,104"/>
-<area shape="rect" id="Node000002" href="$classAction.html" title="Interface for an action. Each action translates to a step that needs to be taken by the application t..." alt="" coords="64,5,127,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,44,98,79,93,79,93,44"/>
-</map>

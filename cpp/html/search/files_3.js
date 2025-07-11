@@ -1,9 +1,0 @@
-var searchData=
-[
-  ['editable_5fstream_2eh_0',['editable_stream.h',['../editable__stream_8h.html',1,'']]],
-  ['error_2eh_1',['error.h',['../error_8h.html',1,'']]],
-  ['event_2eh_2',['event.h',['../event_8h.html',1,'']]],
-  ['event_5fcontext_2eh_3',['event_context.h',['../event__context_8h.html',1,'']]],
-  ['event_5fproperty_2eh_4',['event_property.h',['../event__property_8h.html',1,'']]],
-  ['execution_5fstate_2eh_5',['execution_state.h',['../execution__state_8h.html',1,'']]]
-];

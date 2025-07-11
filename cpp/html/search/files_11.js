@@ -1,7 +1,0 @@
-var searchData=
-[
-  ['xml_5fdelegate_2eh_0',['xml_delegate.h',['../xml__delegate_8h.html',1,'']]],
-  ['xml_5fdocument_2eh_1',['xml_document.h',['../api_2mip_2xml__document_8h.html',1,'']]],
-  ['xml_5fnode_2eh_2',['xml_node.h',['../api_2mip_2xml__node_8h.html',1,'']]],
-  ['xml_5freader_2eh_3',['xml_reader.h',['../xml__reader_8h.html',1,'']]]
-];

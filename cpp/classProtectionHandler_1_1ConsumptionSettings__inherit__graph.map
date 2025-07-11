@@ -1,5 +1,0 @@
-<map id="ProtectionHandler::ConsumptionSettings" name="ProtectionHandler::ConsumptionSettings">
-<area shape="rect" id="Node000001" title="Settings used to create a ProtectionHandler to consume existing content." alt="" coords="25,79,186,119"/>
-<area shape="rect" id="Node000002" href="$classProtectionCommonSettings.html" title="Settings to use for protection operations." alt="" coords="5,5,205,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,44,108,79,103,79,103,44"/>
-</map>

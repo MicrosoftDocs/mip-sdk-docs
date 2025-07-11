@@ -24,52 +24,12 @@
 */
 var NAVTREE =
 [
-  [ "Microsoft Information Protection (MIP) SDK for C++: Reference", "index.html", [
-    [ "Deprecated List", "deprecated.html", null ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ]
-      ] ]
-    ] ],
-    [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", null ],
-        [ "Enumerations", "functions_enum.html", null ]
-      ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Variables", "globals_vars.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
-        [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
-    ] ]
-  ] ]
+  [ "Microsoft Information Protection SDK - C++", "index.html", ]
 ];
 
 var NAVTREEINDEX =
 [
-"action_8h.html",
-"classDelegateResponseError.html#a47a4a0b6c07e375a5faa5e3dbb1dc50d",
-"classGetTemplatesSettings.html#a64e3a1be023b0ba0b7e8c3be4bc6a718",
-"classMaxDepthReachedError.html#a27297bdd7abc0571413a249ed4d1f447",
-"classParsedPublishingLicenseBuilder.html#a1dc8f42f424563ec24450a6e54785d6b",
-"classProtectionHandler_1_1PublishingSettings.html#afd860eba9eee4b4a15e4c65438ac83aa",
-"classTemplateNotFoundError.html#a34ab84a92eb2a61d10bb2a1720640eb5",
-"error_8h.html#af7a9c5a9d19bf72299ab821bd983e131af78d6ffb871dcc365478781b4d0cbdc1",
-"namespacerights.html#a9551a8149ed6fb783ce7c187d37be59d"
+"index.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

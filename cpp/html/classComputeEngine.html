@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: ComputeEngine Class Reference</title>
+<title>Microsoft Information Protection SDK - C: ComputeEngine Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -105,16 +105,6 @@ $(function(){initNavTree('classComputeEngine.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">ComputeEngine Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for ComputeEngine:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classComputeEngine.png" usemap="#ComputeEngine_map" alt=""/>
-  <map id="ComputeEngine_map" name="ComputeEngine_map">
-<area href="classComputeEngineImpl.html" alt="ComputeEngineImpl" shape="rect" coords="0,56,131,80"/>
-<area href="classComputeEngineMock.html" alt="ComputeEngineMock" shape="rect" coords="0,112,131,136"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -189,12 +179,12 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>HasWorkloadCo
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ab99267e537053f0201d4dc3dc53d98ce" id="r_ab99267e537053f0201d4dc3dc53d98ce"><td class="memItemLeft" align="right" valign="top"><a id="ab99267e537053f0201d4dc3dc53d98ce" name="ab99267e537053f0201d4dc3dc53d98ce"></a>
+<tr class="memitem:ae2102189893e45a32425b925cd2da8b9" id="r_ae2102189893e45a32425b925cd2da8b9"><td class="memItemLeft" align="right" valign="top"><a id="ae2102189893e45a32425b925cd2da8b9" name="ae2102189893e45a32425b925cd2da8b9"></a>
 static MIP_UPE_CORE_API std::shared_ptr&lt; <a class="el" href="classComputeEngine.html">ComputeEngine</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Create</b> (const <a class="el" href="classSyncFilePolicyData.html">SyncFilePolicyData</a> &amp;policyData, const <a class="el" href="classComputeEngine_1_1Settings.html">ComputeEngine::Settings</a> &amp;settings)</td></tr>
-<tr class="separator:ab99267e537053f0201d4dc3dc53d98ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1e7d8729f2df2de60a7d6c6964196b5" id="r_aa1e7d8729f2df2de60a7d6c6964196b5"><td class="memItemLeft" align="right" valign="top"><a id="aa1e7d8729f2df2de60a7d6c6964196b5" name="aa1e7d8729f2df2de60a7d6c6964196b5"></a>
+<tr class="separator:ae2102189893e45a32425b925cd2da8b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a010890237f97811418c9d469fac7c592" id="r_a010890237f97811418c9d469fac7c592"><td class="memItemLeft" align="right" valign="top"><a id="a010890237f97811418c9d469fac7c592" name="a010890237f97811418c9d469fac7c592"></a>
 static MIP_UPE_CORE_API std::shared_ptr&lt; <a class="el" href="classComputeEngineContext.html">ComputeEngineContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>CreateContext</b> (const std::map&lt; <a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0">FlightingFeature</a>, bool &gt; &amp;flightingFeatures, bool isAuditDiscoveryEnabled)</td></tr>
-<tr class="separator:aa1e7d8729f2df2de60a7d6c6964196b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a010890237f97811418c9d469fac7c592"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae246c1314c4b39ea25c9be228e912123" name="ae246c1314c4b39ea25c9be228e912123"></a>
@@ -247,13 +237,10 @@ static MIP_UPE_CORE_API std::shared_ptr&lt; <a class="el" href="classComputeEngi
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Methods return a pair. first contains a list of the action the second is whether it should be applied on the local, if false actions should be applied on the remote document and that document state should be used. </dd></dl>
 
-<p>Implemented in <a class="el" href="classComputeEngineImpl.html#af2a222006d8b36249aed70fbda899aa1">ComputeEngineImpl</a>.</p>
-
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following files:<ul>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/mbaldwin/docs/mip-sdk-for-cpp/src/api/mip/upe/core/<a class="el" href="compute__engine_8h_source.html">compute_engine.h</a></li>
-<li>/home/mbaldwin/docs/mip-sdk-for-cpp/src/upe/core/api_impl/<b>compute_engine_impl.cpp</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

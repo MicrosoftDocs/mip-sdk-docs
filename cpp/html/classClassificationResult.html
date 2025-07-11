@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: ClassificationResult Class Reference</title>
+<title>Microsoft Information Protection SDK - C: ClassificationResult Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -108,15 +108,6 @@ $(function(){initNavTree('classClassificationResult.html',''); initResizable(tru
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="classification__result_8h_source.html">classification_result.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for ClassificationResult:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classClassificationResult.png" usemap="#ClassificationResult_map" alt=""/>
-  <map id="ClassificationResult_map" name="ClassificationResult_map">
-<area href="classClassificationResultImpl.html" alt="ClassificationResultImpl" shape="rect" coords="0,56,143,80"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -129,8 +120,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a52a61e785bfa6b655cd1d6d3c5cdfffc" id="r_a52a61e785bfa6b655cd1d6d3c5cdfffc"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52a61e785bfa6b655cd1d6d3c5cdfffc">GetCount</a> () const =0</td></tr>
 <tr class="memdesc:a52a61e785bfa6b655cd1d6d3c5cdfffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the instance count.  <br /></td></tr>
 <tr class="separator:a52a61e785bfa6b655cd1d6d3c5cdfffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e737ab0425c0e324744dcc40c0da346" id="r_a7e737ab0425c0e324744dcc40c0da346"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e737ab0425c0e324744dcc40c0da346">GetConfidenceLevel</a> () const =0</td></tr>
-<tr class="memdesc:a7e737ab0425c0e324744dcc40c0da346"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the confidence in the result.  <br /></td></tr>
+<tr class="memitem:a7e737ab0425c0e324744dcc40c0da346" id="r_a7e737ab0425c0e324744dcc40c0da346"><td class="memItemLeft" align="right" valign="top"><a id="a7e737ab0425c0e324744dcc40c0da346" name="a7e737ab0425c0e324744dcc40c0da346"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>GetConfidenceLevel</b> () const =0</td></tr>
+<tr class="memdesc:a7e737ab0425c0e324744dcc40c0da346"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the confidence in the result. <br /></td></tr>
 <tr class="separator:a7e737ab0425c0e324744dcc40c0da346"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67554fe184bd92a726144bc71da142b7" id="r_a67554fe184bd92a726144bc71da142b7"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67554fe184bd92a726144bc71da142b7">GetSensitiveInformationDetections</a> () const =0</td></tr>
 <tr class="memdesc:a67554fe184bd92a726144bc71da142b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the sensitive information detections.  <br /></td></tr>
@@ -142,35 +134,6 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class that contains the result of a classification call on the Execution State. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7e737ab0425c0e324744dcc40c0da346" name="a7e737ab0425c0e324744dcc40c0da346"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e737ab0425c0e324744dcc40c0da346">&#9670;&#160;</a></span>GetConfidenceLevel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual int ClassificationResult::GetConfidenceLevel </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the confidence in the result. </p>
-
-<p>Implemented in <a class="el" href="classClassificationResultImpl.html#a767e50f9f38b7643b11c3dbdbadffb90">ClassificationResultImpl</a>.</p>
-
-</div>
-</div>
 <a id="a52a61e785bfa6b655cd1d6d3c5cdfffc" name="a52a61e785bfa6b655cd1d6d3c5cdfffc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a52a61e785bfa6b655cd1d6d3c5cdfffc">&#9670;&#160;</a></span>GetCount()</h2>
 
@@ -196,8 +159,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Get the instance count. </p>
 <dl class="section return"><dt>Returns</dt><dd>the instance count. </dd></dl>
-
-<p>Implemented in <a class="el" href="classClassificationResultImpl.html#a4cb35101cbc9b8fe0754ecf1c0ed7690">ClassificationResultImpl</a>.</p>
 
 </div>
 </div>
@@ -227,8 +188,6 @@ Public Member Functions</h2></td></tr>
 <p>Get the specific detection bands if the enchanced classification is enabled. </p>
 <dl class="section return"><dt>Returns</dt><dd>a vector of instance counts at different confidence thresholds </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classClassificationResultImpl.html#a59a6ffb7aacf0da9eb82de8820438bd3">ClassificationResultImpl</a>.</p>
-
 </div>
 </div>
 <a id="ab82403b84bdfff683360c184e04b6583" name="ab82403b84bdfff683360c184e04b6583"></a>
@@ -256,8 +215,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Get the ID of the classification policy. </p>
 <dl class="section return"><dt>Returns</dt><dd>ID of the classification policy. </dd></dl>
-
-<p>Implemented in <a class="el" href="classClassificationResultImpl.html#aa000f1ad4fbfa456dde08b850595584c">ClassificationResultImpl</a>.</p>
 
 </div>
 </div>
@@ -287,8 +244,6 @@ Public Member Functions</h2></td></tr>
 <p>Get the name of the classification policy. </p>
 <dl class="section return"><dt>Returns</dt><dd>name of the classification policy. </dd></dl>
 
-<p>Implemented in <a class="el" href="classClassificationResultImpl.html#ace0a94496ef19183c51bedb743243c52">ClassificationResultImpl</a>.</p>
-
 </div>
 </div>
 <a id="a67554fe184bd92a726144bc71da142b7" name="a67554fe184bd92a726144bc71da142b7"></a>
@@ -316,8 +271,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Get the sensitive information detections. </p>
 <dl class="section return"><dt>Returns</dt><dd>json string of all the sensitive information detections. if not empty must be a valid json format. </dd></dl>
-
-<p>Implemented in <a class="el" href="classClassificationResultImpl.html#a7af5ee5e18637c1fd147936a8c42d9ca">ClassificationResultImpl</a>.</p>
 
 </div>
 </div>

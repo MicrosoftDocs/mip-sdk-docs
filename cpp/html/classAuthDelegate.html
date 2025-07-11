@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: AuthDelegate Class Reference</title>
+<title>Microsoft Information Protection SDK - C: AuthDelegate Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -109,17 +109,6 @@ $(function(){initNavTree('classAuthDelegate.html',''); initResizable(true); });
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="common__types_8h_source.html">common_types.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for AuthDelegate:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classAuthDelegate.png" usemap="#AuthDelegate_map" alt=""/>
-  <map id="AuthDelegate_map" name="AuthDelegate_map">
-<area href="classAppAuthDelegateImpl.html" alt="AppAuthDelegateImpl" shape="rect" coords="0,56,133,80"/>
-<area href="classAuthDelegateImpl.html" alt="AuthDelegateImpl" shape="rect" coords="143,56,276,80"/>
-<area href="classFakeAuthDelegate.html" alt="FakeAuthDelegate" shape="rect" coords="286,56,419,80"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -191,8 +180,6 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if token successfully acquired, else false</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>On failure, if token output parameter contains an error message, it will be included in the <a class="el" href="classNoAuthTokenError.html" title="The user could not get access to the content due to missing authentication token.">NoAuthTokenError</a> exception that will later be raised to the application. </dd></dl>
-
-<p>Reimplemented in <a class="el" href="classFakeAuthDelegate.html#a269d4a502ce85ecc351e578d2554af39">FakeAuthDelegate</a>.</p>
 
 </div>
 </div>

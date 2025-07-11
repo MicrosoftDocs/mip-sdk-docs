@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: ApplicationActionState Class Reference</title>
+<title>Microsoft Information Protection SDK - C: ApplicationActionState Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -103,15 +103,6 @@ $(function(){initNavTree('classApplicationActionState.html',''); initResizable(t
   <div class="headertitle"><div class="title">ApplicationActionState Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for ApplicationActionState:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classApplicationActionState.png" usemap="#ApplicationActionState_map" alt=""/>
-  <map id="ApplicationActionState_map" name="ApplicationActionState_map">
-<area href="classApplicationActionStateImpl.html" alt="ApplicationActionStateImpl" shape="rect" coords="0,56,161,80"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -130,7 +121,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7277c13aa95c99e994601c8e9be28bbe" id="r_a7277c13aa95c99e994601c8e9be28bbe"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7277c13aa95c99e994601c8e9be28bbe">GetNewLabelExtendedProperties</a> () const</td></tr>
 <tr class="memdesc:a7277c13aa95c99e994601c8e9be28bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return new label's extended properties.  <br /></td></tr>
 <tr class="separator:a7277c13aa95c99e994601c8e9be28bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14e72bcff70a7834b8d311535f7e952e" id="r_a14e72bcff70a7834b8d311535f7e952e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="src_2api_2mip_2upe_2action_8h.html#a97669588a9e315e77c536d525c4940e1">ActionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14e72bcff70a7834b8d311535f7e952e">GetSupportedActions</a> () const =0</td></tr>
+<tr class="memitem:a14e72bcff70a7834b8d311535f7e952e" id="r_a14e72bcff70a7834b8d311535f7e952e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="action_8h.html#a97669588a9e315e77c536d525c4940e1">ActionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14e72bcff70a7834b8d311535f7e952e">GetSupportedActions</a> () const =0</td></tr>
 <tr class="memdesc:a14e72bcff70a7834b8d311535f7e952e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a masked enum describing all the supported action types.  <br /></td></tr>
 <tr class="separator:a14e72bcff70a7834b8d311535f7e952e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9760298535518d93374b40d528e07f9c" id="r_a9760298535518d93374b40d528e07f9c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9760298535518d93374b40d528e07f9c">IsRecommendationEnabled</a> () const =0</td></tr>
@@ -167,8 +158,6 @@ Public Member Functions</h2></td></tr>
 <p>Return the content's time zone as an offset from UTC, in seconds, or kTimeZoneOffsetLocalTime to use the machine's local time. </p>
 <dl class="section return"><dt>Returns</dt><dd>The content's time zone as an offset from UTC, in seconds, or kTimeZoneOffsetLocalTime to use the machine's local time. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classApplicationActionStateImpl.html#a36e77b780013e91ea96352148cc3c137">ApplicationActionStateImpl</a>.</p>
-
 </div>
 </div>
 <a id="a948739313d8dbeed3f925dad8fc22220" name="a948739313d8dbeed3f925dad8fc22220"></a>
@@ -196,8 +185,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets the sensitivity label ID that should be applied on the document. </p>
 <dl class="section return"><dt>Returns</dt><dd>sensitivity label ID to be applied to the content if exists else empty to remove label. </dd></dl>
-
-<p>Implemented in <a class="el" href="classApplicationActionStateImpl.html#a64dabeaab1c68d47277dc329c539d327">ApplicationActionStateImpl</a>.</p>
 
 </div>
 </div>
@@ -228,8 +215,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>the assignment method STANDARD, PRIVILEGED, AUTO. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd>mip::AssignmentMethod </dd></dl>
 
-<p>Implemented in <a class="el" href="classApplicationActionStateImpl.html#ab00ffe8bb7c0dd61f6f0c19d911912f3">ApplicationActionStateImpl</a>.</p>
-
 </div>
 </div>
 <a id="a7277c13aa95c99e994601c8e9be28bbe" name="a7277c13aa95c99e994601c8e9be28bbe"></a>
@@ -257,8 +242,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Return new label's extended properties. </p>
 <dl class="section return"><dt>Returns</dt><dd>the extended properties applied to the content. </dd></dl>
-
-<p>Reimplemented in <a class="el" href="classApplicationActionStateImpl.html#a5f23edf3d61483d3992470d23e62d332">ApplicationActionStateImpl</a>.</p>
 
 </div>
 </div>
@@ -289,8 +272,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>the new label state. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd>mip::LabelState </dd></dl>
 
-<p>Implemented in <a class="el" href="classApplicationActionStateImpl.html#ad05f11ae4f00cce24ee6b6f8a16499c0">ApplicationActionStateImpl</a>.</p>
-
 </div>
 </div>
 <a id="a14e72bcff70a7834b8d311535f7e952e" name="a14e72bcff70a7834b8d311535f7e952e"></a>
@@ -303,7 +284,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="src_2api_2mip_2upe_2action_8h.html#a97669588a9e315e77c536d525c4940e1">ActionType</a> ApplicationActionState::GetSupportedActions </td>
+          <td class="memname">virtual <a class="el" href="action_8h.html#a97669588a9e315e77c536d525c4940e1">ActionType</a> ApplicationActionState::GetSupportedActions </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -319,8 +300,6 @@ Public Member Functions</h2></td></tr>
 <p>Gets a masked enum describing all the supported action types. </p>
 <dl class="section return"><dt>Returns</dt><dd>a masked enum describing all the supported action types.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>ActionType::Justify must be supported. When a policy and label change requires justification, a justification action will always be returned. </dd></dl>
-
-<p>Implemented in <a class="el" href="classApplicationActionStateImpl.html#aa5a0ab9edd9f25e8cd74c5da260091ab">ApplicationActionStateImpl</a>.</p>
 
 </div>
 </div>
@@ -351,8 +330,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>true if downgrade is justified&ndash;along with the justification message&ndash;else false </dd></dl>
 <dl class="section see"><dt>See also</dt><dd>mip::JustifyAction </dd></dl>
 
-<p>Implemented in <a class="el" href="classApplicationActionStateImpl.html#a884fe14b237a56c00e84a61fb0d88761">ApplicationActionStateImpl</a>.</p>
-
 </div>
 </div>
 <a id="a9760298535518d93374b40d528e07f9c" name="a9760298535518d93374b40d528e07f9c"></a>
@@ -381,8 +358,6 @@ Public Member Functions</h2></td></tr>
 <p>Get a bool that signifying recommend action will return. by default should be true unless user specifies else. </p>
 <dl class="section return"><dt>Returns</dt><dd>a bool that signifying recommend action will return.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>ActionType::RecommendLabel must be enable for this field to have an affect. </dd></dl>
-
-<p>Implemented in <a class="el" href="classApplicationActionStateImpl.html#a0d5f39e45b1c407582e201d66a8092a7">ApplicationActionStateImpl</a>.</p>
 
 </div>
 </div>

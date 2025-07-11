@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: HttpOperation Class Reference</title>
+<title>Microsoft Information Protection SDK - C: HttpOperation Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -108,20 +108,6 @@ $(function(){initNavTree('classHttpOperation.html',''); initResizable(true); });
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="http__operation_8h_source.html">http_operation.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for HttpOperation:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classHttpOperation.png" usemap="#HttpOperation_map" alt=""/>
-  <map id="HttpOperation_map" name="HttpOperation_map">
-<area href="classHttpOperationBase.html" alt="HttpOperationBase" shape="rect" coords="220,56,357,80"/>
-<area href="classHttpOperationWasm.html" alt="HttpOperationWasm" shape="rect" coords="367,56,504,80"/>
-<area href="classFakeHttpOperation.html" alt="FakeHttpOperation" shape="rect" coords="0,112,137,136"/>
-<area href="classHttpOperationAndroid.html" alt="HttpOperationAndroid" shape="rect" coords="147,112,284,136"/>
-<area href="classHttpOperationApple.html" alt="HttpOperationApple" shape="rect" coords="294,112,431,136"/>
-<area href="classHttpOperationCppRest.html" alt="HttpOperationCppRest" shape="rect" coords="441,112,578,136"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -165,8 +151,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Operation ID</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>The corresponding <a class="el" href="classHttpRequest.html" title="Interface that describes a single HTTP request.">HttpRequest</a> and <a class="el" href="classHttpResponse.html" title="Interface that describes a single HTTP response, implemented by client app when overriding HttpDelega...">HttpResponse</a> will have the same ID </dd></dl>
 
-<p>Implemented in <a class="el" href="classHttpOperationBase.html#a3b538dde8ac8b2d15fd4b537f0c0463f">HttpOperationBase</a>, and <a class="el" href="classHttpOperationWasm.html#a8c8194fd156aca4c34a2daf3cc156270">HttpOperationWasm</a>.</p>
-
 </div>
 </div>
 <a id="a200a5a8314d11d3d7eada3719fcb6a8e" name="a200a5a8314d11d3d7eada3719fcb6a8e"></a>
@@ -195,8 +179,6 @@ Public Member Functions</h2></td></tr>
 <p>Get response, if any. </p>
 <dl class="section return"><dt>Returns</dt><dd>Response <a class="el" href="classHttpResponse.html" title="Interface that describes a single HTTP response, implemented by client app when overriding HttpDelega...">HttpResponse</a> Throws a <a class="el" href="classNetworkError.html" title="Networking error. Caused by unexpected behavior when making network calls to service endpoints.">NetworkError</a> if the server returned an invalid or unexpected response. Throws a <a class="el" href="classOperationCancelledError.html" title="Operation was cancelled.">OperationCancelledError</a> if the operation was cancelled Throws a <a class="el" href="classError.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK.">Error</a> if some other error is encountered. </dd></dl>
 
-<p>Implemented in <a class="el" href="classHttpOperationBase.html#ad15451ea6d605240948ceedf3bf93396">HttpOperationBase</a>, and <a class="el" href="classHttpOperationWasm.html#a68e952578d2f7a618558211c2e1542d4">HttpOperationWasm</a>.</p>
-
 </div>
 </div>
 <a id="ae43ad9e59ef1229e26ac35964648bdb4" name="ae43ad9e59ef1229e26ac35964648bdb4"></a>
@@ -224,8 +206,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Get cancellation status of operation. </p>
 <dl class="section return"><dt>Returns</dt><dd>Cancellation status </dd></dl>
-
-<p>Implemented in <a class="el" href="classFakeHttpOperation.html#a1b977cc997b3d3805196a7126b17b484">FakeHttpOperation</a>, <a class="el" href="classHttpOperationAndroid.html#a5a65c693f9c9a9d56acdc2d3224b3cdf">HttpOperationAndroid</a>, <a class="el" href="classHttpOperationApple.html#a58f0221c2f06007a261f3c3f110ad792">HttpOperationApple</a>, <a class="el" href="classHttpOperationCppRest.html#afa01826d050de7f305159dcf5a3d1997">HttpOperationCppRest</a>, and <a class="el" href="classHttpOperationWasm.html#a113d6765d4c4cf399602c890f33b2a46">HttpOperationWasm</a>.</p>
 
 </div>
 </div>

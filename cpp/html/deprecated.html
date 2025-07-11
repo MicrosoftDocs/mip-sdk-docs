@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: Deprecated List</title>
+<title>Microsoft Information Protection SDK - C: Deprecated List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -103,24 +103,6 @@ $(function(){initNavTree('deprecated.html',''); initResizable(true); });
 <div class="textblock"><dl class="reflist">
 <dt>Member <a class="el" href="classAuthDelegate.html#ace3ec6c0708bde7d12679412e26ee3ca">AuthDelegate::AcquireOAuth2Token</a>  (const <a class="el" href="classIdentity.html" title="Abstraction for identity.">Identity</a> &amp;identity, const <a class="el" href="classAuthDelegate_1_1OAuth2Challenge.html" title="a class that contains all the information required from the calling application in order to generate ...">OAuth2Challenge</a> &amp;challenge, <a class="el" href="classAuthDelegate_1_1OAuth2Token.html" title="A class containing access token info provided by an application.">OAuth2Token</a> &amp;token)</dt>
 <dd><a class="anchor" id="_deprecated000001"></a>This method will soon be deprecated in favor of the one accepting a context parameter. If the new version has been implemented, there is no need to implement this version.  </dd>
-<dt>Member <a class="el" href="classbasic__json.html#ab8b4e0acdea49e5f0a77abdf1ce465d2">basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType, CustomBaseClass &gt;::iterator_wrapper</a>  (reference ref) noexcept</dt>
-<dd><a class="anchor" id="_deprecated000008"></a>This function is deprecated since 3.1.0 and will be removed in version 4.0.0 of the library. Please use <a class="el" href="classbasic__json.html#ac12884e86980aa85b6a9ffbb8b84de6a">items()</a> instead; that is, replace <code>json::iterator_wrapper(j)</code> with <code>j.items()</code>.  </dd>
-<dt>Member <a class="el" href="classbasic__json.html#a7c0314258e5347eade0c6851017bf5a5">basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType, CustomBaseClass &gt;::iterator_wrapper</a>  (const_reference ref) noexcept</dt>
-<dd><a class="anchor" id="_deprecated000009"></a>This function is deprecated since 3.1.0 and will be removed in version 4.0.0 of the library. Please use <a class="el" href="classbasic__json.html#ac12884e86980aa85b6a9ffbb8b84de6a">items()</a> instead; that is, replace <code>json::iterator_wrapper(j)</code> with <code>j.items()</code>.  </dd>
-<dt>Member <a class="el" href="classbasic__json.html#af9907af448f7ff794120033e132025f6">basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType, CustomBaseClass &gt;::operator&lt;&lt;</a>  (<a class="el" href="classbasic__json.html" title="namespace for Niels Lohmann">basic_json</a> &amp;j, std::istream &amp;i)</dt>
-<dd><a class="anchor" id="_deprecated000011"></a>This stream operator is deprecated since 3.0.0 and will be removed in version 4.0.0 of the library. Please use <a class="el" href="classbasic__json.html#aea0de29387d532e0bc5f2475cb83995d" title="deserialize from stream">operator&gt;&gt;(std::istream&amp;, basic_json&amp;)</a> instead; that is, replace calls like <code>j &lt;&lt; i;</code> with <code>i &gt;&gt; j;</code>.  </dd>
-<dt>Member <a class="el" href="classbasic__json.html#ad018e709338c810c56eaad606186a77e">basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType, CustomBaseClass &gt;::sax_parse</a>  (<a class="el" href="classdetail_1_1span__input__adapter.html">detail::span_input_adapter</a> &amp;&amp;i, SAX *sax, input_format_t format=input_format_t::json, const bool strict=true, const bool ignore_comments=false)</dt>
-<dd><a class="anchor" id="_deprecated000010"></a>This function is deprecated since 3.8.0 and will be removed in version 4.0.0 of the library. Please use sax_parse(ptr, ptr + len) instead.  </dd>
-<dt>Member <a class="el" href="protection__engine__cc_8h.html#a6da284d8bedc938382741c4c3bafc889">MIP_CC_DEPRECATED_API</a>  (mip_cc_result) MIP_CC_CreateProtectionEngineSettingsWithIdentity(const <a class="el" href="structmip__cc__identity.html" title="A struct that contains user identification info.">mip_cc_identity</a> *identity</dt>
-<dd><p class="startdd"><a class="anchor" id="_deprecated000003"></a>See the replacement MIP_CC_CreateProtectionEngineSettingsWithIdentityAndAuthCallback </p>
-<p class="enddd"><a class="anchor" id="_deprecated000004"></a>See the replacement MIP_CC_CreateProtectionEngineSettingsWithEngineIdAndAuthCallback  </p>
-</dd>
-<dt>Member <a class="el" href="policy__engine__cc_8h.html#af74670b988a59498a56d66a734ce8665">MIP_CC_DEPRECATED_API</a>  (mip_cc_result) MIP_CC_CreatePolicyEngineSettingsWithIdentity(const <a class="el" href="structmip__cc__identity.html" title="A struct that contains user identification info.">mip_cc_identity</a> *identity</dt>
-<dd><a class="anchor" id="_deprecated000005"></a>See the replacement MIP_CC_CreatePolicyEngineSettingsWithIdentityAndAuthCallback  </dd>
-<dt>Member <a class="el" href="protection__engine__cc_8h.html#a6da284d8bedc938382741c4c3bafc889">MIP_CC_DEPRECATED_API</a>  (mip_cc_result) MIP_CC_CreateProtectionEngineSettingsWithIdentity(const <a class="el" href="structmip__cc__identity.html" title="A struct that contains user identification info.">mip_cc_identity</a> *identity</dt>
-<dd><p class="startdd"><a class="anchor" id="_deprecated000006"></a>See the replacement MIP_CC_CreatePolicyEngineSettingsWithEngineIdAndAuthCallback </p>
-<p class="enddd"><a class="anchor" id="_deprecated000007"></a>See the replacement MIP_CC_PolicyEngineSettings_ConfigureFunctionality  </p>
-</dd>
 <dt>Member <a class="el" href="classStorageTable.html#a6d345af61ddb3be20cebe93529f13093">StorageTable::Insert</a>  (const std::vector&lt; std::string &gt; &amp;allColumnValues)</dt>
 <dd><a class="anchor" id="_deprecated000002"></a>This method will soon be deprecated in favor of InsertOrReplace. If the new version has been implemented, there is no need to implement this version. </dd>
 </dl>

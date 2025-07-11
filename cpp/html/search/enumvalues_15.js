@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['warning_0',['Warning',['../namespaceel.html#ab0ac6091262344c52dd2d3ad099e8e36a0eaadb4fcb48a0a0ed7bc9868be9fbaa',1,'el']]]
+  ['xml_0',['Xml',['../classProtectionHandler.html#ad752c6469e18cd7d768dc98a46415d1fa9ec8e4e3ab4c7eeba097f27d7364d743',1,'ProtectionHandler']]]
 ];

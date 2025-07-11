@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: ExecutionState Class Reference</title>
+<title>Microsoft Information Protection SDK - C: ExecutionState Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -108,19 +108,6 @@ $(function(){initNavTree('classExecutionState.html',''); initResizable(true); })
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="execution__state_8h_source.html">execution_state.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for ExecutionState:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classExecutionState.png" usemap="#ExecutionState_map" alt=""/>
-  <map id="ExecutionState_map" name="ExecutionState_map">
-<area href="classCommonExecutionState.html" alt="CommonExecutionState" shape="rect" coords="207,56,404,80"/>
-<area href="classAuditExecutionState.html" alt="AuditExecutionState" shape="rect" coords="0,112,197,136"/>
-<area href="classRemoveProtectionExecutionState.html" alt="RemoveProtectionExecutionState" shape="rect" coords="207,112,404,136"/>
-<area href="classSetLabelExecutionState.html" alt="SetLabelExecutionState" shape="rect" coords="414,112,611,136"/>
-<area href="classActualFileExecutionState.html" alt="ActualFileExecutionState" shape="rect" coords="414,168,611,192"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -157,7 +144,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a75c766a78c0c533d667404c064f2138a" id="r_a75c766a78c0c533d667404c064f2138a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classMetadataVersion.html">MetadataVersion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75c766a78c0c533d667404c064f2138a">GetContentMetadataVersion</a> () const</td></tr>
 <tr class="memdesc:a75c766a78c0c533d667404c064f2138a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the highest metadata version supported by the application for the tenant.  <br /></td></tr>
 <tr class="separator:a75c766a78c0c533d667404c064f2138a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a796f04b81b2d10799d9772d6bb9a2df4" id="r_a796f04b81b2d10799d9772d6bb9a2df4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="src_2api_2mip_2upe_2action_8h.html#a97669588a9e315e77c536d525c4940e1">ActionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a796f04b81b2d10799d9772d6bb9a2df4">GetSupportedActions</a> () const =0</td></tr>
+<tr class="memitem:a796f04b81b2d10799d9772d6bb9a2df4" id="r_a796f04b81b2d10799d9772d6bb9a2df4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="action_8h.html#a97669588a9e315e77c536d525c4940e1">ActionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a796f04b81b2d10799d9772d6bb9a2df4">GetSupportedActions</a> () const =0</td></tr>
 <tr class="memdesc:a796f04b81b2d10799d9772d6bb9a2df4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a masked enum describing all the supported action types.  <br /></td></tr>
 <tr class="separator:a796f04b81b2d10799d9772d6bb9a2df4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b12e701fc0e9635754ded5cc06af99d" id="r_a0b12e701fc0e9635754ded5cc06af99d"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classification__result_8h.html#a39412bc39ca15518fb8f0acfee888ec2">ClassificationResults</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b12e701fc0e9635754ded5cc06af99d">GetClassificationResults</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classClassificationRequest.html">ClassificationRequest</a> &gt; &gt; &amp;) const</td></tr>
@@ -197,8 +184,6 @@ Public Member Functions</h2></td></tr>
 <p>Return an identifier which correlates application events with the corresponding audit or protection service REST requests. </p>
 <dl class="section return"><dt>Returns</dt><dd>An identifier (usually specified as a GUID) </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classCommonExecutionState.html#a95ca2e84eae549a883fa7dd2c29e391c">CommonExecutionState</a>.</p>
-
 </div>
 </div>
 <a id="af3ca4b952be8d9f10dc94e9c6854717d" name="af3ca4b952be8d9f10dc94e9c6854717d"></a>
@@ -227,8 +212,6 @@ Public Member Functions</h2></td></tr>
 <p>Return a map of application specific audit key-value pairs. </p>
 <dl class="section return"><dt>Returns</dt><dd>a list of application specific audit metadata</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Registered Key:Value pairs Sender: Email Id for the sender Recipients: Represents a JSON array of recipients for an email LastModifiedBy: Email Id for the user who last modified the content LastModifiedDate: Date the content was last modified </dd></dl>
-
-<p>Reimplemented in <a class="el" href="classActualFileExecutionState.html#a4be6413980d52ba22935caf4536afbae">ActualFileExecutionState</a>, and <a class="el" href="classAuditExecutionState.html#ab4768233c9777b2ee379bacc4482b229">AuditExecutionState</a>.</p>
 
 </div>
 </div>
@@ -265,8 +248,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>a list of classification results. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>return nullptr if no classification cycle executed. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classActualFileExecutionState.html#a56442173399d7af8a6aebb8ff3d3b984">ActualFileExecutionState</a>.</p>
-
 </div>
 </div>
 <a id="a77d53203ddcc5fd6a32f8a1068971938" name="a77d53203ddcc5fd6a32f8a1068971938"></a>
@@ -294,8 +275,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets the content format. </p>
 <dl class="section return"><dt>Returns</dt><dd>content format </dd></dl>
-
-<p>Implemented in <a class="el" href="classCommonExecutionState.html#afcdc7aad21eb1e2ef9046ad47c84c686">CommonExecutionState</a>.</p>
 
 </div>
 </div>
@@ -325,8 +304,6 @@ Public Member Functions</h2></td></tr>
 <p>Gets the content description that describes the document. example for a file: [path\filename] example for an email: [Subject:Sender]. </p>
 <dl class="section return"><dt>Returns</dt><dd>content description to be applied to the content.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>This value is used by auditing as a human-readable description of the content </dd></dl>
-
-<p>Implemented in <a class="el" href="classCommonExecutionState.html#a89c80ae1d7fc3516153e280dc92feb1b">CommonExecutionState</a>.</p>
 
 </div>
 </div>
@@ -361,8 +338,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>the metadata applied to the content. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Each metadata item is a pair of name and value. </dd></dl>
 
-<p>Implemented in <a class="el" href="classActualFileExecutionState.html#a089fe40fdf95116d3b52ae920aff33fa">ActualFileExecutionState</a>, <a class="el" href="classAuditExecutionState.html#a762ff44eb6fe8135ab73ef061fe83c2f">AuditExecutionState</a>, <a class="el" href="classRemoveProtectionExecutionState.html#a1a41285e71f21292cfdfc7914ccb8479">RemoveProtectionExecutionState</a>, and <a class="el" href="classSetLabelExecutionState.html#ab30ed24b84c230fa9f72aaa538a19cd2">SetLabelExecutionState</a>.</p>
-
 </div>
 </div>
 <a id="a75c766a78c0c533d667404c064f2138a" name="a75c766a78c0c533d667404c064f2138a"></a>
@@ -392,8 +367,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Content metadata version. If 0, metadata is un-versioned. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>If a file format supports multiple versions of metadata, this allows MIP to understand all metadata and report granular metadata changes on a per-version basis. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classAuditExecutionState.html#aa63fb14746c89d7acdfc80c21824569c">AuditExecutionState</a>, <a class="el" href="classRemoveProtectionExecutionState.html#a0c038fabbf59384f27d7f51370f40f3a">RemoveProtectionExecutionState</a>, and <a class="el" href="classSetLabelExecutionState.html#a8f7d771261b0fb73c29383eab28ed74b">SetLabelExecutionState</a>.</p>
-
 </div>
 </div>
 <a id="a9b14ec76fe53bd6889db81d2ca4619ad" name="a9b14ec76fe53bd6889db81d2ca4619ad"></a>
@@ -422,8 +395,6 @@ Public Member Functions</h2></td></tr>
 <p>Gets the state of the content while the application is interacting with it. </p>
 <dl class="section return"><dt>Returns</dt><dd>State of the content data </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classCommonExecutionState.html#a8e17ba5668e26036f16d3cd84640a29a">CommonExecutionState</a>.</p>
-
 </div>
 </div>
 <a id="a342bd42cb30ac319241929b3231b6256" name="a342bd42cb30ac319241929b3231b6256"></a>
@@ -451,8 +422,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets the sensitivity label ID that should be applied on the document. </p>
 <dl class="section return"><dt>Returns</dt><dd>sensitivity label ID to be applied to the content if exists else empty to remove label. </dd></dl>
-
-<p>Implemented in <a class="el" href="classAuditExecutionState.html#a94c4188d3ad5b0d5504aada137a0fe48">AuditExecutionState</a>, <a class="el" href="classRemoveProtectionExecutionState.html#a04fc2d00473201e42dfffe1948ad7b91">RemoveProtectionExecutionState</a>, and <a class="el" href="classSetLabelExecutionState.html#a0d1b69650dd9ae168750a30b73a20066">SetLabelExecutionState</a>.</p>
 
 </div>
 </div>
@@ -483,8 +452,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>the assignment method STANDARD, PRIVILEGED, AUTO. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd>mip::AssignmentMethod </dd></dl>
 
-<p>Implemented in <a class="el" href="classAuditExecutionState.html#a41dfbc805ebe09a78c83d9fa4814bc67">AuditExecutionState</a>, <a class="el" href="classRemoveProtectionExecutionState.html#aba4dd2d172f03370565e590cd9b01c01">RemoveProtectionExecutionState</a>, and <a class="el" href="classSetLabelExecutionState.html#a0928c1e5875cb4b25c05dbded9b2caac">SetLabelExecutionState</a>.</p>
-
 </div>
 </div>
 <a id="a37a30440db7b60e0dc320f8b455d437d" name="a37a30440db7b60e0dc320f8b455d437d"></a>
@@ -512,8 +479,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Return new label's extended properties. </p>
 <dl class="section return"><dt>Returns</dt><dd>the extended properties applied to the content. </dd></dl>
-
-<p>Reimplemented in <a class="el" href="classAuditExecutionState.html#abed6d45424ca2f37917f3572b07bb4c0">AuditExecutionState</a>, <a class="el" href="classRemoveProtectionExecutionState.html#aa5630b3b49b6d59665a07b134c2de24e">RemoveProtectionExecutionState</a>, and <a class="el" href="classSetLabelExecutionState.html#a53638c0beaeacb974917f1fbe08a2e08">SetLabelExecutionState</a>.</p>
 
 </div>
 </div>
@@ -543,8 +508,6 @@ Public Member Functions</h2></td></tr>
 <p>Get the Protection Descriptor. </p>
 <dl class="section return"><dt>Returns</dt><dd>the Protection Descriptor </dd></dl>
 
-<p>Implemented in <a class="el" href="classActualFileExecutionState.html#a5baffd7c7073d14b3271b88e50d94a3c">ActualFileExecutionState</a>, <a class="el" href="classAuditExecutionState.html#ae4eea032becce7bc21d2f3b29317f2a6">AuditExecutionState</a>, <a class="el" href="classRemoveProtectionExecutionState.html#adf3e6f8d36ed2c9410ddf99fb4175213">RemoveProtectionExecutionState</a>, and <a class="el" href="classSetLabelExecutionState.html#af461dad9bc5b724c4519ec8bfeb26a02">SetLabelExecutionState</a>.</p>
-
 </div>
 </div>
 <a id="a796f04b81b2d10799d9772d6bb9a2df4" name="a796f04b81b2d10799d9772d6bb9a2df4"></a>
@@ -557,7 +520,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="src_2api_2mip_2upe_2action_8h.html#a97669588a9e315e77c536d525c4940e1">ActionType</a> ExecutionState::GetSupportedActions </td>
+          <td class="memname">virtual <a class="el" href="action_8h.html#a97669588a9e315e77c536d525c4940e1">ActionType</a> ExecutionState::GetSupportedActions </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -573,8 +536,6 @@ Public Member Functions</h2></td></tr>
 <p>Gets a masked enum describing all the supported action types. </p>
 <dl class="section return"><dt>Returns</dt><dd>a masked enum describing all the supported action types.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>ActionType::Justify must be supported. When a policy and label change requires justification, a justification action will always be returned. </dd></dl>
-
-<p>Implemented in <a class="el" href="classActualFileExecutionState.html#a207712273a21a1f3460c10586f719581">ActualFileExecutionState</a>, <a class="el" href="classAuditExecutionState.html#ae16ece4ae4d3d53ef3c2a7964ffaf523">AuditExecutionState</a>, <a class="el" href="classRemoveProtectionExecutionState.html#affa5aef4afd4c1182f6c8c83bd5300d9">RemoveProtectionExecutionState</a>, and <a class="el" href="classSetLabelExecutionState.html#a0e8caae23d8817cf05949e8515e7b861">SetLabelExecutionState</a>.</p>
 
 </div>
 </div>
@@ -604,8 +565,6 @@ Public Member Functions</h2></td></tr>
 <p>Implementation should pass if justification to downgrade an existing label was given. </p>
 <dl class="section return"><dt>Returns</dt><dd>true if downgrade is justified&ndash;along with the justification message&ndash;else false </dd></dl>
 <dl class="section see"><dt>See also</dt><dd>mip::JustifyAction </dd></dl>
-
-<p>Implemented in <a class="el" href="classCommonExecutionState.html#ab4429106266c3a919a75cca8df9b14f6">CommonExecutionState</a>.</p>
 
 </div>
 </div>

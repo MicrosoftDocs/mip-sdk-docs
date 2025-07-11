@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: ProtectionEngine::Settings Class Reference</title>
+<title>Microsoft Information Protection SDK - C: ProtectionEngine::Settings Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -195,12 +195,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7e937c91c5429780f1b8db97cb4df5a8" id="r_a7e937c91c5429780f1b8db97cb4df5a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e937c91c5429780f1b8db97cb4df5a8">SetTemplateRefreshArgs</a> (std::chrono::hours templateRefreshRateHours, int templateBatchSize=kMaxTemplateBatchNum)</td></tr>
 <tr class="memdesc:a7e937c91c5429780f1b8db97cb4df5a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom refresh rate for templates.  <br /></td></tr>
 <tr class="separator:a7e937c91c5429780f1b8db97cb4df5a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecd036e7e45bcafdd68d20f801a3b315" id="r_aecd036e7e45bcafdd68d20f801a3b315"><td class="memItemLeft" align="right" valign="top">MIP_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecd036e7e45bcafdd68d20f801a3b315">AddRmsCapability</a> (const std::string &amp;capability)</td></tr>
-<tr class="memdesc:aecd036e7e45bcafdd68d20f801a3b315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a capability which will be passed along to RMS when fetching usage rights.  <br /></td></tr>
-<tr class="separator:aecd036e7e45bcafdd68d20f801a3b315"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a774e3cbc60018144fec2c75cce2fd74b" id="r_a774e3cbc60018144fec2c75cce2fd74b"><td class="memItemLeft" align="right" valign="top">MIP_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a774e3cbc60018144fec2c75cce2fd74b">RemoveRmsCapability</a> (const std::string &amp;capability)</td></tr>
-<tr class="memdesc:a774e3cbc60018144fec2c75cce2fd74b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove one of the added usage rights capabilities which get passed to RMS.  <br /></td></tr>
-<tr class="separator:a774e3cbc60018144fec2c75cce2fd74b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1871dbe7449ed86ab0b93433372364e1" id="r_a1871dbe7449ed86ab0b93433372364e1"><td class="memItemLeft" align="right" valign="top">MIP_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1871dbe7449ed86ab0b93433372364e1">AddRmsCapability</a> (const std::string &amp;capability)</td></tr>
+<tr class="memdesc:a1871dbe7449ed86ab0b93433372364e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a capability which will be passed along to RMS when fetching usage rights.  <br /></td></tr>
+<tr class="separator:a1871dbe7449ed86ab0b93433372364e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74462ea2aff18a6993b1da4c722f8f7e" id="r_a74462ea2aff18a6993b1da4c722f8f7e"><td class="memItemLeft" align="right" valign="top">MIP_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74462ea2aff18a6993b1da4c722f8f7e">RemoveRmsCapability</a> (const std::string &amp;capability)</td></tr>
+<tr class="memdesc:a74462ea2aff18a6993b1da4c722f8f7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove one of the added usage rights capabilities which get passed to RMS.  <br /></td></tr>
+<tr class="separator:a74462ea2aff18a6993b1da4c722f8f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3e3b93626e70fac9f92a78df8fcf498" id="r_af3e3b93626e70fac9f92a78df8fcf498"><td class="memItemLeft" align="right" valign="top"><a id="af3e3b93626e70fac9f92a78df8fcf498" name="af3e3b93626e70fac9f92a78df8fcf498"></a>
 std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetRmsCapabilities</b> () const</td></tr>
 <tr class="memdesc:af3e3b93626e70fac9f92a78df8fcf498"><td class="mdescLeft">&#160;</td><td class="mdescRight">The the full set of client capabilities supported when fetching usage rights from RMS. <br /></td></tr>
@@ -316,14 +316,14 @@ std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bott
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aecd036e7e45bcafdd68d20f801a3b315" name="aecd036e7e45bcafdd68d20f801a3b315"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecd036e7e45bcafdd68d20f801a3b315">&#9670;&#160;</a></span>AddRmsCapability()</h2>
+<a id="a1871dbe7449ed86ab0b93433372364e1" name="a1871dbe7449ed86ab0b93433372364e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1871dbe7449ed86ab0b93433372364e1">&#9670;&#160;</a></span>AddRmsCapability()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MIP_NAMESPACE_BEGIN void ProtectionEngine::Settings::AddRmsCapability </td>
+          <td class="memname">MIP_API void ProtectionEngine::Settings::AddRmsCapability </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>capability</em></span></td><td>)</td>
           <td></td>
@@ -762,14 +762,14 @@ std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bott
 
 </div>
 </div>
-<a id="a774e3cbc60018144fec2c75cce2fd74b" name="a774e3cbc60018144fec2c75cce2fd74b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a774e3cbc60018144fec2c75cce2fd74b">&#9670;&#160;</a></span>RemoveRmsCapability()</h2>
+<a id="a74462ea2aff18a6993b1da4c722f8f7e" name="a74462ea2aff18a6993b1da4c722f8f7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74462ea2aff18a6993b1da4c722f8f7e">&#9670;&#160;</a></span>RemoveRmsCapability()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool ProtectionEngine::Settings::RemoveRmsCapability </td>
+          <td class="memname">MIP_API bool ProtectionEngine::Settings::RemoveRmsCapability </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>capability</em></span></td><td>)</td>
           <td></td>
@@ -1226,9 +1226,8 @@ std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bott
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following files:<ul>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/mbaldwin/docs/mip-sdk-for-cpp/src/api/mip/protection/<a class="el" href="protection__engine_8h_source.html">protection_engine.h</a></li>
-<li>/home/mbaldwin/docs/mip-sdk-for-cpp/src/protection/api_impl/<b>protection_engine_impl.cpp</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

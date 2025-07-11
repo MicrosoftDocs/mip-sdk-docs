@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: xml::XmlReader Class Reference</title>
+<title>Microsoft Information Protection SDK - C: xml::XmlReader Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -108,22 +108,13 @@ $(function(){initNavTree('classxml_1_1XmlReader.html',''); initResizable(true); 
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="xml__reader_8h_source.html">xml_reader.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for xml::XmlReader:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classxml_1_1XmlReader.png" usemap="#xml::XmlReader_map" alt=""/>
-  <map id="xml::XmlReader_map" name="xml::XmlReader_map">
-<area href="classxml_1_1XmlReaderImpl.html" alt="xml::XmlReaderImpl" shape="rect" coords="0,56,120,80"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac8370fe3fd2e5a6b659e84b4b41ee57e" id="r_ac8370fe3fd2e5a6b659e84b4b41ee57e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8370fe3fd2e5a6b659e84b4b41ee57e">Read</a> ()=0</td></tr>
 <tr class="memdesc:ac8370fe3fd2e5a6b659e84b4b41ee57e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the next node of the element.  <br /></td></tr>
 <tr class="separator:ac8370fe3fd2e5a6b659e84b4b41ee57e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76b99e9eb97d4df332e18126216c3234" id="r_a76b99e9eb97d4df332e18126216c3234"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="api_2mip_2xml__node_8h.html#a4fb3009600ec5826dc321c46fee9c6c0">XmlNodeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76b99e9eb97d4df332e18126216c3234">GetNodeType</a> () const =0</td></tr>
+<tr class="memitem:a76b99e9eb97d4df332e18126216c3234" id="r_a76b99e9eb97d4df332e18126216c3234"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="xml__node_8h.html#a4fb3009600ec5826dc321c46fee9c6c0">XmlNodeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76b99e9eb97d4df332e18126216c3234">GetNodeType</a> () const =0</td></tr>
 <tr class="memdesc:a76b99e9eb97d4df332e18126216c3234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current node type.  <br /></td></tr>
 <tr class="separator:a76b99e9eb97d4df332e18126216c3234"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a716f22912e509e06c9f3d41525de30" id="r_a9a716f22912e509e06c9f3d41525de30"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a716f22912e509e06c9f3d41525de30">GetName</a> () const =0</td></tr>
@@ -194,8 +185,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>entire serialized element.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>moved to end of node. </dd></dl>
 
-<p>Implemented in <a class="el" href="classxml_1_1XmlReaderImpl.html#ac5b5ca56c4e46bbcc6cd19994acd3c4a">xml::XmlReaderImpl</a>.</p>
-
 </div>
 </div>
 <a id="a03848be77568bf0ff32a8dbc39efd954" name="a03848be77568bf0ff32a8dbc39efd954"></a>
@@ -223,8 +212,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Returns current node ancestors (for debug text), in the following purpose &lt;node grand parent attributes=...&gt;&gt;&lt;node parent&gt;&lt;node&gt;. </p>
 <dl class="section note"><dt>Note</dt><dd>used for debugging purposes, and error logging. </dd></dl>
-
-<p>Implemented in <a class="el" href="classxml_1_1XmlReaderImpl.html#a7b00ccef1de7fc87d9e80331ce5ec361">xml::XmlReaderImpl</a>.</p>
 
 </div>
 </div>
@@ -265,8 +252,6 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if successful </dd></dl>
 
-<p>Implemented in <a class="el" href="classxml_1_1XmlReaderImpl.html#a14d9ed9f3d04d3c117b138bf3711d49c">xml::XmlReaderImpl</a>.</p>
-
 </div>
 </div>
 <a id="a9a716f22912e509e06c9f3d41525de30" name="a9a716f22912e509e06c9f3d41525de30"></a>
@@ -296,8 +281,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section warning"><dt>Warning</dt><dd>throws <a class="el" href="classxml_1_1XmlParserException.html">XmlParserException</a> on failure</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>node name. </dd></dl>
 
-<p>Implemented in <a class="el" href="classxml_1_1XmlReaderImpl.html#a6c8589cabd76c54e52baefbde5f5921d">xml::XmlReaderImpl</a>.</p>
-
 </div>
 </div>
 <a id="a135fe41943f07f58df93a43b6dd29971" name="a135fe41943f07f58df93a43b6dd29971"></a>
@@ -326,8 +309,6 @@ Public Member Functions</h2></td></tr>
 <p>Returns if name was found. Sets name only when true. empty name is possible. </p>
 <dl class="section return"><dt>Returns</dt><dd>node name. </dd></dl>
 
-<p>Implemented in <a class="el" href="classxml_1_1XmlReaderImpl.html#ac3f512928be2106e0aba65cc4df7769d">xml::XmlReaderImpl</a>.</p>
-
 </div>
 </div>
 <a id="a76b99e9eb97d4df332e18126216c3234" name="a76b99e9eb97d4df332e18126216c3234"></a>
@@ -340,7 +321,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="api_2mip_2xml__node_8h.html#a4fb3009600ec5826dc321c46fee9c6c0">XmlNodeType</a> xml::XmlReader::GetNodeType </td>
+          <td class="memname">virtual <a class="el" href="xml__node_8h.html#a4fb3009600ec5826dc321c46fee9c6c0">XmlNodeType</a> xml::XmlReader::GetNodeType </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -355,8 +336,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Get current node type. </p>
 <dl class="section return"><dt>Returns</dt><dd>Xml Reader Node type. </dd></dl>
-
-<p>Implemented in <a class="el" href="classxml_1_1XmlReaderImpl.html#a8804c6bd0dd9613e29cd81da07a56ab5">xml::XmlReaderImpl</a>.</p>
 
 </div>
 </div>
@@ -392,8 +371,6 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if value exists else false. </dd></dl>
 
-<p>Implemented in <a class="el" href="classxml_1_1XmlReaderImpl.html#ac40f09c60fd0feeab8602d5e262a6cdf">xml::XmlReaderImpl</a>.</p>
-
 </div>
 </div>
 <a id="a5fc2d779e39209d61ca8876bba99c27e" name="a5fc2d779e39209d61ca8876bba99c27e"></a>
@@ -422,8 +399,6 @@ Public Member Functions</h2></td></tr>
 <p>Returns whether the current node has attributes. </p>
 <dl class="section warning"><dt>Warning</dt><dd>throws <a class="el" href="classxml_1_1XmlParserException.html">XmlParserException</a> on failure</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the current node has attributes. </dd></dl>
-
-<p>Implemented in <a class="el" href="classxml_1_1XmlReaderImpl.html#a13142bef0a1e116b2f00d1d95834b4a9">xml::XmlReaderImpl</a>.</p>
 
 </div>
 </div>
@@ -454,8 +429,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section warning"><dt>Warning</dt><dd>throws <a class="el" href="classxml_1_1XmlParserException.html">XmlParserException</a> on failure</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>true if element is empty. </dd></dl>
 
-<p>Implemented in <a class="el" href="classxml_1_1XmlReaderImpl.html#a68e7896fd8182f40d67c15600309ecf6">xml::XmlReaderImpl</a>.</p>
-
 </div>
 </div>
 <a id="a5432b0c523cea87cc1760a52da04469f" name="a5432b0c523cea87cc1760a52da04469f"></a>
@@ -484,8 +457,6 @@ Public Member Functions</h2></td></tr>
 <p>Move from attribute to element. </p>
 <dl class="section warning"><dt>Warning</dt><dd>throws <a class="el" href="classxml_1_1XmlParserException.html">XmlParserException</a> on failure</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>true if successful </dd></dl>
-
-<p>Implemented in <a class="el" href="classxml_1_1XmlReaderImpl.html#a9a63b0fabc6fcaf972edb9c3418e2691">xml::XmlReaderImpl</a>.</p>
 
 </div>
 </div>
@@ -516,8 +487,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section warning"><dt>Warning</dt><dd>throws <a class="el" href="classxml_1_1XmlParserException.html">XmlParserException</a> on failure</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>true if successful </dd></dl>
 
-<p>Implemented in <a class="el" href="classxml_1_1XmlReaderImpl.html#a8f951694c311ccd5fa9e07bd298cd7f3">xml::XmlReaderImpl</a>.</p>
-
 </div>
 </div>
 <a id="ac979b750a7d9d39a4cc03f46eebf784d" name="ac979b750a7d9d39a4cc03f46eebf784d"></a>
@@ -546,8 +515,6 @@ Public Member Functions</h2></td></tr>
 <p>Move to Next attribute. </p>
 <dl class="section warning"><dt>Warning</dt><dd>throws <a class="el" href="classxml_1_1XmlParserException.html">XmlParserException</a> on failure</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>true if successful </dd></dl>
-
-<p>Implemented in <a class="el" href="classxml_1_1XmlReaderImpl.html#a720fccffa938113f9b0f1ecdf23045da">xml::XmlReaderImpl</a>.</p>
 
 </div>
 </div>
@@ -578,8 +545,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section warning"><dt>Warning</dt><dd>throws <a class="el" href="classxml_1_1XmlParserException.html">XmlParserException</a> on failure</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>true if read node successfully. </dd></dl>
 
-<p>Implemented in <a class="el" href="classxml_1_1XmlReaderImpl.html#a953feb75832c2134e314013b706c75fe">xml::XmlReaderImpl</a>.</p>
-
 </div>
 </div>
 <a id="a22ec4f3cc86ed1953cca0d923b45fd17" name="a22ec4f3cc86ed1953cca0d923b45fd17"></a>
@@ -608,8 +573,6 @@ Public Member Functions</h2></td></tr>
 <p>Skips current node until it finds a non empty node. </p>
 <dl class="section warning"><dt>Warning</dt><dd>throws <a class="el" href="classxml_1_1XmlParserException.html">XmlParserException</a> on failure</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>true if name successful. </dd></dl>
-
-<p>Implemented in <a class="el" href="classxml_1_1XmlReaderImpl.html#abac312f6f2d9efc829108783a2706bbc">xml::XmlReaderImpl</a>.</p>
 
 </div>
 </div>

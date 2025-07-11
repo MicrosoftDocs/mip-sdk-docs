@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: /home/mbaldwin/docs/mip-sdk-for-cpp/src/api/mip/file/file_handler.h Source File</title>
+<title>Microsoft Information Protection SDK - C: /home/mbaldwin/docs/mip-sdk-for-cpp/src/api/mip/file/file_handler.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -141,8 +141,8 @@ $(function(){initNavTree('file__handler_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &quot;<a class="code" href="mip__namespace_8h.html">mip/mip_namespace.h</a>&quot;</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#include &quot;<a class="code" href="protection__descriptor_8h.html">mip/protection_descriptor.h</a>&quot;</span></div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#include &quot;<a class="code" href="protection__handler_8h.html">mip/protection/protection_handler.h</a>&quot;</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#include &quot;<a class="code" href="api_2mip_2stream_8h.html">mip/stream.h</a>&quot;</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#include &quot;<a class="code" href="src_2api_2mip_2upe_2action_8h.html">mip/upe/action.h</a>&quot;</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#include &quot;<a class="code" href="stream_8h.html">mip/stream.h</a>&quot;</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#include &quot;<a class="code" href="action_8h.html">mip/upe/action.h</a>&quot;</span></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#include &quot;<a class="code" href="content__label_8h.html">mip/upe/content_label.h</a>&quot;</span></div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#include &quot;<a class="code" href="protection__engine_8h.html">mip/protection/protection_engine.h</a>&quot;</span></div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
@@ -374,7 +374,7 @@ $(function(){initNavTree('file__handler_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00591" name="l00591"></a><span class="lineno">  591</span>MIP_NAMESPACE_END</div>
 <div class="line"><a id="l00592" name="l00592"></a><span class="lineno">  592</span> </div>
 <div class="line"><a id="l00593" name="l00593"></a><span class="lineno">  593</span><span class="preprocessor">#endif </span><span class="comment">// API_MIP_FILE_FILE_HANDLER_H_</span></div>
-<div class="ttc" id="aapi_2mip_2stream_8h_html"><div class="ttname"><a href="api_2mip_2stream_8h.html">stream.h</a></div><div class="ttdoc">A file containing the Stream interface/class definition.</div></div>
+<div class="ttc" id="aaction_8h_html"><div class="ttname"><a href="action_8h.html">action.h</a></div><div class="ttdoc">A file containing the Action base class and the ActionType enumerator.</div></div>
 <div class="ttc" id="aclassFileHandler_1_1Observer_html"><div class="ttname"><a href="classFileHandler_1_1Observer.html">FileHandler::Observer</a></div><div class="ttdoc">Observer interface for clients to get notifications events related to file handler.</div><div class="ttdef"><b>Definition</b> file_handler.h:61</div></div>
 <div class="ttc" id="aclassFileHandler_1_1Observer_html_a16340743cb87027e92424133ffcca8ca"><div class="ttname"><a href="classFileHandler_1_1Observer.html#a16340743cb87027e92424133ffcca8ca">FileHandler::Observer::OnCommitFailure</a></div><div class="ttdeci">virtual void OnCommitFailure(const std::exception_ptr &amp;error, const std::shared_ptr&lt; void &gt; &amp;context)</div><div class="ttdoc">Called when committing the changes to the file failed.</div><div class="ttdef"><b>Definition</b> file_handler.h:143</div></div>
 <div class="ttc" id="aclassFileHandler_1_1Observer_html_a4a3b96796fb7a29d00d53af60e7a9802"><div class="ttname"><a href="classFileHandler_1_1Observer.html#a4a3b96796fb7a29d00d53af60e7a9802">FileHandler::Observer::OnCreateFileHandlerFailure</a></div><div class="ttdeci">virtual void OnCreateFileHandlerFailure(const std::exception_ptr &amp;error, const std::shared_ptr&lt; void &gt; &amp;context)</div><div class="ttdoc">Called when creating the handler failed.</div><div class="ttdef"><b>Definition</b> file_handler.h:77</div></div>
@@ -430,7 +430,7 @@ $(function(){initNavTree('file__handler_8h_source.html',''); initResizable(true)
 <div class="ttc" id="aprotection__descriptor_8h_html"><div class="ttname"><a href="protection__descriptor_8h.html">protection_descriptor.h</a></div><div class="ttdoc">Defines ProtectionDescriptor interface.</div></div>
 <div class="ttc" id="aprotection__engine_8h_html"><div class="ttname"><a href="protection__engine_8h.html">protection_engine.h</a></div><div class="ttdoc">Defines ProtectionEngine interface.</div></div>
 <div class="ttc" id="aprotection__handler_8h_html"><div class="ttname"><a href="protection__handler_8h.html">protection_handler.h</a></div><div class="ttdoc">Defines ProtectionHandler interface.</div></div>
-<div class="ttc" id="asrc_2api_2mip_2upe_2action_8h_html"><div class="ttname"><a href="src_2api_2mip_2upe_2action_8h.html">action.h</a></div><div class="ttdoc">A file containing the Action base class and the ActionType enumerator.</div></div>
+<div class="ttc" id="astream_8h_html"><div class="ttname"><a href="stream_8h.html">stream.h</a></div><div class="ttdoc">A file containing the Stream interface/class definition.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

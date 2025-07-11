@@ -2,6 +2,6 @@ var searchData=
 [
   ['japan_0',['Japan',['../common__types_8h.html#aac976a2657d8c65944a48c48a5fe76faa53a577bb3bc587b0c28ab808390f1c9b',1,'common_types.h']]],
   ['json_1',['Json',['../classProtectionHandler.html#ad752c6469e18cd7d768dc98a46415d1faeed8d85b888a6c015834240885ee6333',1,'ProtectionHandler']]],
-  ['justification_5frequired_2',['JUSTIFICATION_REQUIRED',['../api_2mip_2error_8h.html#af7a9c5a9d19bf72299ab821bd983e131ac08c8cd41ef686944d93a5f89eaed93a',1,'error.h']]],
-  ['justify_3',['JUSTIFY',['../src_2api_2mip_2upe_2action_8h.html#a97669588a9e315e77c536d525c4940e1a1a8c137fb3ff9dc6fa1a59e8743fc1e9',1,'action.h']]]
+  ['justification_5frequired_2',['JUSTIFICATION_REQUIRED',['../error_8h.html#af7a9c5a9d19bf72299ab821bd983e131ac08c8cd41ef686944d93a5f89eaed93a',1,'error.h']]],
+  ['justify_3',['JUSTIFY',['../action_8h.html#a97669588a9e315e77c536d525c4940e1a1a8c137fb3ff9dc6fa1a59e8743fc1e9',1,'action.h']]]
 ];

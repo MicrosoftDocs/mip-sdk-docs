@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['query_0',['query',['../classweb_1_1uri.html#a1f3480f55b1b38fde4d8ff2df8a073c1',1,'web::uri::query()'],['../classweb_1_1uri__builder.html#adc4bd8185e07b28b013124ab2d0b4d87',1,'web::uri_builder::query()']]]
+  ['view_0',['View',['../rights_8h.html#a1f9ac51acbbcffbf90b72a86dedd07e3',1,'rights']]],
+  ['viewer_1',['Viewer',['../roles_8h.html#a561b08d7ace604dbd0f7a3c3fec9b550',1,'roles']]],
+  ['viewrightsdata_2',['ViewRightsData',['../rights_8h.html#a69fdab24dd5ecc1120271f7a766e5e99',1,'rights']]]
 ];

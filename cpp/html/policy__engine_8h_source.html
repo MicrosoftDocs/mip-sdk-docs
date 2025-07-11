@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: /home/mbaldwin/docs/mip-sdk-for-cpp/src/api/mip/upe/policy_engine.h Source File</title>
+<title>Microsoft Information Protection SDK - C: /home/mbaldwin/docs/mip-sdk-for-cpp/src/api/mip/upe/policy_engine.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -134,9 +134,9 @@ $(function(){initNavTree('policy__engine_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#include &quot;<a class="code" href="common__types_8h.html">mip/common_types.h</a>&quot;</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#include &quot;<a class="code" href="api_2mip_2error_8h.html">mip/error.h</a>&quot;</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#include &quot;<a class="code" href="error_8h.html">mip/error.h</a>&quot;</span></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#include &quot;<a class="code" href="mip__namespace_8h.html">mip/mip_namespace.h</a>&quot;</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#include &quot;<a class="code" href="src_2api_2mip_2upe_2action_8h.html">mip/upe/action.h</a>&quot;</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#include &quot;<a class="code" href="action_8h.html">mip/upe/action.h</a>&quot;</span></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#include &quot;<a class="code" href="content__label_8h.html">mip/upe/content_label.h</a>&quot;</span></div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#include &quot;<a class="code" href="execution__state_8h.html">mip/upe/execution_state.h</a>&quot;</span></div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#include &quot;<a class="code" href="label_8h.html">mip/upe/label.h</a>&quot;</span></div>
@@ -304,7 +304,7 @@ $(function(){initNavTree('policy__engine_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00416" name="l00416"></a><span class="lineno">  416</span>    std::shared_ptr&lt;void&gt; mLoggerContext;</div>
 <div class="line"><a id="l00418" name="l00418"></a><span class="lineno">  418</span>  };</div>
 <div class="line"><a id="l00419" name="l00419"></a><span class="lineno">  419</span> </div>
-<div class="line"><a id="l00426" name="l00426"></a><span class="lineno">  426</span>  <span class="keyword">virtual</span> <span class="keyword">const</span> Settings&amp; GetSettings() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00426" name="l00426"></a><span class="lineno">  426</span>  <span class="keyword">virtual</span> <span class="keyword">const</span> Settings&amp; <a class="code hl_function" href="policy__profile_8h.html#a5d6ec49bb604047ab133cc2829c241ad">GetSettings</a>() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a id="l00427" name="l00427"></a><span class="lineno">  427</span> </div>
 <div class="line"><a id="l00436" name="l00436"></a><span class="lineno">  436</span>  <span class="keyword">virtual</span> <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Label&gt;&gt; ListSensitivityLabels(</div>
 <div class="line"><a id="l00437" name="l00437"></a><span class="lineno">  437</span>      <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; contentFormats = std::vector&lt;std::string&gt;()) = 0;</div>
@@ -357,7 +357,7 @@ $(function(){initNavTree('policy__engine_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00596" name="l00596"></a><span class="lineno">  596</span>MIP_NAMESPACE_END</div>
 <div class="line"><a id="l00597" name="l00597"></a><span class="lineno">  597</span> </div>
 <div class="line"><a id="l00598" name="l00598"></a><span class="lineno">  598</span><span class="preprocessor">#endif  </span><span class="comment">// API_MIP_UPE_POLICY_ENGINE_H_</span></div>
-<div class="ttc" id="aapi_2mip_2error_8h_html"><div class="ttname"><a href="api_2mip_2error_8h.html">error.h</a></div><div class="ttdoc">A file containing the MIP SDK error types.</div></div>
+<div class="ttc" id="aaction_8h_html"><div class="ttname"><a href="action_8h.html">action.h</a></div><div class="ttdoc">A file containing the Action base class and the ActionType enumerator.</div></div>
 <div class="ttc" id="aclassBadInputError_html"><div class="ttname"><a href="classBadInputError.html">BadInputError</a></div><div class="ttdoc">Bad input error, thrown when the input to an SDK API is invalid.</div><div class="ttdef"><b>Definition</b> error.h:249</div></div>
 <div class="ttc" id="aclassIdentity_html"><div class="ttname"><a href="classIdentity.html">Identity</a></div><div class="ttdoc">Abstraction for identity.</div><div class="ttdef"><b>Definition</b> common_types.h:278</div></div>
 <div class="ttc" id="acommon__types_8h_html"><div class="ttname"><a href="common__types_8h.html">common_types.h</a></div><div class="ttdoc">A file Containing the common types used by the upe, file and protection modules.</div></div>
@@ -371,11 +371,12 @@ $(function(){initNavTree('policy__engine_8h_source.html',''); initResizable(true
 <div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76fa"><div class="ttname"><a href="common__types_8h.html#aac976a2657d8c65944a48c48a5fe76fa">DataBoundary</a></div><div class="ttdeci">DataBoundary</div><div class="ttdoc">Diagnostic region identifier for non-sovereign clouds.</div><div class="ttdef"><b>Definition</b> common_types.h:769</div></div>
 <div class="ttc" id="acommon__types_8h_html_aac976a2657d8c65944a48c48a5fe76faa7a1920d61156abc05a60135aefe8bc67"><div class="ttname"><a href="common__types_8h.html#aac976a2657d8c65944a48c48a5fe76faa7a1920d61156abc05a60135aefe8bc67">DataBoundary::Default</a></div><div class="ttdeci">@ Default</div></div>
 <div class="ttc" id="acontent__label_8h_html"><div class="ttname"><a href="content__label_8h.html">content_label.h</a></div><div class="ttdoc">A file Containing the ContentLabel class.</div></div>
+<div class="ttc" id="aerror_8h_html"><div class="ttname"><a href="error_8h.html">error.h</a></div><div class="ttdoc">A file containing the MIP SDK error types.</div></div>
 <div class="ttc" id="aexecution__state_8h_html"><div class="ttname"><a href="execution__state_8h.html">execution_state.h</a></div><div class="ttdoc">This file contains the ExecutionState class.</div></div>
 <div class="ttc" id="alabel_8h_html"><div class="ttname"><a href="label_8h.html">label.h</a></div><div class="ttdoc">This file contains the Label class.</div></div>
 <div class="ttc" id="amip__namespace_8h_html"><div class="ttname"><a href="mip__namespace_8h.html">mip_namespace.h</a></div><div class="ttdoc">MIP namespace macros.</div></div>
 <div class="ttc" id="apolicy__handler_8h_html"><div class="ttname"><a href="policy__handler_8h.html">policy_handler.h</a></div><div class="ttdoc">This file contains the PolicyHandler class.</div></div>
-<div class="ttc" id="asrc_2api_2mip_2upe_2action_8h_html"><div class="ttname"><a href="src_2api_2mip_2upe_2action_8h.html">action.h</a></div><div class="ttdoc">A file containing the Action base class and the ActionType enumerator.</div></div>
+<div class="ttc" id="apolicy__profile_8h_html_a5d6ec49bb604047ab133cc2829c241ad"><div class="ttname"><a href="policy__profile_8h.html#a5d6ec49bb604047ab133cc2829c241ad">GetSettings</a></div><div class="ttdeci">virtual const Settings &amp; GetSettings() const =0</div><div class="ttdoc">Get the settings set on the profile.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

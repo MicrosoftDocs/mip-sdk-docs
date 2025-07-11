@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['json_5fpointer_0',['json_pointer',['../classjson__pointer.html#a5288b8f5d6ff6faca37f664b98a16ecd',1,'json_pointer']]],
-  ['json_5freverse_5fiterator_1',['json_reverse_iterator',['../classdetail_1_1json__reverse__iterator.html#ad0012dca9469c2d5669ca2e446c8957d',1,'detail::json_reverse_iterator::json_reverse_iterator(const typename base_iterator::iterator_type &amp;it) noexcept'],['../classdetail_1_1json__reverse__iterator.html#a95ef832171f9aba019f284125bed75ca',1,'detail::json_reverse_iterator::json_reverse_iterator(const base_iterator &amp;it) noexcept']]],
-  ['json_5fsax_5fdom_5fparser_2',['json_sax_dom_parser',['../classdetail_1_1json__sax__dom__parser.html#a3ee72f78d1ebdd8f8573ccf2b8e3ea6f',1,'detail::json_sax_dom_parser']]]
+  ['metadataentry_0',['MetadataEntry',['../classMetadataEntry.html#a16027efc2b79ab082c7d75d9be444339',1,'MetadataEntry::MetadataEntry(const std::string &amp;key, const std::string &amp;value, uint32_t version)'],['../classMetadataEntry.html#a4da307debd5ce103eb6f8452541f68f2',1,'MetadataEntry::MetadataEntry(const std::string &amp;key, const std::string &amp;value, const MetadataVersion &amp;version)'],['../classMetadataEntry.html#a6b29ccd32e75db0f24c29f736860265e',1,'MetadataEntry::MetadataEntry(const std::string &amp;key, const std::string &amp;value)']]],
+  ['metadataversion_1',['MetadataVersion',['../classMetadataVersion.html#aef6c56f62742bf53eb6e531cc2abe133',1,'MetadataVersion']]],
+  ['movetoelement_2',['MoveToElement',['../classxml_1_1XmlReader.html#a5432b0c523cea87cc1760a52da04469f',1,'xml::XmlReader']]],
+  ['movetofirstattribute_3',['MoveToFirstAttribute',['../classxml_1_1XmlReader.html#a3c4fdb07b28f83a316ed9665a335169f',1,'xml::XmlReader']]],
+  ['movetonextattribute_4',['MoveToNextAttribute',['../classxml_1_1XmlReader.html#ac979b750a7d9d39a4cc03f46eebf784d',1,'xml::XmlReader']]]
 ];

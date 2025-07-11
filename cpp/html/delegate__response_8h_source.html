@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: /home/mbaldwin/docs/mip-sdk-for-cpp/src/api/mip/delegate_response.h Source File</title>
+<title>Microsoft Information Protection SDK - C: /home/mbaldwin/docs/mip-sdk-for-cpp/src/api/mip/delegate_response.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -131,7 +131,7 @@ $(function(){initNavTree('delegate__response_8h_source.html',''); initResizable(
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#include &quot;<a class="code" href="api_2mip_2error_8h.html">mip/error.h</a>&quot;</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#include &quot;<a class="code" href="error_8h.html">mip/error.h</a>&quot;</span></div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &quot;<a class="code" href="mip__namespace_8h.html">mip/mip_namespace.h</a>&quot;</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>MIP_NAMESPACE_BEGIN</div>
@@ -154,7 +154,7 @@ $(function(){initNavTree('delegate__response_8h_source.html',''); initResizable(
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    }</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  }</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  DelegateResponse(mip::Error&amp; error) : mData(nullptr), mDelegateResponseError(new <a class="code hl_class" href="classDelegateResponseError.html">DelegateResponseError</a>(<a class="code hl_enumvalue" href="namespacedetail.html#a7c070b2bf3d61e3d8b8013f6fb18d592acb5e100e5a9a3e7f6d1fd97512215282">error</a>)) {</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  DelegateResponse(mip::Error&amp; error) : mData(nullptr), mDelegateResponseError(new <a class="code hl_class" href="classDelegateResponseError.html">DelegateResponseError</a>(error)) {</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordflow">if</span> (mDelegateResponseError-&gt;GetMessage().empty()) {</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>      throw std::invalid_argument(<span class="stringliteral">&quot;Created an empty DelegateResponse&quot;</span>);</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    }</div>
@@ -185,10 +185,9 @@ $(function(){initNavTree('delegate__response_8h_source.html',''); initResizable(
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>MIP_NAMESPACE_END</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="preprocessor">#endif </span><span class="comment">// API_MIP_DELEGATE_RESPONSE</span></div>
-<div class="ttc" id="aapi_2mip_2error_8h_html"><div class="ttname"><a href="api_2mip_2error_8h.html">error.h</a></div><div class="ttdoc">A file containing the MIP SDK error types.</div></div>
 <div class="ttc" id="aclassDelegateResponseError_html"><div class="ttname"><a href="classDelegateResponseError.html">DelegateResponseError</a></div><div class="ttdoc">Delegate Response Error. Thrown or returned in response to encountering an error in a delegate method...</div><div class="ttdef"><b>Definition</b> error.h:317</div></div>
+<div class="ttc" id="aerror_8h_html"><div class="ttname"><a href="error_8h.html">error.h</a></div><div class="ttdoc">A file containing the MIP SDK error types.</div></div>
 <div class="ttc" id="amip__namespace_8h_html"><div class="ttname"><a href="mip__namespace_8h.html">mip_namespace.h</a></div><div class="ttdoc">MIP namespace macros.</div></div>
-<div class="ttc" id="anamespacedetail_html_a7c070b2bf3d61e3d8b8013f6fb18d592acb5e100e5a9a3e7f6d1fd97512215282"><div class="ttname"><a href="namespacedetail.html#a7c070b2bf3d61e3d8b8013f6fb18d592acb5e100e5a9a3e7f6d1fd97512215282">detail::cbor_tag_handler_t::error</a></div><div class="ttdeci">@ error</div><div class="ttdoc">throw a parse_error exception in case of a tag</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

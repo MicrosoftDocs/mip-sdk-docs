@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['email_0',['email',['../structmip__cc__identity.html#ac02ac1607a2ab746e504e881ec8a8ea9',1,'mip_cc_identity']]],
-  ['end_5f_1',['end_',['../structMemoryStream.html#a55fb302ba0492419757e3ba318c8c654',1,'MemoryStream']]],
-  ['error_5fhandler_2',['error_handler',['../classdetail_1_1serializer.html#a79d25c7416dd71a0db8b10988ec360f7',1,'detail::serializer']]],
-  ['executeonindependentthread_3',['executeOnIndependentThread',['../structmip__cc__async__task.html#a45901cd15ab80b8d6af4459763103da8',1,'mip_cc_async_task']]]
+  ['isauditpriorityenhanced_0',['isAuditPriorityEnhanced',['../structDiagnosticConfiguration.html#a1dc9ae188131ba65c79e386603265354',1,'DiagnosticConfiguration']]],
+  ['isfastshutdownenabled_1',['isFastShutdownEnabled',['../structDiagnosticConfiguration.html#afa412f8ddc7ea3e05c465561ebb37ecb',1,'DiagnosticConfiguration']]],
+  ['islocalcachingenabled_2',['isLocalCachingEnabled',['../structDiagnosticConfiguration.html#a3cbbe599a6e3bed982007f150bfef88b',1,'DiagnosticConfiguration']]],
+  ['isminimaltelemetryenabled_3',['isMinimalTelemetryEnabled',['../structDiagnosticConfiguration.html#acda5412c484906c2e47ebfab219a3e2d',1,'DiagnosticConfiguration']]],
+  ['isnetworkdetectionenabled_4',['isNetworkDetectionEnabled',['../structDiagnosticConfiguration.html#aceed29392537799369d86df1a6c1c47d',1,'DiagnosticConfiguration']]],
+  ['ispiiallowed_5',['isPiiAllowed',['../structLoggerConfiguration.html#ad79e5a36f90608b22d6afb226ca0e09b',1,'LoggerConfiguration']]]
 ];

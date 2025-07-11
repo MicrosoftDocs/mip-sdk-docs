@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: ProtectionDescriptor Class Reference</title>
+<title>Microsoft Information Protection SDK - C: ProtectionDescriptor Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -108,15 +108,6 @@ $(function(){initNavTree('classProtectionDescriptor.html',''); initResizable(tru
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="protection__descriptor_8h_source.html">protection_descriptor.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for ProtectionDescriptor:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classProtectionDescriptor.png" usemap="#ProtectionDescriptor_map" alt=""/>
-  <map id="ProtectionDescriptor_map" name="ProtectionDescriptor_map">
-<area href="classProtectionDescriptorImpl.html" alt="ProtectionDescriptorImpl" shape="rect" coords="0,56,150,80"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -210,8 +201,6 @@ Public Member Functions</h2></td></tr>
 <p>Gets if protection allows offline content access or not. </p>
 <dl class="section return"><dt>Returns</dt><dd>If protection allows offline content access or not (default = true) </dd></dl>
 
-<p>Implemented in <a class="el" href="classProtectionDescriptorImpl.html#ae06d6e2f505dc852676bb81ab2962f18">ProtectionDescriptorImpl</a>.</p>
-
 </div>
 </div>
 <a id="ae24d88008daaeafc9b51c561d621c5c1" name="ae24d88008daaeafc9b51c561d621c5c1"></a>
@@ -239,8 +228,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Checks if content has an expiration time or not. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if content can expire, else false </dd></dl>
-
-<p>Implemented in <a class="el" href="classProtectionDescriptorImpl.html#a843acfe2e676b26fa985030324d7ce72">ProtectionDescriptorImpl</a>.</p>
 
 </div>
 </div>
@@ -271,8 +258,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Content ID</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Publishing licenses will have this identifier surrounded by curly braces "{}". Those braces are removed from the value returned here </dd></dl>
 
-<p>Implemented in <a class="el" href="classProtectionDescriptorImpl.html#ad8730013bcafe42858045fbb4eab644d">ProtectionDescriptorImpl</a>.</p>
-
 </div>
 </div>
 <a id="ac2a22325714a9e161e2f1a2408b72a1c" name="ac2a22325714a9e161e2f1a2408b72a1c"></a>
@@ -301,8 +286,6 @@ Public Member Functions</h2></td></tr>
 <p>Gets protection expiration time. </p>
 <dl class="section return"><dt>Returns</dt><dd>Protection expiration time </dd></dl>
 
-<p>Implemented in <a class="el" href="classProtectionDescriptorImpl.html#a5bf6db5af01fb6b7fe150179bf2e6665">ProtectionDescriptorImpl</a>.</p>
-
 </div>
 </div>
 <a id="a8b8551d313562fb5e4e403201f344261" name="a8b8551d313562fb5e4e403201f344261"></a>
@@ -330,8 +313,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets protection description. </p>
 <dl class="section return"><dt>Returns</dt><dd>Protection description </dd></dl>
-
-<p>Implemented in <a class="el" href="classProtectionDescriptorImpl.html#a6e9bcefd68d402757ee5f548070d88dc">ProtectionDescriptorImpl</a>.</p>
 
 </div>
 </div>
@@ -362,8 +343,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Double key url</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>The double key URL that is used in custom requests to protect information with a second key. Needed for key generation. </dd></dl>
 
-<p>Implemented in <a class="el" href="classProtectionDescriptorImpl.html#a7f94c474205d0d3bf5481a5c71229158">ProtectionDescriptorImpl</a>.</p>
-
 </div>
 </div>
 <a id="a7b26f5966dd431af2d96b24fadb2452b" name="a7b26f5966dd431af2d96b24fadb2452b"></a>
@@ -391,8 +370,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets the dynamic watermark configured for this content if any. </p>
 <dl class="section return"><dt>Returns</dt><dd>Shared pointer to the <a class="el" href="classDynamicWatermark.html" title="Representation of the dynamic watermark which the admin has configured for a label.">DynamicWatermark</a> object </dd></dl>
-
-<p>Implemented in <a class="el" href="classProtectionDescriptorImpl.html#af9deb52a1afb0aeca3244cadf382d083">ProtectionDescriptorImpl</a>.</p>
 
 </div>
 </div>
@@ -423,8 +400,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>App-specific data</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>A <a class="el" href="classProtectionHandler.html" title="Manages protection-related actions for a specific protection configuration.">ProtectionHandler</a> may hold a dictionary of app-specific data that was encrypted by the protection service. This encrypted data is independent of the signed data accessible via <a class="el" href="#a0624527c7c1237a97ec0f4b02140c42d" title="Gets the app-specific data that was signed.">ProtectionDescriptor::GetSignedAppData</a> </dd></dl>
 
-<p>Implemented in <a class="el" href="classProtectionDescriptorImpl.html#af39b3984d5093a35c3437b949a26993a">ProtectionDescriptorImpl</a>.</p>
-
 </div>
 </div>
 <a id="ab83b4d04a4f73f8f31cde55bbaf9dcce" name="ab83b4d04a4f73f8f31cde55bbaf9dcce"></a>
@@ -453,8 +428,6 @@ Public Member Functions</h2></td></tr>
 <p>Gets the label ID, if any. </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classLabel.html" title="Abstraction for a single Microsoft Information Protection label.">Label</a> ID</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>This property will be populated in ProtectionDescriptors for preexisting protected content &amp; for UDP label based protection. It is a field populated by the server at the moment protected content is consumed. For UDP label based protection, its populated from labelId value set by client. </dd></dl>
-
-<p>Implemented in <a class="el" href="classProtectionDescriptorImpl.html#ab5bcd86f4109e0b20db5ae2e9bf591f9">ProtectionDescriptorImpl</a>.</p>
 
 </div>
 </div>
@@ -485,8 +458,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classLabel.html" title="Abstraction for a single Microsoft Information Protection label.">Label</a> Info</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>This property will be populated in ProtectionDescriptors for preexisting protected content &amp; for UDP label based protection. It is a field populated by the server at the moment protected content is consumed. For UDP label based protection, its populated from label and tenant id values set by client. </dd></dl>
 
-<p>Implemented in <a class="el" href="classProtectionDescriptorImpl.html#a17a7912a515af3d48431ed9e470ed9a1">ProtectionDescriptorImpl</a>.</p>
-
 </div>
 </div>
 <a id="aedfbe9bb62744b4876a6440e2e49cf2d" name="aedfbe9bb62744b4876a6440e2e49cf2d"></a>
@@ -514,8 +485,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets protection name. </p>
 <dl class="section return"><dt>Returns</dt><dd>Protection name </dd></dl>
-
-<p>Implemented in <a class="el" href="classProtectionDescriptorImpl.html#aa01564ab3076b8e95c1c8c4bad20b6ed">ProtectionDescriptorImpl</a>.</p>
 
 </div>
 </div>
@@ -545,8 +514,6 @@ Public Member Functions</h2></td></tr>
 <p>Gets owner for the protection. </p>
 <dl class="section return"><dt>Returns</dt><dd>Owner of protection </dd></dl>
 
-<p>Implemented in <a class="el" href="classProtectionDescriptorImpl.html#ab8b9fccf8330fb3b8414af91a5005276">ProtectionDescriptorImpl</a>.</p>
-
 </div>
 </div>
 <a id="ac7365f49c26e97e454e26471a9f182e5" name="ac7365f49c26e97e454e26471a9f182e5"></a>
@@ -574,8 +541,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets type of protection, whether it originated from protection SDK template or not. </p>
 <dl class="section return"><dt>Returns</dt><dd>Type of protection </dd></dl>
-
-<p>Implemented in <a class="el" href="classProtectionDescriptorImpl.html#a9a057afe8cf01c97b6ce95c769963dbb">ProtectionDescriptorImpl</a>.</p>
 
 </div>
 </div>
@@ -606,8 +571,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Protection referrer address</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>The referrer is a URI that is displayable to the user if they cannot unprotect the content. It contains information on how that user can gain permission to access the content. </dd></dl>
 
-<p>Implemented in <a class="el" href="classProtectionDescriptorImpl.html#a535365e6d515d9c08258f9da5e415361">ProtectionDescriptorImpl</a>.</p>
-
 </div>
 </div>
 <a id="a4111047ba423f26a738e162fadc0e0fa" name="a4111047ba423f26a738e162fadc0e0fa"></a>
@@ -635,8 +598,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets the serialized template, if any. </p>
 <dl class="section return"><dt>Returns</dt><dd>Serialized template </dd></dl>
-
-<p>Implemented in <a class="el" href="classProtectionDescriptorImpl.html#a753241c2d5294c91e8632d8126b6c2ff">ProtectionDescriptorImpl</a>.</p>
 
 </div>
 </div>
@@ -667,8 +628,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>App-specific data</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>A <a class="el" href="classProtectionHandler.html" title="Manages protection-related actions for a specific protection configuration.">ProtectionHandler</a> may hold a dictionary of app-specific data that was signed by the protection service. This signed data is independent of the encrypted data accessible via <a class="el" href="#a1cb9a6cb79d37008c3918a6e0e3337c7" title="Gets app-specific data that was encrypted.">ProtectionDescriptor::GetEncryptedAppData</a> </dd></dl>
 
-<p>Implemented in <a class="el" href="classProtectionDescriptorImpl.html#acb2a833aa294ae06516d558ab4ee6a7c">ProtectionDescriptorImpl</a>.</p>
-
 </div>
 </div>
 <a id="aaca83688360b8639590e6e96417c6acf" name="aaca83688360b8639590e6e96417c6acf"></a>
@@ -698,8 +657,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Internal metadata value associated with this <a class="el" href="classProtectionDescriptor.html" title="Description of protection associated with a piece of content.">ProtectionDescriptor</a></dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Any values provided are not required for normal operation of the SDK </dd></dl>
 
-<p>Implemented in <a class="el" href="classProtectionDescriptorImpl.html#a40d1d72e663757a824a31b193699c5d8">ProtectionDescriptorImpl</a>.</p>
-
 </div>
 </div>
 <a id="ac55bd8aab132f8613f72420a0d784a9a" name="ac55bd8aab132f8613f72420a0d784a9a"></a>
@@ -727,8 +684,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets the protection template ID, if any. </p>
 <dl class="section return"><dt>Returns</dt><dd>Template ID </dd></dl>
-
-<p>Implemented in <a class="el" href="classProtectionDescriptorImpl.html#ae77ea817909e930270b13f5a1f3b138c">ProtectionDescriptorImpl</a>.</p>
 
 </div>
 </div>
@@ -759,8 +714,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Collection of users-to-rights mappings</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>The value of the <a class="el" href="classUserRights.html" title="A group of users and the rights associated with them.">UserRights</a> property will be empty if the current user doesn't have access to this information (that is, if the user is not the owner and does not have the VIEWRIGHTSDATA right). </dd></dl>
 
-<p>Implemented in <a class="el" href="classProtectionDescriptorImpl.html#aa11e09ce076b671efb1d550358a23fcb">ProtectionDescriptorImpl</a>.</p>
-
 </div>
 </div>
 <a id="ae61a664da972a68e490eea09bd4e065a" name="ae61a664da972a68e490eea09bd4e065a"></a>
@@ -788,8 +741,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets collection of users-to-roles mappings. </p>
 <dl class="section return"><dt>Returns</dt><dd>Collection of users-to-roles mappings </dd></dl>
-
-<p>Implemented in <a class="el" href="classProtectionDescriptorImpl.html#a5d7c73575990d861f812425162b61596">ProtectionDescriptorImpl</a>.</p>
 
 </div>
 </div>

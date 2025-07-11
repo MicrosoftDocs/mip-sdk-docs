@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: xml::XmlDelegate Class Reference</title>
+<title>Microsoft Information Protection SDK - C: xml::XmlDelegate Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -108,15 +108,6 @@ $(function(){initNavTree('classxml_1_1XmlDelegate.html',''); initResizable(true)
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="xml__delegate_8h_source.html">xml_delegate.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for xml::XmlDelegate:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classxml_1_1XmlDelegate.png" usemap="#xml::XmlDelegate_map" alt=""/>
-  <map id="xml::XmlDelegate_map" name="xml::XmlDelegate_map">
-<area href="classxml_1_1XmlDelegateImpl.html" alt="xml::XmlDelegateImpl" shape="rect" coords="0,56,129,80"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -162,8 +153,6 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A delegate response that contains either a shared pointer to a reader that can look at each node of the xml sequentially, or an <a class="el" href="classxml_1_1XmlLoadException.html">XmlLoadException</a> </dd></dl>
 
-<p>Implemented in <a class="el" href="classxml_1_1XmlDelegateImpl.html#a9f26380ba678121315908c3f9c8ee126">xml::XmlDelegateImpl</a>.</p>
-
 </div>
 </div>
 <a id="acd2b97c0c9a0a36a3a01a9bd8a39a9a2" name="acd2b97c0c9a0a36a3a01a9bd8a39a9a2"></a>
@@ -198,8 +187,6 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section warning"><dt>Warning</dt><dd>The <a class="el" href="classxml_1_1XmlDocument.html">XmlDocument</a> returned should memory manage itself. That is, when it goes out of scope, it should take care of any free functions needed to release memory. In our native implementation, this is achieved with a unique_ptr with a specialized deleter function.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>A delegate response that contains either a shared_ptr to an <a class="el" href="classxml_1_1XmlDocument.html">XmlDocument</a> or an exception if parsing fails </dd></dl>
-
-<p>Implemented in <a class="el" href="classxml_1_1XmlDelegateImpl.html#a7504bc4e6808c42908bea5d2ef841359">xml::XmlDelegateImpl</a>.</p>
 
 </div>
 </div>

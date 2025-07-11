@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: DiagnosticDelegate&lt; T &gt; Class Template Reference</title>
+<title>Microsoft Information Protection SDK - C: DiagnosticDelegate&lt; T &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -117,45 +117,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae70dde19c003ff4f4d557cb9cdd43dee" id="r_ae70dde19c003ff4f4d557cb9cdd43dee"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae70dde19c003ff4f4d557cb9cdd43dee">WriteEvent</a> (const std::shared_ptr&lt; T &gt; &amp;event, const mip::EventContext &amp;eventContext)=0</td></tr>
 <tr class="memdesc:ae70dde19c003ff4f4d557cb9cdd43dee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log a diagnostic event.  <br /></td></tr>
 <tr class="separator:ae70dde19c003ff4f4d557cb9cdd43dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3a21b96a53f97ab2921d201990c1c68" id="r_ab3a21b96a53f97ab2921d201990c1c68"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3a21b96a53f97ab2921d201990c1c68">Flush</a> ()=0</td></tr>
-<tr class="memdesc:ab3a21b96a53f97ab2921d201990c1c68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush any queued events (e.g. due to shutdown)  <br /></td></tr>
+<tr class="memitem:ab3a21b96a53f97ab2921d201990c1c68" id="r_ab3a21b96a53f97ab2921d201990c1c68"><td class="memItemLeft" align="right" valign="top"><a id="ab3a21b96a53f97ab2921d201990c1c68" name="ab3a21b96a53f97ab2921d201990c1c68"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Flush</b> ()=0</td></tr>
+<tr class="memdesc:ab3a21b96a53f97ab2921d201990c1c68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush any queued events (e.g. due to shutdown) <br /></td></tr>
 <tr class="separator:ab3a21b96a53f97ab2921d201990c1c68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;class T&gt;<br />
 class DiagnosticDelegate&lt; T &gt;</div><p>A class that defines the interface to the MIP SDK audit/telemetry notifications. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab3a21b96a53f97ab2921d201990c1c68" name="ab3a21b96a53f97ab2921d201990c1c68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3a21b96a53f97ab2921d201990c1c68">&#9670;&#160;</a></span>Flush()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void <a class="el" href="classDiagnosticDelegate.html">DiagnosticDelegate</a>&lt; T &gt;::Flush </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Flush any queued events (e.g. due to shutdown) </p>
-
-<p>Implemented in <a class="el" href="classAuditDelegateImpl.html#ae89c8901ed5c6eb237bbed3984ef873d">AuditDelegateImpl</a>, <a class="el" href="classAuditDelegateWrapper.html#af384cfd81cad332e0ed7004e927e532a">AuditDelegateWrapper</a>, <a class="el" href="classEmptyAuditDelegate.html#a83bfce4537072ab44414d31bba169a0b">EmptyAuditDelegate</a>, <a class="el" href="classEmptyTelemetryDelegate.html#ae73038fab745c451923d5cdec80793bb">EmptyTelemetryDelegate</a>, <a class="el" href="classOneDSAuditDelegate.html#a42da6d0991d5095242e0a73f4bd08ae7">OneDSAuditDelegate</a>, <a class="el" href="classOneDSTelemetryDelegate.html#a72f07e79308109a3c9dfe84f91ef5e45">OneDSTelemetryDelegate</a>, <a class="el" href="classTelemetryDelegateImpl.html#a6ab754254289c41b9e18d1651fac57df">TelemetryDelegateImpl</a>, and <a class="el" href="classTelemetryDelegateWrapper.html#a1514d77203601d913cbdc5ece97aba75">TelemetryDelegateWrapper</a>.</p>
-
-</div>
-</div>
 <a id="a593e9c0012f9fc0ad5301b92b29b2a1c" name="a593e9c0012f9fc0ad5301b92b29b2a1c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a593e9c0012f9fc0ad5301b92b29b2a1c">&#9670;&#160;</a></span>WriteEvent() <span class="overload">[1/2]</span></h2>
 
@@ -188,8 +158,6 @@ template&lt;class T &gt; </div>
   </table>
   </dd>
 </dl>
-
-<p>Implemented in <a class="el" href="classAuditDelegateImpl.html#abbab41a9d7f49b333a657eaad3d938ee">AuditDelegateImpl</a>, <a class="el" href="classAuditDelegateWrapper.html#ac5872d422c49f1702b287cd921a62b4d">AuditDelegateWrapper</a>, <a class="el" href="classEmptyAuditDelegate.html#a82613147b842dca96ae57a29d5448912">EmptyAuditDelegate</a>, <a class="el" href="classEmptyTelemetryDelegate.html#ac4d3e6d9b3e3703958a459719acc848e">EmptyTelemetryDelegate</a>, <a class="el" href="classOneDSAuditDelegate.html#a57443e7d0c79a008c6c9fe2c02278068">OneDSAuditDelegate</a>, <a class="el" href="classOneDSTelemetryDelegate.html#ada66746d69f46663d1a9070fc59a4ddf">OneDSTelemetryDelegate</a>, <a class="el" href="classTelemetryDelegateImpl.html#ac71eff95eaf28e299321beba5d39161c">TelemetryDelegateImpl</a>, and <a class="el" href="classTelemetryDelegateWrapper.html#ac359d2d8885bd93d11fc42871a6bb2bb">TelemetryDelegateWrapper</a>.</p>
 
 </div>
 </div>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: DocumentState Class Reference</title>
+<title>Microsoft Information Protection SDK - C: DocumentState Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -103,15 +103,6 @@ $(function(){initNavTree('classDocumentState.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">DocumentState Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for DocumentState:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classDocumentState.png" usemap="#DocumentState_map" alt=""/>
-  <map id="DocumentState_map" name="DocumentState_map">
-<area href="classDocumentStateImpl.html" alt="DocumentStateImpl" shape="rect" coords="0,56,118,80"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -171,8 +162,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>a list of application specific audit metadata</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Registered Key:Value pairs Sender: Email Id for the sender Recipients: Represents a JSON array of recipients for an email LastModifiedBy: Email Id for the user who last modified the content LastModifiedDate: Date the content was last modified </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classDocumentStateImpl.html#af3f3e325f3d0dc83a3c4273c3df089db">DocumentStateImpl</a>.</p>
-
 </div>
 </div>
 <a id="a6fc862ad6c90eb30a53a15a91b1ce807" name="a6fc862ad6c90eb30a53a15a91b1ce807"></a>
@@ -208,8 +197,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>a list of classification results. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>return nullptr if no classification cycle executed. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classDocumentStateImpl.html#aeb8dffd890c0874b82f4ca78d2bd8935">DocumentStateImpl</a>.</p>
-
 </div>
 </div>
 <a id="a6bdd3092c409a251e69eeaa375f3f9a4" name="a6bdd3092c409a251e69eeaa375f3f9a4"></a>
@@ -237,8 +224,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets the content format. </p>
 <dl class="section return"><dt>Returns</dt><dd>content format </dd></dl>
-
-<p>Implemented in <a class="el" href="classDocumentStateImpl.html#a18b54ad1b37d84ccacca868c344d403f">DocumentStateImpl</a>.</p>
 
 </div>
 </div>
@@ -268,8 +253,6 @@ Public Member Functions</h2></td></tr>
 <p>Gets the content description that describes the document. example for a file: [path\filename] example for an email: [Subject:Sender]. </p>
 <dl class="section return"><dt>Returns</dt><dd>content description to be applied to the content.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>This value is used by auditing as a human-readable description of the content </dd></dl>
-
-<p>Implemented in <a class="el" href="classDocumentStateImpl.html#afaa8723b1bc767fc7ae834c113f8c0c2">DocumentStateImpl</a>.</p>
 
 </div>
 </div>
@@ -304,8 +287,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>the metadata applied to the content. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd>mip::MetadataEntry. </dd></dl>
 
-<p>Implemented in <a class="el" href="classDocumentStateImpl.html#ace573d89e0d86757b4d8f5eefb77cf34">DocumentStateImpl</a>.</p>
-
 </div>
 </div>
 <a id="a656d4af711a2472771d789e4b5b53aa1" name="a656d4af711a2472771d789e4b5b53aa1"></a>
@@ -335,8 +316,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Content metadata version. If 0, metadata is un-versioned. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>If a file format supports multiple versions of metadata, this allows MIP to understand all metadata and report granular metadata changes on a per-version basis. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classDocumentStateImpl.html#a11d5e331096dfbb6417e34c55cc39a53">DocumentStateImpl</a>.</p>
-
 </div>
 </div>
 <a id="a14ef4d82cdd848c2cc14058f720317e2" name="a14ef4d82cdd848c2cc14058f720317e2"></a>
@@ -364,8 +343,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets the state of the content while the application is interacting with it. </p>
 <dl class="section return"><dt>Returns</dt><dd>State of the content data </dd></dl>
-
-<p>Reimplemented in <a class="el" href="classDocumentStateImpl.html#a2abd779c69975401b02ddbd7256c1e69">DocumentStateImpl</a>.</p>
 
 </div>
 </div>
@@ -422,8 +399,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Get the Protection Descriptor. </p>
 <dl class="section return"><dt>Returns</dt><dd>the Protection Descriptor </dd></dl>
-
-<p>Implemented in <a class="el" href="classDocumentStateImpl.html#a373760d8938a9fcff7a10b4082389af6">DocumentStateImpl</a>.</p>
 
 </div>
 </div>

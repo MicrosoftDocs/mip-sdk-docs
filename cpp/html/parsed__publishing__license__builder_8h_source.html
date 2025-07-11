@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: /home/mbaldwin/docs/mip-sdk-for-cpp/src/api/mip/protection/parsed_publishing_license_builder.h Source File</title>
+<title>Microsoft Information Protection SDK - C: /home/mbaldwin/docs/mip-sdk-for-cpp/src/api/mip/protection/parsed_publishing_license_builder.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -147,7 +147,7 @@ $(function(){initNavTree('parsed__publishing__license__builder_8h_source.html','
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="classParsedPublishingLicenseBuilder.html">   50</a></span><span class="keyword">class </span><a class="code hl_class" href="classParsedPublishingLicenseBuilder.html">ParsedPublishingLicenseBuilder</a> {</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  MIP_API <span class="keyword">static</span> std::shared_ptr&lt;ParsedPublishingLicenseBuilder&gt; <a class="code hl_function" href="classParsedPublishingLicenseBuilder.html#a78990afb7275459a0f81fc1333f6938a">Create</a>();</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="classParsedPublishingLicenseBuilder.html#ae62f716f1d27d23424b213844e4df65c">   58</a></span>  MIP_API <span class="keyword">static</span> std::shared_ptr&lt;ParsedPublishingLicenseBuilder&gt; <a class="code hl_function" href="classParsedPublishingLicenseBuilder.html#ae62f716f1d27d23424b213844e4df65c">Create</a>();</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="classParsedPublishingLicenseBuilder.html#aef28d8a7de6a62f0eee202b2765a5044">   65</a></span>  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classParsedPublishingLicenseBuilder.html#aef28d8a7de6a62f0eee202b2765a5044">SetDomains</a>(<span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; domains) = 0;</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
@@ -198,12 +198,12 @@ $(function(){initNavTree('parsed__publishing__license__builder_8h_source.html','
 <div class="ttc" id="aclassParsedPublishingLicenseBuilder_html_a29116ec181efe55fd498bf3acd4bd67a"><div class="ttname"><a href="classParsedPublishingLicenseBuilder.html#a29116ec181efe55fd498bf3acd4bd67a">ParsedPublishingLicenseBuilder::SetIssuedTime</a></div><div class="ttdeci">virtual void SetIssuedTime(const std::chrono::time_point&lt; std::chrono::system_clock &gt; &amp;issuedTime)=0</div><div class="ttdoc">Sets the issued time.</div></div>
 <div class="ttc" id="aclassParsedPublishingLicenseBuilder_html_a2f43037092031412541d0f58c691347d"><div class="ttname"><a href="classParsedPublishingLicenseBuilder.html#a2f43037092031412541d0f58c691347d">ParsedPublishingLicenseBuilder::SetIssuerId</a></div><div class="ttdeci">virtual void SetIssuerId(const std::string &amp;issuerId)=0</div><div class="ttdoc">Sets the issuer id.</div></div>
 <div class="ttc" id="aclassParsedPublishingLicenseBuilder_html_a4ff36c523b06a2ea6659911ba12f02e1"><div class="ttname"><a href="classParsedPublishingLicenseBuilder.html#a4ff36c523b06a2ea6659911ba12f02e1">ParsedPublishingLicenseBuilder::SetLabelInfo</a></div><div class="ttdeci">virtual void SetLabelInfo(const LabelInfo &amp;labelInfo)=0</div><div class="ttdoc">Sets the label info.</div></div>
-<div class="ttc" id="aclassParsedPublishingLicenseBuilder_html_a78990afb7275459a0f81fc1333f6938a"><div class="ttname"><a href="classParsedPublishingLicenseBuilder.html#a78990afb7275459a0f81fc1333f6938a">ParsedPublishingLicenseBuilder::Create</a></div><div class="ttdeci">static MIP_API std::shared_ptr&lt; ParsedPublishingLicenseBuilder &gt; Create()</div><div class="ttdoc">Creates a ParsedPublishingLicenseBuilder.</div><div class="ttdef"><b>Definition</b> parsed_publishing_license_builder_impl.cpp:10</div></div>
 <div class="ttc" id="aclassParsedPublishingLicenseBuilder_html_a7942cfda29c7686fc4c897b2ee586065"><div class="ttname"><a href="classParsedPublishingLicenseBuilder.html#a7942cfda29c7686fc4c897b2ee586065">ParsedPublishingLicenseBuilder::SetDescriptor</a></div><div class="ttdeci">virtual void SetDescriptor(std::shared_ptr&lt; LicenseDescriptor &gt; descriptor)=0</div><div class="ttdoc">Sets the descriptor.</div></div>
 <div class="ttc" id="aclassParsedPublishingLicenseBuilder_html_a8602d364c87ab2f79ff23da37b885581"><div class="ttname"><a href="classParsedPublishingLicenseBuilder.html#a8602d364c87ab2f79ff23da37b885581">ParsedPublishingLicenseBuilder::SetSealedKeyType</a></div><div class="ttdeci">virtual void SetSealedKeyType(const std::string &amp;sealedKeyType)=0</div><div class="ttdoc">Sets the sealed key type.</div></div>
 <div class="ttc" id="aclassParsedPublishingLicenseBuilder_html_abbeabb4d69a33170bc6619557508a34c"><div class="ttname"><a href="classParsedPublishingLicenseBuilder.html#abbeabb4d69a33170bc6619557508a34c">ParsedPublishingLicenseBuilder::SetContentId</a></div><div class="ttdeci">virtual void SetContentId(const std::string &amp;contentId)=0</div><div class="ttdoc">Sets the content id.</div></div>
 <div class="ttc" id="aclassParsedPublishingLicenseBuilder_html_acd96bce00ac0ec8730d580fdfd77f79c"><div class="ttname"><a href="classParsedPublishingLicenseBuilder.html#acd96bce00ac0ec8730d580fdfd77f79c">ParsedPublishingLicenseBuilder::SetSignedApplicationData</a></div><div class="ttdeci">virtual void SetSignedApplicationData(const std::vector&lt; std::shared_ptr&lt; LicenseApplicationData &gt; &gt; &amp;signedApplicationData)=0</div><div class="ttdoc">Sets the signed application data.</div></div>
 <div class="ttc" id="aclassParsedPublishingLicenseBuilder_html_ad5b8abcbd1accae5fa709cad386b1f07"><div class="ttname"><a href="classParsedPublishingLicenseBuilder.html#ad5b8abcbd1accae5fa709cad386b1f07">ParsedPublishingLicenseBuilder::SetDoubleKeyAlgorithm</a></div><div class="ttdeci">virtual void SetDoubleKeyAlgorithm(const std::string &amp;doubleKeyAlgorithm)=0</div><div class="ttdoc">Sets the double key algorithm.</div></div>
+<div class="ttc" id="aclassParsedPublishingLicenseBuilder_html_ae62f716f1d27d23424b213844e4df65c"><div class="ttname"><a href="classParsedPublishingLicenseBuilder.html#ae62f716f1d27d23424b213844e4df65c">ParsedPublishingLicenseBuilder::Create</a></div><div class="ttdeci">static MIP_API std::shared_ptr&lt; ParsedPublishingLicenseBuilder &gt; Create()</div><div class="ttdoc">Creates a ParsedPublishingLicenseBuilder.</div></div>
 <div class="ttc" id="aclassParsedPublishingLicenseBuilder_html_aef28d8a7de6a62f0eee202b2765a5044"><div class="ttname"><a href="classParsedPublishingLicenseBuilder.html#aef28d8a7de6a62f0eee202b2765a5044">ParsedPublishingLicenseBuilder::SetDomains</a></div><div class="ttdeci">virtual void SetDomains(const std::vector&lt; std::string &gt; &amp;domains)=0</div><div class="ttdoc">Sets the license domains.</div></div>
 <div class="ttc" id="alicense__application__data_8h_html"><div class="ttname"><a href="license__application__data_8h.html">license_application_data.h</a></div><div class="ttdoc">Defines LicenseApplicationData interface.</div></div>
 <div class="ttc" id="alicense__connection__info_8h_html"><div class="ttname"><a href="license__connection__info_8h.html">license_connection_info.h</a></div><div class="ttdoc">Defines LicenseConnectionInfo interface.</div></div>

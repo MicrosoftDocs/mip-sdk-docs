@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: FileHandler Class Reference</title>
+<title>Microsoft Information Protection SDK - C: FileHandler Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -110,16 +110,6 @@ $(function(){initNavTree('classFileHandler.html',''); initResizable(true); });
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="file__handler_8h_source.html">file_handler.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for FileHandler:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classFileHandler.png" usemap="#FileHandler_map" alt=""/>
-  <map id="FileHandler_map" name="FileHandler_map">
-<area href="classFileHandlerImpl.html" alt="FileHandlerImpl" shape="rect" coords="0,56,109,80"/>
-<area href="classFileHandlerMock.html" alt="FileHandlerMock" shape="rect" coords="119,56,228,80"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -132,11 +122,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab496f9c156f8947f31e4c5d75d8fe709" id="r_ab496f9c156f8947f31e4c5d75d8fe709"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classContentLabel.html">ContentLabel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab496f9c156f8947f31e4c5d75d8fe709">GetLabel</a> ()=0</td></tr>
 <tr class="memdesc:ab496f9c156f8947f31e4c5d75d8fe709"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts retrieving the sensitivity label from the file.  <br /></td></tr>
 <tr class="separator:ab496f9c156f8947f31e4c5d75d8fe709"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad83408bcd78003c84d1df474a71b23a2" id="r_ad83408bcd78003c84d1df474a71b23a2"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad83408bcd78003c84d1df474a71b23a2">GetProperties</a> (uint32_t version)=0</td></tr>
-<tr class="memdesc:ad83408bcd78003c84d1df474a71b23a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the file properties according to version.  <br /></td></tr>
+<tr class="memitem:ad83408bcd78003c84d1df474a71b23a2" id="r_ad83408bcd78003c84d1df474a71b23a2"><td class="memItemLeft" align="right" valign="top"><a id="ad83408bcd78003c84d1df474a71b23a2" name="ad83408bcd78003c84d1df474a71b23a2"></a>
+virtual std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetProperties</b> (uint32_t version)=0</td></tr>
+<tr class="memdesc:ad83408bcd78003c84d1df474a71b23a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the file properties according to version. <br /></td></tr>
 <tr class="separator:ad83408bcd78003c84d1df474a71b23a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa35d4f902f222a5a7bc995244b2e099" id="r_aaa35d4f902f222a5a7bc995244b2e099"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classProtectionHandler.html">ProtectionHandler</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa35d4f902f222a5a7bc995244b2e099">GetProtection</a> ()=0</td></tr>
-<tr class="memdesc:aaa35d4f902f222a5a7bc995244b2e099"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts retrieving the protection policy from the file.  <br /></td></tr>
+<tr class="memitem:aaa35d4f902f222a5a7bc995244b2e099" id="r_aaa35d4f902f222a5a7bc995244b2e099"><td class="memItemLeft" align="right" valign="top"><a id="aaa35d4f902f222a5a7bc995244b2e099" name="aaa35d4f902f222a5a7bc995244b2e099"></a>
+virtual std::shared_ptr&lt; <a class="el" href="classProtectionHandler.html">ProtectionHandler</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetProtection</b> ()=0</td></tr>
+<tr class="memdesc:aaa35d4f902f222a5a7bc995244b2e099"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts retrieving the protection policy from the file. <br /></td></tr>
 <tr class="separator:aaa35d4f902f222a5a7bc995244b2e099"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2897f59f5128c70af1affd5d3d04aa9" id="r_aa2897f59f5128c70af1affd5d3d04aa9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2897f59f5128c70af1affd5d3d04aa9">RegisterContentForTrackingAndRevocationAsync</a> (bool isOwnerNotificationEnabled, const std::shared_ptr&lt; <a class="el" href="classProtectionEngine_1_1Observer.html">ProtectionEngine::Observer</a> &gt; &amp;observer, const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
 <tr class="memdesc:aa2897f59f5128c70af1affd5d3d04aa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register the content for tracking and revocation.  <br /></td></tr>
@@ -184,8 +176,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adb689c03ba38e46190b0a76477f9f33d" id="r_adb689c03ba38e46190b0a76477f9f33d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb689c03ba38e46190b0a76477f9f33d">NotifyCommitSuccessful</a> (const std::string &amp;actualFilePath)=0</td></tr>
 <tr class="memdesc:adb689c03ba38e46190b0a76477f9f33d"><td class="mdescLeft">&#160;</td><td class="mdescRight">To be called when the changes have been committed to disk.  <br /></td></tr>
 <tr class="separator:adb689c03ba38e46190b0a76477f9f33d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8bc70464822745210ac68c5a58163e1" id="r_ae8bc70464822745210ac68c5a58163e1"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8bc70464822745210ac68c5a58163e1">GetOutputFileName</a> ()=0</td></tr>
-<tr class="memdesc:ae8bc70464822745210ac68c5a58163e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the output file name and extension based on the original file name and the accumulated changes.  <br /></td></tr>
+<tr class="memitem:ae8bc70464822745210ac68c5a58163e1" id="r_ae8bc70464822745210ac68c5a58163e1"><td class="memItemLeft" align="right" valign="top"><a id="ae8bc70464822745210ac68c5a58163e1" name="ae8bc70464822745210ac68c5a58163e1"></a>
+virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetOutputFileName</b> ()=0</td></tr>
+<tr class="memdesc:ae8bc70464822745210ac68c5a58163e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the output file name and extension based on the original file name and the accumulated changes. <br /></td></tr>
 <tr class="separator:ae8bc70464822745210ac68c5a58163e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -268,8 +261,6 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classFileHandlerImpl.html#af67aa10cf40039da7ba2e9cab95928cf">FileHandlerImpl</a>.</p>
-
 </div>
 </div>
 <a id="a70dd35da4e1383e78957bb125abee871" name="a70dd35da4e1383e78957bb125abee871"></a>
@@ -305,8 +296,6 @@ Static Public Member Functions</h2></td></tr>
 <a class="el" href="classFileHandler_1_1Observer.html" title="Observer interface for clients to get notifications events related to file handler.">FileHandler::Observer</a> will be called upon success or failure.</dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>If the output file's disk space is insufficient, the <a class="el" href="#af606b52e7a3c53a8a2d4c2148d6bcaa2" title="Writes the changes to the file specified by the |outputFilePath| parameter.">FileHandler::CommitAsync</a> function may generate corrupted files. In this case, delete the corrupted files and either adjust the disk size or choose another disk before retrying the operation. </dd></dl>
 
-<p>Implemented in <a class="el" href="classFileHandlerImpl.html#a5247901b66d45f3b5f1aeefe6523d2d2">FileHandlerImpl</a>.</p>
-
 </div>
 </div>
 <a id="af606b52e7a3c53a8a2d4c2148d6bcaa2" name="af606b52e7a3c53a8a2d4c2148d6bcaa2"></a>
@@ -339,8 +328,6 @@ Static Public Member Functions</h2></td></tr>
 <p>Writes the changes to the file specified by the |outputFilePath| parameter. </p>
 <dl class="section note"><dt>Note</dt><dd><a class="el" href="classFileHandler_1_1Observer.html" title="Observer interface for clients to get notifications events related to file handler.">FileHandler::Observer</a> will be called upon success or failure.</dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>If the output file's disk space is insufficient, the <a class="el" href="#af606b52e7a3c53a8a2d4c2148d6bcaa2" title="Writes the changes to the file specified by the |outputFilePath| parameter.">FileHandler::CommitAsync</a> function may generate corrupted files. In this case, delete the corrupted files and either adjust the disk size or choose another disk before retrying the operation. </dd></dl>
-
-<p>Implemented in <a class="el" href="classFileHandlerImpl.html#aa2b3be2e45c9f1adb547f11407b88395">FileHandlerImpl</a>.</p>
 
 </div>
 </div>
@@ -377,8 +364,6 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classFileHandlerImpl.html#a334fd18d11945186e3557baec4ee1e19">FileHandlerImpl</a>.</p>
-
 </div>
 </div>
 <a id="ab93a61b919b8652b8d971f89a5181292" name="ab93a61b919b8652b8d971f89a5181292"></a>
@@ -407,8 +392,6 @@ Static Public Member Functions</h2></td></tr>
 <p>Returns a path to a temporary file (that will be deleted if possible) - representing the decrypted content. </p>
 <dl class="section note"><dt>Note</dt><dd><a class="el" href="classFileHandler_1_1Observer.html" title="Observer interface for clients to get notifications events related to file handler.">FileHandler::Observer</a> will be called upon success or failure. </dd></dl>
 
-<p>Implemented in <a class="el" href="classFileHandlerImpl.html#a4d222524a749aa501e0b160caef89d14">FileHandlerImpl</a>.</p>
-
 </div>
 </div>
 <a id="ab4924d6eeea398fbf9c05895d869e62e" name="ab4924d6eeea398fbf9c05895d869e62e"></a>
@@ -436,8 +419,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Returns a stream - representing the decrypted content. </p>
 <dl class="section note"><dt>Note</dt><dd><a class="el" href="classFileHandler_1_1Observer.html" title="Observer interface for clients to get notifications events related to file handler.">FileHandler::Observer</a> will be called upon success or failure. </dd></dl>
-
-<p>Implemented in <a class="el" href="classFileHandlerImpl.html#a4a11f009055bc2efd35f2171dc80295d">FileHandlerImpl</a>.</p>
 
 </div>
 </div>
@@ -569,95 +550,6 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-<p>Implemented in <a class="el" href="classFileHandlerImpl.html#a9c9ddaf005046d67e3dbc1acaf34c928">FileHandlerImpl</a>.</p>
-
-</div>
-</div>
-<a id="ae8bc70464822745210ac68c5a58163e1" name="ae8bc70464822745210ac68c5a58163e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8bc70464822745210ac68c5a58163e1">&#9670;&#160;</a></span>GetOutputFileName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::string FileHandler::GetOutputFileName </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Calculates the output file name and extension based on the original file name and the accumulated changes. </p>
-
-<p>Implemented in <a class="el" href="classFileHandlerImpl.html#a4f91bd955ef6babaa9d733a69b41a47a">FileHandlerImpl</a>.</p>
-
-</div>
-</div>
-<a id="ad83408bcd78003c84d1df474a71b23a2" name="ad83408bcd78003c84d1df474a71b23a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad83408bcd78003c84d1df474a71b23a2">&#9670;&#160;</a></span>GetProperties()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt; FileHandler::GetProperties </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>version</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Retrieves the file properties according to version. </p>
-
-<p>Implemented in <a class="el" href="classFileHandlerImpl.html#aa0e891a99477b508069e4f795baed254">FileHandlerImpl</a>.</p>
-
-</div>
-</div>
-<a id="aaa35d4f902f222a5a7bc995244b2e099" name="aaa35d4f902f222a5a7bc995244b2e099"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa35d4f902f222a5a7bc995244b2e099">&#9670;&#160;</a></span>GetProtection()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::shared_ptr&lt; <a class="el" href="classProtectionHandler.html">ProtectionHandler</a> &gt; FileHandler::GetProtection </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Starts retrieving the protection policy from the file. </p>
-
-<p>Implemented in <a class="el" href="classFileHandlerImpl.html#a205877b8195985814a5262fe8ad2f1fb">FileHandlerImpl</a>.</p>
 
 </div>
 </div>
@@ -866,8 +758,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Create a file inspector object, used to retrieve file contents from compatible file formats. </p>
 <dl class="section return"><dt>Returns</dt><dd>a file inspector. </dd></dl>
-
-<p>Implemented in <a class="el" href="classFileHandlerImpl.html#a04d6b233b9ade6603ec9238cb36d3b9a">FileHandlerImpl</a>.</p>
 
 </div>
 </div>
@@ -1085,8 +975,6 @@ Static Public Member Functions</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>Changes won't be written to the file until CommitAsync is called. <br  />
  </dd></dl>
 
-<p>Implemented in <a class="el" href="classFileHandlerImpl.html#a71751d2fc65c313549f9b4c90d734bf3">FileHandlerImpl</a>.</p>
-
 </div>
 </div>
 <a id="a9b7e0a4843f6ee82544010d0130758e4" name="a9b7e0a4843f6ee82544010d0130758e4"></a>
@@ -1301,15 +1189,13 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>Fires an <a class="el" href="classAudit.html">Audit</a> event </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Fires an Audit event </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname"><a class="el" href="classNotSupportedError.html" title="The operation requested by the application is not supported by the SDK.">NotSupportedError</a></td><td>when a protection only engine is in use and no policy handler is found. </td></tr>
   </table>
   </dd>
 </dl>
-
-<p>Implemented in <a class="el" href="classFileHandlerImpl.html#a7c97c39430ce9696c6e6e11bc9194668">FileHandlerImpl</a>.</p>
 
 </div>
 </div>
@@ -1356,8 +1242,6 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Async control object. </dd></dl>
 
-<p>Implemented in <a class="el" href="classFileHandlerImpl.html#afc7228ec61746dc11dc22db4169ccf8f">FileHandlerImpl</a>.</p>
-
 </div>
 </div>
 <a id="a5226807a5ebc9ec2199c5888cbb41484" name="a5226807a5ebc9ec2199c5888cbb41484"></a>
@@ -1385,8 +1269,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Removes protection from the file. If the original file format does not support labeling, the label will be lost when protection is removed. When the native format supports labeling, the label metadata is maintained. </p>
 <dl class="section note"><dt>Note</dt><dd>Changes won't be written to the file until CommitAsync is called. </dd></dl>
-
-<p>Implemented in <a class="el" href="classFileHandlerImpl.html#a919c3421c06bbe1cb7162d5fd9c1b448">FileHandlerImpl</a>.</p>
 
 </div>
 </div>
@@ -1426,8 +1308,6 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Async control object. </dd></dl>
-
-<p>Implemented in <a class="el" href="classFileHandlerImpl.html#ab07c64e060c8bab95f1e7079bea4776e">FileHandlerImpl</a>.</p>
 
 </div>
 </div>
@@ -1473,8 +1353,6 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classFileHandlerImpl.html#a20a7e930aac7b1d439c5de521f605082">FileHandlerImpl</a>.</p>
-
 </div>
 </div>
 <a id="ab4c696f17c66cf3caf9e97603d6d4d88" name="ab4c696f17c66cf3caf9e97603d6d4d88"></a>
@@ -1507,8 +1385,6 @@ Static Public Member Functions</h2></td></tr>
 <p>Sets either custom or template-based permissions (according to protectionDescriptor-&gt;GetProtectionType) to the file. </p>
 <dl class="section note"><dt>Note</dt><dd>Changes won't be written to the file until CommitAsync is called. </dd></dl>
 
-<p>Implemented in <a class="el" href="classFileHandlerImpl.html#a5ae0e60db4ffaac10415024ca0445215">FileHandlerImpl</a>.</p>
-
 </div>
 </div>
 <a id="a76f07bf70e08e0410879ce46da188a57" name="a76f07bf70e08e0410879ce46da188a57"></a>
@@ -1536,8 +1412,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Sets protection on a document using an existing protection handler. </p>
 <dl class="section note"><dt>Note</dt><dd>Changes won't be written to the file until CommitAsync is called. </dd></dl>
-
-<p>Implemented in <a class="el" href="classFileHandlerImpl.html#a15da9f474f13d5ee76fcc4f2a2861542">FileHandlerImpl</a>.</p>
 
 </div>
 </div>

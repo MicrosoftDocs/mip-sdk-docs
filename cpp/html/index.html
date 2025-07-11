@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: Information Protection SDK</title>
+<title>Microsoft Information Protection SDK - C: Main Page</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -96,49 +96,10 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
 </div>
 </div>
 
-<div><div class="header">
-  <div class="headertitle"><div class="title">Information Protection SDK </div></div>
+<div class="header">
+  <div class="headertitle"><div class="title">Microsoft Information Protection SDK - C Documentation</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="md__2home_2mbaldwin_2docs_2mip-sdk-for-cpp_2README"></a></p>
-<h1><a class="anchor" id="autotoc_md5"></a>
-Build status</h1>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Branch   </th><th class="markdownTableHeadNone">Status    </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">develop   </td><td class="markdownTableBodyNone"><a href="https://dev.azure.com/msazure/One/_build/latest?definitionId=271140&amp;repoName=AzureAD%2Fmip-sdk-for-cpp&amp;branchName=develop"><img src="https://dev.azure.com/msazure/One/_apis/build/status%2FOneBranch%2FMIPSDKGit%2FMIPSDKGit-OfficialBuild?repoName=AzureAD%2Fmip-sdk-for-cpp&amp;branchName=develop" alt="Build Status" class="inline"/></a>    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">1.15   </td><td class="markdownTableBodyNone"><a href="https://dev.azure.com/msazure/One/_build/latest?definitionId=271140&amp;repoName=AzureAD%2Fmip-sdk-for-cpp&amp;branchName=release%2F1.15"><img src="https://dev.azure.com/msazure/One/_apis/build/status%2FOneBranch%2FMIPSDKGit%2FMIPSDKGit-OfficialBuild?repoName=AzureAD%2Fmip-sdk-for-cpp&amp;branchName=release%2F1.15" alt="Build Status" class="inline"/></a>    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">1.14   </td><td class="markdownTableBodyNone"><a href="https://dev.azure.com/msazure/One/_build/latest?definitionId=271140&amp;repoName=AzureAD%2Fmip-sdk-for-cpp&amp;branchName=release%2F1.14"><img src="https://dev.azure.com/msazure/One/_apis/build/status%2FOneBranch%2FMIPSDKGit%2FMIPSDKGit-OfficialBuild?repoName=AzureAD%2Fmip-sdk-for-cpp&amp;branchName=release%2F1.14" alt="Build Status" class="inline"/></a>    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">1.13   </td><td class="markdownTableBodyNone"><a href="https://dev.azure.com/msazure/One/_build/latest?definitionId=271140&amp;repoName=AzureAD%2Fmip-sdk-for-cpp&amp;branchName=release%2F1.13"><img src="https://dev.azure.com/msazure/One/_apis/build/status%2FOneBranch%2FMIPSDKGit%2FMIPSDKGit-OfficialBuild?repoName=AzureAD%2Fmip-sdk-for-cpp&amp;branchName=release%2F1.13" alt="Build Status" class="inline"/></a>    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">1.12   </td><td class="markdownTableBodyNone"><a href="https://msazure.visualstudio.com/DefaultCollection/One/_build/latest?definitionId=265851"><img src="https://msazure.visualstudio.com/DefaultCollection/One/_apis/build/status/Custom/RMS/MIP/Releases/MIP_SDK_RELEASE_CI%20(1.12)?branchName=release/1.12" alt="Build status" class="inline"/></a>   </td></tr>
-</table>
-<h1><a class="anchor" id="autotoc_md6"></a>
-Contributing</h1>
-<p>This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit <a href="https://cla.microsoft.com">https://cla.microsoft.com</a>.</p>
-<p>When you submit a pull request, a CLA-bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repos using our CLA.</p>
-<p>This project has adopted the <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft Open Source Code of Conduct</a>. For more information see the <a href="https://opensource.microsoft.com/codeofconduct/faq/">Code of Conduct FAQ</a> or contact <a href="#" onclick="location.href='mai'+'lto:'+'ope'+'nc'+'ode'+'@m'+'icr'+'os'+'oft'+'.c'+'om'; return false;">opencode@microsoft.com</a> with any additional questions or comments.</p>
-<h1><a class="anchor" id="autotoc_md7"></a>
-Third Party</h1>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Dependency   </th><th class="markdownTableHeadNone">Windows   </th><th class="markdownTableHeadNone">Linux   </th><th class="markdownTableHeadNone">OSX   </th><th class="markdownTableHeadNone">iOS   </th><th class="markdownTableHeadNone">android    </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">LibGSF   </td><td class="markdownTableBodyNone">1.14.53   </td><td class="markdownTableBodyNone">Device   </td><td class="markdownTableBodyNone">1.14.53   </td><td class="markdownTableBodyNone">Unused   </td><td class="markdownTableBodyNone">Unused    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">Zlib   </td><td class="markdownTableBodyNone">1.3.1   </td><td class="markdownTableBodyNone">Device   </td><td class="markdownTableBodyNone">1.3.1 / Device   </td><td class="markdownTableBodyNone">Unused   </td><td class="markdownTableBodyNone">Unused    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">XMP   </td><td class="markdownTableBodyNone">22_06   </td><td class="markdownTableBodyNone">22_06   </td><td class="markdownTableBodyNone">22_06   </td><td class="markdownTableBodyNone">Unused   </td><td class="markdownTableBodyNone">Unused    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">LibXML   </td><td class="markdownTableBodyNone">2.12.7   </td><td class="markdownTableBodyNone">Device   </td><td class="markdownTableBodyNone">2.12.7   </td><td class="markdownTableBodyNone">2.12.7   </td><td class="markdownTableBodyNone">2.12.7    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Gmime   </td><td class="markdownTableBodyNone">3.2.15-1   </td><td class="markdownTableBodyNone">Device   </td><td class="markdownTableBodyNone">3.2.15-1   </td><td class="markdownTableBodyNone">Unused   </td><td class="markdownTableBodyNone">Unused   </td></tr>
-</table>
-</div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>
 </div><!-- contents -->
 </div><!-- doc-content -->

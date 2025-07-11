@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: FileProfile Class Reference</title>
+<title>Microsoft Information Protection SDK - C: FileProfile Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -110,15 +110,6 @@ $(function(){initNavTree('classFileProfile.html',''); initResizable(true); });
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="file__profile_8h_source.html">file_profile.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for FileProfile:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classFileProfile.png" usemap="#FileProfile_map" alt=""/>
-  <map id="FileProfile_map" name="FileProfile_map">
-<area href="classFileProfileImpl.html" alt="FileProfileImpl" shape="rect" coords="0,56,92,80"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -131,8 +122,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a98bdef30cd0dff8057728b4c3a9ab011" id="r_a98bdef30cd0dff8057728b4c3a9ab011"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classFileProfile_1_1Settings.html">Settings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98bdef30cd0dff8057728b4c3a9ab011">GetSettings</a> () const =0</td></tr>
-<tr class="memdesc:a98bdef30cd0dff8057728b4c3a9ab011"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the profile settings.  <br /></td></tr>
+<tr class="memitem:a98bdef30cd0dff8057728b4c3a9ab011" id="r_a98bdef30cd0dff8057728b4c3a9ab011"><td class="memItemLeft" align="right" valign="top"><a id="a98bdef30cd0dff8057728b4c3a9ab011" name="a98bdef30cd0dff8057728b4c3a9ab011"></a>
+virtual const <a class="el" href="classFileProfile_1_1Settings.html">Settings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetSettings</b> () const =0</td></tr>
+<tr class="memdesc:a98bdef30cd0dff8057728b4c3a9ab011"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the profile settings. <br /></td></tr>
 <tr class="separator:a98bdef30cd0dff8057728b4c3a9ab011"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0317d5092a1e73480dc176c7e647e0c6" id="r_a0317d5092a1e73480dc176c7e647e0c6"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classAsyncControl.html">AsyncControl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0317d5092a1e73480dc176c7e647e0c6">ListEnginesAsync</a> (const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
 <tr class="memdesc:a0317d5092a1e73480dc176c7e647e0c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts list engines operation.  <br /></td></tr>
@@ -140,7 +132,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa5921d4c108d2fc5ab0b5a7ab0873af0" id="r_aa5921d4c108d2fc5ab0b5a7ab0873af0"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classAsyncControl.html">AsyncControl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5921d4c108d2fc5ab0b5a7ab0873af0">UnloadEngineAsync</a> (const std::string &amp;id, const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
 <tr class="memdesc:aa5921d4c108d2fc5ab0b5a7ab0873af0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts unloading the file engine with the given ID.  <br /></td></tr>
 <tr class="separator:aa5921d4c108d2fc5ab0b5a7ab0873af0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf69570cb4b3920875bdd3f46208394f" id="r_abf69570cb4b3920875bdd3f46208394f"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classAsyncControl.html">AsyncControl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf69570cb4b3920875bdd3f46208394f">AddEngineAsync</a> (const <a class="el" href="classFileEngine_1_1Settings.html">FileEngine::Settings</a> &amp;settings, const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
+<tr class="memitem:abf69570cb4b3920875bdd3f46208394f" id="r_abf69570cb4b3920875bdd3f46208394f"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classAsyncControl.html">AsyncControl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf69570cb4b3920875bdd3f46208394f">AddEngineAsync</a> (const FileEngine::Settings &amp;settings, const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
 <tr class="memdesc:abf69570cb4b3920875bdd3f46208394f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts adding a new file engine to the profile.  <br /></td></tr>
 <tr class="separator:abf69570cb4b3920875bdd3f46208394f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8992bd35c633bc43e6e9b92176d28f82" id="r_a8992bd35c633bc43e6e9b92176d28f82"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classAsyncControl.html">AsyncControl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8992bd35c633bc43e6e9b92176d28f82">DeleteEngineAsync</a> (const std::string &amp;id, const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
@@ -155,12 +147,12 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a4e1601e5c3b6b662cb1d654dbc2da623" id="r_a4e1601e5c3b6b662cb1d654dbc2da623"><td class="memItemLeft" align="right" valign="top">static FILE_API std::shared_ptr&lt; <a class="el" href="classAsyncControl.html">AsyncControl</a> &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e1601e5c3b6b662cb1d654dbc2da623">LoadAsync</a> (const <a class="el" href="classFileProfile_1_1Settings.html">Settings</a> &amp;settings, const std::shared_ptr&lt; void &gt; &amp;context)</td></tr>
-<tr class="memdesc:a4e1601e5c3b6b662cb1d654dbc2da623"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts loading a profile based on the provided |settings|.  <br /></td></tr>
-<tr class="separator:a4e1601e5c3b6b662cb1d654dbc2da623"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ad9ff0be89ecea1ef79fe04df2b26c1" id="r_a4ad9ff0be89ecea1ef79fe04df2b26c1"><td class="memItemLeft" align="right" valign="top">static FILE_API const char *__CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ad9ff0be89ecea1ef79fe04df2b26c1">GetVersion</a> ()</td></tr>
-<tr class="memdesc:a4ad9ff0be89ecea1ef79fe04df2b26c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets library version.  <br /></td></tr>
-<tr class="separator:a4ad9ff0be89ecea1ef79fe04df2b26c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c278a5c39b65789319c0856a9e01418" id="r_a5c278a5c39b65789319c0856a9e01418"><td class="memItemLeft" align="right" valign="top">static FILE_API std::shared_ptr&lt; <a class="el" href="classAsyncControl.html">AsyncControl</a> &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c278a5c39b65789319c0856a9e01418">LoadAsync</a> (const <a class="el" href="classFileProfile_1_1Settings.html">Settings</a> &amp;settings, const std::shared_ptr&lt; void &gt; &amp;context)</td></tr>
+<tr class="memdesc:a5c278a5c39b65789319c0856a9e01418"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts loading a profile based on the provided |settings|.  <br /></td></tr>
+<tr class="separator:a5c278a5c39b65789319c0856a9e01418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afacef44a2b630db434a5b53239d81a5e" id="r_afacef44a2b630db434a5b53239d81a5e"><td class="memItemLeft" align="right" valign="top">static FILE_API const char *__CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afacef44a2b630db434a5b53239d81a5e">GetVersion</a> ()</td></tr>
+<tr class="memdesc:afacef44a2b630db434a5b53239d81a5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets library version.  <br /></td></tr>
+<tr class="separator:afacef44a2b630db434a5b53239d81a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classFileProfile.html" title="FileProfile class is the root class for using the Microsoft Information Protection operations.">FileProfile</a> class is the root class for using the Microsoft Information Protection operations. </p>
@@ -203,8 +195,6 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>MIP will not cache or do anything else with the value returned by the auth delegate. This function is recommended for applications that aren't "logged in" until after MIP requests an auth token. It allows an application to fetch a token before MIP actually requires one. </dd></dl>
 
-<p>Implemented in <a class="el" href="classFileProfileImpl.html#a7765793b3729c3f73f3cd2a871980c95">FileProfileImpl</a>.</p>
-
 </div>
 </div>
 <a id="a807a42db9ff40a743c2a5ae4ec79934f" name="a807a42db9ff40a743c2a5ae4ec79934f"></a>
@@ -244,8 +234,6 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>MIP will not cache or do anything else with the value returned by the auth delegate. This function is recommended for applications that aren't "logged in" until after MIP requests an auth token. It allows an application to fetch a token before MIP actually requires one. </dd></dl>
 
-<p>Implemented in <a class="el" href="classFileProfileImpl.html#ab627e75bd3e304dbf9f00f8e6b7a480a">FileProfileImpl</a>.</p>
-
 </div>
 </div>
 <a id="abf69570cb4b3920875bdd3f46208394f" name="abf69570cb4b3920875bdd3f46208394f"></a>
@@ -260,7 +248,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual std::shared_ptr&lt; <a class="el" href="classAsyncControl.html">AsyncControl</a> &gt; FileProfile::AddEngineAsync </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classFileEngine_1_1Settings.html">FileEngine::Settings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
+          <td class="paramtype">const FileEngine::Settings &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -278,8 +266,6 @@ Static Public Member Functions</h2></td></tr>
 <p>Starts adding a new file engine to the profile. </p>
 <dl class="section return"><dt>Returns</dt><dd>Async control object.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd><a class="el" href="classFileProfile_1_1Observer.html" title="Observer interface for clients to get notifications for profile related events.">FileProfile::Observer</a> will be called upon success or failure. </dd></dl>
-
-<p>Implemented in <a class="el" href="classFileProfileImpl.html#a3fd8afb3d4bd7b65b03685fec1638c67">FileProfileImpl</a>.</p>
 
 </div>
 </div>
@@ -314,12 +300,10 @@ Static Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Async control object.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd><a class="el" href="classFileProfile_1_1Observer.html" title="Observer interface for clients to get notifications for profile related events.">FileProfile::Observer</a> will be called upon success or failure. </dd></dl>
 
-<p>Implemented in <a class="el" href="classFileProfileImpl.html#ae8839656eddc230c7c4a38154ccd2511">FileProfileImpl</a>.</p>
-
 </div>
 </div>
-<a id="a98bdef30cd0dff8057728b4c3a9ab011" name="a98bdef30cd0dff8057728b4c3a9ab011"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98bdef30cd0dff8057728b4c3a9ab011">&#9670;&#160;</a></span>GetSettings()</h2>
+<a id="afacef44a2b630db434a5b53239d81a5e" name="afacef44a2b630db434a5b53239d81a5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afacef44a2b630db434a5b53239d81a5e">&#9670;&#160;</a></span>GetVersion()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -328,36 +312,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const <a class="el" href="classFileProfile_1_1Settings.html">Settings</a> &amp; FileProfile::GetSettings </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the profile settings. </p>
-
-<p>Implemented in <a class="el" href="classFileProfileImpl.html#a63d00a52fcb868e728296ae6224878bb">FileProfileImpl</a>.</p>
-
-</div>
-</div>
-<a id="a4ad9ff0be89ecea1ef79fe04df2b26c1" name="a4ad9ff0be89ecea1ef79fe04df2b26c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ad9ff0be89ecea1ef79fe04df2b26c1">&#9670;&#160;</a></span>GetVersion()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MIP_NAMESPACE_BEGIN const char * FileProfile::GetVersion </td>
+          <td class="memname">static FILE_API const char *__CDECL FileProfile::GetVersion </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -402,12 +357,10 @@ Static Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Async control object.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd><a class="el" href="classFileProfile_1_1Observer.html" title="Observer interface for clients to get notifications for profile related events.">FileProfile::Observer</a> will be called upon success or failure. </dd></dl>
 
-<p>Implemented in <a class="el" href="classFileProfileImpl.html#acd2f06a159cdc1bff71e3b76d894ded6">FileProfileImpl</a>.</p>
-
 </div>
 </div>
-<a id="a4e1601e5c3b6b662cb1d654dbc2da623" name="a4e1601e5c3b6b662cb1d654dbc2da623"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e1601e5c3b6b662cb1d654dbc2da623">&#9670;&#160;</a></span>LoadAsync()</h2>
+<a id="a5c278a5c39b65789319c0856a9e01418" name="a5c278a5c39b65789319c0856a9e01418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c278a5c39b65789319c0856a9e01418">&#9670;&#160;</a></span>LoadAsync()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -416,7 +369,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">shared_ptr&lt; <a class="el" href="classAsyncControl.html">AsyncControl</a> &gt; FileProfile::LoadAsync </td>
+          <td class="memname">static FILE_API std::shared_ptr&lt; <a class="el" href="classAsyncControl.html">AsyncControl</a> &gt; __CDECL FileProfile::LoadAsync </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classFileProfile_1_1Settings.html">Settings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
         </tr>
@@ -470,13 +423,10 @@ Static Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Async control object.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd><a class="el" href="classFileProfile_1_1Observer.html" title="Observer interface for clients to get notifications for profile related events.">FileProfile::Observer</a> will be called upon success or failure. </dd></dl>
 
-<p>Implemented in <a class="el" href="classFileProfileImpl.html#a4d3e77c594cc3ceb18ddea78b494c93d">FileProfileImpl</a>.</p>
-
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following files:<ul>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/mbaldwin/docs/mip-sdk-for-cpp/src/api/mip/file/<a class="el" href="file__profile_8h_source.html">file_profile.h</a></li>
-<li>/home/mbaldwin/docs/mip-sdk-for-cpp/src/file/api_impl/<b>file_profile_impl.cpp</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

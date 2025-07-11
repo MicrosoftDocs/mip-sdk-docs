@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: LoggerDelegate Class Reference</title>
+<title>Microsoft Information Protection SDK - C: LoggerDelegate Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -108,24 +108,15 @@ $(function(){initNavTree('classLoggerDelegate.html',''); initResizable(true); })
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="logger__delegate_8h_source.html">logger_delegate.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for LoggerDelegate:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classLoggerDelegate.png" usemap="#LoggerDelegate_map" alt=""/>
-  <map id="LoggerDelegate_map" name="LoggerDelegate_map">
-<area href="classDefaultLoggerDelegate.html" alt="DefaultLoggerDelegate" shape="rect" coords="0,56,142,80"/>
-<area href="classFakeLoggerDelegate.html" alt="FakeLoggerDelegate" shape="rect" coords="152,56,294,80"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9e9228267e042f33ce132eef6e490c27" id="r_a9e9228267e042f33ce132eef6e490c27"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e9228267e042f33ce132eef6e490c27">Init</a> (const std::string &amp;storagePath)=0</td></tr>
 <tr class="memdesc:a9e9228267e042f33ce132eef6e490c27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the logger.  <br /></td></tr>
 <tr class="separator:a9e9228267e042f33ce132eef6e490c27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a334cd06a0bb1ea59594bbb251c78106f" id="r_a334cd06a0bb1ea59594bbb251c78106f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a334cd06a0bb1ea59594bbb251c78106f">Flush</a> ()=0</td></tr>
-<tr class="memdesc:a334cd06a0bb1ea59594bbb251c78106f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush the logger.  <br /></td></tr>
+<tr class="memitem:a334cd06a0bb1ea59594bbb251c78106f" id="r_a334cd06a0bb1ea59594bbb251c78106f"><td class="memItemLeft" align="right" valign="top"><a id="a334cd06a0bb1ea59594bbb251c78106f" name="a334cd06a0bb1ea59594bbb251c78106f"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Flush</b> ()=0</td></tr>
+<tr class="memdesc:a334cd06a0bb1ea59594bbb251c78106f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush the logger. <br /></td></tr>
 <tr class="separator:a334cd06a0bb1ea59594bbb251c78106f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34169cd16f08b0b8ab8fb54bfc3581db" id="r_a34169cd16f08b0b8ab8fb54bfc3581db"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34169cd16f08b0b8ab8fb54bfc3581db">WriteToLog</a> (const <a class="el" href="log__message__data_8h.html#a7a38c7496c92835c0d835ecb2f8135c1">LogLevel</a> level, const std::string &amp;message, const std::string &amp;function, const std::string &amp;file, const int32_t line)=0</td></tr>
 <tr class="memdesc:a34169cd16f08b0b8ab8fb54bfc3581db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a log statement to log file.  <br /></td></tr>
@@ -140,35 +131,6 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class that defines the interface to the MIP SDK logger. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a334cd06a0bb1ea59594bbb251c78106f" name="a334cd06a0bb1ea59594bbb251c78106f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a334cd06a0bb1ea59594bbb251c78106f">&#9670;&#160;</a></span>Flush()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void LoggerDelegate::Flush </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Flush the logger. </p>
-
-<p>Implemented in <a class="el" href="classDefaultLoggerDelegate.html#a12c3aaa315a9bb7297566d5e43d74216">DefaultLoggerDelegate</a>, and <a class="el" href="classFakeLoggerDelegate.html#a46b7313d42c0b5738d8dc4328971b481">FakeLoggerDelegate</a>.</p>
-
-</div>
-</div>
 <a id="a9e9228267e042f33ce132eef6e490c27" name="a9e9228267e042f33ce132eef6e490c27"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9e9228267e042f33ce132eef6e490c27">&#9670;&#160;</a></span>Init()</h2>
 
@@ -199,8 +161,6 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-<p>Implemented in <a class="el" href="classDefaultLoggerDelegate.html#a80df7fecae6ca9c2f6a33208595108b6">DefaultLoggerDelegate</a>, and <a class="el" href="classFakeLoggerDelegate.html#a3b865c0a85209511363615835203ae96">FakeLoggerDelegate</a>.</p>
 
 </div>
 </div>
@@ -257,8 +217,6 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-<p>Implemented in <a class="el" href="classDefaultLoggerDelegate.html#ae98c6f2045c13d21063ee86104847b96">DefaultLoggerDelegate</a>, and <a class="el" href="classFakeLoggerDelegate.html#a0879fbd87263aeff6bd5f79778653d9f">FakeLoggerDelegate</a>.</p>
 
 </div>
 </div>
@@ -322,8 +280,6 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classDefaultLoggerDelegate.html#ace7444221668fa6b7acf8590d76ed542">DefaultLoggerDelegate</a>, and <a class="el" href="classFakeLoggerDelegate.html#a1d06e0974ca94a6bb8bf8c5dfc8395fc">FakeLoggerDelegate</a>.</p>
-
 </div>
 </div>
 <a id="a981088ae3983c0fbc195a4d578f0dc69" name="a981088ae3983c0fbc195a4d578f0dc69"></a>
@@ -356,8 +312,6 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-<p>Reimplemented in <a class="el" href="classDefaultLoggerDelegate.html#a583c316e04bc5a84716343de1dddd610">DefaultLoggerDelegate</a>.</p>
 
 </div>
 </div>

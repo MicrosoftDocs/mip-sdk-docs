@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['base_5fiterator_0',['base_iterator',['../classdetail_1_1json__reverse__iterator.html#ab306723c375c396a5ccd90e2d31ad651',1,'detail::json_reverse_iterator']]],
-  ['binary_5ft_1',['binary_t',['../classbasic__json.html#a4c1b5ea434b48cf31097617bb1c1ca1e',1,'basic_json']]],
-  ['boolean_5ft_2',['boolean_t',['../classbasic__json.html#a9301890c48e9b957edc07f9eb767bd10',1,'basic_json']]],
-  ['booleantype_3',['BooleanType',['../structParseResult.html#a849db11776cd57f07b4da1b82dc3681e',1,'ParseResult']]]
+  ['functionalityfiltertype_0',['FunctionalityFilterType',['../common__types_8h.html#ad0425e0f2bfd53d606bc0599008380a1',1,'common_types.h']]]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: HttpDelegate Class Reference</title>
+<title>Microsoft Information Protection SDK - C: HttpDelegate Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -108,25 +108,6 @@ $(function(){initNavTree('classHttpDelegate.html',''); initResizable(true); });
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="http__delegate_8h_source.html">http_delegate.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for HttpDelegate:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classHttpDelegate.png" usemap="#HttpDelegate_map" alt=""/>
-  <map id="HttpDelegate_map" name="HttpDelegate_map">
-<area href="classFakeHttpDelegate.html" alt="FakeHttpDelegate" shape="rect" coords="0,56,178,80"/>
-<area href="classHttpClient.html" alt="HttpClient" shape="rect" coords="470,56,648,80"/>
-<area href="classHttpDelegateWrapper.html" alt="HttpDelegateWrapper" shape="rect" coords="658,56,836,80"/>
-<area href="classOfflineOnlyHttpDelegate.html" alt="OfflineOnlyHttpDelegate" shape="rect" coords="846,56,1024,80"/>
-<area href="classFakeHttpComparatorDelegate.html" alt="FakeHttpComparatorDelegate" shape="rect" coords="0,112,178,136"/>
-<area href="classFakeHttpClient.html" alt="FakeHttpClient" shape="rect" coords="188,112,366,136"/>
-<area href="classHttpClientAndroid.html" alt="HttpClientAndroid" shape="rect" coords="376,112,554,136"/>
-<area href="classHttpClientBase.html" alt="HttpClientBase" shape="rect" coords="564,112,742,136"/>
-<area href="classHttpClientWasm.html" alt="HttpClientWasm" shape="rect" coords="752,112,930,136"/>
-<area href="classHttpClientApple.html" alt="HttpClientApple" shape="rect" coords="470,168,648,192"/>
-<area href="classHttpClientCpprest.html" alt="HttpClientCpprest" shape="rect" coords="658,168,836,192"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -139,42 +120,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad1e1fee58018a110361c61a6fecbe3a3" id="r_ad1e1fee58018a110361c61a6fecbe3a3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1e1fee58018a110361c61a6fecbe3a3">CancelOperation</a> (const std::string &amp;requestId)=0</td></tr>
 <tr class="memdesc:ad1e1fee58018a110361c61a6fecbe3a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancel a specific HTTP operation.  <br /></td></tr>
 <tr class="separator:ad1e1fee58018a110361c61a6fecbe3a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22e45df81f1e3d300b00624ebeb425f6" id="r_a22e45df81f1e3d300b00624ebeb425f6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22e45df81f1e3d300b00624ebeb425f6">CancelAllOperations</a> ()=0</td></tr>
-<tr class="memdesc:a22e45df81f1e3d300b00624ebeb425f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancel ongoing HTTP requests.  <br /></td></tr>
+<tr class="memitem:a22e45df81f1e3d300b00624ebeb425f6" id="r_a22e45df81f1e3d300b00624ebeb425f6"><td class="memItemLeft" align="right" valign="top"><a id="a22e45df81f1e3d300b00624ebeb425f6" name="a22e45df81f1e3d300b00624ebeb425f6"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>CancelAllOperations</b> ()=0</td></tr>
+<tr class="memdesc:a22e45df81f1e3d300b00624ebeb425f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancel ongoing HTTP requests. <br /></td></tr>
 <tr class="separator:a22e45df81f1e3d300b00624ebeb425f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Interface for overriding HTTP handling. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a22e45df81f1e3d300b00624ebeb425f6" name="a22e45df81f1e3d300b00624ebeb425f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22e45df81f1e3d300b00624ebeb425f6">&#9670;&#160;</a></span>CancelAllOperations()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void HttpDelegate::CancelAllOperations </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Cancel ongoing HTTP requests. </p>
-
-<p>Implemented in <a class="el" href="classFakeHttpClient.html#aad99a634967a3f89c91fcf12e4d39e9a">FakeHttpClient</a>, <a class="el" href="classFakeHttpDelegate.html#ad9adc47bd35d0c906f8022fa0c78573d">FakeHttpDelegate</a>, <a class="el" href="classHttpClientAndroid.html#a088317c8c9a5e83a10b75910f4470245">HttpClientAndroid</a>, <a class="el" href="classHttpClientBase.html#af97de672cb5cd44318427af9a97b17b8">HttpClientBase</a>, <a class="el" href="classHttpClientWasm.html#a00add9edbf042e8a9da6da15783918d1">HttpClientWasm</a>, <a class="el" href="classHttpDelegateWrapper.html#a94c4eb53850235e3dec790d224ea02e8">HttpDelegateWrapper</a>, and <a class="el" href="classOfflineOnlyHttpDelegate.html#afd8685b17d78ec2ce88df55b1b2b06fb">OfflineOnlyHttpDelegate</a>.</p>
-
-</div>
-</div>
 <a id="ad1e1fee58018a110361c61a6fecbe3a3" name="ad1e1fee58018a110361c61a6fecbe3a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad1e1fee58018a110361c61a6fecbe3a3">&#9670;&#160;</a></span>CancelOperation()</h2>
 
@@ -205,8 +158,6 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-<p>Implemented in <a class="el" href="classFakeHttpClient.html#aa702be2061fa817ae2cebc12771a1333">FakeHttpClient</a>, <a class="el" href="classFakeHttpDelegate.html#a70ce83219c3d45a48c709aa65674aabd">FakeHttpDelegate</a>, <a class="el" href="classHttpClientAndroid.html#a7a85cfc43fd31726adcd44e7e02d02c0">HttpClientAndroid</a>, <a class="el" href="classHttpClientBase.html#a7be12e64c48407be4334facb5e4dae43">HttpClientBase</a>, <a class="el" href="classHttpClientWasm.html#a753b14cf241e5f7916bfab64ccb1f349">HttpClientWasm</a>, <a class="el" href="classHttpDelegateWrapper.html#a6d56bc248c435f8efa205f7667af453e">HttpDelegateWrapper</a>, and <a class="el" href="classOfflineOnlyHttpDelegate.html#a1e772f692bab9f6cd2acbc608c93b39d">OfflineOnlyHttpDelegate</a>.</p>
 
 </div>
 </div>
@@ -246,8 +197,6 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>HTTP operation container </dd></dl>
-
-<p>Implemented in <a class="el" href="classFakeHttpComparatorDelegate.html#ac84458cb8c2688cd25bb05fda81aeb6c">FakeHttpComparatorDelegate</a>, <a class="el" href="classFakeHttpDelegate.html#a0e0e0e32162324d65f1dba824731ff4a">FakeHttpDelegate</a>, <a class="el" href="classHttpClientAndroid.html#a45775f76ba831e26913aeb3a3fe48f99">HttpClientAndroid</a>, <a class="el" href="classHttpClientBase.html#a0c2095e1727396d8dbc18aa2f9b2d7d8">HttpClientBase</a>, <a class="el" href="classHttpClientWasm.html#a8a57108c9f581003a26571d9b5e5a984">HttpClientWasm</a>, and <a class="el" href="classHttpDelegateWrapper.html#a2df6044f8aa69b0ab9a2ff45852a3a0f">HttpDelegateWrapper</a>.</p>
 
 </div>
 </div>
@@ -293,8 +242,6 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>HTTP operation container </dd></dl>
-
-<p>Implemented in <a class="el" href="classFakeHttpClient.html#a8a44e5ea5c0d74d9d80872f552166b9b">FakeHttpClient</a>, <a class="el" href="classFakeHttpComparatorDelegate.html#a52706ae53d9110728dfc3108afe7ca18">FakeHttpComparatorDelegate</a>, <a class="el" href="classFakeHttpDelegate.html#a0923a658c7c8e0751990a834d094322c">FakeHttpDelegate</a>, <a class="el" href="classHttpClientAndroid.html#a7a11ada0d8aac95f0772e23cd6f6db30">HttpClientAndroid</a>, <a class="el" href="classHttpClientBase.html#a234a0168758c3fbaebc2ae612547be28">HttpClientBase</a>, <a class="el" href="classHttpClientWasm.html#ad5d4c97cd5efedf2d8b8a53aeefdf6e8">HttpClientWasm</a>, <a class="el" href="classHttpDelegateWrapper.html#a1edd559368cbc09c1ced5c9249a69795">HttpDelegateWrapper</a>, and <a class="el" href="classOfflineOnlyHttpDelegate.html#a88a8540c92707532d79bfff1ac6d4fe7">OfflineOnlyHttpDelegate</a>.</p>
 
 </div>
 </div>

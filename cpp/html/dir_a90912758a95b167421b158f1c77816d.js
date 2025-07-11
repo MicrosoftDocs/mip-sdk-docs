@@ -1,7 +1,7 @@
 var dir_a90912758a95b167421b158f1c77816d =
 [
     [ "core", "dir_0292ea60d90e70a5304053f5c7607472.html", "dir_0292ea60d90e70a5304053f5c7607472" ],
-    [ "action.h", "src_2api_2mip_2upe_2action_8h.html", "src_2api_2mip_2upe_2action_8h" ],
+    [ "action.h", "action_8h.html", "action_8h" ],
     [ "add_content_footer_action.h", "add__content__footer__action_8h.html", "add__content__footer__action_8h" ],
     [ "add_content_header_action.h", "add__content__header__action_8h.html", "add__content__header__action_8h" ],
     [ "add_dynamic_watermark_action.h", "add__dynamic__watermark__action_8h_source.html", null ],

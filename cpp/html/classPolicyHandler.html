@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: PolicyHandler Class Reference</title>
+<title>Microsoft Information Protection SDK - C: PolicyHandler Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -109,16 +109,6 @@ $(function(){initNavTree('classPolicyHandler.html',''); initResizable(true); });
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="policy__handler_8h_source.html">policy_handler.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for PolicyHandler:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classPolicyHandler.png" usemap="#PolicyHandler_map" alt=""/>
-  <map id="PolicyHandler_map" name="PolicyHandler_map">
-<area href="classPolicyHandlerImpl.html" alt="PolicyHandlerImpl" shape="rect" coords="0,56,123,80"/>
-<area href="classPolicyHandlerMock.html" alt="PolicyHandlerMock" shape="rect" coords="0,112,123,136"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -176,8 +166,6 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>list of actions that should be applied on the content. </dd></dl>
 
-<p>Implemented in <a class="el" href="classPolicyHandlerImpl.html#afcc66367ac8fc98d9483d1d6bb33d5bc">PolicyHandlerImpl</a>.</p>
-
 </div>
 </div>
 <a id="aac427c5633a93cf866e19bbb489a5daa" name="aac427c5633a93cf866e19bbb489a5daa"></a>
@@ -212,8 +200,6 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the label currently applied to the content. If not labeled, returns empty. </dd></dl>
 
-<p>Implemented in <a class="el" href="classPolicyHandlerImpl.html#aaf17319d79784b03a514dae47e188b1e">PolicyHandlerImpl</a>.</p>
-
 </div>
 </div>
 <a id="a8090b72f173c4c3e389c987b35615e6a" name="a8090b72f173c4c3e389c987b35615e6a"></a>
@@ -246,7 +232,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Checks whether metadata contains label artifacts. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">metadata</td><td><a class="el" href="classMetadata.html">Metadata</a> of file to check </td></tr>
+    <tr><td class="paramname">metadata</td><td>Metadata of file to check </td></tr>
     <tr><td class="paramname">mipContext</td><td>Global MIP context</td></tr>
   </table>
   </dd>
@@ -291,7 +277,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Checks whether metadata contains label artifacts. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">metadata</td><td><a class="el" href="classMetadata.html">Metadata</a> of file to check </td></tr>
+    <tr><td class="paramname">metadata</td><td>Metadata of file to check </td></tr>
     <tr><td class="paramname">mipContext</td><td>Global MIP context </td></tr>
     <tr><td class="paramname">loggerContext</td><td>Logger context that will be opaquely passed to the logger delegate</td></tr>
   </table>
@@ -333,8 +319,6 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>: This call sends an audit event. </dd></dl>
-
-<p>Implemented in <a class="el" href="classPolicyHandlerImpl.html#ae801ee0502d8aec669fd102a9a447953">PolicyHandlerImpl</a>.</p>
 
 </div>
 </div>

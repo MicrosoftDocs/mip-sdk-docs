@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: ProtectionHandler Class Reference</title>
+<title>Microsoft Information Protection SDK - C: ProtectionHandler Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -110,16 +110,6 @@ $(function(){initNavTree('classProtectionHandler.html',''); initResizable(true);
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="protection__handler_8h_source.html">protection_handler.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for ProtectionHandler:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classProtectionHandler.png" usemap="#ProtectionHandler_map" alt=""/>
-  <map id="ProtectionHandler_map" name="ProtectionHandler_map">
-<area href="classPendingProtectionHandler.html" alt="PendingProtectionHandler" shape="rect" coords="0,56,160,80"/>
-<area href="classProtectionHandlerImpl.html" alt="ProtectionHandlerImpl" shape="rect" coords="170,56,330,80"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -258,13 +248,11 @@ Public Member Functions</h2></td></tr>
 <p>Checks if protection handler grants user access to the specified right. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">right</td><td><a class="el" href="classRight.html">Right</a> to check</td></tr>
+    <tr><td class="paramname">right</td><td>Right to check</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>If protection handler grants user access to the specified right or not </dd></dl>
-
-<p>Implemented in <a class="el" href="classPendingProtectionHandler.html#a734e2259d42b3e2c9ee0a85652df84e4">PendingProtectionHandler</a>, and <a class="el" href="classProtectionHandlerImpl.html#ad350efe58f0344859b922aeb57efb655">ProtectionHandlerImpl</a>.</p>
 
 </div>
 </div>
@@ -310,8 +298,6 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Protected stream </dd></dl>
-
-<p>Implemented in <a class="el" href="classPendingProtectionHandler.html#a1b25ef6579dfee75930daa92a07c75fe">PendingProtectionHandler</a>, and <a class="el" href="classProtectionHandlerImpl.html#a7053bc86779509fe3f42e47ce698b7ad">ProtectionHandlerImpl</a>.</p>
 
 </div>
 </div>
@@ -376,8 +362,6 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>actual size (in bytes) of decrypted content </dd></dl>
 
-<p>Implemented in <a class="el" href="classPendingProtectionHandler.html#a4d0ad1e65f3751cb73a962c1a51ac8bf">PendingProtectionHandler</a>, and <a class="el" href="classProtectionHandlerImpl.html#adfbeb04afdf5a2136278432762d8d07f">ProtectionHandlerImpl</a>.</p>
-
 </div>
 </div>
 <a id="ad4643b687ab98a0ba4be7c7c2c83a83d" name="ad4643b687ab98a0ba4be7c7c2c83a83d"></a>
@@ -405,8 +389,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets if protection handler uses deprecated crypto algorithms (ECB) for backward compatibility or not. </p>
 <dl class="section return"><dt>Returns</dt><dd>If protection handler uses deprecated crypto algorithms or not </dd></dl>
-
-<p>Implemented in <a class="el" href="classPendingProtectionHandler.html#a87bef112bf99a89d8ec84bc5d7bda833">PendingProtectionHandler</a>, and <a class="el" href="classProtectionHandlerImpl.html#aa4d82c041542639c571e28f85cda17b1">ProtectionHandlerImpl</a>.</p>
 
 </div>
 </div>
@@ -471,8 +453,6 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>actual size (in bytes) of encrypted content </dd></dl>
 
-<p>Implemented in <a class="el" href="classPendingProtectionHandler.html#af1b9c2ee5356b050efb90d1943ce7e1c">PendingProtectionHandler</a>, and <a class="el" href="classProtectionHandlerImpl.html#a125bafe3962dd729ee9691a50b454f5f">ProtectionHandlerImpl</a>.</p>
-
 </div>
 </div>
 <a id="ae6c6ff7bb21b08425a01126692d92f22" name="ae6c6ff7bb21b08425a01126692d92f22"></a>
@@ -501,8 +481,6 @@ Public Member Functions</h2></td></tr>
 <p>Gets the block size (in bytes) for the cipher mode used by this <a class="el" href="classProtectionHandler.html" title="Manages protection-related actions for a specific protection configuration.">ProtectionHandler</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>Block size (in bytes) </dd></dl>
 
-<p>Implemented in <a class="el" href="classPendingProtectionHandler.html#a8ed3f505ed793462ab92d9ad41615b3f">PendingProtectionHandler</a>, and <a class="el" href="classProtectionHandlerImpl.html#ad2292be6c5336c370f3381e2f68a14b2">ProtectionHandlerImpl</a>.</p>
-
 </div>
 </div>
 <a id="ac282f4e79d4f4813911a4a135c729b7e" name="ac282f4e79d4f4813911a4a135c729b7e"></a>
@@ -530,8 +508,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets the cipher mode of the protection handler. </p>
 <dl class="section return"><dt>Returns</dt><dd>The cipher mode </dd></dl>
-
-<p>Implemented in <a class="el" href="classPendingProtectionHandler.html#a99ced68458b019823aaa807e8414b485">PendingProtectionHandler</a>, and <a class="el" href="classProtectionHandlerImpl.html#a79190e4402828b78925f7a16547de33c">ProtectionHandlerImpl</a>.</p>
 
 </div>
 </div>
@@ -562,8 +538,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Unique content identifier</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Publishing licenses will have this identifier surrounded by curly braces "{}". Those braces are removed from the value returned here </dd></dl>
 
-<p>Implemented in <a class="el" href="classPendingProtectionHandler.html#aa8381973e512e36f1a674a67272e2abc">PendingProtectionHandler</a>, and <a class="el" href="classProtectionHandlerImpl.html#a7c60c4e21e7a06bcef0037cdbc737086">ProtectionHandlerImpl</a>.</p>
-
 </div>
 </div>
 <a id="a9e4e953361992cf5f279eca46de1a2da" name="a9e4e953361992cf5f279eca46de1a2da"></a>
@@ -592,8 +566,6 @@ Public Member Functions</h2></td></tr>
 <p>Gets user associated with the protection handler. </p>
 <dl class="section return"><dt>Returns</dt><dd>User associated with protection handler </dd></dl>
 
-<p>Implemented in <a class="el" href="classPendingProtectionHandler.html#a97b38c3c36bcdd92d51269048a5cfd67">PendingProtectionHandler</a>, and <a class="el" href="classProtectionHandlerImpl.html#a938adabd727a354b8a7b80854f779596">ProtectionHandlerImpl</a>.</p>
-
 </div>
 </div>
 <a id="aafa17fd5e467a617babf60aeb932c826" name="aafa17fd5e467a617babf60aeb932c826"></a>
@@ -621,8 +593,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets email address of content owner. </p>
 <dl class="section return"><dt>Returns</dt><dd>Email address of content owner </dd></dl>
-
-<p>Implemented in <a class="el" href="classPendingProtectionHandler.html#ab3d59e22300d0439641d4fe4d7f96e0a">PendingProtectionHandler</a>, and <a class="el" href="classProtectionHandlerImpl.html#a27154e75fad6248b12ee791371154b61">ProtectionHandlerImpl</a>.</p>
 
 </div>
 </div>
@@ -663,8 +633,6 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Size (in bytes) of protected content </dd></dl>
 
-<p>Implemented in <a class="el" href="classPendingProtectionHandler.html#a09623cbd0cb777782b9dd6eee87bf84a">PendingProtectionHandler</a>, and <a class="el" href="classProtectionHandlerImpl.html#a7ae6039aa872bae3ea5cf7d30f776a3f">ProtectionHandlerImpl</a>.</p>
-
 </div>
 </div>
 <a id="a7863dd36e8aa7b25db3eb171982aa4e8" name="a7863dd36e8aa7b25db3eb171982aa4e8"></a>
@@ -693,8 +661,6 @@ Public Member Functions</h2></td></tr>
 <p>Gets protection details. </p>
 <dl class="section return"><dt>Returns</dt><dd>Protection details </dd></dl>
 
-<p>Implemented in <a class="el" href="classPendingProtectionHandler.html#ac4a2d469bba56a806e9aa22be4543ffa">PendingProtectionHandler</a>, and <a class="el" href="classProtectionHandlerImpl.html#a2557de70bb3f01033cb6dcd1c9ef55a5">ProtectionHandlerImpl</a>.</p>
-
 </div>
 </div>
 <a id="ac7a3459a5cd908d8b3f2868c2ef7d342" name="ac7a3459a5cd908d8b3f2868c2ef7d342"></a>
@@ -722,8 +688,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets the rights granted to the user/identity associated with this <a class="el" href="classProtectionHandler.html" title="Manages protection-related actions for a specific protection configuration.">ProtectionHandler</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>Rights granted to the user </dd></dl>
-
-<p>Implemented in <a class="el" href="classPendingProtectionHandler.html#a297c47e3898342d587418730acef1c5a">PendingProtectionHandler</a>, and <a class="el" href="classProtectionHandlerImpl.html#a59221e744cc2f3c4f0c0891f27fd13b4">ProtectionHandlerImpl</a>.</p>
 
 </div>
 </div>
@@ -760,8 +724,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Serialized pre-license</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>A pre-license allows a user to immediately consume content without making an additional HTTP call. The <a class="el" href="classProtectionHandler.html" title="Manages protection-related actions for a specific protection configuration.">ProtectionHandler</a> must have been created with a <a class="el" href="classProtectionHandler_1_1PublishingSettings.html#afa3aed89ea38dbee80a52f4629b206c3" title="Sets pre-license user.">ProtectionHandler::PublishingSettings::SetPreLicenseUserEmail</a> value or else this will return an empty vector. </dd></dl>
 
-<p>Implemented in <a class="el" href="classPendingProtectionHandler.html#ae59b7c2f600a82cf1f1b276a41d5243e">PendingProtectionHandler</a>, and <a class="el" href="classProtectionHandlerImpl.html#a720bde4faa496c04bcb3a4514e631c64">ProtectionHandlerImpl</a>.</p>
-
 </div>
 </div>
 <a id="a1e5ae624c98d1d7fe983da3b4778f5cb" name="a1e5ae624c98d1d7fe983da3b4778f5cb"></a>
@@ -789,8 +751,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Serialize <a class="el" href="classProtectionHandler.html" title="Manages protection-related actions for a specific protection configuration.">ProtectionHandler</a> into a publishing license (PL) </p>
 <dl class="section return"><dt>Returns</dt><dd>Serialized publishing license </dd></dl>
-
-<p>Implemented in <a class="el" href="classPendingProtectionHandler.html#a21ce70bc879e105bf1122b6fac4c859e">PendingProtectionHandler</a>, and <a class="el" href="classProtectionHandlerImpl.html#a42c9233a57cb8433979ff879b64a0736">ProtectionHandlerImpl</a>.</p>
 
 </div>
 </div>
@@ -820,8 +780,6 @@ Public Member Functions</h2></td></tr>
 <p>Gets if protection handler grants user 'audited extract' right or not. </p>
 <dl class="section return"><dt>Returns</dt><dd>If protection handler grants user 'audited extract' right or not </dd></dl>
 
-<p>Implemented in <a class="el" href="classPendingProtectionHandler.html#ab73cef374c4f020b48bc703c5bf49094">PendingProtectionHandler</a>, and <a class="el" href="classProtectionHandlerImpl.html#ab0377f736b83cfb50fe72a06bc60946a">ProtectionHandlerImpl</a>.</p>
-
 </div>
 </div>
 <a id="a0b60c7e5b546c976ad142766a6fb1715" name="a0b60c7e5b546c976ad142766a6fb1715"></a>
@@ -850,8 +808,6 @@ Public Member Functions</h2></td></tr>
 <p>Gets if the current user is the content owner or not. </p>
 <dl class="section return"><dt>Returns</dt><dd>If the current user is the content owner or not </dd></dl>
 
-<p>Implemented in <a class="el" href="classPendingProtectionHandler.html#a73f4b382dc680bdd7d1aa058f770fe12">PendingProtectionHandler</a>, and <a class="el" href="classProtectionHandlerImpl.html#a24de09552fcb11b6cb30e9a1f5063a52">ProtectionHandlerImpl</a>.</p>
-
 </div>
 </div>
 <a id="a5a4ea4e1a9b4e3fb389e1aac039cebad" name="a5a4ea4e1a9b4e3fb389e1aac039cebad"></a>
@@ -879,8 +835,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets if protected content requires application-defined padding or if it is handled internally. </p>
 <dl class="section return"><dt>Returns</dt><dd>True, if application-defined padding is required, false if not. </dd></dl>
-
-<p>Implemented in <a class="el" href="classPendingProtectionHandler.html#adc19cd65c9cf566613c5cb09e74dbdba">PendingProtectionHandler</a>, and <a class="el" href="classProtectionHandlerImpl.html#a32b5cd966affa805e449f7d14b9a9b3d">ProtectionHandlerImpl</a>.</p>
 
 </div>
 </div>

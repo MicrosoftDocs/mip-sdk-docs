@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: TaskDispatcherDelegate Class Reference</title>
+<title>Microsoft Information Protection SDK - C: TaskDispatcherDelegate Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -108,15 +108,6 @@ $(function(){initNavTree('classTaskDispatcherDelegate.html',''); initResizable(t
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="task__dispatcher__delegate_8h_source.html">task_dispatcher_delegate.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for TaskDispatcherDelegate:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classTaskDispatcherDelegate.png" usemap="#TaskDispatcherDelegate_map" alt=""/>
-  <map id="TaskDispatcherDelegate_map" name="TaskDispatcherDelegate_map">
-<area href="classFakeTaskDispatcherDelegate.html" alt="FakeTaskDispatcherDelegate" shape="rect" coords="0,56,177,80"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -144,42 +135,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a582c7f1aeeda29c793546dd63bd86f43" id="r_a582c7f1aeeda29c793546dd63bd86f43"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a582c7f1aeeda29c793546dd63bd86f43">CancelTask</a> (const std::string &amp;taskId, const std::shared_ptr&lt; void &gt; &amp;)</td></tr>
 <tr class="memdesc:a582c7f1aeeda29c793546dd63bd86f43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancel a background task.  <br /></td></tr>
 <tr class="separator:a582c7f1aeeda29c793546dd63bd86f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb6444f49c0965600d11a5304ca53ae2" id="r_acb6444f49c0965600d11a5304ca53ae2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb6444f49c0965600d11a5304ca53ae2">CancelAllTasks</a> ()=0</td></tr>
-<tr class="memdesc:acb6444f49c0965600d11a5304ca53ae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancel all background tasks.  <br /></td></tr>
+<tr class="memitem:acb6444f49c0965600d11a5304ca53ae2" id="r_acb6444f49c0965600d11a5304ca53ae2"><td class="memItemLeft" align="right" valign="top"><a id="acb6444f49c0965600d11a5304ca53ae2" name="acb6444f49c0965600d11a5304ca53ae2"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>CancelAllTasks</b> ()=0</td></tr>
+<tr class="memdesc:acb6444f49c0965600d11a5304ca53ae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancel all background tasks. <br /></td></tr>
 <tr class="separator:acb6444f49c0965600d11a5304ca53ae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class that defines the interface to the MIP SDK task dispatcher. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="acb6444f49c0965600d11a5304ca53ae2" name="acb6444f49c0965600d11a5304ca53ae2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb6444f49c0965600d11a5304ca53ae2">&#9670;&#160;</a></span>CancelAllTasks()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void TaskDispatcherDelegate::CancelAllTasks </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Cancel all background tasks. </p>
-
-<p>Implemented in <a class="el" href="classFakeTaskDispatcherDelegate.html#aed5aa82f41da6787966df5b8ea3835e4">FakeTaskDispatcherDelegate</a>.</p>
-
-</div>
-</div>
 <a id="a8bfdbf1e07ead77615d3e4ce9427a89c" name="a8bfdbf1e07ead77615d3e4ce9427a89c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8bfdbf1e07ead77615d3e4ce9427a89c">&#9670;&#160;</a></span>CancelTask() <span class="overload">[1/2]</span></h2>
 
@@ -211,8 +174,6 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if task was successfully cancelled, else false </dd></dl>
-
-<p>Implemented in <a class="el" href="classFakeTaskDispatcherDelegate.html#a24b040890c6099ff3b08ad5f2afb8087">FakeTaskDispatcherDelegate</a>.</p>
 
 </div>
 </div>
@@ -291,8 +252,6 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classFakeTaskDispatcherDelegate.html#a223615ab28da5a4c68c87e9fb7ba8c95">FakeTaskDispatcherDelegate</a>.</p>
-
 </div>
 </div>
 <a id="af3ef46ab07afbc4ca672c8c19bdfd0b0" name="af3ef46ab07afbc4ca672c8c19bdfd0b0"></a>
@@ -337,8 +296,6 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classFakeTaskDispatcherDelegate.html#ad1db4706e470babf0bf76774f59c23c0">FakeTaskDispatcherDelegate</a>.</p>
-
 </div>
 </div>
 <a id="a2fdf17596fa60812f69012cf66f48dcc" name="a2fdf17596fa60812f69012cf66f48dcc"></a>
@@ -382,8 +339,6 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-<p>Implemented in <a class="el" href="classFakeTaskDispatcherDelegate.html#abd7311e3a3a884d53ba3658e32f2bcdb">FakeTaskDispatcherDelegate</a>.</p>
 
 </div>
 </div>
@@ -435,8 +390,6 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classFakeTaskDispatcherDelegate.html#a0c35486c8afa03fc5d5d9faae90e059f">FakeTaskDispatcherDelegate</a>.</p>
-
 </div>
 </div>
 <a id="aeda33b9012b1c8f569179674096222a2" name="aeda33b9012b1c8f569179674096222a2"></a>
@@ -474,8 +427,6 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-<p>Implemented in <a class="el" href="classFakeTaskDispatcherDelegate.html#a2b3258ee97af2b95bffa23df75dc3efe">FakeTaskDispatcherDelegate</a>.</p>
 
 </div>
 </div>
@@ -520,8 +471,6 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-<p>Reimplemented in <a class="el" href="classFakeTaskDispatcherDelegate.html#ae3fa2223625ebd8e36bfc59d8a386d57">FakeTaskDispatcherDelegate</a>.</p>
 
 </div>
 </div>

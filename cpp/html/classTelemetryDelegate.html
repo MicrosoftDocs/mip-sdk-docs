@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: TelemetryDelegate Class Reference</title>
+<title>Microsoft Information Protection SDK - C: TelemetryDelegate Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
    </div>
-   <div id="projectbrief">API Reference Documentation for C++</div>
+   <div id="projectbrief">API Reference Documentation for C</div>
   </td>
  </tr>
  </tbody>
@@ -113,11 +113,7 @@ Inheritance diagram for TelemetryDelegate:</div>
  <div class="center">
   <img src="classTelemetryDelegate.png" usemap="#TelemetryDelegate_map" alt=""/>
   <map id="TelemetryDelegate_map" name="TelemetryDelegate_map">
-<area href="classDiagnosticDelegate.html" alt="DiagnosticDelegate&lt; TelemetryEvent &gt;" shape="rect" coords="363,0,595,24"/>
-<area href="classEmptyTelemetryDelegate.html" alt="EmptyTelemetryDelegate" shape="rect" coords="0,112,232,136"/>
-<area href="classOneDSTelemetryDelegate.html" alt="OneDSTelemetryDelegate" shape="rect" coords="242,112,474,136"/>
-<area href="classTelemetryDelegateImpl.html" alt="TelemetryDelegateImpl" shape="rect" coords="484,112,716,136"/>
-<area href="classTelemetryDelegateWrapper.html" alt="TelemetryDelegateWrapper" shape="rect" coords="726,112,958,136"/>
+<area href="classDiagnosticDelegate.html" alt="DiagnosticDelegate&lt; TelemetryEvent &gt;" shape="rect" coords="0,0,232,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -130,8 +126,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae70dde19c003ff4f4d557cb9cdd43dee inherit pub_methods_classDiagnosticDelegate" id="r_ae70dde19c003ff4f4d557cb9cdd43dee"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDiagnosticDelegate.html#ae70dde19c003ff4f4d557cb9cdd43dee">WriteEvent</a> (const std::shared_ptr&lt; <a class="el" href="classTelemetryEvent.html">TelemetryEvent</a> &gt; &amp;event, const mip::EventContext &amp;eventContext)=0</td></tr>
 <tr class="memdesc:ae70dde19c003ff4f4d557cb9cdd43dee inherit pub_methods_classDiagnosticDelegate"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log a diagnostic event.  <br /></td></tr>
 <tr class="separator:ae70dde19c003ff4f4d557cb9cdd43dee inherit pub_methods_classDiagnosticDelegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3a21b96a53f97ab2921d201990c1c68 inherit pub_methods_classDiagnosticDelegate" id="r_ab3a21b96a53f97ab2921d201990c1c68"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDiagnosticDelegate.html#ab3a21b96a53f97ab2921d201990c1c68">Flush</a> ()=0</td></tr>
-<tr class="memdesc:ab3a21b96a53f97ab2921d201990c1c68 inherit pub_methods_classDiagnosticDelegate"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush any queued events (e.g. due to shutdown)  <br /></td></tr>
+<tr class="memitem:ab3a21b96a53f97ab2921d201990c1c68 inherit pub_methods_classDiagnosticDelegate" id="r_ab3a21b96a53f97ab2921d201990c1c68"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Flush</b> ()=0</td></tr>
+<tr class="memdesc:ab3a21b96a53f97ab2921d201990c1c68 inherit pub_methods_classDiagnosticDelegate"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush any queued events (e.g. due to shutdown) <br /></td></tr>
 <tr class="separator:ab3a21b96a53f97ab2921d201990c1c68 inherit pub_methods_classDiagnosticDelegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

@@ -2,7 +2,7 @@ var classProtectionEngine_1_1Settings =
 [
     [ "Settings", "classProtectionEngine_1_1Settings.html#a725605e4070d369f1817ad42b983c4cd", null ],
     [ "Settings", "classProtectionEngine_1_1Settings.html#a6532b09056416704229b49065fa2e162", null ],
-    [ "AddRmsCapability", "classProtectionEngine_1_1Settings.html#aecd036e7e45bcafdd68d20f801a3b315", null ],
+    [ "AddRmsCapability", "classProtectionEngine_1_1Settings.html#a1871dbe7449ed86ab0b93433372364e1", null ],
     [ "GetAllowCloudServiceOnly", "classProtectionEngine_1_1Settings.html#a627f5ffd03da0c6497799a1a99da8501", null ],
     [ "GetAuthDelegate", "classProtectionEngine_1_1Settings.html#ae79ee640cba6acdc4b61390632cf4b36", null ],
     [ "GetClientData", "classProtectionEngine_1_1Settings.html#a6aed078c9a9957ddba9f07b0306c8032", null ],
@@ -19,7 +19,7 @@ var classProtectionEngine_1_1Settings =
     [ "GetTemplateBatchSize", "classProtectionEngine_1_1Settings.html#aa4c67dabf456b11e2eab32a0ee855635", null ],
     [ "GetTemplateRefreshInterval", "classProtectionEngine_1_1Settings.html#a2cf4de1d4039db07fe7608ba5eb46dbb", null ],
     [ "GetUnderlyingApplicationId", "classProtectionEngine_1_1Settings.html#aaffe9ee8c23694ef1758d39f6c282fb4", null ],
-    [ "RemoveRmsCapability", "classProtectionEngine_1_1Settings.html#a774e3cbc60018144fec2c75cce2fd74b", null ],
+    [ "RemoveRmsCapability", "classProtectionEngine_1_1Settings.html#a74462ea2aff18a6993b1da4c722f8f7e", null ],
     [ "SetAllowCloudServiceOnly", "classProtectionEngine_1_1Settings.html#ab0d8bab75f83cdac01c620788acddbf2", null ],
     [ "SetAuthDelegate", "classProtectionEngine_1_1Settings.html#aac39a4db7fd56654650aec7a0d1cee26", null ],
     [ "SetClientData", "classProtectionEngine_1_1Settings.html#a5ef670d909853ec3da2d536b38dc3cf2", null ],

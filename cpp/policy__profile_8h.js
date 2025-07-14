@@ -1,7 +1,6 @@
 var policy__profile_8h =
 [
     [ "AcquireAuthToken", "policy__profile_8h.html#afd78d7e218b04dfcde377325862507b3", null ],
-    [ "AcquireAuthToken", "policy__profile_8h.html#a01f5bf7916f3520d414a6772bd85e745", null ],
     [ "AddEngine", "policy__profile_8h.html#a5fcee0d4c57f6358724a2855b17ad876", null ],
     [ "AddEngineAsync", "policy__profile_8h.html#aeaa3ce8b7c2a260569b166273aa361b5", null ],
     [ "DeleteEngine", "policy__profile_8h.html#acf510ebec5feed1e8fe403b195157d10", null ],

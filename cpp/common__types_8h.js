@@ -93,15 +93,6 @@ var common__types_8h =
       [ "PFileSuffix", "common__types_8h.html#a0cdd774884c3465004e0f489eeeab9e3a048c35f9b6098c13d400c4bc7bfef4c1", null ],
       [ "PPrefix", "common__types_8h.html#a0cdd774884c3465004e0f489eeeab9e3a009280086ec16cd72d29f25c5fc461c5", null ]
     ] ],
-    [ "ServiceType", "common__types_8h.html#a258ffd3a2330563bc310b4dd520832ca", [
-      [ "Protection", "common__types_8h.html#a258ffd3a2330563bc310b4dd520832caa83f1d9ca1a0c4c2fc51a371c0d773f76", null ],
-      [ "Policy", "common__types_8h.html#a258ffd3a2330563bc310b4dd520832caa51359e8b51c63b87d50cb1bab73380e2", null ],
-      [ "Telemetry", "common__types_8h.html#a258ffd3a2330563bc310b4dd520832caaaa96a21412def0d916f43b639424f8e4", null ]
-    ] ],
-    [ "StorageTableVersion", "common__types_8h.html#a35be8535c2570bd764af6252223fe54f", [
-      [ "One", "common__types_8h.html#a35be8535c2570bd764af6252223fe54fa06c2cea18679d64399783748fa367bdd", null ],
-      [ "Two", "common__types_8h.html#a35be8535c2570bd764af6252223fe54faaada29daee1d64ed0fe907043855cb7e", null ]
-    ] ],
     [ "VariableTextMarkingType", "common__types_8h.html#a51da49d1af35336cd22cf21e1f936a86", [
       [ "Default", "common__types_8h.html#a51da49d1af35336cd22cf21e1f936a86a7a1920d61156abc05a60135aefe8bc67", null ],
       [ "PassThrough", "common__types_8h.html#a51da49d1af35336cd22cf21e1f936a86ae1ff6a7360e99cb46db6bb5d3ff8e2eb", null ],

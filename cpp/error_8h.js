@@ -28,7 +28,6 @@ var error_8h =
     [ "LicenseNotRegisteredError", "classLicenseNotRegisteredError.html", null ],
     [ "LabelDisabledError", "classLabelDisabledError.html", null ],
     [ "CustomerKeyUnavailableError", "classCustomerKeyUnavailableError.html", null ],
-    [ "MaxDepthReachedError", "classMaxDepthReachedError.html", null ],
     [ "ErrorType", "error_8h.html#af7a9c5a9d19bf72299ab821bd983e131", [
       [ "BAD_INPUT_ERROR", "error_8h.html#af7a9c5a9d19bf72299ab821bd983e131ab4caaf578917f041b757520d5db4e6f2", null ],
       [ "INSUFFICIENT_BUFFER_ERROR", "error_8h.html#af7a9c5a9d19bf72299ab821bd983e131ad6ef2aabfd89d9da46793440c1f2fb51", null ],
@@ -57,7 +56,6 @@ var error_8h =
       [ "TEMPLATE_ARCHIVED", "error_8h.html#af7a9c5a9d19bf72299ab821bd983e131ae2bcbafd56d4c7b0da20a538c8c3ea8a", null ],
       [ "CUSTOMER_KEY_UNAVAILABLE", "error_8h.html#af7a9c5a9d19bf72299ab821bd983e131aa18e84971bdd1fc22579e2d0fc53b9f3", null ],
       [ "DELEGATE_RESPONSE", "error_8h.html#af7a9c5a9d19bf72299ab821bd983e131af78d6ffb871dcc365478781b4d0cbdc1", null ],
-      [ "MAX_DEPTH_REACHED", "error_8h.html#af7a9c5a9d19bf72299ab821bd983e131a68461ddbac1293fb1c9d33491c4d60e7", null ],
       [ "COUNT", "error_8h.html#af7a9c5a9d19bf72299ab821bd983e131a4905ac9d6a22bdfc1ae096094ce6248d", null ]
     ] ]
 ];

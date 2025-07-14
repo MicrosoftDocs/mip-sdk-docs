@@ -141,9 +141,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2969c199d512f3dcd66ac24ecb644f48" id="r_a2969c199d512f3dcd66ac24ecb644f48"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2969c199d512f3dcd66ac24ecb644f48">AcquirePolicyAuthToken</a> (<a class="el" href="common__types_8h.html#a10dec50806bcdc01b5b0f3b5a5aafe44">Cloud</a> cloud, const std::shared_ptr&lt; <a class="el" href="classAuthDelegate.html">AuthDelegate</a> &gt; &amp;authDelegate) const =0</td></tr>
 <tr class="memdesc:a2969c199d512f3dcd66ac24ecb644f48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger an authentication callback for policy.  <br /></td></tr>
 <tr class="separator:a2969c199d512f3dcd66ac24ecb644f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a807a42db9ff40a743c2a5ae4ec79934f" id="r_a807a42db9ff40a743c2a5ae4ec79934f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a807a42db9ff40a743c2a5ae4ec79934f">AcquirePolicyAuthToken</a> (const std::string &amp;domainInfo, const std::shared_ptr&lt; <a class="el" href="classAuthDelegate.html">AuthDelegate</a> &gt; &amp;authDelegate) const =0</td></tr>
-<tr class="memdesc:a807a42db9ff40a743c2a5ae4ec79934f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger an authentication callback for policy.  <br /></td></tr>
-<tr class="separator:a807a42db9ff40a743c2a5ae4ec79934f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -159,7 +156,7 @@ Static Public Member Functions</h2></td></tr>
 <p>A typical application will only need one Profile. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2969c199d512f3dcd66ac24ecb644f48" name="a2969c199d512f3dcd66ac24ecb644f48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2969c199d512f3dcd66ac24ecb644f48">&#9670;&#160;</a></span>AcquirePolicyAuthToken() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2969c199d512f3dcd66ac24ecb644f48">&#9670;&#160;</a></span>AcquirePolicyAuthToken()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -189,45 +186,6 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">cloud</td><td>Azure cloud </td></tr>
-    <tr><td class="paramname">authDelegate</td><td>Authentication callback that will be invoked</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>MIP will not cache or do anything else with the value returned by the auth delegate. This function is recommended for applications that aren't "logged in" until after MIP requests an auth token. It allows an application to fetch a token before MIP actually requires one. </dd></dl>
-
-</div>
-</div>
-<a id="a807a42db9ff40a743c2a5ae4ec79934f" name="a807a42db9ff40a743c2a5ae4ec79934f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a807a42db9ff40a743c2a5ae4ec79934f">&#9670;&#160;</a></span>AcquirePolicyAuthToken() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void FileProfile::AcquirePolicyAuthToken </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>domainInfo</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classAuthDelegate.html">AuthDelegate</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>authDelegate</em></span>&#160;) const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Trigger an authentication callback for policy. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">DomainInfo</td><td>domain name or tenant ID </td></tr>
     <tr><td class="paramname">authDelegate</td><td>Authentication callback that will be invoked</td></tr>
   </table>
   </dd>

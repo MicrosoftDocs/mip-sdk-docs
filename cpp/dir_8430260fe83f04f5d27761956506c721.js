@@ -7,7 +7,6 @@ var dir_8430260fe83f04f5d27761956506c721 =
     [ "android.h", "android_8h.html", null ],
     [ "audit_delegate.h", "audit__delegate_8h.html", "audit__delegate_8h" ],
     [ "audit_event.h", "audit__event_8h.html", "audit__event_8h" ],
-    [ "cloud_discovery_delegate.h", "cloud__discovery__delegate_8h.html", "cloud__discovery__delegate_8h" ],
     [ "common_types.h", "common__types_8h.html", "common__types_8h" ],
     [ "delegate_response.h", "delegate__response_8h.html", null ],
     [ "diagnostic_configuration.h", "diagnostic__configuration_8h.html", "diagnostic__configuration_8h" ],

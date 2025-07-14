@@ -218,9 +218,6 @@ Variables</h2></td></tr>
 <p>Gets the size of client data associated with a policy engine.</p>
 <p>Get metadata entries that compose a dictionary.</p>
 <p>Gets a "metadata" action's metadata to add.</p>
-<p>Gets whether the label is associated with a policy that applies protection.</p>
-<p>Gets label Double Key URL.</p>
-<p>Gets size of buffer required to store the label's Double Key URL.</p>
 <p>Gets policy-defined custom settings of a label.</p>
 <p>Gets the children labels.</p>
 <p>Gets the number of children labels.</p>
@@ -2213,7 +2210,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
-<dl class="section note"><dt>Note</dt><dd>Only active labels can be applied. Inactive labels cannot be applied and are used for display purposes only.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Only active labels can be applied. Inactivte labels cannot be applied and are used for display purposes only.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label </td></tr>
@@ -2254,36 +2251,6 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>The 'settings' variable must be released by the caller by calling MIP_CC_ReleaseDictionary</dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">label</td><td>Label </td></tr>
-    <tr><td class="paramname">doubleKeyUrlSize</td><td>[Output] Size of buffer to hold doubleKeyUrl (in number of chars) </td></tr>
-    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">label</td><td>Label </td></tr>
-    <tr><td class="paramname">doubleKeyUrlBuffer</td><td>[Output] Buffer the doubleKeyUrl will be copied into. </td></tr>
-    <tr><td class="paramname">doubleKeyUrlBufferSize</td><td>Size (in number of chars) of the doubleKeyUrlBuffer. </td></tr>
-    <tr><td class="paramname">actualDoubleKeyUrlSize</td><td>[Output] (Optional) Number of chars written to the buffer </td></tr>
-    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
-<dl class="section note"><dt>Note</dt><dd>If doubleKeyUrlBuffer is null or insufficient, MIP_RESULT_ERROR_INSUFFICIENT_BUFFER will be returned and actualDoubleKeyUrlSize will be set to the minimum required buffer size.</dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">label</td><td>Label </td></tr>
-    <tr><td class="paramname">hasRightsManagementPolicy</td><td>[Output] Whether or not a label has a rights management policy. </td></tr>
-    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">action</td><td>"metadata" action </td></tr>

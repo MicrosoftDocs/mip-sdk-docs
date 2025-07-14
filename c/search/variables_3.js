@@ -21,9 +21,6 @@ var searchData=
   ['doescontentexpire_18',['doesContentExpire',['../protection__descriptor__cc_8h.html#a6f79bd3baade1984cf17761d1de8b11d',1,'protection_descriptor_cc.h']]],
   ['doesusedeprecatedalgorithm_19',['doesUseDeprecatedAlgorithm',['../protection__handler__cc_8h.html#abf0c3637874ac3daf754a12a2917fdce',1,'protection_handler_cc.h']]],
   ['doublekeyurl_20',['doubleKeyUrl',['../protection__descriptor__builder__cc_8h.html#a25d87aaa851009858ca5f1ff1b8384a9',1,'protection_descriptor_builder_cc.h']]],
-  ['doublekeyurlbuffer_21',['doubleKeyUrlBuffer',['../label__cc_8h.html#a40a0231f1771b0c41024389b517d799c',1,'label_cc.h']]],
-  ['doublekeyurlbuffersize_22',['doubleKeyUrlBufferSize',['../label__cc_8h.html#a20e04220eb88d2ef76f9c2624e1f597b',1,'label_cc.h']]],
-  ['doublekeyurlsize_23',['doubleKeyUrlSize',['../label__cc_8h.html#a8090654d44c131e0feb7114ce1b981e8',1,'label_cc.h']]],
-  ['downgradejustification_24',['downgradeJustification',['../structmip__cc__application__action__state.html#aaca9f7396d1d4be3bb2ccef4a38b49b8',1,'mip_cc_application_action_state']]],
-  ['dynamicwatermark_25',['dynamicWatermark',['../delegation__license__cc_8h.html#a191e6d79f9db124d785a186bd9090b18',1,'dynamicWatermark:&#160;delegation_license_cc.h'],['../license__info__cc_8h.html#a191e6d79f9db124d785a186bd9090b18',1,'dynamicWatermark:&#160;license_info_cc.h'],['../protection__descriptor__cc_8h.html#a191e6d79f9db124d785a186bd9090b18',1,'dynamicWatermark:&#160;protection_descriptor_cc.h']]]
+  ['downgradejustification_21',['downgradeJustification',['../structmip__cc__application__action__state.html#aaca9f7396d1d4be3bb2ccef4a38b49b8',1,'mip_cc_application_action_state']]],
+  ['dynamicwatermark_22',['dynamicWatermark',['../delegation__license__cc_8h.html#a191e6d79f9db124d785a186bd9090b18',1,'dynamicWatermark:&#160;delegation_license_cc.h'],['../license__info__cc_8h.html#a191e6d79f9db124d785a186bd9090b18',1,'dynamicWatermark:&#160;license_info_cc.h'],['../protection__descriptor__cc_8h.html#a191e6d79f9db124d785a186bd9090b18',1,'dynamicWatermark:&#160;protection_descriptor_cc.h']]]
 ];

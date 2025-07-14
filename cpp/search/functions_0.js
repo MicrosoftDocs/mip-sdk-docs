@@ -1,9 +1,9 @@
 var searchData=
 [
   ['accesscheck_0',['AccessCheck',['../classProtectionHandler.html#ae55b54a188ff537dde86d33a447e02ab',1,'ProtectionHandler']]],
-  ['acquireauthtoken_1',['AcquireAuthToken',['../policy__profile_8h.html#afd78d7e218b04dfcde377325862507b3',1,'AcquireAuthToken(Cloud cloud, const std::shared_ptr&lt; AuthDelegate &gt; &amp;authDelegate) const =0:&#160;policy_profile.h'],['../policy__profile_8h.html#a01f5bf7916f3520d414a6772bd85e745',1,'AcquireAuthToken(const std::string &amp;domainInfo, const std::shared_ptr&lt; AuthDelegate &gt; &amp;authDelegate) const =0:&#160;policy_profile.h']]],
+  ['acquireauthtoken_1',['AcquireAuthToken',['../policy__profile_8h.html#afd78d7e218b04dfcde377325862507b3',1,'policy_profile.h']]],
   ['acquireoauth2token_2',['AcquireOAuth2Token',['../classAuthDelegate.html#ace3ec6c0708bde7d12679412e26ee3ca',1,'AuthDelegate::AcquireOAuth2Token(const Identity &amp;identity, const OAuth2Challenge &amp;challenge, OAuth2Token &amp;token)'],['../classAuthDelegate.html#a5b0653443548be7e18410bbd79c0a8a6',1,'AuthDelegate::AcquireOAuth2Token(const Identity &amp;identity, const OAuth2Challenge &amp;challenge, const std::shared_ptr&lt; void &gt; &amp;context, OAuth2Token &amp;token)']]],
-  ['acquirepolicyauthtoken_3',['AcquirePolicyAuthToken',['../classFileProfile.html#a2969c199d512f3dcd66ac24ecb644f48',1,'FileProfile::AcquirePolicyAuthToken(Cloud cloud, const std::shared_ptr&lt; AuthDelegate &gt; &amp;authDelegate) const =0'],['../classFileProfile.html#a807a42db9ff40a743c2a5ae4ec79934f',1,'FileProfile::AcquirePolicyAuthToken(const std::string &amp;domainInfo, const std::shared_ptr&lt; AuthDelegate &gt; &amp;authDelegate) const =0']]],
+  ['acquirepolicyauthtoken_3',['AcquirePolicyAuthToken',['../classFileProfile.html#a2969c199d512f3dcd66ac24ecb644f48',1,'FileProfile']]],
   ['addattribute_4',['AddAttribute',['../classxml_1_1XmlNode.html#a6086972a07470185ad1fb24c5c6403bf',1,'xml::XmlNode']]],
   ['addauditonlyproperty_5',['AddAuditOnlyProperty',['../classEvent.html#a83f07ea3562310b661aac029cb356782',1,'Event']]],
   ['addclassificationdata_6',['AddClassificationData',['../classConditionData.html#a4280fbf9bb795f3dbdb768abc04a77fe',1,'ConditionData']]],

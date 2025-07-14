@@ -20,6 +20,5 @@ var searchData=
   ['user_17',['USER',['../classDirectoryObject.html#a89f1aaf050dce4db20563117565222eca2e40ad879e955201df4dedbf8d479a12',1,'DirectoryObject']]],
   ['user_18',['User',['../classServiceDisabledError.html#a6263b135629b24de3c2ab4e250ee4eeda8f9bfe9d1345237cb3b2b205864da075',1,'ServiceDisabledError']]],
   ['userapidjson_19',['UseRapidJson',['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0af45ce179cec30d47f52df7ea49ede0fe',1,'flighting_feature.h']]],
-  ['usernotfound_20',['UserNotFound',['../classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a5e349b2189e271e32f633c077d4ff028',1,'NoPermissionsError']]],
-  ['usesubstratelabelpolicyendpoints_21',['UseSubstrateLabelPolicyEndpoints',['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a84f2afe10292be32600a10f0891c218b',1,'flighting_feature.h']]]
+  ['usernotfound_20',['UserNotFound',['../classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a5e349b2189e271e32f633c077d4ff028',1,'NoPermissionsError']]]
 ];

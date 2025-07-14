@@ -154,9 +154,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6655e0c40b624d5549f6238d6a84ff07" id="r_a6655e0c40b624d5549f6238d6a84ff07"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6655e0c40b624d5549f6238d6a84ff07">GetDoubleKeyUrl</a> () const =0</td></tr>
 <tr class="memdesc:a6655e0c40b624d5549f6238d6a84ff07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the double key URL, if the label requires double key user defined protection.  <br /></td></tr>
 <tr class="separator:a6655e0c40b624d5549f6238d6a84ff07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af99188ff525734caa5fae500407213c5" id="r_af99188ff525734caa5fae500407213c5"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af99188ff525734caa5fae500407213c5">HasRightsManagementPolicy</a> () const =0</td></tr>
-<tr class="memdesc:af99188ff525734caa5fae500407213c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether the label is associated with a policy that applies protection.  <br /></td></tr>
-<tr class="separator:af99188ff525734caa5fae500407213c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstraction for a single Microsoft Information Protection label. </p>
@@ -523,34 +520,6 @@ Public Member Functions</h2></td></tr>
 
 <p>Get the tooltip description of the label. </p>
 <dl class="section return"><dt>Returns</dt><dd>a tooltip string. </dd></dl>
-
-</div>
-</div>
-<a id="af99188ff525734caa5fae500407213c5" name="af99188ff525734caa5fae500407213c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af99188ff525734caa5fae500407213c5">&#9670;&#160;</a></span>HasRightsManagementPolicy()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool Label::HasRightsManagementPolicy </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets whether the label is associated with a policy that applies protection. </p>
-<dl class="section return"><dt>Returns</dt><dd>True if protection will be applied by label. False if not. </dd></dl>
 
 </div>
 </div>

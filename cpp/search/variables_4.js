@@ -6,7 +6,6 @@ var searchData=
   ['ismaxteardowntimeenabled_3',['isMaxTeardownTimeEnabled',['../structDiagnosticConfiguration.html#aae82cc0b5f4aa660fe68c0f6f4c804c2',1,'DiagnosticConfiguration']]],
   ['isminimaltelemetryenabled_4',['isMinimalTelemetryEnabled',['../structDiagnosticConfiguration.html#acda5412c484906c2e47ebfab219a3e2d',1,'DiagnosticConfiguration']]],
   ['isnetworkdetectionenabled_5',['isNetworkDetectionEnabled',['../structDiagnosticConfiguration.html#aceed29392537799369d86df1a6c1c47d',1,'DiagnosticConfiguration']]],
-  ['isofflineonly_6',['isOfflineOnly',['../classMipConfiguration.html#ac6482bcff27b176aa3182c8a0f764726',1,'MipConfiguration']]],
-  ['ispiiallowed_7',['isPiiAllowed',['../structLoggerConfiguration.html#ad79e5a36f90608b22d6afb226ca0e09b',1,'LoggerConfiguration']]],
-  ['istraceloggingenabled_8',['isTraceLoggingEnabled',['../structDiagnosticConfiguration.html#ad78ece641154287d12b9bfe66fffc9df',1,'DiagnosticConfiguration']]]
+  ['ispiiallowed_6',['isPiiAllowed',['../structLoggerConfiguration.html#ad79e5a36f90608b22d6afb226ca0e09b',1,'LoggerConfiguration']]],
+  ['istraceloggingenabled_7',['isTraceLoggingEnabled',['../structDiagnosticConfiguration.html#ad78ece641154287d12b9bfe66fffc9df',1,'DiagnosticConfiguration']]]
 ];

@@ -13,6 +13,5 @@ var classLabel =
     [ "GetParent", "classLabel.html#ada70cceb833ab881b2ae53fd3d70912d", null ],
     [ "GetSensitivity", "classLabel.html#adf93066a37b5457ad389660086f910d5", null ],
     [ "GetTooltip", "classLabel.html#a4db1f516a0697c1ad3169115e6426e21", null ],
-    [ "HasRightsManagementPolicy", "classLabel.html#af99188ff525734caa5fae500407213c5", null ],
     [ "IsActive", "classLabel.html#ae5449beae83fd0c0cd6fd87fc76dc712", null ]
 ];

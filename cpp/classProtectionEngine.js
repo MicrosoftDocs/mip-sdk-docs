@@ -8,8 +8,6 @@ var classProtectionEngine =
     [ "CreateProtectionHandlerForConsumptionAsync", "classProtectionEngine.html#a624c136b8d0ec7cec66c5b8f32cf7ce5", null ],
     [ "CreateProtectionHandlerForPublishing", "classProtectionEngine.html#a86290ac9143b0a0835bd2684f0f5a9a6", null ],
     [ "CreateProtectionHandlerForPublishingAsync", "classProtectionEngine.html#a96e15d291644ceb35c67d95541371da7", null ],
-    [ "DeleteStoredData", "classProtectionEngine.html#a0132762443dc722716bb56d935967233", null ],
-    [ "DeleteStoredData", "classProtectionEngine.html#a8262ca905ae98d7e51a4f43957ec128c", null ],
     [ "GetLicenseInfoForLabelId", "classProtectionEngine.html#a1c73e586dccb9aa01f295310bd0f1e30", null ],
     [ "GetLicenseRightsData", "classProtectionEngine.html#ae3372e9be3bdf01ac9e621c6164f6283", null ],
     [ "GetLicenseRightsDataAsync", "classProtectionEngine.html#a0860c37683c7a506b17da43b5727d3d9", null ],

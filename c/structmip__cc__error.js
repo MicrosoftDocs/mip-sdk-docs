@@ -1,6 +1,5 @@
 var structmip__cc__error =
 [
-    [ "badInputError_Category", "structmip__cc__error.html#a203ab69954eb11fe1d3a3678188914be", null ],
     [ "description", "structmip__cc__error.html#a8fdde03d5c899c1775268e4598e3aaf6", null ],
     [ "networkError_Category", "structmip__cc__error.html#af462c04927be7a0a63cbe7de60bfafe7", null ],
     [ "networkError_ResponseCode", "structmip__cc__error.html#a4a9d190d93b47925f23f974116ed3a6e", null ],

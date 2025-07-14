@@ -1,9 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"protection__handler_8h.html":[4,0,0,0,0,0,2,13],
-"protection__handler_8h_source.html":[4,0,0,0,0,0,2,13],
-"protection__profile_8h.html":[4,0,0,0,0,0,2,14],
-"protection__profile_8h_source.html":[4,0,0,0,0,0,2,14],
 "protection__settings_8h.html":[4,0,0,0,0,0,1,10],
 "protection__settings_8h_source.html":[4,0,0,0,0,0,1,10],
 "publishing__use__license__request_8h.html":[4,0,0,0,0,0,2,15],

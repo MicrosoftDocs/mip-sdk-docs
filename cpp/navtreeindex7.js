@@ -1,9 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"functions_func_p.html":[3,3,1,13],
-"functions_func_r.html":[3,3,1,14],
-"functions_func_s.html":[3,3,1,15],
-"functions_func_u.html":[3,3,1,16],
 "functions_func_w.html":[3,3,1,17],
 "functions_func_x.html":[3,3,1,18],
 "functions_func_~.html":[3,3,1,19],
@@ -249,5 +245,9 @@ var NAVTREEINDEX7 =
 "protection__descriptor__builder_8h.html":[4,0,0,0,0,0,34],
 "protection__descriptor__builder_8h_source.html":[4,0,0,0,0,0,34],
 "protection__engine_8h.html":[4,0,0,0,0,0,2,12],
-"protection__engine_8h_source.html":[4,0,0,0,0,0,2,12]
+"protection__engine_8h_source.html":[4,0,0,0,0,0,2,12],
+"protection__handler_8h.html":[4,0,0,0,0,0,2,13],
+"protection__handler_8h_source.html":[4,0,0,0,0,0,2,13],
+"protection__profile_8h.html":[4,0,0,0,0,0,2,14],
+"protection__profile_8h_source.html":[4,0,0,0,0,0,2,14]
 };

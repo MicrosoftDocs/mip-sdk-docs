@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "Microsoft Information Protection SDK - C++", "index.html", [
+    [ "Microsoft Information Protection SDK – C++ API Reference", "index.html", "index" ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -71,7 +72,7 @@ var NAVTREEINDEX =
 "classServiceDisabledError.html#ac18641be1d8ab8137caf996096c9d3f0",
 "common__types_8h.html#a8ff2be45682709f949c5f64eb584e81b",
 "functions_func_w.html",
-"protection__settings_8h_source.html"
+"protection__profile_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

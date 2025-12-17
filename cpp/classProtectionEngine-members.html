@@ -19,7 +19,6 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="custom.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -28,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.18</span>
    </div>
    <div id="projectbrief">API Reference Documentation for C++</div>
   </td>
@@ -110,6 +109,8 @@ $(function(){initNavTree('classProtectionEngine.html',''); initResizable(true); 
   <tr class="odd"><td class="entry"><a class="el" href="classProtectionEngine.html#a624c136b8d0ec7cec66c5b8f32cf7ce5">CreateProtectionHandlerForConsumptionAsync</a>(const ProtectionHandler::ConsumptionSettings &amp;settings, const std::shared_ptr&lt; ProtectionHandler::Observer &gt; &amp;observer, const std::shared_ptr&lt; void &gt; &amp;context)=0</td><td class="entry"><a class="el" href="classProtectionEngine.html">ProtectionEngine</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classProtectionEngine.html#a86290ac9143b0a0835bd2684f0f5a9a6">CreateProtectionHandlerForPublishing</a>(const ProtectionHandler::PublishingSettings &amp;settings, const std::shared_ptr&lt; void &gt; &amp;context)=0</td><td class="entry"><a class="el" href="classProtectionEngine.html">ProtectionEngine</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classProtectionEngine.html#a96e15d291644ceb35c67d95541371da7">CreateProtectionHandlerForPublishingAsync</a>(const ProtectionHandler::PublishingSettings &amp;settings, const std::shared_ptr&lt; ProtectionHandler::Observer &gt; &amp;observer, const std::shared_ptr&lt; void &gt; &amp;context)=0</td><td class="entry"><a class="el" href="classProtectionEngine.html">ProtectionEngine</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classProtectionEngine.html#a0132762443dc722716bb56d935967233">DeleteStoredData</a>(bool deleteAllData=false)=0</td><td class="entry"><a class="el" href="classProtectionEngine.html">ProtectionEngine</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classProtectionEngine.html#a8262ca905ae98d7e51a4f43957ec128c">DeleteStoredData</a>(std::chrono::time_point&lt; std::chrono::system_clock &gt; timePoint)=0</td><td class="entry"><a class="el" href="classProtectionEngine.html">ProtectionEngine</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classProtectionEngine.html#a1c73e586dccb9aa01f295310bd0f1e30">GetLicenseInfoForLabelId</a>(const std::string &amp;documentId, const std::string &amp;labelId, const std::string &amp;ownerEmail, const std::string &amp;delegatedUserEmail, const std::shared_ptr&lt; void &gt; &amp;context, const ProtectionCommonSettings &amp;settings=ProtectionCommonSettings())=0</td><td class="entry"><a class="el" href="classProtectionEngine.html">ProtectionEngine</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classProtectionEngine.html#ae3372e9be3bdf01ac9e621c6164f6283">GetLicenseRightsData</a>(const std::vector&lt; uint8_t &gt; &amp;serializedPublishingLicense, const std::shared_ptr&lt; void &gt; &amp;context, const ProtectionCommonSettings &amp;settings=ProtectionCommonSettings())=0</td><td class="entry"><a class="el" href="classProtectionEngine.html">ProtectionEngine</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classProtectionEngine.html#a0860c37683c7a506b17da43b5727d3d9">GetLicenseRightsDataAsync</a>(const std::vector&lt; uint8_t &gt; &amp;serializedPublishingLicense, const std::shared_ptr&lt; ProtectionEngine::Observer &gt; &amp;observer, const std::shared_ptr&lt; void &gt; &amp;context, const ProtectionCommonSettings &amp;settings=ProtectionCommonSettings())=0</td><td class="entry"><a class="el" href="classProtectionEngine.html">ProtectionEngine</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>

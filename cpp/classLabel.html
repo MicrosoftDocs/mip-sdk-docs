@@ -19,7 +19,6 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="custom.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -28,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.18</span>
    </div>
    <div id="projectbrief">API Reference Documentation for C++</div>
   </td>
@@ -154,6 +153,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6655e0c40b624d5549f6238d6a84ff07" id="r_a6655e0c40b624d5549f6238d6a84ff07"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6655e0c40b624d5549f6238d6a84ff07">GetDoubleKeyUrl</a> () const =0</td></tr>
 <tr class="memdesc:a6655e0c40b624d5549f6238d6a84ff07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the double key URL, if the label requires double key user defined protection.  <br /></td></tr>
 <tr class="separator:a6655e0c40b624d5549f6238d6a84ff07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af99188ff525734caa5fae500407213c5" id="r_af99188ff525734caa5fae500407213c5"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af99188ff525734caa5fae500407213c5">HasRightsManagementPolicy</a> () const =0</td></tr>
+<tr class="memdesc:af99188ff525734caa5fae500407213c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether the label is associated with a policy that applies protection.  <br /></td></tr>
+<tr class="separator:af99188ff525734caa5fae500407213c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62b0ac59d1c1cf2534c927a7046f960a" id="r_a62b0ac59d1c1cf2534c927a7046f960a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62b0ac59d1c1cf2534c927a7046f960a">HasDoNotForwardProtection</a> () const =0</td></tr>
+<tr class="memdesc:a62b0ac59d1c1cf2534c927a7046f960a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether the label is associated with a policy that applies do not forward protection.  <br /></td></tr>
+<tr class="separator:a62b0ac59d1c1cf2534c927a7046f960a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ebeb04f3e2c1d3243adf2700461fa13" id="r_a2ebeb04f3e2c1d3243adf2700461fa13"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ebeb04f3e2c1d3243adf2700461fa13">HasEncryptOnlyProtection</a> () const =0</td></tr>
+<tr class="memdesc:a2ebeb04f3e2c1d3243adf2700461fa13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether the label is associated with a policy that applies encrypt only protection.  <br /></td></tr>
+<tr class="separator:a2ebeb04f3e2c1d3243adf2700461fa13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d4c2ebf0ff12d116e1cbe825714fcbb" id="r_a2d4c2ebf0ff12d116e1cbe825714fcbb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d4c2ebf0ff12d116e1cbe825714fcbb">HasAdhocProtection</a> () const =0</td></tr>
+<tr class="memdesc:a2d4c2ebf0ff12d116e1cbe825714fcbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether the label is associated with a policy that applies adhoc protection.  <br /></td></tr>
+<tr class="separator:a2d4c2ebf0ff12d116e1cbe825714fcbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstraction for a single Microsoft Information Protection label. </p>
@@ -520,6 +531,118 @@ Public Member Functions</h2></td></tr>
 
 <p>Get the tooltip description of the label. </p>
 <dl class="section return"><dt>Returns</dt><dd>a tooltip string. </dd></dl>
+
+</div>
+</div>
+<a id="a2d4c2ebf0ff12d116e1cbe825714fcbb" name="a2d4c2ebf0ff12d116e1cbe825714fcbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d4c2ebf0ff12d116e1cbe825714fcbb">&#9670;&#160;</a></span>HasAdhocProtection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Label::HasAdhocProtection </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets whether the label is associated with a policy that applies adhoc protection. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if adhoc protection will be applied by label. False if not. </dd></dl>
+
+</div>
+</div>
+<a id="a62b0ac59d1c1cf2534c927a7046f960a" name="a62b0ac59d1c1cf2534c927a7046f960a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62b0ac59d1c1cf2534c927a7046f960a">&#9670;&#160;</a></span>HasDoNotForwardProtection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Label::HasDoNotForwardProtection </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets whether the label is associated with a policy that applies do not forward protection. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if do not forward protection will be applied by label. False if not. </dd></dl>
+
+</div>
+</div>
+<a id="a2ebeb04f3e2c1d3243adf2700461fa13" name="a2ebeb04f3e2c1d3243adf2700461fa13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ebeb04f3e2c1d3243adf2700461fa13">&#9670;&#160;</a></span>HasEncryptOnlyProtection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Label::HasEncryptOnlyProtection </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets whether the label is associated with a policy that applies encrypt only protection. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if encrypt only protection will be applied by label. False if not. </dd></dl>
+
+</div>
+</div>
+<a id="af99188ff525734caa5fae500407213c5" name="af99188ff525734caa5fae500407213c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af99188ff525734caa5fae500407213c5">&#9670;&#160;</a></span>HasRightsManagementPolicy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Label::HasRightsManagementPolicy </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets whether the label is associated with a policy that applies protection. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if protection will be applied by label. False if not. </dd></dl>
 
 </div>
 </div>

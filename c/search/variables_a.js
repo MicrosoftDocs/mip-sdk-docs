@@ -11,11 +11,12 @@ var searchData=
   ['level_8',['level',['../structmip__cc__log__message__data.html#ad6d5e3dca7237d9bfe7b71273e70ae76',1,'mip_cc_log_message_data::level'],['../policy__engine__cc_8h.html#a4d8634ba374002ecc7800ee7e88b959f',1,'level:&#160;policy_engine_cc.h']]],
   ['libraryname_9',['libraryName',['../telemetry__configuration__cc_8h.html#ac56671309b02ac240fa9dc5bf05cfd26',1,'telemetry_configuration_cc.h']]],
   ['licenseinfo_10',['licenseInfo',['../protection__engine__cc_8h.html#abd3ecb2c32ad1fd6606472946762e081',1,'protection_engine_cc.h']]],
-  ['line_11',['line',['../structmip__cc__log__message__data.html#aeb09f3c04f59083c55f63bfb169381fb',1,'mip_cc_log_message_data']]],
-  ['loadsensitivitytypes_12',['loadSensitivityTypes',['../policy__engine__cc_8h.html#abbfa4959077a1ffccc20140bb1792365',1,'policy_engine_cc.h']]],
-  ['locale_13',['locale',['../protection__engine__cc_8h.html#a2a7ae34bdb5f12f0d8b19f8f110c9b4c',1,'locale:&#160;protection_engine_cc.h'],['../policy__engine__cc_8h.html#ad9dea23bc95106202ce43083b6254c31',1,'locale:&#160;policy_engine_cc.h']]],
-  ['loggercontext_14',['loggerContext',['../structmip__cc__async__task.html#a08fd8756ea36d1a2f6a519636266f3ba',1,'mip_cc_async_task']]],
-  ['loggerdelegate_15',['loggerDelegate',['../structmip__cc__create__logger__delegate__message__data__args.html#a55453c2ea1847fea0660eda6012a3f65',1,'mip_cc_create_logger_delegate_message_data_args::loggerDelegate'],['../logger__delegate__cc_8h.html#a88aa0754ac70016ce69b36dba269f636',1,'loggerDelegate:&#160;logger_delegate_cc.h']]],
-  ['loggerdelegateoverride_16',['loggerDelegateOverride',['../mip__context__cc_8h.html#a00912efde25582bf1d5d39f6bd59d992',1,'mip_context_cc.h']]],
-  ['loglevel_17',['logLevel',['../mip__context__cc_8h.html#a11558c49f08538c5ef35653a0c8cb8ce',1,'mip_context_cc.h']]]
+  ['licensevaliduntil_11',['licenseValidUntil',['../protection__descriptor__cc_8h.html#a11a01a0018ef75b5f58ddebc18d5e0f7',1,'protection_descriptor_cc.h']]],
+  ['line_12',['line',['../structmip__cc__log__message__data.html#aeb09f3c04f59083c55f63bfb169381fb',1,'mip_cc_log_message_data']]],
+  ['loadsensitivitytypes_13',['loadSensitivityTypes',['../policy__engine__cc_8h.html#abbfa4959077a1ffccc20140bb1792365',1,'policy_engine_cc.h']]],
+  ['locale_14',['locale',['../protection__engine__cc_8h.html#a2a7ae34bdb5f12f0d8b19f8f110c9b4c',1,'locale:&#160;protection_engine_cc.h'],['../policy__engine__cc_8h.html#ad9dea23bc95106202ce43083b6254c31',1,'locale:&#160;policy_engine_cc.h']]],
+  ['loggercontext_15',['loggerContext',['../structmip__cc__async__task.html#a08fd8756ea36d1a2f6a519636266f3ba',1,'mip_cc_async_task']]],
+  ['loggerdelegate_16',['loggerDelegate',['../structmip__cc__create__logger__delegate__message__data__args.html#a55453c2ea1847fea0660eda6012a3f65',1,'mip_cc_create_logger_delegate_message_data_args::loggerDelegate'],['../logger__delegate__cc_8h.html#a88aa0754ac70016ce69b36dba269f636',1,'loggerDelegate:&#160;logger_delegate_cc.h']]],
+  ['loggerdelegateoverride_17',['loggerDelegateOverride',['../mip__context__cc_8h.html#a00912efde25582bf1d5d39f6bd59d992',1,'mip_context_cc.h']]],
+  ['loglevel_18',['logLevel',['../mip__context__cc_8h.html#a11558c49f08538c5ef35653a0c8cb8ce',1,'mip_context_cc.h']]]
 ];

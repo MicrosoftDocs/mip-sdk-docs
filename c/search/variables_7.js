@@ -1,9 +1,13 @@
 var searchData=
 [
   ['handler_0',['handler',['../protection__engine__cc_8h.html#a1eb9a4cd9fb27c5e0a50eeeee04e47dc',1,'handler:&#160;protection_engine_cc.h'],['../policy__engine__cc_8h.html#a62d61870cf347dffde4b8e1d6535b85b',1,'handler:&#160;policy_engine_cc.h']]],
-  ['hasclassificationrules_1',['hasClassificationRules',['../policy__engine__cc_8h.html#abd4e13517182d1389a01e1f6478b46fc',1,'policy_engine_cc.h']]],
-  ['headers_2',['headers',['../structmip__cc__http__request.html#a990d2ec2b3b071dc94e17a9988c33c6a',1,'mip_cc_http_request::headers'],['../structmip__cc__http__response.html#a2e26b82ac6d6964610edcbf751556614',1,'mip_cc_http_response::headers']]],
-  ['headerscount_3',['headersCount',['../structmip__cc__http__request.html#a5fd2b3c63d2ac2d0e98080e893d52e04',1,'mip_cc_http_request::headersCount'],['../structmip__cc__http__response.html#ab78eb592db0f3dcfba1272dc656bc507',1,'mip_cc_http_response::headersCount']]],
-  ['hostname_4',['hostName',['../telemetry__configuration__cc_8h.html#a9d8db6a08f3fbd921a1f69dbf812f680',1,'telemetry_configuration_cc.h']]],
-  ['httpdelegate_5',['httpDelegate',['../http__delegate__cc_8h.html#a7c3fd5cf898ea5e73caaada7aefc98d6',1,'httpDelegate:&#160;http_delegate_cc.h'],['../protection__profile__cc_8h.html#ac5337a2ead87aeb03d4ae400565967e3',1,'httpDelegate:&#160;protection_profile_cc.h'],['../telemetry__configuration__cc_8h.html#ac5337a2ead87aeb03d4ae400565967e3',1,'httpDelegate:&#160;telemetry_configuration_cc.h'],['../policy__profile__cc_8h.html#ac5337a2ead87aeb03d4ae400565967e3',1,'httpDelegate:&#160;policy_profile_cc.h']]]
+  ['hasadhocprotection_1',['hasAdhocProtection',['../label__cc_8h.html#adfbd6c9a5881e8fe66cc83bce7d67e9c',1,'label_cc.h']]],
+  ['hasclassificationrules_2',['hasClassificationRules',['../policy__engine__cc_8h.html#abd4e13517182d1389a01e1f6478b46fc',1,'policy_engine_cc.h']]],
+  ['hasdonotforwardprotection_3',['hasDoNotForwardProtection',['../label__cc_8h.html#a7200d1d38876d9cc2beb12e50937f13d',1,'label_cc.h']]],
+  ['hasencryptonlyprotection_4',['hasEncryptOnlyProtection',['../label__cc_8h.html#ab61b2ba77e70be350c9ee65df9008243',1,'label_cc.h']]],
+  ['hasrightsmanagementpolicy_5',['hasRightsManagementPolicy',['../label__cc_8h.html#a325baf1eb969c45a9af1c669925d5209',1,'label_cc.h']]],
+  ['headers_6',['headers',['../structmip__cc__http__request.html#a990d2ec2b3b071dc94e17a9988c33c6a',1,'mip_cc_http_request::headers'],['../structmip__cc__http__response.html#a2e26b82ac6d6964610edcbf751556614',1,'mip_cc_http_response::headers']]],
+  ['headerscount_7',['headersCount',['../structmip__cc__http__request.html#a5fd2b3c63d2ac2d0e98080e893d52e04',1,'mip_cc_http_request::headersCount'],['../structmip__cc__http__response.html#ab78eb592db0f3dcfba1272dc656bc507',1,'mip_cc_http_response::headersCount']]],
+  ['hostname_8',['hostName',['../telemetry__configuration__cc_8h.html#a9d8db6a08f3fbd921a1f69dbf812f680',1,'telemetry_configuration_cc.h']]],
+  ['httpdelegate_9',['httpDelegate',['../http__delegate__cc_8h.html#a7c3fd5cf898ea5e73caaada7aefc98d6',1,'httpDelegate:&#160;http_delegate_cc.h'],['../protection__profile__cc_8h.html#ac5337a2ead87aeb03d4ae400565967e3',1,'httpDelegate:&#160;protection_profile_cc.h'],['../telemetry__configuration__cc_8h.html#ac5337a2ead87aeb03d4ae400565967e3',1,'httpDelegate:&#160;telemetry_configuration_cc.h'],['../policy__profile__cc_8h.html#ac5337a2ead87aeb03d4ae400565967e3',1,'httpDelegate:&#160;policy_profile_cc.h']]]
 ];

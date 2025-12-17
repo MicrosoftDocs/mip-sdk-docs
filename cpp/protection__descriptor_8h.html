@@ -19,7 +19,6 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="custom.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -28,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.18</span>
    </div>
    <div id="projectbrief">API Reference Documentation for C++</div>
   </td>
@@ -131,8 +130,9 @@ Classes</h2></td></tr>
 Enumerations</h2></td></tr>
 <tr class="memitem:a99a0aa7276aadbabc1cca5d95afd8625" id="r_a99a0aa7276aadbabc1cca5d95afd8625"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99a0aa7276aadbabc1cca5d95afd8625">ProtectionType</a> { <a class="el" href="#a99a0aa7276aadbabc1cca5d95afd8625a49999110d479350198140fd0ccf62620">TemplateBased</a> = 0
 , <a class="el" href="#a99a0aa7276aadbabc1cca5d95afd8625a90589c47f06eb971d548591f23c285af">Custom</a> = 1
+, <a class="el" href="#a99a0aa7276aadbabc1cca5d95afd8625a971fd8cc345d8bd9f92e9f7d88fdf20c">Dynamic</a> = 2
  }</td></tr>
-<tr class="memdesc:a99a0aa7276aadbabc1cca5d95afd8625"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes whether protection is based off a template or ad-hoc (custom)  <a href="#a99a0aa7276aadbabc1cca5d95afd8625">More...</a><br /></td></tr>
+<tr class="memdesc:a99a0aa7276aadbabc1cca5d95afd8625"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes whether protection is based off a template, ad-hoc (custom), or dynamically by the service. Dynamic protection cannot be used when protecting content.  <a href="#a99a0aa7276aadbabc1cca5d95afd8625">More...</a><br /></td></tr>
 <tr class="separator:a99a0aa7276aadbabc1cca5d95afd8625"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -158,11 +158,13 @@ Enumerations</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Describes whether protection is based off a template or ad-hoc (custom) </p>
+<p>Describes whether protection is based off a template, ad-hoc (custom), or dynamically by the service. Dynamic protection cannot be used when protecting content. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a99a0aa7276aadbabc1cca5d95afd8625a49999110d479350198140fd0ccf62620" name="a99a0aa7276aadbabc1cca5d95afd8625a49999110d479350198140fd0ccf62620"></a>TemplateBased&#160;</td><td class="fielddoc"><p>Handle was created from a template </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a99a0aa7276aadbabc1cca5d95afd8625a90589c47f06eb971d548591f23c285af" name="a99a0aa7276aadbabc1cca5d95afd8625a90589c47f06eb971d548591f23c285af"></a>Custom&#160;</td><td class="fielddoc"><p>Handle was created ad hoc </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a99a0aa7276aadbabc1cca5d95afd8625a971fd8cc345d8bd9f92e9f7d88fdf20c" name="a99a0aa7276aadbabc1cca5d95afd8625a971fd8cc345d8bd9f92e9f7d88fdf20c"></a>Dynamic&#160;</td><td class="fielddoc"><p>Protection is defined by the service at the time of use license generation. Not valid for protection, only valid for consumption and republishing. </p>
 </td></tr>
 </table>
 

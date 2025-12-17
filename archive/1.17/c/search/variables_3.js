@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['data_0',['data',['../structmip__cc__handle.html#a7d47b167ef9a59c3fa2a7fabb84398e2',1,'mip_cc_handle']]],
+  ['datastate_1',['dataState',['../structmip__cc__document__state.html#aaae2947f5afbdb234efe8a1413ab9b56',1,'mip_cc_document_state']]],
+  ['delayms_2',['delayMs',['../structmip__cc__async__task.html#ac5dd8435fe5377b89d2e0f8aeb9245a1',1,'mip_cc_async_task']]],
+  ['delegateduseremail_3',['delegatedUserEmail',['../protection__engine__cc_8h.html#a1efbd248d5054e061cf7e62d1d96a53b',1,'delegatedUserEmail:&#160;protection_engine_cc.h'],['../protection__handler__cc_8h.html#aa58b2d85110415693d5757478672dffe',1,'delegatedUserEmail:&#160;protection_handler_cc.h'],['../policy__engine__cc_8h.html#aa58b2d85110415693d5757478672dffe',1,'delegatedUserEmail:&#160;policy_engine_cc.h']]],
+  ['delegationlicensearray_4',['delegationLicenseArray',['../delegation__license__cc_8h.html#a083bacb41f7647f7d75835eeb95b9075',1,'delegation_license_cc.h']]],
+  ['delegationlicenses_5',['delegationLicenses',['../protection__engine__cc_8h.html#a05dbe9760ee0b369242785d490805591',1,'protection_engine_cc.h']]],
+  ['delegationlicensesettings_6',['delegationLicenseSettings',['../delegation__license__cc_8h.html#a90e4bd6b88113f828be52220df40ade8',1,'delegation_license_cc.h']]],
+  ['deletecallback_7',['deleteCallback',['../editable__stream__cc_8h.html#adf0ebc6662c73bd7add7e54da821d76f',1,'editable_stream_cc.h']]],
+  ['description_8',['description',['../structmip__cc__error.html#a8fdde03d5c899c1775268e4598e3aaf6',1,'mip_cc_error::description'],['../protection__descriptor__builder__cc_8h.html#a37f78afa78994036aa8830bac0b4eddd',1,'description:&#160;protection_descriptor_builder_cc.h'],['../protection__descriptor__cc_8h.html#ad8544358f1021eb119b4fa57c6474cb9',1,'description:&#160;protection_descriptor_cc.h']]],
+  ['descriptionbuffer_9',['descriptionBuffer',['../protection__descriptor__cc_8h.html#a151d4b86c91aa1a7234ebf3ecbfe34df',1,'descriptionBuffer:&#160;protection_descriptor_cc.h'],['../label__cc_8h.html#a151d4b86c91aa1a7234ebf3ecbfe34df',1,'descriptionBuffer:&#160;label_cc.h']]],
+  ['descriptionbuffersize_10',['descriptionBufferSize',['../protection__descriptor__cc_8h.html#acdaf6e69ad6199b6ee303df17a0593e6',1,'descriptionBufferSize:&#160;protection_descriptor_cc.h'],['../label__cc_8h.html#acdaf6e69ad6199b6ee303df17a0593e6',1,'descriptionBufferSize:&#160;label_cc.h']]],
+  ['descriptionsize_11',['descriptionSize',['../template__descriptor__cc_8h.html#a5683c79fc29f4e4ffa931c78e7b13965',1,'descriptionSize:&#160;template_descriptor_cc.h'],['../protection__descriptor__cc_8h.html#a5683c79fc29f4e4ffa931c78e7b13965',1,'descriptionSize:&#160;protection_descriptor_cc.h'],['../label__cc_8h.html#a5683c79fc29f4e4ffa931c78e7b13965',1,'descriptionSize:&#160;label_cc.h']]],
+  ['descriptor_12',['descriptor',['../protection__handler__cc_8h.html#a1c67cd8d7a1b3cfeeab5d3a698ace9d3',1,'protection_handler_cc.h']]],
+  ['diagnosticoverride_13',['diagnosticOverride',['../mip__context__cc_8h.html#ac0c6a16c37b12e24190ff02c91fb1fb8',1,'mip_context_cc.h']]],
+  ['dictionary_14',['dictionary',['../dictionary__cc_8h.html#ab0d1efad9e1c4911ce76297fd78cf0ff',1,'dictionary:&#160;dictionary_cc.h'],['../metadata__dictionary__cc_8h.html#a6590ea4d76007d649be823d1f9b211f9',1,'dictionary:&#160;metadata_dictionary_cc.h']]],
+  ['documentid_15',['documentId',['../protection__engine__cc_8h.html#ae882243d97f444f820b6088df20b9f8c',1,'protection_engine_cc.h']]],
+  ['documentstate_16',['documentState',['../policy__handler__cc_8h.html#a242f74b7c2fc392c6b06b1cbb86cf082',1,'policy_handler_cc.h']]],
+  ['doesallowofflineaccess_17',['doesAllowOfflineAccess',['../protection__descriptor__cc_8h.html#a61670ab35e47996fc36d46370f5d30af',1,'protection_descriptor_cc.h']]],
+  ['doescontentexpire_18',['doesContentExpire',['../protection__descriptor__cc_8h.html#a6f79bd3baade1984cf17761d1de8b11d',1,'protection_descriptor_cc.h']]],
+  ['doesusedeprecatedalgorithm_19',['doesUseDeprecatedAlgorithm',['../protection__handler__cc_8h.html#abf0c3637874ac3daf754a12a2917fdce',1,'protection_handler_cc.h']]],
+  ['doublekeyurl_20',['doubleKeyUrl',['../protection__descriptor__builder__cc_8h.html#a25d87aaa851009858ca5f1ff1b8384a9',1,'protection_descriptor_builder_cc.h']]],
+  ['downgradejustification_21',['downgradeJustification',['../structmip__cc__application__action__state.html#aaca9f7396d1d4be3bb2ccef4a38b49b8',1,'mip_cc_application_action_state']]],
+  ['dynamicwatermark_22',['dynamicWatermark',['../delegation__license__cc_8h.html#a191e6d79f9db124d785a186bd9090b18',1,'dynamicWatermark:&#160;delegation_license_cc.h'],['../license__info__cc_8h.html#a191e6d79f9db124d785a186bd9090b18',1,'dynamicWatermark:&#160;license_info_cc.h'],['../protection__descriptor__cc_8h.html#a191e6d79f9db124d785a186bd9090b18',1,'dynamicWatermark:&#160;protection_descriptor_cc.h']]]
+];

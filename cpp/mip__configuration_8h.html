@@ -19,7 +19,6 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="custom.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -28,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.18</span>
    </div>
    <div id="projectbrief">API Reference Documentation for C++</div>
   </td>
@@ -99,7 +98,8 @@ $(function(){initNavTree('mip__configuration_8h.html',''); initResizable(true); 
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle"><div class="title">mip_configuration.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -108,6 +108,8 @@ $(function(){initNavTree('mip__configuration_8h.html',''); initResizable(true); 
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;map&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
+<code>#include &quot;<a class="el" href="cloud__discovery__delegate_8h_source.html">mip/cloud_discovery_delegate.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="common__types_8h_source.html">mip/common_types.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="diagnostic__configuration_8h_source.html">mip/diagnostic_configuration.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="flighting__feature_8h_source.html">mip/flighting_feature.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="json__delegate_8h_source.html">mip/json_delegate.h</a>&quot;</code><br />
@@ -123,10 +125,55 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMipConfiguration.html">MipConfiguration</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration used by MIP sdk during its creation and throughout its lifetime.  <a href="classMipConfiguration.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ad034ea058031ed95e52d3bac1743640a" id="r_ad034ea058031ed95e52d3bac1743640a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad034ea058031ed95e52d3bac1743640a">DEPRECATED</a>(msg)</td></tr>
+<tr class="separator:ad034ea058031ed95e52d3bac1743640a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cc400caec0ef359fece5b07a0fcaca9" id="r_a0cc400caec0ef359fece5b07a0fcaca9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cc400caec0ef359fece5b07a0fcaca9">DEPRECATED_FOR_STORAGE_CACHE_TYPE</a>(msg)</td></tr>
+<tr class="separator:a0cc400caec0ef359fece5b07a0fcaca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines configuration for all external mip delegates. </p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ad034ea058031ed95e52d3bac1743640a" name="ad034ea058031ed95e52d3bac1743640a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad034ea058031ed95e52d3bac1743640a">&#9670;&#160;</a></span>DEPRECATED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEPRECATED</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>msg</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">[[deprecated(msg)]]</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a0cc400caec0ef359fece5b07a0fcaca9" name="a0cc400caec0ef359fece5b07a0fcaca9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cc400caec0ef359fece5b07a0fcaca9">&#9670;&#160;</a></span>DEPRECATED_FOR_STORAGE_CACHE_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEPRECATED_FOR_STORAGE_CACHE_TYPE</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>msg</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#ad034ea058031ed95e52d3bac1743640a">DEPRECATED</a>(msg)</div>
+<div class="ttc" id="amip__configuration_8h_html_ad034ea058031ed95e52d3bac1743640a"><div class="ttname"><a href="#ad034ea058031ed95e52d3bac1743640a">DEPRECATED</a></div><div class="ttdeci">#define DEPRECATED(msg)</div><div class="ttdef"><b>Definition</b> mip_configuration.h:50</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

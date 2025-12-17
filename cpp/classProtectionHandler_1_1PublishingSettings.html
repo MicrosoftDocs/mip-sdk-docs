@@ -19,7 +19,6 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="custom.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -28,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.18</span>
    </div>
    <div id="projectbrief">API Reference Documentation for C++</div>
   </td>
@@ -186,11 +185,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a52853c8f970eb97eafad8d11cc70c9eb" id="r_a52853c8f970eb97eafad8d11cc70c9eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52853c8f970eb97eafad8d11cc70c9eb">SetRepairLabelIdAllowed</a> (bool repairAllowed)</td></tr>
 <tr class="memdesc:a52853c8f970eb97eafad8d11cc70c9eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets whether or not label id can be added to publishing license on republish.  <br /></td></tr>
 <tr class="separator:a52853c8f970eb97eafad8d11cc70c9eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d5910467cfa34ce754e0f3874091283" id="r_a9d5910467cfa34ce754e0f3874091283"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d5910467cfa34ce754e0f3874091283">GetShouldRefreshTemplates</a> () const</td></tr>
+<tr class="memdesc:a9d5910467cfa34ce754e0f3874091283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether or not templates should be forcibly refreshed during offline publishing.  <br /></td></tr>
+<tr class="separator:a9d5910467cfa34ce754e0f3874091283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac2e782bc430776ba1d473e2f580f814" id="r_aac2e782bc430776ba1d473e2f580f814"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac2e782bc430776ba1d473e2f580f814">SetShouldRefreshTemplates</a> (bool shouldRefreshTemplates)</td></tr>
+<tr class="memdesc:aac2e782bc430776ba1d473e2f580f814"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets whether or not templates should be forcibly refreshed during offline publishing.  <br /></td></tr>
+<tr class="separator:aac2e782bc430776ba1d473e2f580f814"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classProtectionCommonSettings"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classProtectionCommonSettings')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a></td></tr>
 <tr class="memitem:a7bdb4890d63f2354282ccb380e0e3270 inherit pub_methods_classProtectionCommonSettings" id="r_a7bdb4890d63f2354282ccb380e0e3270"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProtectionCommonSettings.html#a7bdb4890d63f2354282ccb380e0e3270">ProtectionCommonSettings</a> (std::string applicationScenarioId=std::string())</td></tr>
 <tr class="separator:a7bdb4890d63f2354282ccb380e0e3270 inherit pub_methods_classProtectionCommonSettings"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a899d7f70bfd50bfd4ef727ec137d1261 inherit pub_methods_classProtectionCommonSettings" id="r_a899d7f70bfd50bfd4ef727ec137d1261"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProtectionCommonSettings.html#a899d7f70bfd50bfd4ef727ec137d1261">GetApplicationScenarioId</a> () const</td></tr>
-<tr class="memdesc:a899d7f70bfd50bfd4ef727ec137d1261 inherit pub_methods_classProtectionCommonSettings"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the scenario Id provided by the application which is used to correlation with the server.  <br /></td></tr>
+<tr class="memdesc:a899d7f70bfd50bfd4ef727ec137d1261 inherit pub_methods_classProtectionCommonSettings"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the scenario Id provided by the application which is used to correlate with the server.  <br /></td></tr>
 <tr class="separator:a899d7f70bfd50bfd4ef727ec137d1261 inherit pub_methods_classProtectionCommonSettings"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e1f64999230823061d1d8707172eb17 inherit pub_methods_classProtectionCommonSettings" id="r_a3e1f64999230823061d1d8707172eb17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProtectionCommonSettings.html#a3e1f64999230823061d1d8707172eb17">SetApplicationScenarioId</a> (std::string applicationScenarioId)</td></tr>
 <tr class="memdesc:a3e1f64999230823061d1d8707172eb17 inherit pub_methods_classProtectionCommonSettings"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the scenario Id provided by the application.  <br /></td></tr>
@@ -599,6 +604,34 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a9d5910467cfa34ce754e0f3874091283" name="a9d5910467cfa34ce754e0f3874091283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d5910467cfa34ce754e0f3874091283">&#9670;&#160;</a></span>GetShouldRefreshTemplates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProtectionHandler::PublishingSettings::GetShouldRefreshTemplates </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets whether or not templates should be forcibly refreshed during offline publishing. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if templates will be refreshed, false if template refresh will be decided by age of current templates </dd></dl>
+
+</div>
+</div>
 <a id="ae896597837cd3c1a7d86fa95628fb4f2" name="ae896597837cd3c1a7d86fa95628fb4f2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae896597837cd3c1a7d86fa95628fb4f2">&#9670;&#160;</a></span>IsPublishingFormatJson()</h2>
 
@@ -892,6 +925,39 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>If no pre-license request is specified, a pre-license will not be obtained </dd></dl>
+
+</div>
+</div>
+<a id="aac2e782bc430776ba1d473e2f580f814" name="aac2e782bc430776ba1d473e2f580f814"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac2e782bc430776ba1d473e2f580f814">&#9670;&#160;</a></span>SetShouldRefreshTemplates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProtectionHandler::PublishingSettings::SetShouldRefreshTemplates </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>shouldRefreshTemplates</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets whether or not templates should be forcibly refreshed during offline publishing. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">shouldRefreshTemplates</td><td>If templates should be forcibly refreshed </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

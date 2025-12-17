@@ -2,6 +2,14 @@ var error__cc_8h =
 [
     [ "mip_cc_error", "structmip__cc__error.html", "structmip__cc__error" ],
     [ "ERROR_STRING_BUFFER_SIZE", "error__cc_8h.html#a5c01cac07cf0e92220d97aabd85cc416", null ],
+    [ "mip_cc_bad_input_error_category", "error__cc_8h.html#a9dd9ec5ea51a9ddcbe28b325bf277a80", [
+      [ "MIP_BAD_INPUT_ERROR_GENERAL", "error__cc_8h.html#a9dd9ec5ea51a9ddcbe28b325bf277a80ad4302f217823222615fc738d05263de9", null ],
+      [ "MIP_BAD_INPUT_ERROR_FILE_TOO_LARGE", "error__cc_8h.html#a9dd9ec5ea51a9ddcbe28b325bf277a80a8390b012f222d5b8eac06f79be2f661a", null ],
+      [ "MIP_BAD_INPUT_ERROR_PARSE_ERROR", "error__cc_8h.html#a9dd9ec5ea51a9ddcbe28b325bf277a80afe958ad7ac15ad385f3b8bbea914abf4", null ],
+      [ "MIP_BAD_INPUT_ERROR_LICENSE_NOT_TRUSTED", "error__cc_8h.html#a9dd9ec5ea51a9ddcbe28b325bf277a80a8a02ed899de791da5a4266e28e2790a8", null ],
+      [ "MIP_BAD_INPUT_ERROR_DOUBLE_KEY", "error__cc_8h.html#a9dd9ec5ea51a9ddcbe28b325bf277a80a5c275879483f75398163d33974daa022", null ],
+      [ "MIP_BAD_INPUT_ERROR_FILE_FORMAT_NOT_SUPPORTED", "error__cc_8h.html#a9dd9ec5ea51a9ddcbe28b325bf277a80a98067b82c618ed3f5a810147b395df33", null ]
+    ] ],
     [ "mip_cc_network_error_category", "error__cc_8h.html#a6c3c72e9c50b8ff805a0a3d11afdc6d7", [
       [ "MIP_NETWORK_ERROR_CATEGORY_UNKNOWN", "error__cc_8h.html#a6c3c72e9c50b8ff805a0a3d11afdc6d7a26c34996e77505b99d3b0594c46b8fc3", null ],
       [ "MIP_NETWORK_ERROR_CATEGORY_FAILURE_RESPONSE_CODE", "error__cc_8h.html#a6c3c72e9c50b8ff805a0a3d11afdc6d7a68bb45ec6d18433db38e83b4784a7bb2", null ],
@@ -26,7 +34,10 @@ var error__cc_8h =
       [ "MIP_NO_PERMISSIONS_ERROR_UNKNOWN_TENANT", "error__cc_8h.html#a7a69c65af63200cb1c9ac8158a91649fa4e698383dc6d850cb1435681c8961560", null ],
       [ "MIP_NO_PERMISSIONS_ERROR_NOT_OWNER", "error__cc_8h.html#a7a69c65af63200cb1c9ac8158a91649fa3822d8aa9dd6f0ac130ac0670f397939", null ],
       [ "MIP_NO_PERMISSIONS_ERROR_NOT_PREMIUM_LICENSE_USER", "error__cc_8h.html#a7a69c65af63200cb1c9ac8158a91649facb07814cfe7ee821a1419fd6b05dd117", null ],
-      [ "MIP_NO_PERMISSIONS_ERROR_CLIENT_NOT_UPDATED", "error__cc_8h.html#a7a69c65af63200cb1c9ac8158a91649fa24c68545bc31060adf0d02885e029ed4", null ]
+      [ "MIP_NO_PERMISSIONS_ERROR_CLIENT_NOT_UPDATED", "error__cc_8h.html#a7a69c65af63200cb1c9ac8158a91649fa24c68545bc31060adf0d02885e029ed4", null ],
+      [ "MIP_NO_PERMISSIONS_ERROR_FILE_NOT_FOUND", "error__cc_8h.html#a7a69c65af63200cb1c9ac8158a91649fa1c79849ed1dcd31d45a9bf9fc605c75a", null ],
+      [ "MIP_NO_PERMISSIONS_ERROR_CLIENT_UNAUTHORIZED", "error__cc_8h.html#a7a69c65af63200cb1c9ac8158a91649fabadbc8e6d890bb3dddaaa62d2c79e9e2", null ],
+      [ "MIP_NO_PERMISSIONS_ERROR_INVALID_TOKEN", "error__cc_8h.html#a7a69c65af63200cb1c9ac8158a91649fa81fc6b5369c03a1e90ceaf95df991464", null ]
     ] ],
     [ "mip_cc_service_disabled_error_extent", "error__cc_8h.html#aaad7dce21372b11ce1c656ea831d8b6b", [
       [ "MIP_SERVICE_DISABLED_ERROR_EXTENT_USER", "error__cc_8h.html#aaad7dce21372b11ce1c656ea831d8b6ba83328d7607c1a2c64c22e4fbeb6cc577", null ],

@@ -19,7 +19,6 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="custom.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -28,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.18</span>
    </div>
    <div id="projectbrief">API Reference Documentation for C++</div>
   </td>
@@ -161,6 +160,31 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a077cbd307021e7dfc306bbc0338046c5">EnableExtendedErrors</a> = 35
 , <br />
 &#160;&#160;<a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a50534c8ba4a600e28c8896d978d64776">LoadCrossTenantUserCertOffline</a> = 36
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0acc8e9f62d2f9928bf44ecc8241b72721">CachePrelicenseEUL</a> = 37
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0aa558eb06ac007210f2ab83c4d78657a6">DynamicProtectionTypeForConsumption</a> = 38
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a9dec68876c316623f7e7cafa65dafd6c">CloudAutoDiscovery</a> = 39
+, <br />
+&#160;&#160;<a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a97a6322d35b7c1f138bed7c4d34336c0">FixOutlookMultiMsgAttachmentParsing</a> = 40
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a16f82285d11ea866d0cb944bc262b45c">ExponentialBackoffRetries</a> = 41
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a826c5dd4a361107f3ed7f730cb2add0c">GetBinaryHtmlBodyInMsgs</a> = 42
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a2ac7185fc6974ac33fa14889e64c5ba7">SetMsgPropertiesAsEmbeddedMessageForRpmsg</a> = 43
+, <br />
+&#160;&#160;<a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0ab75dea4e42cd48a50385a0742befd12b">GetCorrectCodePageInMsgInspectorUnicode</a> = 44
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0aa42e89a1cc05161fbce023e13f05e235">EnableMsgToHandleEmlAttachments</a> = 45
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0af3800896130044213ae52465630bce1e">LimitMaxDepthWhenProcessingNestedAttachments</a> = 46
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0af0c732d70e7d6e01abeb454c9dbd7065">CacheDnsResults</a> = 47
+, <br />
+&#160;&#160;<a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0ad483de7c63e33d5ad13773fb268977f5">FileSDKOfflinePublishing</a> = 48
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a13bcf65cde7e317102676141f5a41293">ProtectionAPITelemetryPropertyAdd</a> = 49
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0abc450f9f9f7b51bc64b4b706fceb5441">ProtectionSDKDataBoundarySetInMipContext</a> = 50
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a84f2afe10292be32600a10f0891c218b">UseSubstrateLabelPolicyEndpoints</a> = 51
+, <br />
+&#160;&#160;<a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0abc360af31ad8cf65123e06d2b9aed446">MultipleLabelResolution</a> = 52
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a39ed83ae9a96fdb3d0de38d40773512a">TargetCrossCloudProtectionLicenseEndpoint</a> = 53
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a48ca3bdb7f6402cc44cd4883f569bc6c">AlwaysConvertHtmlToRtf</a> = 54
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0ae680d3735ff1c2f4adbf2f9c3b555f9b">ValidatePublishingLicenseSignatureTop</a> = 55
+, <br />
+&#160;&#160;<a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0affac691686d01f149d620fb3376c92b6">ImprovedCustomMetadataSupport</a> = 56
 <br />
  }</td></tr>
 <tr class="memdesc:a136e8722fcaf2df5a6f3cb4bff70adc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines new features by name.  <a href="#a136e8722fcaf2df5a6f3cb4bff70adc0">More...</a><br /></td></tr>
@@ -262,6 +286,46 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a077cbd307021e7dfc306bbc0338046c5" name="a136e8722fcaf2df5a6f3cb4bff70adc0a077cbd307021e7dfc306bbc0338046c5"></a>EnableExtendedErrors&#160;</td><td class="fielddoc"><p>Whether or not parsing extendedErrorInfo is enabled. C++ Default to on, C default to false due to potential memory leaking in error handle of mip_cc_error struct. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a50534c8ba4a600e28c8896d978d64776" name="a136e8722fcaf2df5a6f3cb4bff70adc0a50534c8ba4a600e28c8896d978d64776"></a>LoadCrossTenantUserCertOffline&#160;</td><td class="fielddoc"><p>Whether or not to load cross tenant user cert when doing offline republishing. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0acc8e9f62d2f9928bf44ecc8241b72721" name="a136e8722fcaf2df5a6f3cb4bff70adc0acc8e9f62d2f9928bf44ecc8241b72721"></a>CachePrelicenseEUL&#160;</td><td class="fielddoc"><p>If true, will generate and cache a EUL based on a provided prelicense. Will cache nothing if false. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0aa558eb06ac007210f2ab83c4d78657a6" name="a136e8722fcaf2df5a6f3cb4bff70adc0aa558eb06ac007210f2ab83c4d78657a6"></a>DynamicProtectionTypeForConsumption&#160;</td><td class="fielddoc"><p>Enable dynamic (SharePoint) protection type for consumption. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a9dec68876c316623f7e7cafa65dafd6c" name="a136e8722fcaf2df5a6f3cb4bff70adc0a9dec68876c316623f7e7cafa65dafd6c"></a>CloudAutoDiscovery&#160;</td><td class="fielddoc"><p>Enable cloud auto discovery. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a97a6322d35b7c1f138bed7c4d34336c0" name="a136e8722fcaf2df5a6f3cb4bff70adc0a97a6322d35b7c1f138bed7c4d34336c0"></a>FixOutlookMultiMsgAttachmentParsing&#160;</td><td class="fielddoc"><p>Fix Outlook msg parsing when a message has multiple msg attachments. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a16f82285d11ea866d0cb944bc262b45c" name="a136e8722fcaf2df5a6f3cb4bff70adc0a16f82285d11ea866d0cb944bc262b45c"></a>ExponentialBackoffRetries&#160;</td><td class="fielddoc"><p>Enable exponential backoff retries for HTTP requests. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a826c5dd4a361107f3ed7f730cb2add0c" name="a136e8722fcaf2df5a6f3cb4bff70adc0a826c5dd4a361107f3ed7f730cb2add0c"></a>GetBinaryHtmlBodyInMsgs&#160;</td><td class="fielddoc"><p>If true, when retrieving the HTML body when processing MSGs, MIP will attempt to retrieve the binary HTML body if the string HTML body does not exist. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a2ac7185fc6974ac33fa14889e64c5ba7" name="a136e8722fcaf2df5a6f3cb4bff70adc0a2ac7185fc6974ac33fa14889e64c5ba7"></a>SetMsgPropertiesAsEmbeddedMessageForRpmsg&#160;</td><td class="fielddoc"><p>If true, the MSG property headers will be set to type EmbeddedMessage when the MSG type is RPMSG. Without this set to true, <a class="el" href="classMsgInspector.html">MsgInspector</a> will not find the proper codepage. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0ab75dea4e42cd48a50385a0742befd12b" name="a136e8722fcaf2df5a6f3cb4bff70adc0ab75dea4e42cd48a50385a0742befd12b"></a>GetCorrectCodePageInMsgInspectorUnicode&#160;</td><td class="fielddoc"><p>If true, the MSG inspector will return the code page of the MSG if it's a unicode MSG. If false, unicode MSGs will always have the unicode code page returned. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0aa42e89a1cc05161fbce023e13f05e235" name="a136e8722fcaf2df5a6f3cb4bff70adc0aa42e89a1cc05161fbce023e13f05e235"></a>EnableMsgToHandleEmlAttachments&#160;</td><td class="fielddoc"><p>If true, while decrypting MSGs any EML attachments will be decrypted as well. If true, EML attachments will also be cheked when determining if an MSG contains protected objects. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0af3800896130044213ae52465630bce1e" name="a136e8722fcaf2df5a6f3cb4bff70adc0af3800896130044213ae52465630bce1e"></a>LimitMaxDepthWhenProcessingNestedAttachments&#160;</td><td class="fielddoc"><p>If true, if the max depth passed into MsgFileFormat is 0, removing protection will fail. If this is not set, an EML with attached MSGs may exceed the max depth if remove protection is called on it. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0af0c732d70e7d6e01abeb454c9dbd7065" name="a136e8722fcaf2df5a6f3cb4bff70adc0af0c732d70e7d6e01abeb454c9dbd7065"></a>CacheDnsResults&#160;</td><td class="fielddoc"><p>If true, will cache the DNS lookup result. The DNS cache is bypassed if false. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0ad483de7c63e33d5ad13773fb268977f5" name="a136e8722fcaf2df5a6f3cb4bff70adc0ad483de7c63e33d5ad13773fb268977f5"></a>FileSDKOfflinePublishing&#160;</td><td class="fielddoc"><p>Enable offline publishing for file SDK. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a13bcf65cde7e317102676141f5a41293" name="a136e8722fcaf2df5a6f3cb4bff70adc0a13bcf65cde7e317102676141f5a41293"></a>ProtectionAPITelemetryPropertyAdd&#160;</td><td class="fielddoc"><p>Enable Protection SDK APIs to take in additional telemetry properties </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0abc450f9f9f7b51bc64b4b706fceb5441" name="a136e8722fcaf2df5a6f3cb4bff70adc0abc450f9f9f7b51bc64b4b706fceb5441"></a>ProtectionSDKDataBoundarySetInMipContext&#160;</td><td class="fielddoc"><p>ProtectionSDK hornors the data boundary set in <a class="el" href="classMipContext.html" title="MipContext represents state that is shared across all profiles, engines, handlers.">MipContext</a> </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a84f2afe10292be32600a10f0891c218b" name="a136e8722fcaf2df5a6f3cb4bff70adc0a84f2afe10292be32600a10f0891c218b"></a>UseSubstrateLabelPolicyEndpoints&#160;</td><td class="fielddoc"><p>Whether or not to directly use Substrate endpoints for label policy sync, rather than using a common endpoint with sensitivity types (which may result in 301 redirects to Substrate). Has no effect on auto-discovered endpoints. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0abc360af31ad8cf65123e06d2b9aed446" name="a136e8722fcaf2df5a6f3cb4bff70adc0abc360af31ad8cf65123e06d2b9aed446"></a>MultipleLabelResolution&#160;</td><td class="fielddoc"><p>Enable logic to handle multiple labels from same tenant on single document. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a39ed83ae9a96fdb3d0de38d40773512a" name="a136e8722fcaf2df5a6f3cb4bff70adc0a39ed83ae9a96fdb3d0de38d40773512a"></a>TargetCrossCloudProtectionLicenseEndpoint&#160;</td><td class="fielddoc"><p>Enables use of the distribution point url from a license (if available) when doing service discovery. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a48ca3bdb7f6402cc44cd4883f569bc6c" name="a136e8722fcaf2df5a6f3cb4bff70adc0a48ca3bdb7f6402cc44cd4883f569bc6c"></a>AlwaysConvertHtmlToRtf&#160;</td><td class="fielddoc"><p>If true, always convert HTML body to RTF body when inspecting or unprotecting MSG/RPMSG files. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0ae680d3735ff1c2f4adbf2f9c3b555f9b" name="a136e8722fcaf2df5a6f3cb4bff70adc0ae680d3735ff1c2f4adbf2f9c3b555f9b"></a>ValidatePublishingLicenseSignatureTop&#160;</td><td class="fielddoc"><p>If true, validates the first level signature of the publishing license before taking action </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0affac691686d01f149d620fb3376c92b6" name="a136e8722fcaf2df5a6f3cb4bff70adc0affac691686d01f149d620fb3376c92b6"></a>ImprovedCustomMetadataSupport&#160;</td><td class="fielddoc"><p>If true, uses improved custom metadata handling with separation of label metadata from extended properties </p>
 </td></tr>
 </table>
 

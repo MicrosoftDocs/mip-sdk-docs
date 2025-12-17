@@ -58,21 +58,23 @@ var NAVTREE =
         [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
-    ] ]
+    ] ],
+    [ "Examples", "examples.html", "examples" ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"action_8h.html",
-"classConditionData.html#a4280fbf9bb795f3dbdb768abc04a77fe",
-"classFileProfile_1_1Settings.html#a5bd90595f90f1744c37aea995989e94d",
-"classMipConfiguration.html#a9727e94daf1f49bc54f22a3f8a3fae50",
-"classProtectionEngine_1_1Observer.html#acb203e845490619471b3ba75e8a03dde",
-"classServiceDisabledError.html#ac18641be1d8ab8137caf996096c9d3f0",
-"common__types_8h.html#a8ff2be45682709f949c5f64eb584e81b",
-"functions_func_w.html",
-"protection__profile_8h.html"
+"1-example.html",
+"classComputeEngine_1_1Settings.html#aabfeb961176e385741eeb5944efef545",
+"classFileProfile_1_1Observer.html#ac4726dc54a961ac9276bc814b21f87e3",
+"classMipConfiguration.html",
+"classProtectionDescriptorBuilder.html#acb2313b7354312ed89b4cd614c1b43a2",
+"classPublishingLicenseInfo.html#ac0c1c4ba1b0ce36175a63ae094bd544c",
+"common__types_8h.html#a0cdd774884c3465004e0f489eeeab9e3",
+"file__inspector_8h.html#a9d9e926ac7c75acf316f6fa02042388da88183b946cc5f0e8c96b2e66e1c74a7e",
+"namespacexml.html#a4fb3009600ec5826dc321c46fee9c6c0a3026bdc1392028d5423045dea2cdeacf",
+"xml__load__exception_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -19,7 +19,6 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="custom.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -28,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.18</span>
    </div>
    <div id="projectbrief">API Reference Documentation for C++</div>
   </td>
@@ -200,6 +199,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0860c37683c7a506b17da43b5727d3d9" id="r_a0860c37683c7a506b17da43b5727d3d9"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classAsyncControl.html">AsyncControl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0860c37683c7a506b17da43b5727d3d9">GetLicenseRightsDataAsync</a> (const std::vector&lt; uint8_t &gt; &amp;serializedPublishingLicense, const std::shared_ptr&lt; <a class="el" href="classProtectionEngine_1_1Observer.html">ProtectionEngine::Observer</a> &gt; &amp;observer, const std::shared_ptr&lt; void &gt; &amp;context, const <a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a> &amp;settings=<a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a>())=0</td></tr>
 <tr class="memdesc:a0860c37683c7a506b17da43b5727d3d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the rights data for a license. This method requires the requesting identity to be included in the super user list for your organization. Alternatively, the identity must have been granted VIEWRIGHTSDATA, EDITRIGHTSDATA, or OWNER rights to the content.  <br /></td></tr>
 <tr class="separator:a0860c37683c7a506b17da43b5727d3d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0132762443dc722716bb56d935967233" id="r_a0132762443dc722716bb56d935967233"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0132762443dc722716bb56d935967233">DeleteStoredData</a> (bool deleteAllData=false)=0</td></tr>
+<tr class="memdesc:a0132762443dc722716bb56d935967233"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes stored data from the license store.  <br /></td></tr>
+<tr class="separator:a0132762443dc722716bb56d935967233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8262ca905ae98d7e51a4f43957ec128c" id="r_a8262ca905ae98d7e51a4f43957ec128c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8262ca905ae98d7e51a4f43957ec128c">DeleteStoredData</a> (std::chrono::time_point&lt; std::chrono::system_clock &gt; timePoint)=0</td></tr>
+<tr class="memdesc:a8262ca905ae98d7e51a4f43957ec128c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes stored data from the license store past a specific time point.  <br /></td></tr>
+<tr class="separator:a8262ca905ae98d7e51a4f43957ec128c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages protection-related actions related to a specific identity. </p>
@@ -457,6 +462,72 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Async control object.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>If settings are offline only, engine needs to have previously called GetTemplatesAsync and LoadUserCertAsync </dd></dl>
+
+</div>
+</div>
+<a id="a0132762443dc722716bb56d935967233" name="a0132762443dc722716bb56d935967233"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0132762443dc722716bb56d935967233">&#9670;&#160;</a></span>DeleteStoredData() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ProtectionEngine::DeleteStoredData </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>deleteAllData</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes stored data from the license store. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">deleteAllData</td><td>If true, will delete all cached engine data. If false, will only delete expired data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8262ca905ae98d7e51a4f43957ec128c" name="a8262ca905ae98d7e51a4f43957ec128c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8262ca905ae98d7e51a4f43957ec128c">&#9670;&#160;</a></span>DeleteStoredData() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ProtectionEngine::DeleteStoredData </td>
+          <td>(</td>
+          <td class="paramtype">std::chrono::time_point&lt; std::chrono::system_clock &gt;</td>          <td class="paramname"><span class="paramname"><em>timePoint</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes stored data from the license store past a specific time point. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">timePoint</td><td>The time point to delete data before. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -39,6 +39,8 @@ var hierarchy =
     ] ],
     [ "ClassificationRequest", "classClassificationRequest.html", null ],
     [ "ClassificationResult", "classClassificationResult.html", null ],
+    [ "CloudDiscoveryDelegate", "classCloudDiscoveryDelegate.html", null ],
+    [ "CloudDiscoveryResult", "classCloudDiscoveryResult.html", null ],
     [ "ComputeEngine", "classComputeEngine.html", null ],
     [ "ComputeEngineContext", "classComputeEngineContext.html", null ],
     [ "ConditionData", "classConditionData.html", [
@@ -92,6 +94,7 @@ var hierarchy =
         [ "FileIOError", "classFileIOError.html", null ],
         [ "InternalError", "classInternalError.html", null ],
         [ "JustificationRequiredError", "classJustificationRequiredError.html", null ],
+        [ "MaxDepthReachedError", "classMaxDepthReachedError.html", null ],
         [ "NetworkError", "classNetworkError.html", [
           [ "ProxyAuthenticationError", "classProxyAuthenticationError.html", null ]
         ] ],
@@ -167,13 +170,16 @@ var hierarchy =
     [ "PublishingUseLicenseRequest", "classPublishingUseLicenseRequest.html", null ],
     [ "RulePackageData", "classRulePackageData.html", null ],
     [ "SensitivityTypesRulePackage", "classSensitivityTypesRulePackage.html", null ],
+    [ "ServiceInfo", "classServiceInfo.html", null ],
     [ "ComputeEngine::Settings", "classComputeEngine_1_1Settings.html", null ],
     [ "FileProfile::Settings", "classFileProfile_1_1Settings.html", null ],
     [ "ProtectionEngine::Settings", "classProtectionEngine_1_1Settings.html", null ],
     [ "ProtectionProfile::Settings", "classProtectionProfile_1_1Settings.html", null ],
     [ "StorageDelegate", "classStorageDelegate.html", null ],
     [ "StorageDelegate::StorageSettings", "classStorageDelegate_1_1StorageSettings.html", null ],
-    [ "StorageTable", "classStorageTable.html", null ],
+    [ "StorageTable", "classStorageTable.html", [
+      [ "StorageTableV2", "classStorageTableV2.html", null ]
+    ] ],
     [ "Stream", "classStream.html", [
       [ "EditableStream", "classEditableStream.html", null ]
     ] ],

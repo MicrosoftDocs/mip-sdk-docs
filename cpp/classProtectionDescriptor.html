@@ -19,7 +19,6 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="custom.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -28,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C++<span id="projectnumber">&#160;1.18</span>
    </div>
    <div id="projectbrief">API Reference Documentation for C++</div>
   </td>
@@ -148,6 +147,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac2a22325714a9e161e2f1a2408b72a1c" id="r_ac2a22325714a9e161e2f1a2408b72a1c"><td class="memItemLeft" align="right" valign="top">virtual std::chrono::time_point&lt; std::chrono::system_clock &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2a22325714a9e161e2f1a2408b72a1c">GetContentValidUntil</a> () const =0</td></tr>
 <tr class="memdesc:ac2a22325714a9e161e2f1a2408b72a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets protection expiration time.  <br /></td></tr>
 <tr class="separator:ac2a22325714a9e161e2f1a2408b72a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad03a008c73cf014eccd6555311266cd9" id="r_ad03a008c73cf014eccd6555311266cd9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad03a008c73cf014eccd6555311266cd9">DoesLicenseExpire</a> () const</td></tr>
+<tr class="memdesc:ad03a008c73cf014eccd6555311266cd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if license has an expiration time or not.  <br /></td></tr>
+<tr class="separator:ad03a008c73cf014eccd6555311266cd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08c9e69d4b03bae3721d386b7e7bba3c" id="r_a08c9e69d4b03bae3721d386b7e7bba3c"><td class="memItemLeft" align="right" valign="top">virtual std::chrono::time_point&lt; std::chrono::system_clock &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08c9e69d4b03bae3721d386b7e7bba3c">GetLicenseValidUntil</a> () const</td></tr>
+<tr class="memdesc:a08c9e69d4b03bae3721d386b7e7bba3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets protection license expiration time.  <br /></td></tr>
+<tr class="separator:a08c9e69d4b03bae3721d386b7e7bba3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec2ee49903d638c123df1c116d3a4562" id="r_aec2ee49903d638c123df1c116d3a4562"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec2ee49903d638c123df1c116d3a4562">DoesAllowOfflineAccess</a> () const =0</td></tr>
 <tr class="memdesc:aec2ee49903d638c123df1c116d3a4562"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets if protection allows offline content access or not.  <br /></td></tr>
 <tr class="separator:aec2ee49903d638c123df1c116d3a4562"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,6 +234,35 @@ Public Member Functions</h2></td></tr>
 
 <p>Checks if content has an expiration time or not. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if content can expire, else false </dd></dl>
+
+</div>
+</div>
+<a id="ad03a008c73cf014eccd6555311266cd9" name="ad03a008c73cf014eccd6555311266cd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad03a008c73cf014eccd6555311266cd9">&#9670;&#160;</a></span>DoesLicenseExpire()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProtectionDescriptor::DoesLicenseExpire </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if license has an expiration time or not. </p>
+<dl class="section note"><dt>Note</dt><dd>If <a class="el" href="#aec2ee49903d638c123df1c116d3a4562" title="Gets if protection allows offline content access or not.">DoesAllowOfflineAccess()</a> is false, the return value from this function is not meaningful.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>True if license can expire, else false </dd></dl>
 
 </div>
 </div>
@@ -458,6 +492,35 @@ Public Member Functions</h2></td></tr>
 <p>Gets the label Info, if any. </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classLabel.html" title="Abstraction for a single Microsoft Information Protection label.">Label</a> Info</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>This property will be populated in ProtectionDescriptors for preexisting protected content &amp; for UDP label based protection. It is a field populated by the server at the moment protected content is consumed. For UDP label based protection, its populated from label and tenant id values set by client. </dd></dl>
+
+</div>
+</div>
+<a id="a08c9e69d4b03bae3721d386b7e7bba3c" name="a08c9e69d4b03bae3721d386b7e7bba3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08c9e69d4b03bae3721d386b7e7bba3c">&#9670;&#160;</a></span>GetLicenseValidUntil()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::chrono::time_point&lt; std::chrono::system_clock &gt; ProtectionDescriptor::GetLicenseValidUntil </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets protection license expiration time. </p>
+<dl class="section return"><dt>Returns</dt><dd>Protection license cache expiration time. Returns 0 if the license never expires, or if there is no license yet, as in protection cases.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This field is read-only, it is not used for protection, only consumption. Do not override this when subclassing <a class="el" href="classProtectionDescriptor.html" title="Description of protection associated with a piece of content.">ProtectionDescriptor</a>. When <a class="el" href="#aec2ee49903d638c123df1c116d3a4562" title="Gets if protection allows offline content access or not.">DoesAllowOfflineAccess()</a> is false, the return value from this function is not meaningful. </dd></dl>
 
 </div>
 </div>

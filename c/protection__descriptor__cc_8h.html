@@ -19,7 +19,6 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="custom.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -28,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.18</span>
    </div>
    <div id="projectbrief">API Reference Documentation for C</div>
   </td>
@@ -142,8 +141,9 @@ Typedefs</h2></td></tr>
 Enumerations</h2></td></tr>
 <tr class="memitem:a40a1e2cb0d53f1730cdd4213d1dbf85d" id="r_a40a1e2cb0d53f1730cdd4213d1dbf85d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40a1e2cb0d53f1730cdd4213d1dbf85d">mip_cc_protection_type</a> { <a class="el" href="#a40a1e2cb0d53f1730cdd4213d1dbf85da772df0f6d1140b4720772b7de0c2b0c1">MIP_PROTECTION_TYPE_TEMPLATE_BASED</a> = 0
 , <a class="el" href="#a40a1e2cb0d53f1730cdd4213d1dbf85da1ea2ebab11433f1f26b5f7404cbe47d1">MIP_PROTECTION_TYPE_CUSTOM</a> = 1
+, <a class="el" href="#a40a1e2cb0d53f1730cdd4213d1dbf85da9f3b7b0a54fd86ee65bf984acf531817">MIP_PROTECTION_TYPE_DYNAMIC</a> = 2
  }</td></tr>
-<tr class="memdesc:a40a1e2cb0d53f1730cdd4213d1dbf85d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A description of whether protection is defined by a template or ad-hoc.  <a href="#a40a1e2cb0d53f1730cdd4213d1dbf85d">More...</a><br /></td></tr>
+<tr class="memdesc:a40a1e2cb0d53f1730cdd4213d1dbf85d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A description of how protection is defined.  <a href="#a40a1e2cb0d53f1730cdd4213d1dbf85d">More...</a><br /></td></tr>
 <tr class="separator:a40a1e2cb0d53f1730cdd4213d1dbf85d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -215,6 +215,10 @@ Variables</h2></td></tr>
 <tr class="separator:a6f79bd3baade1984cf17761d1de8b11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61670ab35e47996fc36d46370f5d30af" id="r_a61670ab35e47996fc36d46370f5d30af"><td class="memItemLeft" align="right" valign="top">bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61670ab35e47996fc36d46370f5d30af">doesAllowOfflineAccess</a></td></tr>
 <tr class="separator:a61670ab35e47996fc36d46370f5d30af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af81569690be8a4e1843dd135da45dba8" id="r_af81569690be8a4e1843dd135da45dba8"><td class="memItemLeft" align="right" valign="top">bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af81569690be8a4e1843dd135da45dba8">doesLicenseExpire</a></td></tr>
+<tr class="separator:af81569690be8a4e1843dd135da45dba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11a01a0018ef75b5f58ddebc18d5e0f7" id="r_a11a01a0018ef75b5f58ddebc18d5e0f7"><td class="memItemLeft" align="right" valign="top">time_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11a01a0018ef75b5f58ddebc18d5e0f7">licenseValidUntil</a></td></tr>
+<tr class="separator:a11a01a0018ef75b5f58ddebc18d5e0f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaec46ed9b0604c33999d25f00dbb6e0" id="r_abaec46ed9b0604c33999d25f00dbb6e0"><td class="memItemLeft" align="right" valign="top">int64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaec46ed9b0604c33999d25f00dbb6e0">referrerSize</a></td></tr>
 <tr class="separator:abaec46ed9b0604c33999d25f00dbb6e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c1725ede6b7f9fdd7e27b1a8fab2d68" id="r_a3c1725ede6b7f9fdd7e27b1a8fab2d68"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c1725ede6b7f9fdd7e27b1a8fab2d68">referrerBuffer</a></td></tr>
@@ -306,11 +310,13 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>A description of whether protection is defined by a template or ad-hoc. </p>
+<p>A description of how protection is defined. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a40a1e2cb0d53f1730cdd4213d1dbf85da772df0f6d1140b4720772b7de0c2b0c1" name="a40a1e2cb0d53f1730cdd4213d1dbf85da772df0f6d1140b4720772b7de0c2b0c1"></a>MIP_PROTECTION_TYPE_TEMPLATE_BASED&#160;</td><td class="fielddoc"><p>Based on an RMS template </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a40a1e2cb0d53f1730cdd4213d1dbf85da1ea2ebab11433f1f26b5f7404cbe47d1" name="a40a1e2cb0d53f1730cdd4213d1dbf85da1ea2ebab11433f1f26b5f7404cbe47d1"></a>MIP_PROTECTION_TYPE_CUSTOM&#160;</td><td class="fielddoc"><p>Custom, ad-hoc protection </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a40a1e2cb0d53f1730cdd4213d1dbf85da9f3b7b0a54fd86ee65bf984acf531817" name="a40a1e2cb0d53f1730cdd4213d1dbf85da9f3b7b0a54fd86ee65bf984acf531817"></a>MIP_PROTECTION_TYPE_DYNAMIC&#160;</td><td class="fielddoc"><p>Protection is defined by the service at the time of use license generation. May not be used when protecting content. </p>
 </td></tr>
 </table>
 
@@ -344,6 +350,8 @@ Variables</h2></td></tr>
 <p>Gets signed application data.</p>
 <p>Gets protection referrer.</p>
 <p>Gets size of buffer required to store referrer.</p>
+<p>Gets protection license expiration time.</p>
+<p>Gets whether or not the license has an expiration time or not.</p>
 <p>Gets whether or not offline access is allowed.</p>
 <p>Gets protection expiration time (in seconds since epoch)</p>
 <p>Gets whether or not content has an expiration time or not.</p>
@@ -513,7 +521,7 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">protectionDescriptor</td><td>Descriptor associated with protected content </td></tr>
-    <tr><td class="paramname">contentValidUntil</td><td>[Output] Content expiration time (in seconds since epoch) </td></tr>
+    <tr><td class="paramname">contentValidUntil</td><td>[Output] Content expiration time (in seconds since epoch, local time) </td></tr>
     <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
   </table>
   </dd>
@@ -528,6 +536,25 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">protectionDescriptor</td><td>Descriptor associated with protected content </td></tr>
+    <tr><td class="paramname">doesContentExpire</td><td>[Output] Whether or not the license expires </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">protectionDescriptor</td><td>Descriptor associated with protected content </td></tr>
+    <tr><td class="paramname">licenseValidUntil</td><td>[Output] License expiration time (in seconds since epoch, local time) </td></tr>
+    <tr><td class="paramname">errorInfo</td><td>[Output] (Optional) Failure info if operation result is error</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result code indicating success or failure</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This field is read-only, it is not used for protection, only consumption.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">protectionDescriptor</td><td>Descriptor associated with protected content </td></tr>
@@ -882,6 +909,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="af81569690be8a4e1843dd135da45dba8" name="af81569690be8a4e1843dd135da45dba8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af81569690be8a4e1843dd135da45dba8">&#9670;&#160;</a></span>doesLicenseExpire</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool* doesLicenseExpire</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a191e6d79f9db124d785a186bd9090b18" name="a191e6d79f9db124d785a186bd9090b18"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a191e6d79f9db124d785a186bd9090b18">&#9670;&#160;</a></span>dynamicWatermark</h2>
 
@@ -932,6 +973,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structmip__cc__guid.html">mip_cc_guid</a>* labelId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a11a01a0018ef75b5f58ddebc18d5e0f7" name="a11a01a0018ef75b5f58ddebc18d5e0f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11a01a0018ef75b5f58ddebc18d5e0f7">&#9670;&#160;</a></span>licenseValidUntil</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">time_t* licenseValidUntil</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -1,0 +1,195 @@
+var hierarchy =
+[
+    [ "Action", "classAction.html", [
+      [ "AddContentFooterAction", "classAddContentFooterAction.html", null ],
+      [ "AddContentHeaderAction", "classAddContentHeaderAction.html", null ],
+      [ "AddDynamicWatermarkAction", "classAddDynamicWatermarkAction.html", null ],
+      [ "AddWatermarkAction", "classAddWatermarkAction.html", null ],
+      [ "ApplyLabelAction", "classApplyLabelAction.html", null ],
+      [ "CustomAction", "classCustomAction.html", null ],
+      [ "JustifyAction", "classJustifyAction.html", null ],
+      [ "MetadataAction", "classMetadataAction.html", null ],
+      [ "ProtectAdhocAction", "classProtectAdhocAction.html", null ],
+      [ "ProtectAdhocDkAction", "classProtectAdhocDkAction.html", null ],
+      [ "ProtectByEncryptOnlyAction", "classProtectByEncryptOnlyAction.html", null ],
+      [ "ProtectByTemplateAction", "classProtectByTemplateAction.html", null ],
+      [ "ProtectDoNotForwardAction", "classProtectDoNotForwardAction.html", null ],
+      [ "ProtectDoNotForwardDkAction", "classProtectDoNotForwardDkAction.html", null ],
+      [ "RecommendLabelAction", "classRecommendLabelAction.html", null ],
+      [ "RemoveContentFooterAction", "classRemoveContentFooterAction.html", null ],
+      [ "RemoveContentHeaderAction", "classRemoveContentHeaderAction.html", null ],
+      [ "RemoveDynamicWatermarkAction", "classRemoveDynamicWatermarkAction.html", null ],
+      [ "RemoveProtectionAction", "classRemoveProtectionAction.html", null ],
+      [ "RemoveWatermarkAction", "classRemoveWatermarkAction.html", null ]
+    ] ],
+    [ "ActionData", "classActionData.html", [
+      [ "AddDynamicWatermarkActionData", "classAddDynamicWatermarkActionData.html", null ],
+      [ "AddWatermarkActionData", "classAddWatermarkActionData.html", null ],
+      [ "ContentMarkingActionData", "classContentMarkingActionData.html", null ],
+      [ "LabelActionData", "classLabelActionData.html", null ],
+      [ "ProtectionActionData", "classProtectionActionData.html", null ]
+    ] ],
+    [ "ApplicationActionState", "classApplicationActionState.html", null ],
+    [ "ApplicationInfo", "structApplicationInfo.html", null ],
+    [ "ArgumentData", "classArgumentData.html", null ],
+    [ "AsyncControl", "classAsyncControl.html", null ],
+    [ "AuthDelegate", "classAuthDelegate.html", null ],
+    [ "ClassificationData", "classClassificationData.html", [
+      [ "SensitiveTypeClassificationData", "classSensitiveTypeClassificationData.html", null ]
+    ] ],
+    [ "ClassificationRequest", "classClassificationRequest.html", null ],
+    [ "ClassificationResult", "classClassificationResult.html", null ],
+    [ "ComputeEngine", "classComputeEngine.html", null ],
+    [ "ComputeEngineContext", "classComputeEngineContext.html", null ],
+    [ "ConditionData", "classConditionData.html", [
+      [ "SensitivityConditionData", "classSensitivityConditionData.html", null ]
+    ] ],
+    [ "ConsentDelegate", "classConsentDelegate.html", null ],
+    [ "ContentLabel", "classContentLabel.html", null ],
+    [ "DelegationLicense", "classDelegationLicense.html", null ],
+    [ "DetailedClassificationResult", "classDetailedClassificationResult.html", null ],
+    [ "DiagnosticConfiguration", "structDiagnosticConfiguration.html", null ],
+    [ "DiagnosticDelegate< T >", "classDiagnosticDelegate.html", null ],
+    [ "DiagnosticDelegate< AuditEvent >", "classDiagnosticDelegate.html", [
+      [ "AuditDelegate", "classAuditDelegate.html", null ]
+    ] ],
+    [ "DiagnosticDelegate< TelemetryEvent >", "classDiagnosticDelegate.html", [
+      [ "TelemetryDelegate", "classTelemetryDelegate.html", null ]
+    ] ],
+    [ "DirectoryObject", "classDirectoryObject.html", null ],
+    [ "DirectoryObjectRights", "classDirectoryObjectRights.html", null ],
+    [ "DocumentState", "classDocumentState.html", null ],
+    [ "DynamicWatermark", "classDynamicWatermark.html", null ],
+    [ "Event", "classEvent.html", [
+      [ "AuditEvent", "classAuditEvent.html", null ],
+      [ "TelemetryEvent", "classTelemetryEvent.html", null ]
+    ] ],
+    [ "EventContext", "classEventContext.html", null ],
+    [ "EventProperty", "classEventProperty.html", null ],
+    [ "std::exception", null, [
+      [ "Error", "classError.html", [
+        [ "AccessDeniedError", "classAccessDeniedError.html", [
+          [ "CustomerKeyUnavailableError", "classCustomerKeyUnavailableError.html", null ],
+          [ "NoAuthTokenError", "classNoAuthTokenError.html", null ],
+          [ "NoPermissionsError", "classNoPermissionsError.html", [
+            [ "NoPermissionsExtendedError", "classNoPermissionsExtendedError.html", null ]
+          ] ],
+          [ "ServiceDisabledError", "classServiceDisabledError.html", null ]
+        ] ],
+        [ "AdhocProtectionRequiredError", "classAdhocProtectionRequiredError.html", null ],
+        [ "BadInputError", "classBadInputError.html", [
+          [ "ContentFormatNotSupportedError", "classContentFormatNotSupportedError.html", null ],
+          [ "InsufficientBufferError", "classInsufficientBufferError.html", null ],
+          [ "LabelDisabledError", "classLabelDisabledError.html", null ],
+          [ "LabelNotFoundError", "classLabelNotFoundError.html", null ],
+          [ "LicenseNotRegisteredError", "classLicenseNotRegisteredError.html", null ],
+          [ "TemplateArchivedError", "classTemplateArchivedError.html", null ],
+          [ "TemplateNotFoundError", "classTemplateNotFoundError.html", null ]
+        ] ],
+        [ "ConsentDeniedError", "classConsentDeniedError.html", null ],
+        [ "DelegateResponseError", "classDelegateResponseError.html", null ],
+        [ "DeprecatedApiError", "classDeprecatedApiError.html", null ],
+        [ "FileIOError", "classFileIOError.html", null ],
+        [ "InternalError", "classInternalError.html", null ],
+        [ "JustificationRequiredError", "classJustificationRequiredError.html", null ],
+        [ "NetworkError", "classNetworkError.html", [
+          [ "ProxyAuthenticationError", "classProxyAuthenticationError.html", null ]
+        ] ],
+        [ "NoPolicyError", "classNoPolicyError.html", null ],
+        [ "NotSupportedError", "classNotSupportedError.html", null ],
+        [ "OperationCancelledError", "classOperationCancelledError.html", null ],
+        [ "PrivilegedRequiredError", "classPrivilegedRequiredError.html", null ]
+      ] ],
+      [ "xml::XmlLoadException", "classxml_1_1XmlLoadException.html", null ],
+      [ "xml::XmlParserException", "classxml_1_1XmlParserException.html", null ]
+    ] ],
+    [ "ExecutionState", "classExecutionState.html", null ],
+    [ "ExtendedErrorInfo", "structExtendedErrorInfo.html", null ],
+    [ "FileExecutionState", "classFileExecutionState.html", null ],
+    [ "FileHandler", "classFileHandler.html", null ],
+    [ "FileInspector", "classFileInspector.html", [
+      [ "MsgInspector", "classMsgInspector.html", null ]
+    ] ],
+    [ "FileProfile", "classFileProfile.html", null ],
+    [ "FileStatus", "classFileStatus.html", null ],
+    [ "HttpDelegate", "classHttpDelegate.html", null ],
+    [ "HttpOperation", "classHttpOperation.html", null ],
+    [ "HttpRequest", "classHttpRequest.html", null ],
+    [ "HttpResponse", "classHttpResponse.html", null ],
+    [ "Identity", "classIdentity.html", null ],
+    [ "JsonDelegate", "classJsonDelegate.html", null ],
+    [ "JsonDocument", "classJsonDocument.html", null ],
+    [ "JsonValue", "classJsonValue.html", null ],
+    [ "Label", "classLabel.html", null ],
+    [ "LabelGroupData", "classLabelGroupData.html", null ],
+    [ "LabelInfo", "structLabelInfo.html", null ],
+    [ "LabelingOptions", "classLabelingOptions.html", null ],
+    [ "LicenseApplicationData", "classLicenseApplicationData.html", null ],
+    [ "LicenseConnectionInfo", "classLicenseConnectionInfo.html", null ],
+    [ "LicenseDescriptor", "classLicenseDescriptor.html", null ],
+    [ "LicenseInfo", "classLicenseInfo.html", null ],
+    [ "LicenseNameAndDescriptionItem", "classLicenseNameAndDescriptionItem.html", null ],
+    [ "LicenseRightsData", "classLicenseRightsData.html", null ],
+    [ "LoggerConfiguration", "structLoggerConfiguration.html", null ],
+    [ "LoggerDelegate", "classLoggerDelegate.html", null ],
+    [ "LogMessageData", "classLogMessageData.html", null ],
+    [ "MetadataEntry", "classMetadataEntry.html", null ],
+    [ "MetadataVersion", "classMetadataVersion.html", null ],
+    [ "MipConfiguration", "classMipConfiguration.html", null ],
+    [ "MipContext", "classMipContext.html", null ],
+    [ "MsgAttachmentData", "classMsgAttachmentData.html", null ],
+    [ "AuthDelegate::OAuth2Challenge", "classAuthDelegate_1_1OAuth2Challenge.html", null ],
+    [ "AuthDelegate::OAuth2Token", "classAuthDelegate_1_1OAuth2Token.html", null ],
+    [ "FileHandler::Observer", "classFileHandler_1_1Observer.html", null ],
+    [ "FileProfile::Observer", "classFileProfile_1_1Observer.html", null ],
+    [ "ProtectionEngine::Observer", "classProtectionEngine_1_1Observer.html", null ],
+    [ "ProtectionHandler::Observer", "classProtectionHandler_1_1Observer.html", null ],
+    [ "ProtectionProfile::Observer", "classProtectionProfile_1_1Observer.html", null ],
+    [ "ParsedPublishingLicense", "classParsedPublishingLicense.html", null ],
+    [ "ParsedPublishingLicenseBuilder", "classParsedPublishingLicenseBuilder.html", null ],
+    [ "PolicyHandler", "classPolicyHandler.html", null ],
+    [ "PolicyPackageData", "classPolicyPackageData.html", null ],
+    [ "PolicyRuleData", "classPolicyRuleData.html", null ],
+    [ "PropertyData", "classPropertyData.html", null ],
+    [ "ProtectionCommonSettings", "classProtectionCommonSettings.html", [
+      [ "DelegationLicenseSettings", "classDelegationLicenseSettings.html", null ],
+      [ "GetTemplatesSettings", "classGetTemplatesSettings.html", null ],
+      [ "ProtectionHandler::ConsumptionSettings", "classProtectionHandler_1_1ConsumptionSettings.html", null ],
+      [ "ProtectionHandler::PublishingSettings", "classProtectionHandler_1_1PublishingSettings.html", null ]
+    ] ],
+    [ "ProtectionDescriptor", "classProtectionDescriptor.html", null ],
+    [ "ProtectionDescriptorBuilder", "classProtectionDescriptorBuilder.html", null ],
+    [ "ProtectionEngine", "classProtectionEngine.html", null ],
+    [ "ProtectionHandler", "classProtectionHandler.html", null ],
+    [ "ProtectionProfile", "classProtectionProfile.html", null ],
+    [ "ProtectionSettings", "classProtectionSettings.html", null ],
+    [ "PublishingLicenseInfo", "classPublishingLicenseInfo.html", null ],
+    [ "PublishingUseLicenseRequest", "classPublishingUseLicenseRequest.html", null ],
+    [ "RulePackageData", "classRulePackageData.html", null ],
+    [ "SensitivityTypesRulePackage", "classSensitivityTypesRulePackage.html", null ],
+    [ "ComputeEngine::Settings", "classComputeEngine_1_1Settings.html", null ],
+    [ "FileProfile::Settings", "classFileProfile_1_1Settings.html", null ],
+    [ "ProtectionEngine::Settings", "classProtectionEngine_1_1Settings.html", null ],
+    [ "ProtectionProfile::Settings", "classProtectionProfile_1_1Settings.html", null ],
+    [ "StorageDelegate", "classStorageDelegate.html", null ],
+    [ "StorageDelegate::StorageSettings", "classStorageDelegate_1_1StorageSettings.html", null ],
+    [ "StorageTable", "classStorageTable.html", null ],
+    [ "Stream", "classStream.html", [
+      [ "EditableStream", "classEditableStream.html", null ]
+    ] ],
+    [ "SyncFileBaseData", "classSyncFileBaseData.html", [
+      [ "SyncFilePolicyData", "classSyncFilePolicyData.html", null ],
+      [ "SyncFileSensitivityData", "classSyncFileSensitivityData.html", null ]
+    ] ],
+    [ "TaskDispatcherDelegate", "classTaskDispatcherDelegate.html", null ],
+    [ "TemplateDescriptor", "classTemplateDescriptor.html", null ],
+    [ "TenantInformation", "classTenantInformation.html", null ],
+    [ "UniqueIdsAndContentFormats", "structUniqueIdsAndContentFormats.html", null ],
+    [ "UserRights", "classUserRights.html", null ],
+    [ "UserRoles", "classUserRoles.html", null ],
+    [ "xml::XmlDelegate", "classxml_1_1XmlDelegate.html", null ],
+    [ "xml::XmlDocument", "classxml_1_1XmlDocument.html", null ],
+    [ "xml::XmlNamespace", "structxml_1_1XmlNamespace.html", null ],
+    [ "xml::XmlNode", "classxml_1_1XmlNode.html", null ],
+    [ "xml::XmlReader", "classxml_1_1XmlReader.html", null ]
+];

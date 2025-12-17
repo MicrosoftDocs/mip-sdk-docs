@@ -1,0 +1,194 @@
+\mainpage
+# Microsoft Information Protection SDK (CPP)
+
+Welcome to the reference documentation for the Microsoft Information Protection SDK.
+
+Use the navigation panel on the left to browse classes, modules, and related APIs.
+
+## Class List
+
+| Name | Description |
+|------|-------------|
+| [XmlDelegate](classxml_1_1XmlDelegate.html) | Interface for overriding XML handling (must be capable of handling multiple threads) |
+| [XmlDocument](classxml_1_1XmlDocument.html) |  |
+| [XmlLoadException](classxml_1_1XmlLoadException.html) |  |
+| [XmlNamespace](structxml_1_1XmlNamespace.html) |  |
+| [XmlNode](classxml_1_1XmlNode.html) |  |
+| [XmlParserException](classxml_1_1XmlParserException.html) |  |
+| [XmlReader](classxml_1_1XmlReader.html) | XmlReader abstraction class |
+| [AccessDeniedError](classAccessDeniedError.html) | The user could not get access to the content. For example, no permissions, content revoked |
+| [Action](classAction.html) | Interface for an action. Each action translates to a step that needs to be taken by the application to apply the label (as defined in the policy) |
+| [ActionData](classActionData.html) |  |
+| [AddContentFooterAction](classAddContentFooterAction.html) | An action class that specifies adding a content footer to the document |
+| [AddContentHeaderAction](classAddContentHeaderAction.html) | An action class that specifies adding content header |
+| [AddDynamicWatermarkAction](classAddDynamicWatermarkAction.html) | An action class that specifies adding watermark |
+| [AddDynamicWatermarkActionData](classAddDynamicWatermarkActionData.html) |  |
+| [AddWatermarkAction](classAddWatermarkAction.html) | An action class that specifies adding watermark |
+| [AddWatermarkActionData](classAddWatermarkActionData.html) |  |
+| [AdhocProtectionRequiredError](classAdhocProtectionRequiredError.html) | Adhoc protection should be set to complete the action on the file |
+| [ApplicationActionState](classApplicationActionState.html) |  |
+| [ApplicationInfo](structApplicationInfo.html) | A struct that includes application specific information |
+| [ApplyLabelAction](classApplyLabelAction.html) | Apply label actions requires the calling application to apply a specific label |
+| [ArgumentData](classArgumentData.html) |  |
+| [AsyncControl](classAsyncControl.html) | Class used to cancel async operation |
+| [AuditDelegate](classAuditDelegate.html) | A class that defines the interface to the MIP SDK audit notifications |
+| [AuditEvent](classAuditEvent.html) | A single audit event |
+| [AuthDelegate](classAuthDelegate.html) | Delegate for auth related operations |
+| [OAuth2Challenge](classAuthDelegate_1_1OAuth2Challenge.html) | Class that contains all the information required from the calling application in order to generate an oauth2 token |
+| [OAuth2Token](classAuthDelegate_1_1OAuth2Token.html) | A class containing access token info provided by an application |
+| [BadInputError](classBadInputError.html) | Bad input error, thrown when the input to an SDK API is invalid |
+| [ClassificationData](classClassificationData.html) |  |
+| [ClassificationRequest](classClassificationRequest.html) | Class that contains the request of a classification call on the Execution State |
+| [ClassificationResult](classClassificationResult.html) | Class that contains the result of a classification call on the Execution State |
+| [CloudDiscoveryDelegate](classCloudDiscoveryDelegate.html) | Interface for overriding cloud discovery |
+| [CloudDiscoveryResult](classCloudDiscoveryResult.html) | Interface for the result of cloud discovery |
+| [ComputeEngine](classComputeEngine.html) |  |
+| [Settings](classComputeEngine_1_1Settings.html) |  |
+| [ComputeEngineContext](classComputeEngineContext.html) |  |
+| [ConditionData](classConditionData.html) |  |
+| [ConsentDelegate](classConsentDelegate.html) | Delegate for consent related operations |
+| [ConsentDeniedError](classConsentDeniedError.html) | An operation that required consent from user was not granted consent |
+| [ContentFormatNotSupportedError](classContentFormatNotSupportedError.html) | Content Format is not supported |
+| [ContentLabel](classContentLabel.html) | Abstraction for a Microsoft Information Protection label that is applied to a piece of content, typically a document |
+| [ContentMarkingActionData](classContentMarkingActionData.html) |  |
+| [CustomAction](classCustomAction.html) | CustomAction is a generic action class that captures all the sub-properties of the action as a property bag. The caller is responsible to understand the meaning of the action |
+| [CustomerKeyUnavailableError](classCustomerKeyUnavailableError.html) | Bring your own encryption key needed and unavailable |
+| [DelegateResponseError](classDelegateResponseError.html) | Delegate Response Error. Thrown or returned in response to encountering an error in a delegate method |
+| [DelegationLicense](classDelegationLicense.html) |  |
+| [DelegationLicenseSettings](classDelegationLicenseSettings.html) |  |
+| [DeprecatedApiError](classDeprecatedApiError.html) | Caller invoked a deprecated API |
+| [DetailedClassificationResult](classDetailedClassificationResult.html) | Class that contains the result of a classification call on the Execution State |
+| [DiagnosticConfiguration](structDiagnosticConfiguration.html) | Custom diagnostic configurations (not commonly used) |
+| [DiagnosticDelegate](classDiagnosticDelegate.html) | A class that defines the interface to the MIP SDK audit/telemetry notifications |
+| [DirectoryObject](classDirectoryObject.html) | The directory object information which includes- type, email, objectId and PUID |
+| [DirectoryObjectRights](classDirectoryObjectRights.html) | The directory object and rights associated with it |
+| [DocumentState](classDocumentState.html) |  |
+| [DynamicWatermark](classDynamicWatermark.html) | Representation of the dynamic watermark which the admin has configured for a label |
+| [EditableStream](classEditableStream.html) |  |
+| [Error](classError.html) | Base class for all errors that will be reported (thrown or returned) from MIP SDK |
+| [Event](classEvent.html) | A single audit/telemetry event |
+| [EventContext](classEventContext.html) | A single audit/telemetry event context |
+| [EventProperty](classEventProperty.html) | A single audit/telemetry property |
+| [ExecutionState](classExecutionState.html) | Interface for all the state needed to execute the engine |
+| [ExtendedErrorInfo](structExtendedErrorInfo.html) |  |
+| [FileExecutionState](classFileExecutionState.html) |  |
+| [FileHandler](classFileHandler.html) | Interface for all file handling functions |
+| [Observer](classFileHandler_1_1Observer.html) | Observer interface for clients to get notifications events related to file handler |
+| [FileInspector](classFileInspector.html) |  |
+| [FileIOError](classFileIOError.html) | File IO error |
+| [FileProfile](classFileProfile.html) | FileProfile class is the root class for using the Microsoft Information Protection operations |
+| [Observer](classFileProfile_1_1Observer.html) | Observer interface for clients to get notifications for profile related events |
+| [Settings](classFileProfile_1_1Settings.html) | Settings used by FileProfile during its creation and throughout its lifetime |
+| [FileStatus](classFileStatus.html) | Interface for all file status functions |
+| [GetTemplatesSettings](classGetTemplatesSettings.html) | Settings to use when obtaining templates |
+| [HttpDelegate](classHttpDelegate.html) | Interface for overriding HTTP handling |
+| [HttpOperation](classHttpOperation.html) | Interface that describes a single HTTP operation, implemented by client app when overriding HttpDelegate |
+| [HttpRequest](classHttpRequest.html) | Interface that describes a single HTTP request |
+| [HttpResponse](classHttpResponse.html) | Interface that describes a single HTTP response, implemented by client app when overriding HttpDelegate |
+| [Identity](classIdentity.html) | Abstraction for identity |
+| [InsufficientBufferError](classInsufficientBufferError.html) | Insufficient buffer error |
+| [InternalError](classInternalError.html) | Internal error. This error is thrown when something unexpected happens during execution |
+| [JsonDelegate](classJsonDelegate.html) |  |
+| [JsonDocument](classJsonDocument.html) | JsonDocument abstraction class |
+| [JsonValue](classJsonValue.html) |  |
+| [JustificationRequiredError](classJustificationRequiredError.html) |  |
+| [JustifyAction](classJustifyAction.html) | Justify Action requires providing a justification to a label downgrade and setting the response in the execution state |
+| [Label](classLabel.html) | Abstraction for a single Microsoft Information Protection label |
+| [LabelActionData](classLabelActionData.html) |  |
+| [LabelDisabledError](classLabelDisabledError.html) | Label is disabled or inactive |
+| [LabelGroupData](classLabelGroupData.html) |  |
+| [LabelInfo](structLabelInfo.html) | Label information for a template or ad-hoc (custom) protection |
+| [LabelingOptions](classLabelingOptions.html) | Interface for configuring labeling options for the SetLabel/DeleteLabel methods |
+| [LabelNotFoundError](classLabelNotFoundError.html) | Label ID is not recognized |
+| [LicenseApplicationData](classLicenseApplicationData.html) | The application data from a license |
+| [LicenseConnectionInfo](classLicenseConnectionInfo.html) | The connection information from a license |
+| [LicenseDescriptor](classLicenseDescriptor.html) | The descriptor from a license |
+| [LicenseInfo](classLicenseInfo.html) | Representation of the dynamic watermark which the admin has configured for a label |
+| [LicenseNameAndDescriptionItem](classLicenseNameAndDescriptionItem.html) | The descriptor line item from a license |
+| [LicenseNotRegisteredError](classLicenseNotRegisteredError.html) | License is not registered |
+| [LicenseRightsData](classLicenseRightsData.html) | The rights related information of the publishing license |
+| [LoggerConfiguration](structLoggerConfiguration.html) | Configuration to use when default logging is enabled. This is set only once per process and any later change will be ignored |
+| [LoggerDelegate](classLoggerDelegate.html) | A class that defines the interface to the MIP SDK logger |
+| [LogMessageData](classLogMessageData.html) | A class that stores log messages |
+| [MaxDepthReachedError](classMaxDepthReachedError.html) | Max depth reached error. This will be thrown while removing protection from MSGs/EMLs if the number of nested messages exceed the maximum depth (defaults to 10) |
+| [MetadataAction](classMetadataAction.html) | An Action that adds metadata information to the content |
+| [MetadataEntry](classMetadataEntry.html) | An abstraction class for metadata entry |
+| [MetadataVersion](classMetadataVersion.html) | Interface for a MetadataVersion. MetadataVersion determines which metadata is active and how it is processed |
+| [MipConfiguration](classMipConfiguration.html) | Configuration used by MIP sdk during its creation and throughout its lifetime |
+| [MipContext](classMipContext.html) | MipContext represents state that is shared across all profiles, engines, handlers |
+| [MsgAttachmentData](classMsgAttachmentData.html) |  |
+| [MsgInspector](classMsgInspector.html) |  |
+| [NetworkError](classNetworkError.html) | Networking error. Caused by unexpected behavior when making network calls to service endpoints |
+| [NoAuthTokenError](classNoAuthTokenError.html) | The user could not get access to the content due to missing authentication token |
+| [NoPermissionsError](classNoPermissionsError.html) | The user could not get access to the content. For example, no permissions, content revoked |
+| [NoPermissionsExtendedError](classNoPermissionsExtendedError.html) | The user could not get access to the content due to extended Access checks like ABAC |
+| [NoPolicyError](classNoPolicyError.html) | Tenant policy is not configured for classification/labels |
+| [NotSupportedError](classNotSupportedError.html) | The operation requested by the application is not supported by the SDK |
+| [OperationCancelledError](classOperationCancelledError.html) | Operation was cancelled |
+| [ParsedPublishingLicense](classParsedPublishingLicense.html) |  |
+| [ParsedPublishingLicenseBuilder](classParsedPublishingLicenseBuilder.html) |  |
+| [PolicyHandler](classPolicyHandler.html) | This class provides an interface for all policy handler functions on a file |
+| [PolicyPackageData](classPolicyPackageData.html) |  |
+| [PolicyRuleData](classPolicyRuleData.html) |  |
+| [PrivilegedRequiredError](classPrivilegedRequiredError.html) | Current label was assigned as a privileged operation (The equivalent to an administrator operation), therefore it can't be overriden |
+| [PropertyData](classPropertyData.html) |  |
+| [ProtectAdhocAction](classProtectAdhocAction.html) | An action class that specifies adding adhoc protection to the document |
+| [ProtectAdhocDkAction](classProtectAdhocDkAction.html) | An action class that specifies adding adhoc double key protection to the document |
+| [ProtectByEncryptOnlyAction](classProtectByEncryptOnlyAction.html) | An action class that specifies adding encrypt only protection to the document |
+| [ProtectByTemplateAction](classProtectByTemplateAction.html) | An action class that specifies adding protection by template to the document |
+| [ProtectDoNotForwardAction](classProtectDoNotForwardAction.html) | An action class that specifies adding do not forward protection to the document |
+| [ProtectDoNotForwardDkAction](classProtectDoNotForwardDkAction.html) | An action class that specifies adding do not forward double key protection to the document |
+| [ProtectionActionData](classProtectionActionData.html) |  |
+| [ProtectionCommonSettings](classProtectionCommonSettings.html) | Settings to use for protection operations |
+| [ProtectionDescriptor](classProtectionDescriptor.html) | Description of protection associated with a piece of content |
+| [ProtectionDescriptorBuilder](classProtectionDescriptorBuilder.html) | Constructs a ProtectionDescriptor that describes protection associated with a piece of content |
+| [ProtectionEngine](classProtectionEngine.html) | Manages protection-related actions related to a specific identity |
+| [Observer](classProtectionEngine_1_1Observer.html) | Interface that receives notifications related to ProtectionEngine |
+| [Settings](classProtectionEngine_1_1Settings.html) | Settings used by ProtectionEngine during its creation and throughout its lifetime |
+| [ProtectionHandler](classProtectionHandler.html) | Manages protection-related actions for a specific protection configuration |
+| [ConsumptionSettings](classProtectionHandler_1_1ConsumptionSettings.html) | Settings used to create a ProtectionHandler to consume existing content |
+| [Observer](classProtectionHandler_1_1Observer.html) | Interface that receives notifications related to ProtectionHandler |
+| [PublishingSettings](classProtectionHandler_1_1PublishingSettings.html) | Settings used to create a ProtectionHandler to protect new content |
+| [ProtectionProfile](classProtectionProfile.html) | ProtectionProfile is the root class for performing protection operations |
+| [Observer](classProtectionProfile_1_1Observer.html) | Interface that receives notifications related to ProtectionProfile |
+| [Settings](classProtectionProfile_1_1Settings.html) | Settings used by ProtectionProfile during its creation and throughout its lifetime |
+| [ProtectionSettings](classProtectionSettings.html) | Interface for configuring protection options for the SetLabel method |
+| [ProxyAuthenticationError](classProxyAuthenticationError.html) | Proxy authentication failure |
+| [PublishingLicenseInfo](classPublishingLicenseInfo.html) | Holds the details of a Publishing License used to create a protection handler |
+| [PublishingUseLicenseRequest](classPublishingUseLicenseRequest.html) | Request for a use license in the publishing request |
+| [RecommendLabelAction](classRecommendLabelAction.html) | Recommend label actions is meant to suggest a label to the users. Suppressing this call after a user ignores the recommended label should be done through the supported actions on the execution state |
+| [RemoveContentFooterAction](classRemoveContentFooterAction.html) | An action class that specifies removing the content footer from the document |
+| [RemoveContentHeaderAction](classRemoveContentHeaderAction.html) | An action class that specifies removing the content header from the document |
+| [RemoveDynamicWatermarkAction](classRemoveDynamicWatermarkAction.html) | An action class that specifies removing the watermarking from the document |
+| [RemoveProtectionAction](classRemoveProtectionAction.html) | An action class that specifies removing protection from the document |
+| [RemoveWatermarkAction](classRemoveWatermarkAction.html) | An action class that specifies removing the watermarking from the document |
+| [RulePackageData](classRulePackageData.html) |  |
+| [SensitiveTypeClassificationData](classSensitiveTypeClassificationData.html) |  |
+| [SensitivityConditionData](classSensitivityConditionData.html) |  |
+| [SensitivityTypesRulePackage](classSensitivityTypesRulePackage.html) |  |
+| [ServiceDisabledError](classServiceDisabledError.html) | The user could not get access to the content due to a service being disabled |
+| [ServiceInfo](classServiceInfo.html) | Service information returned by cloud discovery |
+| [StorageDelegate](classStorageDelegate.html) | A class that defines the interface to the MIP SDK storage for caching |
+| [StorageSettings](classStorageDelegate_1_1StorageSettings.html) | Settings used by StorageDelegate |
+| [StorageTable](classStorageTable.html) | A class that defines the interface to the MIP SDK storage table used for caching |
+| [StorageTableV2](classStorageTableV2.html) | An extension to the class that defines the interface to the MIP SDK storage table used for caching |
+| [Stream](classStream.html) | A class that defines the interface between the MIP SDK and stream-based content |
+| [SyncFileBaseData](classSyncFileBaseData.html) |  |
+| [SyncFilePolicyData](classSyncFilePolicyData.html) |  |
+| [SyncFileSensitivityData](classSyncFileSensitivityData.html) |  |
+| [TaskDispatcherDelegate](classTaskDispatcherDelegate.html) | A class that defines the interface to the MIP SDK task dispatcher |
+| [TelemetryDelegate](classTelemetryDelegate.html) | A class that defines the interface to the MIP SDK telemetry notifications |
+| [TelemetryEvent](classTelemetryEvent.html) | A single telemetry event |
+| [TemplateArchivedError](classTemplateArchivedError.html) | Template ID is archived and unavailable for protection |
+| [TemplateDescriptor](classTemplateDescriptor.html) |  |
+| [TemplateNotFoundError](classTemplateNotFoundError.html) | Template ID is not recognized by RMS service |
+| [TenantInformation](classTenantInformation.html) | Tenant information from RMS |
+| [UniqueIdsAndContentFormats](structUniqueIdsAndContentFormats.html) |  |
+| [UserRights](classUserRights.html) | A group of users and the rights associated with them |
+| [UserRoles](classUserRoles.html) | A group of users and the roles associated with them |
+
+## Previous Versions
+
+- [1.15](../archive/1.15/cpp/)
+- [1.16](../archive/1.16/cpp/)
+- [1.17](../archive/1.17/cpp/)

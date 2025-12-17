@@ -9,7 +9,10 @@ var classNoPermissionsError =
       [ "UnknownTenant", "classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0aaee984d7046000b4ce59ec663eb9df77", null ],
       [ "NotOwner", "classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a7201db7b64ef9ffc729d75e7273453c0", null ],
       [ "NotPremiumLicenseUser", "classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0ab3b40c088b31a35c92d2604302b6e117", null ],
-      [ "ClientVersionNotSupported", "classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0ac2332e9a96671ade5772884489080edc", null ]
+      [ "ClientVersionNotSupported", "classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0ac2332e9a96671ade5772884489080edc", null ],
+      [ "FileNotFound", "classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0a2767828026039e8ba7b38973cbb701f2", null ],
+      [ "ClientUnauthorized", "classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0abfa39265d2538045c244f66c932f571f", null ],
+      [ "InvalidToken", "classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0aa38d51bc6a4d9fa4367feb57841868f3", null ]
     ] ],
     [ "GetCategory", "classNoPermissionsError.html#a15948714a8b1976e21eb78830ad13e28", null ],
     [ "GetCategoryString", "classNoPermissionsError.html#ad1dd963308b393ec8286d395c50bbda6", null ],

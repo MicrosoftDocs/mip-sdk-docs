@@ -1,0 +1,28 @@
+var classComputeEngine =
+[
+    [ "Settings", "classComputeEngine_1_1Settings.html", "classComputeEngine_1_1Settings" ],
+    [ "~ComputeEngine", "classComputeEngine.html#ac14aaf858b026b2968954a3c9aced42b", null ],
+    [ "ComputeActions", "classComputeEngine.html#ad995f8a3faf0ebd04d4b62c882bff70b", null ],
+    [ "ComputeActionsWithRemoteState", "classComputeEngine.html#ae246c1314c4b39ea25c9be228e912123", null ],
+    [ "Create", "classComputeEngine.html#ae2102189893e45a32425b925cd2da8b9", null ],
+    [ "CreateContext", "classComputeEngine.html#a010890237f97811418c9d469fac7c592", null ],
+    [ "GetCustomSettings", "classComputeEngine.html#ae5e690cc717d41840287f987fe141375", null ],
+    [ "GetDefaultLabel", "classComputeEngine.html#ac29a20d6123875c27d87e3229b159ab4", null ],
+    [ "GetFileId", "classComputeEngine.html#a12638d693278432598b78404f3af1d8d", null ],
+    [ "GetLabelById", "classComputeEngine.html#a76b73fa85a935742c31ad46da34150a7", null ],
+    [ "GetMoreInfoUrl", "classComputeEngine.html#ad00f0fbf938f7742ab3ae5b8d82da84d", null ],
+    [ "GetOpcMetadataVersion", "classComputeEngine.html#ade4061465cce60e8751b31ad5f4951b9", null ],
+    [ "GetSensitivityLabel", "classComputeEngine.html#ab270b5864abcc6e52b49d934ff05ee42", null ],
+    [ "GetSensitivityTypesRulePackages", "classComputeEngine.html#a19469fa7328a22d67ce24fdffd60ab13", null ],
+    [ "GetTenantId", "classComputeEngine.html#a37825d1bd52f1e6333d39d94ede2fa94", null ],
+    [ "GetUpn", "classComputeEngine.html#a915c974688d988df8db3f42ee8d7a4ea", null ],
+    [ "GetUserObjectId", "classComputeEngine.html#a60e7ae9f91e67b7f962293d000e36c0a", null ],
+    [ "HasClassificationRules", "classComputeEngine.html#a3cec3d010a93fe8769fb9971056de21c", null ],
+    [ "HasWorkloadConsent", "classComputeEngine.html#aeeb5a0a23a533e64bc60e694d7094e40", null ],
+    [ "IsDowngradeJustificationRequired", "classComputeEngine.html#a09231ca092550485da9e1c9387d4e97a", null ],
+    [ "IsEnhancedClassificationEnabled", "classComputeEngine.html#a02fab1ea7f22628978d93f1497be4c27", null ],
+    [ "IsLabelingRequired", "classComputeEngine.html#a08bae1574059db725887e7de621315c2", null ],
+    [ "ListSensitivityLabels", "classComputeEngine.html#ae22489fac0696cafb24bcbf116432448", null ],
+    [ "NotifyCommittedActions", "classComputeEngine.html#aac5005d62503dc098d5c6cc67c6afb39", null ],
+    [ "SetSensitivityTypesRulePackages", "classComputeEngine.html#a1453d8fa3a2d01b7db13bb5713894c01", null ]
+];

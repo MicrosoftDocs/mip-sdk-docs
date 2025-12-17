@@ -19,7 +19,6 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="custom.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -28,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.17</span>
+   <div id="projectname">Microsoft Information Protection SDK - C<span id="projectnumber">&#160;1.18</span>
    </div>
    <div id="projectbrief">API Reference Documentation for C</div>
   </td>
@@ -163,9 +162,23 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#a7a69c65af63200cb1c9ac8158a91649facb07814cfe7ee821a1419fd6b05dd117">MIP_NO_PERMISSIONS_ERROR_NOT_PREMIUM_LICENSE_USER</a>
 , <br />
 &#160;&#160;<a class="el" href="#a7a69c65af63200cb1c9ac8158a91649fa24c68545bc31060adf0d02885e029ed4">MIP_NO_PERMISSIONS_ERROR_CLIENT_NOT_UPDATED</a>
+, <a class="el" href="#a7a69c65af63200cb1c9ac8158a91649fa1c79849ed1dcd31d45a9bf9fc605c75a">MIP_NO_PERMISSIONS_ERROR_FILE_NOT_FOUND</a>
+, <a class="el" href="#a7a69c65af63200cb1c9ac8158a91649fabadbc8e6d890bb3dddaaa62d2c79e9e2">MIP_NO_PERMISSIONS_ERROR_CLIENT_UNAUTHORIZED</a>
+, <a class="el" href="#a7a69c65af63200cb1c9ac8158a91649fa81fc6b5369c03a1e90ceaf95df991464">MIP_NO_PERMISSIONS_ERROR_INVALID_TOKEN</a>
 <br />
  }</td></tr>
 <tr class="separator:a7a69c65af63200cb1c9ac8158a91649f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dd9ec5ea51a9ddcbe28b325bf277a80" id="r_a9dd9ec5ea51a9ddcbe28b325bf277a80"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dd9ec5ea51a9ddcbe28b325bf277a80">mip_cc_bad_input_error_category</a> { <br />
+&#160;&#160;<a class="el" href="#a9dd9ec5ea51a9ddcbe28b325bf277a80ad4302f217823222615fc738d05263de9">MIP_BAD_INPUT_ERROR_GENERAL</a>
+, <a class="el" href="#a9dd9ec5ea51a9ddcbe28b325bf277a80a8390b012f222d5b8eac06f79be2f661a">MIP_BAD_INPUT_ERROR_FILE_TOO_LARGE</a>
+, <a class="el" href="#a9dd9ec5ea51a9ddcbe28b325bf277a80afe958ad7ac15ad385f3b8bbea914abf4">MIP_BAD_INPUT_ERROR_PARSE_ERROR</a>
+, <a class="el" href="#a9dd9ec5ea51a9ddcbe28b325bf277a80a8a02ed899de791da5a4266e28e2790a8">MIP_BAD_INPUT_ERROR_LICENSE_NOT_TRUSTED</a>
+, <br />
+&#160;&#160;<a class="el" href="#a9dd9ec5ea51a9ddcbe28b325bf277a80a5c275879483f75398163d33974daa022">MIP_BAD_INPUT_ERROR_DOUBLE_KEY</a>
+, <a class="el" href="#a9dd9ec5ea51a9ddcbe28b325bf277a80a98067b82c618ed3f5a810147b395df33">MIP_BAD_INPUT_ERROR_FILE_FORMAT_NOT_SUPPORTED</a>
+<br />
+ }</td></tr>
+<tr class="separator:a9dd9ec5ea51a9ddcbe28b325bf277a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Error definition and functions. </p>
@@ -185,6 +198,34 @@ Enumerations</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a9dd9ec5ea51a9ddcbe28b325bf277a80" name="a9dd9ec5ea51a9ddcbe28b325bf277a80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dd9ec5ea51a9ddcbe28b325bf277a80">&#9670;&#160;</a></span>mip_cc_bad_input_error_category</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a9dd9ec5ea51a9ddcbe28b325bf277a80">mip_cc_bad_input_error_category</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9dd9ec5ea51a9ddcbe28b325bf277a80ad4302f217823222615fc738d05263de9" name="a9dd9ec5ea51a9ddcbe28b325bf277a80ad4302f217823222615fc738d05263de9"></a>MIP_BAD_INPUT_ERROR_GENERAL&#160;</td><td class="fielddoc"><p>Generic bad input error </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9dd9ec5ea51a9ddcbe28b325bf277a80a8390b012f222d5b8eac06f79be2f661a" name="a9dd9ec5ea51a9ddcbe28b325bf277a80a8390b012f222d5b8eac06f79be2f661a"></a>MIP_BAD_INPUT_ERROR_FILE_TOO_LARGE&#160;</td><td class="fielddoc"><p>File size exceeds the maximum allowed size for protection </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9dd9ec5ea51a9ddcbe28b325bf277a80afe958ad7ac15ad385f3b8bbea914abf4" name="a9dd9ec5ea51a9ddcbe28b325bf277a80afe958ad7ac15ad385f3b8bbea914abf4"></a>MIP_BAD_INPUT_ERROR_PARSE_ERROR&#160;</td><td class="fielddoc"><p>Error parsing input data </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9dd9ec5ea51a9ddcbe28b325bf277a80a8a02ed899de791da5a4266e28e2790a8" name="a9dd9ec5ea51a9ddcbe28b325bf277a80a8a02ed899de791da5a4266e28e2790a8"></a>MIP_BAD_INPUT_ERROR_LICENSE_NOT_TRUSTED&#160;</td><td class="fielddoc"><p>License comes from an untrusted source </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9dd9ec5ea51a9ddcbe28b325bf277a80a5c275879483f75398163d33974daa022" name="a9dd9ec5ea51a9ddcbe28b325bf277a80a5c275879483f75398163d33974daa022"></a>MIP_BAD_INPUT_ERROR_DOUBLE_KEY&#160;</td><td class="fielddoc"><p>Action requires a double key parameter </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9dd9ec5ea51a9ddcbe28b325bf277a80a98067b82c618ed3f5a810147b395df33" name="a9dd9ec5ea51a9ddcbe28b325bf277a80a98067b82c618ed3f5a810147b395df33"></a>MIP_BAD_INPUT_ERROR_FILE_FORMAT_NOT_SUPPORTED&#160;</td><td class="fielddoc"><p>The input file's format is not supported </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a id="a6c3c72e9c50b8ff805a0a3d11afdc6d7" name="a6c3c72e9c50b8ff805a0a3d11afdc6d7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6c3c72e9c50b8ff805a0a3d11afdc6d7">&#9670;&#160;</a></span>mip_cc_network_error_category</h2>
 
@@ -250,6 +291,12 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a7a69c65af63200cb1c9ac8158a91649fa3822d8aa9dd6f0ac130ac0670f397939" name="a7a69c65af63200cb1c9ac8158a91649fa3822d8aa9dd6f0ac130ac0670f397939"></a>MIP_NO_PERMISSIONS_ERROR_NOT_OWNER&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7a69c65af63200cb1c9ac8158a91649facb07814cfe7ee821a1419fd6b05dd117" name="a7a69c65af63200cb1c9ac8158a91649facb07814cfe7ee821a1419fd6b05dd117"></a>MIP_NO_PERMISSIONS_ERROR_NOT_PREMIUM_LICENSE_USER&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7a69c65af63200cb1c9ac8158a91649fa24c68545bc31060adf0d02885e029ed4" name="a7a69c65af63200cb1c9ac8158a91649fa24c68545bc31060adf0d02885e029ed4"></a>MIP_NO_PERMISSIONS_ERROR_CLIENT_NOT_UPDATED&#160;</td><td class="fielddoc"><p>The SDK used by the client application does not support the requested operation. Update the SDK or check to make sure the correct arguments were provided </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a7a69c65af63200cb1c9ac8158a91649fa1c79849ed1dcd31d45a9bf9fc605c75a" name="a7a69c65af63200cb1c9ac8158a91649fa1c79849ed1dcd31d45a9bf9fc605c75a"></a>MIP_NO_PERMISSIONS_ERROR_FILE_NOT_FOUND&#160;</td><td class="fielddoc"><p>Content was saved with dynamic protection and rights information was not found in online location. Content may have been deleted. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a7a69c65af63200cb1c9ac8158a91649fabadbc8e6d890bb3dddaaa62d2c79e9e2" name="a7a69c65af63200cb1c9ac8158a91649fabadbc8e6d890bb3dddaaa62d2c79e9e2"></a>MIP_NO_PERMISSIONS_ERROR_CLIENT_UNAUTHORIZED&#160;</td><td class="fielddoc"><p>Content was saved with dynamic protection and user is not authorized to access it. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a7a69c65af63200cb1c9ac8158a91649fa81fc6b5369c03a1e90ceaf95df991464" name="a7a69c65af63200cb1c9ac8158a91649fa81fc6b5369c03a1e90ceaf95df991464"></a>MIP_NO_PERMISSIONS_ERROR_INVALID_TOKEN&#160;</td><td class="fielddoc"><p>Content was saved with dynamic protection and requires user authentication to access it. Application authentication may have been used. </p>
 </td></tr>
 </table>
 

@@ -9,7 +9,7 @@ var searchData=
   ['includesfinalblock_6',['includesFinalBlock',['../protection__handler__cc_8h.html#a4f14aa495bdc84fe8dba3a70d2f1f77a',1,'protection_handler_cc.h']]],
   ['index_7',['index',['../user__rights__roles__cc_8h.html#aafd95f8c7a99b9189ede7cdf0871ebe8',1,'user_rights_roles_cc.h']]],
   ['index_2emd_8',['INDEX.md',['../INDEX_8md.html',1,'']]],
-  ['information_20protection_20sdk_20–_20c_9',['Microsoft Information Protection SDK – C',['../index.html',1,'']]],
+  ['information_20protection_20sdk_20c_9',['Information Protection SDK C',['../index.html#autotoc_md0',1,'Microsoft Information Protection SDK (C)'],['../index.html',1,'Microsoft Information Protection SDK - C']]],
   ['initcallback_10',['initCallback',['../structmip__cc__create__logger__delegate__message__data__args.html#a8d8c6b444a81773ab9586644ff387174',1,'mip_cc_create_logger_delegate_message_data_args']]],
   ['inputbuffer_11',['inputBuffer',['../protection__handler__cc_8h.html#a17efdfd7f3e91a43039308d70bd7c126',1,'protection_handler_cc.h']]],
   ['inputbuffersize_12',['inputBufferSize',['../protection__handler__cc_8h.html#ac0dbce24697f3b843915fdfa619f3ff6',1,'protection_handler_cc.h']]],

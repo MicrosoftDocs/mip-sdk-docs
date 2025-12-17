@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['api_20reference_0',['Microsoft Information Protection SDK – C++ API Reference',['../index.html',1,'']]]
+  ['c_0',['Microsoft Information Protection SDK - C++',['../index.html',1,'']]]
 ];

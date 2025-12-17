@@ -8,7 +8,7 @@ var searchData=
   ['metadata_5fdictionary_5fcc_2eh_5',['metadata_dictionary_cc.h',['../metadata__dictionary__cc_8h.html',1,'']]],
   ['metadatanames_6',['metadataNames',['../metadata__action__cc_8h.html#a465fcde472db2604e5b54408b507d07a',1,'metadata_action_cc.h']]],
   ['metadataversion_7',['metadataVersion',['../policy__engine__cc_8h.html#ad92380cb483fcdc78e63bc728c8088fd',1,'policy_engine_cc.h']]],
-  ['microsoft_20information_20protection_20sdk_20–_20c_8',['Microsoft Information Protection SDK – C',['../index.html',1,'']]],
+  ['microsoft_20information_20protection_20sdk_20c_8',['Microsoft Information Protection SDK C',['../index.html#autotoc_md0',1,'Microsoft Information Protection SDK (C)'],['../index.html',1,'Microsoft Information Protection SDK - C']]],
   ['millisecondssinceepoch_9',['milliSecondsSinceEpoch',['../structmip__cc__log__message__data.html#abd9267dd55243a47a8f1f3d344353778',1,'mip_cc_log_message_data']]],
   ['mip_5faction_5ftype_5fadd_5fcontent_5ffooter_10',['MIP_ACTION_TYPE_ADD_CONTENT_FOOTER',['../action__cc_8h.html#a1b55f378144b37edf22f56dd48bcc179a613ef4809a13f06f212cf318cc0adea6',1,'action_cc.h']]],
   ['mip_5faction_5ftype_5fadd_5fcontent_5fheader_11',['MIP_ACTION_TYPE_ADD_CONTENT_HEADER',['../action__cc_8h.html#a1b55f378144b37edf22f56dd48bcc179a058673d21e55204122349a6213a7f9bb',1,'action_cc.h']]],

@@ -25,7 +25,10 @@
 var NAVTREE =
 [
   [ "Microsoft Information Protection SDK - C++", "index.html", [
-    [ "Microsoft Information Protection SDK – C++ API Reference", "index.html", "index" ],
+    [ "Microsoft Information Protection SDK (CPP)", "index.html#autotoc_md0", [
+      [ "Class List", "index.html#autotoc_md1", null ],
+      [ "Previous Versions", "index.html#autotoc_md2", null ]
+    ] ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],

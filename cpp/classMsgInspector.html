@@ -170,7 +170,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a702d4b87064a3c557c2af2c47bd190ae" id="r_a702d4b87064a3c557c2af2c47bd190ae"><td class="memItemLeft" align="right" valign="top">virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a702d4b87064a3c557c2af2c47bd190ae">GetCodePage</a> () const =0</td></tr>
 <tr class="memdesc:a702d4b87064a3c557c2af2c47bd190ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get body encoding code page, relevant for txt, html body formats.  <br /></td></tr>
 <tr class="separator:a702d4b87064a3c557c2af2c47bd190ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3d0390509b980e12d5c1bbf13f2b35a" id="r_ac3d0390509b980e12d5c1bbf13f2b35a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="msg__inspector_8h.html#ae41dd8630d22c65135d91fe542e27215">BodyType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3d0390509b980e12d5c1bbf13f2b35a">GetBodyType</a> () const =0</td></tr>
+<tr class="memitem:ac3d0390509b980e12d5c1bbf13f2b35a" id="r_ac3d0390509b980e12d5c1bbf13f2b35a"><td class="memItemLeft" align="right" valign="top">virtual BodyType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3d0390509b980e12d5c1bbf13f2b35a">GetBodyType</a> () const =0</td></tr>
 <tr class="memdesc:ac3d0390509b980e12d5c1bbf13f2b35a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get body type.  <br /></td></tr>
 <tr class="separator:ac3d0390509b980e12d5c1bbf13f2b35a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad24e271799bba205e1c9517a74579fb9" id="r_ad24e271799bba205e1c9517a74579fb9"><td class="memItemLeft" align="right" valign="top">virtual const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMsgAttachmentData.html">MsgAttachmentData</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad24e271799bba205e1c9517a74579fb9">GetAttachments</a> () const =0</td></tr>
@@ -179,7 +179,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8f857cded9f243b4908ef814e726604b" id="r_a8f857cded9f243b4908ef814e726604b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f857cded9f243b4908ef814e726604b">~MsgInspector</a> ()</td></tr>
 <tr class="separator:a8f857cded9f243b4908ef814e726604b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classFileInspector"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classFileInspector')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classFileInspector.html">FileInspector</a></td></tr>
-<tr class="memitem:acab412b7e69b02263d96aa9b76d21c51 inherit pub_methods_classFileInspector" id="r_acab412b7e69b02263d96aa9b76d21c51"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="file__inspector_8h.html#a9d9e926ac7c75acf316f6fa02042388d">InspectorType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileInspector.html#acab412b7e69b02263d96aa9b76d21c51">GetInspectorType</a> () const =0</td></tr>
+<tr class="memitem:acab412b7e69b02263d96aa9b76d21c51 inherit pub_methods_classFileInspector" id="r_acab412b7e69b02263d96aa9b76d21c51"><td class="memItemLeft" align="right" valign="top">virtual InspectorType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileInspector.html#acab412b7e69b02263d96aa9b76d21c51">GetInspectorType</a> () const =0</td></tr>
 <tr class="memdesc:acab412b7e69b02263d96aa9b76d21c51 inherit pub_methods_classFileInspector"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get file types,.  <br /></td></tr>
 <tr class="separator:acab412b7e69b02263d96aa9b76d21c51 inherit pub_methods_classFileInspector"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e8eec25b290575063e9e6200f61b012 inherit pub_methods_classFileInspector" id="r_a8e8eec25b290575063e9e6200f61b012"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileInspector.html#a8e8eec25b290575063e9e6200f61b012">GetFileStream</a> () const =0</td></tr>
@@ -281,7 +281,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="msg__inspector_8h.html#ae41dd8630d22c65135d91fe542e27215">BodyType</a> MsgInspector::GetBodyType </td>
+          <td class="memname">virtual BodyType MsgInspector::GetBodyType </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -329,7 +329,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/api/mip/file/<a class="el" href="msg__inspector_8h.html">msg_inspector.h</a></li>
+<li>src/api/mip/file/<b>msg_inspector.h</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

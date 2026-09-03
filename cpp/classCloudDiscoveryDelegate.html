@@ -159,13 +159,13 @@ $(function(){initNavTree('classCloudDiscoveryDelegate.html',''); initResizable(t
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abb0617b815274c5ceb623af8043c896d" id="r_abb0617b815274c5ceb623af8043c896d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="cloud__discovery__delegate_8h.html#a59e6a94304fd8a05756e9d71374bee75">ServicesInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb0617b815274c5ceb623af8043c896d">GetServicesInfo</a> (const std::string &amp;domainInfo, const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
+<tr class="memitem:abb0617b815274c5ceb623af8043c896d" id="r_abb0617b815274c5ceb623af8043c896d"><td class="memItemLeft" align="right" valign="top">virtual ServicesInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb0617b815274c5ceb623af8043c896d">GetServicesInfo</a> (const std::string &amp;domainInfo, const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
 <tr class="memdesc:abb0617b815274c5ceb623af8043c896d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all services information for the given domain info.  <br /></td></tr>
 <tr class="separator:abb0617b815274c5ceb623af8043c896d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a70f9651f937d12daae7b73e4b11b55" id="r_a9a70f9651f937d12daae7b73e4b11b55"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a70f9651f937d12daae7b73e4b11b55">GetServicesInfoAsync</a> (const std::string &amp;domainInfo, const std::shared_ptr&lt; void &gt; &amp;context, const std::function&lt; void(const std::shared_ptr&lt; <a class="el" href="classCloudDiscoveryResult.html">CloudDiscoveryResult</a> &gt; &amp;)&gt; &amp;callbackFn)=0</td></tr>
 <tr class="memdesc:a9a70f9651f937d12daae7b73e4b11b55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asynchronously get all services information for the given domain info.  <br /></td></tr>
 <tr class="separator:a9a70f9651f937d12daae7b73e4b11b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a14efc3f0cbf0ab85e73d2cc0d15967" id="r_a4a14efc3f0cbf0ab85e73d2cc0d15967"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="cloud__discovery__delegate_8h.html#a59e6a94304fd8a05756e9d71374bee75">ServicesInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a14efc3f0cbf0ab85e73d2cc0d15967">GetServicesInfo</a> (const mip::Cloud cloud, const mip::DataBoundary dataBoundary, const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
+<tr class="memitem:a4a14efc3f0cbf0ab85e73d2cc0d15967" id="r_a4a14efc3f0cbf0ab85e73d2cc0d15967"><td class="memItemLeft" align="right" valign="top">virtual ServicesInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a14efc3f0cbf0ab85e73d2cc0d15967">GetServicesInfo</a> (const mip::Cloud cloud, const mip::DataBoundary dataBoundary, const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
 <tr class="memdesc:a4a14efc3f0cbf0ab85e73d2cc0d15967"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all services information for the given cloud and data boundary.  <br /></td></tr>
 <tr class="separator:a4a14efc3f0cbf0ab85e73d2cc0d15967"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc26f1b34924af5f6d88dc3de7d6baaa" id="r_adc26f1b34924af5f6d88dc3de7d6baaa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc26f1b34924af5f6d88dc3de7d6baaa">GetServicesInfoAsync</a> (const mip::Cloud cloud, const mip::DataBoundary dataBoundary, const std::shared_ptr&lt; void &gt; &amp;context, const std::function&lt; void(const std::shared_ptr&lt; <a class="el" href="classCloudDiscoveryResult.html">CloudDiscoveryResult</a> &gt; &amp;)&gt; &amp;callbackFn)=0</td></tr>
@@ -252,7 +252,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="cloud__discovery__delegate_8h.html#a59e6a94304fd8a05756e9d71374bee75">ServicesInfo</a> CloudDiscoveryDelegate::GetServicesInfo </td>
+          <td class="memname">virtual ServicesInfo CloudDiscoveryDelegate::GetServicesInfo </td>
           <td>(</td>
           <td class="paramtype">const mip::Cloud</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
         </tr>
@@ -277,8 +277,8 @@ Protected Member Functions</h2></td></tr>
 <p>Get all services information for the given cloud and data boundary. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">cloud</td><td>Azure cloud identifier <a class="el" href="common__types_8h.html#a10dec50806bcdc01b5b0f3b5a5aafe44" title="Azure cloud identifier.">Cloud</a>. </td></tr>
-    <tr><td class="paramname">dataBoundary</td><td>Diagnostic region identifier <a class="el" href="common__types_8h.html#aac976a2657d8c65944a48c48a5fe76fa" title="Diagnostic region identifier for non-sovereign clouds.">DataBoundary</a>. </td></tr>
+    <tr><td class="paramname">cloud</td><td>Azure cloud identifier Cloud. </td></tr>
+    <tr><td class="paramname">dataBoundary</td><td>Diagnostic region identifier DataBoundary. </td></tr>
     <tr><td class="paramname">context</td><td>opaque client context.</td></tr>
   </table>
   </dd>
@@ -297,7 +297,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="cloud__discovery__delegate_8h.html#a59e6a94304fd8a05756e9d71374bee75">ServicesInfo</a> CloudDiscoveryDelegate::GetServicesInfo </td>
+          <td class="memname">virtual ServicesInfo CloudDiscoveryDelegate::GetServicesInfo </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>domainInfo</em></span>, </td>
         </tr>
@@ -322,7 +322,7 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a set of service information <a class="el" href="cloud__discovery__delegate_8h.html#a59e6a94304fd8a05756e9d71374bee75">ServicesInfo</a> for the given domain info. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>a set of service information ServicesInfo for the given domain info. </dd></dl>
 
 </div>
 </div>
@@ -366,8 +366,8 @@ Protected Member Functions</h2></td></tr>
 <p>Asynchronously get all services information for the given cloud and data boundary. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">cloud</td><td>Azure cloud identifier <a class="el" href="common__types_8h.html#a10dec50806bcdc01b5b0f3b5a5aafe44" title="Azure cloud identifier.">Cloud</a>. </td></tr>
-    <tr><td class="paramname">dataBoundary</td><td>Diagnostic region identifier <a class="el" href="common__types_8h.html#aac976a2657d8c65944a48c48a5fe76fa" title="Diagnostic region identifier for non-sovereign clouds.">DataBoundary</a>. </td></tr>
+    <tr><td class="paramname">cloud</td><td>Azure cloud identifier Cloud. </td></tr>
+    <tr><td class="paramname">dataBoundary</td><td>Diagnostic region identifier DataBoundary. </td></tr>
     <tr><td class="paramname">context</td><td>opaque client context. </td></tr>
     <tr><td class="paramname">callbackFn</td><td>Function that will be executed upon completion. </td></tr>
   </table>
@@ -532,7 +532,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/api/mip/<a class="el" href="cloud__discovery__delegate_8h.html">cloud_discovery_delegate.h</a></li>
+<li>src/api/mip/<b>cloud_discovery_delegate.h</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

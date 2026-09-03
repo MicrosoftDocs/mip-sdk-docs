@@ -156,10 +156,10 @@ $(function(){initNavTree('classFileExecutionState.html',''); initResizable(true)
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1e6fc825e0a2d248abef26effd85ef54" id="r_a1e6fc825e0a2d248abef26effd85ef54"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="common__types_8h.html#a5737dca05518564ac984b7e47f7ba9ba">DataState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e6fc825e0a2d248abef26effd85ef54">GetDataState</a> () const</td></tr>
+<tr class="memitem:a1e6fc825e0a2d248abef26effd85ef54" id="r_a1e6fc825e0a2d248abef26effd85ef54"><td class="memItemLeft" align="right" valign="top">virtual DataState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e6fc825e0a2d248abef26effd85ef54">GetDataState</a> () const</td></tr>
 <tr class="memdesc:a1e6fc825e0a2d248abef26effd85ef54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the state of the content while the application is interacting with it.  <br /></td></tr>
 <tr class="separator:a1e6fc825e0a2d248abef26effd85ef54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd120d81490c6c66c1ef05fd04a55e82" id="r_afd120d81490c6c66c1ef05fd04a55e82"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classification__result_8h.html#a39412bc39ca15518fb8f0acfee888ec2">ClassificationResults</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd120d81490c6c66c1ef05fd04a55e82">GetClassificationResults</a> (const std::shared_ptr&lt; <a class="el" href="classFileHandler.html">FileHandler</a> &gt; &amp;, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classClassificationRequest.html">ClassificationRequest</a> &gt; &gt; &amp;) const</td></tr>
+<tr class="memitem:afd120d81490c6c66c1ef05fd04a55e82" id="r_afd120d81490c6c66c1ef05fd04a55e82"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; ClassificationResults &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd120d81490c6c66c1ef05fd04a55e82">GetClassificationResults</a> (const std::shared_ptr&lt; <a class="el" href="classFileHandler.html">FileHandler</a> &gt; &amp;, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classClassificationRequest.html">ClassificationRequest</a> &gt; &gt; &amp;) const</td></tr>
 <tr class="memdesc:afd120d81490c6c66c1ef05fd04a55e82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a map of classification results.  <br /></td></tr>
 <tr class="separator:afd120d81490c6c66c1ef05fd04a55e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a6815b006e24a1a702dca7a087f7a55" id="r_a3a6815b006e24a1a702dca7a087f7a55"><td class="memItemLeft" align="right" valign="top">virtual std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a6815b006e24a1a702dca7a087f7a55">GetAuditMetadata</a> () const</td></tr>
@@ -295,7 +295,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::shared_ptr&lt; <a class="el" href="classification__result_8h.html#a39412bc39ca15518fb8f0acfee888ec2">ClassificationResults</a> &gt; FileExecutionState::GetClassificationResults </td>
+          <td class="memname">virtual std::shared_ptr&lt; ClassificationResults &gt; FileExecutionState::GetClassificationResults </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classFileHandler.html">FileHandler</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
@@ -334,7 +334,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="common__types_8h.html#a5737dca05518564ac984b7e47f7ba9ba">DataState</a> FileExecutionState::GetDataState </td>
+          <td class="memname">virtual DataState FileExecutionState::GetDataState </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -353,7 +353,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/api/mip/file/<a class="el" href="file__execution__state_8h.html">file_execution_state.h</a></li>
+<li>src/api/mip/file/<b>file_execution_state.h</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

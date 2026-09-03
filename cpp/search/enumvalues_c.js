@@ -1,16 +1,7 @@
 var searchData=
 [
-  ['machinelearning_0',['MachineLearning',['../common__types_8h.html#a90401a791d9bfc4317c205ca1a086b51ad7e1a77b27b0f3b33a6e13ee6ec7ae09',1,'common_types.h']]],
-  ['machinelearningclassifier_1',['MachineLearningClassifier',['../common__types_8h.html#a858bf8ad8a1305b382d18e21e1e60b60a9503d84ad1879cf896888c64baeee314',1,'common_types.h']]],
-  ['manual_2',['MANUAL',['../common__types_8h.html#ac34db49a584f832ee354519ed7eda09aaa60a6a471c0681e5a49c4f5d00f6bc5a',1,'common_types.h']]],
-  ['matchcloudtype_3',['MatchCloudType',['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0aaab1f4833e15217e23b0b8f565c4e0e2',1,'flighting_feature.h']]],
-  ['max_5fdepth_5freached_4',['MAX_DEPTH_REACHED',['../error_8h.html#af7a9c5a9d19bf72299ab821bd983e131a68461ddbac1293fb1c9d33491c4d60e7',1,'error.h']]],
-  ['mdediscovery_5',['MDEDiscovery',['../dns__redirection_8h.html#aedc87df4f0412a0242ba2f903aa88a81afa52842fa0347830a7cf991a153ca378',1,'dns_redirection.h']]],
-  ['metadata_6',['METADATA',['../action_8h.html#a97669588a9e315e77c536d525c4940e1a8a9c0818e0622aadfcb2e59cfe5299b4',1,'action.h']]],
-  ['mockdynamicwatermarkingresponseenabled_7',['MockDynamicWatermarkingResponseEnabled',['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a17cf333ae4ae534fda5d12c872ca72a5',1,'flighting_feature.h']]],
-  ['motion_8',['MOTION',['../common__types_8h.html#a5737dca05518564ac984b7e47f7ba9baaf96e6ea7a7375bd60bad3f3caae3cf27',1,'common_types.h']]],
-  ['msg_9',['Msg',['../common__types_8h.html#a3c1df136b994c442d9a67b0ae3fd3b49ae1ae09b94f8926587697d0f246bf1050',1,'Msg:&#160;common_types.h'],['../file__inspector_8h.html#a9d9e926ac7c75acf316f6fa02042388dae1ae09b94f8926587697d0f246bf1050',1,'Msg:&#160;file_inspector.h']]],
-  ['msgremoveprotectionstripshtmlbody_10',['MsgRemoveProtectionStripsHtmlBody',['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0aeb09ac3f5efe70d13a6cbae5441ab7d2',1,'flighting_feature.h']]],
-  ['multiplelabelresolution_11',['MultipleLabelResolution',['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0abc360af31ad8cf65123e06d2b9aed446',1,'flighting_feature.h']]],
-  ['multitenantorganizationenabled_12',['MultiTenantOrganizationEnabled',['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a173e7973c1dc5e5a382695dd961447c1',1,'flighting_feature.h']]]
+  ['parameterparsing_0',['ParameterParsing',['../classBadInputError.html#a6d0012cf1bc07830bb1d963394a9bedfa6bc30b23b41787b963c615275f4b84c8',1,'BadInputError']]],
+  ['platform_1',['Platform',['../classServiceDisabledError.html#a6263b135629b24de3c2ab4e250ee4eeda419f3742e6de8e0ec4b22cce005e7630',1,'ServiceDisabledError']]],
+  ['processing_5finstruction_2',['PROCESSING_INSTRUCTION',['../namespacexml.html#a4fb3009600ec5826dc321c46fee9c6c0a5156999a1c0b07be533189d5f7c5a86c',1,'xml']]],
+  ['proxy_3',['Proxy',['../classNetworkError.html#a8cb40eb9f9c590f78170c7552a5bac37af56ec2ab97d604832d90f6394e3f341f',1,'NetworkError']]]
 ];

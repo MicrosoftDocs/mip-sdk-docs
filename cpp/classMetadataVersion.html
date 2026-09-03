@@ -159,16 +159,16 @@ $(function(){initNavTree('classMetadataVersion.html',''); initResizable(true); }
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aef6c56f62742bf53eb6e531cc2abe133" id="r_aef6c56f62742bf53eb6e531cc2abe133"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef6c56f62742bf53eb6e531cc2abe133">MetadataVersion</a> (uint32_t version, <a class="el" href="metadata__version_8h.html#ad49da0b980254a21001552d98bb1b196">MetadataVersionFormat</a> flags)</td></tr>
+<tr class="memitem:aef6c56f62742bf53eb6e531cc2abe133" id="r_aef6c56f62742bf53eb6e531cc2abe133"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef6c56f62742bf53eb6e531cc2abe133">MetadataVersion</a> (uint32_t version, MetadataVersionFormat flags)</td></tr>
 <tr class="memdesc:aef6c56f62742bf53eb6e531cc2abe133"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMetadataVersion.html" title="Interface for a MetadataVersion. MetadataVersion determines which metadata is active and how it is pr...">MetadataVersion</a> constructor.  <br /></td></tr>
 <tr class="separator:aef6c56f62742bf53eb6e531cc2abe133"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68f6521268d6bad865d864204bdc37bf" id="r_a68f6521268d6bad865d864204bdc37bf"><td class="memItemLeft" align="right" valign="top">virtual uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68f6521268d6bad865d864204bdc37bf">GetValue</a> () const</td></tr>
 <tr class="memdesc:a68f6521268d6bad865d864204bdc37bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the numerical version.  <br /></td></tr>
 <tr class="separator:a68f6521268d6bad865d864204bdc37bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dc01865d5d3e924d7d9ddec19640443" id="r_a0dc01865d5d3e924d7d9ddec19640443"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dc01865d5d3e924d7d9ddec19640443">HasFlag</a> (<a class="el" href="metadata__version_8h.html#ad49da0b980254a21001552d98bb1b196">MetadataVersionFormat</a> flag) const</td></tr>
+<tr class="memitem:a0dc01865d5d3e924d7d9ddec19640443" id="r_a0dc01865d5d3e924d7d9ddec19640443"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dc01865d5d3e924d7d9ddec19640443">HasFlag</a> (MetadataVersionFormat flag) const</td></tr>
 <tr class="memdesc:a0dc01865d5d3e924d7d9ddec19640443"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get whether a specific flag is set.  <br /></td></tr>
 <tr class="separator:a0dc01865d5d3e924d7d9ddec19640443"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bcfc89a5a71f988449da0d45d042f2f" id="r_a4bcfc89a5a71f988449da0d45d042f2f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="metadata__version_8h.html#ad49da0b980254a21001552d98bb1b196">MetadataVersionFormat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bcfc89a5a71f988449da0d45d042f2f">GetFlags</a> () const</td></tr>
+<tr class="memitem:a4bcfc89a5a71f988449da0d45d042f2f" id="r_a4bcfc89a5a71f988449da0d45d042f2f"><td class="memItemLeft" align="right" valign="top">virtual MetadataVersionFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bcfc89a5a71f988449da0d45d042f2f">GetFlags</a> () const</td></tr>
 <tr class="memdesc:a4bcfc89a5a71f988449da0d45d042f2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the flags that define how metadata is processed for a given version.  <br /></td></tr>
 <tr class="separator:a4bcfc89a5a71f988449da0d45d042f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57531d8b02d6cffc8ef85d49e633be1b" id="r_a57531d8b02d6cffc8ef85d49e633be1b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57531d8b02d6cffc8ef85d49e633be1b">operator uint32_t</a> () const</td></tr>
@@ -180,7 +180,7 @@ Public Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a7bf2418f632eba0f740edb3140aede90" id="r_a7bf2418f632eba0f740edb3140aede90"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bf2418f632eba0f740edb3140aede90">mVersion</a></td></tr>
 <tr class="separator:a7bf2418f632eba0f740edb3140aede90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade6009340342404fec17c18512fb20ae" id="r_ade6009340342404fec17c18512fb20ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="metadata__version_8h.html#ad49da0b980254a21001552d98bb1b196">MetadataVersionFormat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade6009340342404fec17c18512fb20ae">mFlags</a></td></tr>
+<tr class="memitem:ade6009340342404fec17c18512fb20ae" id="r_ade6009340342404fec17c18512fb20ae"><td class="memItemLeft" align="right" valign="top">MetadataVersionFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade6009340342404fec17c18512fb20ae">mFlags</a></td></tr>
 <tr class="separator:ade6009340342404fec17c18512fb20ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -203,7 +203,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="metadata__version_8h.html#ad49da0b980254a21001552d98bb1b196">MetadataVersionFormat</a></td>          <td class="paramname"><span class="paramname"><em>flags</em></span>&#160;)</td>
+          <td class="paramtype">MetadataVersionFormat</td>          <td class="paramname"><span class="paramname"><em>flags</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -260,7 +260,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="metadata__version_8h.html#ad49da0b980254a21001552d98bb1b196">MetadataVersionFormat</a> MetadataVersion::GetFlags </td>
+          <td class="memname">virtual MetadataVersionFormat MetadataVersion::GetFlags </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -318,7 +318,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual bool MetadataVersion::HasFlag </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="metadata__version_8h.html#ad49da0b980254a21001552d98bb1b196">MetadataVersionFormat</a></td>          <td class="paramname"><span class="paramname"><em>flag</em></span></td><td>)</td>
+          <td class="paramtype">MetadataVersionFormat</td>          <td class="paramname"><span class="paramname"><em>flag</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -370,7 +370,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="metadata__version_8h.html#ad49da0b980254a21001552d98bb1b196">MetadataVersionFormat</a> MetadataVersion::mFlags</td>
+          <td class="memname">MetadataVersionFormat MetadataVersion::mFlags</td>
         </tr>
       </table>
   </td>
@@ -405,7 +405,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/api/mip/upe/<a class="el" href="metadata__version_8h.html">metadata_version.h</a></li>
+<li>src/api/mip/upe/<b>metadata_version.h</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

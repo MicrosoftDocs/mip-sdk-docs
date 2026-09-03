@@ -106,6 +106,4 @@ var menudata={children:[
 {text:"p",url:"functions_vars_p.html#index_p"},
 {text:"t",url:"functions_vars_t.html#index_t"},
 {text:"u",url:"functions_vars_u.html#index_u"}]},
-{text:"Enumerations",url:"functions_enum.html"}]}]},
-{text:"Files",url:"files.html",children:[
-{text:"File List",url:"files.html"}]}]}
+{text:"Enumerations",url:"functions_enum.html"}]}]}]}

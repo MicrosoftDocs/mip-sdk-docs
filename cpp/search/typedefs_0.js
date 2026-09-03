@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['classificationresults_0',['ClassificationResults',['../classification__result_8h.html#a39412bc39ca15518fb8f0acfee888ec2',1,'classification_result.h']]],
-  ['classifieruniqueidsandcontentformats_1',['ClassifierUniqueIdsAndContentFormats',['../common__types_8h.html#abca0df54ec7356b29584fc85dee02f1f',1,'common_types.h']]]
+  ['xmldocumentresult_0',['XmlDocumentResult',['../namespacexml.html#aa131f47cc28f7d1a1e6c877e5c630dbe',1,'xml']]],
+  ['xmlreaderresult_1',['XmlReaderResult',['../namespacexml.html#a7b79e681dbd792b1b561b316dfebe90a',1,'xml']]]
 ];

@@ -159,9 +159,9 @@ $(function(){initNavTree('classLogMessageData.html',''); initResizable(true); })
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a68f2afe1d53ddb97994ff4d6bb604b21" id="r_a68f2afe1d53ddb97994ff4d6bb604b21"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68f2afe1d53ddb97994ff4d6bb604b21">LogMessageData</a> (const <a class="el" href="log__message__data_8h.html#a7a38c7496c92835c0d835ecb2f8135c1">LogLevel</a> level, const std::string &amp;message, const std::string &amp;function, const std::string &amp;file, int32_t line, const std::shared_ptr&lt; void &gt; &amp;context, std::chrono::time_point&lt; std::chrono::system_clock &gt; messageTime, std::thread::id messageThreadId)</td></tr>
+<tr class="memitem:a68f2afe1d53ddb97994ff4d6bb604b21" id="r_a68f2afe1d53ddb97994ff4d6bb604b21"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68f2afe1d53ddb97994ff4d6bb604b21">LogMessageData</a> (const LogLevel level, const std::string &amp;message, const std::string &amp;function, const std::string &amp;file, int32_t line, const std::shared_ptr&lt; void &gt; &amp;context, std::chrono::time_point&lt; std::chrono::system_clock &gt; messageTime, std::thread::id messageThreadId)</td></tr>
 <tr class="separator:a68f2afe1d53ddb97994ff4d6bb604b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acda4d0f30fe8708cfd56e9610afbddda" id="r_acda4d0f30fe8708cfd56e9610afbddda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="log__message__data_8h.html#a7a38c7496c92835c0d835ecb2f8135c1">LogLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acda4d0f30fe8708cfd56e9610afbddda">GetLevel</a> () const</td></tr>
+<tr class="memitem:acda4d0f30fe8708cfd56e9610afbddda" id="r_acda4d0f30fe8708cfd56e9610afbddda"><td class="memItemLeft" align="right" valign="top">LogLevel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acda4d0f30fe8708cfd56e9610afbddda">GetLevel</a> () const</td></tr>
 <tr class="memdesc:acda4d0f30fe8708cfd56e9610afbddda"><td class="mdescLeft">&#160;</td><td class="mdescRight">The log level for the log statement.  <br /></td></tr>
 <tr class="separator:acda4d0f30fe8708cfd56e9610afbddda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a988dfeabc6947b70d0717535c0c99a60" id="r_a988dfeabc6947b70d0717535c0c99a60"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a988dfeabc6947b70d0717535c0c99a60">GetLogMessage</a> () const</td></tr>
@@ -188,7 +188,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:aefec4efb37353e981bd412b8cceeb92d" id="r_aefec4efb37353e981bd412b8cceeb92d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="log__message__data_8h.html#a7a38c7496c92835c0d835ecb2f8135c1">LogLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefec4efb37353e981bd412b8cceeb92d">mLevel</a></td></tr>
+<tr class="memitem:aefec4efb37353e981bd412b8cceeb92d" id="r_aefec4efb37353e981bd412b8cceeb92d"><td class="memItemLeft" align="right" valign="top">LogLevel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefec4efb37353e981bd412b8cceeb92d">mLevel</a></td></tr>
 <tr class="separator:aefec4efb37353e981bd412b8cceeb92d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fabb33723efa11b4fe710cd5446cb42" id="r_a2fabb33723efa11b4fe710cd5446cb42"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fabb33723efa11b4fe710cd5446cb42">mLogMessage</a></td></tr>
 <tr class="separator:a2fabb33723efa11b4fe710cd5446cb42"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,7 +220,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">LogMessageData::LogMessageData </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="log__message__data_8h.html#a7a38c7496c92835c0d835ecb2f8135c1">LogLevel</a></td>          <td class="paramname"><span class="paramname"><em>level</em></span>, </td>
+          <td class="paramtype">const LogLevel</td>          <td class="paramname"><span class="paramname"><em>level</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -359,7 +359,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="log__message__data_8h.html#a7a38c7496c92835c0d835ecb2f8135c1">LogLevel</a> LogMessageData::GetLevel </td>
+          <td class="memname">LogLevel LogMessageData::GetLevel </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -561,7 +561,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="log__message__data_8h.html#a7a38c7496c92835c0d835ecb2f8135c1">LogLevel</a> LogMessageData::mLevel</td>
+          <td class="memname">LogLevel LogMessageData::mLevel</td>
         </tr>
       </table>
   </td>
@@ -662,7 +662,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/api/mip/<a class="el" href="log__message__data_8h.html">log_message_data.h</a></li>
+<li>src/api/mip/<b>log_message_data.h</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

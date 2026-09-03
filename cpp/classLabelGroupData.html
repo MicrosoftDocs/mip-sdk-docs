@@ -183,7 +183,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0604128d0e3db81f7761d98dfd50f4b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02f8ce2a20393222b28535b28ca1800a" id="r_a02f8ce2a20393222b28535b28ca1800a"><td class="memItemLeft" align="right" valign="top">virtual const std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02f8ce2a20393222b28535b28ca1800a">GetSupportedContentFormats</a> () const =0</td></tr>
 <tr class="separator:a02f8ce2a20393222b28535b28ca1800a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a823f2736920da04fd96558c1e0be495b" id="r_a823f2736920da04fd96558c1e0be495b"><td class="memItemLeft" align="right" valign="top">virtual const std::vector&lt; std::pair&lt; <a class="el" href="common__types_8h.html#a81d84fb9dff7fc21964e0b2ef63a3770">Workload</a>, bool &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a823f2736920da04fd96558c1e0be495b">GetWorkloadConsent</a> () const =0</td></tr>
+<tr class="memitem:a823f2736920da04fd96558c1e0be495b" id="r_a823f2736920da04fd96558c1e0be495b"><td class="memItemLeft" align="right" valign="top">virtual const std::vector&lt; std::pair&lt; Workload, bool &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a823f2736920da04fd96558c1e0be495b">GetWorkloadConsent</a> () const =0</td></tr>
 <tr class="separator:a823f2736920da04fd96558c1e0be495b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a7bb9b565af6ae0c861b09a7b5f9b74" id="r_a3a7bb9b565af6ae0c861b09a7b5f9b74"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a7bb9b565af6ae0c861b09a7b5f9b74">GetDefaultLabelId</a> () const =0</td></tr>
 <tr class="separator:a3a7bb9b565af6ae0c861b09a7b5f9b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,7 +199,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad043e60922b2d0008839ce3044519e9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44fe5f52c294c795089a67c11fcef42c" id="r_a44fe5f52c294c795089a67c11fcef42c"><td class="memItemLeft" align="right" valign="top">virtual const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classProtectionActionData.html">ProtectionActionData</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44fe5f52c294c795089a67c11fcef42c">GetProtectionActionData</a> () const =0</td></tr>
 <tr class="separator:a44fe5f52c294c795089a67c11fcef42c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21c1e86096a00e71f7bbbc79467c568b" id="r_a21c1e86096a00e71f7bbbc79467c568b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="audit__delegate_8h.html#a73536d0ceff37ac4a0c0f06a086ba98f">EnableAuditSetting</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21c1e86096a00e71f7bbbc79467c568b">GetEnableAuditSetting</a> () const =0</td></tr>
+<tr class="memitem:a21c1e86096a00e71f7bbbc79467c568b" id="r_a21c1e86096a00e71f7bbbc79467c568b"><td class="memItemLeft" align="right" valign="top">virtual EnableAuditSetting&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21c1e86096a00e71f7bbbc79467c568b">GetEnableAuditSetting</a> () const =0</td></tr>
 <tr class="separator:a21c1e86096a00e71f7bbbc79467c568b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a6abda639c23d76dd82250f740f8b82" id="r_a2a6abda639c23d76dd82250f740f8b82"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a6abda639c23d76dd82250f740f8b82">IsCoauthEnabled</a> () const =0</td></tr>
 <tr class="separator:a2a6abda639c23d76dd82250f740f8b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -509,7 +509,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="audit__delegate_8h.html#a73536d0ceff37ac4a0c0f06a086ba98f">EnableAuditSetting</a> LabelGroupData::GetEnableAuditSetting </td>
+          <td class="memname">virtual EnableAuditSetting LabelGroupData::GetEnableAuditSetting </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -859,7 +859,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const std::vector&lt; std::pair&lt; <a class="el" href="common__types_8h.html#a81d84fb9dff7fc21964e0b2ef63a3770">Workload</a>, bool &gt; &gt; &amp; LabelGroupData::GetWorkloadConsent </td>
+          <td class="memname">virtual const std::vector&lt; std::pair&lt; Workload, bool &gt; &gt; &amp; LabelGroupData::GetWorkloadConsent </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1050,7 +1050,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/api/mip/upe/core/dto/<a class="el" href="label__group__data_8h.html">label_group_data.h</a></li>
+<li>src/api/mip/upe/core/dto/<b>label_group_data.h</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

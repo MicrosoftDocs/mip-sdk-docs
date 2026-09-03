@@ -156,7 +156,7 @@ $(function(){initNavTree('classApplicationActionState.html',''); initResizable(t
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:adbf67b77c855cd60d87bc15ad2ccef56" id="r_adbf67b77c855cd60d87bc15ad2ccef56"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="application__action__state_8h.html#a0a3abc61fd4be4df61ad3f127b3e221e">LabelState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbf67b77c855cd60d87bc15ad2ccef56">GetNewLabelState</a> () const =0</td></tr>
+<tr class="memitem:adbf67b77c855cd60d87bc15ad2ccef56" id="r_adbf67b77c855cd60d87bc15ad2ccef56"><td class="memItemLeft" align="right" valign="top">virtual LabelState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbf67b77c855cd60d87bc15ad2ccef56">GetNewLabelState</a> () const =0</td></tr>
 <tr class="memdesc:adbf67b77c855cd60d87bc15ad2ccef56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the new label state.  <br /></td></tr>
 <tr class="separator:adbf67b77c855cd60d87bc15ad2ccef56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a948739313d8dbeed3f925dad8fc22220" id="r_a948739313d8dbeed3f925dad8fc22220"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classLabel.html">Label</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a948739313d8dbeed3f925dad8fc22220">GetNewLabel</a> () const =0</td></tr>
@@ -165,13 +165,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0acf2af84c46ec8ff1485a517ce0bfee" id="r_a0acf2af84c46ec8ff1485a517ce0bfee"><td class="memItemLeft" align="right" valign="top">virtual std::pair&lt; bool, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0acf2af84c46ec8ff1485a517ce0bfee">IsDowngradeJustified</a> () const =0</td></tr>
 <tr class="memdesc:a0acf2af84c46ec8ff1485a517ce0bfee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation should pass if justification to downgrade an existing label was given.  <br /></td></tr>
 <tr class="separator:a0acf2af84c46ec8ff1485a517ce0bfee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f2fd8cb064ce99b578b9492764052ae" id="r_a6f2fd8cb064ce99b578b9492764052ae"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="common__types_8h.html#a1368c269afcb86a2b4c3331a0a1f4ae9">AssignmentMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f2fd8cb064ce99b578b9492764052ae">GetNewLabelAssignmentMethod</a> () const =0</td></tr>
+<tr class="memitem:a6f2fd8cb064ce99b578b9492764052ae" id="r_a6f2fd8cb064ce99b578b9492764052ae"><td class="memItemLeft" align="right" valign="top">virtual AssignmentMethod&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f2fd8cb064ce99b578b9492764052ae">GetNewLabelAssignmentMethod</a> () const =0</td></tr>
 <tr class="memdesc:a6f2fd8cb064ce99b578b9492764052ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the new label's assignment method.  <br /></td></tr>
 <tr class="separator:a6f2fd8cb064ce99b578b9492764052ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7277c13aa95c99e994601c8e9be28bbe" id="r_a7277c13aa95c99e994601c8e9be28bbe"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7277c13aa95c99e994601c8e9be28bbe">GetNewLabelExtendedProperties</a> () const</td></tr>
 <tr class="memdesc:a7277c13aa95c99e994601c8e9be28bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return new label's extended properties.  <br /></td></tr>
 <tr class="separator:a7277c13aa95c99e994601c8e9be28bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14e72bcff70a7834b8d311535f7e952e" id="r_a14e72bcff70a7834b8d311535f7e952e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="action_8h.html#a97669588a9e315e77c536d525c4940e1">ActionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14e72bcff70a7834b8d311535f7e952e">GetSupportedActions</a> () const =0</td></tr>
+<tr class="memitem:a14e72bcff70a7834b8d311535f7e952e" id="r_a14e72bcff70a7834b8d311535f7e952e"><td class="memItemLeft" align="right" valign="top">virtual ActionType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14e72bcff70a7834b8d311535f7e952e">GetSupportedActions</a> () const =0</td></tr>
 <tr class="memdesc:a14e72bcff70a7834b8d311535f7e952e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a masked enum describing all the supported action types.  <br /></td></tr>
 <tr class="separator:a14e72bcff70a7834b8d311535f7e952e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9760298535518d93374b40d528e07f9c" id="r_a9760298535518d93374b40d528e07f9c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9760298535518d93374b40d528e07f9c">IsRecommendationEnabled</a> () const =0</td></tr>
@@ -306,7 +306,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="common__types_8h.html#a1368c269afcb86a2b4c3331a0a1f4ae9">AssignmentMethod</a> ApplicationActionState::GetNewLabelAssignmentMethod </td>
+          <td class="memname">virtual AssignmentMethod ApplicationActionState::GetNewLabelAssignmentMethod </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -363,7 +363,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="application__action__state_8h.html#a0a3abc61fd4be4df61ad3f127b3e221e">LabelState</a> ApplicationActionState::GetNewLabelState </td>
+          <td class="memname">virtual LabelState ApplicationActionState::GetNewLabelState </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -392,7 +392,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="action_8h.html#a97669588a9e315e77c536d525c4940e1">ActionType</a> ApplicationActionState::GetSupportedActions </td>
+          <td class="memname">virtual ActionType ApplicationActionState::GetSupportedActions </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -470,7 +470,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/api/mip/upe/core/<a class="el" href="application__action__state_8h.html">application_action_state.h</a></li>
+<li>src/api/mip/upe/core/<b>application_action_state.h</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

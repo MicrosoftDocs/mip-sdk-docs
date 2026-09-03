@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['actiondatatype_0',['ActionDataType',['../action__data_8h.html#a6d654ecc0af0141038ff55726c51e1c5',1,'action_data.h']]],
-  ['actionsource_1',['ActionSource',['../common__types_8h.html#ac34db49a584f832ee354519ed7eda09a',1,'common_types.h']]],
-  ['actiontype_2',['ActionType',['../action_8h.html#a97669588a9e315e77c536d525c4940e1',1,'action.h']]],
-  ['assignmentmethod_3',['AssignmentMethod',['../common__types_8h.html#a1368c269afcb86a2b4c3331a0a1f4ae9',1,'common_types.h']]]
+  ['category_0',['Category',['../classNetworkError.html#a8cb40eb9f9c590f78170c7552a5bac37',1,'NetworkError::Category'],['../classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0',1,'NoPermissionsError::Category'],['../classNoPolicyError.html#a6983429fa8050bebf0b59f1a8304064c',1,'NoPolicyError::Category']]]
 ];

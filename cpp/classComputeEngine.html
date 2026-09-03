@@ -203,16 +203,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ade4061465cce60e8751b31ad5f4951b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60e7ae9f91e67b7f962293d000e36c0a" id="r_a60e7ae9f91e67b7f962293d000e36c0a"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60e7ae9f91e67b7f962293d000e36c0a">GetUserObjectId</a> () const =0</td></tr>
 <tr class="separator:a60e7ae9f91e67b7f962293d000e36c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeeb5a0a23a533e64bc60e694d7094e40" id="r_aeeb5a0a23a533e64bc60e694d7094e40"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeeb5a0a23a533e64bc60e694d7094e40">HasWorkloadConsent</a> (<a class="el" href="common__types_8h.html#a81d84fb9dff7fc21964e0b2ef63a3770">Workload</a> workload) const =0</td></tr>
+<tr class="memitem:aeeb5a0a23a533e64bc60e694d7094e40" id="r_aeeb5a0a23a533e64bc60e694d7094e40"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeeb5a0a23a533e64bc60e694d7094e40">HasWorkloadConsent</a> (Workload workload) const =0</td></tr>
 <tr class="separator:aeeb5a0a23a533e64bc60e694d7094e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac14aaf858b026b2968954a3c9aced42b" id="r_ac14aaf858b026b2968954a3c9aced42b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac14aaf858b026b2968954a3c9aced42b">~ComputeEngine</a> ()</td></tr>
 <tr class="separator:ac14aaf858b026b2968954a3c9aced42b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ae2102189893e45a32425b925cd2da8b9" id="r_ae2102189893e45a32425b925cd2da8b9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="upe__core__export_8h.html#ac4ff3574300e557b41136457ac954b31">MIP_UPE_CORE_API</a> std::shared_ptr&lt; <a class="el" href="classComputeEngine.html">ComputeEngine</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2102189893e45a32425b925cd2da8b9">Create</a> (const <a class="el" href="classSyncFilePolicyData.html">SyncFilePolicyData</a> &amp;policyData, const <a class="el" href="classComputeEngine_1_1Settings.html">ComputeEngine::Settings</a> &amp;settings)</td></tr>
+<tr class="memitem:ae2102189893e45a32425b925cd2da8b9" id="r_ae2102189893e45a32425b925cd2da8b9"><td class="memItemLeft" align="right" valign="top">static MIP_UPE_CORE_API std::shared_ptr&lt; <a class="el" href="classComputeEngine.html">ComputeEngine</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2102189893e45a32425b925cd2da8b9">Create</a> (const <a class="el" href="classSyncFilePolicyData.html">SyncFilePolicyData</a> &amp;policyData, const <a class="el" href="classComputeEngine_1_1Settings.html">ComputeEngine::Settings</a> &amp;settings)</td></tr>
 <tr class="separator:ae2102189893e45a32425b925cd2da8b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a010890237f97811418c9d469fac7c592" id="r_a010890237f97811418c9d469fac7c592"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="upe__core__export_8h.html#ac4ff3574300e557b41136457ac954b31">MIP_UPE_CORE_API</a> std::shared_ptr&lt; <a class="el" href="classComputeEngineContext.html">ComputeEngineContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a010890237f97811418c9d469fac7c592">CreateContext</a> (const std::map&lt; <a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0">FlightingFeature</a>, bool &gt; &amp;flightingFeatures, bool isAuditDiscoveryEnabled)</td></tr>
+<tr class="memitem:a010890237f97811418c9d469fac7c592" id="r_a010890237f97811418c9d469fac7c592"><td class="memItemLeft" align="right" valign="top">static MIP_UPE_CORE_API std::shared_ptr&lt; <a class="el" href="classComputeEngineContext.html">ComputeEngineContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a010890237f97811418c9d469fac7c592">CreateContext</a> (const std::map&lt; FlightingFeature, bool &gt; &amp;flightingFeatures, bool isAuditDiscoveryEnabled)</td></tr>
 <tr class="separator:a010890237f97811418c9d469fac7c592"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -338,7 +338,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="upe__core__export_8h.html#ac4ff3574300e557b41136457ac954b31">MIP_UPE_CORE_API</a> std::shared_ptr&lt; <a class="el" href="classComputeEngine.html">ComputeEngine</a> &gt; ComputeEngine::Create </td>
+          <td class="memname">static MIP_UPE_CORE_API std::shared_ptr&lt; <a class="el" href="classComputeEngine.html">ComputeEngine</a> &gt; ComputeEngine::Create </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classSyncFilePolicyData.html">SyncFilePolicyData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>policyData</em></span>, </td>
         </tr>
@@ -367,9 +367,9 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="upe__core__export_8h.html#ac4ff3574300e557b41136457ac954b31">MIP_UPE_CORE_API</a> std::shared_ptr&lt; <a class="el" href="classComputeEngineContext.html">ComputeEngineContext</a> &gt; ComputeEngine::CreateContext </td>
+          <td class="memname">static MIP_UPE_CORE_API std::shared_ptr&lt; <a class="el" href="classComputeEngineContext.html">ComputeEngineContext</a> &gt; ComputeEngine::CreateContext </td>
           <td>(</td>
-          <td class="paramtype">const std::map&lt; <a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0">FlightingFeature</a>, bool &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>flightingFeatures</em></span>, </td>
+          <td class="paramtype">const std::map&lt; FlightingFeature, bool &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>flightingFeatures</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -702,7 +702,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual bool ComputeEngine::HasWorkloadConsent </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="common__types_8h.html#a81d84fb9dff7fc21964e0b2ef63a3770">Workload</a></td>          <td class="paramname"><span class="paramname"><em>workload</em></span></td><td>)</td>
+          <td class="paramtype">Workload</td>          <td class="paramname"><span class="paramname"><em>workload</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -875,7 +875,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/api/mip/upe/core/<a class="el" href="compute__engine_8h.html">compute_engine.h</a></li>
+<li>src/api/mip/upe/core/<b>compute_engine.h</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -215,7 +215,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adf74b265c3e26b211639d0003c633b0b" id="r_adf74b265c3e26b211639d0003c633b0b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf74b265c3e26b211639d0003c633b0b">HasClassificationRules</a> () const =0</td></tr>
 <tr class="memdesc:adf74b265c3e26b211639d0003c633b0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets if the policy has automatic or recommendation rules.  <br /></td></tr>
 <tr class="separator:adf74b265c3e26b211639d0003c633b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ca928c4c1a0e2e3362852d74c687036" id="r_a8ca928c4c1a0e2e3362852d74c687036"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ca928c4c1a0e2e3362852d74c687036">HasWorkloadConsent</a> (<a class="el" href="common__types_8h.html#a81d84fb9dff7fc21964e0b2ef63a3770">Workload</a> workload) const =0</td></tr>
+<tr class="memitem:a8ca928c4c1a0e2e3362852d74c687036" id="r_a8ca928c4c1a0e2e3362852d74c687036"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ca928c4c1a0e2e3362852d74c687036">HasWorkloadConsent</a> (Workload workload) const =0</td></tr>
 <tr class="memdesc:a8ca928c4c1a0e2e3362852d74c687036"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if user has consented to specific workload,.  <br /></td></tr>
 <tr class="separator:a8ca928c4c1a0e2e3362852d74c687036"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac34d1d7a4bfddde3aecbdabdd8bafcf6" id="r_ac34d1d7a4bfddde3aecbdabdd8bafcf6"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac34d1d7a4bfddde3aecbdabdd8bafcf6">GetRightsForLabelId</a> (const std::string &amp;documentId, const std::string &amp;labelId, const std::string &amp;ownerEmail, const std::shared_ptr&lt; void &gt; &amp;context, const <a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a> &amp;settings=<a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a>()) const =0</td></tr>
@@ -828,7 +828,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual bool FileEngine::HasWorkloadConsent </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="common__types_8h.html#a81d84fb9dff7fc21964e0b2ef63a3770">Workload</a></td>          <td class="paramname"><span class="paramname"><em>workload</em></span></td><td>)</td>
+          <td class="paramtype">Workload</td>          <td class="paramname"><span class="paramname"><em>workload</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -973,7 +973,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/api/mip/file/<a class="el" href="file__engine_8h.html">file_engine.h</a></li>
+<li>src/api/mip/file/<b>file_engine.h</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

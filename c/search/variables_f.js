@@ -1,21 +1,8 @@
 var searchData=
 [
-  ['readcallback_0',['readCallback',['../editable__stream__cc_8h.html#a7fcad8052b876922da8aed1b8628ce0c',1,'editable_stream_cc.h']]],
-  ['referrer_1',['referrer',['../protection__descriptor__cc_8h.html#a6306bc2585c77d7d99081b8bd1bff7b8',1,'protection_descriptor_cc.h']]],
-  ['referrerbuffer_2',['referrerBuffer',['../protection__descriptor__cc_8h.html#a3c1725ede6b7f9fdd7e27b1a8fab2d68',1,'protection_descriptor_cc.h']]],
-  ['referrerbuffersize_3',['referrerBufferSize',['../protection__descriptor__cc_8h.html#a483986d556bc54ae94a5bec9afb41674',1,'protection_descriptor_cc.h']]],
-  ['referrersize_4',['referrerSize',['../protection__descriptor__cc_8h.html#abaec46ed9b0604c33999d25f00dbb6e0',1,'protection_descriptor_cc.h']]],
-  ['removed_5',['removed',['../protection__engine__cc_8h.html#a120586a1f189c488dc78745262ae4377',1,'removed:&#160;protection_engine_cc.h'],['../protection__handler__cc_8h.html#a120586a1f189c488dc78745262ae4377',1,'removed:&#160;protection_handler_cc.h']]],
-  ['requestid_6',['requestId',['../http__delegate__cc_8h.html#aa0e16f8cf7fc72a38f42cbf6b6c346c0',1,'http_delegate_cc.h']]],
-  ['reserved_7',['reserved',['../protection__profile__cc_8h.html#ac27a53a03f10f8b12ef53d5688d6ea35',1,'reserved:&#160;protection_profile_cc.h'],['../policy__profile__cc_8h.html#ac27a53a03f10f8b12ef53d5688d6ea35',1,'reserved:&#160;policy_profile_cc.h']]],
-  ['resource_8',['resource',['../structmip__cc__oauth2__challenge.html#a48e4c5cd3414a3e49efefee3936d7828',1,'mip_cc_oauth2_challenge']]],
-  ['response_9',['response',['../http__delegate__cc_8h.html#a5ad27c540b242a1b691ad82ba6272a67',1,'http_delegate_cc.h']]],
-  ['result_10',['result',['../structmip__cc__error.html#aed3764c95ae85f9f136c0ca4bba118e5',1,'mip_cc_error::result'],['../http__delegate__cc_8h.html#a15e90180d99c12f187234f1dc51bea2f',1,'result:&#160;http_delegate_cc.h']]],
-  ['rights_11',['rights',['../structmip__cc__user__rights.html#aec682b67fa3e59f3c8a17484f62b2538',1,'mip_cc_user_rights::rights'],['../license__info__cc_8h.html#acca9e24c8e080b5c162a57c7ff4b219f',1,'rights:&#160;license_info_cc.h'],['../protection__engine__cc_8h.html#a2e3385ccfef721e482d33f6264fc56bf',1,'rights:&#160;protection_engine_cc.h'],['../protection__handler__cc_8h.html#acca9e24c8e080b5c162a57c7ff4b219f',1,'rights:&#160;protection_handler_cc.h'],['../user__rights__roles__cc_8h.html#a6b711692d988ead850e444ee23a81373',1,'rights:&#160;user_rights_roles_cc.h']]],
-  ['rightscount_12',['rightsCount',['../structmip__cc__user__rights.html#a3443c470e5f35ff2c088e72fc694d9f5',1,'mip_cc_user_rights']]],
-  ['roles_13',['roles',['../structmip__cc__user__roles.html#a2ec2dcb54ffcf5b52df5c7290ce64b9c',1,'mip_cc_user_roles::roles'],['../user__rights__roles__cc_8h.html#aa08c7ea2bf8a78f4c38d2280a68d45f9',1,'roles:&#160;user_rights_roles_cc.h']]],
-  ['rolescount_14',['rolesCount',['../structmip__cc__user__roles.html#a0956d0a2d60e59141cd4df3c95dbb2f1',1,'mip_cc_user_roles']]],
-  ['rulepackagebuffer_15',['rulePackageBuffer',['../sensitivity__type__cc_8h.html#afb27698555acf0d50ae6969bb1619098',1,'sensitivity_type_cc.h']]],
-  ['rulepackagebuffersize_16',['rulePackageBufferSize',['../sensitivity__type__cc_8h.html#a37c50c49ea8c759fe734251938d9fc3e',1,'sensitivity_type_cc.h']]],
-  ['rulepackagesize_17',['rulePackageSize',['../sensitivity__type__cc_8h.html#a7ceabc72b74d35662aa87a4709ac3014',1,'sensitivity_type_cc.h']]]
+  ['scope_0',['scope',['../structmip__cc__oauth2__challenge.html#aa5092355d0b755be90ef1f3b2e8a61a0',1,'mip_cc_oauth2_challenge']]],
+  ['servicedisablederror_5fextent_1',['serviceDisabledError_Extent',['../structmip__cc__error.html#a00adefd6751f1ca9cf7767466d14d19d',1,'mip_cc_error']]],
+  ['size_2',['size',['../structmip__cc__log__message__data.html#a735da3524f2d2e379ce8ff4dab03b3cd',1,'mip_cc_log_message_data::size'],['../structmip__cc__create__logger__delegate__message__data__args.html#a120439a4f0860760ac0332ccead79524',1,'mip_cc_create_logger_delegate_message_data_args::size']]],
+  ['statuscode_3',['statusCode',['../structmip__cc__http__response.html#a9a7808dcada8f245c4a12163b80f9cc3',1,'mip_cc_http_response']]],
+  ['supportedactions_4',['supportedActions',['../structmip__cc__application__action__state.html#a1542f0f2e6bc741c566a85268f805906',1,'mip_cc_application_action_state']]]
 ];

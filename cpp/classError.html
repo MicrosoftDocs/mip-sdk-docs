@@ -191,7 +191,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a34ab84a92eb2a61d10bb2a1720640eb5" id="r_a34ab84a92eb2a61d10bb2a1720640eb5"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classError.html">Error</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34ab84a92eb2a61d10bb2a1720640eb5">Clone</a> () const =0</td></tr>
 <tr class="memdesc:a34ab84a92eb2a61d10bb2a1720640eb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clone the error.  <br /></td></tr>
 <tr class="separator:a34ab84a92eb2a61d10bb2a1720640eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4be6cb0be956902a56477a95d41b960" id="r_ac4be6cb0be956902a56477a95d41b960"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="error_8h.html#af7a9c5a9d19bf72299ab821bd983e131">ErrorType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4be6cb0be956902a56477a95d41b960">GetErrorType</a> () const</td></tr>
+<tr class="memitem:ac4be6cb0be956902a56477a95d41b960" id="r_ac4be6cb0be956902a56477a95d41b960"><td class="memItemLeft" align="right" valign="top">virtual ErrorType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4be6cb0be956902a56477a95d41b960">GetErrorType</a> () const</td></tr>
 <tr class="memdesc:ac4be6cb0be956902a56477a95d41b960"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the error type.  <br /></td></tr>
 <tr class="separator:ac4be6cb0be956902a56477a95d41b960"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27297bdd7abc0571413a249ed4d1f447" id="r_a27297bdd7abc0571413a249ed4d1f447"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27297bdd7abc0571413a249ed4d1f447">GetErrorName</a> () const</td></tr>
@@ -214,9 +214,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a351db1368934ee2ce8c47a21cb943688" id="r_a351db1368934ee2ce8c47a21cb943688"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a351db1368934ee2ce8c47a21cb943688">Error</a> (const std::string &amp;message, const std::string &amp;name, <a class="el" href="error_8h.html#af7a9c5a9d19bf72299ab821bd983e131">ErrorType</a> type)</td></tr>
+<tr class="memitem:a351db1368934ee2ce8c47a21cb943688" id="r_a351db1368934ee2ce8c47a21cb943688"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a351db1368934ee2ce8c47a21cb943688">Error</a> (const std::string &amp;message, const std::string &amp;name, ErrorType type)</td></tr>
 <tr class="separator:a351db1368934ee2ce8c47a21cb943688"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64dc9e9afa15520f9695dc01a20c89b3" id="r_a64dc9e9afa15520f9695dc01a20c89b3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64dc9e9afa15520f9695dc01a20c89b3">Error</a> (const std::string &amp;message, const std::map&lt; std::string, std::string &gt; debugInfo, const std::map&lt; std::string, std::string &gt; sensitiveDebugInfo, const std::string &amp;name, <a class="el" href="error_8h.html#af7a9c5a9d19bf72299ab821bd983e131">ErrorType</a> type)</td></tr>
+<tr class="memitem:a64dc9e9afa15520f9695dc01a20c89b3" id="r_a64dc9e9afa15520f9695dc01a20c89b3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64dc9e9afa15520f9695dc01a20c89b3">Error</a> (const std::string &amp;message, const std::map&lt; std::string, std::string &gt; debugInfo, const std::map&lt; std::string, std::string &gt; sensitiveDebugInfo, const std::string &amp;name, ErrorType type)</td></tr>
 <tr class="separator:a64dc9e9afa15520f9695dc01a20c89b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
@@ -227,7 +227,7 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a0c79a90c3d7a10bad9812f51ba615486"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc98b444b9adbfd6dc8ba5e96db54b37" id="r_abc98b444b9adbfd6dc8ba5e96db54b37"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc98b444b9adbfd6dc8ba5e96db54b37">mName</a></td></tr>
 <tr class="separator:abc98b444b9adbfd6dc8ba5e96db54b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4af72b4dc19622d365cb1faaeae9385" id="r_ae4af72b4dc19622d365cb1faaeae9385"><td class="memItemLeft" align="right" valign="top"><a class="el" href="error_8h.html#af7a9c5a9d19bf72299ab821bd983e131">ErrorType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4af72b4dc19622d365cb1faaeae9385">mType</a></td></tr>
+<tr class="memitem:ae4af72b4dc19622d365cb1faaeae9385" id="r_ae4af72b4dc19622d365cb1faaeae9385"><td class="memItemLeft" align="right" valign="top">ErrorType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4af72b4dc19622d365cb1faaeae9385">mType</a></td></tr>
 <tr class="separator:ae4af72b4dc19622d365cb1faaeae9385"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
@@ -292,7 +292,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="error_8h.html#af7a9c5a9d19bf72299ab821bd983e131">ErrorType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
+          <td class="paramtype">ErrorType</td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -336,7 +336,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="error_8h.html#af7a9c5a9d19bf72299ab821bd983e131">ErrorType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
+          <td class="paramtype">ErrorType</td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -513,7 +513,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="error_8h.html#af7a9c5a9d19bf72299ab821bd983e131">ErrorType</a> Error::GetErrorType </td>
+          <td class="memname">virtual ErrorType Error::GetErrorType </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -743,7 +743,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="error_8h.html#af7a9c5a9d19bf72299ab821bd983e131">ErrorType</a> Error::mType</td>
+          <td class="memname">ErrorType Error::mType</td>
         </tr>
       </table>
   </td>
@@ -756,7 +756,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/api/mip/<a class="el" href="error_8h.html">error.h</a></li>
+<li>src/api/mip/<b>error.h</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

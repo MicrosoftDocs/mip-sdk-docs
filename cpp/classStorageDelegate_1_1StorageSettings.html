@@ -159,7 +159,7 @@ $(function(){initNavTree('classStorageDelegate_1_1StorageSettings.html',''); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab23bfb0a8c95a8d17810f3aefa3e3164" id="r_ab23bfb0a8c95a8d17810f3aefa3e3164"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab23bfb0a8c95a8d17810f3aefa3e3164">StorageSettings</a> (bool isRemoteStorage, bool isInMemoryStorageSupported, const std::string &amp;onDiskExtension=<a class="el" href="common__types_8h.html#a069a1611cbaf951f35ea1e89c8fb88bd">GetSqliteExtension</a>(), <a class="el" href="common__types_8h.html#a35be8535c2570bd764af6252223fe54f">StorageTableVersion</a> storageTableVersion=<a class="el" href="common__types_8h.html#a35be8535c2570bd764af6252223fe54fa06c2cea18679d64399783748fa367bdd">StorageTableVersion::One</a>)</td></tr>
+<tr class="memitem:ab23bfb0a8c95a8d17810f3aefa3e3164" id="r_ab23bfb0a8c95a8d17810f3aefa3e3164"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab23bfb0a8c95a8d17810f3aefa3e3164">StorageSettings</a> (bool isRemoteStorage, bool isInMemoryStorageSupported, const std::string &amp;onDiskExtension=GetSqliteExtension(), StorageTableVersion storageTableVersion=StorageTableVersion::One)</td></tr>
 <tr class="memdesc:ab23bfb0a8c95a8d17810f3aefa3e3164"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for configuring the storage settings.  <br /></td></tr>
 <tr class="separator:ab23bfb0a8c95a8d17810f3aefa3e3164"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4c81111d073584d870049cf302f3293" id="r_ab4c81111d073584d870049cf302f3293"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4c81111d073584d870049cf302f3293">IsRemoteStorage</a> () const</td></tr>
@@ -215,12 +215,12 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>onDiskExtension</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="common__types_8h.html#a069a1611cbaf951f35ea1e89c8fb88bd">GetSqliteExtension</a>()</span>, </td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>onDiskExtension</em></span><span class="paramdefsep"> = </span><span class="paramdefval">GetSqliteExtension()</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common__types_8h.html#a35be8535c2570bd764af6252223fe54f">StorageTableVersion</a></td>          <td class="paramname"><span class="paramname"><em>storageTableVersion</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="common__types_8h.html#a35be8535c2570bd764af6252223fe54fa06c2cea18679d64399783748fa367bdd">StorageTableVersion::One</a></span>&#160;)</td>
+          <td class="paramtype">StorageTableVersion</td>          <td class="paramname"><span class="paramname"><em>storageTableVersion</em></span><span class="paramdefsep"> = </span><span class="paramdefval">StorageTableVersion::One</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -497,7 +497,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/api/mip/<a class="el" href="storage__delegate_8h.html">storage_delegate.h</a></li>
+<li>src/api/mip/<b>storage_delegate.h</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

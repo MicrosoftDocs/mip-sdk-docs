@@ -159,7 +159,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aae750b8fb078fb4d6c2552d83ae97b1a" id="r_aae750b8fb078fb4d6c2552d83ae97b1a"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae750b8fb078fb4d6c2552d83ae97b1a">GetContentIdentifier</a> () const =0</td></tr>
 <tr class="memdesc:aae750b8fb078fb4d6c2552d83ae97b1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the content description that describes the document. example for a file: [path\filename] example for an email: [Subject:Sender].  <br /></td></tr>
 <tr class="separator:aae750b8fb078fb4d6c2552d83ae97b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14ef4d82cdd848c2cc14058f720317e2" id="r_a14ef4d82cdd848c2cc14058f720317e2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="common__types_8h.html#a5737dca05518564ac984b7e47f7ba9ba">DataState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14ef4d82cdd848c2cc14058f720317e2">GetDataState</a> () const</td></tr>
+<tr class="memitem:a14ef4d82cdd848c2cc14058f720317e2" id="r_a14ef4d82cdd848c2cc14058f720317e2"><td class="memItemLeft" align="right" valign="top">virtual DataState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14ef4d82cdd848c2cc14058f720317e2">GetDataState</a> () const</td></tr>
 <tr class="memdesc:a14ef4d82cdd848c2cc14058f720317e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the state of the content while the application is interacting with it.  <br /></td></tr>
 <tr class="separator:a14ef4d82cdd848c2cc14058f720317e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a551237bd855304a06572e226988f7859" id="r_a551237bd855304a06572e226988f7859"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classMetadataEntry.html">MetadataEntry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a551237bd855304a06572e226988f7859">GetContentMetadata</a> (const std::vector&lt; std::string &gt; &amp;names, const std::vector&lt; std::string &gt; &amp;namePrefixes) const =0</td></tr>
@@ -174,7 +174,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a656d4af711a2472771d789e4b5b53aa1" id="r_a656d4af711a2472771d789e4b5b53aa1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classMetadataVersion.html">MetadataVersion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a656d4af711a2472771d789e4b5b53aa1">GetContentMetadataVersion</a> () const</td></tr>
 <tr class="memdesc:a656d4af711a2472771d789e4b5b53aa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the highest metadata version supported by the application for the tenant.  <br /></td></tr>
 <tr class="separator:a656d4af711a2472771d789e4b5b53aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fc862ad6c90eb30a53a15a91b1ce807" id="r_a6fc862ad6c90eb30a53a15a91b1ce807"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classification__result_8h.html#a39412bc39ca15518fb8f0acfee888ec2">ClassificationResults</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fc862ad6c90eb30a53a15a91b1ce807">GetClassificationResults</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classClassificationRequest.html">ClassificationRequest</a> &gt; &gt; &amp;) const</td></tr>
+<tr class="memitem:a6fc862ad6c90eb30a53a15a91b1ce807" id="r_a6fc862ad6c90eb30a53a15a91b1ce807"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; ClassificationResults &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fc862ad6c90eb30a53a15a91b1ce807">GetClassificationResults</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classClassificationRequest.html">ClassificationRequest</a> &gt; &gt; &amp;) const</td></tr>
 <tr class="memdesc:a6fc862ad6c90eb30a53a15a91b1ce807"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a map of classification results.  <br /></td></tr>
 <tr class="separator:a6fc862ad6c90eb30a53a15a91b1ce807"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7191f419e9ad140e658f9ba4455059b1" id="r_a7191f419e9ad140e658f9ba4455059b1"><td class="memItemLeft" align="right" valign="top">virtual std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7191f419e9ad140e658f9ba4455059b1">GetAuditMetadata</a> () const</td></tr>
@@ -282,7 +282,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::shared_ptr&lt; <a class="el" href="classification__result_8h.html#a39412bc39ca15518fb8f0acfee888ec2">ClassificationResults</a> &gt; DocumentState::GetClassificationResults </td>
+          <td class="memname">virtual std::shared_ptr&lt; ClassificationResults &gt; DocumentState::GetClassificationResults </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classClassificationRequest.html">ClassificationRequest</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -436,7 +436,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="common__types_8h.html#a5737dca05518564ac984b7e47f7ba9ba">DataState</a> DocumentState::GetDataState </td>
+          <td class="memname">virtual DataState DocumentState::GetDataState </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -511,7 +511,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/api/mip/upe/core/<a class="el" href="document__state_8h.html">document_state.h</a></li>
+<li>src/api/mip/upe/core/<b>document_state.h</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

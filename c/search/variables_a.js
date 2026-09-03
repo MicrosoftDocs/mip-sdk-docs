@@ -1,22 +1,7 @@
 var searchData=
 [
-  ['label_0',['label',['../content__label__cc_8h.html#ae87181cad8cc005fd64768235c0f0526',1,'label:&#160;content_label_cc.h'],['../policy__engine__cc_8h.html#a6c34f564bc1238e57d9ac47ed7d6adc3',1,'label:&#160;policy_engine_cc.h']]],
-  ['labelbuffer_1',['labelBuffer',['../policy__engine__cc_8h.html#adda350590f39eb380bef869b83316a38',1,'policy_engine_cc.h']]],
-  ['labelbuffersize_2',['labelBufferSize',['../policy__engine__cc_8h.html#ad80636ca84016c544693ae5074dffdbe',1,'policy_engine_cc.h']]],
-  ['labelfilter_3',['labelFilter',['../policy__engine__cc_8h.html#a7fa22884b7bf157cbffceeafdc264342',1,'policy_engine_cc.h']]],
-  ['labelid_4',['labelId',['../protection__engine__cc_8h.html#aa4c5235e0a5f41cbaeec136cd4ca5d9d',1,'labelId:&#160;protection_engine_cc.h'],['../protection__descriptor__builder__cc_8h.html#ad7909384103b041dfd771f34f819e41b',1,'labelId:&#160;protection_descriptor_builder_cc.h'],['../protection__descriptor__cc_8h.html#a5a426f5f06931efc7a67be48915b4331',1,'labelId:&#160;protection_descriptor_cc.h'],['../label__cc_8h.html#a5a426f5f06931efc7a67be48915b4331',1,'labelId:&#160;label_cc.h'],['../policy__engine__cc_8h.html#ad7909384103b041dfd771f34f819e41b',1,'labelId:&#160;policy_engine_cc.h']]],
-  ['labelssize_5',['labelsSize',['../policy__engine__cc_8h.html#a3c04b77697b4c416b846d7bd9c067fa6',1,'policy_engine_cc.h']]],
-  ['lastpolicyfetchtime_6',['lastPolicyFetchTime',['../policy__engine__cc_8h.html#ac3eee4ba632a60a74dc1c9d67f1cffb5',1,'policy_engine_cc.h']]],
-  ['layout_7',['layout',['../add__watermark__action__cc_8h.html#a989200cd5d560d7a038b9844d056de37',1,'add_watermark_action_cc.h']]],
-  ['level_8',['level',['../structmip__cc__log__message__data.html#ad6d5e3dca7237d9bfe7b71273e70ae76',1,'mip_cc_log_message_data::level'],['../policy__engine__cc_8h.html#a4d8634ba374002ecc7800ee7e88b959f',1,'level:&#160;policy_engine_cc.h']]],
-  ['libraryname_9',['libraryName',['../telemetry__configuration__cc_8h.html#ac56671309b02ac240fa9dc5bf05cfd26',1,'telemetry_configuration_cc.h']]],
-  ['licenseinfo_10',['licenseInfo',['../protection__engine__cc_8h.html#abd3ecb2c32ad1fd6606472946762e081',1,'protection_engine_cc.h']]],
-  ['licensevaliduntil_11',['licenseValidUntil',['../protection__descriptor__cc_8h.html#a11a01a0018ef75b5f58ddebc18d5e0f7',1,'protection_descriptor_cc.h']]],
-  ['line_12',['line',['../structmip__cc__log__message__data.html#aeb09f3c04f59083c55f63bfb169381fb',1,'mip_cc_log_message_data']]],
-  ['loadsensitivitytypes_13',['loadSensitivityTypes',['../policy__engine__cc_8h.html#abbfa4959077a1ffccc20140bb1792365',1,'policy_engine_cc.h']]],
-  ['locale_14',['locale',['../protection__engine__cc_8h.html#a2a7ae34bdb5f12f0d8b19f8f110c9b4c',1,'locale:&#160;protection_engine_cc.h'],['../policy__engine__cc_8h.html#ad9dea23bc95106202ce43083b6254c31',1,'locale:&#160;policy_engine_cc.h']]],
-  ['loggercontext_15',['loggerContext',['../structmip__cc__async__task.html#a08fd8756ea36d1a2f6a519636266f3ba',1,'mip_cc_async_task']]],
-  ['loggerdelegate_16',['loggerDelegate',['../structmip__cc__create__logger__delegate__message__data__args.html#a55453c2ea1847fea0660eda6012a3f65',1,'mip_cc_create_logger_delegate_message_data_args::loggerDelegate'],['../logger__delegate__cc_8h.html#a88aa0754ac70016ce69b36dba269f636',1,'loggerDelegate:&#160;logger_delegate_cc.h']]],
-  ['loggerdelegateoverride_17',['loggerDelegateOverride',['../mip__context__cc_8h.html#a00912efde25582bf1d5d39f6bd59d992',1,'mip_context_cc.h']]],
-  ['loglevel_18',['logLevel',['../mip__context__cc_8h.html#a11558c49f08538c5ef35653a0c8cb8ce',1,'mip_context_cc.h']]]
+  ['level_0',['level',['../structmip__cc__log__message__data.html#ad6d5e3dca7237d9bfe7b71273e70ae76',1,'mip_cc_log_message_data']]],
+  ['line_1',['line',['../structmip__cc__log__message__data.html#aeb09f3c04f59083c55f63bfb169381fb',1,'mip_cc_log_message_data']]],
+  ['loggercontext_2',['loggerContext',['../structmip__cc__async__task.html#a08fd8756ea36d1a2f6a519636266f3ba',1,'mip_cc_async_task']]],
+  ['loggerdelegate_3',['loggerDelegate',['../structmip__cc__create__logger__delegate__message__data__args.html#a55453c2ea1847fea0660eda6012a3f65',1,'mip_cc_create_logger_delegate_message_data_args']]]
 ];

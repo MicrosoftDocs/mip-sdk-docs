@@ -159,10 +159,10 @@ $(function(){initNavTree('classLicenseRightsData.html',''); initResizable(true);
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a20401191d083b8464843051b3614c518" id="r_a20401191d083b8464843051b3614c518"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20401191d083b8464843051b3614c518">LicenseRightsData</a> (const <a class="el" href="protection__descriptor_8h.html#a99a0aa7276aadbabc1cca5d95afd8625">ProtectionType</a> type, const std::vector&lt; <a class="el" href="classDirectoryObjectRights.html">DirectoryObjectRights</a> &gt; &amp;directoryObjectsRights, const std::chrono::time_point&lt; std::chrono::system_clock &gt; &amp;contentValidUntil)</td></tr>
+<tr class="memitem:a20401191d083b8464843051b3614c518" id="r_a20401191d083b8464843051b3614c518"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20401191d083b8464843051b3614c518">LicenseRightsData</a> (const ProtectionType type, const std::vector&lt; <a class="el" href="classDirectoryObjectRights.html">DirectoryObjectRights</a> &gt; &amp;directoryObjectsRights, const std::chrono::time_point&lt; std::chrono::system_clock &gt; &amp;contentValidUntil)</td></tr>
 <tr class="memdesc:a20401191d083b8464843051b3614c518"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLicenseRightsData.html" title="The rights related information of the publishing license.">LicenseRightsData</a> constructor.  <br /></td></tr>
 <tr class="separator:a20401191d083b8464843051b3614c518"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75a8c5dfa551f99839fb9100f83bba0e" id="r_a75a8c5dfa551f99839fb9100f83bba0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="protection__descriptor_8h.html#a99a0aa7276aadbabc1cca5d95afd8625">ProtectionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75a8c5dfa551f99839fb9100f83bba0e">GetProtectionType</a> () const</td></tr>
+<tr class="memitem:a75a8c5dfa551f99839fb9100f83bba0e" id="r_a75a8c5dfa551f99839fb9100f83bba0e"><td class="memItemLeft" align="right" valign="top">ProtectionType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75a8c5dfa551f99839fb9100f83bba0e">GetProtectionType</a> () const</td></tr>
 <tr class="memdesc:a75a8c5dfa551f99839fb9100f83bba0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets type of protection, whether it originated from protection SDK template or not.  <br /></td></tr>
 <tr class="separator:a75a8c5dfa551f99839fb9100f83bba0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1ff4f285584f4128cc3945566013e1d" id="r_ae1ff4f285584f4128cc3945566013e1d"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classDirectoryObjectRights.html">DirectoryObjectRights</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1ff4f285584f4128cc3945566013e1d">GetDirectoryObjectsRights</a> () const</td></tr>
@@ -177,7 +177,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a756e3430e3f7c723ad6f24562f4ce0f1" id="r_a756e3430e3f7c723ad6f24562f4ce0f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="protection__descriptor_8h.html#a99a0aa7276aadbabc1cca5d95afd8625">ProtectionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a756e3430e3f7c723ad6f24562f4ce0f1">mType</a></td></tr>
+<tr class="memitem:a756e3430e3f7c723ad6f24562f4ce0f1" id="r_a756e3430e3f7c723ad6f24562f4ce0f1"><td class="memItemLeft" align="right" valign="top">ProtectionType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a756e3430e3f7c723ad6f24562f4ce0f1">mType</a></td></tr>
 <tr class="separator:a756e3430e3f7c723ad6f24562f4ce0f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0e565f5abf96a21e378b8dd897ad06d" id="r_ae0e565f5abf96a21e378b8dd897ad06d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classDirectoryObjectRights.html">DirectoryObjectRights</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0e565f5abf96a21e378b8dd897ad06d">mDirectoryObjectsRights</a></td></tr>
 <tr class="separator:ae0e565f5abf96a21e378b8dd897ad06d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,7 +199,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">LicenseRightsData::LicenseRightsData </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="protection__descriptor_8h.html#a99a0aa7276aadbabc1cca5d95afd8625">ProtectionType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+          <td class="paramtype">const ProtectionType</td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -326,7 +326,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="protection__descriptor_8h.html#a99a0aa7276aadbabc1cca5d95afd8625">ProtectionType</a> LicenseRightsData::GetProtectionType </td>
+          <td class="memname">ProtectionType LicenseRightsData::GetProtectionType </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -399,7 +399,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="protection__descriptor_8h.html#a99a0aa7276aadbabc1cca5d95afd8625">ProtectionType</a> LicenseRightsData::mType</td>
+          <td class="memname">ProtectionType LicenseRightsData::mType</td>
         </tr>
       </table>
   </td>
@@ -412,7 +412,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/api/mip/protection/<a class="el" href="license__rights__data_8h.html">license_rights_data.h</a></li>
+<li>src/api/mip/protection/<b>license_rights_data.h</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

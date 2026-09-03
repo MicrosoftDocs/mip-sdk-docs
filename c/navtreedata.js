@@ -26,7 +26,6 @@ var NAVTREE =
 [
   [ "MIP SDK — C", "index.html", [
     [ "Microsoft Information Protection SDK — C", "index.html", null ],
-    [ "Deprecated List", "deprecated.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -34,20 +33,13 @@ var NAVTREE =
         [ "All", "functions.html", null ],
         [ "Variables", "functions_vars.html", null ]
       ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"action__cc_8h.html",
-"editable__stream__cc_8h.html#a79ed1f50340c30b10429676b0226de51",
-"policy__engine__cc_8h.html#aa635fd546b89ea10582422dc9d67e4ab",
-"protection__handler__cc_8h.html#aa58b2d85110415693d5757478672dffe",
-"telemetry__configuration__cc_8h.html#a9d7dd47c739aad5603092e877886c39f"
+"annotated.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

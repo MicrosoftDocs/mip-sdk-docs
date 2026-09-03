@@ -168,8 +168,8 @@ Inheritance diagram for StorageTableV2:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7b9f07711d75e0668dc751fde831aa09" id="r_a7b9f07711d75e0668dc751fde831aa09"><td class="memItemLeft" align="right" valign="top">virtual uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b9f07711d75e0668dc751fde831aa09">DeleteRange</a> (const std::vector&lt; std::string &gt; &amp;queryColumns, const std::vector&lt; std::string &gt; &amp;queryValues, const std::vector&lt; <a class="el" href="storage__table_8h.html#ac0771a9f5d5c255471354e93a988bdaf">ColumnMatch</a> &gt; &amp;relations)=0</td></tr>
-<tr class="memdesc:a7b9f07711d75e0668dc751fde831aa09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete a set of rows with values greater or lesser than a target value. Need to set storage table version on StorageSettings to be &gt;= <a class="el" href="common__types_8h.html#a35be8535c2570bd764af6252223fe54faaada29daee1d64ed0fe907043855cb7e">StorageTableVersion::Two</a>.  <br /></td></tr>
+<tr class="memitem:a7b9f07711d75e0668dc751fde831aa09" id="r_a7b9f07711d75e0668dc751fde831aa09"><td class="memItemLeft" align="right" valign="top">virtual uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b9f07711d75e0668dc751fde831aa09">DeleteRange</a> (const std::vector&lt; std::string &gt; &amp;queryColumns, const std::vector&lt; std::string &gt; &amp;queryValues, const std::vector&lt; ColumnMatch &gt; &amp;relations)=0</td></tr>
+<tr class="memdesc:a7b9f07711d75e0668dc751fde831aa09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete a set of rows with values greater or lesser than a target value. Need to set storage table version on StorageSettings to be &gt;= StorageTableVersion::Two.  <br /></td></tr>
 <tr class="separator:a7b9f07711d75e0668dc751fde831aa09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6fffd846747b075733849e4c8a8e081" id="r_ac6fffd846747b075733849e4c8a8e081"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6fffd846747b075733849e4c8a8e081">~StorageTableV2</a> ()</td></tr>
 <tr class="separator:ac6fffd846747b075733849e4c8a8e081"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,7 +205,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An extension to the class that defines the interface to the MIP SDK storage table used for caching. </p>
-<dl class="section note"><dt>Note</dt><dd>To use the additional functionality of this class, the storage table version on <a class="el" href="classStorageDelegate_1_1StorageSettings.html" title="Settings used by StorageDelegate.">StorageDelegate::StorageSettings</a> must be &gt;= <a class="el" href="common__types_8h.html#a35be8535c2570bd764af6252223fe54faaada29daee1d64ed0fe907043855cb7e">StorageTableVersion::Two</a> </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>To use the additional functionality of this class, the storage table version on <a class="el" href="classStorageDelegate_1_1StorageSettings.html" title="Settings used by StorageDelegate.">StorageDelegate::StorageSettings</a> must be &gt;= StorageTableVersion::Two </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac6fffd846747b075733849e4c8a8e081" name="ac6fffd846747b075733849e4c8a8e081"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac6fffd846747b075733849e4c8a8e081">&#9670;&#160;</a></span>~StorageTableV2()</h2>
@@ -280,7 +280,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="storage__table_8h.html#ac0771a9f5d5c255471354e93a988bdaf">ColumnMatch</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>relations</em></span>&#160;)</td>
+          <td class="paramtype">const std::vector&lt; ColumnMatch &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>relations</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -290,7 +290,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Delete a set of rows with values greater or lesser than a target value. Need to set storage table version on StorageSettings to be &gt;= <a class="el" href="common__types_8h.html#a35be8535c2570bd764af6252223fe54faaada29daee1d64ed0fe907043855cb7e">StorageTableVersion::Two</a>. </p>
+<p>Delete a set of rows with values greater or lesser than a target value. Need to set storage table version on StorageSettings to be &gt;= StorageTableVersion::Two. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">queryColumns</td><td>Column names to determine the table rows to delete. </td></tr>
@@ -306,7 +306,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/api/mip/<a class="el" href="storage__table_8h.html">storage_table.h</a></li>
+<li>src/api/mip/<b>storage_table.h</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

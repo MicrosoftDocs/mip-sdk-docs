@@ -172,7 +172,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2b4696b6a6a41015a09ccf495b20abfc" id="r_a2b4696b6a6a41015a09ccf495b20abfc"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b4696b6a6a41015a09ccf495b20abfc">GetName</a> () const =0</td></tr>
 <tr class="memdesc:a2b4696b6a6a41015a09ccf495b20abfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get event name.  <br /></td></tr>
 <tr class="separator:a2b4696b6a6a41015a09ccf495b20abfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0770cb368a11959a612aff716426080" id="r_af0770cb368a11959a612aff716426080"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="diagnostic__types_8h.html#a82ffb821068e72d285d7e653cdc65a3e">EventLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0770cb368a11959a612aff716426080">GetLevel</a> () const =0</td></tr>
+<tr class="memitem:af0770cb368a11959a612aff716426080" id="r_af0770cb368a11959a612aff716426080"><td class="memItemLeft" align="right" valign="top">virtual EventLevel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0770cb368a11959a612aff716426080">GetLevel</a> () const =0</td></tr>
 <tr class="memdesc:af0770cb368a11959a612aff716426080"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get level of event, indicating whether it is considered necessary service data (NSD) or not.  <br /></td></tr>
 <tr class="separator:af0770cb368a11959a612aff716426080"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4370d5d317fedbcba4ba4c31abb5bf1d" id="r_a4370d5d317fedbcba4ba4c31abb5bf1d"><td class="memItemLeft" align="right" valign="top">virtual const std::chrono::steady_clock::time_point &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4370d5d317fedbcba4ba4c31abb5bf1d">GetStartTime</a> () const =0</td></tr>
@@ -184,13 +184,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8f122e65546c946b606955cb8dba0e21" id="r_a8f122e65546c946b606955cb8dba0e21"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f122e65546c946b606955cb8dba0e21">AddProperty</a> (const std::string &amp;name, bool value)=0</td></tr>
 <tr class="memdesc:a8f122e65546c946b606955cb8dba0e21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a bool property to the event.  <br /></td></tr>
 <tr class="separator:a8f122e65546c946b606955cb8dba0e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90b7d8d68510a261dd976b945a12b21b" id="r_a90b7d8d68510a261dd976b945a12b21b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90b7d8d68510a261dd976b945a12b21b">AddProperty</a> (const std::string &amp;name, double value, <a class="el" href="diagnostic__types_8h.html#a9f6f929d7eab3f90b04c20833a4e9802">Pii</a> pii)=0</td></tr>
+<tr class="memitem:a90b7d8d68510a261dd976b945a12b21b" id="r_a90b7d8d68510a261dd976b945a12b21b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90b7d8d68510a261dd976b945a12b21b">AddProperty</a> (const std::string &amp;name, double value, Pii pii)=0</td></tr>
 <tr class="memdesc:a90b7d8d68510a261dd976b945a12b21b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a double property to the event.  <br /></td></tr>
 <tr class="separator:a90b7d8d68510a261dd976b945a12b21b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8faba5a9e2660feeae30c241e082283d" id="r_a8faba5a9e2660feeae30c241e082283d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8faba5a9e2660feeae30c241e082283d">AddProperty</a> (const std::string &amp;name, int64_t value, <a class="el" href="diagnostic__types_8h.html#a9f6f929d7eab3f90b04c20833a4e9802">Pii</a> pii)=0</td></tr>
+<tr class="memitem:a8faba5a9e2660feeae30c241e082283d" id="r_a8faba5a9e2660feeae30c241e082283d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8faba5a9e2660feeae30c241e082283d">AddProperty</a> (const std::string &amp;name, int64_t value, Pii pii)=0</td></tr>
 <tr class="memdesc:a8faba5a9e2660feeae30c241e082283d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an int64 property to the event.  <br /></td></tr>
 <tr class="separator:a8faba5a9e2660feeae30c241e082283d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43a57565903018b48a548d426cfb3813" id="r_a43a57565903018b48a548d426cfb3813"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43a57565903018b48a548d426cfb3813">AddProperty</a> (const std::string &amp;name, const std::string &amp;value, <a class="el" href="diagnostic__types_8h.html#a9f6f929d7eab3f90b04c20833a4e9802">Pii</a> pii)=0</td></tr>
+<tr class="memitem:a43a57565903018b48a548d426cfb3813" id="r_a43a57565903018b48a548d426cfb3813"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43a57565903018b48a548d426cfb3813">AddProperty</a> (const std::string &amp;name, const std::string &amp;value, Pii pii)=0</td></tr>
 <tr class="memdesc:a43a57565903018b48a548d426cfb3813"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a string property to the event.  <br /></td></tr>
 <tr class="separator:a43a57565903018b48a548d426cfb3813"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83f07ea3562310b661aac029cb356782" id="r_a83f07ea3562310b661aac029cb356782"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83f07ea3562310b661aac029cb356782">AddAuditOnlyProperty</a> (const std::string &amp;name, const std::string &amp;value)=0</td></tr>
@@ -396,7 +396,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="diagnostic__types_8h.html#a9f6f929d7eab3f90b04c20833a4e9802">Pii</a></td>          <td class="paramname"><span class="paramname"><em>pii</em></span>&#160;)</td>
+          <td class="paramtype">Pii</td>          <td class="paramname"><span class="paramname"><em>pii</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -440,7 +440,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="diagnostic__types_8h.html#a9f6f929d7eab3f90b04c20833a4e9802">Pii</a></td>          <td class="paramname"><span class="paramname"><em>pii</em></span>&#160;)</td>
+          <td class="paramtype">Pii</td>          <td class="paramname"><span class="paramname"><em>pii</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -484,7 +484,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="diagnostic__types_8h.html#a9f6f929d7eab3f90b04c20833a4e9802">Pii</a></td>          <td class="paramname"><span class="paramname"><em>pii</em></span>&#160;)</td>
+          <td class="paramtype">Pii</td>          <td class="paramname"><span class="paramname"><em>pii</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -516,7 +516,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="diagnostic__types_8h.html#a82ffb821068e72d285d7e653cdc65a3e">EventLevel</a> Event::GetLevel </td>
+          <td class="memname">virtual EventLevel Event::GetLevel </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -653,7 +653,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/api/mip/<a class="el" href="event_8h.html">event.h</a></li>
+<li>src/api/mip/<b>event.h</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

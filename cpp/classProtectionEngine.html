@@ -184,7 +184,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a67e32ae1437ee18cdf3779bdfe23c87c" id="r_a67e32ae1437ee18cdf3779bdfe23c87c"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::shared_ptr&lt; <a class="el" href="classTemplateDescriptor.html">TemplateDescriptor</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67e32ae1437ee18cdf3779bdfe23c87c">GetTemplates</a> (const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
 <tr class="memdesc:a67e32ae1437ee18cdf3779bdfe23c87c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get collection of templates available to a user.  <br /></td></tr>
 <tr class="separator:a67e32ae1437ee18cdf3779bdfe23c87c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4cdcc32d201b3e3364b3fce031d175d" id="r_ab4cdcc32d201b3e3364b3fce031d175d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4cdcc32d201b3e3364b3fce031d175d">IsFeatureSupported</a> (<a class="el" href="common__types_8h.html#a0953a16075b5b6f322db47a6cd9fb79b">FeatureId</a> featureId)=0</td></tr>
+<tr class="memitem:ab4cdcc32d201b3e3364b3fce031d175d" id="r_ab4cdcc32d201b3e3364b3fce031d175d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4cdcc32d201b3e3364b3fce031d175d">IsFeatureSupported</a> (FeatureId featureId)=0</td></tr>
 <tr class="memdesc:ab4cdcc32d201b3e3364b3fce031d175d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check is feature supported.  <br /></td></tr>
 <tr class="separator:ab4cdcc32d201b3e3364b3fce031d175d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1462bfbece2ce4b357690f1856cc20a" id="r_ab1462bfbece2ce4b357690f1856cc20a"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classAsyncControl.html">AsyncControl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1462bfbece2ce4b357690f1856cc20a">GetRightsForLabelIdAsync</a> (const std::string &amp;documentId, const std::string &amp;labelId, const std::string &amp;ownerEmail, const std::string &amp;delegatedUserEmail, const std::shared_ptr&lt; <a class="el" href="classProtectionEngine_1_1Observer.html">ProtectionEngine::Observer</a> &gt; &amp;observer, const std::shared_ptr&lt; void &gt; &amp;context, const <a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a> &amp;settings=<a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a>())=0</td></tr>
@@ -1208,7 +1208,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual bool ProtectionEngine::IsFeatureSupported </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="common__types_8h.html#a0953a16075b5b6f322db47a6cd9fb79b">FeatureId</a></td>          <td class="paramname"><span class="paramname"><em>featureId</em></span></td><td>)</td>
+          <td class="paramtype">FeatureId</td>          <td class="paramname"><span class="paramname"><em>featureId</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1560,7 +1560,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/api/mip/protection/<a class="el" href="protection__engine_8h.html">protection_engine.h</a></li>
+<li>src/api/mip/protection/<b>protection_engine.h</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

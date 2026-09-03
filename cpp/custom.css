@@ -38,6 +38,26 @@
   color: #fff;
   font-weight: 600;
 }
+#ms-bar-version {
+  display: inline-flex;
+  align-items: center;
+  height: 22px;
+  padding: 0 8px;
+  border: 1px solid #3a3a3a;
+  border-radius: 11px;
+  color: #cfcfcf;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  background: #1b1b1b;
+  text-decoration: none;
+}
+#ms-bar-version:hover {
+  color: #fff;
+  border-color: #5a5a5a;
+  background: #262626;
+  text-decoration: none;
+}
 #ms-bar-nav {
   margin-left: auto;
   display: flex;
@@ -77,6 +97,22 @@ html.dark-mode {
 /* Keep the project name row tight under the MS bar */
 #titlearea {
   border-bottom: 1px solid var(--separator-color, #dedede);
+}
+
+/* Sidebar project title: allow the name to wrap instead of being clipped.
+   Doxygen defaults to `overflow: hidden; text-overflow: ellipsis` on a
+   single line, which cut off "MIP SDK — C++" and hid the version number. */
+#projectname {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  line-height: 1.2;
+}
+#projectnumber {
+  display: inline-block;
+  margin-left: 4px;
+  font-weight: 500;
+  color: var(--page-secondary-foreground-color, #4d4d4d);
 }
 
 /* Curated mainpage class index: tighter, left-aligned table */

@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Microsoft Information Protection SDK - C", "index.html", [
+  [ "MIP SDK — C", "index.html", [
     [ "Microsoft Information Protection SDK — C", "index.html", null ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Classes", "annotated.html", [

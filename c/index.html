@@ -60,8 +60,9 @@
     </details>
     <nav id="ms-bar-nav" aria-label="Related links">
       <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://learn.microsoft.com/information-protection/develop/setup-configure-mip">Get the SDK</a>
       <a href="https://learn.microsoft.com/information-protection/develop/version-release-history">Version history</a>
-      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a>
+      <a href="https://learn.microsoft.com/answers/tags/342/mip-sdk">Ask a question</a>
     </nav>
   </div>
 </div>
@@ -152,15 +153,30 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
 </blockquote>
 <h2><a class="anchor" id="autotoc_md0"></a>
 Get started</h2>
+<h3><a class="anchor" id="autotoc_md1"></a>
+1. Set up your dev environment</h3>
 <ul>
-<li><b><a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs and quickstarts</a></b> — start here if you're new to MIP.</li>
-<li><b><a href="https://github.com/AzureAD/mip-sdk-for-cpp/tree/main/samples">Samples</a></b> — runnable samples in the SDK repo.</li>
-<li><b><a href="https://learn.microsoft.com/information-protection/develop/version-release-history">Version history and older references</a></b> — release notes, supported-version schedule, and links to the archived reference for every prior release.</li>
+<li><b><a href="https://learn.microsoft.com/information-protection/develop/setup-configure-mip">Set up and configure the MIP SDK</a></b> — prerequisites, Entra ID app registration, and installing the SDK.</li>
+<li><b><a href="https://learn.microsoft.com/information-protection/develop/version-release-history">Version release history</a></b> — supported versions, breaking changes, and the archived reference for every prior release.</li>
+<li><b><a href="https://learn.microsoft.com/answers/tags/342/mip-sdk">Ask a question on Microsoft Q&amp;A</a></b> — the supported channel for developer questions.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md1"></a>
+<h3><a class="anchor" id="autotoc_md2"></a>
+2. Try a C++ quickstart</h3>
+<p>The C wrapper doesn't have language-specific quickstarts yet; the C++ ones show the same concepts (client initialization, delegates, profile/engine bring-up) that map directly onto the C surface:</p>
+<ul>
+<li><b><a href="https://learn.microsoft.com/information-protection/develop/quick-protection-app-initialization-cpp">Initialize a MIP C++ client</a></b> — client bring-up walkthrough.</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md3"></a>
+3. Read a working sample</h3>
+<p>Runnable C++ samples, one per API surface (the C wrapper types have <code>_cc.h</code> suffixes and mirror the C++ classes 1:1):</p>
+<ul>
+<li><b>Protection API — <a href="https://github.com/Azure-Samples/mipsdk-protectionapi-cpp-sample-basic">Azure-Samples/mipsdk-protectionapi-cpp-sample-basic</a></b> — obtain a publishing license, encrypt and decrypt a buffer.</li>
+<li><b>Policy API — <a href="https://github.com/Azure-Samples/MipSDK-Policy-Cpp-Sample">Azure-Samples/MipSDK-Policy-Cpp-Sample</a></b> — enumerate labels, compute actions, apply policy decisions.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md4"></a>
 API by area</h2>
 <p>This page is curated; the <b>Files</b> tab indexes every header.</p>
-<h3><a class="anchor" id="autotoc_md2"></a>
+<h3><a class="anchor" id="autotoc_md5"></a>
 Context</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -176,7 +192,7 @@ Context</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><code><a class="el" href="flighting__feature__cc_8h.html" title="Flighting feature definition.">flighting_feature_cc.h</a></code>   </td><td class="markdownTableBodyNone">Feature flags.   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md3"></a>
+<h3><a class="anchor" id="autotoc_md6"></a>
 Protection API</h3>
 <p>Encrypt, decrypt, and manage Use Licenses directly.</p>
 <table class="markdownTable">
@@ -197,7 +213,7 @@ Protection API</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><code><a class="el" href="user__rights__roles__cc_8h.html" title="Defines C-Style user rights &amp; roles functions.">protection/user_rights_roles_cc.h</a></code>   </td><td class="markdownTableBodyNone">Rights and role assignments.   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md4"></a>
+<h3><a class="anchor" id="autotoc_md7"></a>
 Labels &amp; Policy</h3>
 <p>Drive the labeling experience.</p>
 <table class="markdownTable">
@@ -218,7 +234,7 @@ Labels &amp; Policy</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><code><a class="el" href="metadata__dictionary__cc_8h.html" title="Contains C API definitions for a metadata dictionary.">upe/metadata_dictionary_cc.h</a></code>   </td><td class="markdownTableBodyNone">Document metadata.   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md5"></a>
+<h3><a class="anchor" id="autotoc_md8"></a>
 Actions</h3>
 <p><code><a class="el" href="policy__handler__cc_8h.html" title="Contains C API definitions for policy handler.">policy_handler_cc.h</a></code> returns actions describing what your app should do.</p>
 <table class="markdownTable">
@@ -239,7 +255,7 @@ Actions</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><code><a class="el" href="custom__action__cc_8h.html" title="Contains C API definitions for custom label policy action.">upe/custom_action_cc.h</a></code>   </td><td class="markdownTableBodyNone">Tenant-defined custom action.   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md6"></a>
+<h3><a class="anchor" id="autotoc_md9"></a>
 Delegates &amp; callbacks</h3>
 <p>Implement these to extend or override SDK behavior.</p>
 <table class="markdownTable">
@@ -256,7 +272,7 @@ Delegates &amp; callbacks</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><code><a class="el" href="task__dispatcher__delegate__cc_8h.html" title="Defines task dispatcher callback functions.">task_dispatcher_delegate_cc.h</a></code>   </td><td class="markdownTableBodyNone">Background task scheduling.   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md7"></a>
+<h3><a class="anchor" id="autotoc_md10"></a>
 Errors &amp; common types</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -287,7 +303,8 @@ Errors &amp; common types</h3>
   <ul>
     <li class="footer">
       <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
-      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      <a href="https://learn.microsoft.com/information-protection/develop/setup-configure-mip">Get the SDK</a> &middot;
+      <a href="https://learn.microsoft.com/answers/tags/342/mip-sdk">Ask a question</a> &middot;
       Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
     </li>
   </ul>

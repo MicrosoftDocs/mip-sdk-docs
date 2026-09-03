@@ -39,8 +39,12 @@
   font-weight: 600;
 }
 #ms-bar-version {
+  position: relative;
+}
+#ms-bar-version > summary {
   display: inline-flex;
   align-items: center;
+  gap: 4px;
   height: 22px;
   padding: 0 8px;
   border: 1px solid #3a3a3a;
@@ -50,14 +54,85 @@
   font-weight: 500;
   letter-spacing: 0.02em;
   background: #1b1b1b;
-  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
 }
-#ms-bar-version:hover {
+#ms-bar-version > summary::-webkit-details-marker { display: none; }
+#ms-bar-version > summary:hover,
+#ms-bar-version[open] > summary {
   color: #fff;
   border-color: #5a5a5a;
   background: #262626;
+}
+#ms-bar-version > summary .chev {
+  font-size: 10px;
+  opacity: 0.8;
+  transition: transform 0.15s ease;
+}
+#ms-bar-version[open] > summary .chev {
+  transform: rotate(180deg);
+}
+#ms-bar-version-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  min-width: 200px;
+  padding: 6px 0;
+  background: #fff;
+  color: #111;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+  z-index: 1000;
+}
+#ms-bar-version-menu a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 12px;
+  color: #111;
+  text-decoration: none;
+  font-size: 13px;
+}
+#ms-bar-version-menu a:hover {
+  background: #f3f2f1;
   text-decoration: none;
 }
+#ms-bar-version-menu a.current {
+  font-weight: 600;
+}
+#ms-bar-version-menu a.current::after {
+  content: "latest";
+  font-size: 11px;
+  font-weight: 500;
+  color: #605e5c;
+  background: #f3f2f1;
+  padding: 1px 6px;
+  border-radius: 8px;
+}
+#ms-bar-version-menu hr {
+  border: 0;
+  border-top: 1px solid #edebe9;
+  margin: 4px 0;
+}
+#ms-bar-version-menu a.history {
+  color: #0078d4;
+  font-size: 12px;
+}
+html.dark-mode #ms-bar-version-menu {
+  background: #1b1b1b;
+  color: #f3f2f1;
+  border-color: #3a3a3a;
+}
+html.dark-mode #ms-bar-version-menu a { color: #f3f2f1; }
+html.dark-mode #ms-bar-version-menu a:hover { background: #262626; }
+html.dark-mode #ms-bar-version-menu a.current::after {
+  background: #262626;
+  color: #cfcfcf;
+}
+html.dark-mode #ms-bar-version-menu hr { border-top-color: #3a3a3a; }
 #ms-bar-nav {
   margin-left: auto;
   display: flex;

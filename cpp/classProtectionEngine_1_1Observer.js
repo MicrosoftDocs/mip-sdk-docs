@@ -1,5 +1,7 @@
 var classProtectionEngine_1_1Observer =
 [
+    [ "~Observer", "classProtectionEngine_1_1Observer.html#a66fb72d10da0a852d30b56a2ce6fa931", null ],
+    [ "Observer", "classProtectionEngine_1_1Observer.html#adfe6406203e2d1703addfa90ff76008a", null ],
     [ "OnCreateDelegatedLicensesFailure", "classProtectionEngine_1_1Observer.html#a0a3ead878a44cdce11a3de078e8452dc", null ],
     [ "OnCreateDelegatedLicensesSuccess", "classProtectionEngine_1_1Observer.html#ab27b06764aa412a72048bdbd700fed56", null ],
     [ "OnGetLicenseRightsDataFailure", "classProtectionEngine_1_1Observer.html#ac66b46e8954572046ef13fc3af90b30b", null ],

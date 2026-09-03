@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['–_20c_0',['Microsoft Information Protection SDK – C',['../index.html',1,'']]]
+  ['—_20c_0',['Microsoft Information Protection SDK — C',['../index.html',1,'']]]
 ];

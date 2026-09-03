@@ -22,7 +22,9 @@ var protection__engine__cc_8h =
     [ "customSettings", "protection__engine__cc_8h.html#a9d7dd47c739aad5603092e877886c39f", null ],
     [ "delegatedUserEmail", "protection__engine__cc_8h.html#a1efbd248d5054e061cf7e62d1d96a53b", null ],
     [ "delegationLicenses", "protection__engine__cc_8h.html#a05dbe9760ee0b369242785d490805591", null ],
+    [ "deleteAllData", "protection__engine__cc_8h.html#a00226a6ffea58281099b0b07ea8a34a4", null ],
     [ "documentId", "protection__engine__cc_8h.html#ae882243d97f444f820b6088df20b9f8c", null ],
+    [ "engineId", "protection__engine__cc_8h.html#a6c351ddf0a57e8ed4b5fe0d582b59cb2", null ],
     [ "engineSettings", "protection__engine__cc_8h.html#af7602d81eee15432cdc7bbf57ec567c2", null ],
     [ "errorInfo", "protection__engine__cc_8h.html#a02897ef9b48f683d13343c72cc75e663", null ],
     [ "handler", "protection__engine__cc_8h.html#a1eb9a4cd9fb27c5e0a50eeeee04e47dc", null ],
@@ -43,5 +45,6 @@ var protection__engine__cc_8h =
     [ "templateDescriptors", "protection__engine__cc_8h.html#a418a94ad3eef79283bc8f079d9666a78", null ],
     [ "templateRefreshIntervalHours", "protection__engine__cc_8h.html#a1a99cabfc9c3dc3ffd079e1613686aa8", null ],
     [ "templatesSize", "protection__engine__cc_8h.html#add4a7a27d9abcb9e663105736dba979a", null ],
+    [ "timePoint", "protection__engine__cc_8h.html#ac0d14bcd0d0b754df4f4915f6d228b8c", null ],
     [ "underlyingApplicationId", "protection__engine__cc_8h.html#aadd59e44c48f61cb596993a9ad7fabed", null ]
 ];

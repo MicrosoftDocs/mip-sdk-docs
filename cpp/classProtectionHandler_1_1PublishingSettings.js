@@ -23,5 +23,16 @@ var classProtectionHandler_1_1PublishingSettings =
     [ "SetRegenerateContentKey", "classProtectionHandler_1_1PublishingSettings.html#ae6f0f6c7158ca3e6d84e3167b40efe33", null ],
     [ "SetRepairLabelIdAllowed", "classProtectionHandler_1_1PublishingSettings.html#a52853c8f970eb97eafad8d11cc70c9eb", null ],
     [ "SetRequestPreLicense", "classProtectionHandler_1_1PublishingSettings.html#a0507bdebeb4660567e939fc85ee75109", null ],
-    [ "SetShouldRefreshTemplates", "classProtectionHandler_1_1PublishingSettings.html#aac2e782bc430776ba1d473e2f580f814", null ]
+    [ "SetShouldRefreshTemplates", "classProtectionHandler_1_1PublishingSettings.html#aac2e782bc430776ba1d473e2f580f814", null ],
+    [ "mDelegatedUserEmail", "classProtectionHandler_1_1PublishingSettings.html#a1039c2a1b2d38de92e24354806a91576", null ],
+    [ "mIsAuditedExtractionAllowed", "classProtectionHandler_1_1PublishingSettings.html#a3aac049f977a1f6a4ae3dd29fb97ed88", null ],
+    [ "mIsDeprecatedAlgorithmPreferred", "classProtectionHandler_1_1PublishingSettings.html#a51548d15ac51f30523dee4c168b33a6d", null ],
+    [ "mIsPublishingFormatJson", "classProtectionHandler_1_1PublishingSettings.html#a9e505a10130d1282c5260d0b61932246", null ],
+    [ "mProtectionDescriptor", "classProtectionHandler_1_1PublishingSettings.html#abce27b053464ab1ef94b459adff539ae", null ],
+    [ "mProtectionHandler", "classProtectionHandler_1_1PublishingSettings.html#acfea71a64cac9eab32a77f4590b2a4a4", null ],
+    [ "mPublishingUseLicenseRequest", "classProtectionHandler_1_1PublishingSettings.html#ac797e697c23f0c136eee612b6c70a4bb", null ],
+    [ "mRegenerateContentKey", "classProtectionHandler_1_1PublishingSettings.html#ad0ae1657fb6ef66f463d3909b7f20106", null ],
+    [ "mRepairLabelIdAllowed", "classProtectionHandler_1_1PublishingSettings.html#ae5926243bd15c643d2d77dd5999559ac", null ],
+    [ "mRepublishingLicense", "classProtectionHandler_1_1PublishingSettings.html#adf42a49c00ccae81c1500aae5c92b5d7", null ],
+    [ "mShouldRefreshTemplates", "classProtectionHandler_1_1PublishingSettings.html#a04702fce95b1b0672cde0ac328756b1b", null ]
 ];

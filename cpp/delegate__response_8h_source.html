@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -134,67 +174,101 @@ $(function(){initNavTree('delegate__response_8h_source.html',''); initResizable(
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#include &quot;<a class="code" href="error_8h.html">mip/error.h</a>&quot;</span></div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &quot;<a class="code" href="mip__namespace_8h.html">mip/mip_namespace.h</a>&quot;</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>MIP_NAMESPACE_BEGIN</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><a class="code hl_define" href="mip__namespace_8h.html#a39c21aae7cf9012b9b74d8431054e182">MIP_NAMESPACE_BEGIN</a></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">class </span>DelegateResponseBase {</div>
+<div class="foldopen" id="foldopen00046" data-start="{" data-end="};">
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="classDelegateResponseBase.html">   46</a></span><span class="keyword">class </span><a class="code hl_class" href="classDelegateResponseBase.html">DelegateResponseBase</a> {</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  DelegateResponseBase() : mReserved(0) {}</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="classDelegateResponseBase.html#a201db10cc09f4914da27a9abae577ba5">   49</a></span>  <a class="code hl_function" href="classDelegateResponseBase.html#a201db10cc09f4914da27a9abae577ba5">DelegateResponseBase</a>() : <a class="code hl_variable" href="classDelegateResponseBase.html#a5ed086d7875c5904ab9925992005ff2c">mReserved</a>(0) {}</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  <span class="comment">// For internal purpose only</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  <span class="keywordtype">long</span> mReserved;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  <span class="keyword">static</span> <span class="keywordtype">long</span> GetReserved(<span class="keyword">const</span> DelegateResponseBase&amp; response) {</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordflow">return</span> response.mReserved;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="classDelegateResponseBase.html#a5ed086d7875c5904ab9925992005ff2c">   51</a></span>  <span class="keywordtype">long</span> <a class="code hl_variable" href="classDelegateResponseBase.html#a5ed086d7875c5904ab9925992005ff2c">mReserved</a>;</div>
+<div class="foldopen" id="foldopen00052" data-start="{" data-end="}">
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="classDelegateResponseBase.html#a85820a2654e0d02182dc654c4ed42198">   52</a></span>  <span class="keyword">static</span> <span class="keywordtype">long</span> <a class="code hl_function" href="classDelegateResponseBase.html#a85820a2654e0d02182dc654c4ed42198">GetReserved</a>(<span class="keyword">const</span> <a class="code hl_class" href="classDelegateResponseBase.html">DelegateResponseBase</a>&amp; response) {</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordflow">return</span> response.<a class="code hl_variable" href="classDelegateResponseBase.html#a5ed086d7875c5904ab9925992005ff2c">mReserved</a>;</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  }</div>
+</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>};</div>
+</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">class </span>DelegateResponse : <span class="keyword">public</span> DelegateResponseBase {</div>
+<div class="foldopen" id="foldopen00061" data-start="{" data-end="};">
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="classDelegateResponse.html">   61</a></span><span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">class </span><a class="code hl_class" href="classDelegateResponse.html">DelegateResponse</a> : <span class="keyword">public</span> <a class="code hl_class" href="classDelegateResponseBase.html">DelegateResponseBase</a> {</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  DelegateResponse(std::shared_ptr&lt;T&gt; data) : mData(data), mDelegateResponseError(nullptr) {</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keywordflow">if</span> (!mData) {</div>
+<div class="foldopen" id="foldopen00068" data-start="{" data-end="}">
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="classDelegateResponse.html#afbc888e82731f438203ae81d16f40db9">   68</a></span>  <a class="code hl_function" href="classDelegateResponse.html#afbc888e82731f438203ae81d16f40db9">DelegateResponse</a>(std::shared_ptr&lt;T&gt; data) : <a class="code hl_variable" href="classDelegateResponse.html#a997854f9e93e8f86416c7ca93978b3ed">mData</a>(data), <a class="code hl_variable" href="classDelegateResponse.html#a23732e39e476b29beaea934c8c30825c">mDelegateResponseError</a>(nullptr) {</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="classDelegateResponse.html#a997854f9e93e8f86416c7ca93978b3ed">mData</a>) {</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>      <span class="keywordflow">throw</span> std::invalid_argument(<span class="stringliteral">&quot;Created an empty DelegateResponse&quot;</span>);</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    }</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  }</div>
+</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  DelegateResponse(mip::Error&amp; error) : mData(nullptr), mDelegateResponseError(new <a class="code hl_class" href="classDelegateResponseError.html">DelegateResponseError</a>(error)) {</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordflow">if</span> (mDelegateResponseError-&gt;GetMessage().empty()) {</div>
+<div class="foldopen" id="foldopen00079" data-start="{" data-end="}">
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="classDelegateResponse.html#ac4870e1a42c220928c37aaefc6348130">   79</a></span>  <a class="code hl_function" href="classDelegateResponse.html#ac4870e1a42c220928c37aaefc6348130">DelegateResponse</a>(mip::Error&amp; error) : <a class="code hl_variable" href="classDelegateResponse.html#a997854f9e93e8f86416c7ca93978b3ed">mData</a>(nullptr), <a class="code hl_variable" href="classDelegateResponse.html#a23732e39e476b29beaea934c8c30825c">mDelegateResponseError</a>(new <a class="code hl_class" href="classDelegateResponseError.html">DelegateResponseError</a>(error)) {</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classDelegateResponse.html#a23732e39e476b29beaea934c8c30825c">mDelegateResponseError</a>-&gt;GetMessage().empty()) {</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>      throw std::invalid_argument(<span class="stringliteral">&quot;Created an empty DelegateResponse&quot;</span>);</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    }</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  }</div>
+</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>  <span class="keyword">explicit</span> DelegateResponse(<span class="keyword">const</span> std::exception_ptr&amp; exception)</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>      : mData(nullptr),</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        mDelegateResponseError(exception ? new <a class="code hl_class" href="classDelegateResponseError.html">DelegateResponseError</a>(exception) : nullptr) {</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keywordflow">if</span> (!mDelegateResponseError) {</div>
+<div class="foldopen" id="foldopen00090" data-start="{" data-end="}">
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="classDelegateResponse.html#a8d44b119da1b133f14126580809ef752">   90</a></span>  <span class="keyword">explicit</span> <a class="code hl_function" href="classDelegateResponse.html#a8d44b119da1b133f14126580809ef752">DelegateResponse</a>(<span class="keyword">const</span> std::exception_ptr&amp; exception)</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>      : <a class="code hl_variable" href="classDelegateResponse.html#a997854f9e93e8f86416c7ca93978b3ed">mData</a>(nullptr),</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        <a class="code hl_variable" href="classDelegateResponse.html#a23732e39e476b29beaea934c8c30825c">mDelegateResponseError</a>(exception ? new <a class="code hl_class" href="classDelegateResponseError.html">DelegateResponseError</a>(exception) : nullptr) {</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="classDelegateResponse.html#a23732e39e476b29beaea934c8c30825c">mDelegateResponseError</a>) {</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>      <span class="keywordflow">throw</span> std::invalid_argument(<span class="stringliteral">&quot;Created an empty DelegateResponse&quot;</span>);</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    }</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  }</div>
+</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>  </div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  std::shared_ptr&lt;T&gt; GetData()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> mData; }</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="classDelegateResponse.html#a46c6384756dbfa5221999edcb5809b1f">  103</a></span>  std::shared_ptr&lt;T&gt; <a class="code hl_function" href="classDelegateResponse.html#a46c6384756dbfa5221999edcb5809b1f">GetData</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="classDelegateResponse.html#a997854f9e93e8f86416c7ca93978b3ed">mData</a>; }</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>  std::shared_ptr&lt;mip::DelegateResponseError&gt; GetError()<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordflow">return</span> mDelegateResponseError;</div>
+<div class="foldopen" id="foldopen00110" data-start="{" data-end="}">
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="classDelegateResponse.html#aa1cd8e6e02295164dbdf8a0d1f9d7280">  110</a></span>  std::shared_ptr&lt;mip::DelegateResponseError&gt; <a class="code hl_function" href="classDelegateResponse.html#aa1cd8e6e02295164dbdf8a0d1f9d7280">GetError</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="classDelegateResponse.html#a23732e39e476b29beaea934c8c30825c">mDelegateResponseError</a>;</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>  }</div>
+</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>  <span class="keyword">virtual</span> ~DelegateResponse() {}</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="classDelegateResponse.html#a8f7e6070fc1cd12dcff37261161d10ae">  115</a></span>  <span class="keyword">virtual</span> <a class="code hl_function" href="classDelegateResponse.html#a8f7e6070fc1cd12dcff37261161d10ae">~DelegateResponse</a>() {}</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>  DelegateResponse() {}</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="classDelegateResponse.html#a3d55ca5621a7d7a81e23c20b09af1c4e">  117</a></span>  <a class="code hl_function" href="classDelegateResponse.html#a3d55ca5621a7d7a81e23c20b09af1c4e">DelegateResponse</a>() {}</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>  std::shared_ptr&lt;T&gt; mData;</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  std::shared_ptr&lt;mip::DelegateResponseError&gt; mDelegateResponseError;</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="classDelegateResponse.html#a997854f9e93e8f86416c7ca93978b3ed">  121</a></span>  std::shared_ptr&lt;T&gt; <a class="code hl_variable" href="classDelegateResponse.html#a997854f9e93e8f86416c7ca93978b3ed">mData</a>;</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="classDelegateResponse.html#a23732e39e476b29beaea934c8c30825c">  122</a></span>  std::shared_ptr&lt;mip::DelegateResponseError&gt; <a class="code hl_variable" href="classDelegateResponse.html#a23732e39e476b29beaea934c8c30825c">mDelegateResponseError</a>;</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>};</div>
+</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>MIP_NAMESPACE_END</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span><a class="code hl_define" href="mip__namespace_8h.html#ae6c7ae24f07850b87df4bbf55c04d831">MIP_NAMESPACE_END</a></div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="preprocessor">#endif </span><span class="comment">// API_MIP_DELEGATE_RESPONSE</span></div>
+<div class="ttc" id="aclassDelegateResponseBase_html"><div class="ttname"><a href="classDelegateResponseBase.html">DelegateResponseBase</a></div><div class="ttdoc">Base class for all DelegateResponse classes.</div><div class="ttdef"><b>Definition</b> delegate_response.h:46</div></div>
+<div class="ttc" id="aclassDelegateResponseBase_html_a201db10cc09f4914da27a9abae577ba5"><div class="ttname"><a href="classDelegateResponseBase.html#a201db10cc09f4914da27a9abae577ba5">DelegateResponseBase::DelegateResponseBase</a></div><div class="ttdeci">DelegateResponseBase()</div><div class="ttdef"><b>Definition</b> delegate_response.h:49</div></div>
+<div class="ttc" id="aclassDelegateResponseBase_html_a5ed086d7875c5904ab9925992005ff2c"><div class="ttname"><a href="classDelegateResponseBase.html#a5ed086d7875c5904ab9925992005ff2c">DelegateResponseBase::mReserved</a></div><div class="ttdeci">long mReserved</div><div class="ttdef"><b>Definition</b> delegate_response.h:51</div></div>
+<div class="ttc" id="aclassDelegateResponseBase_html_a85820a2654e0d02182dc654c4ed42198"><div class="ttname"><a href="classDelegateResponseBase.html#a85820a2654e0d02182dc654c4ed42198">DelegateResponseBase::GetReserved</a></div><div class="ttdeci">static long GetReserved(const DelegateResponseBase &amp;response)</div><div class="ttdef"><b>Definition</b> delegate_response.h:52</div></div>
 <div class="ttc" id="aclassDelegateResponseError_html"><div class="ttname"><a href="classDelegateResponseError.html">DelegateResponseError</a></div><div class="ttdoc">Delegate Response Error. Thrown or returned in response to encountering an error in a delegate method...</div><div class="ttdef"><b>Definition</b> error.h:317</div></div>
+<div class="ttc" id="aclassDelegateResponse_html"><div class="ttname"><a href="classDelegateResponse.html">DelegateResponse</a></div><div class="ttdoc">Template class to return delegate operation results.</div><div class="ttdef"><b>Definition</b> delegate_response.h:61</div></div>
+<div class="ttc" id="aclassDelegateResponse_html_a23732e39e476b29beaea934c8c30825c"><div class="ttname"><a href="classDelegateResponse.html#a23732e39e476b29beaea934c8c30825c">DelegateResponse::mDelegateResponseError</a></div><div class="ttdeci">std::shared_ptr&lt; mip::DelegateResponseError &gt; mDelegateResponseError</div><div class="ttdef"><b>Definition</b> delegate_response.h:122</div></div>
+<div class="ttc" id="aclassDelegateResponse_html_a3d55ca5621a7d7a81e23c20b09af1c4e"><div class="ttname"><a href="classDelegateResponse.html#a3d55ca5621a7d7a81e23c20b09af1c4e">DelegateResponse::DelegateResponse</a></div><div class="ttdeci">DelegateResponse()</div><div class="ttdef"><b>Definition</b> delegate_response.h:117</div></div>
+<div class="ttc" id="aclassDelegateResponse_html_a46c6384756dbfa5221999edcb5809b1f"><div class="ttname"><a href="classDelegateResponse.html#a46c6384756dbfa5221999edcb5809b1f">DelegateResponse::GetData</a></div><div class="ttdeci">std::shared_ptr&lt; T &gt; GetData() const</div><div class="ttdoc">Returns the requested data, nullptr if call triggered an exception.</div><div class="ttdef"><b>Definition</b> delegate_response.h:103</div></div>
+<div class="ttc" id="aclassDelegateResponse_html_a8d44b119da1b133f14126580809ef752"><div class="ttname"><a href="classDelegateResponse.html#a8d44b119da1b133f14126580809ef752">DelegateResponse::DelegateResponse</a></div><div class="ttdeci">DelegateResponse(const std::exception_ptr &amp;exception)</div><div class="ttdoc">Create a DelegateResponse to wrap returned objects or exceptions.</div><div class="ttdef"><b>Definition</b> delegate_response.h:90</div></div>
+<div class="ttc" id="aclassDelegateResponse_html_a8f7e6070fc1cd12dcff37261161d10ae"><div class="ttname"><a href="classDelegateResponse.html#a8f7e6070fc1cd12dcff37261161d10ae">DelegateResponse::~DelegateResponse</a></div><div class="ttdeci">virtual ~DelegateResponse()</div><div class="ttdef"><b>Definition</b> delegate_response.h:115</div></div>
+<div class="ttc" id="aclassDelegateResponse_html_a997854f9e93e8f86416c7ca93978b3ed"><div class="ttname"><a href="classDelegateResponse.html#a997854f9e93e8f86416c7ca93978b3ed">DelegateResponse::mData</a></div><div class="ttdeci">std::shared_ptr&lt; T &gt; mData</div><div class="ttdef"><b>Definition</b> delegate_response.h:121</div></div>
+<div class="ttc" id="aclassDelegateResponse_html_aa1cd8e6e02295164dbdf8a0d1f9d7280"><div class="ttname"><a href="classDelegateResponse.html#aa1cd8e6e02295164dbdf8a0d1f9d7280">DelegateResponse::GetError</a></div><div class="ttdeci">std::shared_ptr&lt; mip::DelegateResponseError &gt; GetError() const</div><div class="ttdoc">Return any error generated during the call, nullptr if call completed successfully.</div><div class="ttdef"><b>Definition</b> delegate_response.h:110</div></div>
+<div class="ttc" id="aclassDelegateResponse_html_ac4870e1a42c220928c37aaefc6348130"><div class="ttname"><a href="classDelegateResponse.html#ac4870e1a42c220928c37aaefc6348130">DelegateResponse::DelegateResponse</a></div><div class="ttdeci">DelegateResponse(mip::Error &amp;error)</div><div class="ttdoc">Create a DelegateResponse to wrap returned objects or exceptions.</div><div class="ttdef"><b>Definition</b> delegate_response.h:79</div></div>
+<div class="ttc" id="aclassDelegateResponse_html_afbc888e82731f438203ae81d16f40db9"><div class="ttname"><a href="classDelegateResponse.html#afbc888e82731f438203ae81d16f40db9">DelegateResponse::DelegateResponse</a></div><div class="ttdeci">DelegateResponse(std::shared_ptr&lt; T &gt; data)</div><div class="ttdoc">Create a DelegateResponse to wrap returned objects or exceptions.</div><div class="ttdef"><b>Definition</b> delegate_response.h:68</div></div>
 <div class="ttc" id="aerror_8h_html"><div class="ttname"><a href="error_8h.html">error.h</a></div><div class="ttdoc">A file containing the MIP SDK error types.</div></div>
 <div class="ttc" id="amip__namespace_8h_html"><div class="ttname"><a href="mip__namespace_8h.html">mip_namespace.h</a></div><div class="ttdoc">MIP namespace macros.</div></div>
+<div class="ttc" id="amip__namespace_8h_html_a39c21aae7cf9012b9b74d8431054e182"><div class="ttname"><a href="mip__namespace_8h.html#a39c21aae7cf9012b9b74d8431054e182">MIP_NAMESPACE_BEGIN</a></div><div class="ttdeci">#define MIP_NAMESPACE_BEGIN</div><div class="ttdef"><b>Definition</b> mip_namespace.h:53</div></div>
+<div class="ttc" id="amip__namespace_8h_html_ae6c7ae24f07850b87df4bbf55c04d831"><div class="ttname"><a href="mip__namespace_8h.html#ae6c7ae24f07850b87df4bbf55c04d831">MIP_NAMESPACE_END</a></div><div class="ttdeci">#define MIP_NAMESPACE_END</div><div class="ttdef"><b>Definition</b> mip_namespace.h:56</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ed23b7e0ff82d04a8565e406d9d9df9a.html">mip-sdk-for-cpp</a></li><li class="navelem"><a class="el" href="dir_5a92ca31a1d1cd11ee59a3526a96cc89.html">src</a></li><li class="navelem"><a class="el" href="dir_e50a1d5d74e01fc8d143b32c54f27ce0.html">api</a></li><li class="navelem"><a class="el" href="dir_8430260fe83f04f5d27761956506c721.html">mip</a></li><li class="navelem"><a class="el" href="delegate__response_8h.html">delegate_response.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

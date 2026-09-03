@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -134,7 +174,7 @@ $(function(){initNavTree('tenant__information_8h_source.html',''); initResizable
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &quot;<a class="code" href="mip__namespace_8h.html">mip/mip_namespace.h</a>&quot;</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>MIP_NAMESPACE_BEGIN</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><a class="code hl_define" href="mip__namespace_8h.html#a39c21aae7cf9012b9b74d8431054e182">MIP_NAMESPACE_BEGIN</a></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="foldopen" id="foldopen00046" data-start="{" data-end="};">
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="classTenantInformation.html">   46</a></span><span class="keyword">class </span><a class="code hl_class" href="classTenantInformation.html">TenantInformation</a> {</div>
@@ -145,28 +185,36 @@ $(function(){initNavTree('tenant__information_8h_source.html',''); initResizable
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="classTenantInformation.html#a6e06a97944d1fc15cf9ee863a5bc2c3a">   73</a></span>  <span class="keyword">virtual</span> <span class="keyword">const</span> std::string&amp; <a class="code hl_function" href="classTenantInformation.html#a6e06a97944d1fc15cf9ee863a5bc2c3a">GetTenantId</a>() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <span class="keyword">virtual</span> <a class="code hl_class" href="classTenantInformation.html">~TenantInformation</a>() {}</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="classTenantInformation.html#ad31e7d1e2236298db89c9ab8e6e89b52">   76</a></span>  <span class="keyword">virtual</span> <a class="code hl_function" href="classTenantInformation.html#ad31e7d1e2236298db89c9ab8e6e89b52">~TenantInformation</a>() {}</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  <a class="code hl_class" href="classTenantInformation.html">TenantInformation</a>() {}</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="classTenantInformation.html#a66d08839b2e38c233a88d05e4f8f3f71">   78</a></span>  <a class="code hl_function" href="classTenantInformation.html#a66d08839b2e38c233a88d05e4f8f3f71">TenantInformation</a>() {}</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>};</div>
 </div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>MIP_NAMESPACE_END</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><a class="code hl_define" href="mip__namespace_8h.html#ae6c7ae24f07850b87df4bbf55c04d831">MIP_NAMESPACE_END</a></div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="preprocessor">#endif </span><span class="comment">// API_MIP_PROTECTION_TENANT_INFORMATION_H_</span></div>
 <div class="ttc" id="aclassTenantInformation_html"><div class="ttname"><a href="classTenantInformation.html">TenantInformation</a></div><div class="ttdoc">Tenant information from RMS.</div><div class="ttdef"><b>Definition</b> tenant_information.h:46</div></div>
 <div class="ttc" id="aclassTenantInformation_html_a199ce56278f3de89488b647b17e08651"><div class="ttname"><a href="classTenantInformation.html#a199ce56278f3de89488b647b17e08651">TenantInformation::GetExtranetUrl</a></div><div class="ttdeci">virtual const std::string &amp; GetExtranetUrl() const =0</div><div class="ttdoc">Get the extranet Url of tenant.</div></div>
+<div class="ttc" id="aclassTenantInformation_html_a66d08839b2e38c233a88d05e4f8f3f71"><div class="ttname"><a href="classTenantInformation.html#a66d08839b2e38c233a88d05e4f8f3f71">TenantInformation::TenantInformation</a></div><div class="ttdeci">TenantInformation()</div><div class="ttdef"><b>Definition</b> tenant_information.h:78</div></div>
 <div class="ttc" id="aclassTenantInformation_html_a6e06a97944d1fc15cf9ee863a5bc2c3a"><div class="ttname"><a href="classTenantInformation.html#a6e06a97944d1fc15cf9ee863a5bc2c3a">TenantInformation::GetTenantId</a></div><div class="ttdeci">virtual const std::string &amp; GetTenantId() const =0</div><div class="ttdoc">Get Id of Tenant if applicable.</div></div>
 <div class="ttc" id="aclassTenantInformation_html_a70de878471994c3a8d2f9cc80c7bc4fc"><div class="ttname"><a href="classTenantInformation.html#a70de878471994c3a8d2f9cc80c7bc4fc">TenantInformation::GetIssuerName</a></div><div class="ttdeci">virtual const std::string &amp; GetIssuerName() const =0</div><div class="ttdoc">Get the issuer name.</div></div>
+<div class="ttc" id="aclassTenantInformation_html_ad31e7d1e2236298db89c9ab8e6e89b52"><div class="ttname"><a href="classTenantInformation.html#ad31e7d1e2236298db89c9ab8e6e89b52">TenantInformation::~TenantInformation</a></div><div class="ttdeci">virtual ~TenantInformation()</div><div class="ttdef"><b>Definition</b> tenant_information.h:76</div></div>
 <div class="ttc" id="aclassTenantInformation_html_af006ba6f5ba84cfece3972dd6020bd14"><div class="ttname"><a href="classTenantInformation.html#af006ba6f5ba84cfece3972dd6020bd14">TenantInformation::GetIntranetUrl</a></div><div class="ttdeci">virtual const std::string &amp; GetIntranetUrl() const =0</div><div class="ttdoc">Get intranet Url of tenant (Expected to match extranet url outside of ADRMS scenarios)</div></div>
 <div class="ttc" id="amip__namespace_8h_html"><div class="ttname"><a href="mip__namespace_8h.html">mip_namespace.h</a></div><div class="ttdoc">MIP namespace macros.</div></div>
+<div class="ttc" id="amip__namespace_8h_html_a39c21aae7cf9012b9b74d8431054e182"><div class="ttname"><a href="mip__namespace_8h.html#a39c21aae7cf9012b9b74d8431054e182">MIP_NAMESPACE_BEGIN</a></div><div class="ttdeci">#define MIP_NAMESPACE_BEGIN</div><div class="ttdef"><b>Definition</b> mip_namespace.h:53</div></div>
+<div class="ttc" id="amip__namespace_8h_html_ae6c7ae24f07850b87df4bbf55c04d831"><div class="ttname"><a href="mip__namespace_8h.html#ae6c7ae24f07850b87df4bbf55c04d831">MIP_NAMESPACE_END</a></div><div class="ttdeci">#define MIP_NAMESPACE_END</div><div class="ttdef"><b>Definition</b> mip_namespace.h:56</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ed23b7e0ff82d04a8565e406d9d9df9a.html">mip-sdk-for-cpp</a></li><li class="navelem"><a class="el" href="dir_5a92ca31a1d1cd11ee59a3526a96cc89.html">src</a></li><li class="navelem"><a class="el" href="dir_e50a1d5d74e01fc8d143b32c54f27ce0.html">api</a></li><li class="navelem"><a class="el" href="dir_8430260fe83f04f5d27761956506c721.html">mip</a></li><li class="navelem"><a class="el" href="dir_54063f93cb41cd148245a0f0416acb48.html">protection</a></li><li class="navelem"><a class="el" href="tenant__information_8h.html">tenant_information.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

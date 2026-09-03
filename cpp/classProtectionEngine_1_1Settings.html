@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -99,6 +139,7 @@ $(function(){initNavTree('classProtectionEngine_1_1Settings.html',''); initResiz
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classProtectionEngine_1_1Settings-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ProtectionEngine::Settings Class Reference</div></div>
 </div><!--header-->
@@ -195,10 +236,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7e937c91c5429780f1b8db97cb4df5a8" id="r_a7e937c91c5429780f1b8db97cb4df5a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e937c91c5429780f1b8db97cb4df5a8">SetTemplateRefreshArgs</a> (std::chrono::hours templateRefreshRateHours, int templateBatchSize=kMaxTemplateBatchNum)</td></tr>
 <tr class="memdesc:a7e937c91c5429780f1b8db97cb4df5a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom refresh rate for templates.  <br /></td></tr>
 <tr class="separator:a7e937c91c5429780f1b8db97cb4df5a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1871dbe7449ed86ab0b93433372364e1" id="r_a1871dbe7449ed86ab0b93433372364e1"><td class="memItemLeft" align="right" valign="top">MIP_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1871dbe7449ed86ab0b93433372364e1">AddRmsCapability</a> (const std::string &amp;capability)</td></tr>
+<tr class="memitem:a1871dbe7449ed86ab0b93433372364e1" id="r_a1871dbe7449ed86ab0b93433372364e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1871dbe7449ed86ab0b93433372364e1">AddRmsCapability</a> (const std::string &amp;capability)</td></tr>
 <tr class="memdesc:a1871dbe7449ed86ab0b93433372364e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a capability which will be passed along to RMS when fetching usage rights.  <br /></td></tr>
 <tr class="separator:a1871dbe7449ed86ab0b93433372364e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74462ea2aff18a6993b1da4c722f8f7e" id="r_a74462ea2aff18a6993b1da4c722f8f7e"><td class="memItemLeft" align="right" valign="top">MIP_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74462ea2aff18a6993b1da4c722f8f7e">RemoveRmsCapability</a> (const std::string &amp;capability)</td></tr>
+<tr class="memitem:a74462ea2aff18a6993b1da4c722f8f7e" id="r_a74462ea2aff18a6993b1da4c722f8f7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74462ea2aff18a6993b1da4c722f8f7e">RemoveRmsCapability</a> (const std::string &amp;capability)</td></tr>
 <tr class="memdesc:a74462ea2aff18a6993b1da4c722f8f7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove one of the added usage rights capabilities which get passed to RMS.  <br /></td></tr>
 <tr class="separator:a74462ea2aff18a6993b1da4c722f8f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3e3b93626e70fac9f92a78df8fcf498" id="r_af3e3b93626e70fac9f92a78df8fcf498"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3e3b93626e70fac9f92a78df8fcf498">GetRmsCapabilities</a> () const</td></tr>
@@ -210,6 +251,41 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac11ee94b60a7afcfc6622c97bd70c527" id="r_ac11ee94b60a7afcfc6622c97bd70c527"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac11ee94b60a7afcfc6622c97bd70c527">SetLoggerContext</a> (const std::shared_ptr&lt; void &gt; &amp;loggerContext)</td></tr>
 <tr class="memdesc:ac11ee94b60a7afcfc6622c97bd70c527"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the logger context that will be opaquely passed to the logger delegate for logs associated with the created engine.  <br /></td></tr>
 <tr class="separator:ac11ee94b60a7afcfc6622c97bd70c527"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a3d19f5f01ce822ac5ae423ae2a530b36" id="r_a3d19f5f01ce822ac5ae423ae2a530b36"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d19f5f01ce822ac5ae423ae2a530b36">mEngineId</a></td></tr>
+<tr class="separator:a3d19f5f01ce822ac5ae423ae2a530b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9cbf93e01ebc4bc560e3ad6b6e31060" id="r_ad9cbf93e01ebc4bc560e3ad6b6e31060"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIdentity.html">Identity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9cbf93e01ebc4bc560e3ad6b6e31060">mIdentity</a></td></tr>
+<tr class="separator:ad9cbf93e01ebc4bc560e3ad6b6e31060"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bc26fc11ad9e2a30b9e9271078af788" id="r_a9bc26fc11ad9e2a30b9e9271078af788"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__types_8h.html#a10dec50806bcdc01b5b0f3b5a5aafe44">Cloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bc26fc11ad9e2a30b9e9271078af788">mCloud</a> = <a class="el" href="common__types_8h.html#a10dec50806bcdc01b5b0f3b5a5aafe44a88183b946cc5f0e8c96b2e66e1c74a7e">Cloud::Unknown</a></td></tr>
+<tr class="separator:a9bc26fc11ad9e2a30b9e9271078af788"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6eb60193004c0fa0c66dbe765806f3f9" id="r_a6eb60193004c0fa0c66dbe765806f3f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__types_8h.html#aac976a2657d8c65944a48c48a5fe76fa">DataBoundary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6eb60193004c0fa0c66dbe765806f3f9">mDataBoundary</a> = <a class="el" href="common__types_8h.html#aac976a2657d8c65944a48c48a5fe76faa7a1920d61156abc05a60135aefe8bc67">DataBoundary::Default</a></td></tr>
+<tr class="separator:a6eb60193004c0fa0c66dbe765806f3f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfdb538d741030b2c9d690c61dca2179" id="r_acfdb538d741030b2c9d690c61dca2179"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classAuthDelegate.html">AuthDelegate</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfdb538d741030b2c9d690c61dca2179">mAuthDelegate</a></td></tr>
+<tr class="separator:acfdb538d741030b2c9d690c61dca2179"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f774c49892f4cfaac3c3fcc91a06d7e" id="r_a0f774c49892f4cfaac3c3fcc91a06d7e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f774c49892f4cfaac3c3fcc91a06d7e">mClientData</a></td></tr>
+<tr class="separator:a0f774c49892f4cfaac3c3fcc91a06d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaaf0d18db76b5ed4aab6fecb80d2353" id="r_aaaaf0d18db76b5ed4aab6fecb80d2353"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaaf0d18db76b5ed4aab6fecb80d2353">mCustomSettings</a></td></tr>
+<tr class="separator:aaaaf0d18db76b5ed4aab6fecb80d2353"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a136476be9fdb6df5efae2cb44224a652" id="r_a136476be9fdb6df5efae2cb44224a652"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a136476be9fdb6df5efae2cb44224a652">mCapabilities</a></td></tr>
+<tr class="separator:a136476be9fdb6df5efae2cb44224a652"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f254ac791b647cba1942274ce4f57c2" id="r_a7f254ac791b647cba1942274ce4f57c2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f254ac791b647cba1942274ce4f57c2">mCloudEndpointBaseUrl</a></td></tr>
+<tr class="separator:a7f254ac791b647cba1942274ce4f57c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f8eda128c79493d4d8e9328e46c750a" id="r_a6f8eda128c79493d4d8e9328e46c750a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f8eda128c79493d4d8e9328e46c750a">mLocale</a></td></tr>
+<tr class="separator:a6f8eda128c79493d4d8e9328e46c750a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6576ca6bc15c42a0b38e0accf4455253" id="r_a6576ca6bc15c42a0b38e0accf4455253"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6576ca6bc15c42a0b38e0accf4455253">mSessionId</a></td></tr>
+<tr class="separator:a6576ca6bc15c42a0b38e0accf4455253"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52e11ea97e2c954da6f17084d733220b" id="r_a52e11ea97e2c954da6f17084d733220b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52e11ea97e2c954da6f17084d733220b">mUnderlyingApplicationId</a></td></tr>
+<tr class="separator:a52e11ea97e2c954da6f17084d733220b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a910837300efc8b560eae302f590c18ce" id="r_a910837300efc8b560eae302f590c18ce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a910837300efc8b560eae302f590c18ce">mAllowCloudServiceOnly</a></td></tr>
+<tr class="separator:a910837300efc8b560eae302f590c18ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04eb3e4d973e999c0cfa6f4067a2e34e" id="r_a04eb3e4d973e999c0cfa6f4067a2e34e"><td class="memItemLeft" align="right" valign="top">std::chrono::hours&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04eb3e4d973e999c0cfa6f4067a2e34e">mTemplateRefreshRate</a></td></tr>
+<tr class="separator:a04eb3e4d973e999c0cfa6f4067a2e34e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1003f7740fef02c9cb4dbee6473c9ec" id="r_ac1003f7740fef02c9cb4dbee6473c9ec"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1003f7740fef02c9cb4dbee6473c9ec">mTemplateBatchSize</a></td></tr>
+<tr class="separator:ac1003f7740fef02c9cb4dbee6473c9ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac301693fe6f1992e921ee3bd81d4f62a" id="r_ac301693fe6f1992e921ee3bd81d4f62a"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac301693fe6f1992e921ee3bd81d4f62a">mLoggerContext</a></td></tr>
+<tr class="separator:ac301693fe6f1992e921ee3bd81d4f62a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classProtectionEngine_1_1Settings.html" title="Settings used by ProtectionEngine during its creation and throughout its lifetime.">Settings</a> used by <a class="el" href="classProtectionEngine.html" title="Manages protection-related actions related to a specific identity.">ProtectionEngine</a> during its creation and throughout its lifetime. </p>
@@ -322,7 +398,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MIP_API void ProtectionEngine::Settings::AddRmsCapability </td>
+          <td class="memname"><a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> void ProtectionEngine::Settings::AddRmsCapability </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>capability</em></span></td><td>)</td>
           <td></td>
@@ -795,7 +871,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MIP_API bool ProtectionEngine::Settings::RemoveRmsCapability </td>
+          <td class="memname"><a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> bool ProtectionEngine::Settings::RemoveRmsCapability </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>capability</em></span></td><td>)</td>
           <td></td>
@@ -1252,16 +1328,373 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a910837300efc8b560eae302f590c18ce" name="a910837300efc8b560eae302f590c18ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a910837300efc8b560eae302f590c18ce">&#9670;&#160;</a></span>mAllowCloudServiceOnly</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProtectionEngine::Settings::mAllowCloudServiceOnly</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acfdb538d741030b2c9d690c61dca2179" name="acfdb538d741030b2c9d690c61dca2179"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfdb538d741030b2c9d690c61dca2179">&#9670;&#160;</a></span>mAuthDelegate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classAuthDelegate.html">AuthDelegate</a>&gt; ProtectionEngine::Settings::mAuthDelegate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a136476be9fdb6df5efae2cb44224a652" name="a136476be9fdb6df5efae2cb44224a652"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a136476be9fdb6df5efae2cb44224a652">&#9670;&#160;</a></span>mCapabilities</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::string&gt; ProtectionEngine::Settings::mCapabilities</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0f774c49892f4cfaac3c3fcc91a06d7e" name="a0f774c49892f4cfaac3c3fcc91a06d7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f774c49892f4cfaac3c3fcc91a06d7e">&#9670;&#160;</a></span>mClientData</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ProtectionEngine::Settings::mClientData</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9bc26fc11ad9e2a30b9e9271078af788" name="a9bc26fc11ad9e2a30b9e9271078af788"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bc26fc11ad9e2a30b9e9271078af788">&#9670;&#160;</a></span>mCloud</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common__types_8h.html#a10dec50806bcdc01b5b0f3b5a5aafe44">Cloud</a> ProtectionEngine::Settings::mCloud = <a class="el" href="common__types_8h.html#a10dec50806bcdc01b5b0f3b5a5aafe44a88183b946cc5f0e8c96b2e66e1c74a7e">Cloud::Unknown</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7f254ac791b647cba1942274ce4f57c2" name="a7f254ac791b647cba1942274ce4f57c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f254ac791b647cba1942274ce4f57c2">&#9670;&#160;</a></span>mCloudEndpointBaseUrl</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ProtectionEngine::Settings::mCloudEndpointBaseUrl</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaaaf0d18db76b5ed4aab6fecb80d2353" name="aaaaf0d18db76b5ed4aab6fecb80d2353"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaaf0d18db76b5ed4aab6fecb80d2353">&#9670;&#160;</a></span>mCustomSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::pair&lt;std::string, std::string&gt; &gt; ProtectionEngine::Settings::mCustomSettings</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6eb60193004c0fa0c66dbe765806f3f9" name="a6eb60193004c0fa0c66dbe765806f3f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6eb60193004c0fa0c66dbe765806f3f9">&#9670;&#160;</a></span>mDataBoundary</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common__types_8h.html#aac976a2657d8c65944a48c48a5fe76fa">DataBoundary</a> ProtectionEngine::Settings::mDataBoundary = <a class="el" href="common__types_8h.html#aac976a2657d8c65944a48c48a5fe76faa7a1920d61156abc05a60135aefe8bc67">DataBoundary::Default</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3d19f5f01ce822ac5ae423ae2a530b36" name="a3d19f5f01ce822ac5ae423ae2a530b36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d19f5f01ce822ac5ae423ae2a530b36">&#9670;&#160;</a></span>mEngineId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ProtectionEngine::Settings::mEngineId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad9cbf93e01ebc4bc560e3ad6b6e31060" name="ad9cbf93e01ebc4bc560e3ad6b6e31060"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9cbf93e01ebc4bc560e3ad6b6e31060">&#9670;&#160;</a></span>mIdentity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classIdentity.html">Identity</a> ProtectionEngine::Settings::mIdentity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6f8eda128c79493d4d8e9328e46c750a" name="a6f8eda128c79493d4d8e9328e46c750a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f8eda128c79493d4d8e9328e46c750a">&#9670;&#160;</a></span>mLocale</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ProtectionEngine::Settings::mLocale</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac301693fe6f1992e921ee3bd81d4f62a" name="ac301693fe6f1992e921ee3bd81d4f62a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac301693fe6f1992e921ee3bd81d4f62a">&#9670;&#160;</a></span>mLoggerContext</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;void&gt; ProtectionEngine::Settings::mLoggerContext</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6576ca6bc15c42a0b38e0accf4455253" name="a6576ca6bc15c42a0b38e0accf4455253"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6576ca6bc15c42a0b38e0accf4455253">&#9670;&#160;</a></span>mSessionId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ProtectionEngine::Settings::mSessionId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1003f7740fef02c9cb4dbee6473c9ec" name="ac1003f7740fef02c9cb4dbee6473c9ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1003f7740fef02c9cb4dbee6473c9ec">&#9670;&#160;</a></span>mTemplateBatchSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ProtectionEngine::Settings::mTemplateBatchSize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a04eb3e4d973e999c0cfa6f4067a2e34e" name="a04eb3e4d973e999c0cfa6f4067a2e34e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04eb3e4d973e999c0cfa6f4067a2e34e">&#9670;&#160;</a></span>mTemplateRefreshRate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::chrono::hours ProtectionEngine::Settings::mTemplateRefreshRate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a52e11ea97e2c954da6f17084d733220b" name="a52e11ea97e2c954da6f17084d733220b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52e11ea97e2c954da6f17084d733220b">&#9670;&#160;</a></span>mUnderlyingApplicationId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ProtectionEngine::Settings::mUnderlyingApplicationId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/mbaldwin/docs/mip-sdk-for-cpp/src/api/mip/protection/<a class="el" href="protection__engine_8h_source.html">protection_engine.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classProtectionEngine.html">ProtectionEngine</a></li><li class="navelem"><a class="el" href="classProtectionEngine_1_1Settings.html">Settings</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

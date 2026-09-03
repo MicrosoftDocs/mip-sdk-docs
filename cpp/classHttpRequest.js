@@ -1,5 +1,6 @@
 var classHttpRequest =
 [
+    [ "~HttpRequest", "classHttpRequest.html#a1724291d6b6a9be5220646c30e050a41", null ],
     [ "GetBody", "classHttpRequest.html#a049cfeb2dfc708b9e7d7f15aee0aa065", null ],
     [ "GetHeaders", "classHttpRequest.html#abf9e8035a3dc6bd29ce3da98095e76f7", null ],
     [ "GetId", "classHttpRequest.html#aa86681e2c357407e897bd2acdc89421f", null ],

@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -136,7 +176,7 @@ $(function(){initNavTree('get__template__settings_8h_source.html',''); initResiz
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#include &quot;<a class="code" href="mip__namespace_8h.html">mip/mip_namespace.h</a>&quot;</span></div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#include &quot;<a class="code" href="protection__common__settings_8h.html">mip/protection/protection_common_settings.h</a>&quot;</span></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>MIP_NAMESPACE_BEGIN</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><a class="code hl_define" href="mip__namespace_8h.html#a39c21aae7cf9012b9b74d8431054e182">MIP_NAMESPACE_BEGIN</a></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
 <div class="foldopen" id="foldopen00048" data-start="{" data-end="};">
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="classGetTemplatesSettings.html">   48</a></span><span class="keyword">class </span><a class="code hl_class" href="classGetTemplatesSettings.html">GetTemplatesSettings</a> : <span class="keyword">public</span> <a class="code hl_class" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a> {</div>
@@ -160,16 +200,18 @@ $(function(){initNavTree('get__template__settings_8h_source.html',''); initResiz
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="preprocessor">#endif </span><span class="comment">// MIP_OFFLINE_PUBLISHING_ENABLED</span></div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="classGetTemplatesSettings.html#a32cd591f382f31eebd57cf35ae2a29e2">  118</a></span>  MIP_API static std::shared_ptr&lt;GetTemplatesSettings&gt; __CDECL CreateGetTemplatesSettings();</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>  <span class="keyword">virtual</span> <a class="code hl_class" href="classGetTemplatesSettings.html">~GetTemplatesSettings</a>() {}</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="classGetTemplatesSettings.html#a4005d966268cb894ef0bc8ed19ca5f95">  121</a></span>  <span class="keyword">virtual</span> <a class="code hl_function" href="classGetTemplatesSettings.html#a4005d966268cb894ef0bc8ed19ca5f95">~GetTemplatesSettings</a>() {}</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>  <a class="code hl_class" href="classGetTemplatesSettings.html">GetTemplatesSettings</a>() {}</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="classGetTemplatesSettings.html#a52e227eebdf57460c0d1feeeb2e7ec44">  123</a></span>  <a class="code hl_function" href="classGetTemplatesSettings.html#a52e227eebdf57460c0d1feeeb2e7ec44">GetTemplatesSettings</a>() {}</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>};</div>
 </div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>MIP_NAMESPACE_END</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><a class="code hl_define" href="mip__namespace_8h.html#ae6c7ae24f07850b87df4bbf55c04d831">MIP_NAMESPACE_END</a></div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span><span class="preprocessor">#endif </span><span class="comment">// API_MIP_PROTECTION_GET_TEMPLATE_SETTINGS_H_</span></div>
 <div class="ttc" id="aclassGetTemplatesSettings_html"><div class="ttname"><a href="classGetTemplatesSettings.html">GetTemplatesSettings</a></div><div class="ttdoc">Settings to use when obtaining templates.</div><div class="ttdef"><b>Definition</b> get_template_settings.h:48</div></div>
+<div class="ttc" id="aclassGetTemplatesSettings_html_a4005d966268cb894ef0bc8ed19ca5f95"><div class="ttname"><a href="classGetTemplatesSettings.html#a4005d966268cb894ef0bc8ed19ca5f95">GetTemplatesSettings::~GetTemplatesSettings</a></div><div class="ttdeci">virtual ~GetTemplatesSettings()</div><div class="ttdef"><b>Definition</b> get_template_settings.h:121</div></div>
+<div class="ttc" id="aclassGetTemplatesSettings_html_a52e227eebdf57460c0d1feeeb2e7ec44"><div class="ttname"><a href="classGetTemplatesSettings.html#a52e227eebdf57460c0d1feeeb2e7ec44">GetTemplatesSettings::GetTemplatesSettings</a></div><div class="ttdeci">GetTemplatesSettings()</div><div class="ttdef"><b>Definition</b> get_template_settings.h:123</div></div>
 <div class="ttc" id="aclassGetTemplatesSettings_html_aac5aa5adf263ad2ac723e8f114eab2de"><div class="ttname"><a href="classGetTemplatesSettings.html#aac5aa5adf263ad2ac723e8f114eab2de">GetTemplatesSettings::ForceRefresh</a></div><div class="ttdeci">virtual void ForceRefresh(bool enabled)=0</div><div class="ttdoc">Can enable force refresh of templates, ignoring former cached response.</div></div>
 <div class="ttc" id="aclassGetTemplatesSettings_html_ab6426cd5fd8a01a71ee2e68a4e0bbd6c"><div class="ttname"><a href="classGetTemplatesSettings.html#ab6426cd5fd8a01a71ee2e68a4e0bbd6c">GetTemplatesSettings::SetDelegatedUserEmail</a></div><div class="ttdeci">virtual void SetDelegatedUserEmail(const std::string &amp;delegatedUserEmail)=0</div><div class="ttdoc">Sets the delegated user.</div></div>
 <div class="ttc" id="aclassGetTemplatesSettings_html_ac27d65bbbe61a78f67e66b184e918822"><div class="ttname"><a href="classGetTemplatesSettings.html#ac27d65bbbe61a78f67e66b184e918822">GetTemplatesSettings::GetDelegatedUserEmail</a></div><div class="ttdeci">virtual const std::string &amp; GetDelegatedUserEmail() const =0</div><div class="ttdoc">Gets the delegated user.</div></div>
@@ -179,14 +221,20 @@ $(function(){initNavTree('get__template__settings_8h_source.html',''); initResiz
 <div class="ttc" id="aclassProtectionCommonSettings_html"><div class="ttname"><a href="classProtectionCommonSettings.html">ProtectionCommonSettings</a></div><div class="ttdoc">Settings to use for protection operations.</div><div class="ttdef"><b>Definition</b> protection_common_settings.h:46</div></div>
 <div class="ttc" id="amip__export_8h_html"><div class="ttname"><a href="mip__export_8h.html">mip_export.h</a></div><div class="ttdoc">A file export/import macros.</div></div>
 <div class="ttc" id="amip__namespace_8h_html"><div class="ttname"><a href="mip__namespace_8h.html">mip_namespace.h</a></div><div class="ttdoc">MIP namespace macros.</div></div>
+<div class="ttc" id="amip__namespace_8h_html_a39c21aae7cf9012b9b74d8431054e182"><div class="ttname"><a href="mip__namespace_8h.html#a39c21aae7cf9012b9b74d8431054e182">MIP_NAMESPACE_BEGIN</a></div><div class="ttdeci">#define MIP_NAMESPACE_BEGIN</div><div class="ttdef"><b>Definition</b> mip_namespace.h:53</div></div>
+<div class="ttc" id="amip__namespace_8h_html_ae6c7ae24f07850b87df4bbf55c04d831"><div class="ttname"><a href="mip__namespace_8h.html#ae6c7ae24f07850b87df4bbf55c04d831">MIP_NAMESPACE_END</a></div><div class="ttdeci">#define MIP_NAMESPACE_END</div><div class="ttdef"><b>Definition</b> mip_namespace.h:56</div></div>
 <div class="ttc" id="aprotection__common__settings_8h_html"><div class="ttname"><a href="protection__common__settings_8h.html">protection_common_settings.h</a></div><div class="ttdoc">Defines ProtectionCommonSettings interface.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ed23b7e0ff82d04a8565e406d9d9df9a.html">mip-sdk-for-cpp</a></li><li class="navelem"><a class="el" href="dir_5a92ca31a1d1cd11ee59a3526a96cc89.html">src</a></li><li class="navelem"><a class="el" href="dir_e50a1d5d74e01fc8d143b32c54f27ce0.html">api</a></li><li class="navelem"><a class="el" href="dir_8430260fe83f04f5d27761956506c721.html">mip</a></li><li class="navelem"><a class="el" href="dir_54063f93cb41cd148245a0f0416acb48.html">protection</a></li><li class="navelem"><a class="el" href="get__template__settings_8h.html">get_template_settings.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

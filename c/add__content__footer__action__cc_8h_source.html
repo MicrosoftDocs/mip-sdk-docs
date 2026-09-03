@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -132,65 +172,65 @@ $(function(){initNavTree('add__content__footer__action__cc_8h_source.html',''); 
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#include &quot;<a class="code" href="error__cc_8h.html">mip_cc/error_cc.h</a>&quot;</span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#include &quot;<a class="code" href="action__cc_8h.html">mip_cc/upe/action_cc.h</a>&quot;</span></div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="add__content__footer__action__cc_8h.html#ae89046613b56fbce7b8b69616272ccda">   48</a></span><a class="code hl_function" href="dictionary__cc_8h.html#a229cc87ebe22e6afac540c90113b6140">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetUIElementNameSize(</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="add__content__footer__action__cc_8h.html#ae89046613b56fbce7b8b69616272ccda">   48</a></span><a class="code hl_define" href="mip__macros__cc_8h.html#abbbd8e6bbe5bd185dc3dedfd0eef4879">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetUIElementNameSize(</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structmip__cc__handle.html">mip_cc_action</a> action,</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="add__content__footer__action__cc_8h.html#a166bd86a5c833ead1baeb1bf6f693356">   50</a></span>    int64_t* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a166bd86a5c833ead1baeb1bf6f693356">nameSize</a>,</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="add__content__footer__action__cc_8h.html#a3fdfba52425d69ae4d4b51d1a7ebf990">   51</a></span>    <a class="code hl_struct" href="structmip__cc__error.html">mip_cc_error</a>* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a3fdfba52425d69ae4d4b51d1a7ebf990">errorInfo</a>);</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><a class="code hl_function" href="dictionary__cc_8h.html#a229cc87ebe22e6afac540c90113b6140">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetUIElementName(</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><a class="code hl_define" href="mip__macros__cc_8h.html#abbbd8e6bbe5bd185dc3dedfd0eef4879">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetUIElementName(</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structmip__cc__handle.html">mip_cc_action</a> action,</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="add__content__footer__action__cc_8h.html#ae5139600313428d7fa76b36ea5178062">   69</a></span>    <span class="keywordtype">char</span>* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#ae5139600313428d7fa76b36ea5178062">nameBuffer</a>,</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="add__content__footer__action__cc_8h.html#aad1e48454f426340f9cc9b44b4ad230a">   70</a></span>    <span class="keyword">const</span> int64_t <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#aad1e48454f426340f9cc9b44b4ad230a">nameBufferSize</a>,</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="add__content__footer__action__cc_8h.html#a52d819e5afb50c1dc69f463ee47900bd">   71</a></span>    int64_t* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a52d819e5afb50c1dc69f463ee47900bd">actualNameSize</a>,</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <a class="code hl_struct" href="structmip__cc__error.html">mip_cc_error</a>* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a3fdfba52425d69ae4d4b51d1a7ebf990">errorInfo</a>);</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><a class="code hl_function" href="dictionary__cc_8h.html#a229cc87ebe22e6afac540c90113b6140">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetTextSize(</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><a class="code hl_define" href="mip__macros__cc_8h.html#abbbd8e6bbe5bd185dc3dedfd0eef4879">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetTextSize(</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structmip__cc__handle.html">mip_cc_action</a> action,</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="add__content__footer__action__cc_8h.html#a7209d83f99c98101d8b6a7c16b40b193">   85</a></span>    int64_t* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a7209d83f99c98101d8b6a7c16b40b193">textSize</a>,</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <a class="code hl_struct" href="structmip__cc__error.html">mip_cc_error</a>* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a3fdfba52425d69ae4d4b51d1a7ebf990">errorInfo</a>);</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><a class="code hl_function" href="dictionary__cc_8h.html#a229cc87ebe22e6afac540c90113b6140">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetText(</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><a class="code hl_define" href="mip__macros__cc_8h.html#abbbd8e6bbe5bd185dc3dedfd0eef4879">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetText(</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structmip__cc__handle.html">mip_cc_action</a> action,</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="add__content__footer__action__cc_8h.html#afe6df0e71b692fc10c3a6310a41c7167">  104</a></span>    <span class="keywordtype">char</span>* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#afe6df0e71b692fc10c3a6310a41c7167">textBuffer</a>,</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="add__content__footer__action__cc_8h.html#add737dbcee71d0c9654aa823fbc37398">  105</a></span>    <span class="keyword">const</span> int64_t <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#add737dbcee71d0c9654aa823fbc37398">textBufferSize</a>,</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="add__content__footer__action__cc_8h.html#abcf6bc02310e77003edb7150e49b9238">  106</a></span>    int64_t* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#abcf6bc02310e77003edb7150e49b9238">actualTextSize</a>,</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <a class="code hl_struct" href="structmip__cc__error.html">mip_cc_error</a>* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a3fdfba52425d69ae4d4b51d1a7ebf990">errorInfo</a>);</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><a class="code hl_function" href="dictionary__cc_8h.html#a229cc87ebe22e6afac540c90113b6140">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetFontNameSize(</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><a class="code hl_define" href="mip__macros__cc_8h.html#abbbd8e6bbe5bd185dc3dedfd0eef4879">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetFontNameSize(</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structmip__cc__handle.html">mip_cc_action</a> action,</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    int64_t* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a166bd86a5c833ead1baeb1bf6f693356">nameSize</a>,</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <a class="code hl_struct" href="structmip__cc__error.html">mip_cc_error</a>* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a3fdfba52425d69ae4d4b51d1a7ebf990">errorInfo</a>);</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span><a class="code hl_function" href="dictionary__cc_8h.html#a229cc87ebe22e6afac540c90113b6140">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetFontName(</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span><a class="code hl_define" href="mip__macros__cc_8h.html#abbbd8e6bbe5bd185dc3dedfd0eef4879">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetFontName(</div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structmip__cc__handle.html">mip_cc_action</a> action,</div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    <span class="keywordtype">char</span>* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#ae5139600313428d7fa76b36ea5178062">nameBuffer</a>,</div>
 <div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    <span class="keyword">const</span> int64_t <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#aad1e48454f426340f9cc9b44b4ad230a">nameBufferSize</a>,</div>
 <div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>    int64_t* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a52d819e5afb50c1dc69f463ee47900bd">actualNameSize</a>,</div>
 <div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>    <a class="code hl_struct" href="structmip__cc__error.html">mip_cc_error</a>* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a3fdfba52425d69ae4d4b51d1a7ebf990">errorInfo</a>);</div>
 <div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span><a class="code hl_function" href="dictionary__cc_8h.html#a229cc87ebe22e6afac540c90113b6140">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetFontSize(</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span><a class="code hl_define" href="mip__macros__cc_8h.html#abbbd8e6bbe5bd185dc3dedfd0eef4879">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetFontSize(</div>
 <div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structmip__cc__handle.html">mip_cc_action</a> action,</div>
 <div class="line"><a id="l00155" name="l00155"></a><span class="lineno"><a class="line" href="add__content__footer__action__cc_8h.html#a5dca021d9689b95cce245e97de1f6790">  155</a></span>    int32_t* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a5dca021d9689b95cce245e97de1f6790">fontSize</a>,</div>
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>    <a class="code hl_struct" href="structmip__cc__error.html">mip_cc_error</a>* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a3fdfba52425d69ae4d4b51d1a7ebf990">errorInfo</a>);</div>
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span> </div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span><a class="code hl_function" href="dictionary__cc_8h.html#a229cc87ebe22e6afac540c90113b6140">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetFontColorSize(</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span><a class="code hl_define" href="mip__macros__cc_8h.html#abbbd8e6bbe5bd185dc3dedfd0eef4879">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetFontColorSize(</div>
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structmip__cc__handle.html">mip_cc_action</a> action,</div>
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno"><a class="line" href="add__content__footer__action__cc_8h.html#a2e0f36b33f3016ca00af8a0cfada08d5">  169</a></span>    int64_t* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a2e0f36b33f3016ca00af8a0cfada08d5">colorSize</a>,</div>
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>    <a class="code hl_struct" href="structmip__cc__error.html">mip_cc_error</a>* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a3fdfba52425d69ae4d4b51d1a7ebf990">errorInfo</a>);</div>
 <div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span> </div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span><a class="code hl_function" href="dictionary__cc_8h.html#a229cc87ebe22e6afac540c90113b6140">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetFontColor(</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span><a class="code hl_define" href="mip__macros__cc_8h.html#abbbd8e6bbe5bd185dc3dedfd0eef4879">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetFontColor(</div>
 <div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structmip__cc__handle.html">mip_cc_action</a> action,</div>
 <div class="line"><a id="l00188" name="l00188"></a><span class="lineno"><a class="line" href="add__content__footer__action__cc_8h.html#a7dfc797aec0efb663fad7830c1386bfc">  188</a></span>    <span class="keywordtype">char</span>* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a7dfc797aec0efb663fad7830c1386bfc">colorBuffer</a>,</div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno"><a class="line" href="add__content__footer__action__cc_8h.html#acbacf71774763c4bbeee40bf7ab2d37f">  189</a></span>    <span class="keyword">const</span> int64_t <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#acbacf71774763c4bbeee40bf7ab2d37f">colorBufferSize</a>,</div>
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno"><a class="line" href="add__content__footer__action__cc_8h.html#a14a52f961618062f63e3000eb8dd00de">  190</a></span>    int64_t* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a14a52f961618062f63e3000eb8dd00de">actualColorSize</a>,</div>
 <div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>    <a class="code hl_struct" href="structmip__cc__error.html">mip_cc_error</a>* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a3fdfba52425d69ae4d4b51d1a7ebf990">errorInfo</a>);</div>
 <div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span> </div>
-<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span><a class="code hl_function" href="dictionary__cc_8h.html#a229cc87ebe22e6afac540c90113b6140">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetAlignment(</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span><a class="code hl_define" href="mip__macros__cc_8h.html#abbbd8e6bbe5bd185dc3dedfd0eef4879">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetAlignment(</div>
 <div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structmip__cc__handle.html">mip_cc_action</a> action,</div>
 <div class="line"><a id="l00204" name="l00204"></a><span class="lineno"><a class="line" href="add__content__footer__action__cc_8h.html#a3fce4f07f857957f589d8edbc99220e1">  204</a></span>    <a class="code hl_enumeration" href="common__types__cc_8h.html#a970fe5f7b465879ec4e208503a85d4e6">mip_cc_content_mark_alignment</a>* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a3fce4f07f857957f589d8edbc99220e1">alignment</a>,</div>
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>    <a class="code hl_struct" href="structmip__cc__error.html">mip_cc_error</a>* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a3fdfba52425d69ae4d4b51d1a7ebf990">errorInfo</a>);</div>
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span> </div>
-<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span><a class="code hl_function" href="dictionary__cc_8h.html#a229cc87ebe22e6afac540c90113b6140">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetMargin(</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span><a class="code hl_define" href="mip__macros__cc_8h.html#abbbd8e6bbe5bd185dc3dedfd0eef4879">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_AddContentFooterAction_GetMargin(</div>
 <div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structmip__cc__handle.html">mip_cc_action</a> action,</div>
 <div class="line"><a id="l00218" name="l00218"></a><span class="lineno"><a class="line" href="add__content__footer__action__cc_8h.html#a2ea8a4a375b21fa8c253835069664098">  218</a></span>    int32_t* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a2ea8a4a375b21fa8c253835069664098">marginSize</a>,</div>
 <div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>    <a class="code hl_struct" href="structmip__cc__error.html">mip_cc_error</a>* <a class="code hl_variable" href="add__content__footer__action__cc_8h.html#a3fdfba52425d69ae4d4b51d1a7ebf990">errorInfo</a>);</div>
@@ -214,18 +254,22 @@ $(function(){initNavTree('add__content__footer__action__cc_8h_source.html',''); 
 <div class="ttc" id="aadd__content__footer__action__cc_8h_html_ae5139600313428d7fa76b36ea5178062"><div class="ttname"><a href="add__content__footer__action__cc_8h.html#ae5139600313428d7fa76b36ea5178062">nameBuffer</a></div><div class="ttdeci">char * nameBuffer</div><div class="ttdef"><b>Definition</b> add_content_footer_action_cc.h:69</div></div>
 <div class="ttc" id="aadd__content__footer__action__cc_8h_html_afe6df0e71b692fc10c3a6310a41c7167"><div class="ttname"><a href="add__content__footer__action__cc_8h.html#afe6df0e71b692fc10c3a6310a41c7167">textBuffer</a></div><div class="ttdeci">char * textBuffer</div><div class="ttdef"><b>Definition</b> add_content_footer_action_cc.h:104</div></div>
 <div class="ttc" id="acommon__types__cc_8h_html_a970fe5f7b465879ec4e208503a85d4e6"><div class="ttname"><a href="common__types__cc_8h.html#a970fe5f7b465879ec4e208503a85d4e6">mip_cc_content_mark_alignment</a></div><div class="ttdeci">mip_cc_content_mark_alignment</div><div class="ttdoc">Alignment for content marks (content header or content footer)</div><div class="ttdef"><b>Definition</b> common_types_cc.h:85</div></div>
-<div class="ttc" id="adictionary__cc_8h_html_a229cc87ebe22e6afac540c90113b6140"><div class="ttname"><a href="dictionary__cc_8h.html#a229cc87ebe22e6afac540c90113b6140">MIP_CC_API</a></div><div class="ttdeci">MIP_CC_API(void) MIP_CC_ReleaseDictionary(mip_cc_dictionary dictionary)</div><div class="ttdoc">Release resources associated with a dictionary.</div></div>
 <div class="ttc" id="aerror__cc_8h_html"><div class="ttname"><a href="error__cc_8h.html">error_cc.h</a></div><div class="ttdoc">Error definition and functions.</div></div>
+<div class="ttc" id="amip__macros__cc_8h_html_abbbd8e6bbe5bd185dc3dedfd0eef4879"><div class="ttname"><a href="mip__macros__cc_8h.html#abbbd8e6bbe5bd185dc3dedfd0eef4879">MIP_CC_API</a></div><div class="ttdeci">#define MIP_CC_API(TRet)</div><div class="ttdef"><b>Definition</b> mip_macros_cc.h:64</div></div>
 <div class="ttc" id="aresult__cc_8h_html_a41250f3f2089aef86aa6da4e3a585535"><div class="ttname"><a href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a></div><div class="ttdeci">mip_cc_result</div><div class="ttdoc">API success/failure result.</div><div class="ttdef"><b>Definition</b> result_cc.h:44</div></div>
 <div class="ttc" id="astructmip__cc__error_html"><div class="ttname"><a href="structmip__cc__error.html">mip_cc_error</a></div><div class="ttdoc">Error information.</div><div class="ttdef"><b>Definition</b> error_cc.h:93</div></div>
 <div class="ttc" id="astructmip__cc__handle_html"><div class="ttname"><a href="structmip__cc__handle.html">mip_cc_handle</a></div><div class="ttdoc">Opaque handle to MIP object.</div><div class="ttdef"><b>Definition</b> common_types_cc.h:44</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ed23b7e0ff82d04a8565e406d9d9df9a.html">mip-sdk-for-cpp</a></li><li class="navelem"><a class="el" href="dir_5a92ca31a1d1cd11ee59a3526a96cc89.html">src</a></li><li class="navelem"><a class="el" href="dir_e50a1d5d74e01fc8d143b32c54f27ce0.html">api</a></li><li class="navelem"><a class="el" href="dir_c3e04355e45d1ded316250c59adeda59.html">mip_cc</a></li><li class="navelem"><a class="el" href="dir_eec813a2b0413e3eb7df76a5f5d382bf.html">upe</a></li><li class="navelem"><a class="el" href="add__content__footer__action__cc_8h.html">add_content_footer_action_cc.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

@@ -1,4 +1,4 @@
 var justify__action_8h =
 [
-    [ "JustifyAction", "classJustifyAction.html", null ]
+    [ "JustifyAction", "classJustifyAction.html", "classJustifyAction" ]
 ];

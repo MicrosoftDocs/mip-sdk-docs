@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -97,6 +137,8 @@ $(function(){initNavTree('version_8h.html',''); initResizable(true); });
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle"><div class="title">version.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -106,15 +148,145 @@ $(function(){initNavTree('version_8h.html',''); initResizable(true); });
 <div class="textblock"><code>#include &quot;version.inc&quot;</code><br />
 </div>
 <p><a href="version_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a7bd6d09744c6970e355f9dc87a808c86" id="r_a7bd6d09744c6970e355f9dc87a808c86"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bd6d09744c6970e355f9dc87a808c86">VERSION_STRINGIZE2</a>(s)</td></tr>
+<tr class="separator:a7bd6d09744c6970e355f9dc87a808c86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8745eccfcd48998d040ccc3b0792a6d3" id="r_a8745eccfcd48998d040ccc3b0792a6d3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8745eccfcd48998d040ccc3b0792a6d3">VERSION_STRINGIZE</a>(s)</td></tr>
+<tr class="separator:a8745eccfcd48998d040ccc3b0792a6d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a53b724b6de666faa8a9e0d06d1055f" id="r_a1a53b724b6de666faa8a9e0d06d1055f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a53b724b6de666faa8a9e0d06d1055f">VERSION_MAJOR</a>&#160;&#160;&#160;VER_MAJOR</td></tr>
+<tr class="separator:a1a53b724b6de666faa8a9e0d06d1055f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0cb52afb79b185b1bf82c7e235f682b" id="r_ae0cb52afb79b185b1bf82c7e235f682b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0cb52afb79b185b1bf82c7e235f682b">VERSION_MINOR</a>&#160;&#160;&#160;VER_MINOR</td></tr>
+<tr class="separator:ae0cb52afb79b185b1bf82c7e235f682b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a901edadf17488bb6be1ac9a1e3cfea7a" id="r_a901edadf17488bb6be1ac9a1e3cfea7a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a901edadf17488bb6be1ac9a1e3cfea7a">VERSION_PATCH</a>&#160;&#160;&#160;VER_PATCH</td></tr>
+<tr class="separator:a901edadf17488bb6be1ac9a1e3cfea7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30576d55c658346da33f584bc1dd0b2d" id="r_a30576d55c658346da33f584bc1dd0b2d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30576d55c658346da33f584bc1dd0b2d">VER_FILE_VERSION</a>&#160;&#160;&#160;<a class="el" href="#a1a53b724b6de666faa8a9e0d06d1055f">VERSION_MAJOR</a>, <a class="el" href="#ae0cb52afb79b185b1bf82c7e235f682b">VERSION_MINOR</a>, <a class="el" href="#a901edadf17488bb6be1ac9a1e3cfea7a">VERSION_PATCH</a>, VER_SUFFIX_NUM</td></tr>
+<tr class="separator:a30576d55c658346da33f584bc1dd0b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37cf8d69099254ee197d1d601469c315" id="r_a37cf8d69099254ee197d1d601469c315"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37cf8d69099254ee197d1d601469c315">VER_FILE_VERSION_STR</a>&#160;&#160;&#160;<a class="el" href="#a8745eccfcd48998d040ccc3b0792a6d3">VERSION_STRINGIZE</a>(VER_STR)</td></tr>
+<tr class="separator:a37cf8d69099254ee197d1d601469c315"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A file that contains version macros. </p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a30576d55c658346da33f584bc1dd0b2d" name="a30576d55c658346da33f584bc1dd0b2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30576d55c658346da33f584bc1dd0b2d">&#9670;&#160;</a></span>VER_FILE_VERSION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VER_FILE_VERSION&#160;&#160;&#160;<a class="el" href="#a1a53b724b6de666faa8a9e0d06d1055f">VERSION_MAJOR</a>, <a class="el" href="#ae0cb52afb79b185b1bf82c7e235f682b">VERSION_MINOR</a>, <a class="el" href="#a901edadf17488bb6be1ac9a1e3cfea7a">VERSION_PATCH</a>, VER_SUFFIX_NUM</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a37cf8d69099254ee197d1d601469c315" name="a37cf8d69099254ee197d1d601469c315"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37cf8d69099254ee197d1d601469c315">&#9670;&#160;</a></span>VER_FILE_VERSION_STR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VER_FILE_VERSION_STR&#160;&#160;&#160;<a class="el" href="#a8745eccfcd48998d040ccc3b0792a6d3">VERSION_STRINGIZE</a>(VER_STR)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a53b724b6de666faa8a9e0d06d1055f" name="a1a53b724b6de666faa8a9e0d06d1055f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a53b724b6de666faa8a9e0d06d1055f">&#9670;&#160;</a></span>VERSION_MAJOR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VERSION_MAJOR&#160;&#160;&#160;VER_MAJOR</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0cb52afb79b185b1bf82c7e235f682b" name="ae0cb52afb79b185b1bf82c7e235f682b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0cb52afb79b185b1bf82c7e235f682b">&#9670;&#160;</a></span>VERSION_MINOR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VERSION_MINOR&#160;&#160;&#160;VER_MINOR</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a901edadf17488bb6be1ac9a1e3cfea7a" name="a901edadf17488bb6be1ac9a1e3cfea7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a901edadf17488bb6be1ac9a1e3cfea7a">&#9670;&#160;</a></span>VERSION_PATCH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VERSION_PATCH&#160;&#160;&#160;VER_PATCH</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8745eccfcd48998d040ccc3b0792a6d3" name="a8745eccfcd48998d040ccc3b0792a6d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8745eccfcd48998d040ccc3b0792a6d3">&#9670;&#160;</a></span>VERSION_STRINGIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VERSION_STRINGIZE</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a7bd6d09744c6970e355f9dc87a808c86">VERSION_STRINGIZE2</a>(s)</div>
+<div class="ttc" id="aversion_8h_html_a7bd6d09744c6970e355f9dc87a808c86"><div class="ttname"><a href="#a7bd6d09744c6970e355f9dc87a808c86">VERSION_STRINGIZE2</a></div><div class="ttdeci">#define VERSION_STRINGIZE2(s)</div><div class="ttdef"><b>Definition</b> version.h:38</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a7bd6d09744c6970e355f9dc87a808c86" name="a7bd6d09744c6970e355f9dc87a808c86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bd6d09744c6970e355f9dc87a808c86">&#9670;&#160;</a></span>VERSION_STRINGIZE2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VERSION_STRINGIZE2</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="preprocessor">#s</span></div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ed23b7e0ff82d04a8565e406d9d9df9a.html">mip-sdk-for-cpp</a></li><li class="navelem"><a class="el" href="dir_5a92ca31a1d1cd11ee59a3526a96cc89.html">src</a></li><li class="navelem"><a class="el" href="dir_e50a1d5d74e01fc8d143b32c54f27ce0.html">api</a></li><li class="navelem"><a class="el" href="dir_8430260fe83f04f5d27761956506c721.html">mip</a></li><li class="navelem"><a class="el" href="version_8h.html">version.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

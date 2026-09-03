@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -213,27 +253,28 @@ $(function(){initNavTree('common__types__cc_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778a0a4a330e33a00ef388c75b7de30f782b">  121</a></span>  <a class="code hl_enumvalue" href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778a0a4a330e33a00ef388c75b7de30f782b">MIP_CLOUD_US_SEC</a>      = 8, </div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778a306c230a85284bd78706621ee1cd8bd9">  122</a></span>  <a class="code hl_enumvalue" href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778a306c230a85284bd78706621ee1cd8bd9">MIP_CLOUD_US_NAT</a>      = 9, </div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778ad1d869e32005cbfb246cac73007861d4">  123</a></span>  <a class="code hl_enumvalue" href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778ad1d869e32005cbfb246cac73007861d4">MIP_CLOUD_CHINA_01</a>    = 10, </div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>} <a class="code hl_enumeration" href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778">mip_cc_cloud</a>;</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno"><a class="line" href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778acf0bf7d7577b6eadfc7b5c8d97868861">  124</a></span>  <a class="code hl_enumvalue" href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778acf0bf7d7577b6eadfc7b5c8d97868861">MIP_CLOUD_BLEU</a>        = 11, </div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>} <a class="code hl_enumeration" href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778">mip_cc_cloud</a>;</div>
 </div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
-<div class="foldopen" id="foldopen00126" data-start="{" data-end="};">
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="common__types__cc_8h.html#ac67526321de8d21e34420e9e2bfab43f">  126</a></span><span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="common__types__cc_8h.html#ac67526321de8d21e34420e9e2bfab43fa91f5259a4222bc622623fbcf8f831b7b">  127</a></span>  <a class="code hl_enumvalue" href="common__types__cc_8h.html#ac67526321de8d21e34420e9e2bfab43fa91f5259a4222bc622623fbcf8f831b7b">MIP_METADATA_VERSION_FORMAT_DEFAULT</a> = 0,                </div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="common__types__cc_8h.html#ac67526321de8d21e34420e9e2bfab43faa525b21becc93eff534277a9f2e2d699">  128</a></span>  <a class="code hl_enumvalue" href="common__types__cc_8h.html#ac67526321de8d21e34420e9e2bfab43faa525b21becc93eff534277a9f2e2d699">MIP_METADATA_VERSION_FORMAT_ONE_LABEL_PER_TENANT</a> = 1,   </div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>} <a class="code hl_enumeration" href="common__types__cc_8h.html#ac67526321de8d21e34420e9e2bfab43f">mip_cc_metadata_version_format</a>;</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
+<div class="foldopen" id="foldopen00127" data-start="{" data-end="};">
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="common__types__cc_8h.html#ac67526321de8d21e34420e9e2bfab43f">  127</a></span><span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="common__types__cc_8h.html#ac67526321de8d21e34420e9e2bfab43fa91f5259a4222bc622623fbcf8f831b7b">  128</a></span>  <a class="code hl_enumvalue" href="common__types__cc_8h.html#ac67526321de8d21e34420e9e2bfab43fa91f5259a4222bc622623fbcf8f831b7b">MIP_METADATA_VERSION_FORMAT_DEFAULT</a> = 0,                </div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="common__types__cc_8h.html#ac67526321de8d21e34420e9e2bfab43faa525b21becc93eff534277a9f2e2d699">  129</a></span>  <a class="code hl_enumvalue" href="common__types__cc_8h.html#ac67526321de8d21e34420e9e2bfab43faa525b21becc93eff534277a9f2e2d699">MIP_METADATA_VERSION_FORMAT_ONE_LABEL_PER_TENANT</a> = 1,   </div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>} <a class="code hl_enumeration" href="common__types__cc_8h.html#ac67526321de8d21e34420e9e2bfab43f">mip_cc_metadata_version_format</a>;</div>
 </div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
-<div class="foldopen" id="foldopen00131" data-start="{" data-end="};">
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno"><a class="line" href="common__types__cc_8h.html#a2a18ab8e37aa6158766ea88da1158697">  131</a></span><span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno"><a class="line" href="common__types__cc_8h.html#a2a18ab8e37aa6158766ea88da1158697a3b2bcfc9825df5cb9c3979ce9af15ca2">  132</a></span>  <a class="code hl_enumvalue" href="common__types__cc_8h.html#a2a18ab8e37aa6158766ea88da1158697a3b2bcfc9825df5cb9c3979ce9af15ca2">MIP_WORKLOAD_OFFICE</a>  = 0, </div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno"><a class="line" href="common__types__cc_8h.html#a2a18ab8e37aa6158766ea88da1158697a60335e08bd2c88382c4e34a2fea84857">  133</a></span>  <a class="code hl_enumvalue" href="common__types__cc_8h.html#a2a18ab8e37aa6158766ea88da1158697a60335e08bd2c88382c4e34a2fea84857">MIP_WORKLOAD_PURVIEW</a> = 1, </div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>} <a class="code hl_enumeration" href="common__types__cc_8h.html#a2a18ab8e37aa6158766ea88da1158697">mip_cc_workload</a>;</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span> </div>
+<div class="foldopen" id="foldopen00132" data-start="{" data-end="};">
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno"><a class="line" href="common__types__cc_8h.html#a2a18ab8e37aa6158766ea88da1158697">  132</a></span><span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno"><a class="line" href="common__types__cc_8h.html#a2a18ab8e37aa6158766ea88da1158697a3b2bcfc9825df5cb9c3979ce9af15ca2">  133</a></span>  <a class="code hl_enumvalue" href="common__types__cc_8h.html#a2a18ab8e37aa6158766ea88da1158697a3b2bcfc9825df5cb9c3979ce9af15ca2">MIP_WORKLOAD_OFFICE</a>  = 0, </div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno"><a class="line" href="common__types__cc_8h.html#a2a18ab8e37aa6158766ea88da1158697a60335e08bd2c88382c4e34a2fea84857">  134</a></span>  <a class="code hl_enumvalue" href="common__types__cc_8h.html#a2a18ab8e37aa6158766ea88da1158697a60335e08bd2c88382c4e34a2fea84857">MIP_WORKLOAD_PURVIEW</a> = 1, </div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>} <a class="code hl_enumeration" href="common__types__cc_8h.html#a2a18ab8e37aa6158766ea88da1158697">mip_cc_workload</a>;</div>
 </div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span><span class="preprocessor">#endif  </span><span class="comment">// API_MIP_COMMON_TYPES_CC_H</span></div>
-<div class="ttc" id="acommon__types__cc_8h_html_a2a18ab8e37aa6158766ea88da1158697"><div class="ttname"><a href="common__types__cc_8h.html#a2a18ab8e37aa6158766ea88da1158697">mip_cc_workload</a></div><div class="ttdeci">mip_cc_workload</div><div class="ttdef"><b>Definition</b> common_types_cc.h:131</div></div>
-<div class="ttc" id="acommon__types__cc_8h_html_a2a18ab8e37aa6158766ea88da1158697a3b2bcfc9825df5cb9c3979ce9af15ca2"><div class="ttname"><a href="common__types__cc_8h.html#a2a18ab8e37aa6158766ea88da1158697a3b2bcfc9825df5cb9c3979ce9af15ca2">MIP_WORKLOAD_OFFICE</a></div><div class="ttdeci">@ MIP_WORKLOAD_OFFICE</div><div class="ttdef"><b>Definition</b> common_types_cc.h:132</div></div>
-<div class="ttc" id="acommon__types__cc_8h_html_a2a18ab8e37aa6158766ea88da1158697a60335e08bd2c88382c4e34a2fea84857"><div class="ttname"><a href="common__types__cc_8h.html#a2a18ab8e37aa6158766ea88da1158697a60335e08bd2c88382c4e34a2fea84857">MIP_WORKLOAD_PURVIEW</a></div><div class="ttdeci">@ MIP_WORKLOAD_PURVIEW</div><div class="ttdef"><b>Definition</b> common_types_cc.h:133</div></div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span> </div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span><span class="preprocessor">#endif  </span><span class="comment">// API_MIP_COMMON_TYPES_CC_H</span></div>
+<div class="ttc" id="acommon__types__cc_8h_html_a2a18ab8e37aa6158766ea88da1158697"><div class="ttname"><a href="common__types__cc_8h.html#a2a18ab8e37aa6158766ea88da1158697">mip_cc_workload</a></div><div class="ttdeci">mip_cc_workload</div><div class="ttdef"><b>Definition</b> common_types_cc.h:132</div></div>
+<div class="ttc" id="acommon__types__cc_8h_html_a2a18ab8e37aa6158766ea88da1158697a3b2bcfc9825df5cb9c3979ce9af15ca2"><div class="ttname"><a href="common__types__cc_8h.html#a2a18ab8e37aa6158766ea88da1158697a3b2bcfc9825df5cb9c3979ce9af15ca2">MIP_WORKLOAD_OFFICE</a></div><div class="ttdeci">@ MIP_WORKLOAD_OFFICE</div><div class="ttdef"><b>Definition</b> common_types_cc.h:133</div></div>
+<div class="ttc" id="acommon__types__cc_8h_html_a2a18ab8e37aa6158766ea88da1158697a60335e08bd2c88382c4e34a2fea84857"><div class="ttname"><a href="common__types__cc_8h.html#a2a18ab8e37aa6158766ea88da1158697a60335e08bd2c88382c4e34a2fea84857">MIP_WORKLOAD_PURVIEW</a></div><div class="ttdeci">@ MIP_WORKLOAD_PURVIEW</div><div class="ttdef"><b>Definition</b> common_types_cc.h:134</div></div>
 <div class="ttc" id="acommon__types__cc_8h_html_a38be8c83123261d2e6c880d19fd89bb0"><div class="ttname"><a href="common__types__cc_8h.html#a38be8c83123261d2e6c880d19fd89bb0">mip_cc_label_filter</a></div><div class="ttdeci">mip_cc_label_filter</div><div class="ttdef"><b>Definition</b> common_types_cc.h:99</div></div>
 <div class="ttc" id="acommon__types__cc_8h_html_a38be8c83123261d2e6c880d19fd89bb0a230d049823c12588fb928e01f2308e66"><div class="ttname"><a href="common__types__cc_8h.html#a38be8c83123261d2e6c880d19fd89bb0a230d049823c12588fb928e01f2308e66">MIP_LABEL_FILTER_DOUBLE_KEY_USER_DEFINED_PROTECTION</a></div><div class="ttdeci">@ MIP_LABEL_FILTER_DOUBLE_KEY_USER_DEFINED_PROTECTION</div><div class="ttdef"><b>Definition</b> common_types_cc.h:108</div></div>
 <div class="ttc" id="acommon__types__cc_8h_html_a38be8c83123261d2e6c880d19fd89bb0a26563262b4ee0cbea68165e872f8d8d6"><div class="ttname"><a href="common__types__cc_8h.html#a38be8c83123261d2e6c880d19fd89bb0a26563262b4ee0cbea68165e872f8d8d6">MIP_LABEL_FILTER_ADHOC_PROTECTION</a></div><div class="ttdeci">@ MIP_LABEL_FILTER_ADHOC_PROTECTION</div><div class="ttdef"><b>Definition</b> common_types_cc.h:104</div></div>
@@ -259,9 +300,9 @@ $(function(){initNavTree('common__types__cc_8h_source.html',''); initResizable(t
 <div class="ttc" id="acommon__types__cc_8h_html_aba7b7702a4c8a8812e8409fc061d7dee"><div class="ttname"><a href="common__types__cc_8h.html#aba7b7702a4c8a8812e8409fc061d7dee">mip_cc_watermark_layout</a></div><div class="ttdeci">mip_cc_watermark_layout</div><div class="ttdoc">Layout for watermarks.</div><div class="ttdef"><b>Definition</b> common_types_cc.h:94</div></div>
 <div class="ttc" id="acommon__types__cc_8h_html_aba7b7702a4c8a8812e8409fc061d7deea5669f80f905344de0fc8275500ac47b5"><div class="ttname"><a href="common__types__cc_8h.html#aba7b7702a4c8a8812e8409fc061d7deea5669f80f905344de0fc8275500ac47b5">MIP_WATERMARK_LAYOUT_HORIZONTAL</a></div><div class="ttdeci">@ MIP_WATERMARK_LAYOUT_HORIZONTAL</div><div class="ttdef"><b>Definition</b> common_types_cc.h:95</div></div>
 <div class="ttc" id="acommon__types__cc_8h_html_aba7b7702a4c8a8812e8409fc061d7deeae3288868ce30f6b77f99f217a1cd071e"><div class="ttname"><a href="common__types__cc_8h.html#aba7b7702a4c8a8812e8409fc061d7deeae3288868ce30f6b77f99f217a1cd071e">MIP_WATERMARK_LAYOUT_DIAGONAL</a></div><div class="ttdeci">@ MIP_WATERMARK_LAYOUT_DIAGONAL</div><div class="ttdef"><b>Definition</b> common_types_cc.h:96</div></div>
-<div class="ttc" id="acommon__types__cc_8h_html_ac67526321de8d21e34420e9e2bfab43f"><div class="ttname"><a href="common__types__cc_8h.html#ac67526321de8d21e34420e9e2bfab43f">mip_cc_metadata_version_format</a></div><div class="ttdeci">mip_cc_metadata_version_format</div><div class="ttdef"><b>Definition</b> common_types_cc.h:126</div></div>
-<div class="ttc" id="acommon__types__cc_8h_html_ac67526321de8d21e34420e9e2bfab43fa91f5259a4222bc622623fbcf8f831b7b"><div class="ttname"><a href="common__types__cc_8h.html#ac67526321de8d21e34420e9e2bfab43fa91f5259a4222bc622623fbcf8f831b7b">MIP_METADATA_VERSION_FORMAT_DEFAULT</a></div><div class="ttdeci">@ MIP_METADATA_VERSION_FORMAT_DEFAULT</div><div class="ttdef"><b>Definition</b> common_types_cc.h:127</div></div>
-<div class="ttc" id="acommon__types__cc_8h_html_ac67526321de8d21e34420e9e2bfab43faa525b21becc93eff534277a9f2e2d699"><div class="ttname"><a href="common__types__cc_8h.html#ac67526321de8d21e34420e9e2bfab43faa525b21becc93eff534277a9f2e2d699">MIP_METADATA_VERSION_FORMAT_ONE_LABEL_PER_TENANT</a></div><div class="ttdeci">@ MIP_METADATA_VERSION_FORMAT_ONE_LABEL_PER_TENANT</div><div class="ttdef"><b>Definition</b> common_types_cc.h:128</div></div>
+<div class="ttc" id="acommon__types__cc_8h_html_ac67526321de8d21e34420e9e2bfab43f"><div class="ttname"><a href="common__types__cc_8h.html#ac67526321de8d21e34420e9e2bfab43f">mip_cc_metadata_version_format</a></div><div class="ttdeci">mip_cc_metadata_version_format</div><div class="ttdef"><b>Definition</b> common_types_cc.h:127</div></div>
+<div class="ttc" id="acommon__types__cc_8h_html_ac67526321de8d21e34420e9e2bfab43fa91f5259a4222bc622623fbcf8f831b7b"><div class="ttname"><a href="common__types__cc_8h.html#ac67526321de8d21e34420e9e2bfab43fa91f5259a4222bc622623fbcf8f831b7b">MIP_METADATA_VERSION_FORMAT_DEFAULT</a></div><div class="ttdeci">@ MIP_METADATA_VERSION_FORMAT_DEFAULT</div><div class="ttdef"><b>Definition</b> common_types_cc.h:128</div></div>
+<div class="ttc" id="acommon__types__cc_8h_html_ac67526321de8d21e34420e9e2bfab43faa525b21becc93eff534277a9f2e2d699"><div class="ttname"><a href="common__types__cc_8h.html#ac67526321de8d21e34420e9e2bfab43faa525b21becc93eff534277a9f2e2d699">MIP_METADATA_VERSION_FORMAT_ONE_LABEL_PER_TENANT</a></div><div class="ttdeci">@ MIP_METADATA_VERSION_FORMAT_ONE_LABEL_PER_TENANT</div><div class="ttdef"><b>Definition</b> common_types_cc.h:129</div></div>
 <div class="ttc" id="acommon__types__cc_8h_html_ad25003a19ed243ca88170ae497f9a778"><div class="ttname"><a href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778">mip_cc_cloud</a></div><div class="ttdeci">mip_cc_cloud</div><div class="ttdef"><b>Definition</b> common_types_cc.h:112</div></div>
 <div class="ttc" id="acommon__types__cc_8h_html_ad25003a19ed243ca88170ae497f9a778a0a4a330e33a00ef388c75b7de30f782b"><div class="ttname"><a href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778a0a4a330e33a00ef388c75b7de30f782b">MIP_CLOUD_US_SEC</a></div><div class="ttdeci">@ MIP_CLOUD_US_SEC</div><div class="ttdef"><b>Definition</b> common_types_cc.h:121</div></div>
 <div class="ttc" id="acommon__types__cc_8h_html_ad25003a19ed243ca88170ae497f9a778a0cc237b45632efa5e633a4b4dc8ffca1"><div class="ttname"><a href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778a0cc237b45632efa5e633a4b4dc8ffca1">MIP_CLOUD_TEST</a></div><div class="ttdeci">@ MIP_CLOUD_TEST</div><div class="ttdef"><b>Definition</b> common_types_cc.h:115</div></div>
@@ -270,6 +311,7 @@ $(function(){initNavTree('common__types__cc_8h_source.html',''); initResizable(t
 <div class="ttc" id="acommon__types__cc_8h_html_ad25003a19ed243ca88170ae497f9a778a3bab3b6d31348bc06bdfe63f71e15d54"><div class="ttname"><a href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778a3bab3b6d31348bc06bdfe63f71e15d54">MIP_CLOUD_US_GCC_HIGH</a></div><div class="ttdeci">@ MIP_CLOUD_US_GCC_HIGH</div><div class="ttdef"><b>Definition</b> common_types_cc.h:120</div></div>
 <div class="ttc" id="acommon__types__cc_8h_html_ad25003a19ed243ca88170ae497f9a778a48d89cc8d93191d65106d6037cb55a54"><div class="ttname"><a href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778a48d89cc8d93191d65106d6037cb55a54">MIP_CLOUD_UNKNOWN</a></div><div class="ttdeci">@ MIP_CLOUD_UNKNOWN</div><div class="ttdef"><b>Definition</b> common_types_cc.h:113</div></div>
 <div class="ttc" id="acommon__types__cc_8h_html_ad25003a19ed243ca88170ae497f9a778ac3f1a9375193aa387cd1d19f6bfc152c"><div class="ttname"><a href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778ac3f1a9375193aa387cd1d19f6bfc152c">MIP_CLOUD_CUSTOM</a></div><div class="ttdeci">@ MIP_CLOUD_CUSTOM</div><div class="ttdef"><b>Definition</b> common_types_cc.h:114</div></div>
+<div class="ttc" id="acommon__types__cc_8h_html_ad25003a19ed243ca88170ae497f9a778acf0bf7d7577b6eadfc7b5c8d97868861"><div class="ttname"><a href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778acf0bf7d7577b6eadfc7b5c8d97868861">MIP_CLOUD_BLEU</a></div><div class="ttdeci">@ MIP_CLOUD_BLEU</div><div class="ttdef"><b>Definition</b> common_types_cc.h:124</div></div>
 <div class="ttc" id="acommon__types__cc_8h_html_ad25003a19ed243ca88170ae497f9a778ad1d869e32005cbfb246cac73007861d4"><div class="ttname"><a href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778ad1d869e32005cbfb246cac73007861d4">MIP_CLOUD_CHINA_01</a></div><div class="ttdeci">@ MIP_CLOUD_CHINA_01</div><div class="ttdef"><b>Definition</b> common_types_cc.h:123</div></div>
 <div class="ttc" id="acommon__types__cc_8h_html_ad25003a19ed243ca88170ae497f9a778ad4a36b0a95961e5efd698c2b40c626a8"><div class="ttname"><a href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778ad4a36b0a95961e5efd698c2b40c626a8">MIP_CLOUD_GERMANY</a></div><div class="ttdeci">@ MIP_CLOUD_GERMANY</div><div class="ttdef"><b>Definition</b> common_types_cc.h:117</div></div>
 <div class="ttc" id="acommon__types__cc_8h_html_ad25003a19ed243ca88170ae497f9a778ada0ca3fc286ba70616cde6dadfd83dc2"><div class="ttname"><a href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778ada0ca3fc286ba70616cde6dadfd83dc2">MIP_CLOUD_US_DOD</a></div><div class="ttdeci">@ MIP_CLOUD_US_DOD</div><div class="ttdef"><b>Definition</b> common_types_cc.h:118</div></div>
@@ -285,11 +327,15 @@ $(function(){initNavTree('common__types__cc_8h_source.html',''); initResizable(t
 <div class="ttc" id="astructmip__cc__handle_html_a7d47b167ef9a59c3fa2a7fabb84398e2"><div class="ttname"><a href="structmip__cc__handle.html#a7d47b167ef9a59c3fa2a7fabb84398e2">mip_cc_handle::data</a></div><div class="ttdeci">void * data</div><div class="ttdef"><b>Definition</b> common_types_cc.h:46</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ed23b7e0ff82d04a8565e406d9d9df9a.html">mip-sdk-for-cpp</a></li><li class="navelem"><a class="el" href="dir_5a92ca31a1d1cd11ee59a3526a96cc89.html">src</a></li><li class="navelem"><a class="el" href="dir_e50a1d5d74e01fc8d143b32c54f27ce0.html">api</a></li><li class="navelem"><a class="el" href="dir_c3e04355e45d1ded316250c59adeda59.html">mip_cc</a></li><li class="navelem"><a class="el" href="common__types__cc_8h.html">common_types_cc.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

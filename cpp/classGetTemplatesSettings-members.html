@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -110,19 +150,30 @@ $(function(){initNavTree('classGetTemplatesSettings.html',''); initResizable(tru
   <tr class="even"><td class="entry"><a class="el" href="classProtectionCommonSettings.html#afd860eba9eee4b4a15e4c65438ac83aa">GetCustomSettings</a>() const</td><td class="entry"><a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classGetTemplatesSettings.html#ac27d65bbbe61a78f67e66b184e918822">GetDelegatedUserEmail</a>() const =0</td><td class="entry"><a class="el" href="classGetTemplatesSettings.html">GetTemplatesSettings</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classProtectionCommonSettings.html#a0c9a48c41a8a7236e9c99e65a121987e">GetIsOfflineOnly</a>() const</td><td class="entry"><a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classProtectionCommonSettings.html#a7bdb4890d63f2354282ccb380e0e3270">ProtectionCommonSettings</a>(std::string applicationScenarioId=std::string())</td><td class="entry"><a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classProtectionCommonSettings.html#a3e1f64999230823061d1d8707172eb17">SetApplicationScenarioId</a>(std::string applicationScenarioId)</td><td class="entry"><a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classProtectionCommonSettings.html#a64e3a1be023b0ba0b7e8c3be4bc6a718">SetCustomSettings</a>(const std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt; &amp;customSettings)</td><td class="entry"><a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classGetTemplatesSettings.html#ab6426cd5fd8a01a71ee2e68a4e0bbd6c">SetDelegatedUserEmail</a>(const std::string &amp;delegatedUserEmail)=0</td><td class="entry"><a class="el" href="classGetTemplatesSettings.html">GetTemplatesSettings</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classProtectionCommonSettings.html#abadfa7576fd3eb1fd358d8efc1ad7b0a">SetIsOfflineOnly</a>(bool isOfflineOnly)</td><td class="entry"><a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classGetTemplatesSettings.html#ade833b017bf76da965006545867ed717">ShouldCacheResponse</a>() const =0</td><td class="entry"><a class="el" href="classGetTemplatesSettings.html">GetTemplatesSettings</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classGetTemplatesSettings.html#afc96b47e40a11f8787608af4d0e240d6">ShouldRefreshTemplates</a>() const =0</td><td class="entry"><a class="el" href="classGetTemplatesSettings.html">GetTemplatesSettings</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classGetTemplatesSettings.html#a52e227eebdf57460c0d1feeeb2e7ec44">GetTemplatesSettings</a>()</td><td class="entry"><a class="el" href="classGetTemplatesSettings.html">GetTemplatesSettings</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classProtectionCommonSettings.html#a520fa22e8d5482bd92ba4b29ba3583ce">mApplicationScenarioId</a></td><td class="entry"><a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classProtectionCommonSettings.html#a4903c94ecfb5a4a61197619d2a714a22">mCustomSettings</a></td><td class="entry"><a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classProtectionCommonSettings.html#ad1b77d3494b7011822dd34eeeca16f8b">mIsOfflineOnly</a></td><td class="entry"><a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classProtectionCommonSettings.html#ac366088233b9b8c4c361a4159a6c12db">operator=</a>(const ProtectionCommonSettings &amp;other)</td><td class="entry"><a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classProtectionCommonSettings.html#a7bdb4890d63f2354282ccb380e0e3270">ProtectionCommonSettings</a>(std::string applicationScenarioId=std::string())</td><td class="entry"><a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classProtectionCommonSettings.html#a3e1f64999230823061d1d8707172eb17">SetApplicationScenarioId</a>(std::string applicationScenarioId)</td><td class="entry"><a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classProtectionCommonSettings.html#a64e3a1be023b0ba0b7e8c3be4bc6a718">SetCustomSettings</a>(const std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt; &amp;customSettings)</td><td class="entry"><a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classGetTemplatesSettings.html#ab6426cd5fd8a01a71ee2e68a4e0bbd6c">SetDelegatedUserEmail</a>(const std::string &amp;delegatedUserEmail)=0</td><td class="entry"><a class="el" href="classGetTemplatesSettings.html">GetTemplatesSettings</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classProtectionCommonSettings.html#abadfa7576fd3eb1fd358d8efc1ad7b0a">SetIsOfflineOnly</a>(bool isOfflineOnly)</td><td class="entry"><a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classGetTemplatesSettings.html#ade833b017bf76da965006545867ed717">ShouldCacheResponse</a>() const =0</td><td class="entry"><a class="el" href="classGetTemplatesSettings.html">GetTemplatesSettings</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classGetTemplatesSettings.html#afc96b47e40a11f8787608af4d0e240d6">ShouldRefreshTemplates</a>() const =0</td><td class="entry"><a class="el" href="classGetTemplatesSettings.html">GetTemplatesSettings</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classGetTemplatesSettings.html#a4005d966268cb894ef0bc8ed19ca5f95">~GetTemplatesSettings</a>()</td><td class="entry"><a class="el" href="classGetTemplatesSettings.html">GetTemplatesSettings</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classProtectionCommonSettings.html#ab2847ea38e1703b3f7afc842156656f9">~ProtectionCommonSettings</a>()</td><td class="entry"><a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

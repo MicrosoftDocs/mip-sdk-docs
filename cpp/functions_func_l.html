@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -100,26 +140,37 @@ $(function(){initNavTree('functions_func_l.html',''); initResizable(true); });
 <div class="textblock">Here is a list of all functions with links to the classes they belong to:</div>
 
 <h3><a id="index_l" name="index_l"></a>- l -</h3><ul>
+<li>Label()&#160;:&#160;<a class="el" href="classLabel.html#af8f2bccf9faadcb2ca964bd2347dde24">Label</a></li>
+<li>LabelDisabledError()&#160;:&#160;<a class="el" href="classLabelDisabledError.html#af7784a7d730efa8449643162eed410a4">LabelDisabledError</a></li>
 <li>LabelInfo()&#160;:&#160;<a class="el" href="structLabelInfo.html#a05be7dbeb3c6065b783fd4fa7fd2a386">LabelInfo</a></li>
 <li>LabelingOptions()&#160;:&#160;<a class="el" href="classLabelingOptions.html#af0189964f3e34ed6d3d5c9f4c29fde9e">LabelingOptions</a></li>
+<li>LabelNotFoundError()&#160;:&#160;<a class="el" href="classLabelNotFoundError.html#a8ddfe61433bb8b3ad967a3e1a509822c">LabelNotFoundError</a></li>
+<li>LicenseNotRegisteredError()&#160;:&#160;<a class="el" href="classLicenseNotRegisteredError.html#a833ded50e6d1afb3bb61cfb36d37b95b">LicenseNotRegisteredError</a></li>
 <li>LicenseRightsData()&#160;:&#160;<a class="el" href="classLicenseRightsData.html#a20401191d083b8464843051b3614c518">LicenseRightsData</a></li>
+<li>Link()&#160;:&#160;<a class="el" href="classAction.html#ab1c096b29622ca194bdbc6da66f97c46">Action</a></li>
 <li>List()&#160;:&#160;<a class="el" href="classStorageTable.html#ae54058198bbda1e742df523acd3221a3">StorageTable</a></li>
-<li>ListEngines()&#160;:&#160;<a class="el" href="classProtectionProfile.html#a26a7500fcd7bdb1c10209a7d24bec3a1">ProtectionProfile</a></li>
-<li>ListEnginesAsync()&#160;:&#160;<a class="el" href="classFileProfile.html#a0317d5092a1e73480dc176c7e647e0c6">FileProfile</a>, <a class="el" href="classProtectionProfile.html#a914dedc3e5965ca885ed8ddd85a5151a">ProtectionProfile</a></li>
-<li>ListSensitivityLabels()&#160;:&#160;<a class="el" href="classComputeEngine.html#ae22489fac0696cafb24bcbf116432448">ComputeEngine</a></li>
-<li>Load()&#160;:&#160;<a class="el" href="classProtectionProfile.html#a30a0340372888ee106e80da78b2cdea2">ProtectionProfile</a></li>
-<li>LoadAsync()&#160;:&#160;<a class="el" href="classFileProfile.html#a5c278a5c39b65789319c0856a9e01418">FileProfile</a>, <a class="el" href="classProtectionProfile.html#a966887bd349935ad246747f981dd6309">ProtectionProfile</a></li>
+<li>ListEngines()&#160;:&#160;<a class="el" href="classPolicyProfile.html#a3022718038f902a2fc3e1d85a2a2c03b">PolicyProfile</a>, <a class="el" href="classProtectionProfile.html#a26a7500fcd7bdb1c10209a7d24bec3a1">ProtectionProfile</a></li>
+<li>ListEnginesAsync()&#160;:&#160;<a class="el" href="classFileProfile.html#a0317d5092a1e73480dc176c7e647e0c6">FileProfile</a>, <a class="el" href="classPolicyProfile.html#acf9cc37b1ba493bc3487897a54f9c7d5">PolicyProfile</a>, <a class="el" href="classProtectionProfile.html#a914dedc3e5965ca885ed8ddd85a5151a">ProtectionProfile</a></li>
+<li>ListSensitivityLabels()&#160;:&#160;<a class="el" href="classComputeEngine.html#ae22489fac0696cafb24bcbf116432448">ComputeEngine</a>, <a class="el" href="classFileEngine.html#a8f52a827261f6209279f86136b506598">FileEngine</a>, <a class="el" href="classPolicyEngine.html#ace9385156669be5ae7e28e5c716bddcf">PolicyEngine</a></li>
+<li>ListSensitivityTypes()&#160;:&#160;<a class="el" href="classFileEngine.html#aa14f25eeab8dcb5fe48bed055b71445a">FileEngine</a>, <a class="el" href="classPolicyEngine.html#aab4f4348b8c9ce9fb1a66a0c773a5bcf">PolicyEngine</a></li>
+<li>Load()&#160;:&#160;<a class="el" href="classPolicyProfile.html#a8bac63e5b7cd40a844d7d61e4f6a84b1">PolicyProfile</a>, <a class="el" href="classProtectionProfile.html#a30a0340372888ee106e80da78b2cdea2">ProtectionProfile</a></li>
+<li>LoadAsync()&#160;:&#160;<a class="el" href="classFileProfile.html#a5c278a5c39b65789319c0856a9e01418">FileProfile</a>, <a class="el" href="classPolicyProfile.html#ae40180aa06d14d3aaba105df5c4e6280">PolicyProfile</a>, <a class="el" href="classProtectionProfile.html#a966887bd349935ad246747f981dd6309">ProtectionProfile</a></li>
 <li>LoadUserCert()&#160;:&#160;<a class="el" href="classProtectionEngine.html#a950c64daae9b96c945b2268732232391">ProtectionEngine</a></li>
 <li>LoadUserCertAsync()&#160;:&#160;<a class="el" href="classProtectionEngine.html#a047594fc160d5243b6883d7e7f37b2bd">ProtectionEngine</a></li>
 <li>LoadUserCertSync()&#160;:&#160;<a class="el" href="classProtectionEngine.html#ad5d02efb79b35090f9b32fecbf35eaf5">ProtectionEngine</a></li>
+<li>LoggerDelegate()&#160;:&#160;<a class="el" href="classLoggerDelegate.html#abe000fb2579347406fe3435bb1193bda">LoggerDelegate</a></li>
 <li>LogMessageData()&#160;:&#160;<a class="el" href="classLogMessageData.html#a68f2afe1d53ddb97994ff4d6bb604b21">LogMessageData</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

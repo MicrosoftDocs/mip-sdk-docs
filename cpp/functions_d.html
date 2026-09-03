@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -102,19 +142,26 @@ $(function(){initNavTree('functions_d.html',''); initResizable(true); });
 <h3><a id="index_d" name="index_d"></a>- d -</h3><ul>
 <li>dataBoundary&#160;:&#160;<a class="el" href="structDiagnosticConfiguration.html#a008434bc9e322bc4c5901d6273962519">DiagnosticConfiguration</a></li>
 <li>DecryptBuffer()&#160;:&#160;<a class="el" href="classProtectionHandler.html#a16e5448f149f0c8be21ba0de361dd417">ProtectionHandler</a></li>
+<li>DelegateResponse()&#160;:&#160;<a class="el" href="classDelegateResponse.html#afbc888e82731f438203ae81d16f40db9">DelegateResponse&lt; T &gt;</a></li>
+<li>DelegateResponseBase()&#160;:&#160;<a class="el" href="classDelegateResponseBase.html#a201db10cc09f4914da27a9abae577ba5">DelegateResponseBase</a></li>
 <li>DelegateResponseError()&#160;:&#160;<a class="el" href="classDelegateResponseError.html#a24e9c3b2a02284309bb05e7dffa5bd57">DelegateResponseError</a></li>
+<li>DelegationLicenseSettings()&#160;:&#160;<a class="el" href="classDelegationLicenseSettings.html#acfaeff0cb8772f55a150c2f9198fbcd6">DelegationLicenseSettings</a></li>
 <li>Delete()&#160;:&#160;<a class="el" href="classEditableStream.html#ac83173893e474416e282d485153ab9ae">EditableStream</a>, <a class="el" href="classStorageTable.html#a6c8330e38f59b98c8bf5b13a8a69afb8">StorageTable</a></li>
-<li>DeleteEngine()&#160;:&#160;<a class="el" href="classProtectionProfile.html#a823c15fec8d85207f4526fe627d8e382">ProtectionProfile</a></li>
-<li>DeleteEngineAsync()&#160;:&#160;<a class="el" href="classFileProfile.html#a8992bd35c633bc43e6e9b92176d28f82">FileProfile</a>, <a class="el" href="classProtectionProfile.html#ae7bb1adb5d1e7590f2d793ef40705161">ProtectionProfile</a></li>
+<li>DeleteEngine()&#160;:&#160;<a class="el" href="classPolicyProfile.html#a59243d9b7aa206241c814bba3d84e532">PolicyProfile</a>, <a class="el" href="classProtectionProfile.html#a823c15fec8d85207f4526fe627d8e382">ProtectionProfile</a></li>
+<li>DeleteEngineAsync()&#160;:&#160;<a class="el" href="classFileProfile.html#a8992bd35c633bc43e6e9b92176d28f82">FileProfile</a>, <a class="el" href="classPolicyProfile.html#a5fee5eefc6aeafc125db91155b4f7768">PolicyProfile</a>, <a class="el" href="classProtectionProfile.html#ae7bb1adb5d1e7590f2d793ef40705161">ProtectionProfile</a></li>
 <li>DeleteLabel()&#160;:&#160;<a class="el" href="classFileHandler.html#a0aa53e73d271e936f3ec4c799ab86151">FileHandler</a></li>
 <li>DeleteRange()&#160;:&#160;<a class="el" href="classStorageTableV2.html#a7b9f07711d75e0668dc751fde831aa09">StorageTableV2</a></li>
 <li>DeleteStoredData()&#160;:&#160;<a class="el" href="classProtectionEngine.html#a0132762443dc722716bb56d935967233">ProtectionEngine</a></li>
 <li>DEPRECATED_FOR_STORAGE_CACHE_TYPE()&#160;:&#160;<a class="el" href="classMipConfiguration.html#a0c1c56d9d6962313481b0d5d55df1390">MipConfiguration</a></li>
+<li>DeprecatedApiError()&#160;:&#160;<a class="el" href="classDeprecatedApiError.html#a9e72abd67db1970c4d12527dfd01d278">DeprecatedApiError</a></li>
+<li>DetailedClassificationResult()&#160;:&#160;<a class="el" href="classDetailedClassificationResult.html#a63fd2084c8259280c9cd0ed4de535d23">DetailedClassificationResult</a></li>
 <li>details&#160;:&#160;<a class="el" href="structExtendedErrorInfo.html#ae0f313b9fc3e7e260497913fb440290f">ExtendedErrorInfo</a></li>
+<li>DiagnosticDelegate()&#160;:&#160;<a class="el" href="classDiagnosticDelegate.html#ae4556e0f1f31211add3259205bfbf155">DiagnosticDelegate&lt; T &gt;</a></li>
 <li>DirectoryObject()&#160;:&#160;<a class="el" href="classDirectoryObject.html#a9d1822df7ad9a472cfdddc2f75a8a478">DirectoryObject</a></li>
 <li>DirectoryObjectRights()&#160;:&#160;<a class="el" href="classDirectoryObjectRights.html#aef6b76cdf58c5f1338c242750977f4a3">DirectoryObjectRights</a></li>
 <li>DirectoryObjectType&#160;:&#160;<a class="el" href="classDirectoryObject.html#a89f1aaf050dce4db20563117565222ec">DirectoryObject</a></li>
 <li>DispatchTask()&#160;:&#160;<a class="el" href="classTaskDispatcherDelegate.html#a67708850f12c0c798cd61090b19da7b9">TaskDispatcherDelegate</a></li>
+<li>DocumentState()&#160;:&#160;<a class="el" href="classDocumentState.html#a5438a31de5f6bd427da397b3f698c0d0">DocumentState</a></li>
 <li>DoesAllowOfflineAccess()&#160;:&#160;<a class="el" href="classProtectionDescriptor.html#aec2ee49903d638c123df1c116d3a4562">ProtectionDescriptor</a></li>
 <li>DoesContentExpire()&#160;:&#160;<a class="el" href="classLicenseRightsData.html#a77a0e0d9b7ebd472becb5c4e69a5e9e7">LicenseRightsData</a>, <a class="el" href="classProtectionDescriptor.html#ae24d88008daaeafc9b51c561d621c5c1">ProtectionDescriptor</a></li>
 <li>DoesLicenseExpire()&#160;:&#160;<a class="el" href="classProtectionDescriptor.html#ad03a008c73cf014eccd6555311266cd9">ProtectionDescriptor</a></li>
@@ -123,10 +170,14 @@ $(function(){initNavTree('functions_d.html',''); initResizable(true); });
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

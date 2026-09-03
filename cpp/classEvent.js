@@ -1,5 +1,7 @@
 var classEvent =
 [
+    [ "~Event", "classEvent.html#ab864fd85c758006c42cd7a1b3369b483", null ],
+    [ "Event", "classEvent.html#a5a40dd4708297f7031e29b39e039ae10", null ],
     [ "AddAuditOnlyProperty", "classEvent.html#a83f07ea3562310b661aac029cb356782", null ],
     [ "AddProperty", "classEvent.html#a66516f85f40feed41be59b9fcfaf4fa1", null ],
     [ "AddProperty", "classEvent.html#a8f122e65546c946b606955cb8dba0e21", null ],

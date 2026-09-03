@@ -1,6 +1,8 @@
 var classFileHandler =
 [
     [ "Observer", "classFileHandler_1_1Observer.html", "classFileHandler_1_1Observer" ],
+    [ "~FileHandler", "classFileHandler.html#a7763aaf84828a6eaaa5f14daca6b0797", null ],
+    [ "FileHandler", "classFileHandler.html#a0d1ac8e9911e19255e8b2d99c2d93f43", null ],
     [ "ClassifyAsync", "classFileHandler.html#adc353de0e5d0571fbe20cd2047abd20b", null ],
     [ "CommitAsync", "classFileHandler.html#a70dd35da4e1383e78957bb125abee871", null ],
     [ "CommitAsync", "classFileHandler.html#af606b52e7a3c53a8a2d4c2148d6bcaa2", null ],
@@ -18,6 +20,7 @@ var classFileHandler =
     [ "GetSerializedPublishingLicense", "classFileHandler.html#a463603f56b95e9c0c9bfc053c6b36d73", null ],
     [ "GetSerializedPublishingLicense", "classFileHandler.html#aeeaddb8003de4ef23d6e4a0621c44e14", null ],
     [ "InspectAsync", "classFileHandler.html#a779d55c1ae8bf1dcc68db30ff24e8023", null ],
+    [ "IsCorrupt", "classFileHandler.html#a68f56a4e7a7749cf232231b98e4723a1", null ],
     [ "IsLabeledOrProtected", "classFileHandler.html#adf5732327938dd78168c01b12ac4fad5", null ],
     [ "IsLabeledOrProtected", "classFileHandler.html#a124b78509688de69902fe732917415dd", null ],
     [ "IsLabeledOrProtected", "classFileHandler.html#a97450b3c858ebefa39448dac11d73839", null ],

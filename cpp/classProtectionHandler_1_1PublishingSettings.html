@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -99,6 +139,7 @@ $(function(){initNavTree('classProtectionHandler_1_1PublishingSettings.html','')
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classProtectionHandler_1_1PublishingSettings-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ProtectionHandler::PublishingSettings Class Reference</div></div>
 </div><!--header-->
@@ -212,6 +253,35 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afd860eba9eee4b4a15e4c65438ac83aa inherit pub_methods_classProtectionCommonSettings" id="r_afd860eba9eee4b4a15e4c65438ac83aa"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProtectionCommonSettings.html#afd860eba9eee4b4a15e4c65438ac83aa">GetCustomSettings</a> () const</td></tr>
 <tr class="memdesc:afd860eba9eee4b4a15e4c65438ac83aa inherit pub_methods_classProtectionCommonSettings"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the custom settings, used for feature gating and testing.  <br /></td></tr>
 <tr class="separator:afd860eba9eee4b4a15e4c65438ac83aa inherit pub_methods_classProtectionCommonSettings"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2847ea38e1703b3f7afc842156656f9 inherit pub_methods_classProtectionCommonSettings" id="r_ab2847ea38e1703b3f7afc842156656f9"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProtectionCommonSettings.html#ab2847ea38e1703b3f7afc842156656f9">~ProtectionCommonSettings</a> ()</td></tr>
+<tr class="separator:ab2847ea38e1703b3f7afc842156656f9 inherit pub_methods_classProtectionCommonSettings"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac366088233b9b8c4c361a4159a6c12db inherit pub_methods_classProtectionCommonSettings" id="r_ac366088233b9b8c4c361a4159a6c12db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProtectionCommonSettings.html#ac366088233b9b8c4c361a4159a6c12db">operator=</a> (const <a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a> &amp;other)</td></tr>
+<tr class="separator:ac366088233b9b8c4c361a4159a6c12db inherit pub_methods_classProtectionCommonSettings"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:abce27b053464ab1ef94b459adff539ae" id="r_abce27b053464ab1ef94b459adff539ae"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classProtectionDescriptor.html">ProtectionDescriptor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abce27b053464ab1ef94b459adff539ae">mProtectionDescriptor</a></td></tr>
+<tr class="separator:abce27b053464ab1ef94b459adff539ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf42a49c00ccae81c1500aae5c92b5d7" id="r_adf42a49c00ccae81c1500aae5c92b5d7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf42a49c00ccae81c1500aae5c92b5d7">mRepublishingLicense</a></td></tr>
+<tr class="separator:adf42a49c00ccae81c1500aae5c92b5d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfea71a64cac9eab32a77f4590b2a4a4" id="r_acfea71a64cac9eab32a77f4590b2a4a4"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classProtectionHandler.html">ProtectionHandler</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfea71a64cac9eab32a77f4590b2a4a4">mProtectionHandler</a></td></tr>
+<tr class="separator:acfea71a64cac9eab32a77f4590b2a4a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aac049f977a1f6a4ae3dd29fb97ed88" id="r_a3aac049f977a1f6a4ae3dd29fb97ed88"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3aac049f977a1f6a4ae3dd29fb97ed88">mIsAuditedExtractionAllowed</a></td></tr>
+<tr class="separator:a3aac049f977a1f6a4ae3dd29fb97ed88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51548d15ac51f30523dee4c168b33a6d" id="r_a51548d15ac51f30523dee4c168b33a6d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51548d15ac51f30523dee4c168b33a6d">mIsDeprecatedAlgorithmPreferred</a></td></tr>
+<tr class="separator:a51548d15ac51f30523dee4c168b33a6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e505a10130d1282c5260d0b61932246" id="r_a9e505a10130d1282c5260d0b61932246"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e505a10130d1282c5260d0b61932246">mIsPublishingFormatJson</a></td></tr>
+<tr class="separator:a9e505a10130d1282c5260d0b61932246"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5926243bd15c643d2d77dd5999559ac" id="r_ae5926243bd15c643d2d77dd5999559ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5926243bd15c643d2d77dd5999559ac">mRepairLabelIdAllowed</a></td></tr>
+<tr class="separator:ae5926243bd15c643d2d77dd5999559ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0ae1657fb6ef66f463d3909b7f20106" id="r_ad0ae1657fb6ef66f463d3909b7f20106"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0ae1657fb6ef66f463d3909b7f20106">mRegenerateContentKey</a></td></tr>
+<tr class="separator:ad0ae1657fb6ef66f463d3909b7f20106"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04702fce95b1b0672cde0ac328756b1b" id="r_a04702fce95b1b0672cde0ac328756b1b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04702fce95b1b0672cde0ac328756b1b">mShouldRefreshTemplates</a></td></tr>
+<tr class="separator:a04702fce95b1b0672cde0ac328756b1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1039c2a1b2d38de92e24354806a91576" id="r_a1039c2a1b2d38de92e24354806a91576"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1039c2a1b2d38de92e24354806a91576">mDelegatedUserEmail</a></td></tr>
+<tr class="separator:a1039c2a1b2d38de92e24354806a91576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac797e697c23f0c136eee612b6c70a4bb" id="r_ac797e697c23f0c136eee612b6c70a4bb"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classPublishingUseLicenseRequest.html">PublishingUseLicenseRequest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac797e697c23f0c136eee612b6c70a4bb">mPublishingUseLicenseRequest</a></td></tr>
+<tr class="separator:ac797e697c23f0c136eee612b6c70a4bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Settings used to create a <a class="el" href="classProtectionHandler.html" title="Manages protection-related actions for a specific protection configuration.">ProtectionHandler</a> to protect new content. </p>
@@ -961,16 +1031,263 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1039c2a1b2d38de92e24354806a91576" name="a1039c2a1b2d38de92e24354806a91576"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1039c2a1b2d38de92e24354806a91576">&#9670;&#160;</a></span>mDelegatedUserEmail</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ProtectionHandler::PublishingSettings::mDelegatedUserEmail</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3aac049f977a1f6a4ae3dd29fb97ed88" name="a3aac049f977a1f6a4ae3dd29fb97ed88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3aac049f977a1f6a4ae3dd29fb97ed88">&#9670;&#160;</a></span>mIsAuditedExtractionAllowed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProtectionHandler::PublishingSettings::mIsAuditedExtractionAllowed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a51548d15ac51f30523dee4c168b33a6d" name="a51548d15ac51f30523dee4c168b33a6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51548d15ac51f30523dee4c168b33a6d">&#9670;&#160;</a></span>mIsDeprecatedAlgorithmPreferred</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProtectionHandler::PublishingSettings::mIsDeprecatedAlgorithmPreferred</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e505a10130d1282c5260d0b61932246" name="a9e505a10130d1282c5260d0b61932246"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e505a10130d1282c5260d0b61932246">&#9670;&#160;</a></span>mIsPublishingFormatJson</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProtectionHandler::PublishingSettings::mIsPublishingFormatJson</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abce27b053464ab1ef94b459adff539ae" name="abce27b053464ab1ef94b459adff539ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abce27b053464ab1ef94b459adff539ae">&#9670;&#160;</a></span>mProtectionDescriptor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classProtectionDescriptor.html">ProtectionDescriptor</a>&gt; ProtectionHandler::PublishingSettings::mProtectionDescriptor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acfea71a64cac9eab32a77f4590b2a4a4" name="acfea71a64cac9eab32a77f4590b2a4a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfea71a64cac9eab32a77f4590b2a4a4">&#9670;&#160;</a></span>mProtectionHandler</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classProtectionHandler.html">ProtectionHandler</a>&gt; ProtectionHandler::PublishingSettings::mProtectionHandler</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac797e697c23f0c136eee612b6c70a4bb" name="ac797e697c23f0c136eee612b6c70a4bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac797e697c23f0c136eee612b6c70a4bb">&#9670;&#160;</a></span>mPublishingUseLicenseRequest</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classPublishingUseLicenseRequest.html">PublishingUseLicenseRequest</a>&gt; ProtectionHandler::PublishingSettings::mPublishingUseLicenseRequest</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad0ae1657fb6ef66f463d3909b7f20106" name="ad0ae1657fb6ef66f463d3909b7f20106"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0ae1657fb6ef66f463d3909b7f20106">&#9670;&#160;</a></span>mRegenerateContentKey</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProtectionHandler::PublishingSettings::mRegenerateContentKey</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae5926243bd15c643d2d77dd5999559ac" name="ae5926243bd15c643d2d77dd5999559ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5926243bd15c643d2d77dd5999559ac">&#9670;&#160;</a></span>mRepairLabelIdAllowed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProtectionHandler::PublishingSettings::mRepairLabelIdAllowed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf42a49c00ccae81c1500aae5c92b5d7" name="adf42a49c00ccae81c1500aae5c92b5d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf42a49c00ccae81c1500aae5c92b5d7">&#9670;&#160;</a></span>mRepublishingLicense</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;uint8_t&gt; ProtectionHandler::PublishingSettings::mRepublishingLicense</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a04702fce95b1b0672cde0ac328756b1b" name="a04702fce95b1b0672cde0ac328756b1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04702fce95b1b0672cde0ac328756b1b">&#9670;&#160;</a></span>mShouldRefreshTemplates</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProtectionHandler::PublishingSettings::mShouldRefreshTemplates</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/mbaldwin/docs/mip-sdk-for-cpp/src/api/mip/protection/<a class="el" href="protection__handler_8h_source.html">protection_handler.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classProtectionHandler.html">ProtectionHandler</a></li><li class="navelem"><a class="el" href="classProtectionHandler_1_1PublishingSettings.html">PublishingSettings</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

@@ -1,5 +1,7 @@
 var classProtectionDescriptor =
 [
+    [ "~ProtectionDescriptor", "classProtectionDescriptor.html#ab0163d943de88d3ea4f988d43cd065d7", null ],
+    [ "ProtectionDescriptor", "classProtectionDescriptor.html#ad039ed4edd37db33c76cfb3f0a8ac7ed", null ],
     [ "DoesAllowOfflineAccess", "classProtectionDescriptor.html#aec2ee49903d638c123df1c116d3a4562", null ],
     [ "DoesContentExpire", "classProtectionDescriptor.html#ae24d88008daaeafc9b51c561d621c5c1", null ],
     [ "DoesLicenseExpire", "classProtectionDescriptor.html#ad03a008c73cf014eccd6555311266cd9", null ],

@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -98,19 +138,38 @@ $(function(){initNavTree('globals_defs.html',''); initResizable(true); });
 
 <div class="contents">
 <div class="textblock">Here is a list of all macros with links to the files they belong to:</div><ul>
+<li>__CDECL&#160;:&#160;<a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">mip_export.h</a></li>
 <li>API_MIP_FILE_FILE_INSPECTOR_H_&#160;:&#160;<a class="el" href="file__inspector_8h.html#a206683ad85b00b6dfca314fb94e6cbe8">file_inspector.h</a></li>
 <li>DEPRECATED&#160;:&#160;<a class="el" href="mip__configuration_8h.html#ad034ea058031ed95e52d3bac1743640a">mip_configuration.h</a></li>
 <li>DEPRECATED_FOR_STORAGE_CACHE_TYPE&#160;:&#160;<a class="el" href="mip__configuration_8h.html#a0cc400caec0ef359fece5b07a0fcaca9">mip_configuration.h</a></li>
 <li>DYNAMIC_WATERMARK_CAPABILITY&#160;:&#160;<a class="el" href="protection__common__types_8h.html#aa8e57b935f04f387e620aa717d0ff8da">protection_common_types.h</a></li>
 <li>FILE_API&#160;:&#160;<a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">file_export.h</a></li>
+<li>MIP_API&#160;:&#160;<a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">mip_export.h</a></li>
+<li>MIP_DEPENDENCY_NAMESPACE_PREFIX&#160;:&#160;<a class="el" href="mip__namespace_8h.html#ae76c19308908804baca4602ba92500ac">mip_namespace.h</a></li>
+<li>MIP_NAMESPACE_BEGIN&#160;:&#160;<a class="el" href="mip__namespace_8h.html#a39c21aae7cf9012b9b74d8431054e182">mip_namespace.h</a></li>
+<li>MIP_NAMESPACE_END&#160;:&#160;<a class="el" href="mip__namespace_8h.html#ae6c7ae24f07850b87df4bbf55c04d831">mip_namespace.h</a></li>
+<li>MIP_NAMESPACE_PREFIX&#160;:&#160;<a class="el" href="mip__namespace_8h.html#a582e0b4424cf249eb52dfe5d7e6cdc12">mip_namespace.h</a></li>
+<li>MIP_OFFLINE_PUBLISHING_ENABLED&#160;:&#160;<a class="el" href="mip__namespace_8h.html#a9965813e2679455dfa68f95120f56a09">mip_namespace.h</a></li>
 <li>MIP_UPE_CORE_API&#160;:&#160;<a class="el" href="upe__core__export_8h.html#ac4ff3574300e557b41136457ac954b31">upe_core_export.h</a></li>
+<li>UNUSED&#160;:&#160;<a class="el" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">common_types.h</a></li>
+<li>VER_FILE_VERSION&#160;:&#160;<a class="el" href="version_8h.html#a30576d55c658346da33f584bc1dd0b2d">version.h</a></li>
+<li>VER_FILE_VERSION_STR&#160;:&#160;<a class="el" href="version_8h.html#a37cf8d69099254ee197d1d601469c315">version.h</a></li>
+<li>VERSION_MAJOR&#160;:&#160;<a class="el" href="version_8h.html#a1a53b724b6de666faa8a9e0d06d1055f">version.h</a></li>
+<li>VERSION_MINOR&#160;:&#160;<a class="el" href="version_8h.html#ae0cb52afb79b185b1bf82c7e235f682b">version.h</a></li>
+<li>VERSION_PATCH&#160;:&#160;<a class="el" href="version_8h.html#a901edadf17488bb6be1ac9a1e3cfea7a">version.h</a></li>
+<li>VERSION_STRINGIZE&#160;:&#160;<a class="el" href="version_8h.html#a8745eccfcd48998d040ccc3b0792a6d3">version.h</a></li>
+<li>VERSION_STRINGIZE2&#160;:&#160;<a class="el" href="version_8h.html#a7bd6d09744c6970e355f9dc87a808c86">version.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

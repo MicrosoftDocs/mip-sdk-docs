@@ -1,5 +1,7 @@
 var classParsedPublishingLicenseBuilder =
 [
+    [ "~ParsedPublishingLicenseBuilder", "classParsedPublishingLicenseBuilder.html#aad091faa395a202ff354fd301d238ed5", null ],
+    [ "ParsedPublishingLicenseBuilder", "classParsedPublishingLicenseBuilder.html#af1e5675d4d947a7487beaa7823f4082d", null ],
     [ "Create", "classParsedPublishingLicenseBuilder.html#ae62f716f1d27d23424b213844e4df65c", null ],
     [ "CreateParsedPublishingLicense", "classParsedPublishingLicenseBuilder.html#a0b375135bd1911c0dcf46bb6acbbe81c", null ],
     [ "SetConnectionInfo", "classParsedPublishingLicenseBuilder.html#a16cedebac83606321adc486ab995fb22", null ],

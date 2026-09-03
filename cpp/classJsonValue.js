@@ -1,5 +1,6 @@
 var classJsonValue =
 [
+    [ "~JsonValue", "classJsonValue.html#a71b2f75c1b828c51789b398ac762b3ff", null ],
     [ "AddMember", "classJsonValue.html#a80544a5fa9a1dc8286fafc3d3eb75bde", null ],
     [ "AddMember", "classJsonValue.html#a3299b9f37c3d84ea5a8259f25bccade6", null ],
     [ "AddMember", "classJsonValue.html#ae4c3afd5bab339119089e67a778dad5b", null ],

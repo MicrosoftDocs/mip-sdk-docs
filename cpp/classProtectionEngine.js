@@ -2,6 +2,8 @@ var classProtectionEngine =
 [
     [ "Observer", "classProtectionEngine_1_1Observer.html", "classProtectionEngine_1_1Observer" ],
     [ "Settings", "classProtectionEngine_1_1Settings.html", "classProtectionEngine_1_1Settings" ],
+    [ "~ProtectionEngine", "classProtectionEngine.html#a36c0a3c200a9217838c1b45c2dd60279", null ],
+    [ "ProtectionEngine", "classProtectionEngine.html#a3ba5b3178ba54ba9fd1e31b782fa9991", null ],
     [ "CreateDelegationLicenses", "classProtectionEngine.html#aa0b207023d9b42bf33ab50fe8c7feb40", null ],
     [ "CreateDelegationLicensesAsync", "classProtectionEngine.html#a5147b32252069841530e4a634fd40743", null ],
     [ "CreateProtectionHandlerForConsumption", "classProtectionEngine.html#aafe713bece8c130e0f223312b822b9ae", null ],

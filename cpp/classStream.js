@@ -1,5 +1,7 @@
 var classStream =
 [
+    [ "~Stream", "classStream.html#a0a94c1350d4ab4d1ef2fdd5a8988db7f", null ],
+    [ "Stream", "classStream.html#a8c3f05bd00361ec92627fa41f330a39b", null ],
     [ "CanRead", "classStream.html#a44a66ddf55e64ff275a8f153c7839a3f", null ],
     [ "CanWrite", "classStream.html#a006b387fc65d4e2cdb06d1090e097c03", null ],
     [ "Flush", "classStream.html#adba05e142a47f7b29694428f8ac63a54", null ],

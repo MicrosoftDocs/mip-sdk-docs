@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['view_0',['View',['../namespacerights.html#a1f9ac51acbbcffbf90b72a86dedd07e3',1,'rights']]],
-  ['viewer_1',['Viewer',['../namespaceroles.html#a561b08d7ace604dbd0f7a3c3fec9b550',1,'roles']]],
-  ['viewrightsdata_2',['ViewRightsData',['../namespacerights.html#a69fdab24dd5ecc1120271f7a766e5e99',1,'rights']]]
+  ['taskdispatcherdelegate_0',['TaskDispatcherDelegate',['../classTaskDispatcherDelegate.html#a49a053ac07515f8acf6a714ef31f83e3',1,'TaskDispatcherDelegate']]],
+  ['telemetrydelegate_1',['TelemetryDelegate',['../classTelemetryDelegate.html#aa977f6d8cc6103bb6c9d2ca49eb5d008',1,'TelemetryDelegate']]],
+  ['telemetryevent_2',['TelemetryEvent',['../classTelemetryEvent.html#a39a034aadc1b125cb6c66d79a6cd038e',1,'TelemetryEvent']]],
+  ['templatearchivederror_3',['TemplateArchivedError',['../classTemplateArchivedError.html#a87cbb4c6c2f568deb82a2619f8be18a2',1,'TemplateArchivedError::TemplateArchivedError(const std::string &amp;message, const std::string &amp;name=&quot;TemplateArchivedError&quot;)'],['../classTemplateArchivedError.html#aa5b7acbb9f870054b4224ac98856e0b0',1,'TemplateArchivedError::TemplateArchivedError(const std::string &amp;message, const std::map&lt; std::string, std::string &gt; &amp;debugInfo, const std::map&lt; std::string, std::string &gt; sensitiveDebugInfo, const std::string &amp;name=&quot;TemplateArchivedError&quot;)']]],
+  ['templatenotfounderror_4',['TemplateNotFoundError',['../classTemplateNotFoundError.html#af20eef40c830fd85953c84bec1e0fbb4',1,'TemplateNotFoundError::TemplateNotFoundError(const std::string &amp;message, const std::string &amp;name=&quot;TemplateNotFoundError&quot;)'],['../classTemplateNotFoundError.html#a8a93eec359d3ed9331562d1bd56cc8a7',1,'TemplateNotFoundError::TemplateNotFoundError(const std::string &amp;message, const std::map&lt; std::string, std::string &gt; &amp;debugInfo, const std::map&lt; std::string, std::string &gt; sensitiveDebugInfo, const std::string &amp;name=&quot;TemplateNotFoundError&quot;)']]],
+  ['tenantinformation_5',['TenantInformation',['../classTenantInformation.html#a66d08839b2e38c233a88d05e4f8f3f71',1,'TenantInformation']]]
 ];

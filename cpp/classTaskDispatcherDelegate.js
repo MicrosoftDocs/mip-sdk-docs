@@ -1,5 +1,7 @@
 var classTaskDispatcherDelegate =
 [
+    [ "~TaskDispatcherDelegate", "classTaskDispatcherDelegate.html#a867c2ed75cdfc2a31c8e440b0374b387", null ],
+    [ "TaskDispatcherDelegate", "classTaskDispatcherDelegate.html#a49a053ac07515f8acf6a714ef31f83e3", null ],
     [ "CancelAllTasks", "classTaskDispatcherDelegate.html#acb6444f49c0965600d11a5304ca53ae2", null ],
     [ "CancelTask", "classTaskDispatcherDelegate.html#a8bfdbf1e07ead77615d3e4ce9427a89c", null ],
     [ "CancelTask", "classTaskDispatcherDelegate.html#a582c7f1aeeda29c793546dd63bd86f43", null ],

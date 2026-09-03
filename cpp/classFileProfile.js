@@ -2,6 +2,8 @@ var classFileProfile =
 [
     [ "Observer", "classFileProfile_1_1Observer.html", "classFileProfile_1_1Observer" ],
     [ "Settings", "classFileProfile_1_1Settings.html", "classFileProfile_1_1Settings" ],
+    [ "~FileProfile", "classFileProfile.html#a9bb1ba6cca19a1eff4d79b61ba410ead", null ],
+    [ "FileProfile", "classFileProfile.html#a6fc66845f250907dc0c2af638479e842", null ],
     [ "AcquirePolicyAuthToken", "classFileProfile.html#a2969c199d512f3dcd66ac24ecb644f48", null ],
     [ "AcquirePolicyAuthToken", "classFileProfile.html#a807a42db9ff40a743c2a5ae4ec79934f", null ],
     [ "AddEngineAsync", "classFileProfile.html#abf69570cb4b3920875bdd3f46208394f", null ],

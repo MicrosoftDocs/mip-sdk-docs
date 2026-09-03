@@ -8,6 +8,10 @@ var classBadInputError =
       [ "DoubleKey", "classBadInputError.html#a6d0012cf1bc07830bb1d963394a9bedfaa3f59350f64e6abac1bff0a30f346d42", null ],
       [ "FileFormatNotSupported", "classBadInputError.html#a6d0012cf1bc07830bb1d963394a9bedfac017f125c246b0b07b81f9b27ef2f4dd", null ]
     ] ],
+    [ "BadInputError", "classBadInputError.html#a677c8f43e55416b9755e5657788c21e6", null ],
+    [ "BadInputError", "classBadInputError.html#acabbf35ec44223e4b5fd3150436bc7dd", null ],
+    [ "BadInputError", "classBadInputError.html#a8b1262156bab9169d2d0bb78ddccbcee", null ],
+    [ "Clone", "classBadInputError.html#aae3629582d842d5e00799f5761280dc1", null ],
     [ "GetErrorCode", "classBadInputError.html#a1c288ddeea06104c0837c4b6b05554df", null ],
     [ "GetErrorCodeString", "classBadInputError.html#a6971a2542d9b3fc831d2b5dc84756c82", null ],
     [ "mErrorCode", "classBadInputError.html#af3f94b2a6198d1b5161fa48876553251", null ]

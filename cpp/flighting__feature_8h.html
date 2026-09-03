@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -185,6 +225,33 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0ae680d3735ff1c2f4adbf2f9c3b555f9b">ValidatePublishingLicenseSignatureTop</a> = 55
 , <br />
 &#160;&#160;<a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0affac691686d01f149d620fb3376c92b6">ImprovedCustomMetadataSupport</a> = 56
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a785b5d92978d0c18492f8753ec034c17">KeepLabelInfoOnPayload</a> = 57
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a5c5fa835365dcab14538947b992e4f76">PreservePDFDateOnWrapper</a> = 58
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a1280658d8f6206aa395ba04d306b259a">FixCorruptCompoundFiles</a> = 59
+, <br />
+&#160;&#160;<a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a2c67177a8380aa8abe15c046db88c975">VersionedKeyStore</a> = 60
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a0444e2c5df48280341cbb3da2dd047cb">ConsumeXrmlPreLicense</a> = 62
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0aeb09ac3f5efe70d13a6cbae5441ab7d2">MsgRemoveProtectionStripsHtmlBody</a> = 63
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a173e7973c1dc5e5a382695dd961447c1">MultiTenantOrganizationEnabled</a> = 64
+, <br />
+&#160;&#160;<a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0aa2455099329810ad4090759dd7c0a310">WaitForSyncTasksOnUnload</a> = 65
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a8e3a1d74869d807521aa7e71a0f52f9f">PreserveOpcZipModtime</a> = 66
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0ab7e36e6ba685876b33d77acfcc20488c">PerEnginePendingItem</a> = 67
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0ae7d646ba8ab9adb0c8cb7764ab16996d">WriteLabelIdToMapiProperty</a> = 68
+, <br />
+&#160;&#160;<a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a0be0821e869bbf32b32a21a652049acd">ValidateRtfDecompressionBounds</a> = 79
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a1f20797d9e74d31a099c3d7c3fc1ba12">SkipRedundantXmpMetadataUpdate</a> = 80
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a98b3f7dd5b197f235064fa3630151243">PreservePDFEncryptDict</a> = 81
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a9389a19d63d8b1426ef130ccb62a4981">RestrictXmpToImageHandlers</a> = 82
+, <br />
+&#160;&#160;<a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0ad751b751b79cc0da6601d04bfb4b453b">ValidateCloudUrlDomainBoundary</a> = 83
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a21dd3fc369feb8f8b85fc8f854c61178">StripCredentialsOnCrossOriginRedirect</a> = 84
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a9f7f59d35de78435639cb0c583af1771">ValidateAuthChallengeAuthority</a> = 85
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0a6ca532b2e6f10d5a3bcaf056e3706d57">ValidatePdfFlateDecodeParams</a> = 86
+, <br />
+&#160;&#160;<a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0afd586c59d1a7d7fc75c090c357f95b36">PreventOutOfBandReadOnLicenseParser</a> = 87
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0ad86eab3c8ef7f88e3c925acc2a17419e">EnsureOPCCorrectness</a> = 88
+, <a class="el" href="#a136e8722fcaf2df5a6f3cb4bff70adc0ac75617229cfaabd049be6828e5f1dd7c">EnsureZIPCorrectness</a> = 89
 <br />
  }</td></tr>
 <tr class="memdesc:a136e8722fcaf2df5a6f3cb4bff70adc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines new features by name.  <a href="#a136e8722fcaf2df5a6f3cb4bff70adc0">More...</a><br /></td></tr>
@@ -321,11 +388,55 @@ Functions</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a39ed83ae9a96fdb3d0de38d40773512a" name="a136e8722fcaf2df5a6f3cb4bff70adc0a39ed83ae9a96fdb3d0de38d40773512a"></a>TargetCrossCloudProtectionLicenseEndpoint&#160;</td><td class="fielddoc"><p>Enables use of the distribution point url from a license (if available) when doing service discovery. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a48ca3bdb7f6402cc44cd4883f569bc6c" name="a136e8722fcaf2df5a6f3cb4bff70adc0a48ca3bdb7f6402cc44cd4883f569bc6c"></a>AlwaysConvertHtmlToRtf&#160;</td><td class="fielddoc"><p>If true, always convert HTML body to RTF body when inspecting or unprotecting MSG/RPMSG files. </p>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a48ca3bdb7f6402cc44cd4883f569bc6c" name="a136e8722fcaf2df5a6f3cb4bff70adc0a48ca3bdb7f6402cc44cd4883f569bc6c"></a>AlwaysConvertHtmlToRtf&#160;</td><td class="fielddoc"><p>DISABLED </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0ae680d3735ff1c2f4adbf2f9c3b555f9b" name="a136e8722fcaf2df5a6f3cb4bff70adc0ae680d3735ff1c2f4adbf2f9c3b555f9b"></a>ValidatePublishingLicenseSignatureTop&#160;</td><td class="fielddoc"><p>If true, validates the first level signature of the publishing license before taking action </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0affac691686d01f149d620fb3376c92b6" name="a136e8722fcaf2df5a6f3cb4bff70adc0affac691686d01f149d620fb3376c92b6"></a>ImprovedCustomMetadataSupport&#160;</td><td class="fielddoc"><p>If true, uses improved custom metadata handling with separation of label metadata from extended properties </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a785b5d92978d0c18492f8753ec034c17" name="a136e8722fcaf2df5a6f3cb4bff70adc0a785b5d92978d0c18492f8753ec034c17"></a>KeepLabelInfoOnPayload&#160;</td><td class="fielddoc"><p>If true, keep label info on encrypted payload when removing protection from PDF files. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a5c5fa835365dcab14538947b992e4f76" name="a136e8722fcaf2df5a6f3cb4bff70adc0a5c5fa835365dcab14538947b992e4f76"></a>PreservePDFDateOnWrapper&#160;</td><td class="fielddoc"><p>If true, preserve the PDF create and modify dates on the wrapper when protecting PDF files. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a1280658d8f6206aa395ba04d306b259a" name="a136e8722fcaf2df5a6f3cb4bff70adc0a1280658d8f6206aa395ba04d306b259a"></a>FixCorruptCompoundFiles&#160;</td><td class="fielddoc"><p>If true, compound files with duplicate streams will be fixed when committing changes. If this is on, creating a file handler for a compound file with V2 metadata will always lead to a corruption check/fix, which does affect performance. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a2c67177a8380aa8abe15c046db88c975" name="a136e8722fcaf2df5a6f3cb4bff70adc0a2c67177a8380aa8abe15c046db88c975"></a>VersionedKeyStore&#160;</td><td class="fielddoc"><p>If true, use versioned key store schema with keyVersion column/attribute to prevent using old keys when key generation methods change. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a0444e2c5df48280341cbb3da2dd047cb" name="a136e8722fcaf2df5a6f3cb4bff70adc0a0444e2c5df48280341cbb3da2dd047cb"></a>ConsumeXrmlPreLicense&#160;</td><td class="fielddoc"><p>Reserved placeholder for reverted XRML pre-license consumption feature. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0aeb09ac3f5efe70d13a6cbae5441ab7d2" name="a136e8722fcaf2df5a6f3cb4bff70adc0aeb09ac3f5efe70d13a6cbae5441ab7d2"></a>MsgRemoveProtectionStripsHtmlBody&#160;</td><td class="fielddoc"><p>If true, when removing protection from MSG files, the HTML body stream will be changed to an RTF body stream for viewer compatibility. If false, HTML will still be converted to RTF, but HTML stream will also be left in place. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a173e7973c1dc5e5a382695dd961447c1" name="a136e8722fcaf2df5a6f3cb4bff70adc0a173e7973c1dc5e5a382695dd961447c1"></a>MultiTenantOrganizationEnabled&#160;</td><td class="fielddoc"><p>Reserved. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0aa2455099329810ad4090759dd7c0a310" name="a136e8722fcaf2df5a6f3cb4bff70adc0aa2455099329810ad4090759dd7c0a310"></a>WaitForSyncTasksOnUnload&#160;</td><td class="fielddoc"><p>Reserved. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a8e3a1d74869d807521aa7e71a0f52f9f" name="a136e8722fcaf2df5a6f3cb4bff70adc0a8e3a1d74869d807521aa7e71a0f52f9f"></a>PreserveOpcZipModtime&#160;</td><td class="fielddoc"><p>Reserved. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0ab7e36e6ba685876b33d77acfcc20488c" name="a136e8722fcaf2df5a6f3cb4bff70adc0ab7e36e6ba685876b33d77acfcc20488c"></a>PerEnginePendingItem&#160;</td><td class="fielddoc"><p>Reserved. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0ae7d646ba8ab9adb0c8cb7764ab16996d" name="a136e8722fcaf2df5a6f3cb4bff70adc0ae7d646ba8ab9adb0c8cb7764ab16996d"></a>WriteLabelIdToMapiProperty&#160;</td><td class="fielddoc"><p>If true, writes the active sensitivity label GUID as an InformationProtectionLabelId MAPI named property on .msg files, providing a reliable label persistence mechanism independent of MIME headers. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a0be0821e869bbf32b32a21a652049acd" name="a136e8722fcaf2df5a6f3cb4bff70adc0a0be0821e869bbf32b32a21a652049acd"></a>ValidateRtfDecompressionBounds&#160;</td><td class="fielddoc"><p>If true, enables hardened bounds/overflow handling in compressed-RTF (MS-OXRTFCP) decompression: overflow-safe input bounds checks and a strict equality stop condition that aborts if the decompressed output would exceed the declared uncompressed size. Default true. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a1f20797d9e74d31a099c3d7c3fc1ba12" name="a136e8722fcaf2df5a6f3cb4bff70adc0a1f20797d9e74d31a099c3d7c3fc1ba12"></a>SkipRedundantXmpMetadataUpdate&#160;</td><td class="fielddoc"><p>If true, XMPHelper::UpdateProperties skips parsing/rewriting the XMP stream when there is nothing to add and the keys to remove are not present in the input metadata. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a98b3f7dd5b197f235064fa3630151243" name="a136e8722fcaf2df5a6f3cb4bff70adc0a98b3f7dd5b197f235064fa3630151243"></a>PreservePDFEncryptDict&#160;</td><td class="fielddoc"><p>If true, when updating PDF properties/labels on a PDF that already has a Standard /Encrypt dictionary, re-emit that /Encrypt dictionary (incl. /P and /Perms) so readers still honor /P restrictions. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a9389a19d63d8b1426ef130ccb62a4981" name="a136e8722fcaf2df5a6f3cb4bff70adc0a9389a19d63d8b1426ef130ccb62a4981"></a>RestrictXmpToImageHandlers&#160;</td><td class="fielddoc"><p>If true, XMPHelper resolves the SDK-routed file name to a concrete XMP image format and opens the embedded Adobe XMP toolkit with kXMPFiles_OpenStrictly, failing closed on unmapped names, so the toolkit never falls back to content-sniffing the legacy non-image parsers (UCF/PostScript/...). If false, legacy behavior: open as kXMP_UnknownFile with the smart handler. Default true. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0ad751b751b79cc0da6601d04bfb4b453b" name="a136e8722fcaf2df5a6f3cb4bff70adc0ad751b751b79cc0da6601d04bfb4b453b"></a>ValidateCloudUrlDomainBoundary&#160;</td><td class="fielddoc"><p>If true, cloud URL/domain classification requires a full DNS label boundary match against known cloud base URLs (e.g. "aadrm.com" matches "aadrm.com" and "x.aadrm.com" but not "evilaadrm.com"), preventing attacker-registrable look-alike domains from being treated as Microsoft clouds. Default true. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a21dd3fc369feb8f8b85fc8f854c61178" name="a136e8722fcaf2df5a6f3cb4bff70adc0a21dd3fc369feb8f8b85fc8f854c61178"></a>StripCredentialsOnCrossOriginRedirect&#160;</td><td class="fielddoc"><p>If true, HTTP redirects to an untrusted target (one that is neither same-origin nor a recognized Microsoft cloud endpoint) have their Authorization, Cookie and Proxy-Authorization headers stripped, are required to target https, and are not cached, preventing bearer-token leakage to attacker-controlled redirect targets. When this protection is active, the "recognized Microsoft cloud endpoint" check always uses the anchored DNS-label-boundary match (so look-alike domains such as "evilaadrm.com" are rejected) regardless of the ValidateCloudUrlDomainBoundary flight. Default true. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a9f7f59d35de78435639cb0c583af1771" name="a136e8722fcaf2df5a6f3cb4bff70adc0a9f7f59d35de78435639cb0c583af1771"></a>ValidateAuthChallengeAuthority&#160;</td><td class="fielddoc"><p>If true, the OAuth2 authority parsed from a server's WWW-Authenticate challenge is validated against an allowlist of Microsoft login endpoints when the request targets a known cloud, preventing an attacker-supplied authority from being passed to the application's <a class="el" href="classAuthDelegate.html" title="Delegate for auth related operations.">AuthDelegate</a>. Default true. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0a6ca532b2e6f10d5a3bcaf056e3706d57" name="a136e8722fcaf2df5a6f3cb4bff70adc0a6ca532b2e6f10d5a3bcaf056e3706d57"></a>ValidatePdfFlateDecodeParams&#160;</td><td class="fielddoc"><p>If true, enables hardened validation of flate /DecodeParms in the PDF object model: enforces CheckFlateDecodeParams on the streaming filter path and applies the bounds guard before the PNG predictor memmove, mitigating integer-overflow/out-of-bounds issues from malformed predictor parameters. Default true. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0afd586c59d1a7d7fc75c090c357f95b36" name="a136e8722fcaf2df5a6f3cb4bff70adc0afd586c59d1a7d7fc75c090c357f95b36"></a>PreventOutOfBandReadOnLicenseParser&#160;</td><td class="fielddoc"><p>If true, add checks to prevent out of band reads on the license parser. Default true. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0ad86eab3c8ef7f88e3c925acc2a17419e" name="a136e8722fcaf2df5a6f3cb4bff70adc0ad86eab3c8ef7f88e3c925acc2a17419e"></a>EnsureOPCCorrectness&#160;</td><td class="fielddoc"><p>If true, OPC folder paths are resolved case-insensitively, also check ZIP metadata correctness. Default true. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a136e8722fcaf2df5a6f3cb4bff70adc0ac75617229cfaabd049be6828e5f1dd7c" name="a136e8722fcaf2df5a6f3cb4bff70adc0ac75617229cfaabd049be6828e5f1dd7c"></a>EnsureZIPCorrectness&#160;</td><td class="fielddoc"><p>If true, ZIP metadata is validated for uncompressed size and CRC32 mismatches. Default true. </p>
 </td></tr>
 </table>
 
@@ -362,11 +473,15 @@ Functions</h2></td></tr>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ed23b7e0ff82d04a8565e406d9d9df9a.html">mip-sdk-for-cpp</a></li><li class="navelem"><a class="el" href="dir_5a92ca31a1d1cd11ee59a3526a96cc89.html">src</a></li><li class="navelem"><a class="el" href="dir_e50a1d5d74e01fc8d143b32c54f27ce0.html">api</a></li><li class="navelem"><a class="el" href="dir_8430260fe83f04f5d27761956506c721.html">mip</a></li><li class="navelem"><a class="el" href="flighting__feature_8h.html">flighting_feature.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

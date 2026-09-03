@@ -1,5 +1,7 @@
 var classApplicationActionState =
 [
+    [ "~ApplicationActionState", "classApplicationActionState.html#a83a529c20f392e8b4347f39de3c94ff4", null ],
+    [ "ApplicationActionState", "classApplicationActionState.html#a9399bd03a66472950b069e97cece5786", null ],
     [ "GetContentTimeZoneUtcOffset", "classApplicationActionState.html#a4dc2cb1cfa69d19c8e17f951a1d53cfc", null ],
     [ "GetNewLabel", "classApplicationActionState.html#a948739313d8dbeed3f925dad8fc22220", null ],
     [ "GetNewLabelAssignmentMethod", "classApplicationActionState.html#a6f2fd8cb064ce99b578b9492764052ae", null ],

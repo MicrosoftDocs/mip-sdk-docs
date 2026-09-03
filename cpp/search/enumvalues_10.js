@@ -14,6 +14,8 @@ var searchData=
   ['removeparentmetadatawhenchildlabelremoved_11',['RemoveParentMetadataWhenChildLabelRemoved',['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a60f25473cd18723b1636ec449214ca38',1,'flighting_feature.h']]],
   ['removeprotection_12',['RemoveProtection',['../protection__action__data_8h.html#a5a3dd2d97a761b92e026d3708df2a111abe5c4b4f4e8977cd40da3a6926f5915f',1,'protection_action_data.h']]],
   ['rest_13',['REST',['../common__types_8h.html#a5737dca05518564ac984b7e47f7ba9baa50780f47f6839d47d60bc4555ee00c3f',1,'common_types.h']]],
-  ['right_14',['RIGHT',['../common__types_8h.html#a641eae31b3fab746f2aabb8efd804f46a21507b40c80068eda19865706fdc2403',1,'common_types.h']]],
-  ['rtf_15',['RTF',['../msg__inspector_8h.html#ae41dd8630d22c65135d91fe542e27215a7da7adb1d98a6ee0f69281084f9ea9b2',1,'msg_inspector.h']]]
+  ['restrictxmptoimagehandlers_14',['RestrictXmpToImageHandlers',['../flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a9389a19d63d8b1426ef130ccb62a4981',1,'flighting_feature.h']]],
+  ['right_15',['RIGHT',['../common__types_8h.html#a641eae31b3fab746f2aabb8efd804f46a21507b40c80068eda19865706fdc2403',1,'common_types.h']]],
+  ['rtf_16',['RTF',['../msg__inspector_8h.html#ae41dd8630d22c65135d91fe542e27215a7da7adb1d98a6ee0f69281084f9ea9b2',1,'msg_inspector.h']]],
+  ['rules_17',['Rules',['../classNoPolicyError.html#a6983429fa8050bebf0b59f1a8304064ca1f4da964f8eab62e96e8cfe406e44364',1,'NoPolicyError']]]
 ];

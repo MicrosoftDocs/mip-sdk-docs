@@ -18,7 +18,8 @@ var common__types__cc_8h =
       [ "MIP_CLOUD_US_GCC_HIGH", "common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778a3bab3b6d31348bc06bdfe63f71e15d54", null ],
       [ "MIP_CLOUD_US_SEC", "common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778a0a4a330e33a00ef388c75b7de30f782b", null ],
       [ "MIP_CLOUD_US_NAT", "common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778a306c230a85284bd78706621ee1cd8bd9", null ],
-      [ "MIP_CLOUD_CHINA_01", "common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778ad1d869e32005cbfb246cac73007861d4", null ]
+      [ "MIP_CLOUD_CHINA_01", "common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778ad1d869e32005cbfb246cac73007861d4", null ],
+      [ "MIP_CLOUD_BLEU", "common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778acf0bf7d7577b6eadfc7b5c8d97868861", null ]
     ] ],
     [ "mip_cc_content_format", "common__types__cc_8h.html#aafc4865eef3956d6158ae0d9de135291", [
       [ "MIP_CONTENT_FORMAT_DEFAULT", "common__types__cc_8h.html#aafc4865eef3956d6158ae0d9de135291a06a628869fd38639b252d75c0da70313", null ],

@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -106,14 +146,24 @@ $(function(){initNavTree('classStorageDelegate_1_1StorageSettings.html',''); ini
   <tr class="even"><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html#a7f17e32c51902ec6f263e2c15552aaa4">GetStorageTableVersion</a>() const</td><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html">StorageDelegate::StorageSettings</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html#a26bb363f68ffeb8710dd2110fed9f758">IsInMemoryStorageSupported</a>() const</td><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html">StorageDelegate::StorageSettings</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html#ab4c81111d073584d870049cf302f3293">IsRemoteStorage</a>() const</td><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html">StorageDelegate::StorageSettings</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html#a06038477294338a53f83c000343af4f6">mIsInMemoryStorageSupported</a></td><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html">StorageDelegate::StorageSettings</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html#abce5aab87e6d26424fcccc5c22a3d89d">mIsRemoteStorage</a></td><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html">StorageDelegate::StorageSettings</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html#a469aacb7cb57512f1a0171529d5d3d12">mOnDiskExtension</a></td><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html">StorageDelegate::StorageSettings</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html#af5827700829881f32958fd34aac738b4">mStorageTableVersion</a></td><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html">StorageDelegate::StorageSettings</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html#a48050a5a152f5e0b5ea85033a0124722">OnDiskExtension</a>() const</td><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html">StorageDelegate::StorageSettings</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html#ab23bfb0a8c95a8d17810f3aefa3e3164">StorageSettings</a>(bool isRemoteStorage, bool isInMemoryStorageSupported, const std::string &amp;onDiskExtension=GetSqliteExtension(), StorageTableVersion storageTableVersion=StorageTableVersion::One)</td><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html">StorageDelegate::StorageSettings</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html#aa550f20fc34d6f6368e284e49186babf">StorageSettings</a>()</td><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html">StorageDelegate::StorageSettings</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html#ab7073e8346b189f5ae6ab8717a444125">~StorageSettings</a>()</td><td class="entry"><a class="el" href="classStorageDelegate_1_1StorageSettings.html">StorageDelegate::StorageSettings</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

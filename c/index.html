@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -5,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C: Microsoft Information Protection SDK - C</title>
+<title>Microsoft Information Protection SDK - C: Microsoft Information Protection SDK — C</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -97,70 +137,153 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Microsoft Information Protection SDK - C </div></div>
+  <div class="headertitle"><div class="title">Microsoft Information Protection SDK — C </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md0"></a>
-Microsoft Information Protection SDK (C)</h1>
-<p>Welcome to the reference documentation for the Microsoft Information Protection SDK.</p>
-<p>Use the navigation panel on the left to browse classes, modules, and related APIs.</p>
+<div class="textblock"><p>The <b>Microsoft Information Protection (MIP) SDK</b> C wrapper exposes MIP's protection and labeling capabilities through a flat C ABI suitable for binding into other languages. This site is the API reference for the C surface; for narrative documentation, samples, and quickstarts see the <a href="https://learn.microsoft.com/information-protection/develop">conceptual docs on Microsoft Learn</a>.</p>
+<blockquote class="doxtable">
+<p>&zwj;<b>Note</b> — the C wrapper covers the <b>Protection</b> and <b>Policy / labeling</b> APIs. If you need the <b>File</b> API (apply labels and protection to files like .docx, .pdf, .pptx), use the <a href="../cpp/index.html">C++ reference</a> instead. </p>
+</blockquote>
+<h2><a class="anchor" id="autotoc_md0"></a>
+Get started</h2>
+<ul>
+<li><b><a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs and quickstarts</a></b> — start here if you're new to MIP.</li>
+<li><b><a href="https://github.com/AzureAD/mip-sdk-for-cpp/tree/main/samples">Samples</a></b> — runnable samples in the SDK repo.</li>
+<li><b><a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a></b> — release notes and binaries.</li>
+</ul>
 <h2><a class="anchor" id="autotoc_md1"></a>
-Class List</h2>
+API by area</h2>
+<p>This page is curated; the <b>Files</b> tab indexes every header.</p>
+<h3><a class="anchor" id="autotoc_md2"></a>
+Context</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Name   </th><th class="markdownTableHeadNone">Description    </th></tr>
+<th class="markdownTableHeadNone">Header   </th><th class="markdownTableHeadNone">What it does    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="structmip__cc__application__info.html">mip_cc_application_info</a>   </td><td class="markdownTableBodyNone">A struct that includes application specific information    </td></tr>
+<td class="markdownTableBodyNone"><code><a class="el" href="mip__context__cc_8h.html" title="Defines C-Style MipContext functions.">mip_context_cc.h</a></code>   </td><td class="markdownTableBodyNone">Process-wide MIP context (create/release).    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="structmip__cc__async__task.html">mip_cc_async_task</a>   </td><td class="markdownTableBodyNone">Defines a single async task dispatch request    </td></tr>
+<td class="markdownTableBodyNone"><code><a class="el" href="application__info__cc_8h.html" title="ApplicationInfo definition.">application_info_cc.h</a></code>   </td><td class="markdownTableBodyNone">Identifies your application to MIP.    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="structmip__cc__create__logger__delegate__message__data__args.html">mip_cc_create_logger_delegate_message_data_args</a>   </td><td class="markdownTableBodyNone"></td></tr>
+<td class="markdownTableBodyNone"><code><a class="el" href="identity__cc_8h.html" title="Identity definition.">identity_cc.h</a></code>   </td><td class="markdownTableBodyNone">Represents the user identity.    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="structmip__cc__document__state.html">mip_cc_document_state</a>   </td><td class="markdownTableBodyNone">Represents the current state of a label-aware document    </td></tr>
+<td class="markdownTableBodyNone"><code><a class="el" href="telemetry__configuration__cc_8h.html" title="Defines custom telemetry settings.">telemetry_configuration_cc.h</a></code>   </td><td class="markdownTableBodyNone">Telemetry configuration.    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="structmip__cc__error.html">mip_cc_error</a>   </td><td class="markdownTableBodyNone">Error information    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="structmip__cc__feature__override.html">mip_cc_feature_override</a>   </td><td class="markdownTableBodyNone">Defines a single feature's enabled/disabled state    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="structmip__cc__guid.html">mip_cc_guid</a>   </td><td class="markdownTableBodyNone">GUID    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="structmip__cc__handle.html">mip_cc_handle</a>   </td><td class="markdownTableBodyNone">Opaque handle to MIP object    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="structmip__cc__http__header.html">mip_cc_http_header</a>   </td><td class="markdownTableBodyNone">HTTP request/response header    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="structmip__cc__http__request.html">mip_cc_http_request</a>   </td><td class="markdownTableBodyNone">HTTP request    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="structmip__cc__http__response.html">mip_cc_http_response</a>   </td><td class="markdownTableBodyNone">HTTP response    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="structmip__cc__identity.html">mip_cc_identity</a>   </td><td class="markdownTableBodyNone">A struct that contains user identification info    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="structmip__cc__kv__pair.html">mip_cc_kv_pair</a>   </td><td class="markdownTableBodyNone">Key/value pair    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="structmip__cc__log__message__data.html">mip_cc_log_message_data</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="structmip__cc__metadata__entry.html">mip_cc_metadata_entry</a>   </td><td class="markdownTableBodyNone">Metadata entry    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="structmip__cc__oauth2__challenge.html">mip_cc_oauth2_challenge</a>   </td><td class="markdownTableBodyNone">Information provided by a server to generate an OAuth2 token    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="structmip__cc__user__rights.html">mip_cc_user_rights</a>   </td><td class="markdownTableBodyNone">A group of users and the rights associated with them    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="structmip__cc__user__roles.html">mip_cc_user_roles</a>   </td><td class="markdownTableBodyNone">A group of users and the roles associated with them   </td></tr>
+<td class="markdownTableBodyNone"><code><a class="el" href="flighting__feature__cc_8h.html" title="Flighting feature definition.">flighting_feature_cc.h</a></code>   </td><td class="markdownTableBodyNone">Feature flags.   </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md2"></a>
-Previous Versions</h2>
-<ul>
-<li><a href="../archive/1.17/c/">1.17</a></li>
-<li><a href="../archive/1.16/c/">1.16</a></li>
-<li><a href="../archive/1.15/c/">1.15</a> </li>
-</ul>
+<h3><a class="anchor" id="autotoc_md3"></a>
+Protection API</h3>
+<p>Encrypt, decrypt, and manage Use Licenses directly.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Header   </th><th class="markdownTableHeadNone">What it does    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code><a class="el" href="protection__profile__cc_8h.html" title="Defines C-Style ProtectionProfile functions.">protection/protection_profile_cc.h</a></code> / <code><a class="el" href="protection__engine__cc_8h.html" title="Defines C-Style ProtectionEngine functions.">protection/protection_engine_cc.h</a></code>   </td><td class="markdownTableBodyNone">Profile/engine entry points.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code><a class="el" href="protection__handler__cc_8h.html" title="Defines C-Style ProtectionHandler interface.">protection/protection_handler_cc.h</a></code>   </td><td class="markdownTableBodyNone">Encrypt/decrypt; manage rights and licenses.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code><a class="el" href="protection__descriptor__cc_8h.html" title="Defines C-Style ProtectionDescriptor interface.">protection_descriptor_cc.h</a></code> / <code><a class="el" href="protection__descriptor__builder__cc_8h.html" title="Defines C-Style ProtectionDescriptorBuilder interface.">protection_descriptor_builder_cc.h</a></code>   </td><td class="markdownTableBodyNone">Describe protection (template, ad-hoc, do-not-forward).    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code><a class="el" href="template__descriptor__cc_8h.html" title="Defines C-Style TemplateDescriptor functions.">protection/template_descriptor_cc.h</a></code>   </td><td class="markdownTableBodyNone">Inspect an RMS template.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code><a class="el" href="license__info__cc_8h.html">protection/license_info_cc.h</a></code> / <code><a class="el" href="delegation__license__cc_8h.html">protection/delegation_license_cc.h</a></code>   </td><td class="markdownTableBodyNone">Inspect and request licenses.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code><a class="el" href="protection__crypto__types__cc_8h.html" title="Defines C-Style crypto types.">protection/protection_crypto_types_cc.h</a></code>   </td><td class="markdownTableBodyNone">Crypto mode constants.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code><a class="el" href="user__rights__roles__cc_8h.html" title="Defines C-Style user rights &amp; roles functions.">protection/user_rights_roles_cc.h</a></code>   </td><td class="markdownTableBodyNone">Rights and role assignments.   </td></tr>
+</table>
+<h3><a class="anchor" id="autotoc_md4"></a>
+Labels &amp; Policy</h3>
+<p>Drive the labeling experience.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Header   </th><th class="markdownTableHeadNone">What it does    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code><a class="el" href="policy__profile__cc_8h.html" title="Contains C API definitions for policy profile.">upe/policy_profile_cc.h</a></code> / <code><a class="el" href="policy__engine__cc_8h.html" title="Contains C API definitions for policy engine.">upe/policy_engine_cc.h</a></code>   </td><td class="markdownTableBodyNone">Profile/engine entry points.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code><a class="el" href="policy__handler__cc_8h.html" title="Contains C API definitions for policy handler.">upe/policy_handler_cc.h</a></code>   </td><td class="markdownTableBodyNone">Per-document policy decisions.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code><a class="el" href="label__cc_8h.html" title="Contains C API definitions for label.">upe/label_cc.h</a></code>   </td><td class="markdownTableBodyNone">A sensitivity label and its metadata.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code><a class="el" href="content__label__cc_8h.html" title="Contains C API definitions for content label.">upe/content_label_cc.h</a></code>   </td><td class="markdownTableBodyNone">The label currently applied to content.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code><a class="el" href="document__state__cc_8h.html" title="Describes document state when performing a label-related operation.">upe/document_state_cc.h</a></code> / <code><a class="el" href="application__action__state__cc_8h.html" title="Describes application state when performing a label-related operation.">upe/application_action_state_cc.h</a></code>   </td><td class="markdownTableBodyNone">Inputs supplied to the policy engine.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code><a class="el" href="sensitivity__type__cc_8h.html" title="Contains C API definitions for sensitivity type.">upe/sensitivity_type_cc.h</a></code>   </td><td class="markdownTableBodyNone">Classification sensitivity types.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code><a class="el" href="metadata__dictionary__cc_8h.html" title="Contains C API definitions for a metadata dictionary.">upe/metadata_dictionary_cc.h</a></code>   </td><td class="markdownTableBodyNone">Document metadata.   </td></tr>
+</table>
+<h3><a class="anchor" id="autotoc_md5"></a>
+Actions</h3>
+<p><code><a class="el" href="policy__handler__cc_8h.html" title="Contains C API definitions for policy handler.">policy_handler_cc.h</a></code> returns actions describing what your app should do.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Header   </th><th class="markdownTableHeadNone">When emitted    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code><a class="el" href="action__cc_8h.html" title="Contains C API definitions for label policy actions.">upe/action_cc.h</a></code> / <code><a class="el" href="action__result__cc_8h.html" title="A file containing definition of action result type.">upe/action_result_cc.h</a></code>   </td><td class="markdownTableBodyNone">Action base type and result.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code><a class="el" href="justify__action__cc_8h.html" title="Contains C API definitions for &quot;justify&quot; label policy action.">upe/justify_action_cc.h</a></code>   </td><td class="markdownTableBodyNone">Prompt the user for justification.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code><a class="el" href="metadata__action__cc_8h.html" title="Contains C API definitions for &quot;metadata&quot; label policy action.">upe/metadata_action_cc.h</a></code>   </td><td class="markdownTableBodyNone">Add or remove document metadata.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code><a class="el" href="protect__by__template__action__cc_8h.html" title="Contains C API definitions for &quot;protect by template&quot; label policy action.">upe/protect_by_template_action_cc.h</a></code> / <code><a class="el" href="protect__adhoc__action__cc_8h.html">upe/protect_adhoc_action_cc.h</a></code> / <code><a class="el" href="protect__do__not__forward__action__cc_8h.html" title="Contains C API definitions for &quot;protect do not forward&quot; label policy action.">upe/protect_do_not_forward_action_cc.h</a></code>   </td><td class="markdownTableBodyNone">Apply protection.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code><a class="el" href="add__watermark__action__cc_8h.html" title="Contains C API definitions for &quot;add watermark&quot; label policy action.">upe/add_watermark_action_cc.h</a></code> / <code><a class="el" href="add__content__header__action__cc_8h.html" title="Contains C API definitions for &quot;add content header&quot; label policy action.">upe/add_content_header_action_cc.h</a></code> / <code><a class="el" href="add__content__footer__action__cc_8h.html" title="Contains C API definitions for &quot;add content footer&quot; label policy action.">upe/add_content_footer_action_cc.h</a></code>   </td><td class="markdownTableBodyNone">Apply visual marking.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code><a class="el" href="remove__protection__action__cc_8h.html" title="Contains C API definitions for &quot;remove protection&quot; label policy action.">upe/remove_protection_action_cc.h</a></code> / <code><a class="el" href="remove__watermark__action__cc_8h.html" title="Contains C API definitions for &quot;remove watermark&quot; label policy action.">upe/remove_watermark_action_cc.h</a></code> / <code><a class="el" href="remove__content__header__action__cc_8h.html" title="Contains C API definitions for &quot;remove content header&quot; label policy action.">upe/remove_content_header_action_cc.h</a></code> / <code><a class="el" href="remove__content__footer__action__cc_8h.html" title="Contains C API definitions for &quot;remove content footer&quot; label policy action.">upe/remove_content_footer_action_cc.h</a></code>   </td><td class="markdownTableBodyNone">Remove existing markings/protection.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code><a class="el" href="custom__action__cc_8h.html" title="Contains C API definitions for custom label policy action.">upe/custom_action_cc.h</a></code>   </td><td class="markdownTableBodyNone">Tenant-defined custom action.   </td></tr>
+</table>
+<h3><a class="anchor" id="autotoc_md6"></a>
+Delegates &amp; callbacks</h3>
+<p>Implement these to extend or override SDK behavior.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Header   </th><th class="markdownTableHeadNone">Customizes    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code><a class="el" href="auth__callback__cc_8h.html" title="Defines auth callback functions.">auth_callback_cc.h</a></code>   </td><td class="markdownTableBodyNone">Authentication / token acquisition.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code><a class="el" href="consent__callback__cc_8h.html" title="Defines consent callback functions.">consent_callback_cc.h</a></code>   </td><td class="markdownTableBodyNone">User consent prompts.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code><a class="el" href="http__delegate__cc_8h.html" title="Defines HTTP callback functions.">http_delegate_cc.h</a></code>   </td><td class="markdownTableBodyNone">HTTP transport.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code><a class="el" href="logger__delegate__cc_8h.html" title="Defines logger callback functions.">logger_delegate_cc.h</a></code>   </td><td class="markdownTableBodyNone">Log routing.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code><a class="el" href="task__dispatcher__delegate__cc_8h.html" title="Defines task dispatcher callback functions.">task_dispatcher_delegate_cc.h</a></code>   </td><td class="markdownTableBodyNone">Background task scheduling.   </td></tr>
+</table>
+<h3><a class="anchor" id="autotoc_md7"></a>
+Errors &amp; common types</h3>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Header   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code><a class="el" href="error__cc_8h.html" title="Error definition and functions.">error_cc.h</a></code>   </td><td class="markdownTableBodyNone">Error codes and messages.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code><a class="el" href="result__cc_8h.html" title="Defines success/error result codes.">result_cc.h</a></code>   </td><td class="markdownTableBodyNone">Result envelope returned by SDK functions.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code><a class="el" href="common__types__cc_8h.html" title="A file Containing the common types used by the upe, file and protection modules.">common_types_cc.h</a></code>   </td><td class="markdownTableBodyNone">Shared enums and structs.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code><a class="el" href="string__list__cc_8h.html" title="Contains C API definitions for common string list.">string_list_cc.h</a></code> / <code><a class="el" href="dictionary__cc_8h.html" title="Contains C API definitions for common string dictionary.">dictionary_cc.h</a></code>   </td><td class="markdownTableBodyNone">Utility containers.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code><a class="el" href="stream__cc_8h.html" title="Defines stream callback functions.">stream_cc.h</a></code> / <code><a class="el" href="editable__stream__cc_8h.html" title="Defines editable stream callback functions.">editable_stream_cc.h</a></code>   </td><td class="markdownTableBodyNone">Byte streams.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><code><a class="el" href="dynamic__watermark__cc_8h.html">dynamic_watermark_cc.h</a></code>   </td><td class="markdownTableBodyNone">Watermark configuration.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><code><a class="el" href="mip__macros__cc_8h.html" title="Export/import and other macros for C API.">mip_macros_cc.h</a></code>   </td><td class="markdownTableBodyNone">Compile-time macros.   </td></tr>
+</table>
+<hr  />
+<p><em>Generated by Doxygen from the SDK headers. To edit this overview, change <code><a class="el" href="mainpage-c_8md.html">doxygen/mainpage-c.md</a></code> in the <a href="https://github.com/MicrosoftDocs/mip-sdk-docs-gen">mip-sdk-docs-gen</a> repo.</em> </p>
 </div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

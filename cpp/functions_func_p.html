@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -102,19 +142,39 @@ $(function(){initNavTree('functions_func_p.html',''); initResizable(true); });
 <h3><a id="index_p" name="index_p"></a>- p -</h3><ul>
 <li>Parse()&#160;:&#160;<a class="el" href="classJsonDelegate.html#a6f94c40c1a5d808acac4d06b51bcc53b">JsonDelegate</a></li>
 <li>ParseData()&#160;:&#160;<a class="el" href="classxml_1_1XmlDelegate.html#acd2b97c0c9a0a36a3a01a9bd8a39a9a2">xml::XmlDelegate</a></li>
+<li>ParsedPublishingLicense()&#160;:&#160;<a class="el" href="classParsedPublishingLicense.html#a79bb6b96be5b335ff7279b04d6a828de">ParsedPublishingLicense</a></li>
+<li>ParsedPublishingLicenseBuilder()&#160;:&#160;<a class="el" href="classParsedPublishingLicenseBuilder.html#af1e5675d4d947a7487beaa7823f4082d">ParsedPublishingLicenseBuilder</a></li>
+<li>PolicyEngine()&#160;:&#160;<a class="el" href="classPolicyEngine.html#ab28eba211a4d2073ea00dff82b717d0f">PolicyEngine</a></li>
+<li>PolicyProfile()&#160;:&#160;<a class="el" href="classPolicyProfile.html#a446c665bf11e42cce5bd35438b02d988">PolicyProfile</a></li>
 <li>Position()&#160;:&#160;<a class="el" href="classStream.html#a51a308fa578f375f5bbd336c711d2fe9">Stream</a></li>
+<li>PrivilegedRequiredError()&#160;:&#160;<a class="el" href="classPrivilegedRequiredError.html#a17a28475193646fb7fa8680d4a203588">PrivilegedRequiredError</a></li>
+<li>ProtectAdhocAction()&#160;:&#160;<a class="el" href="classProtectAdhocAction.html#a1e69208ada16370530f9a6278df0beb5">ProtectAdhocAction</a></li>
+<li>ProtectAdhocDkAction()&#160;:&#160;<a class="el" href="classProtectAdhocDkAction.html#ad43d7c4e980542e9e9f4f511774002d8">ProtectAdhocDkAction</a></li>
+<li>ProtectByEncryptOnlyAction()&#160;:&#160;<a class="el" href="classProtectByEncryptOnlyAction.html#a23419420c55475a3de2e821496bd4a80">ProtectByEncryptOnlyAction</a></li>
+<li>ProtectByTemplateAction()&#160;:&#160;<a class="el" href="classProtectByTemplateAction.html#a38ec604e170af442ed3e84ed952a7a6d">ProtectByTemplateAction</a></li>
+<li>ProtectDoNotForwardAction()&#160;:&#160;<a class="el" href="classProtectDoNotForwardAction.html#ac0bf2c9261893baa30a967be41e95aca">ProtectDoNotForwardAction</a></li>
+<li>ProtectDoNotForwardDkAction()&#160;:&#160;<a class="el" href="classProtectDoNotForwardDkAction.html#a1cde2b46c6489c251d98d7e91a20d36e">ProtectDoNotForwardDkAction</a></li>
 <li>ProtectionCommonSettings()&#160;:&#160;<a class="el" href="classProtectionCommonSettings.html#a7bdb4890d63f2354282ccb380e0e3270">ProtectionCommonSettings</a></li>
+<li>ProtectionDescriptor()&#160;:&#160;<a class="el" href="classProtectionDescriptor.html#ad039ed4edd37db33c76cfb3f0a8ac7ed">ProtectionDescriptor</a></li>
+<li>ProtectionDescriptorBuilder()&#160;:&#160;<a class="el" href="classProtectionDescriptorBuilder.html#a4c5119b373c191e96e841a3e6829ee1e">ProtectionDescriptorBuilder</a></li>
+<li>ProtectionEngine()&#160;:&#160;<a class="el" href="classProtectionEngine.html#a3ba5b3178ba54ba9fd1e31b782fa9991">ProtectionEngine</a></li>
 <li>ProtectionSettings()&#160;:&#160;<a class="el" href="classProtectionSettings.html#a298f7c7525296aed7d6ff2cf521cd191">ProtectionSettings</a></li>
+<li>ProxyAuthenticationError()&#160;:&#160;<a class="el" href="classProxyAuthenticationError.html#a267dab0bca14849d5cc8395f074adc07">ProxyAuthenticationError</a></li>
 <li>PublishingLicenseInfo()&#160;:&#160;<a class="el" href="classPublishingLicenseInfo.html#af62e78799e0bc15f4c8f60064760fa50">PublishingLicenseInfo</a></li>
 <li>PublishingSettings()&#160;:&#160;<a class="el" href="classProtectionHandler_1_1PublishingSettings.html#a6c2e5d1c021fc3109b5de0c76f2cd004">ProtectionHandler::PublishingSettings</a></li>
+<li>PublishingUseLicenseRequest()&#160;:&#160;<a class="el" href="classPublishingUseLicenseRequest.html#a99f671dc114520016e7ad03ff3a57b94">PublishingUseLicenseRequest</a></li>
 <li>PushBack()&#160;:&#160;<a class="el" href="classJsonValue.html#a515e5e916befeffc5b84a27ae0276019">JsonValue</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

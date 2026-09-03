@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -114,19 +154,19 @@ $(function(){initNavTree('stream__utils_8h.html',''); initResizable(true); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3770bf1b09c2f55aabc8e76ed6e0e392" id="r_a3770bf1b09c2f55aabc8e76ed6e0e392"><td class="memItemLeft" align="right" valign="top">MIP_API std::shared_ptr&lt; mip::Stream &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3770bf1b09c2f55aabc8e76ed6e0e392">CreateStreamFromStdStream</a> (const std::shared_ptr&lt; std::istream &gt; &amp;stdIStream)</td></tr>
+<tr class="memitem:a3770bf1b09c2f55aabc8e76ed6e0e392" id="r_a3770bf1b09c2f55aabc8e76ed6e0e392"><td class="memItemLeft" align="right" valign="top"><a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; mip::Stream &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3770bf1b09c2f55aabc8e76ed6e0e392">CreateStreamFromStdStream</a> (const std::shared_ptr&lt; std::istream &gt; &amp;stdIStream)</td></tr>
 <tr class="memdesc:a3770bf1b09c2f55aabc8e76ed6e0e392"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classStream.html" title="A class that defines the interface between the MIP SDK and stream-based content.">Stream</a> from a std::istream.  <br /></td></tr>
 <tr class="separator:a3770bf1b09c2f55aabc8e76ed6e0e392"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbd7ed3ef1b3220b96a8cb9d8addd059" id="r_afbd7ed3ef1b3220b96a8cb9d8addd059"><td class="memItemLeft" align="right" valign="top">MIP_API std::shared_ptr&lt; mip::Stream &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbd7ed3ef1b3220b96a8cb9d8addd059">CreateStreamFromStdStream</a> (const std::shared_ptr&lt; std::ostream &gt; &amp;stdOStream)</td></tr>
+<tr class="memitem:afbd7ed3ef1b3220b96a8cb9d8addd059" id="r_afbd7ed3ef1b3220b96a8cb9d8addd059"><td class="memItemLeft" align="right" valign="top"><a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; mip::Stream &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbd7ed3ef1b3220b96a8cb9d8addd059">CreateStreamFromStdStream</a> (const std::shared_ptr&lt; std::ostream &gt; &amp;stdOStream)</td></tr>
 <tr class="memdesc:afbd7ed3ef1b3220b96a8cb9d8addd059"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classStream.html" title="A class that defines the interface between the MIP SDK and stream-based content.">Stream</a> from a std::ostream.  <br /></td></tr>
 <tr class="separator:afbd7ed3ef1b3220b96a8cb9d8addd059"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a603b7212b7d7149922bac0cc880c4c98" id="r_a603b7212b7d7149922bac0cc880c4c98"><td class="memItemLeft" align="right" valign="top">MIP_API std::shared_ptr&lt; mip::Stream &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a603b7212b7d7149922bac0cc880c4c98">CreateStreamFromStdStream</a> (const std::shared_ptr&lt; std::iostream &gt; &amp;stdIOStream)</td></tr>
+<tr class="memitem:a603b7212b7d7149922bac0cc880c4c98" id="r_a603b7212b7d7149922bac0cc880c4c98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; mip::Stream &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a603b7212b7d7149922bac0cc880c4c98">CreateStreamFromStdStream</a> (const std::shared_ptr&lt; std::iostream &gt; &amp;stdIOStream)</td></tr>
 <tr class="memdesc:a603b7212b7d7149922bac0cc880c4c98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classStream.html" title="A class that defines the interface between the MIP SDK and stream-based content.">Stream</a> from a std::iostream.  <br /></td></tr>
 <tr class="separator:a603b7212b7d7149922bac0cc880c4c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19ce32783071c950cd6b543beb030685" id="r_a19ce32783071c950cd6b543beb030685"><td class="memItemLeft" align="right" valign="top">MIP_API std::shared_ptr&lt; mip::Stream &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19ce32783071c950cd6b543beb030685">CreateStreamFromBuffer</a> (uint8_t *buffer, const int64_t size)</td></tr>
+<tr class="memitem:a19ce32783071c950cd6b543beb030685" id="r_a19ce32783071c950cd6b543beb030685"><td class="memItemLeft" align="right" valign="top"><a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; mip::Stream &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19ce32783071c950cd6b543beb030685">CreateStreamFromBuffer</a> (uint8_t *buffer, const int64_t size)</td></tr>
 <tr class="memdesc:a19ce32783071c950cd6b543beb030685"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classStream.html" title="A class that defines the interface between the MIP SDK and stream-based content.">Stream</a> from a buffer.  <br /></td></tr>
 <tr class="separator:a19ce32783071c950cd6b543beb030685"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3cbf4d16cb434bad893029e8d23aff2" id="r_ab3cbf4d16cb434bad893029e8d23aff2"><td class="memItemLeft" align="right" valign="top">MIP_API std::vector&lt; uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3cbf4d16cb434bad893029e8d23aff2">ReadFromStream</a> (const std::shared_ptr&lt; mip::Stream &gt; &amp;stream)</td></tr>
+<tr class="memitem:ab3cbf4d16cb434bad893029e8d23aff2" id="r_ab3cbf4d16cb434bad893029e8d23aff2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::vector&lt; uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3cbf4d16cb434bad893029e8d23aff2">ReadFromStream</a> (const std::shared_ptr&lt; mip::Stream &gt; &amp;stream)</td></tr>
 <tr class="memdesc:ab3cbf4d16cb434bad893029e8d23aff2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read all the bytes of stream.  <br /></td></tr>
 <tr class="separator:ab3cbf4d16cb434bad893029e8d23aff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -138,7 +178,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MIP_API std::shared_ptr&lt; mip::Stream &gt; CreateStreamFromBuffer </td>
+          <td class="memname"><a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; mip::Stream &gt; CreateStreamFromBuffer </td>
           <td>(</td>
           <td class="paramtype">uint8_t *</td>          <td class="paramname"><span class="paramname"><em>buffer</em></span>, </td>
         </tr>
@@ -168,7 +208,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MIP_API std::shared_ptr&lt; mip::Stream &gt; CreateStreamFromStdStream </td>
+          <td class="memname"><a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; mip::Stream &gt; CreateStreamFromStdStream </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; std::iostream &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>stdIOStream</em></span></td><td>)</td>
           <td></td>
@@ -194,7 +234,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MIP_API std::shared_ptr&lt; mip::Stream &gt; CreateStreamFromStdStream </td>
+          <td class="memname"><a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; mip::Stream &gt; CreateStreamFromStdStream </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; std::istream &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>stdIStream</em></span></td><td>)</td>
           <td></td>
@@ -220,7 +260,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MIP_API std::shared_ptr&lt; mip::Stream &gt; CreateStreamFromStdStream </td>
+          <td class="memname"><a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; mip::Stream &gt; CreateStreamFromStdStream </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; std::ostream &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>stdOStream</em></span></td><td>)</td>
           <td></td>
@@ -246,7 +286,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MIP_API std::vector&lt; uint8_t &gt; ReadFromStream </td>
+          <td class="memname"><a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::vector&lt; uint8_t &gt; ReadFromStream </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; mip::Stream &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span></td><td>)</td>
           <td></td>
@@ -267,11 +307,15 @@ Functions</h2></td></tr>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ed23b7e0ff82d04a8565e406d9d9df9a.html">mip-sdk-for-cpp</a></li><li class="navelem"><a class="el" href="dir_5a92ca31a1d1cd11ee59a3526a96cc89.html">src</a></li><li class="navelem"><a class="el" href="dir_e50a1d5d74e01fc8d143b32c54f27ce0.html">api</a></li><li class="navelem"><a class="el" href="dir_8430260fe83f04f5d27761956506c721.html">mip</a></li><li class="navelem"><a class="el" href="stream__utils_8h.html">stream_utils.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

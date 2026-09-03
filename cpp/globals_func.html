@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -99,52 +139,47 @@ $(function(){initNavTree('globals_func.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock">Here is a list of all functions with links to the files they belong to:</div>
 
-<h3><a id="index_a" name="index_a"></a>- a -</h3><ul>
-<li>AcquireAuthToken()&#160;:&#160;<a class="el" href="policy__profile_8h.html#afd78d7e218b04dfcde377325862507b3">policy_profile.h</a></li>
-<li>AddEngine()&#160;:&#160;<a class="el" href="policy__profile_8h.html#a5fcee0d4c57f6358724a2855b17ad876">policy_profile.h</a></li>
-<li>AddEngineAsync()&#160;:&#160;<a class="el" href="policy__profile_8h.html#aeaa3ce8b7c2a260569b166273aa361b5">policy_profile.h</a></li>
-</ul>
-
-
 <h3><a id="index_c" name="index_c"></a>- c -</h3><ul>
+<li>ContainerDecryptionOptionString()&#160;:&#160;<a class="el" href="common__types_8h.html#ac4a49c6a1985983e36a6ddeb085c6535">common_types.h</a></li>
 <li>CreateStreamFromBuffer()&#160;:&#160;<a class="el" href="stream__utils_8h.html#a19ce32783071c950cd6b543beb030685">stream_utils.h</a></li>
 <li>CreateStreamFromStdStream()&#160;:&#160;<a class="el" href="stream__utils_8h.html#a3770bf1b09c2f55aabc8e76ed6e0e392">stream_utils.h</a></li>
-</ul>
-
-
-<h3><a id="index_d" name="index_d"></a>- d -</h3><ul>
-<li>DeleteEngine()&#160;:&#160;<a class="el" href="policy__profile_8h.html#acf510ebec5feed1e8fe403b195157d10">policy_profile.h</a></li>
-<li>DeleteEngineAsync()&#160;:&#160;<a class="el" href="policy__profile_8h.html#a76847b9f732489a279f2229b0dee2da4">policy_profile.h</a></li>
 </ul>
 
 
 <h3><a id="index_g" name="index_g"></a>- g -</h3><ul>
 <li>GetActionSourceString()&#160;:&#160;<a class="el" href="common__types_8h.html#a8ff2be45682709f949c5f64eb584e81b">common_types.h</a></li>
 <li>GetAssignmentMethodString()&#160;:&#160;<a class="el" href="common__types_8h.html#aaf334c0d9676d0830b6065d944d77d6f">common_types.h</a></li>
+<li>GetCustomSettingContainerDecryptionOption()&#160;:&#160;<a class="el" href="common__types_8h.html#ac1c8ff0f3079931249744e07cde7f5a8">common_types.h</a></li>
+<li>GetCustomSettingDelegateApplicationInfo()&#160;:&#160;<a class="el" href="common__types_8h.html#a94025820ddf86ad53adc91ba51f3d858">common_types.h</a></li>
+<li>GetCustomSettingDnsInfoTtlDays()&#160;:&#160;<a class="el" href="common__types_8h.html#a3afee73a36b02931897424ae7f31a9a4">common_types.h</a></li>
+<li>GetCustomSettingEnableCoAuthMetadata()&#160;:&#160;<a class="el" href="common__types_8h.html#a2ee69337063066991092d724565fa4fb">common_types.h</a></li>
+<li>GetCustomSettingEnableDeprecatedRemoveActions()&#160;:&#160;<a class="el" href="common__types_8h.html#acfddfb447f63fa6dbdc9ac1a54baa115">common_types.h</a></li>
+<li>GetCustomSettingEnableEmlFileType()&#160;:&#160;<a class="el" href="common__types_8h.html#a23c8673d63275ee49a093f7cbfd78ccb">common_types.h</a></li>
+<li>GetCustomSettingEnableMsgFileType()&#160;:&#160;<a class="el" href="common__types_8h.html#a39f80fa412a20fc3621585dd5135a3ef">common_types.h</a></li>
+<li>GetCustomSettingEnablePowerBIFileType()&#160;:&#160;<a class="el" href="common__types_8h.html#a184a45d185515b1148d2de2088295beb">common_types.h</a></li>
 <li>GetCustomSettingExportPolicyFileName()&#160;:&#160;<a class="el" href="common__types_8h.html#af59a67ede3e4a2c51520c50239087bee">common_types.h</a></li>
+<li>GetCustomSettingKeepPdfLinearization()&#160;:&#160;<a class="el" href="common__types_8h.html#afce8a61798489f23f329f345a255fb23">common_types.h</a></li>
 <li>GetCustomSettingLabelCustomPropertiesSyncEnabled()&#160;:&#160;<a class="el" href="common__types_8h.html#ad510b346e408710c5c3eabf7899c7a88">common_types.h</a></li>
+<li>GetCustomSettingLabelsForAllContentFormats()&#160;:&#160;<a class="el" href="common__types_8h.html#a2a8ee438700974c999de997595c573c0">common_types.h</a></li>
+<li>GetCustomSettingLabelWithoutPolicy()&#160;:&#160;<a class="el" href="common__types_8h.html#af4877d13bb9f7156fc35c70903f126d6">common_types.h</a></li>
+<li>GetCustomSettingMaxFileSizeForProtection()&#160;:&#160;<a class="el" href="common__types_8h.html#a09cfa75348ce25e7fecdf6d198801a5a">common_types.h</a></li>
+<li>GetCustomSettingMaxNestedProtectedMsgs()&#160;:&#160;<a class="el" href="common__types_8h.html#a323f44ca7938de8269034efda9267135">common_types.h</a></li>
+<li>GetCustomSettingMaxPolicyXmlVersion()&#160;:&#160;<a class="el" href="common__types_8h.html#ac79e8354667ce8e5ef006ce5bf078a10">common_types.h</a></li>
 <li>GetCustomSettingPolicyDataFile()&#160;:&#160;<a class="el" href="common__types_8h.html#a8b6764293d9c50487680c1bd15d20482">common_types.h</a></li>
 <li>GetCustomSettingPolicyDataName()&#160;:&#160;<a class="el" href="common__types_8h.html#a2a14e789ffb1edce3c9483d76a380078">common_types.h</a></li>
 <li>GetCustomSettingPolicyTtlDays()&#160;:&#160;<a class="el" href="common__types_8h.html#a933bb1c46478c22393d3c656cbe71113">common_types.h</a></li>
+<li>GetCustomSettingPrintDiscoveredInfoTypesToTrace()&#160;:&#160;<a class="el" href="common__types_8h.html#ace2cdce01a0ae8122a5fce0f45da88c0">common_types.h</a></li>
 <li>GetCustomSettingSensitivityPolicyTtlDays()&#160;:&#160;<a class="el" href="common__types_8h.html#a3927dba1e1ea9f2062b3b50e62fbc1fd">common_types.h</a></li>
 <li>GetCustomSettingSensitivityTypesDataFile()&#160;:&#160;<a class="el" href="common__types_8h.html#a9d32f644b584a655e89bab25db73616d">common_types.h</a></li>
 <li>GetCustomSettingSensitivityTypesDataName()&#160;:&#160;<a class="el" href="common__types_8h.html#a07fb685a8759d11da708ff337f5b5ac9">common_types.h</a></li>
+<li>GetCustomSettingTaskTimeoutMs()&#160;:&#160;<a class="el" href="common__types_8h.html#aa4a2f4ae8bae595309ebf2e832ef660f">common_types.h</a></li>
 <li>GetDataStateString()&#160;:&#160;<a class="el" href="common__types_8h.html#a83d2cb0c99939d5f71d60ed803930bb8">common_types.h</a></li>
 <li>GetDefaultFeatureSettings()&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a86e976962ef2f547436d8cd1355fb718">flighting_feature.h</a></li>
 <li>GetEmailContentFormat()&#160;:&#160;<a class="el" href="common__types_8h.html#ae55645502d15520b764d93cd64950230">common_types.h</a></li>
+<li>GetEnforceMsgPfileProtection()&#160;:&#160;<a class="el" href="common__types_8h.html#a23d66017f99968fd03c2c2478d9e631d">common_types.h</a></li>
 <li>GetFileContentFormat()&#160;:&#160;<a class="el" href="common__types_8h.html#a3b66cf03f735a098eb23da882133cf39">common_types.h</a></li>
 <li>GetMemoryDatabasePath()&#160;:&#160;<a class="el" href="common__types_8h.html#a7f30f679d84c94bb76e9bee774b3ff9b">common_types.h</a></li>
-<li>GetSettings()&#160;:&#160;<a class="el" href="policy__profile_8h.html#a5d6ec49bb604047ab133cc2829c241ad">policy_profile.h</a></li>
 <li>GetSqliteExtension()&#160;:&#160;<a class="el" href="common__types_8h.html#a069a1611cbaf951f35ea1e89c8fb88bd">common_types.h</a></li>
-<li>GetVersion()&#160;:&#160;<a class="el" href="policy__profile_8h.html#a5c95e2dff00a188ef26519f8e63e8774">policy_profile.h</a></li>
-</ul>
-
-
-<h3><a id="index_l" name="index_l"></a>- l -</h3><ul>
-<li>ListEngines()&#160;:&#160;<a class="el" href="policy__profile_8h.html#adae51ad36d31a31a5f06c2dbd974d170">policy_profile.h</a></li>
-<li>ListEnginesAsync()&#160;:&#160;<a class="el" href="policy__profile_8h.html#a1e1d7fc8e0bf8c91886cbd745c6b75e0">policy_profile.h</a></li>
-<li>Load()&#160;:&#160;<a class="el" href="policy__profile_8h.html#a21fde4ebba15ece5c33d80d50c89cfc3">policy_profile.h</a></li>
-<li>LoadAsync()&#160;:&#160;<a class="el" href="policy__profile_8h.html#aa2a33b1c6496b5b5b6dbf400b854ba4a">policy_profile.h</a></li>
 </ul>
 
 
@@ -159,18 +194,16 @@ $(function(){initNavTree('globals_func.html',''); initResizable(true); });
 <h3><a id="index_r" name="index_r"></a>- r -</h3><ul>
 <li>ReadFromStream()&#160;:&#160;<a class="el" href="stream__utils_8h.html#ab3cbf4d16cb434bad893029e8d23aff2">stream_utils.h</a></li>
 </ul>
-
-
-<h3><a id="index_u" name="index_u"></a>- u -</h3><ul>
-<li>UnloadEngine()&#160;:&#160;<a class="el" href="policy__profile_8h.html#aa2cfffaff79244f9c3f436d75d1375a5">policy_profile.h</a></li>
-<li>UnloadEngineAsync()&#160;:&#160;<a class="el" href="policy__profile_8h.html#a7c1dfdd10331b296cb94b64d5350d1a9">policy_profile.h</a></li>
-</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

@@ -1,5 +1,7 @@
 var classExecutionState =
 [
+    [ "~ExecutionState", "classExecutionState.html#a91762ff7e07a04703f41064ca9ac6ed8", null ],
+    [ "ExecutionState", "classExecutionState.html#af12ec596f8808bf0e5d6be40139d36ca", null ],
     [ "GetApplicationScenarioId", "classExecutionState.html#a60141d2a6c08de24c8d7618a21976df0", null ],
     [ "GetAuditMetadata", "classExecutionState.html#af3ca4b952be8d9f10dc94e9c6854717d", null ],
     [ "GetClassificationResults", "classExecutionState.html#a0b12e701fc0e9635754ded5cc06af99d", null ],

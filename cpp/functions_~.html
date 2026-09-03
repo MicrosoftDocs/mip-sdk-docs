@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -100,35 +140,133 @@ $(function(){initNavTree('functions_~.html',''); initResizable(true); });
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a id="index__7E" name="index__7E"></a>- ~ -</h3><ul>
+<li>~Action()&#160;:&#160;<a class="el" href="classAction.html#abcf4c6358f53a666631ace11b325a7cd">Action</a></li>
 <li>~ActionData()&#160;:&#160;<a class="el" href="classActionData.html#ad26f0ce70e0e397572dce0c87af1665a">ActionData</a></li>
+<li>~AddContentFooterAction()&#160;:&#160;<a class="el" href="classAddContentFooterAction.html#abe4214c5eb619d19d9f05dbfe60eda71">AddContentFooterAction</a></li>
+<li>~AddContentHeaderAction()&#160;:&#160;<a class="el" href="classAddContentHeaderAction.html#a1d6e39f4e7a3f9466bea4e94a10b85ab">AddContentHeaderAction</a></li>
 <li>~AddDynamicWatermarkActionData()&#160;:&#160;<a class="el" href="classAddDynamicWatermarkActionData.html#a796cc273c540d3f5d96bf913c1cf6776">AddDynamicWatermarkActionData</a></li>
+<li>~AddWatermarkAction()&#160;:&#160;<a class="el" href="classAddWatermarkAction.html#acccbf0616d97c219544ed78c030ca039">AddWatermarkAction</a></li>
 <li>~AddWatermarkActionData()&#160;:&#160;<a class="el" href="classAddWatermarkActionData.html#a54f1796687094f5a043eb6faf14c0a01">AddWatermarkActionData</a></li>
+<li>~ApplicationActionState()&#160;:&#160;<a class="el" href="classApplicationActionState.html#a83a529c20f392e8b4347f39de3c94ff4">ApplicationActionState</a></li>
+<li>~ApplyLabelAction()&#160;:&#160;<a class="el" href="classApplyLabelAction.html#abb617f722bccce8f0326dadda73aee6c">ApplyLabelAction</a></li>
 <li>~ArgumentData()&#160;:&#160;<a class="el" href="classArgumentData.html#a72af8e74dc968221f66df2112b3d8a79">ArgumentData</a></li>
+<li>~AsyncControl()&#160;:&#160;<a class="el" href="classAsyncControl.html#a610c7c3e50628703172b35d5719257cb">AsyncControl</a></li>
+<li>~AuditDelegate()&#160;:&#160;<a class="el" href="classAuditDelegate.html#ac5953d32d9cae829dcc2a450098cf0a1">AuditDelegate</a></li>
+<li>~AuditEvent()&#160;:&#160;<a class="el" href="classAuditEvent.html#ad4dced325cc744eed3e36c3d07d2b9d3">AuditEvent</a></li>
+<li>~AuthDelegate()&#160;:&#160;<a class="el" href="classAuthDelegate.html#afe30e7a4f27c686022e4db062e82b0db">AuthDelegate</a></li>
 <li>~ClassificationData()&#160;:&#160;<a class="el" href="classClassificationData.html#a6e8114d0e22b9973a65470503739f5d5">ClassificationData</a></li>
+<li>~ClassificationRequest()&#160;:&#160;<a class="el" href="classClassificationRequest.html#acdeaf070c47406e003cd0795453a1fc2">ClassificationRequest</a></li>
+<li>~ClassificationResult()&#160;:&#160;<a class="el" href="classClassificationResult.html#a95ef40d5538aa3117b383789ca830b74">ClassificationResult</a></li>
+<li>~CloudDiscoveryDelegate()&#160;:&#160;<a class="el" href="classCloudDiscoveryDelegate.html#aa6b316abe0f62631327ae65fc4a19e8e">CloudDiscoveryDelegate</a></li>
 <li>~ComputeEngine()&#160;:&#160;<a class="el" href="classComputeEngine.html#ac14aaf858b026b2968954a3c9aced42b">ComputeEngine</a></li>
 <li>~ComputeEngineContext()&#160;:&#160;<a class="el" href="classComputeEngineContext.html#a0c307deaa724562efb4b3d3158623c64">ComputeEngineContext</a></li>
 <li>~ConditionData()&#160;:&#160;<a class="el" href="classConditionData.html#af015a764d5682d12621e7a7bac5bff3f">ConditionData</a></li>
+<li>~ConsentDelegate()&#160;:&#160;<a class="el" href="classConsentDelegate.html#a8047fda256d78109eb101c3bf6b8ddd7">ConsentDelegate</a></li>
+<li>~ContentLabel()&#160;:&#160;<a class="el" href="classContentLabel.html#ae7de4c0d8ac0de3f971e8c9945725b01">ContentLabel</a></li>
 <li>~ContentMarkingActionData()&#160;:&#160;<a class="el" href="classContentMarkingActionData.html#ac8f16746d498175e8a5bde255f10ba2c">ContentMarkingActionData</a></li>
+<li>~CustomAction()&#160;:&#160;<a class="el" href="classCustomAction.html#aa258952425adce6a83b44526bb4e4564">CustomAction</a></li>
+<li>~DelegateResponse()&#160;:&#160;<a class="el" href="classDelegateResponse.html#a8f7e6070fc1cd12dcff37261161d10ae">DelegateResponse&lt; T &gt;</a></li>
+<li>~DelegationLicense()&#160;:&#160;<a class="el" href="classDelegationLicense.html#a40e1a1ef0383847f412662568c416329">DelegationLicense</a></li>
+<li>~DelegationLicenseSettings()&#160;:&#160;<a class="el" href="classDelegationLicenseSettings.html#a851747151eb3b2af1aa72143ec9f5e8e">DelegationLicenseSettings</a></li>
+<li>~DetailedClassificationResult()&#160;:&#160;<a class="el" href="classDetailedClassificationResult.html#a98bef72eef588cf367d7be2adffff6cf">DetailedClassificationResult</a></li>
+<li>~DiagnosticDelegate()&#160;:&#160;<a class="el" href="classDiagnosticDelegate.html#a747095882edbb19f2e4789c256e51dc4">DiagnosticDelegate&lt; T &gt;</a></li>
+<li>~DocumentState()&#160;:&#160;<a class="el" href="classDocumentState.html#ad70146c15ad283af11b416fb6a536ee2">DocumentState</a></li>
+<li>~DynamicWatermark()&#160;:&#160;<a class="el" href="classDynamicWatermark.html#a241afada294ded3273fe014997915065">DynamicWatermark</a></li>
+<li>~Error()&#160;:&#160;<a class="el" href="classError.html#aadd4b7cb712e1322ec3da4a4d9af6460">Error</a></li>
+<li>~Event()&#160;:&#160;<a class="el" href="classEvent.html#ab864fd85c758006c42cd7a1b3369b483">Event</a></li>
+<li>~EventContext()&#160;:&#160;<a class="el" href="classEventContext.html#a68c31452c8132be22622bb8a231863c4">EventContext</a></li>
+<li>~EventProperty()&#160;:&#160;<a class="el" href="classEventProperty.html#a018dfa0fae73a9557bfad4eb50e05dbc">EventProperty</a></li>
+<li>~ExecutionState()&#160;:&#160;<a class="el" href="classExecutionState.html#a91762ff7e07a04703f41064ca9ac6ed8">ExecutionState</a></li>
+<li>~FileEngine()&#160;:&#160;<a class="el" href="classFileEngine.html#a3098f510a944bfd4a9efb9a99d309a7d">FileEngine</a></li>
+<li>~FileExecutionState()&#160;:&#160;<a class="el" href="classFileExecutionState.html#a8eb7aefc35d563b0db92de5209f67143">FileExecutionState</a></li>
+<li>~FileHandler()&#160;:&#160;<a class="el" href="classFileHandler.html#a7763aaf84828a6eaaa5f14daca6b0797">FileHandler</a></li>
+<li>~FileInspector()&#160;:&#160;<a class="el" href="classFileInspector.html#a3aeea281e933477d0b08403fdd22eea9">FileInspector</a></li>
+<li>~FileProfile()&#160;:&#160;<a class="el" href="classFileProfile.html#a9bb1ba6cca19a1eff4d79b61ba410ead">FileProfile</a></li>
+<li>~FileStatus()&#160;:&#160;<a class="el" href="classFileStatus.html#ae0e5b8fb955cc9f6f64df2084360667b">FileStatus</a></li>
+<li>~GetTemplatesSettings()&#160;:&#160;<a class="el" href="classGetTemplatesSettings.html#a4005d966268cb894ef0bc8ed19ca5f95">GetTemplatesSettings</a></li>
+<li>~HttpDelegate()&#160;:&#160;<a class="el" href="classHttpDelegate.html#a1f508809bd7c06f3fe95f4217dc0ed83">HttpDelegate</a></li>
+<li>~HttpOperation()&#160;:&#160;<a class="el" href="classHttpOperation.html#aa292067918f5f7c34075e0207677e028">HttpOperation</a></li>
+<li>~HttpRequest()&#160;:&#160;<a class="el" href="classHttpRequest.html#a1724291d6b6a9be5220646c30e050a41">HttpRequest</a></li>
+<li>~HttpResponse()&#160;:&#160;<a class="el" href="classHttpResponse.html#ab2018e1e1341a0347e64269887414973">HttpResponse</a></li>
+<li>~JsonDelegate()&#160;:&#160;<a class="el" href="classJsonDelegate.html#a37a85c18c8569d83ee215bdcbe0557f9">JsonDelegate</a></li>
+<li>~JsonDocument()&#160;:&#160;<a class="el" href="classJsonDocument.html#a329df3bf1eedd0be3675f5d331d4f639">JsonDocument</a></li>
+<li>~JsonValue()&#160;:&#160;<a class="el" href="classJsonValue.html#a71b2f75c1b828c51789b398ac762b3ff">JsonValue</a></li>
+<li>~JustifyAction()&#160;:&#160;<a class="el" href="classJustifyAction.html#aaf516477d3d43f8978d150278e088bc7">JustifyAction</a></li>
+<li>~Label()&#160;:&#160;<a class="el" href="classLabel.html#ae0405d591a2ff63c03b104435e2a3066">Label</a></li>
 <li>~LabelActionData()&#160;:&#160;<a class="el" href="classLabelActionData.html#a2c64adec7ea1e356ce452566944673da">LabelActionData</a></li>
 <li>~LabelGroupData()&#160;:&#160;<a class="el" href="classLabelGroupData.html#abc6d6b9a179d8904eb1277d09e91a899">LabelGroupData</a></li>
+<li>~LicenseApplicationData()&#160;:&#160;<a class="el" href="classLicenseApplicationData.html#a6e2d2bfee0899846621ea4c1f2de9712">LicenseApplicationData</a></li>
+<li>~LicenseConnectionInfo()&#160;:&#160;<a class="el" href="classLicenseConnectionInfo.html#ab3a60417c817ff12f94c522ebeb4fccc">LicenseConnectionInfo</a></li>
+<li>~LicenseDescriptor()&#160;:&#160;<a class="el" href="classLicenseDescriptor.html#a84853097f31ba910723dd7f69c5f9741">LicenseDescriptor</a></li>
+<li>~LicenseNameAndDescriptionItem()&#160;:&#160;<a class="el" href="classLicenseNameAndDescriptionItem.html#a392a914e1dbc9ca543cd20df32fc029f">LicenseNameAndDescriptionItem</a></li>
+<li>~LoggerDelegate()&#160;:&#160;<a class="el" href="classLoggerDelegate.html#ad8a7f4f04617d8a4abcbf0eee0f8fe57">LoggerDelegate</a></li>
+<li>~MetadataAction()&#160;:&#160;<a class="el" href="classMetadataAction.html#a789ab743d8cf675c8de6381253404c6c">MetadataAction</a></li>
+<li>~MetadataEntry()&#160;:&#160;<a class="el" href="classMetadataEntry.html#a321d37900bf902c28f571bce43468569">MetadataEntry</a></li>
+<li>~MetadataVersion()&#160;:&#160;<a class="el" href="classMetadataVersion.html#a39bdfcdee7269c8c7c2a88b9197fc571">MetadataVersion</a></li>
 <li>~MipConfiguration()&#160;:&#160;<a class="el" href="classMipConfiguration.html#a8054fbe6cfe363e3c4e8b61498f72f61">MipConfiguration</a></li>
-<li>~Observer()&#160;:&#160;<a class="el" href="classFileProfile_1_1Observer.html#ab7b47df2e88baded88569936d43b36c7">FileProfile::Observer</a></li>
+<li>~MipContext()&#160;:&#160;<a class="el" href="classMipContext.html#a5043ed2162ef91deb4647c56710668c0">MipContext</a></li>
+<li>~MsgAttachmentData()&#160;:&#160;<a class="el" href="classMsgAttachmentData.html#a3d44f847a239597299fc7edfe16b6d3e">MsgAttachmentData</a></li>
+<li>~MsgInspector()&#160;:&#160;<a class="el" href="classMsgInspector.html#a8f857cded9f243b4908ef814e726604b">MsgInspector</a></li>
+<li>~Observer()&#160;:&#160;<a class="el" href="classFileHandler_1_1Observer.html#a6ee2743f2b6bb7802baf3b81ad4e93ac">FileHandler::Observer</a>, <a class="el" href="classFileProfile_1_1Observer.html#ab7b47df2e88baded88569936d43b36c7">FileProfile::Observer</a>, <a class="el" href="classPolicyProfile_1_1Observer.html#ac3cfeb5851a838476929990fdae41a26">PolicyProfile::Observer</a>, <a class="el" href="classProtectionEngine_1_1Observer.html#a66fb72d10da0a852d30b56a2ce6fa931">ProtectionEngine::Observer</a>, <a class="el" href="classProtectionHandler_1_1Observer.html#afbf76bf93137d1e37d3180bf71bbe648">ProtectionHandler::Observer</a>, <a class="el" href="classProtectionProfile_1_1Observer.html#ac22acc43df51144d38529753abbcaa40">ProtectionProfile::Observer</a></li>
+<li>~ParsedPublishingLicense()&#160;:&#160;<a class="el" href="classParsedPublishingLicense.html#a8f6f7718bb56db64bff57ad83907eff9">ParsedPublishingLicense</a></li>
+<li>~ParsedPublishingLicenseBuilder()&#160;:&#160;<a class="el" href="classParsedPublishingLicenseBuilder.html#aad091faa395a202ff354fd301d238ed5">ParsedPublishingLicenseBuilder</a></li>
+<li>~PolicyEngine()&#160;:&#160;<a class="el" href="classPolicyEngine.html#ab1068863c73e519e18dfd84d98bee98f">PolicyEngine</a></li>
+<li>~PolicyHandler()&#160;:&#160;<a class="el" href="classPolicyHandler.html#a8b2ce2e530fcd53b8730631f8b28e191">PolicyHandler</a></li>
 <li>~PolicyPackageData()&#160;:&#160;<a class="el" href="classPolicyPackageData.html#ad3056e4b3ffbe77a1ca18a20f6623ee8">PolicyPackageData</a></li>
+<li>~PolicyProfile()&#160;:&#160;<a class="el" href="classPolicyProfile.html#a9d254bce5fc2e7b20217258b0e24245a">PolicyProfile</a></li>
 <li>~PolicyRuleData()&#160;:&#160;<a class="el" href="classPolicyRuleData.html#a8599048d018639d7d5d325c991397de5">PolicyRuleData</a></li>
 <li>~PropertyData()&#160;:&#160;<a class="el" href="classPropertyData.html#a63888fc2d8a9261783b3852a28e4e720">PropertyData</a></li>
+<li>~ProtectAdhocAction()&#160;:&#160;<a class="el" href="classProtectAdhocAction.html#a0c8ea41fdd0bee4d8347c261d4ef4f87">ProtectAdhocAction</a></li>
+<li>~ProtectAdhocDkAction()&#160;:&#160;<a class="el" href="classProtectAdhocDkAction.html#a0e2ade3ce6d18988c5ce834b9d63e2aa">ProtectAdhocDkAction</a></li>
+<li>~ProtectByEncryptOnlyAction()&#160;:&#160;<a class="el" href="classProtectByEncryptOnlyAction.html#a1800f8229b0448d42ef1b3d38a841503">ProtectByEncryptOnlyAction</a></li>
+<li>~ProtectByTemplateAction()&#160;:&#160;<a class="el" href="classProtectByTemplateAction.html#a70479c8dff264b76b22760277a1973d8">ProtectByTemplateAction</a></li>
+<li>~ProtectDoNotForwardAction()&#160;:&#160;<a class="el" href="classProtectDoNotForwardAction.html#a3196386cb5034f213d0c62bc1b9eee55">ProtectDoNotForwardAction</a></li>
+<li>~ProtectDoNotForwardDkAction()&#160;:&#160;<a class="el" href="classProtectDoNotForwardDkAction.html#a07d9f00406f8cb18244818e5ee4a02a4">ProtectDoNotForwardDkAction</a></li>
 <li>~ProtectionActionData()&#160;:&#160;<a class="el" href="classProtectionActionData.html#a0b48926830801182e6bb117a283fd3c4">ProtectionActionData</a></li>
+<li>~ProtectionCommonSettings()&#160;:&#160;<a class="el" href="classProtectionCommonSettings.html#ab2847ea38e1703b3f7afc842156656f9">ProtectionCommonSettings</a></li>
+<li>~ProtectionDescriptor()&#160;:&#160;<a class="el" href="classProtectionDescriptor.html#ab0163d943de88d3ea4f988d43cd065d7">ProtectionDescriptor</a></li>
+<li>~ProtectionDescriptorBuilder()&#160;:&#160;<a class="el" href="classProtectionDescriptorBuilder.html#adfe5c76bf42343e87a519df4d23b1bd8">ProtectionDescriptorBuilder</a></li>
+<li>~ProtectionEngine()&#160;:&#160;<a class="el" href="classProtectionEngine.html#a36c0a3c200a9217838c1b45c2dd60279">ProtectionEngine</a></li>
+<li>~ProtectionHandler()&#160;:&#160;<a class="el" href="classProtectionHandler.html#a4acac527c7189c7c4e6d62af67a3f33d">ProtectionHandler</a></li>
+<li>~ProtectionProfile()&#160;:&#160;<a class="el" href="classProtectionProfile.html#ab8c361777790078c4be2be66132d02c2">ProtectionProfile</a></li>
+<li>~PublishingUseLicenseRequest()&#160;:&#160;<a class="el" href="classPublishingUseLicenseRequest.html#a75442c3435e1bd6fab8fde8783eb23fe">PublishingUseLicenseRequest</a></li>
+<li>~RecommendLabelAction()&#160;:&#160;<a class="el" href="classRecommendLabelAction.html#a52f62ea2583329b2d231d0823a6e19ae">RecommendLabelAction</a></li>
+<li>~RemoveContentFooterAction()&#160;:&#160;<a class="el" href="classRemoveContentFooterAction.html#ab681c5dcf8396aff92a0fb78e31efab5">RemoveContentFooterAction</a></li>
+<li>~RemoveContentHeaderAction()&#160;:&#160;<a class="el" href="classRemoveContentHeaderAction.html#ae4938e90681adcfa6077ae8344c799cf">RemoveContentHeaderAction</a></li>
+<li>~RemoveProtectionAction()&#160;:&#160;<a class="el" href="classRemoveProtectionAction.html#aa6a5796664956848000b766f64eab440">RemoveProtectionAction</a></li>
+<li>~RemoveWatermarkAction()&#160;:&#160;<a class="el" href="classRemoveWatermarkAction.html#acb4d5ebf9d69570c241c9e98929b03a7">RemoveWatermarkAction</a></li>
 <li>~RulePackageData()&#160;:&#160;<a class="el" href="classRulePackageData.html#a5f2e3d9444c7d8d45e41c23aa7712e77">RulePackageData</a></li>
 <li>~SensitivityConditionData()&#160;:&#160;<a class="el" href="classSensitivityConditionData.html#aba0b4a84e0193510c3fb82e9ba04b19c">SensitivityConditionData</a></li>
+<li>~SensitivityTypesRulePackage()&#160;:&#160;<a class="el" href="classSensitivityTypesRulePackage.html#ada8a300e288bf126369674928da93636">SensitivityTypesRulePackage</a></li>
+<li>~Settings()&#160;:&#160;<a class="el" href="classFileProfile_1_1Settings.html#a7d73ae275c99a3ded74dd8bff101251f">FileProfile::Settings</a>, <a class="el" href="classPolicyEngine_1_1Settings.html#a1df3dd8ebed3a1dfd7b8ed711a1a3595">PolicyEngine::Settings</a>, <a class="el" href="classPolicyProfile_1_1Settings.html#a37118c38fa4effccf7c892e4b90c146c">PolicyProfile::Settings</a>, <a class="el" href="classProtectionProfile_1_1Settings.html#aeef703afc3b56abc350485f2ea33d463">ProtectionProfile::Settings</a></li>
+<li>~StorageDelegate()&#160;:&#160;<a class="el" href="classStorageDelegate.html#a8e41b96d84afc10352add180f157314c">StorageDelegate</a></li>
+<li>~StorageSettings()&#160;:&#160;<a class="el" href="classStorageDelegate_1_1StorageSettings.html#ab7073e8346b189f5ae6ab8717a444125">StorageDelegate::StorageSettings</a></li>
+<li>~StorageTable()&#160;:&#160;<a class="el" href="classStorageTable.html#a6af9c22733b78123cd6af3a3e5371428">StorageTable</a></li>
+<li>~StorageTableV2()&#160;:&#160;<a class="el" href="classStorageTableV2.html#ac6fffd846747b075733849e4c8a8e081">StorageTableV2</a></li>
+<li>~Stream()&#160;:&#160;<a class="el" href="classStream.html#a0a94c1350d4ab4d1ef2fdd5a8988db7f">Stream</a></li>
 <li>~SyncFileBaseData()&#160;:&#160;<a class="el" href="classSyncFileBaseData.html#acc0310816e2305430c354d8b40c56f11">SyncFileBaseData</a></li>
 <li>~SyncFilePolicyData()&#160;:&#160;<a class="el" href="classSyncFilePolicyData.html#a2de4ba521fbda1ac446b3c09e1ddb2bc">SyncFilePolicyData</a></li>
 <li>~SyncFileSensitivityData()&#160;:&#160;<a class="el" href="classSyncFileSensitivityData.html#a2d367a18a86f49bfb2b489880f6b2cb6">SyncFileSensitivityData</a></li>
+<li>~TaskDispatcherDelegate()&#160;:&#160;<a class="el" href="classTaskDispatcherDelegate.html#a867c2ed75cdfc2a31c8e440b0374b387">TaskDispatcherDelegate</a></li>
+<li>~TelemetryDelegate()&#160;:&#160;<a class="el" href="classTelemetryDelegate.html#adc8847998a77f14efe1fe0aa1cb7c6b6">TelemetryDelegate</a></li>
+<li>~TelemetryEvent()&#160;:&#160;<a class="el" href="classTelemetryEvent.html#a88d1082601b148b8c209a8db278da603">TelemetryEvent</a></li>
+<li>~TemplateDescriptor()&#160;:&#160;<a class="el" href="classTemplateDescriptor.html#a06b6f8463867ddda28a39521cc9504aa">TemplateDescriptor</a></li>
+<li>~TenantInformation()&#160;:&#160;<a class="el" href="classTenantInformation.html#ad31e7d1e2236298db89c9ab8e6e89b52">TenantInformation</a></li>
+<li>~XmlDelegate()&#160;:&#160;<a class="el" href="classxml_1_1XmlDelegate.html#acd741f0e1d7d89b19f7522fc830e3c26">xml::XmlDelegate</a></li>
+<li>~XmlDocument()&#160;:&#160;<a class="el" href="classxml_1_1XmlDocument.html#a56d0cac04cb6dcc6bf7d9d79292bf013">xml::XmlDocument</a></li>
+<li>~XmlNode()&#160;:&#160;<a class="el" href="classxml_1_1XmlNode.html#adbc41a22948a10c211452421873f85c1">xml::XmlNode</a></li>
+<li>~XmlReader()&#160;:&#160;<a class="el" href="classxml_1_1XmlReader.html#a27481e2c4ef96ad3280efabb23655536">xml::XmlReader</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

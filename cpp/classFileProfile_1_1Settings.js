@@ -1,6 +1,7 @@
 var classFileProfile_1_1Settings =
 [
     [ "Settings", "classFileProfile_1_1Settings.html#a4dbaa3f619ee13ec993f1e5f8b097810", null ],
+    [ "~Settings", "classFileProfile_1_1Settings.html#a7d73ae275c99a3ded74dd8bff101251f", null ],
     [ "CanCacheLicenses", "classFileProfile_1_1Settings.html#a6da03600a76583812d7952adcb5922d1", null ],
     [ "GetCacheStorageType", "classFileProfile_1_1Settings.html#a0af2f7396c3a6cff077cb2c5288571b6", null ],
     [ "GetConsentDelegate", "classFileProfile_1_1Settings.html#a88b0f172e9a1e4207477b56e47f699f9", null ],

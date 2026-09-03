@@ -1,5 +1,7 @@
 var classLabel =
 [
+    [ "~Label", "classLabel.html#ae0405d591a2ff63c03b104435e2a3066", null ],
+    [ "Label", "classLabel.html#af8f2bccf9faadcb2ca964bd2347dde24", null ],
     [ "GetActionSource", "classLabel.html#a683deb4c2596b09267d6426cc1993afd", null ],
     [ "GetAutoTooltip", "classLabel.html#ab00a44c845be816a50595bf0f46fef3b", null ],
     [ "GetChildren", "classLabel.html#a41de941d0e10b2dfc9fa554130e6e24c", null ],

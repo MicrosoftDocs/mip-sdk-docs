@@ -4,6 +4,8 @@ var classProtectionDescriptorBuilder =
       [ "DoNotForward", "classProtectionDescriptorBuilder.html#a7961e18fdcfc8626116c3c16145e940dab3cae175ad911edec3e87369d9e889ab", null ],
       [ "EncryptOnly", "classProtectionDescriptorBuilder.html#a7961e18fdcfc8626116c3c16145e940da2e96e13acab0d47fac3637a3d4f27bb3", null ]
     ] ],
+    [ "~ProtectionDescriptorBuilder", "classProtectionDescriptorBuilder.html#adfe5c76bf42343e87a519df4d23b1bd8", null ],
+    [ "ProtectionDescriptorBuilder", "classProtectionDescriptorBuilder.html#a4c5119b373c191e96e841a3e6829ee1e", null ],
     [ "Build", "classProtectionDescriptorBuilder.html#aaccaca4e91dc4ac403aba7aacb41261e", null ],
     [ "CreateFromLicenseType", "classProtectionDescriptorBuilder.html#a808524eda42fcd647fff56ba2b68fe0e", null ],
     [ "CreateFromProtectionDescriptor", "classProtectionDescriptorBuilder.html#ad50ddc48b47b821534fef0ee82923cc3", null ],

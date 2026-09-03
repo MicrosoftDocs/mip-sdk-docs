@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -5,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Microsoft Information Protection SDK - C++: Microsoft Information Protection SDK - C++</title>
+<title>Microsoft Information Protection SDK - C++: Microsoft Information Protection SDK — C++</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -97,388 +137,199 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Microsoft Information Protection SDK - C++ </div></div>
+  <div class="headertitle"><div class="title">Microsoft Information Protection SDK — C++ </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md0"></a>
-Microsoft Information Protection SDK (CPP)</h1>
-<p>Welcome to the reference documentation for the Microsoft Information Protection SDK.</p>
-<p>Use the navigation panel on the left to browse classes, modules, and related APIs.</p>
+<div class="textblock"><p>The <b>Microsoft Information Protection (MIP) SDK</b> is a set of native C++ libraries that expose Microsoft's labeling, classification, and protection services to your application. This site is the API reference for the C++ surface; for narrative documentation, samples, and quickstarts see the <a href="https://learn.microsoft.com/information-protection/develop">conceptual docs on Microsoft Learn</a>.</p>
+<h2><a class="anchor" id="autotoc_md0"></a>
+Get started</h2>
+<ul>
+<li><b><a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs and quickstarts</a></b> — start here if you're new to MIP.</li>
+<li><b><a href="https://github.com/AzureAD/mip-sdk-for-cpp/tree/main/samples">Samples</a></b> — runnable C++ samples in the SDK repo.</li>
+<li><b><a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a></b> — release notes and binaries.</li>
+</ul>
 <h2><a class="anchor" id="autotoc_md1"></a>
-Class List</h2>
+API by area</h2>
+<p>This page is curated; the <b>Classes</b> tab has the full alphabetical class list and the <b>Files</b> tab indexes every header.</p>
+<h3><a class="anchor" id="autotoc_md2"></a>
+Profiles, Engines &amp; Context</h3>
+<p>The profile/engine pair is your starting point for each API. A profile loads once per process; an engine is per-identity.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Name   </th><th class="markdownTableHeadNone">Description    </th></tr>
+<th class="markdownTableHeadNone">Class   </th><th class="markdownTableHeadNone">What it does    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classxml_1_1XmlDelegate.html">XmlDelegate</a>   </td><td class="markdownTableBodyNone">Interface for overriding XML handling (must be capable of handling multiple threads)    </td></tr>
+<td class="markdownTableBodyNone"><a class="el" href="classMipContext.html">MipContext</a>   </td><td class="markdownTableBodyNone">Process-wide state shared by every profile.    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classxml_1_1XmlDocument.html">XmlDocument</a>   </td><td class="markdownTableBodyNone"></td></tr>
+<td class="markdownTableBodyNone"><a class="el" href="classMipConfiguration.html">MipConfiguration</a>   </td><td class="markdownTableBodyNone">Configure logging, telemetry, storage, and feature flags.    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classxml_1_1XmlLoadException.html">XmlLoadException</a>   </td><td class="markdownTableBodyNone"></td></tr>
+<td class="markdownTableBodyNone"><a class="el" href="classFileProfile.html">FileProfile</a> / <a class="el" href="classFileEngine.html">FileEngine</a>   </td><td class="markdownTableBodyNone">Entry points for the File API.    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="structxml_1_1XmlNamespace.html">XmlNamespace</a>   </td><td class="markdownTableBodyNone"></td></tr>
+<td class="markdownTableBodyNone"><a class="el" href="classProtectionProfile.html">ProtectionProfile</a> / <a class="el" href="classProtectionEngine.html">ProtectionEngine</a>   </td><td class="markdownTableBodyNone">Entry points for the Protection API.    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classxml_1_1XmlNode.html">XmlNode</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classxml_1_1XmlParserException.html">XmlParserException</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classxml_1_1XmlReader.html">XmlReader</a>   </td><td class="markdownTableBodyNone">XmlReader abstraction class    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classAccessDeniedError.html">AccessDeniedError</a>   </td><td class="markdownTableBodyNone">The user could not get access to the content. For example, no permissions, content revoked    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classAction.html">Action</a>   </td><td class="markdownTableBodyNone">Interface for an action. Each action translates to a step that needs to be taken by the application to apply the label (as defined in the policy)    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classActionData.html">ActionData</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classAddContentFooterAction.html">AddContentFooterAction</a>   </td><td class="markdownTableBodyNone">An action class that specifies adding a content footer to the document    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classAddContentHeaderAction.html">AddContentHeaderAction</a>   </td><td class="markdownTableBodyNone">An action class that specifies adding content header    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classAddDynamicWatermarkAction.html">AddDynamicWatermarkAction</a>   </td><td class="markdownTableBodyNone">An action class that specifies adding watermark    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classAddDynamicWatermarkActionData.html">AddDynamicWatermarkActionData</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classAddWatermarkAction.html">AddWatermarkAction</a>   </td><td class="markdownTableBodyNone">An action class that specifies adding watermark    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classAddWatermarkActionData.html">AddWatermarkActionData</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classAdhocProtectionRequiredError.html">AdhocProtectionRequiredError</a>   </td><td class="markdownTableBodyNone">Adhoc protection should be set to complete the action on the file    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classApplicationActionState.html">ApplicationActionState</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="structApplicationInfo.html">ApplicationInfo</a>   </td><td class="markdownTableBodyNone">A struct that includes application specific information    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classApplyLabelAction.html">ApplyLabelAction</a>   </td><td class="markdownTableBodyNone">Apply label actions requires the calling application to apply a specific label    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classArgumentData.html">ArgumentData</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classAsyncControl.html">AsyncControl</a>   </td><td class="markdownTableBodyNone">Class used to cancel async operation    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classAuditDelegate.html">AuditDelegate</a>   </td><td class="markdownTableBodyNone">A class that defines the interface to the MIP SDK audit notifications    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classAuditEvent.html">AuditEvent</a>   </td><td class="markdownTableBodyNone">A single audit event    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classAuthDelegate.html">AuthDelegate</a>   </td><td class="markdownTableBodyNone">Delegate for auth related operations    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classAuthDelegate_1_1OAuth2Challenge.html">OAuth2Challenge</a>   </td><td class="markdownTableBodyNone">Class that contains all the information required from the calling application in order to generate an oauth2 token    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classAuthDelegate_1_1OAuth2Token.html">OAuth2Token</a>   </td><td class="markdownTableBodyNone">A class containing access token info provided by an application    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classBadInputError.html">BadInputError</a>   </td><td class="markdownTableBodyNone">Bad input error, thrown when the input to an SDK API is invalid    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classClassificationData.html">ClassificationData</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classClassificationRequest.html">ClassificationRequest</a>   </td><td class="markdownTableBodyNone">Class that contains the request of a classification call on the Execution State    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classClassificationResult.html">ClassificationResult</a>   </td><td class="markdownTableBodyNone">Class that contains the result of a classification call on the Execution State    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classCloudDiscoveryDelegate.html">CloudDiscoveryDelegate</a>   </td><td class="markdownTableBodyNone">Interface for overriding cloud discovery    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classCloudDiscoveryResult.html">CloudDiscoveryResult</a>   </td><td class="markdownTableBodyNone">Interface for the result of cloud discovery    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classComputeEngine.html">ComputeEngine</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classComputeEngine_1_1Settings.html">Settings</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classComputeEngineContext.html">ComputeEngineContext</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classConditionData.html">ConditionData</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classConsentDelegate.html">ConsentDelegate</a>   </td><td class="markdownTableBodyNone">Delegate for consent related operations    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classConsentDeniedError.html">ConsentDeniedError</a>   </td><td class="markdownTableBodyNone">An operation that required consent from user was not granted consent    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classContentFormatNotSupportedError.html">ContentFormatNotSupportedError</a>   </td><td class="markdownTableBodyNone">Content Format is not supported    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classContentLabel.html">ContentLabel</a>   </td><td class="markdownTableBodyNone">Abstraction for a Microsoft Information Protection label that is applied to a piece of content, typically a document    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classContentMarkingActionData.html">ContentMarkingActionData</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classCustomAction.html">CustomAction</a>   </td><td class="markdownTableBodyNone"><a class="el" href="classCustomAction.html" title="CustomAction is a generic action class that captures all the sub-properties of the action as a proper...">CustomAction</a> is a generic action class that captures all the sub-properties of the action as a property bag. The caller is responsible to understand the meaning of the action    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classCustomerKeyUnavailableError.html">CustomerKeyUnavailableError</a>   </td><td class="markdownTableBodyNone">Bring your own encryption key needed and unavailable    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classDelegateResponseError.html">DelegateResponseError</a>   </td><td class="markdownTableBodyNone">Delegate Response <a class="el" href="classError.html" title="Base class for all errors that will be reported (thrown or returned) from MIP SDK.">Error</a>. Thrown or returned in response to encountering an error in a delegate method    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classDelegationLicense.html">DelegationLicense</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classDelegationLicenseSettings.html">DelegationLicenseSettings</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classDeprecatedApiError.html">DeprecatedApiError</a>   </td><td class="markdownTableBodyNone">Caller invoked a deprecated API    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classDetailedClassificationResult.html">DetailedClassificationResult</a>   </td><td class="markdownTableBodyNone">Class that contains the result of a classification call on the Execution State    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="structDiagnosticConfiguration.html">DiagnosticConfiguration</a>   </td><td class="markdownTableBodyNone">Custom diagnostic configurations (not commonly used)    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classDiagnosticDelegate.html">DiagnosticDelegate</a>   </td><td class="markdownTableBodyNone">A class that defines the interface to the MIP SDK audit/telemetry notifications    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classDirectoryObject.html">DirectoryObject</a>   </td><td class="markdownTableBodyNone">The directory object information which includes- type, email, objectId and PUID    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classDirectoryObjectRights.html">DirectoryObjectRights</a>   </td><td class="markdownTableBodyNone">The directory object and rights associated with it    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classDocumentState.html">DocumentState</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classDynamicWatermark.html">DynamicWatermark</a>   </td><td class="markdownTableBodyNone">Representation of the dynamic watermark which the admin has configured for a label    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classEditableStream.html">EditableStream</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classError.html">Error</a>   </td><td class="markdownTableBodyNone">Base class for all errors that will be reported (thrown or returned) from MIP SDK    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classEvent.html">Event</a>   </td><td class="markdownTableBodyNone">A single audit/telemetry event    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classEventContext.html">EventContext</a>   </td><td class="markdownTableBodyNone">A single audit/telemetry event context    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classEventProperty.html">EventProperty</a>   </td><td class="markdownTableBodyNone">A single audit/telemetry property    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classExecutionState.html">ExecutionState</a>   </td><td class="markdownTableBodyNone">Interface for all the state needed to execute the engine    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="structExtendedErrorInfo.html">ExtendedErrorInfo</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classFileExecutionState.html">FileExecutionState</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classFileHandler.html">FileHandler</a>   </td><td class="markdownTableBodyNone">Interface for all file handling functions    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classFileHandler_1_1Observer.html">Observer</a>   </td><td class="markdownTableBodyNone">Observer interface for clients to get notifications events related to file handler    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classFileInspector.html">FileInspector</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classFileIOError.html">FileIOError</a>   </td><td class="markdownTableBodyNone">File IO error    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classFileProfile.html">FileProfile</a>   </td><td class="markdownTableBodyNone"><a class="el" href="classFileProfile.html" title="FileProfile class is the root class for using the Microsoft Information Protection operations.">FileProfile</a> class is the root class for using the Microsoft Information Protection operations    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classFileProfile_1_1Observer.html">Observer</a>   </td><td class="markdownTableBodyNone">Observer interface for clients to get notifications for profile related events    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classFileProfile_1_1Settings.html">Settings</a>   </td><td class="markdownTableBodyNone">Settings used by <a class="el" href="classFileProfile.html" title="FileProfile class is the root class for using the Microsoft Information Protection operations.">FileProfile</a> during its creation and throughout its lifetime    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classFileStatus.html">FileStatus</a>   </td><td class="markdownTableBodyNone">Interface for all file status functions    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classGetTemplatesSettings.html">GetTemplatesSettings</a>   </td><td class="markdownTableBodyNone">Settings to use when obtaining templates    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classHttpDelegate.html">HttpDelegate</a>   </td><td class="markdownTableBodyNone">Interface for overriding HTTP handling    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classHttpOperation.html">HttpOperation</a>   </td><td class="markdownTableBodyNone">Interface that describes a single HTTP operation, implemented by client app when overriding <a class="el" href="classHttpDelegate.html" title="Interface for overriding HTTP handling.">HttpDelegate</a>    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classHttpRequest.html">HttpRequest</a>   </td><td class="markdownTableBodyNone">Interface that describes a single HTTP request    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classHttpResponse.html">HttpResponse</a>   </td><td class="markdownTableBodyNone">Interface that describes a single HTTP response, implemented by client app when overriding <a class="el" href="classHttpDelegate.html" title="Interface for overriding HTTP handling.">HttpDelegate</a>    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classIdentity.html">Identity</a>   </td><td class="markdownTableBodyNone">Abstraction for identity    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classInsufficientBufferError.html">InsufficientBufferError</a>   </td><td class="markdownTableBodyNone">Insufficient buffer error    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classInternalError.html">InternalError</a>   </td><td class="markdownTableBodyNone">Internal error. This error is thrown when something unexpected happens during execution    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classJsonDelegate.html">JsonDelegate</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classJsonDocument.html">JsonDocument</a>   </td><td class="markdownTableBodyNone"><a class="el" href="classJsonDocument.html" title="JsonDocument abstraction class.">JsonDocument</a> abstraction class    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classJsonValue.html">JsonValue</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classJustificationRequiredError.html">JustificationRequiredError</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classJustifyAction.html">JustifyAction</a>   </td><td class="markdownTableBodyNone">Justify <a class="el" href="classAction.html" title="Interface for an action. Each action translates to a step that needs to be taken by the application t...">Action</a> requires providing a justification to a label downgrade and setting the response in the execution state    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classLabel.html">Label</a>   </td><td class="markdownTableBodyNone">Abstraction for a single Microsoft Information Protection label    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classLabelActionData.html">LabelActionData</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classLabelDisabledError.html">LabelDisabledError</a>   </td><td class="markdownTableBodyNone"><a class="el" href="classLabel.html" title="Abstraction for a single Microsoft Information Protection label.">Label</a> is disabled or inactive    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classLabelGroupData.html">LabelGroupData</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="structLabelInfo.html">LabelInfo</a>   </td><td class="markdownTableBodyNone"><a class="el" href="classLabel.html" title="Abstraction for a single Microsoft Information Protection label.">Label</a> information for a template or ad-hoc (custom) protection    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classLabelingOptions.html">LabelingOptions</a>   </td><td class="markdownTableBodyNone">Interface for configuring labeling options for the SetLabel/DeleteLabel methods    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classLabelNotFoundError.html">LabelNotFoundError</a>   </td><td class="markdownTableBodyNone"><a class="el" href="classLabel.html" title="Abstraction for a single Microsoft Information Protection label.">Label</a> ID is not recognized    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classLicenseApplicationData.html">LicenseApplicationData</a>   </td><td class="markdownTableBodyNone">The application data from a license    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classLicenseConnectionInfo.html">LicenseConnectionInfo</a>   </td><td class="markdownTableBodyNone">The connection information from a license    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classLicenseDescriptor.html">LicenseDescriptor</a>   </td><td class="markdownTableBodyNone">The descriptor from a license    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classLicenseInfo.html">LicenseInfo</a>   </td><td class="markdownTableBodyNone">Representation of the dynamic watermark which the admin has configured for a label    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classLicenseNameAndDescriptionItem.html">LicenseNameAndDescriptionItem</a>   </td><td class="markdownTableBodyNone">The descriptor line item from a license    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classLicenseNotRegisteredError.html">LicenseNotRegisteredError</a>   </td><td class="markdownTableBodyNone">License is not registered    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classLicenseRightsData.html">LicenseRightsData</a>   </td><td class="markdownTableBodyNone">The rights related information of the publishing license    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="structLoggerConfiguration.html">LoggerConfiguration</a>   </td><td class="markdownTableBodyNone">Configuration to use when default logging is enabled. This is set only once per process and any later change will be ignored    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classLoggerDelegate.html">LoggerDelegate</a>   </td><td class="markdownTableBodyNone">A class that defines the interface to the MIP SDK logger    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classLogMessageData.html">LogMessageData</a>   </td><td class="markdownTableBodyNone">A class that stores log messages    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classMaxDepthReachedError.html">MaxDepthReachedError</a>   </td><td class="markdownTableBodyNone">Max depth reached error. This will be thrown while removing protection from MSGs/EMLs if the number of nested messages exceed the maximum depth (defaults to 10)    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classMetadataAction.html">MetadataAction</a>   </td><td class="markdownTableBodyNone">An <a class="el" href="classAction.html" title="Interface for an action. Each action translates to a step that needs to be taken by the application t...">Action</a> that adds metadata information to the content    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classMetadataEntry.html">MetadataEntry</a>   </td><td class="markdownTableBodyNone">An abstraction class for metadata entry    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classMetadataVersion.html">MetadataVersion</a>   </td><td class="markdownTableBodyNone">Interface for a <a class="el" href="classMetadataVersion.html" title="Interface for a MetadataVersion. MetadataVersion determines which metadata is active and how it is pr...">MetadataVersion</a>. <a class="el" href="classMetadataVersion.html" title="Interface for a MetadataVersion. MetadataVersion determines which metadata is active and how it is pr...">MetadataVersion</a> determines which metadata is active and how it is processed    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classMipConfiguration.html">MipConfiguration</a>   </td><td class="markdownTableBodyNone">Configuration used by MIP sdk during its creation and throughout its lifetime    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classMipContext.html">MipContext</a>   </td><td class="markdownTableBodyNone"><a class="el" href="classMipContext.html" title="MipContext represents state that is shared across all profiles, engines, handlers.">MipContext</a> represents state that is shared across all profiles, engines, handlers    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classMsgAttachmentData.html">MsgAttachmentData</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classMsgInspector.html">MsgInspector</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classNetworkError.html">NetworkError</a>   </td><td class="markdownTableBodyNone">Networking error. Caused by unexpected behavior when making network calls to service endpoints    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classNoAuthTokenError.html">NoAuthTokenError</a>   </td><td class="markdownTableBodyNone">The user could not get access to the content due to missing authentication token    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classNoPermissionsError.html">NoPermissionsError</a>   </td><td class="markdownTableBodyNone">The user could not get access to the content. For example, no permissions, content revoked    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classNoPermissionsExtendedError.html">NoPermissionsExtendedError</a>   </td><td class="markdownTableBodyNone">The user could not get access to the content due to extended Access checks like ABAC    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classNoPolicyError.html">NoPolicyError</a>   </td><td class="markdownTableBodyNone">Tenant policy is not configured for classification/labels    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classNotSupportedError.html">NotSupportedError</a>   </td><td class="markdownTableBodyNone">The operation requested by the application is not supported by the SDK    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classOperationCancelledError.html">OperationCancelledError</a>   </td><td class="markdownTableBodyNone">Operation was cancelled    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classParsedPublishingLicense.html">ParsedPublishingLicense</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classParsedPublishingLicenseBuilder.html">ParsedPublishingLicenseBuilder</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classPolicyHandler.html">PolicyHandler</a>   </td><td class="markdownTableBodyNone">This class provides an interface for all policy handler functions on a file    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classPolicyPackageData.html">PolicyPackageData</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classPolicyRuleData.html">PolicyRuleData</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classPrivilegedRequiredError.html">PrivilegedRequiredError</a>   </td><td class="markdownTableBodyNone">Current label was assigned as a privileged operation (The equivalent to an administrator operation), therefore it can't be overriden    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classPropertyData.html">PropertyData</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classProtectAdhocAction.html">ProtectAdhocAction</a>   </td><td class="markdownTableBodyNone">An action class that specifies adding adhoc protection to the document    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classProtectAdhocDkAction.html">ProtectAdhocDkAction</a>   </td><td class="markdownTableBodyNone">An action class that specifies adding adhoc double key protection to the document    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classProtectByEncryptOnlyAction.html">ProtectByEncryptOnlyAction</a>   </td><td class="markdownTableBodyNone">An action class that specifies adding encrypt only protection to the document    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classProtectByTemplateAction.html">ProtectByTemplateAction</a>   </td><td class="markdownTableBodyNone">An action class that specifies adding protection by template to the document    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classProtectDoNotForwardAction.html">ProtectDoNotForwardAction</a>   </td><td class="markdownTableBodyNone">An action class that specifies adding do not forward protection to the document    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classProtectDoNotForwardDkAction.html">ProtectDoNotForwardDkAction</a>   </td><td class="markdownTableBodyNone">An action class that specifies adding do not forward double key protection to the document    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classProtectionActionData.html">ProtectionActionData</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classProtectionCommonSettings.html">ProtectionCommonSettings</a>   </td><td class="markdownTableBodyNone">Settings to use for protection operations    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classProtectionDescriptor.html">ProtectionDescriptor</a>   </td><td class="markdownTableBodyNone">Description of protection associated with a piece of content    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a>   </td><td class="markdownTableBodyNone">Constructs a <a class="el" href="classProtectionDescriptor.html" title="Description of protection associated with a piece of content.">ProtectionDescriptor</a> that describes protection associated with a piece of content    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classProtectionEngine.html">ProtectionEngine</a>   </td><td class="markdownTableBodyNone">Manages protection-related actions related to a specific identity    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classProtectionEngine_1_1Observer.html">Observer</a>   </td><td class="markdownTableBodyNone">Interface that receives notifications related to <a class="el" href="classProtectionEngine.html" title="Manages protection-related actions related to a specific identity.">ProtectionEngine</a>    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classProtectionEngine_1_1Settings.html">Settings</a>   </td><td class="markdownTableBodyNone">Settings used by <a class="el" href="classProtectionEngine.html" title="Manages protection-related actions related to a specific identity.">ProtectionEngine</a> during its creation and throughout its lifetime    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classProtectionHandler.html">ProtectionHandler</a>   </td><td class="markdownTableBodyNone">Manages protection-related actions for a specific protection configuration    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classProtectionHandler_1_1ConsumptionSettings.html">ConsumptionSettings</a>   </td><td class="markdownTableBodyNone">Settings used to create a <a class="el" href="classProtectionHandler.html" title="Manages protection-related actions for a specific protection configuration.">ProtectionHandler</a> to consume existing content    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classProtectionHandler_1_1Observer.html">Observer</a>   </td><td class="markdownTableBodyNone">Interface that receives notifications related to <a class="el" href="classProtectionHandler.html" title="Manages protection-related actions for a specific protection configuration.">ProtectionHandler</a>    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classProtectionHandler_1_1PublishingSettings.html">PublishingSettings</a>   </td><td class="markdownTableBodyNone">Settings used to create a <a class="el" href="classProtectionHandler.html" title="Manages protection-related actions for a specific protection configuration.">ProtectionHandler</a> to protect new content    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classProtectionProfile.html">ProtectionProfile</a>   </td><td class="markdownTableBodyNone"><a class="el" href="classProtectionProfile.html" title="ProtectionProfile is the root class for performing protection operations.">ProtectionProfile</a> is the root class for performing protection operations    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classProtectionProfile_1_1Observer.html">Observer</a>   </td><td class="markdownTableBodyNone">Interface that receives notifications related to <a class="el" href="classProtectionProfile.html" title="ProtectionProfile is the root class for performing protection operations.">ProtectionProfile</a>    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classProtectionProfile_1_1Settings.html">Settings</a>   </td><td class="markdownTableBodyNone">Settings used by <a class="el" href="classProtectionProfile.html" title="ProtectionProfile is the root class for performing protection operations.">ProtectionProfile</a> during its creation and throughout its lifetime    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classProtectionSettings.html">ProtectionSettings</a>   </td><td class="markdownTableBodyNone">Interface for configuring protection options for the SetLabel method    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classProxyAuthenticationError.html">ProxyAuthenticationError</a>   </td><td class="markdownTableBodyNone">Proxy authentication failure    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classPublishingLicenseInfo.html">PublishingLicenseInfo</a>   </td><td class="markdownTableBodyNone">Holds the details of a Publishing License used to create a protection handler    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classPublishingUseLicenseRequest.html">PublishingUseLicenseRequest</a>   </td><td class="markdownTableBodyNone">Request for a use license in the publishing request    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classRecommendLabelAction.html">RecommendLabelAction</a>   </td><td class="markdownTableBodyNone">Recommend label actions is meant to suggest a label to the users. Suppressing this call after a user ignores the recommended label should be done through the supported actions on the execution state    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classRemoveContentFooterAction.html">RemoveContentFooterAction</a>   </td><td class="markdownTableBodyNone">An action class that specifies removing the content footer from the document    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classRemoveContentHeaderAction.html">RemoveContentHeaderAction</a>   </td><td class="markdownTableBodyNone">An action class that specifies removing the content header from the document    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classRemoveDynamicWatermarkAction.html">RemoveDynamicWatermarkAction</a>   </td><td class="markdownTableBodyNone">An action class that specifies removing the watermarking from the document    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classRemoveProtectionAction.html">RemoveProtectionAction</a>   </td><td class="markdownTableBodyNone">An action class that specifies removing protection from the document    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classRemoveWatermarkAction.html">RemoveWatermarkAction</a>   </td><td class="markdownTableBodyNone">An action class that specifies removing the watermarking from the document    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classRulePackageData.html">RulePackageData</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classSensitiveTypeClassificationData.html">SensitiveTypeClassificationData</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classSensitivityConditionData.html">SensitivityConditionData</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classSensitivityTypesRulePackage.html">SensitivityTypesRulePackage</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classServiceDisabledError.html">ServiceDisabledError</a>   </td><td class="markdownTableBodyNone">The user could not get access to the content due to a service being disabled    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classServiceInfo.html">ServiceInfo</a>   </td><td class="markdownTableBodyNone">Service information returned by cloud discovery    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classStorageDelegate.html">StorageDelegate</a>   </td><td class="markdownTableBodyNone">A class that defines the interface to the MIP SDK storage for caching    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classStorageDelegate_1_1StorageSettings.html">StorageSettings</a>   </td><td class="markdownTableBodyNone">Settings used by <a class="el" href="classStorageDelegate.html" title="A class that defines the interface to the MIP SDK storage for caching.">StorageDelegate</a>    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classStorageTable.html">StorageTable</a>   </td><td class="markdownTableBodyNone">A class that defines the interface to the MIP SDK storage table used for caching    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classStorageTableV2.html">StorageTableV2</a>   </td><td class="markdownTableBodyNone">An extension to the class that defines the interface to the MIP SDK storage table used for caching    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classStream.html">Stream</a>   </td><td class="markdownTableBodyNone">A class that defines the interface between the MIP SDK and stream-based content    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classSyncFileBaseData.html">SyncFileBaseData</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classSyncFilePolicyData.html">SyncFilePolicyData</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classSyncFileSensitivityData.html">SyncFileSensitivityData</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classTaskDispatcherDelegate.html">TaskDispatcherDelegate</a>   </td><td class="markdownTableBodyNone">A class that defines the interface to the MIP SDK task dispatcher    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classTelemetryDelegate.html">TelemetryDelegate</a>   </td><td class="markdownTableBodyNone">A class that defines the interface to the MIP SDK telemetry notifications    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classTelemetryEvent.html">TelemetryEvent</a>   </td><td class="markdownTableBodyNone">A single telemetry event    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classTemplateArchivedError.html">TemplateArchivedError</a>   </td><td class="markdownTableBodyNone">Template ID is archived and unavailable for protection    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classTemplateDescriptor.html">TemplateDescriptor</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classTemplateNotFoundError.html">TemplateNotFoundError</a>   </td><td class="markdownTableBodyNone">Template ID is not recognized by RMS service    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classTenantInformation.html">TenantInformation</a>   </td><td class="markdownTableBodyNone">Tenant information from RMS    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="structUniqueIdsAndContentFormats.html">UniqueIdsAndContentFormats</a>   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="classUserRights.html">UserRights</a>   </td><td class="markdownTableBodyNone">A group of users and the rights associated with them    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="classUserRoles.html">UserRoles</a>   </td><td class="markdownTableBodyNone">A group of users and the roles associated with them   </td></tr>
+<td class="markdownTableBodyNone"><a class="el" href="classPolicyProfile.html">PolicyProfile</a> / <a class="el" href="classPolicyEngine.html">PolicyEngine</a>   </td><td class="markdownTableBodyNone">Entry points for the Policy / labeling API.   </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md2"></a>
-Previous Versions</h2>
-<ul>
-<li><a href="../archive/1.17/cpp/">1.17</a></li>
-<li><a href="../archive/1.16/cpp/">1.16</a></li>
-<li><a href="../archive/1.15/cpp/">1.15</a> </li>
-</ul>
+<h3><a class="anchor" id="autotoc_md3"></a>
+File API — <code>mip/file/</code></h3>
+<p>Apply, change, or query sensitivity labels and protection on files.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Class   </th><th class="markdownTableHeadNone">What it does    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classFileHandler.html">FileHandler</a>   </td><td class="markdownTableBodyNone">Per-file operations (get/set label, commit, inspect).    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classFileInspector.html">FileInspector</a>   </td><td class="markdownTableBodyNone">Inspect file format and metadata without modification.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classMsgInspector.html">MsgInspector</a>   </td><td class="markdownTableBodyNone">Inspect MSG (Outlook) files.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classFileStatus.html">FileStatus</a>   </td><td class="markdownTableBodyNone">Quick label/protection status for a file.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classLabelingOptions.html">LabelingOptions</a>   </td><td class="markdownTableBodyNone">Options used when applying a label.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classProtectionSettings.html">ProtectionSettings</a>   </td><td class="markdownTableBodyNone">Encryption settings used at commit time.   </td></tr>
+</table>
+<h3><a class="anchor" id="autotoc_md4"></a>
+Protection API — <code>mip/protection/</code></h3>
+<p>Encrypt, decrypt, and manage Use Licenses directly.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Class   </th><th class="markdownTableHeadNone">What it does    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classProtectionHandler.html">ProtectionHandler</a>   </td><td class="markdownTableBodyNone">Encrypt/decrypt a buffer or stream; manage rights and licenses.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classProtectionDescriptor.html">ProtectionDescriptor</a> / <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a>   </td><td class="markdownTableBodyNone">Describe protection (template, ad‑hoc, do‑not‑forward).    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classTemplateDescriptor.html">TemplateDescriptor</a>   </td><td class="markdownTableBodyNone">Information about an RMS template.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classTenantInformation.html">TenantInformation</a>   </td><td class="markdownTableBodyNone">Tenant-level metadata.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classUserRights.html">UserRights</a> / <a class="el" href="classUserRoles.html">UserRoles</a>   </td><td class="markdownTableBodyNone">Per-user rights and role assignments. The string constants for individual rights/roles live in the <code>mip::rights</code> and <code>mip::roles</code> sub-namespaces.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classParsedPublishingLicense.html">ParsedPublishingLicense</a> / <a class="el" href="classDelegationLicense.html">DelegationLicense</a>   </td><td class="markdownTableBodyNone">Inspect and request licenses.   </td></tr>
+</table>
+<h3><a class="anchor" id="autotoc_md5"></a>
+Labels &amp; Policy — <code>mip/upe/</code></h3>
+<p>Drive the labeling experience: discover labels, decide which actions to take, and respond to user choices.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Class   </th><th class="markdownTableHeadNone">What it does    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classPolicyHandler.html">PolicyHandler</a>   </td><td class="markdownTableBodyNone">Per-document policy decisions and execute-state lifecycle.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classLabel.html">Label</a>   </td><td class="markdownTableBodyNone">A sensitivity label and its metadata.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classContentLabel.html">ContentLabel</a>   </td><td class="markdownTableBodyNone">The label currently applied to content.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classExecutionState.html">ExecutionState</a>   </td><td class="markdownTableBodyNone">Inputs you supply when asking the policy engine to compute actions.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classClassificationRequest.html">ClassificationRequest</a> / <a class="el" href="classClassificationResult.html">ClassificationResult</a>   </td><td class="markdownTableBodyNone">Classification engine inputs and outputs.   </td></tr>
+</table>
+<h3><a class="anchor" id="autotoc_md6"></a>
+Actions</h3>
+<p><code><a class="el" href="classPolicyHandler.html" title="This class provides an interface for all policy handler functions on a file.">PolicyHandler</a></code> returns a list of <a class="el" href="classAction.html">Action</a> subclasses describing what your app should do. Common ones:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone"><a class="el" href="classAction.html" title="Interface for an action. Each action translates to a step that needs to be taken by the application t...">Action</a>   </th><th class="markdownTableHeadNone">When emitted    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classApplyLabelAction.html">ApplyLabelAction</a>   </td><td class="markdownTableBodyNone">Apply or change a label.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classJustifyAction.html">JustifyAction</a>   </td><td class="markdownTableBodyNone">Prompt the user for justification.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classMetadataAction.html">MetadataAction</a>   </td><td class="markdownTableBodyNone">Add or remove document metadata.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classProtectByTemplateAction.html">ProtectByTemplateAction</a> / <a class="el" href="classProtectAdhocAction.html">ProtectAdhocAction</a> / <a class="el" href="classProtectDoNotForwardAction.html">ProtectDoNotForwardAction</a>   </td><td class="markdownTableBodyNone">Apply protection.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classAddWatermarkAction.html">AddWatermarkAction</a> / <a class="el" href="classAddContentHeaderAction.html">AddContentHeaderAction</a> / <a class="el" href="classAddContentFooterAction.html">AddContentFooterAction</a>   </td><td class="markdownTableBodyNone">Apply visual marking.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classRemoveProtectionAction.html">RemoveProtectionAction</a>   </td><td class="markdownTableBodyNone">Remove existing protection.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classCustomAction.html">CustomAction</a>   </td><td class="markdownTableBodyNone">Tenant-defined custom action.   </td></tr>
+</table>
+<p>The full list is in the <b>Classes</b> tab — search for <code><a class="el" href="classAction.html" title="Interface for an action. Each action translates to a step that needs to be taken by the application t...">Action</a></code>.</p>
+<h3><a class="anchor" id="autotoc_md7"></a>
+Delegates &amp; callbacks</h3>
+<p>Implement these to extend or override MIP behavior. Pass instances through <a class="el" href="classMipConfiguration.html">MipConfiguration</a>.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Delegate   </th><th class="markdownTableHeadNone">Customizes    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classAuthDelegate.html">AuthDelegate</a>   </td><td class="markdownTableBodyNone">Authentication / token acquisition.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classHttpDelegate.html">HttpDelegate</a>   </td><td class="markdownTableBodyNone">HTTP transport.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classLoggerDelegate.html">LoggerDelegate</a>   </td><td class="markdownTableBodyNone">Log routing.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classStorageDelegate.html">StorageDelegate</a>   </td><td class="markdownTableBodyNone">On-disk state storage.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classTelemetryDelegate.html">TelemetryDelegate</a>   </td><td class="markdownTableBodyNone">Telemetry emission.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classAuditDelegate.html">AuditDelegate</a>   </td><td class="markdownTableBodyNone">Audit event emission.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classTaskDispatcherDelegate.html">TaskDispatcherDelegate</a>   </td><td class="markdownTableBodyNone">Background task scheduling.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classConsentDelegate.html">ConsentDelegate</a>   </td><td class="markdownTableBodyNone">User consent prompts.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classCloudDiscoveryDelegate.html">CloudDiscoveryDelegate</a>   </td><td class="markdownTableBodyNone">Cloud endpoint discovery.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classJsonDelegate.html">JsonDelegate</a> / <a class="el" href="classxml_1_1XmlDelegate.html">xml::XmlDelegate</a>   </td><td class="markdownTableBodyNone">JSON/XML parsing.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classDiagnosticDelegate.html">DiagnosticDelegate</a>   </td><td class="markdownTableBodyNone">Diagnostic events.   </td></tr>
+</table>
+<h3><a class="anchor" id="autotoc_md8"></a>
+Errors &amp; exceptions</h3>
+<p>All MIP exceptions derive from <a class="el" href="classError.html">Error</a>. Notable types:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Class   </th><th class="markdownTableHeadNone">Meaning    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classAccessDeniedError.html">AccessDeniedError</a>   </td><td class="markdownTableBodyNone">The caller lacks rights.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classBadInputError.html">BadInputError</a>   </td><td class="markdownTableBodyNone">An argument was invalid.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classNetworkError.html">NetworkError</a> / <a class="el" href="classProxyAuthenticationError.html">ProxyAuthenticationError</a>   </td><td class="markdownTableBodyNone">Transport failed.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classNoAuthTokenError.html">NoAuthTokenError</a>   </td><td class="markdownTableBodyNone">The auth delegate returned no token.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classJustificationRequiredError.html">JustificationRequiredError</a>   </td><td class="markdownTableBodyNone">A label change requires justification.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classConsentDeniedError.html">ConsentDeniedError</a>   </td><td class="markdownTableBodyNone">The user (or consent delegate) denied consent.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classTemplateNotFoundError.html">TemplateNotFoundError</a> / <a class="el" href="classTemplateArchivedError.html">TemplateArchivedError</a>   </td><td class="markdownTableBodyNone">Template lookup failed.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classOperationCancelledError.html">OperationCancelledError</a>   </td><td class="markdownTableBodyNone">Async operation cancelled.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classDelegateResponseError.html">DelegateResponseError</a>   </td><td class="markdownTableBodyNone">A delegate threw or failed.   </td></tr>
+</table>
+<h3><a class="anchor" id="autotoc_md9"></a>
+Streams, HTTP &amp; I/O</h3>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Class   </th><th class="markdownTableHeadNone">Purpose    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classStream.html">Stream</a> / <a class="el" href="classEditableStream.html">EditableStream</a>   </td><td class="markdownTableBodyNone">Byte streams used throughout the SDK.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classHttpRequest.html">HttpRequest</a> / <a class="el" href="classHttpResponse.html">HttpResponse</a> / <a class="el" href="classHttpOperation.html">HttpOperation</a>   </td><td class="markdownTableBodyNone">HTTP delegate types.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="classJsonDocument.html">JsonDocument</a> / <a class="el" href="classJsonValue.html">JsonValue</a>   </td><td class="markdownTableBodyNone">JSON delegate types.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="classxml_1_1XmlDocument.html">xml::XmlDocument</a> / <a class="el" href="classxml_1_1XmlNode.html">xml::XmlNode</a> / <a class="el" href="classxml_1_1XmlReader.html">xml::XmlReader</a>   </td><td class="markdownTableBodyNone">XML delegate types.   </td></tr>
+</table>
+<h3><a class="anchor" id="autotoc_md10"></a>
+Common types</h3>
+<p><a class="el" href="classAuditEvent.html">AuditEvent</a>, <a class="el" href="classTelemetryEvent.html">TelemetryEvent</a>, <a class="el" href="classEvent.html">Event</a>, <a class="el" href="classEventProperty.html">EventProperty</a>, <a class="el" href="classDynamicWatermark.html">DynamicWatermark</a>, <a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0">FlightingFeature</a>, <a class="el" href="structDiagnosticConfiguration.html">DiagnosticConfiguration</a>, <a class="el" href="classLogMessageData.html">LogMessageData</a>. See the <b>Classes</b> tab for the rest.</p>
+<hr  />
+<p><em>Generated by Doxygen from the SDK headers. To edit this overview, change <code><a class="el" href="mainpage-cpp_8md.html">doxygen/mainpage-cpp.md</a></code> in the <a href="https://github.com/MicrosoftDocs/mip-sdk-docs-gen">mip-sdk-docs-gen</a> repo.</em> </p>
 </div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

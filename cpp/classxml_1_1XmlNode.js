@@ -1,5 +1,6 @@
 var classxml_1_1XmlNode =
 [
+    [ "~XmlNode", "classxml_1_1XmlNode.html#adbc41a22948a10c211452421873f85c1", null ],
     [ "AddAttribute", "classxml_1_1XmlNode.html#a6086972a07470185ad1fb24c5c6403bf", null ],
     [ "AddContent", "classxml_1_1XmlNode.html#ae1a3c136351d04939045076fcab50d94", null ],
     [ "AddNewChild", "classxml_1_1XmlNode.html#a115eca4b523ecde78c8c962397005088", null ],

@@ -1,5 +1,7 @@
 var classEventProperty =
 [
+    [ "~EventProperty", "classEventProperty.html#a018dfa0fae73a9557bfad4eb50e05dbc", null ],
+    [ "EventProperty", "classEventProperty.html#a8e48acb38d0aa43239dbfe170aa8f76d", null ],
     [ "GetDouble", "classEventProperty.html#a90871b174c686c60072629567aa81389", null ],
     [ "GetInt64", "classEventProperty.html#a46b1062b1106c671235728f0419ddf31", null ],
     [ "GetName", "classEventProperty.html#aed91cdcdf5a5862a0762d8097b8de7a7", null ],

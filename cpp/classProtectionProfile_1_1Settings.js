@@ -2,6 +2,7 @@ var classProtectionProfile_1_1Settings =
 [
     [ "Settings", "classProtectionProfile_1_1Settings.html#a35b1fb4e27e62ed6b46cb7881303caa1", null ],
     [ "Settings", "classProtectionProfile_1_1Settings.html#ae33349d3fa2a92ebb937d5eba1e89b88", null ],
+    [ "~Settings", "classProtectionProfile_1_1Settings.html#aeef703afc3b56abc350485f2ea33d463", null ],
     [ "AddRedirectionUri", "classProtectionProfile_1_1Settings.html#ad1c7ea37e8a64b0a32d6197120c59edd", null ],
     [ "CanCacheLicenses", "classProtectionProfile_1_1Settings.html#a3fd33e394a53c49dee5453652a9caaaa", null ],
     [ "GetCacheStorageType", "classProtectionProfile_1_1Settings.html#a4e8bf56df2a985d1a765a73ace926833", null ],

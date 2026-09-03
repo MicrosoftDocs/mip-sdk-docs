@@ -23,6 +23,17 @@ var flighting__feature__cc_8h =
       [ "MIP_FLIGHTING_FEATURE_DYNAMIC_PROTECTION_FOR_CONSUMPTION", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca3e3d80cd5bcb5941fdfa185a0a8477e5", null ],
       [ "MIP_FLIGHTING_FEATURE_EXPONENTIAL_BACKOFF_RETRIES", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca830096e6d1666cd3100aa68793b2e1f9", null ],
       [ "MIP_FLIGHTING_FEATURE_CLOUD_AUTO_DISCOVERY", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca0003f604367bdf629fd5f06f1f9bf306", null ],
-      [ "MIP_FLIGHTING_FEATURE_VALIDATION_SIGNATURE_TOP", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca4c728a030b284dfd74e02416dd9719ad", null ]
+      [ "MIP_FLIGHTING_FEATURE_VALIDATION_SIGNATURE_TOP", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca4c728a030b284dfd74e02416dd9719ad", null ],
+      [ "MIP_FLIGHTING_FEATURE_VALIDATE_RTF_DECOMPRESSION_BOUNDS", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca70e2c064ec1c610a5a27d2318f1190f0", null ],
+      [ "MIP_FLIGHTING_FEATURE_SKIP_REDUNDANT_XMP_METADATA_UPDATE", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3cab6b236224d976ba888b6807e850dc3e2", null ],
+      [ "MIP_FLIGHTING_FEATURE_PRESERVE_PDF_ENCRYPT_DICT", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca5a361e4e5f0a1c49c6c818d1a616f3bd", null ],
+      [ "MIP_FLIGHTING_FEATURE_RESTRICT_XMP_TO_IMAGE_HANDLERS", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca4c0c7d38cdd2f5e7292037aa38532f8d", null ],
+      [ "MIP_FLIGHTING_FEATURE_VALIDATE_CLOUD_URL_DOMAIN_BOUNDARY", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca0784cf36ed0a0762647e222d0905638d", null ],
+      [ "MIP_FLIGHTING_FEATURE_STRIP_CREDENTIALS_ON_CROSS_ORIGIN_REDIRECT", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca23b0731471663e3ae9068c03d9e90d06", null ],
+      [ "MIP_FLIGHTING_FEATURE_VALIDATE_AUTH_CHALLENGE_AUTHORITY", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca9ff1ed057fd56135fda0aafb185582c0", null ],
+      [ "MIP_FLIGHTING_FEATURE_VALIDATE_PDF_FLATE_DECODE_PARAMS", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca608b6582ec7df36c1ba2db8162575933", null ],
+      [ "MIP_FLIGHTING_FEATURE_PREVENT_OUT_OF_BAND_READ_ON_LICENSE_PARSER", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca32cc17b9ba64f43269002c8be57717cf", null ],
+      [ "MIP_FLIGHTING_FEATURE_ENSURE_OPC_CORRECTNESS", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3caf3f92e8a84611256b85a8e4b7f2b5695", null ],
+      [ "MIP_FLIGHTING_FEATURE_ENSURE_ZIP_CORRECTNESS", "flighting__feature__cc_8h.html#a652837dfbb81f398f5af9a9f61a95c3ca0619249436b3bcf9e04e154b70cc6219", null ]
     ] ]
 ];

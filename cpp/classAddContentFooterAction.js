@@ -1,5 +1,7 @@
 var classAddContentFooterAction =
 [
+    [ "~AddContentFooterAction", "classAddContentFooterAction.html#abe4214c5eb619d19d9f05dbfe60eda71", null ],
+    [ "AddContentFooterAction", "classAddContentFooterAction.html#afaec75cc33f1fafae188bd77e4cfd3fa", null ],
     [ "GetAlignment", "classAddContentFooterAction.html#adf49133cd8999cb3f0b003e8122fa504", null ],
     [ "GetFontColor", "classAddContentFooterAction.html#a1f37e494adda8d1a78119dcd7eef742c", null ],
     [ "GetFontName", "classAddContentFooterAction.html#afe7992241841bb5ea2dcb74567e07d72", null ],

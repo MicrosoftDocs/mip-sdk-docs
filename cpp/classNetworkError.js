@@ -15,6 +15,10 @@ var classNetworkError =
       [ "FunctionNotImplemented", "classNetworkError.html#a8cb40eb9f9c590f78170c7552a5bac37abaf7f94d161b30d115ef5742a0913379", null ],
       [ "ServiceUnavailable", "classNetworkError.html#a8cb40eb9f9c590f78170c7552a5bac37a2a4581043d849bcb0e4747970ef1489b", null ]
     ] ],
+    [ "NetworkError", "classNetworkError.html#a9765285a5ca3d764ef1fbf1e0a89d914", null ],
+    [ "NetworkError", "classNetworkError.html#a5d0803034883ae967d1afda9d259439c", null ],
+    [ "NetworkError", "classNetworkError.html#adf9d3df72055583ade2850e555537400", null ],
+    [ "Clone", "classNetworkError.html#a8e5cccdf31cc8c4f19e69d8dce86376a", null ],
     [ "GetCategory", "classNetworkError.html#a242ee9146137e810addd69b5c5b21b7c", null ],
     [ "GetCategoryString", "classNetworkError.html#a5a3ae12a08e0138f150f0f2384746a51", null ],
     [ "GetResponseStatusCode", "classNetworkError.html#aeafa03b58e0319fdb5d504722905ca99", null ],

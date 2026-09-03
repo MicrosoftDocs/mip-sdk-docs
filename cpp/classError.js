@@ -1,5 +1,8 @@
 var classError =
 [
+    [ "~Error", "classError.html#aadd4b7cb712e1322ec3da4a4d9af6460", null ],
+    [ "Error", "classError.html#a351db1368934ee2ce8c47a21cb943688", null ],
+    [ "Error", "classError.html#a64dc9e9afa15520f9695dc01a20c89b3", null ],
     [ "AddDebugInfo", "classError.html#a1e9379501df2d1e8315d373cf79949f2", null ],
     [ "Clone", "classError.html#a34ab84a92eb2a61d10bb2a1720640eb5", null ],
     [ "CreateFormattedMessage", "classError.html#aa76e555fb5bcfb69dc804f51fa01ad34", null ],

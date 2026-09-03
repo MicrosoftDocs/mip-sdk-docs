@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -100,6 +140,7 @@ $(function(){initNavTree('classGetTemplatesSettings.html',''); initResizable(tru
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classGetTemplatesSettings-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">GetTemplatesSettings Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
@@ -139,6 +180,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ade833b017bf76da965006545867ed717" id="r_ade833b017bf76da965006545867ed717"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade833b017bf76da965006545867ed717">ShouldCacheResponse</a> () const =0</td></tr>
 <tr class="memdesc:ade833b017bf76da965006545867ed717"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can cache templates or not.  <br /></td></tr>
 <tr class="separator:ade833b017bf76da965006545867ed717"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4005d966268cb894ef0bc8ed19ca5f95" id="r_a4005d966268cb894ef0bc8ed19ca5f95"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4005d966268cb894ef0bc8ed19ca5f95">~GetTemplatesSettings</a> ()</td></tr>
+<tr class="separator:a4005d966268cb894ef0bc8ed19ca5f95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classProtectionCommonSettings"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classProtectionCommonSettings')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a></td></tr>
 <tr class="memitem:a7bdb4890d63f2354282ccb380e0e3270 inherit pub_methods_classProtectionCommonSettings" id="r_a7bdb4890d63f2354282ccb380e0e3270"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProtectionCommonSettings.html#a7bdb4890d63f2354282ccb380e0e3270">ProtectionCommonSettings</a> (std::string applicationScenarioId=std::string())</td></tr>
 <tr class="separator:a7bdb4890d63f2354282ccb380e0e3270 inherit pub_methods_classProtectionCommonSettings"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,16 +203,76 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afd860eba9eee4b4a15e4c65438ac83aa inherit pub_methods_classProtectionCommonSettings" id="r_afd860eba9eee4b4a15e4c65438ac83aa"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProtectionCommonSettings.html#afd860eba9eee4b4a15e4c65438ac83aa">GetCustomSettings</a> () const</td></tr>
 <tr class="memdesc:afd860eba9eee4b4a15e4c65438ac83aa inherit pub_methods_classProtectionCommonSettings"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the custom settings, used for feature gating and testing.  <br /></td></tr>
 <tr class="separator:afd860eba9eee4b4a15e4c65438ac83aa inherit pub_methods_classProtectionCommonSettings"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2847ea38e1703b3f7afc842156656f9 inherit pub_methods_classProtectionCommonSettings" id="r_ab2847ea38e1703b3f7afc842156656f9"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProtectionCommonSettings.html#ab2847ea38e1703b3f7afc842156656f9">~ProtectionCommonSettings</a> ()</td></tr>
+<tr class="separator:ab2847ea38e1703b3f7afc842156656f9 inherit pub_methods_classProtectionCommonSettings"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac366088233b9b8c4c361a4159a6c12db inherit pub_methods_classProtectionCommonSettings" id="r_ac366088233b9b8c4c361a4159a6c12db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProtectionCommonSettings.html#ac366088233b9b8c4c361a4159a6c12db">operator=</a> (const <a class="el" href="classProtectionCommonSettings.html">ProtectionCommonSettings</a> &amp;other)</td></tr>
+<tr class="separator:ac366088233b9b8c4c361a4159a6c12db inherit pub_methods_classProtectionCommonSettings"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a32cd591f382f31eebd57cf35ae2a29e2" id="r_a32cd591f382f31eebd57cf35ae2a29e2"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; <a class="el" href="classGetTemplatesSettings.html">GetTemplatesSettings</a> &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32cd591f382f31eebd57cf35ae2a29e2">CreateGetTemplatesSettings</a> ()</td></tr>
+<tr class="memitem:a32cd591f382f31eebd57cf35ae2a29e2" id="r_a32cd591f382f31eebd57cf35ae2a29e2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classGetTemplatesSettings.html">GetTemplatesSettings</a> &gt; <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32cd591f382f31eebd57cf35ae2a29e2">CreateGetTemplatesSettings</a> ()</td></tr>
 <tr class="memdesc:a32cd591f382f31eebd57cf35ae2a29e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classGetTemplatesSettings.html" title="Settings to use when obtaining templates.">GetTemplatesSettings</a> object.  <br /></td></tr>
 <tr class="separator:a32cd591f382f31eebd57cf35ae2a29e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a52e227eebdf57460c0d1feeeb2e7ec44" id="r_a52e227eebdf57460c0d1feeeb2e7ec44"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52e227eebdf57460c0d1feeeb2e7ec44">GetTemplatesSettings</a> ()</td></tr>
+<tr class="separator:a52e227eebdf57460c0d1feeeb2e7ec44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Settings to use when obtaining templates. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a4005d966268cb894ef0bc8ed19ca5f95" name="a4005d966268cb894ef0bc8ed19ca5f95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4005d966268cb894ef0bc8ed19ca5f95">&#9670;&#160;</a></span>~GetTemplatesSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual GetTemplatesSettings::~GetTemplatesSettings </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a52e227eebdf57460c0d1feeeb2e7ec44" name="a52e227eebdf57460c0d1feeeb2e7ec44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52e227eebdf57460c0d1feeeb2e7ec44">&#9670;&#160;</a></span>GetTemplatesSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GetTemplatesSettings::GetTemplatesSettings </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a32cd591f382f31eebd57cf35ae2a29e2" name="a32cd591f382f31eebd57cf35ae2a29e2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a32cd591f382f31eebd57cf35ae2a29e2">&#9670;&#160;</a></span>CreateGetTemplatesSettings()</h2>
 
@@ -180,7 +283,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static MIP_API std::shared_ptr&lt; <a class="el" href="classGetTemplatesSettings.html">GetTemplatesSettings</a> &gt; __CDECL GetTemplatesSettings::CreateGetTemplatesSettings </td>
+          <td class="memname">static <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classGetTemplatesSettings.html">GetTemplatesSettings</a> &gt; <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> GetTemplatesSettings::CreateGetTemplatesSettings </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -388,11 +491,15 @@ Static Public Member Functions</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classGetTemplatesSettings.html">GetTemplatesSettings</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -97,6 +137,8 @@ $(function(){initNavTree('mip__macros__cc_8h.html',''); initResizable(true); });
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle"><div class="title">mip_macros_cc.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -105,15 +147,130 @@ $(function(){initNavTree('mip__macros__cc_8h.html',''); initResizable(true); });
 <a href="#details">More...</a></p>
 
 <p><a href="mip__macros__cc_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a617826695ec65b9b5fb9ac3e7eefea10" id="r_a617826695ec65b9b5fb9ac3e7eefea10"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a617826695ec65b9b5fb9ac3e7eefea10">MIP_CC_EXTERN_C</a></td></tr>
+<tr class="separator:a617826695ec65b9b5fb9ac3e7eefea10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50d0114b7451ebe55f26f65b42e45962" id="r_a50d0114b7451ebe55f26f65b42e45962"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50d0114b7451ebe55f26f65b42e45962">MIP_CC_CALLBACK</a>(TName,  TRet, ...)</td></tr>
+<tr class="separator:a50d0114b7451ebe55f26f65b42e45962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53d949c269573c72ce881b019e80d4f0" id="r_a53d949c269573c72ce881b019e80d4f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53d949c269573c72ce881b019e80d4f0">MIP_CC_CALLBACK_IMPL</a>(TRet)</td></tr>
+<tr class="separator:a53d949c269573c72ce881b019e80d4f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbbd8e6bbe5bd185dc3dedfd0eef4879" id="r_abbbd8e6bbe5bd185dc3dedfd0eef4879"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbbd8e6bbe5bd185dc3dedfd0eef4879">MIP_CC_API</a>(TRet)</td></tr>
+<tr class="separator:abbbd8e6bbe5bd185dc3dedfd0eef4879"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d99221f378cb3d55f84c4de77bf3b9a" id="r_a9d99221f378cb3d55f84c4de77bf3b9a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d99221f378cb3d55f84c4de77bf3b9a">MIP_CC_DEPRECATED_API</a>(TRet)</td></tr>
+<tr class="separator:a9d99221f378cb3d55f84c4de77bf3b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Export/import and other macros for C API. </p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="abbbd8e6bbe5bd185dc3dedfd0eef4879" name="abbbd8e6bbe5bd185dc3dedfd0eef4879"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbbd8e6bbe5bd185dc3dedfd0eef4879">&#9670;&#160;</a></span>MIP_CC_API</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MIP_CC_API</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>TRet</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a617826695ec65b9b5fb9ac3e7eefea10">MIP_CC_EXTERN_C</a> TRet</div>
+<div class="ttc" id="amip__macros__cc_8h_html_a617826695ec65b9b5fb9ac3e7eefea10"><div class="ttname"><a href="#a617826695ec65b9b5fb9ac3e7eefea10">MIP_CC_EXTERN_C</a></div><div class="ttdeci">#define MIP_CC_EXTERN_C</div><div class="ttdef"><b>Definition</b> mip_macros_cc.h:41</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a50d0114b7451ebe55f26f65b42e45962" name="a50d0114b7451ebe55f26f65b42e45962"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50d0114b7451ebe55f26f65b42e45962">&#9670;&#160;</a></span>MIP_CC_CALLBACK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MIP_CC_CALLBACK</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>TName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>TRet</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">typedef</span> TRet (*TName)(__VA_ARGS__)</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a53d949c269573c72ce881b019e80d4f0" name="a53d949c269573c72ce881b019e80d4f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53d949c269573c72ce881b019e80d4f0">&#9670;&#160;</a></span>MIP_CC_CALLBACK_IMPL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MIP_CC_CALLBACK_IMPL</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>TRet</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">TRet</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9d99221f378cb3d55f84c4de77bf3b9a" name="a9d99221f378cb3d55f84c4de77bf3b9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d99221f378cb3d55f84c4de77bf3b9a">&#9670;&#160;</a></span>MIP_CC_DEPRECATED_API</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MIP_CC_DEPRECATED_API</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>TRet</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a617826695ec65b9b5fb9ac3e7eefea10">MIP_CC_EXTERN_C</a> __attribute__((__deprecated__)) TRet</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a617826695ec65b9b5fb9ac3e7eefea10" name="a617826695ec65b9b5fb9ac3e7eefea10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a617826695ec65b9b5fb9ac3e7eefea10">&#9670;&#160;</a></span>MIP_CC_EXTERN_C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MIP_CC_EXTERN_C</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ed23b7e0ff82d04a8565e406d9d9df9a.html">mip-sdk-for-cpp</a></li><li class="navelem"><a class="el" href="dir_5a92ca31a1d1cd11ee59a3526a96cc89.html">src</a></li><li class="navelem"><a class="el" href="dir_e50a1d5d74e01fc8d143b32c54f27ce0.html">api</a></li><li class="navelem"><a class="el" href="dir_c3e04355e45d1ded316250c59adeda59.html">mip_cc</a></li><li class="navelem"><a class="el" href="mip__macros__cc_8h.html">mip_macros_cc.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

@@ -2,6 +2,7 @@ var classProtectionProfile =
 [
     [ "Observer", "classProtectionProfile_1_1Observer.html", "classProtectionProfile_1_1Observer" ],
     [ "Settings", "classProtectionProfile_1_1Settings.html", "classProtectionProfile_1_1Settings" ],
+    [ "~ProtectionProfile", "classProtectionProfile.html#ab8c361777790078c4be2be66132d02c2", null ],
     [ "AddEngine", "classProtectionProfile.html#aca5880d2f560a0d8cfca1b6b2599ae5c", null ],
     [ "AddEngineAsync", "classProtectionProfile.html#a0fe57749513fb7f95f2336b786c0c564", null ],
     [ "DeleteEngine", "classProtectionProfile.html#a823c15fec8d85207f4526fe627d8e382", null ],

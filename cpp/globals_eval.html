@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -110,6 +150,7 @@ $(function(){initNavTree('globals_eval.html',''); initResizable(true); });
 <li>CacheDnsResults&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0af0c732d70e7d6e01abeb454c9dbd7065">flighting_feature.h</a></li>
 <li>CachePrelicenseEUL&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0acc8e9f62d2f9928bf44ecc8241b72721">flighting_feature.h</a></li>
 <li>CloudAutoDiscovery&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a9dec68876c316623f7e7cafa65dafd6c">flighting_feature.h</a></li>
+<li>ConsumeXrmlPreLicense&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a0444e2c5df48280341cbb3da2dd047cb">flighting_feature.h</a></li>
 <li>CrossTenantUserCert&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a2ac0355edbd8b39be2c751c92ad6ffa9">flighting_feature.h</a></li>
 <li>CustomProtection&#160;:&#160;<a class="el" href="common__types_8h.html#a858bf8ad8a1305b382d18e21e1e60b60a21a72ecb67df34f626eba74cd4ec16e8">common_types.h</a></li>
 </ul>
@@ -138,6 +179,8 @@ $(function(){initNavTree('globals_eval.html',''); initResizable(true); });
 <li>EncryptOnlyProtection&#160;:&#160;<a class="el" href="common__types_8h.html#a858bf8ad8a1305b382d18e21e1e60b60a370aba9a52e1f588a2a713353627b375">common_types.h</a></li>
 <li>EnforceMinimumTls12&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0aad77e46590aec80dcd1dd31096850471">flighting_feature.h</a></li>
 <li>EnforceMinimumTls13&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a79f9f10c41ca7067a18a19c7798c45cb">flighting_feature.h</a></li>
+<li>EnsureOPCCorrectness&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0ad86eab3c8ef7f88e3c925acc2a17419e">flighting_feature.h</a></li>
+<li>EnsureZIPCorrectness&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0ac75617229cfaabd049be6828e5f1dd7c">flighting_feature.h</a></li>
 <li>EventDateTimeTokenUseUtc&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a41a89a8331b86461319e5ae1998b2e44">flighting_feature.h</a></li>
 <li>ExponentialBackoffRetries&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a16f82285d11ea866d0cb944bc262b45c">flighting_feature.h</a></li>
 <li>ExtendedSensitiveInformationClassifier&#160;:&#160;<a class="el" href="common__types_8h.html#a858bf8ad8a1305b382d18e21e1e60b60ad637512973c118f0b8d1276625b52587">common_types.h</a></li>
@@ -146,6 +189,7 @@ $(function(){initNavTree('globals_eval.html',''); initResizable(true); });
 
 <h3><a id="index_f" name="index_f"></a>- f -</h3><ul>
 <li>FileSDKOfflinePublishing&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0ad483de7c63e33d5ad13773fb268977f5">flighting_feature.h</a></li>
+<li>FixCorruptCompoundFiles&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a1280658d8f6206aa395ba04d306b259a">flighting_feature.h</a></li>
 <li>FixOutlookMultiMsgAttachmentParsing&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a97a6322d35b7c1f138bed7c4d34336c0">flighting_feature.h</a></li>
 </ul>
 
@@ -168,6 +212,7 @@ $(function(){initNavTree('globals_eval.html',''); initResizable(true); });
 
 
 <h3><a id="index_k" name="index_k"></a>- k -</h3><ul>
+<li>KeepLabelInfoOnPayload&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a785b5d92978d0c18492f8753ec034c17">flighting_feature.h</a></li>
 <li>KeyStoreBasedOnStoragePath&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0ac871e558c10e7829dd0cc087961e5e07">flighting_feature.h</a></li>
 </ul>
 
@@ -183,7 +228,9 @@ $(function(){initNavTree('globals_eval.html',''); initResizable(true); });
 <li>MachineLearningClassifier&#160;:&#160;<a class="el" href="common__types_8h.html#a858bf8ad8a1305b382d18e21e1e60b60a9503d84ad1879cf896888c64baeee314">common_types.h</a></li>
 <li>MatchCloudType&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0aaab1f4833e15217e23b0b8f565c4e0e2">flighting_feature.h</a></li>
 <li>MockDynamicWatermarkingResponseEnabled&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a17cf333ae4ae534fda5d12c872ca72a5">flighting_feature.h</a></li>
+<li>MsgRemoveProtectionStripsHtmlBody&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0aeb09ac3f5efe70d13a6cbae5441ab7d2">flighting_feature.h</a></li>
 <li>MultipleLabelResolution&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0abc360af31ad8cf65123e06d2b9aed446">flighting_feature.h</a></li>
+<li>MultiTenantOrganizationEnabled&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a173e7973c1dc5e5a382695dd961447c1">flighting_feature.h</a></li>
 </ul>
 
 
@@ -198,11 +245,16 @@ $(function(){initNavTree('globals_eval.html',''); initResizable(true); });
 
 
 <h3><a id="index_p" name="index_p"></a>- p -</h3><ul>
+<li>PerEnginePendingItem&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0ab7e36e6ba685876b33d77acfcc20488c">flighting_feature.h</a></li>
 <li>PolicyAuth&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a2e6ab12f973c21118f94271ea5bd5e94">flighting_feature.h</a></li>
 <li>PowerBiCustomSettings&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0af825a1591a8e15d20c9e4eae3a6a626e">flighting_feature.h</a></li>
 <li>PredefinedTemplateProtection&#160;:&#160;<a class="el" href="common__types_8h.html#a858bf8ad8a1305b382d18e21e1e60b60ae6f24381b96fe834834b770de3785183">common_types.h</a></li>
 <li>PreLicenseValidityCheck&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a2aecf6a75df7bd6558f87f47f39a3c37">flighting_feature.h</a></li>
 <li>PreLicensing&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a69bd55f43a49f3c40add36faa8d9b73f">flighting_feature.h</a></li>
+<li>PreserveOpcZipModtime&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a8e3a1d74869d807521aa7e71a0f52f9f">flighting_feature.h</a></li>
+<li>PreservePDFDateOnWrapper&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a5c5fa835365dcab14538947b992e4f76">flighting_feature.h</a></li>
+<li>PreservePDFEncryptDict&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a98b3f7dd5b197f235064fa3630151243">flighting_feature.h</a></li>
+<li>PreventOutOfBandReadOnLicenseParser&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0afd586c59d1a7d7fc75c090c357f95b36">flighting_feature.h</a></li>
 <li>PrioritizeHtmlInMsgs&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a35628ecd102b21571ff41aa78796e0a5">flighting_feature.h</a></li>
 <li>ProtectionAPITelemetryPropertyAdd&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a13bcf65cde7e317102676141f5a41293">flighting_feature.h</a></li>
 <li>ProtectionSDKDataBoundarySetInMipContext&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0abc450f9f9f7b51bc64b4b706fceb5441">flighting_feature.h</a></li>
@@ -212,6 +264,7 @@ $(function(){initNavTree('globals_eval.html',''); initResizable(true); });
 <h3><a id="index_r" name="index_r"></a>- r -</h3><ul>
 <li>RemoveDeletedLabelMd&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a3635ce7765b082075e6f80c8e97c7cdf">flighting_feature.h</a></li>
 <li>RemoveParentMetadataWhenChildLabelRemoved&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a60f25473cd18723b1636ec449214ca38">flighting_feature.h</a></li>
+<li>RestrictXmpToImageHandlers&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a9389a19d63d8b1426ef130ccb62a4981">flighting_feature.h</a></li>
 </ul>
 
 
@@ -220,6 +273,8 @@ $(function(){initNavTree('globals_eval.html',''); initResizable(true); });
 <li>ServiceDiscovery&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a8fe79858850d04048ab67ee279837991">flighting_feature.h</a></li>
 <li>SetMsgPropertiesAsEmbeddedMessageForRpmsg&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a2ac7185fc6974ac33fa14889e64c5ba7">flighting_feature.h</a></li>
 <li>SingleDomainName&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a1134824a81129ee786caae27636c17c2">flighting_feature.h</a></li>
+<li>SkipRedundantXmpMetadataUpdate&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a1f20797d9e74d31a099c3d7c3fc1ba12">flighting_feature.h</a></li>
+<li>StripCredentialsOnCrossOriginRedirect&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a21dd3fc369feb8f8b85fc8f854c61178">flighting_feature.h</a></li>
 </ul>
 
 
@@ -239,16 +294,31 @@ $(function(){initNavTree('globals_eval.html',''); initResizable(true); });
 
 
 <h3><a id="index_v" name="index_v"></a>- v -</h3><ul>
+<li>ValidateAuthChallengeAuthority&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a9f7f59d35de78435639cb0c583af1771">flighting_feature.h</a></li>
+<li>ValidateCloudUrlDomainBoundary&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0ad751b751b79cc0da6601d04bfb4b453b">flighting_feature.h</a></li>
+<li>ValidatePdfFlateDecodeParams&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a6ca532b2e6f10d5a3bcaf056e3706d57">flighting_feature.h</a></li>
 <li>ValidatePublishingLicenseSignatureTop&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0ae680d3735ff1c2f4adbf2f9c3b555f9b">flighting_feature.h</a></li>
+<li>ValidateRtfDecompressionBounds&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a0be0821e869bbf32b32a21a652049acd">flighting_feature.h</a></li>
 <li>VariablePolicyTtl&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a331b540817c6176278d9c431101764df">flighting_feature.h</a></li>
 <li>VariableTextMarking&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a7f45e5e845aa0a5a3226f49d3209ea2e">flighting_feature.h</a></li>
+<li>VersionedKeyStore&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0a2c67177a8380aa8abe15c046db88c975">flighting_feature.h</a></li>
+</ul>
+
+
+<h3><a id="index_w" name="index_w"></a>- w -</h3><ul>
+<li>WaitForSyncTasksOnUnload&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0aa2455099329810ad4090759dd7c0a310">flighting_feature.h</a></li>
+<li>WriteLabelIdToMapiProperty&#160;:&#160;<a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0ae7d646ba8ab9adb0c8cb7764ab16996d">flighting_feature.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

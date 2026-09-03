@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -101,6 +141,7 @@ $(function(){initNavTree('classFileHandler.html',''); initResizable(true); });
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classFileHandler-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">FileHandler Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
@@ -165,6 +206,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af188d8ad574b19a2e6ea660c154b3429"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if there are changes to commit to the file. <br  />
   <br /></td></tr>
 <tr class="separator:af188d8ad574b19a2e6ea660c154b3429"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68f56a4e7a7749cf232231b98e4723a1" id="r_a68f56a4e7a7749cf232231b98e4723a1"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68f56a4e7a7749cf232231b98e4723a1">IsCorrupt</a> ()=0</td></tr>
+<tr class="memdesc:a68f56a4e7a7749cf232231b98e4723a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the underlying file is corrupt. Always returns false if the file is not a compound file. Always returns false if the FixCorruptCompoundFiles feature flag is false. If true, calling CommitAsync will cause the fixed file to be written.  <br /></td></tr>
+<tr class="separator:a68f56a4e7a7749cf232231b98e4723a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab93a61b919b8652b8d971f89a5181292" id="r_ab93a61b919b8652b8d971f89a5181292"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab93a61b919b8652b8d971f89a5181292">GetDecryptedTemporaryFileAsync</a> (const std::shared_ptr&lt; void &gt; &amp;context)=0</td></tr>
 <tr class="memdesc:ab93a61b919b8652b8d971f89a5181292"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a path to a temporary file (that will be deleted if possible) - representing the decrypted content.  <br /></td></tr>
 <tr class="separator:ab93a61b919b8652b8d971f89a5181292"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,55 +221,113 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae8bc70464822745210ac68c5a58163e1" id="r_ae8bc70464822745210ac68c5a58163e1"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8bc70464822745210ac68c5a58163e1">GetOutputFileName</a> ()=0</td></tr>
 <tr class="memdesc:ae8bc70464822745210ac68c5a58163e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the output file name and extension based on the original file name and the accumulated changes.  <br /></td></tr>
 <tr class="separator:ae8bc70464822745210ac68c5a58163e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7763aaf84828a6eaaa5f14daca6b0797" id="r_a7763aaf84828a6eaaa5f14daca6b0797"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7763aaf84828a6eaaa5f14daca6b0797">~FileHandler</a> ()</td></tr>
+<tr class="separator:a7763aaf84828a6eaaa5f14daca6b0797"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a3237d2ea3ff4814a8c0dd0cd917b1926" id="r_a3237d2ea3ff4814a8c0dd0cd917b1926"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3237d2ea3ff4814a8c0dd0cd917b1926">IsProtected</a> (const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext)</td></tr>
+<tr class="memitem:a3237d2ea3ff4814a8c0dd0cd917b1926" id="r_a3237d2ea3ff4814a8c0dd0cd917b1926"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3237d2ea3ff4814a8c0dd0cd917b1926">IsProtected</a> (const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext)</td></tr>
 <tr class="memdesc:a3237d2ea3ff4814a8c0dd0cd917b1926"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether a file is protected or not.  <br /></td></tr>
 <tr class="separator:a3237d2ea3ff4814a8c0dd0cd917b1926"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1499b117e9eaf9999c6de32c78d12f7f" id="r_a1499b117e9eaf9999c6de32c78d12f7f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1499b117e9eaf9999c6de32c78d12f7f">IsProtected</a> (const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext)</td></tr>
+<tr class="memitem:a1499b117e9eaf9999c6de32c78d12f7f" id="r_a1499b117e9eaf9999c6de32c78d12f7f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1499b117e9eaf9999c6de32c78d12f7f">IsProtected</a> (const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext)</td></tr>
 <tr class="memdesc:a1499b117e9eaf9999c6de32c78d12f7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether a file is protected or not.  <br /></td></tr>
 <tr class="separator:a1499b117e9eaf9999c6de32c78d12f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b7e0a4843f6ee82544010d0130758e4" id="r_a9b7e0a4843f6ee82544010d0130758e4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b7e0a4843f6ee82544010d0130758e4">IsProtected</a> (const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext)</td></tr>
+<tr class="memitem:a9b7e0a4843f6ee82544010d0130758e4" id="r_a9b7e0a4843f6ee82544010d0130758e4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b7e0a4843f6ee82544010d0130758e4">IsProtected</a> (const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext)</td></tr>
 <tr class="memdesc:a9b7e0a4843f6ee82544010d0130758e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether a file is protected or not.  <br /></td></tr>
 <tr class="separator:a9b7e0a4843f6ee82544010d0130758e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24e2867bbf163d6c7ac67dc3797c87c4" id="r_a24e2867bbf163d6c7ac67dc3797c87c4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24e2867bbf163d6c7ac67dc3797c87c4">IsProtected</a> (const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext)</td></tr>
+<tr class="memitem:a24e2867bbf163d6c7ac67dc3797c87c4" id="r_a24e2867bbf163d6c7ac67dc3797c87c4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24e2867bbf163d6c7ac67dc3797c87c4">IsProtected</a> (const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext)</td></tr>
 <tr class="memdesc:a24e2867bbf163d6c7ac67dc3797c87c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether a file is protected or not.  <br /></td></tr>
 <tr class="separator:a24e2867bbf163d6c7ac67dc3797c87c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97450b3c858ebefa39448dac11d73839" id="r_a97450b3c858ebefa39448dac11d73839"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97450b3c858ebefa39448dac11d73839">IsLabeledOrProtected</a> (const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext)</td></tr>
+<tr class="memitem:a97450b3c858ebefa39448dac11d73839" id="r_a97450b3c858ebefa39448dac11d73839"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97450b3c858ebefa39448dac11d73839">IsLabeledOrProtected</a> (const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext)</td></tr>
 <tr class="memdesc:a97450b3c858ebefa39448dac11d73839"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether a file is labeled/protected or not.  <br /></td></tr>
 <tr class="separator:a97450b3c858ebefa39448dac11d73839"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc1822708cb3b9c00f3a95602f49a2ad" id="r_adc1822708cb3b9c00f3a95602f49a2ad"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc1822708cb3b9c00f3a95602f49a2ad">IsLabeledOrProtected</a> (const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext)</td></tr>
+<tr class="memitem:adc1822708cb3b9c00f3a95602f49a2ad" id="r_adc1822708cb3b9c00f3a95602f49a2ad"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc1822708cb3b9c00f3a95602f49a2ad">IsLabeledOrProtected</a> (const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext)</td></tr>
 <tr class="memdesc:adc1822708cb3b9c00f3a95602f49a2ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether a file is labeled/protected or not.  <br /></td></tr>
 <tr class="separator:adc1822708cb3b9c00f3a95602f49a2ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf5732327938dd78168c01b12ac4fad5" id="r_adf5732327938dd78168c01b12ac4fad5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf5732327938dd78168c01b12ac4fad5">IsLabeledOrProtected</a> (const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext)</td></tr>
+<tr class="memitem:adf5732327938dd78168c01b12ac4fad5" id="r_adf5732327938dd78168c01b12ac4fad5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf5732327938dd78168c01b12ac4fad5">IsLabeledOrProtected</a> (const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext)</td></tr>
 <tr class="memdesc:adf5732327938dd78168c01b12ac4fad5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether a file is labeled/protected or not.  <br /></td></tr>
 <tr class="separator:adf5732327938dd78168c01b12ac4fad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a124b78509688de69902fe732917415dd" id="r_a124b78509688de69902fe732917415dd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a124b78509688de69902fe732917415dd">IsLabeledOrProtected</a> (const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext)</td></tr>
+<tr class="memitem:a124b78509688de69902fe732917415dd" id="r_a124b78509688de69902fe732917415dd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a124b78509688de69902fe732917415dd">IsLabeledOrProtected</a> (const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext)</td></tr>
 <tr class="memdesc:a124b78509688de69902fe732917415dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether a file is labeled/protected or not.  <br /></td></tr>
 <tr class="separator:a124b78509688de69902fe732917415dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1afcf4f00a9a9be42f8f7e228d43079b" id="r_a1afcf4f00a9a9be42f8f7e228d43079b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::shared_ptr&lt; <a class="el" href="classFileStatus.html">FileStatus</a> &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1afcf4f00a9a9be42f8f7e228d43079b">GetFileStatus</a> (const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext=nullptr)</td></tr>
+<tr class="memitem:a1afcf4f00a9a9be42f8f7e228d43079b" id="r_a1afcf4f00a9a9be42f8f7e228d43079b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::shared_ptr&lt; <a class="el" href="classFileStatus.html">FileStatus</a> &gt; <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1afcf4f00a9a9be42f8f7e228d43079b">GetFileStatus</a> (const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext=nullptr)</td></tr>
 <tr class="memdesc:a1afcf4f00a9a9be42f8f7e228d43079b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether a file is labeled, protected, or contains protected objects.  <br /></td></tr>
 <tr class="separator:a1afcf4f00a9a9be42f8f7e228d43079b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f426f94c02b23a09d38ef65dda65598" id="r_a1f426f94c02b23a09d38ef65dda65598"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::shared_ptr&lt; <a class="el" href="classFileStatus.html">FileStatus</a> &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f426f94c02b23a09d38ef65dda65598">GetFileStatus</a> (const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext=nullptr)</td></tr>
+<tr class="memitem:a1f426f94c02b23a09d38ef65dda65598" id="r_a1f426f94c02b23a09d38ef65dda65598"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::shared_ptr&lt; <a class="el" href="classFileStatus.html">FileStatus</a> &gt; <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f426f94c02b23a09d38ef65dda65598">GetFileStatus</a> (const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext=nullptr)</td></tr>
 <tr class="memdesc:a1f426f94c02b23a09d38ef65dda65598"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether a file is labeled, protected, or contains protected objects.  <br /></td></tr>
 <tr class="separator:a1f426f94c02b23a09d38ef65dda65598"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a463603f56b95e9c0c9bfc053c6b36d73" id="r_a463603f56b95e9c0c9bfc053c6b36d73"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::vector&lt; uint8_t &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a463603f56b95e9c0c9bfc053c6b36d73">GetSerializedPublishingLicense</a> (const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext)</td></tr>
+<tr class="memitem:a463603f56b95e9c0c9bfc053c6b36d73" id="r_a463603f56b95e9c0c9bfc053c6b36d73"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::vector&lt; uint8_t &gt; <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a463603f56b95e9c0c9bfc053c6b36d73">GetSerializedPublishingLicense</a> (const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext)</td></tr>
 <tr class="memdesc:a463603f56b95e9c0c9bfc053c6b36d73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get publishing license from the file.  <br /></td></tr>
 <tr class="separator:a463603f56b95e9c0c9bfc053c6b36d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeeaddb8003de4ef23d6e4a0621c44e14" id="r_aeeaddb8003de4ef23d6e4a0621c44e14"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::vector&lt; uint8_t &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeeaddb8003de4ef23d6e4a0621c44e14">GetSerializedPublishingLicense</a> (const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext)</td></tr>
+<tr class="memitem:aeeaddb8003de4ef23d6e4a0621c44e14" id="r_aeeaddb8003de4ef23d6e4a0621c44e14"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::vector&lt; uint8_t &gt; <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeeaddb8003de4ef23d6e4a0621c44e14">GetSerializedPublishingLicense</a> (const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext)</td></tr>
 <tr class="memdesc:aeeaddb8003de4ef23d6e4a0621c44e14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get publishing license from the file.  <br /></td></tr>
 <tr class="separator:aeeaddb8003de4ef23d6e4a0621c44e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a748f5814f5082f72bafc89d39669a6d8" id="r_a748f5814f5082f72bafc89d39669a6d8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::vector&lt; uint8_t &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a748f5814f5082f72bafc89d39669a6d8">GetSerializedPublishingLicense</a> (const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext)</td></tr>
+<tr class="memitem:a748f5814f5082f72bafc89d39669a6d8" id="r_a748f5814f5082f72bafc89d39669a6d8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::vector&lt; uint8_t &gt; <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a748f5814f5082f72bafc89d39669a6d8">GetSerializedPublishingLicense</a> (const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext)</td></tr>
 <tr class="memdesc:a748f5814f5082f72bafc89d39669a6d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get publishing license from the file.  <br /></td></tr>
 <tr class="separator:a748f5814f5082f72bafc89d39669a6d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfc84ddb1791a53e28ea9bbfb853972c" id="r_acfc84ddb1791a53e28ea9bbfb853972c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::vector&lt; uint8_t &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfc84ddb1791a53e28ea9bbfb853972c">GetSerializedPublishingLicense</a> (const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext)</td></tr>
+<tr class="memitem:acfc84ddb1791a53e28ea9bbfb853972c" id="r_acfc84ddb1791a53e28ea9bbfb853972c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::vector&lt; uint8_t &gt; <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfc84ddb1791a53e28ea9bbfb853972c">GetSerializedPublishingLicense</a> (const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext)</td></tr>
 <tr class="memdesc:acfc84ddb1791a53e28ea9bbfb853972c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get publishing license from the file.  <br /></td></tr>
 <tr class="separator:acfc84ddb1791a53e28ea9bbfb853972c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a0d1ac8e9911e19255e8b2d99c2d93f43" id="r_a0d1ac8e9911e19255e8b2d99c2d93f43"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d1ac8e9911e19255e8b2d99c2d93f43">FileHandler</a> ()</td></tr>
+<tr class="separator:a0d1ac8e9911e19255e8b2d99c2d93f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Interface for all file handling functions. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a7763aaf84828a6eaaa5f14daca6b0797" name="a7763aaf84828a6eaaa5f14daca6b0797"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7763aaf84828a6eaaa5f14daca6b0797">&#9670;&#160;</a></span>~FileHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual FileHandler::~FileHandler </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d1ac8e9911e19255e8b2d99c2d93f43" name="a0d1ac8e9911e19255e8b2d99c2d93f43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d1ac8e9911e19255e8b2d99c2d93f43">&#9670;&#160;</a></span>FileHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FileHandler::FileHandler </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="adc353de0e5d0571fbe20cd2047abd20b" name="adc353de0e5d0571fbe20cd2047abd20b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adc353de0e5d0571fbe20cd2047abd20b">&#9670;&#160;</a></span>ClassifyAsync()</h2>
 
@@ -429,7 +531,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::shared_ptr&lt; <a class="el" href="classFileStatus.html">FileStatus</a> &gt; __CDECL FileHandler::GetFileStatus </td>
+          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::shared_ptr&lt; <a class="el" href="classFileStatus.html">FileStatus</a> &gt; <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> FileHandler::GetFileStatus </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span>, </td>
         </tr>
@@ -481,7 +583,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::shared_ptr&lt; <a class="el" href="classFileStatus.html">FileStatus</a> &gt; __CDECL FileHandler::GetFileStatus </td>
+          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::shared_ptr&lt; <a class="el" href="classFileStatus.html">FileStatus</a> &gt; <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> FileHandler::GetFileStatus </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span>, </td>
         </tr>
@@ -641,7 +743,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::vector&lt; uint8_t &gt; __CDECL FileHandler::GetSerializedPublishingLicense </td>
+          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::vector&lt; uint8_t &gt; <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> FileHandler::GetSerializedPublishingLicense </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span>, </td>
         </tr>
@@ -686,7 +788,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::vector&lt; uint8_t &gt; __CDECL FileHandler::GetSerializedPublishingLicense </td>
+          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::vector&lt; uint8_t &gt; <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> FileHandler::GetSerializedPublishingLicense </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span>, </td>
         </tr>
@@ -737,7 +839,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::vector&lt; uint8_t &gt; __CDECL FileHandler::GetSerializedPublishingLicense </td>
+          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::vector&lt; uint8_t &gt; <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> FileHandler::GetSerializedPublishingLicense </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span>, </td>
         </tr>
@@ -776,7 +878,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::vector&lt; uint8_t &gt; __CDECL FileHandler::GetSerializedPublishingLicense </td>
+          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> std::vector&lt; uint8_t &gt; <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> FileHandler::GetSerializedPublishingLicense </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span>, </td>
         </tr>
@@ -839,6 +941,34 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a68f56a4e7a7749cf232231b98e4723a1" name="a68f56a4e7a7749cf232231b98e4723a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68f56a4e7a7749cf232231b98e4723a1">&#9670;&#160;</a></span>IsCorrupt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool FileHandler::IsCorrupt </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the underlying file is corrupt. Always returns false if the file is not a compound file. Always returns false if the FixCorruptCompoundFiles feature flag is false. If true, calling CommitAsync will cause the fixed file to be written. </p>
+<dl class="section note"><dt>Note</dt><dd>Changes won't be written to the file until CommitAsync is called. </dd></dl>
+
+</div>
+</div>
 <a id="adf5732327938dd78168c01b12ac4fad5" name="adf5732327938dd78168c01b12ac4fad5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adf5732327938dd78168c01b12ac4fad5">&#9670;&#160;</a></span>IsLabeledOrProtected() <span class="overload">[1/4]</span></h2>
 
@@ -849,7 +979,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool __CDECL FileHandler::IsLabeledOrProtected </td>
+          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> FileHandler::IsLabeledOrProtected </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span>, </td>
         </tr>
@@ -896,7 +1026,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool __CDECL FileHandler::IsLabeledOrProtected </td>
+          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> FileHandler::IsLabeledOrProtected </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span>, </td>
         </tr>
@@ -949,7 +1079,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool __CDECL FileHandler::IsLabeledOrProtected </td>
+          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> FileHandler::IsLabeledOrProtected </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span>, </td>
         </tr>
@@ -989,7 +1119,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool __CDECL FileHandler::IsLabeledOrProtected </td>
+          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> FileHandler::IsLabeledOrProtected </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span>, </td>
         </tr>
@@ -1065,7 +1195,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool __CDECL FileHandler::IsProtected </td>
+          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> FileHandler::IsProtected </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span>, </td>
         </tr>
@@ -1111,7 +1241,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool __CDECL FileHandler::IsProtected </td>
+          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> FileHandler::IsProtected </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classStream.html">Stream</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span>, </td>
         </tr>
@@ -1163,7 +1293,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool __CDECL FileHandler::IsProtected </td>
+          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> FileHandler::IsProtected </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span>, </td>
         </tr>
@@ -1202,7 +1332,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool __CDECL FileHandler::IsProtected </td>
+          <td class="memname">static <a class="el" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> bool <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> FileHandler::IsProtected </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span>, </td>
         </tr>
@@ -1498,11 +1628,15 @@ Static Public Member Functions</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classFileHandler.html">FileHandler</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

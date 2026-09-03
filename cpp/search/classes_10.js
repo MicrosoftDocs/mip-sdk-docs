@@ -5,7 +5,7 @@ var searchData=
   ['sensitivitytypesrulepackage_2',['SensitivityTypesRulePackage',['../classSensitivityTypesRulePackage.html',1,'']]],
   ['servicedisablederror_3',['ServiceDisabledError',['../classServiceDisabledError.html',1,'']]],
   ['serviceinfo_4',['ServiceInfo',['../classServiceInfo.html',1,'']]],
-  ['settings_5',['Settings',['../classComputeEngine_1_1Settings.html',1,'ComputeEngine::Settings'],['../classFileProfile_1_1Settings.html',1,'FileProfile::Settings'],['../classProtectionEngine_1_1Settings.html',1,'ProtectionEngine::Settings'],['../classProtectionProfile_1_1Settings.html',1,'ProtectionProfile::Settings']]],
+  ['settings_5',['Settings',['../classComputeEngine_1_1Settings.html',1,'ComputeEngine::Settings'],['../classFileEngine_1_1Settings.html',1,'FileEngine::Settings'],['../classFileProfile_1_1Settings.html',1,'FileProfile::Settings'],['../classPolicyEngine_1_1Settings.html',1,'PolicyEngine::Settings'],['../classPolicyProfile_1_1Settings.html',1,'PolicyProfile::Settings'],['../classProtectionEngine_1_1Settings.html',1,'ProtectionEngine::Settings'],['../classProtectionProfile_1_1Settings.html',1,'ProtectionProfile::Settings']]],
   ['storagedelegate_6',['StorageDelegate',['../classStorageDelegate.html',1,'']]],
   ['storagesettings_7',['StorageSettings',['../classStorageDelegate_1_1StorageSettings.html',1,'StorageDelegate']]],
   ['storagetable_8',['StorageTable',['../classStorageTable.html',1,'']]],

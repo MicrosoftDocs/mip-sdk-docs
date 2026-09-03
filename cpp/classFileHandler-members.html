@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -107,19 +147,21 @@ $(function(){initNavTree('classFileHandler.html',''); initResizable(true); });
   <tr class="odd"><td class="entry"><a class="el" href="classFileHandler.html#af606b52e7a3c53a8a2d4c2148d6bcaa2">CommitAsync</a>(const std::string &amp;outputFilePath, const std::shared_ptr&lt; void &gt; &amp;context)=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classFileHandler.html#a70dd35da4e1383e78957bb125abee871">CommitAsync</a>(const std::shared_ptr&lt; Stream &gt; &amp;outputStream, const std::shared_ptr&lt; void &gt; &amp;context)=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classFileHandler.html#a0aa53e73d271e936f3ec4c799ab86151">DeleteLabel</a>(const LabelingOptions &amp;labelingOptions)=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classFileHandler.html#ab93a61b919b8652b8d971f89a5181292">GetDecryptedTemporaryFileAsync</a>(const std::shared_ptr&lt; void &gt; &amp;context)=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classFileHandler.html#ab4924d6eeea398fbf9c05895d869e62e">GetDecryptedTemporaryStreamAsync</a>(const std::shared_ptr&lt; void &gt; &amp;context)=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classFileHandler.html#a1afcf4f00a9a9be42f8f7e228d43079b">GetFileStatus</a>(const std::string &amp;filePath, const std::shared_ptr&lt; MipContext &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext=nullptr)</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classFileHandler.html#a1f426f94c02b23a09d38ef65dda65598">GetFileStatus</a>(const std::shared_ptr&lt; Stream &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; MipContext &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext=nullptr)</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classFileHandler.html#ab496f9c156f8947f31e4c5d75d8fe709">GetLabel</a>()=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classFileHandler.html#ae8bc70464822745210ac68c5a58163e1">GetOutputFileName</a>()=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classFileHandler.html#ad83408bcd78003c84d1df474a71b23a2">GetProperties</a>(uint32_t version)=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classFileHandler.html#aaa35d4f902f222a5a7bc995244b2e099">GetProtection</a>()=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classFileHandler.html#a463603f56b95e9c0c9bfc053c6b36d73">GetSerializedPublishingLicense</a>(const std::string &amp;filePath, const std::shared_ptr&lt; MipContext &gt; &amp;mipContext)</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classFileHandler.html#aeeaddb8003de4ef23d6e4a0621c44e14">GetSerializedPublishingLicense</a>(const std::string &amp;filePath, const std::shared_ptr&lt; MipContext &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext)</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classFileHandler.html#a748f5814f5082f72bafc89d39669a6d8">GetSerializedPublishingLicense</a>(const std::shared_ptr&lt; Stream &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; MipContext &gt; &amp;mipContext)</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classFileHandler.html#acfc84ddb1791a53e28ea9bbfb853972c">GetSerializedPublishingLicense</a>(const std::shared_ptr&lt; Stream &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; MipContext &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext)</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classFileHandler.html#a779d55c1ae8bf1dcc68db30ff24e8023">InspectAsync</a>(const std::shared_ptr&lt; void &gt; &amp;context)=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classFileHandler.html#a0d1ac8e9911e19255e8b2d99c2d93f43">FileHandler</a>()</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classFileHandler.html#ab93a61b919b8652b8d971f89a5181292">GetDecryptedTemporaryFileAsync</a>(const std::shared_ptr&lt; void &gt; &amp;context)=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classFileHandler.html#ab4924d6eeea398fbf9c05895d869e62e">GetDecryptedTemporaryStreamAsync</a>(const std::shared_ptr&lt; void &gt; &amp;context)=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classFileHandler.html#a1afcf4f00a9a9be42f8f7e228d43079b">GetFileStatus</a>(const std::string &amp;filePath, const std::shared_ptr&lt; MipContext &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext=nullptr)</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classFileHandler.html#a1f426f94c02b23a09d38ef65dda65598">GetFileStatus</a>(const std::shared_ptr&lt; Stream &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; MipContext &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext=nullptr)</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classFileHandler.html#ab496f9c156f8947f31e4c5d75d8fe709">GetLabel</a>()=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classFileHandler.html#ae8bc70464822745210ac68c5a58163e1">GetOutputFileName</a>()=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classFileHandler.html#ad83408bcd78003c84d1df474a71b23a2">GetProperties</a>(uint32_t version)=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classFileHandler.html#aaa35d4f902f222a5a7bc995244b2e099">GetProtection</a>()=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classFileHandler.html#a463603f56b95e9c0c9bfc053c6b36d73">GetSerializedPublishingLicense</a>(const std::string &amp;filePath, const std::shared_ptr&lt; MipContext &gt; &amp;mipContext)</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classFileHandler.html#aeeaddb8003de4ef23d6e4a0621c44e14">GetSerializedPublishingLicense</a>(const std::string &amp;filePath, const std::shared_ptr&lt; MipContext &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext)</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classFileHandler.html#a748f5814f5082f72bafc89d39669a6d8">GetSerializedPublishingLicense</a>(const std::shared_ptr&lt; Stream &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; MipContext &gt; &amp;mipContext)</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classFileHandler.html#acfc84ddb1791a53e28ea9bbfb853972c">GetSerializedPublishingLicense</a>(const std::shared_ptr&lt; Stream &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; MipContext &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext)</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classFileHandler.html#a779d55c1ae8bf1dcc68db30ff24e8023">InspectAsync</a>(const std::shared_ptr&lt; void &gt; &amp;context)=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classFileHandler.html#a68f56a4e7a7749cf232231b98e4723a1">IsCorrupt</a>()=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classFileHandler.html#a97450b3c858ebefa39448dac11d73839">IsLabeledOrProtected</a>(const std::string &amp;filePath, const std::shared_ptr&lt; MipContext &gt; &amp;mipContext)</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classFileHandler.html#adc1822708cb3b9c00f3a95602f49a2ad">IsLabeledOrProtected</a>(const std::string &amp;filePath, const std::shared_ptr&lt; MipContext &gt; &amp;mipContext, const std::shared_ptr&lt; void &gt; &amp;loggerContext)</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classFileHandler.html#adf5732327938dd78168c01b12ac4fad5">IsLabeledOrProtected</a>(const std::shared_ptr&lt; Stream &gt; &amp;stream, const std::string &amp;filePath, const std::shared_ptr&lt; MipContext &gt; &amp;mipContext)</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
@@ -136,12 +178,17 @@ $(function(){initNavTree('classFileHandler.html',''); initResizable(true); });
   <tr class="even"><td class="entry"><a class="el" href="classFileHandler.html#a1d07ccba43494927c85af4ccd142ef9b">SetLabel</a>(const std::shared_ptr&lt; Label &gt; &amp;label, const LabelingOptions &amp;labelingOptions, const ProtectionSettings &amp;protectionSettings)=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classFileHandler.html#ab4c696f17c66cf3caf9e97603d6d4d88">SetProtection</a>(const std::shared_ptr&lt; ProtectionDescriptor &gt; &amp;protectionDescriptor, const ProtectionSettings &amp;protectionSettings)=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classFileHandler.html#a76f07bf70e08e0410879ce46da188a57">SetProtection</a>(const std::shared_ptr&lt; ProtectionHandler &gt; &amp;protectionHandler)=0</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classFileHandler.html#a7763aaf84828a6eaaa5f14daca6b0797">~FileHandler</a>()</td><td class="entry"><a class="el" href="classFileHandler.html">FileHandler</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

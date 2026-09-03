@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -157,22 +197,73 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a997db49423e4c4e5a91d72e1bbffe201" id="r_a997db49423e4c4e5a91d72e1bbffe201"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="common__types_8h.html#a174ba9275624a6880ce3be3fdbaa6c5f">CacheStorageType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a997db49423e4c4e5a91d72e1bbffe201">GetCacheStorageType</a> () const =0</td></tr>
 <tr class="memdesc:a997db49423e4c4e5a91d72e1bbffe201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get whether caches are stored in memory or on disk.  <br /></td></tr>
 <tr class="separator:a997db49423e4c4e5a91d72e1bbffe201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0323d2326297330779282b5438799ce7" id="r_a0323d2326297330779282b5438799ce7"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; ProtectionCloudManager &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0323d2326297330779282b5438799ce7">GetProtectionCloudManager</a> () const =0</td></tr>
+<tr class="separator:a0323d2326297330779282b5438799ce7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa22803c955e04fc2a312f31053cb470" id="r_afa22803c955e04fc2a312f31053cb470"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; PolicyCloudManager &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa22803c955e04fc2a312f31053cb470">GetPolicyCloudManager</a> () const =0</td></tr>
+<tr class="separator:afa22803c955e04fc2a312f31053cb470"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34e100b348ecab8a19d0b622e1781719" id="r_a34e100b348ecab8a19d0b622e1781719"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; OneDSCloudManager &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34e100b348ecab8a19d0b622e1781719">GetOneDSCloudManager</a> () const =0</td></tr>
+<tr class="separator:a34e100b348ecab8a19d0b622e1781719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bdd30f1d5568b4c8eb34009bdfb6518" id="r_a6bdd30f1d5568b4c8eb34009bdfb6518"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; TelemetryManager &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bdd30f1d5568b4c8eb34009bdfb6518">GetTelemetryManager</a> () const =0</td></tr>
+<tr class="separator:a6bdd30f1d5568b4c8eb34009bdfb6518"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1117efb9ef81624ee27b8546a459775b" id="r_a1117efb9ef81624ee27b8546a459775b"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; AuditManager &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1117efb9ef81624ee27b8546a459775b">GetAuditManager</a> () const =0</td></tr>
+<tr class="separator:a1117efb9ef81624ee27b8546a459775b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30ece3d9d4ff8fc9c24f6c8486d09c66" id="r_a30ece3d9d4ff8fc9c24f6c8486d09c66"><td class="memItemLeft" align="right" valign="top">virtual TelemetryManager *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30ece3d9d4ff8fc9c24f6c8486d09c66">GetRawTelemetryManager</a> () const =0</td></tr>
+<tr class="separator:a30ece3d9d4ff8fc9c24f6c8486d09c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fefd0c99713c3ed38037c72a58ffe7d" id="r_a2fefd0c99713c3ed38037c72a58ffe7d"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classJsonDelegate.html">JsonDelegate</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fefd0c99713c3ed38037c72a58ffe7d">GetJsonDelegate</a> () const =0</td></tr>
+<tr class="separator:a2fefd0c99713c3ed38037c72a58ffe7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac15dfa0bcab30c1f0847d4cecc3aba2b" id="r_ac15dfa0bcab30c1f0847d4cecc3aba2b"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; OneDSAriaHelper &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac15dfa0bcab30c1f0847d4cecc3aba2b">GetOneDSAriaHelper</a> () const =0</td></tr>
+<tr class="separator:ac15dfa0bcab30c1f0847d4cecc3aba2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0395b6b682daf61bf54f4b30f623f135" id="r_a0395b6b682daf61bf54f4b30f623f135"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classEventContext.html">EventContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0395b6b682daf61bf54f4b30f623f135">GetDefaultEventContext</a> () const =0</td></tr>
+<tr class="separator:a0395b6b682daf61bf54f4b30f623f135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a303abc39e5f448fc985270dd8596764d" id="r_a303abc39e5f448fc985270dd8596764d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a303abc39e5f448fc985270dd8596764d">InitializeCloudDiscoveryStores</a> (const <a class="el" href="common__types_8h.html#a174ba9275624a6880ce3be3fdbaa6c5f">CacheStorageType</a> cacheStorageType)=0</td></tr>
+<tr class="separator:a303abc39e5f448fc985270dd8596764d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3b111d433980ba40b21f1ffe4ef4113" id="r_ac3b111d433980ba40b21f1ffe4ef4113"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classxml_1_1XmlDelegate.html">xml::XmlDelegate</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3b111d433980ba40b21f1ffe4ef4113">GetXmlDelegate</a> () const =0</td></tr>
+<tr class="memdesc:ac3b111d433980ba40b21f1ffe4ef4113"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Xml Delegate that should be used when parsing. If the application provides a <a class="el" href="classMipConfiguration.html" title="Configuration used by MIP sdk during its creation and throughout its lifetime.">MipConfiguration</a> with an xml delegate and is using MipCore this method returns that alternative delegate. Otherwise the default implementation will be used.  <br /></td></tr>
+<tr class="separator:ac3b111d433980ba40b21f1ffe4ef4113"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5043ed2162ef91deb4647c56710668c0" id="r_a5043ed2162ef91deb4647c56710668c0"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5043ed2162ef91deb4647c56710668c0">~MipContext</a> ()</td></tr>
+<tr class="separator:a5043ed2162ef91deb4647c56710668c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a283578093989bc548ac6cfeb505d9f8a" id="r_a283578093989bc548ac6cfeb505d9f8a"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a283578093989bc548ac6cfeb505d9f8a">Create</a> (const <a class="el" href="structApplicationInfo.html">ApplicationInfo</a> &amp;appInfo, const std::string &amp;path, <a class="el" href="log__message__data_8h.html#a7a38c7496c92835c0d835ecb2f8135c1">LogLevel</a> thresholdLogLevel, bool isOfflineOnly, const std::shared_ptr&lt; <a class="el" href="classLoggerDelegate.html">LoggerDelegate</a> &gt; &amp;loggerDelegateOverride, const std::shared_ptr&lt; <a class="el" href="structDiagnosticConfiguration.html">DiagnosticConfiguration</a> &gt; &amp;diagnosticOverride)</td></tr>
+<tr class="memitem:a283578093989bc548ac6cfeb505d9f8a" id="r_a283578093989bc548ac6cfeb505d9f8a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a283578093989bc548ac6cfeb505d9f8a">Create</a> (const <a class="el" href="structApplicationInfo.html">ApplicationInfo</a> &amp;appInfo, const std::string &amp;path, <a class="el" href="log__message__data_8h.html#a7a38c7496c92835c0d835ecb2f8135c1">LogLevel</a> thresholdLogLevel, bool isOfflineOnly, const std::shared_ptr&lt; <a class="el" href="classLoggerDelegate.html">LoggerDelegate</a> &gt; &amp;loggerDelegateOverride, const std::shared_ptr&lt; <a class="el" href="structDiagnosticConfiguration.html">DiagnosticConfiguration</a> &gt; &amp;diagnosticOverride)</td></tr>
 <tr class="memdesc:a283578093989bc548ac6cfeb505d9f8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <a class="el" href="classMipContext.html" title="MipContext represents state that is shared across all profiles, engines, handlers.">MipContext</a> instance to be used when initializing profiles.  <br /></td></tr>
 <tr class="separator:a283578093989bc548ac6cfeb505d9f8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28a171f08ef58df6fdc3dd19f1e5c6e8" id="r_a28a171f08ef58df6fdc3dd19f1e5c6e8"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28a171f08ef58df6fdc3dd19f1e5c6e8">CreateWithCustomFeatureSettings</a> (const <a class="el" href="structApplicationInfo.html">ApplicationInfo</a> &amp;appInfo, const std::string &amp;path, <a class="el" href="log__message__data_8h.html#a7a38c7496c92835c0d835ecb2f8135c1">LogLevel</a> thresholdLogLevel, bool isOfflineOnly, const std::shared_ptr&lt; <a class="el" href="classLoggerDelegate.html">LoggerDelegate</a> &gt; &amp;loggerDelegateOverride, const std::shared_ptr&lt; <a class="el" href="structDiagnosticConfiguration.html">DiagnosticConfiguration</a> &gt; &amp;diagnosticOverride, const std::map&lt; <a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0">FlightingFeature</a>, bool &gt; &amp;featureSettingsOverride)</td></tr>
+<tr class="memitem:a28a171f08ef58df6fdc3dd19f1e5c6e8" id="r_a28a171f08ef58df6fdc3dd19f1e5c6e8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28a171f08ef58df6fdc3dd19f1e5c6e8">CreateWithCustomFeatureSettings</a> (const <a class="el" href="structApplicationInfo.html">ApplicationInfo</a> &amp;appInfo, const std::string &amp;path, <a class="el" href="log__message__data_8h.html#a7a38c7496c92835c0d835ecb2f8135c1">LogLevel</a> thresholdLogLevel, bool isOfflineOnly, const std::shared_ptr&lt; <a class="el" href="classLoggerDelegate.html">LoggerDelegate</a> &gt; &amp;loggerDelegateOverride, const std::shared_ptr&lt; <a class="el" href="structDiagnosticConfiguration.html">DiagnosticConfiguration</a> &gt; &amp;diagnosticOverride, const std::map&lt; <a class="el" href="flighting__feature_8h.html#a136e8722fcaf2df5a6f3cb4bff70adc0">FlightingFeature</a>, bool &gt; &amp;featureSettingsOverride)</td></tr>
 <tr class="memdesc:a28a171f08ef58df6fdc3dd19f1e5c6e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <a class="el" href="classMipContext.html" title="MipContext represents state that is shared across all profiles, engines, handlers.">MipContext</a> instance with custom feature settings.  <br /></td></tr>
 <tr class="separator:a28a171f08ef58df6fdc3dd19f1e5c6e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad049d89d52678ce1c18908af3aa32918" id="r_ad049d89d52678ce1c18908af3aa32918"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; __CDECL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad049d89d52678ce1c18908af3aa32918">Create</a> (const std::shared_ptr&lt; const <a class="el" href="classMipConfiguration.html">MipConfiguration</a> &gt; &amp;configuration)</td></tr>
+<tr class="memitem:ad049d89d52678ce1c18908af3aa32918" id="r_ad049d89d52678ce1c18908af3aa32918"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad049d89d52678ce1c18908af3aa32918">Create</a> (const std::shared_ptr&lt; const <a class="el" href="classMipConfiguration.html">MipConfiguration</a> &gt; &amp;configuration)</td></tr>
 <tr class="memdesc:ad049d89d52678ce1c18908af3aa32918"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <a class="el" href="classMipContext.html" title="MipContext represents state that is shared across all profiles, engines, handlers.">MipContext</a> instance with mip configuration.  <br /></td></tr>
 <tr class="separator:ad049d89d52678ce1c18908af3aa32918"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classMipContext.html" title="MipContext represents state that is shared across all profiles, engines, handlers.">MipContext</a> represents state that is shared across all profiles, engines, handlers. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a5043ed2162ef91deb4647c56710668c0" name="a5043ed2162ef91deb4647c56710668c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5043ed2162ef91deb4647c56710668c0">&#9670;&#160;</a></span>~MipContext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MipContext::~MipContext </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a283578093989bc548ac6cfeb505d9f8a" name="a283578093989bc548ac6cfeb505d9f8a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a283578093989bc548ac6cfeb505d9f8a">&#9670;&#160;</a></span>Create() <span class="overload">[1/2]</span></h2>
 
@@ -183,7 +274,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static MIP_API std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; __CDECL MipContext::Create </td>
+          <td class="memname">static <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> MipContext::Create </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structApplicationInfo.html">ApplicationInfo</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>appInfo</em></span>, </td>
         </tr>
@@ -246,7 +337,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static MIP_API std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; __CDECL MipContext::Create </td>
+          <td class="memname">static <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> MipContext::Create </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; const <a class="el" href="classMipConfiguration.html">MipConfiguration</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>configuration</em></span></td><td>)</td>
           <td></td>
@@ -280,7 +371,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static MIP_API std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; __CDECL MipContext::CreateWithCustomFeatureSettings </td>
+          <td class="memname">static <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classMipContext.html">MipContext</a> &gt; <a class="el" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> MipContext::CreateWithCustomFeatureSettings </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structApplicationInfo.html">ApplicationInfo</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>appInfo</em></span>, </td>
         </tr>
@@ -367,6 +458,31 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a1117efb9ef81624ee27b8546a459775b" name="a1117efb9ef81624ee27b8546a459775b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1117efb9ef81624ee27b8546a459775b">&#9670;&#160;</a></span>GetAuditManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::shared_ptr&lt; AuditManager &gt; MipContext::GetAuditManager </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a997db49423e4c4e5a91d72e1bbffe201" name="a997db49423e4c4e5a91d72e1bbffe201"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a997db49423e4c4e5a91d72e1bbffe201">&#9670;&#160;</a></span>GetCacheStorageType()</h2>
 
@@ -423,6 +539,31 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a0395b6b682daf61bf54f4b30f623f135" name="a0395b6b682daf61bf54f4b30f623f135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0395b6b682daf61bf54f4b30f623f135">&#9670;&#160;</a></span>GetDefaultEventContext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::shared_ptr&lt; <a class="el" href="classEventContext.html">EventContext</a> &gt; MipContext::GetDefaultEventContext </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac1a2a233ea5466fc16a08bd8218533d0" name="ac1a2a233ea5466fc16a08bd8218533d0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac1a2a233ea5466fc16a08bd8218533d0">&#9670;&#160;</a></span>GetFlightingFeatures()</h2>
 
@@ -476,6 +617,31 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get Http implementation. </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classHttpDelegate.html" title="Interface for overriding HTTP handling.">HttpDelegate</a> </dd></dl>
+
+</div>
+</div>
+<a id="a2fefd0c99713c3ed38037c72a58ffe7d" name="a2fefd0c99713c3ed38037c72a58ffe7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fefd0c99713c3ed38037c72a58ffe7d">&#9670;&#160;</a></span>GetJsonDelegate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::shared_ptr&lt; <a class="el" href="classJsonDelegate.html">JsonDelegate</a> &gt; MipContext::GetJsonDelegate </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -591,6 +757,106 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac15dfa0bcab30c1f0847d4cecc3aba2b" name="ac15dfa0bcab30c1f0847d4cecc3aba2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac15dfa0bcab30c1f0847d4cecc3aba2b">&#9670;&#160;</a></span>GetOneDSAriaHelper()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::shared_ptr&lt; OneDSAriaHelper &gt; MipContext::GetOneDSAriaHelper </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a34e100b348ecab8a19d0b622e1781719" name="a34e100b348ecab8a19d0b622e1781719"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34e100b348ecab8a19d0b622e1781719">&#9670;&#160;</a></span>GetOneDSCloudManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::shared_ptr&lt; OneDSCloudManager &gt; MipContext::GetOneDSCloudManager </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa22803c955e04fc2a312f31053cb470" name="afa22803c955e04fc2a312f31053cb470"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa22803c955e04fc2a312f31053cb470">&#9670;&#160;</a></span>GetPolicyCloudManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::shared_ptr&lt; PolicyCloudManager &gt; MipContext::GetPolicyCloudManager </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0323d2326297330779282b5438799ce7" name="a0323d2326297330779282b5438799ce7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0323d2326297330779282b5438799ce7">&#9670;&#160;</a></span>GetProtectionCloudManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::shared_ptr&lt; ProtectionCloudManager &gt; MipContext::GetProtectionCloudManager </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a92e3b73915a5517011fd05aa966fe08b" name="a92e3b73915a5517011fd05aa966fe08b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a92e3b73915a5517011fd05aa966fe08b">&#9670;&#160;</a></span>GetRawLoggerDelegate()</h2>
 
@@ -616,6 +882,31 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get raw logger implementation. </p>
 <dl class="section return"><dt>Returns</dt><dd>Logger </dd></dl>
+
+</div>
+</div>
+<a id="a30ece3d9d4ff8fc9c24f6c8486d09c66" name="a30ece3d9d4ff8fc9c24f6c8486d09c66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30ece3d9d4ff8fc9c24f6c8486d09c66">&#9670;&#160;</a></span>GetRawTelemetryManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual TelemetryManager * MipContext::GetRawTelemetryManager </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -647,6 +938,31 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a6bdd30f1d5568b4c8eb34009bdfb6518" name="a6bdd30f1d5568b4c8eb34009bdfb6518"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bdd30f1d5568b4c8eb34009bdfb6518">&#9670;&#160;</a></span>GetTelemetryManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::shared_ptr&lt; TelemetryManager &gt; MipContext::GetTelemetryManager </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5d99d9bcb4f0c0f2c8c402dab41af90e" name="a5d99d9bcb4f0c0f2c8c402dab41af90e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5d99d9bcb4f0c0f2c8c402dab41af90e">&#9670;&#160;</a></span>GetThresholdLogLevel()</h2>
 
@@ -672,6 +988,59 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get threshold log level. </p>
 <dl class="section return"><dt>Returns</dt><dd>threshold log level </dd></dl>
+
+</div>
+</div>
+<a id="ac3b111d433980ba40b21f1ffe4ef4113" name="ac3b111d433980ba40b21f1ffe4ef4113"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3b111d433980ba40b21f1ffe4ef4113">&#9670;&#160;</a></span>GetXmlDelegate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::shared_ptr&lt; <a class="el" href="classxml_1_1XmlDelegate.html">xml::XmlDelegate</a> &gt; MipContext::GetXmlDelegate </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the Xml Delegate that should be used when parsing. If the application provides a <a class="el" href="classMipConfiguration.html" title="Configuration used by MIP sdk during its creation and throughout its lifetime.">MipConfiguration</a> with an xml delegate and is using MipCore this method returns that alternative delegate. Otherwise the default implementation will be used. </p>
+<dl class="section return"><dt>Returns</dt><dd>A shared_ptr to the xml delegate </dd></dl>
+
+</div>
+</div>
+<a id="a303abc39e5f448fc985270dd8596764d" name="a303abc39e5f448fc985270dd8596764d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a303abc39e5f448fc985270dd8596764d">&#9670;&#160;</a></span>InitializeCloudDiscoveryStores()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MipContext::InitializeCloudDiscoveryStores </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="common__types_8h.html#a174ba9275624a6880ce3be3fdbaa6c5f">CacheStorageType</a></td>          <td class="paramname"><span class="paramname"><em>cacheStorageType</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -771,11 +1140,15 @@ Static Public Member Functions</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classMipContext.html">MipContext</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

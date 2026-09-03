@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -145,7 +185,7 @@ $(function(){initNavTree('file__profile_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#include &quot;<a class="code" href="mip__namespace_8h.html">mip/mip_namespace.h</a>&quot;</span></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#include &quot;<a class="code" href="task__dispatcher__delegate_8h.html">mip/task_dispatcher_delegate.h</a>&quot;</span></div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>MIP_NAMESPACE_BEGIN</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><a class="code hl_define" href="mip__namespace_8h.html#a39c21aae7cf9012b9b74d8431054e182">MIP_NAMESPACE_BEGIN</a></div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="foldopen" id="foldopen00053" data-start="{" data-end="};">
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="classFileProfile.html">   53</a></span><span class="keyword">class </span><a class="code hl_class" href="classFileProfile.html">FileProfile</a> {</div>
@@ -159,56 +199,56 @@ $(function(){initNavTree('file__profile_8h_source.html',''); initResizable(true)
 <div class="foldopen" id="foldopen00069" data-start="{" data-end="}">
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="classFileProfile_1_1Observer.html#a2cb5a85f43941699fce4203a262678f7">   69</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFileProfile_1_1Observer.html#a2cb5a85f43941699fce4203a262678f7">OnLoadSuccess</a>(</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        <span class="keyword">const</span> std::shared_ptr&lt;mip::FileProfile&gt;&amp; profile, </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { UNUSED(profile); UNUSED(context); }</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(profile); <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(context); }</div>
 </div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
 <div class="foldopen" id="foldopen00076" data-start="{" data-end="}">
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="classFileProfile_1_1Observer.html#a8cab7678c5e38d262de208162265a8bc">   76</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFileProfile_1_1Observer.html#a8cab7678c5e38d262de208162265a8bc">OnLoadFailure</a>(<span class="keyword">const</span> std::exception_ptr&amp; error, <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) {</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        UNUSED(error); UNUSED(context); }</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(error); <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(context); }</div>
 </div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
 <div class="foldopen" id="foldopen00082" data-start="{" data-end="}">
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="classFileProfile_1_1Observer.html#a22d0b12573d430c9df0457fa079670c2">   82</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFileProfile_1_1Observer.html#a22d0b12573d430c9df0457fa079670c2">OnListEnginesSuccess</a>(</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; engineIds, </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { UNUSED(engineIds); UNUSED(context); }</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(engineIds); <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(context); }</div>
 </div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
 <div class="foldopen" id="foldopen00089" data-start="{" data-end="}">
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="classFileProfile_1_1Observer.html#a8b7e17d2d7eaf7a61f0dd482a20ce7bb">   89</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFileProfile_1_1Observer.html#a8b7e17d2d7eaf7a61f0dd482a20ce7bb">OnListEnginesFailure</a>(</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        <span class="keyword">const</span> std::exception_ptr&amp; error, </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { UNUSED(error); UNUSED(context); }</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(error); <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(context); }</div>
 </div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="classFileProfile_1_1Observer.html#ac4726dc54a961ac9276bc814b21f87e3">   96</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFileProfile_1_1Observer.html#ac4726dc54a961ac9276bc814b21f87e3">OnUnloadEngineSuccess</a>(<span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { UNUSED(context); }</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="classFileProfile_1_1Observer.html#ac4726dc54a961ac9276bc814b21f87e3">   96</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFileProfile_1_1Observer.html#ac4726dc54a961ac9276bc814b21f87e3">OnUnloadEngineSuccess</a>(<span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(context); }</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
 <div class="foldopen" id="foldopen00101" data-start="{" data-end="}">
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="classFileProfile_1_1Observer.html#a7527787d0ea9045b5bbad6cdd5f1a847">  101</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFileProfile_1_1Observer.html#a7527787d0ea9045b5bbad6cdd5f1a847">OnUnloadEngineFailure</a>(</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        <span class="keyword">const</span> std::exception_ptr&amp; error, </div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { UNUSED(error); UNUSED(context); }</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(error); <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(context); }</div>
 </div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
 <div class="foldopen" id="foldopen00108" data-start="{" data-end="}">
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="classFileProfile_1_1Observer.html#a6ee8457bf1e0cd062a0073f160d9dd5b">  108</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFileProfile_1_1Observer.html#a6ee8457bf1e0cd062a0073f160d9dd5b">OnAddEngineSuccess</a>(</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        <span class="keyword">const</span> std::shared_ptr&lt;mip::FileEngine&gt;&amp; engine, </div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { UNUSED(engine); UNUSED(context); }</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(engine); <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(context); }</div>
 </div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
 <div class="foldopen" id="foldopen00115" data-start="{" data-end="}">
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="classFileProfile_1_1Observer.html#a58482a36ca5248a50906d7d6a496aa90">  115</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFileProfile_1_1Observer.html#a58482a36ca5248a50906d7d6a496aa90">OnAddEngineFailure</a>(<span class="keyword">const</span> std::exception_ptr&amp; error, <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { </div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>        UNUSED(error); UNUSED(context); }</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>        <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(error); <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(context); }</div>
 </div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="classFileProfile_1_1Observer.html#a087acdc8e8f3847876208e5b70575e86">  121</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFileProfile_1_1Observer.html#a087acdc8e8f3847876208e5b70575e86">OnDeleteEngineSuccess</a>(<span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { UNUSED(context); }</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="classFileProfile_1_1Observer.html#a087acdc8e8f3847876208e5b70575e86">  121</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFileProfile_1_1Observer.html#a087acdc8e8f3847876208e5b70575e86">OnDeleteEngineSuccess</a>(<span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(context); }</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
 <div class="foldopen" id="foldopen00126" data-start="{" data-end="}">
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="classFileProfile_1_1Observer.html#a9a7b6dde925ad9b952b6c44a9c540fea">  126</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFileProfile_1_1Observer.html#a9a7b6dde925ad9b952b6c44a9c540fea">OnDeleteEngineFailure</a>(</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        <span class="keyword">const</span> std::exception_ptr&amp; error, </div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { UNUSED(error); UNUSED(context); }</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(error); <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(context); }</div>
 </div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno"><a class="line" href="classFileProfile_1_1Observer.html#aec34b2944c468f7eb8663e00fed66615">  133</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFileProfile_1_1Observer.html#aec34b2944c468f7eb8663e00fed66615">OnPolicyChanged</a>(<span class="keyword">const</span> std::string&amp; engineId) { UNUSED(engineId); }</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno"><a class="line" href="classFileProfile_1_1Observer.html#aec34b2944c468f7eb8663e00fed66615">  133</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFileProfile_1_1Observer.html#aec34b2944c468f7eb8663e00fed66615">OnPolicyChanged</a>(<span class="keyword">const</span> std::string&amp; engineId) { <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(engineId); }</div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno"><a class="line" href="classFileProfile_1_1Observer.html#a4b7ca3a93f1cc2f746e820bda6233d2b">  144</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFileProfile_1_1Observer.html#a4b7ca3a93f1cc2f746e820bda6233d2b">OnAddPolicyEngineStarting</a>(<span class="keywordtype">bool</span> requiresPolicyFetch) { UNUSED(requiresPolicyFetch); }</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno"><a class="line" href="classFileProfile_1_1Observer.html#a4b7ca3a93f1cc2f746e820bda6233d2b">  144</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFileProfile_1_1Observer.html#a4b7ca3a93f1cc2f746e820bda6233d2b">OnAddPolicyEngineStarting</a>(<span class="keywordtype">bool</span> requiresPolicyFetch) { <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(requiresPolicyFetch); }</div>
 <div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span> </div>
 <div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>  <span class="keyword">protected</span>:</div>
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno"><a class="line" href="classFileProfile_1_1Observer.html#ada2f6786a1958b69b00c674bc04c6084">  147</a></span>    <a class="code hl_function" href="classFileProfile_1_1Observer.html#ada2f6786a1958b69b00c674bc04c6084">Observer</a>() {}</div>
@@ -232,7 +272,7 @@ $(function(){initNavTree('file__profile_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>          <a class="code hl_variable" href="classFileProfile_1_1Settings.html#a0def4fe84383f1edd6b8cc90320254b5">mDnsRedirection</a>(<a class="code hl_enumeration" href="dns__redirection_8h.html#aedc87df4f0412a0242ba2f903aa88a81">DnsRedirection</a>::<a class="code hl_enumvalue" href="dns__redirection_8h.html#aedc87df4f0412a0242ba2f903aa88a81afa52842fa0347830a7cf991a153ca378">MDEDiscovery</a>) {}</div>
 </div>
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span> </div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    <a class="code hl_class" href="classFileProfile_1_1Settings.html">~Settings</a>() {}</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno"><a class="line" href="classFileProfile_1_1Settings.html#a7d73ae275c99a3ded74dd8bff101251f">  176</a></span>    <a class="code hl_function" href="classFileProfile_1_1Settings.html#a7d73ae275c99a3ded74dd8bff101251f">~Settings</a>() {}</div>
 <div class="line"><a id="l00184" name="l00184"></a><span class="lineno"><a class="line" href="classFileProfile_1_1Settings.html#a0af2f7396c3a6cff077cb2c5288571b6">  184</a></span>    <a class="code hl_enumeration" href="common__types_8h.html#a174ba9275624a6880ce3be3fdbaa6c5f">CacheStorageType</a> <a class="code hl_function" href="classFileProfile_1_1Settings.html#a0af2f7396c3a6cff077cb2c5288571b6">GetCacheStorageType</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="classFileProfile_1_1Settings.html#a63f230cb0c708ee65b1e567d3b4201aa">mCacheStorageType</a>; }</div>
 <div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span> </div>
 <div class="line"><a id="l00191" name="l00191"></a><span class="lineno"><a class="line" href="classFileProfile_1_1Settings.html#a88b0f172e9a1e4207477b56e47f699f9">  191</a></span>    std::shared_ptr&lt;ConsentDelegate&gt; <a class="code hl_function" href="classFileProfile_1_1Settings.html#a88b0f172e9a1e4207477b56e47f699f9">GetConsentDelegate</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="classFileProfile_1_1Settings.html#a283da1e62ed08251d902c4e2a1dc525c">mConsentDelegate</a>; }</div>
@@ -313,13 +353,13 @@ $(function(){initNavTree('file__profile_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>  };</div>
 </div>
 <div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span> </div>
-<div class="line"><a id="l00335" name="l00335"></a><span class="lineno"><a class="line" href="classFileProfile.html#a5c278a5c39b65789319c0856a9e01418">  335</a></span>  <a class="code hl_define" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> <span class="keyword">static</span> std::shared_ptr&lt;AsyncControl&gt; __CDECL <a class="code hl_function" href="classFileProfile.html#a5c278a5c39b65789319c0856a9e01418">LoadAsync</a>(</div>
+<div class="line"><a id="l00335" name="l00335"></a><span class="lineno"><a class="line" href="classFileProfile.html#a5c278a5c39b65789319c0856a9e01418">  335</a></span>  <a class="code hl_define" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> <span class="keyword">static</span> std::shared_ptr&lt;AsyncControl&gt; <a class="code hl_define" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> <a class="code hl_function" href="classFileProfile.html#a5c278a5c39b65789319c0856a9e01418">LoadAsync</a>(</div>
 <div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>      <span class="keyword">const</span> <a class="code hl_class" href="classFileProfile_1_1Settings.html">Settings</a>&amp; settings,</div>
 <div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>      <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context);</div>
 <div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span> </div>
-<div class="line"><a id="l00344" name="l00344"></a><span class="lineno"><a class="line" href="classFileProfile.html#afacef44a2b630db434a5b53239d81a5e">  344</a></span>  <a class="code hl_define" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* __CDECL <a class="code hl_function" href="classFileProfile.html#afacef44a2b630db434a5b53239d81a5e">GetVersion</a>();</div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno"><a class="line" href="classFileProfile.html#afacef44a2b630db434a5b53239d81a5e">  344</a></span>  <a class="code hl_define" href="file__export_8h.html#af071ab8c979865638749850274856944">FILE_API</a> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_define" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> <a class="code hl_function" href="classFileProfile.html#afacef44a2b630db434a5b53239d81a5e">GetVersion</a>();</div>
 <div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span> </div>
-<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>  <span class="keyword">virtual</span> <a class="code hl_class" href="classFileProfile.html">~FileProfile</a>() {}</div>
+<div class="line"><a id="l00347" name="l00347"></a><span class="lineno"><a class="line" href="classFileProfile.html#a9bb1ba6cca19a1eff4d79b61ba410ead">  347</a></span>  <span class="keyword">virtual</span> <a class="code hl_function" href="classFileProfile.html#a9bb1ba6cca19a1eff4d79b61ba410ead">~FileProfile</a>() {}</div>
 <div class="line"><a id="l00353" name="l00353"></a><span class="lineno"><a class="line" href="classFileProfile.html#a98bdef30cd0dff8057728b4c3a9ab011">  353</a></span>  <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code hl_class" href="classFileProfile_1_1Settings.html">Settings</a>&amp; <a class="code hl_function" href="classFileProfile.html#a98bdef30cd0dff8057728b4c3a9ab011">GetSettings</a>() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span> </div>
 <div class="line"><a id="l00361" name="l00361"></a><span class="lineno"><a class="line" href="classFileProfile.html#a0317d5092a1e73480dc176c7e647e0c6">  361</a></span>  <span class="keyword">virtual</span> std::shared_ptr&lt;AsyncControl&gt; <a class="code hl_function" href="classFileProfile.html#a0317d5092a1e73480dc176c7e647e0c6">ListEnginesAsync</a>(<span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) = 0;</div>
@@ -329,7 +369,7 @@ $(function(){initNavTree('file__profile_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span>      <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) = 0;</div>
 <div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span> </div>
 <div class="line"><a id="l00379" name="l00379"></a><span class="lineno"><a class="line" href="classFileProfile.html#abf69570cb4b3920875bdd3f46208394f">  379</a></span>  <span class="keyword">virtual</span> std::shared_ptr&lt;AsyncControl&gt; <a class="code hl_function" href="classFileProfile.html#abf69570cb4b3920875bdd3f46208394f">AddEngineAsync</a>(</div>
-<div class="line"><a id="l00380" name="l00380"></a><span class="lineno">  380</span>      <span class="keyword">const</span> FileEngine::Settings&amp; settings,</div>
+<div class="line"><a id="l00380" name="l00380"></a><span class="lineno">  380</span>      <span class="keyword">const</span> <a class="code hl_class" href="classFileEngine_1_1Settings.html">FileEngine::Settings</a>&amp; settings,</div>
 <div class="line"><a id="l00381" name="l00381"></a><span class="lineno">  381</span>      <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) = 0;</div>
 <div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span> </div>
 <div class="line"><a id="l00389" name="l00389"></a><span class="lineno"><a class="line" href="classFileProfile.html#a8992bd35c633bc43e6e9b92176d28f82">  389</a></span>  <span class="keyword">virtual</span> std::shared_ptr&lt;AsyncControl&gt; <a class="code hl_function" href="classFileProfile.html#a8992bd35c633bc43e6e9b92176d28f82">DeleteEngineAsync</a>(</div>
@@ -343,13 +383,14 @@ $(function(){initNavTree('file__profile_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00417" name="l00417"></a><span class="lineno">  417</span>      <span class="keyword">const</span> std::shared_ptr&lt;AuthDelegate&gt;&amp; authDelegate) <span class="keyword">const</span> = 0;</div>
 <div class="line"><a id="l00418" name="l00418"></a><span class="lineno">  418</span> </div>
 <div class="line"><a id="l00419" name="l00419"></a><span class="lineno">  419</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00421" name="l00421"></a><span class="lineno">  421</span>  <a class="code hl_class" href="classFileProfile.html">FileProfile</a>() {}</div>
+<div class="line"><a id="l00421" name="l00421"></a><span class="lineno"><a class="line" href="classFileProfile.html#a6fc66845f250907dc0c2af638479e842">  421</a></span>  <a class="code hl_function" href="classFileProfile.html#a6fc66845f250907dc0c2af638479e842">FileProfile</a>() {}</div>
 <div class="line"><a id="l00423" name="l00423"></a><span class="lineno">  423</span>};</div>
 </div>
 <div class="line"><a id="l00424" name="l00424"></a><span class="lineno">  424</span> </div>
-<div class="line"><a id="l00425" name="l00425"></a><span class="lineno">  425</span>MIP_NAMESPACE_END</div>
+<div class="line"><a id="l00425" name="l00425"></a><span class="lineno">  425</span><a class="code hl_define" href="mip__namespace_8h.html#ae6c7ae24f07850b87df4bbf55c04d831">MIP_NAMESPACE_END</a></div>
 <div class="line"><a id="l00426" name="l00426"></a><span class="lineno">  426</span> </div>
 <div class="line"><a id="l00427" name="l00427"></a><span class="lineno">  427</span><span class="preprocessor">#endif  </span><span class="comment">// API_MIP_FILE_FILE_PROFILE_H_</span></div>
+<div class="ttc" id="aclassFileEngine_1_1Settings_html"><div class="ttname"><a href="classFileEngine_1_1Settings.html">FileEngine::Settings</a></div><div class="ttdef"><b>Definition</b> file_engine.h:53</div></div>
 <div class="ttc" id="aclassFileProfile_1_1Observer_html"><div class="ttname"><a href="classFileProfile_1_1Observer.html">FileProfile::Observer</a></div><div class="ttdoc">Observer interface for clients to get notifications for profile related events.</div><div class="ttdef"><b>Definition</b> file_profile.h:62</div></div>
 <div class="ttc" id="aclassFileProfile_1_1Observer_html_a087acdc8e8f3847876208e5b70575e86"><div class="ttname"><a href="classFileProfile_1_1Observer.html#a087acdc8e8f3847876208e5b70575e86">FileProfile::Observer::OnDeleteEngineSuccess</a></div><div class="ttdeci">virtual void OnDeleteEngineSuccess(const std::shared_ptr&lt; void &gt; &amp;context)</div><div class="ttdoc">Called when an engine was deleted successfully.</div><div class="ttdef"><b>Definition</b> file_profile.h:121</div></div>
 <div class="ttc" id="aclassFileProfile_1_1Observer_html_a22d0b12573d430c9df0457fa079670c2"><div class="ttname"><a href="classFileProfile_1_1Observer.html#a22d0b12573d430c9df0457fa079670c2">FileProfile::Observer::OnListEnginesSuccess</a></div><div class="ttdeci">virtual void OnListEnginesSuccess(const std::vector&lt; std::string &gt; &amp;engineIds, const std::shared_ptr&lt; void &gt; &amp;context)</div><div class="ttdoc">Called when list of engines was generated successfully.</div><div class="ttdef"><b>Definition</b> file_profile.h:82</div></div>
@@ -382,6 +423,7 @@ $(function(){initNavTree('file__profile_8h_source.html',''); initResizable(true)
 <div class="ttc" id="aclassFileProfile_1_1Settings_html_a63f230cb0c708ee65b1e567d3b4201aa"><div class="ttname"><a href="classFileProfile_1_1Settings.html#a63f230cb0c708ee65b1e567d3b4201aa">FileProfile::Settings::mCacheStorageType</a></div><div class="ttdeci">CacheStorageType mCacheStorageType</div><div class="ttdef"><b>Definition</b> file_profile.h:318</div></div>
 <div class="ttc" id="aclassFileProfile_1_1Settings_html_a6da03600a76583812d7952adcb5922d1"><div class="ttname"><a href="classFileProfile_1_1Settings.html#a6da03600a76583812d7952adcb5922d1">FileProfile::Settings::CanCacheLicenses</a></div><div class="ttdeci">bool CanCacheLicenses() const</div><div class="ttdoc">Gets whether or not end user licenses (EULs) are cached locally.</div><div class="ttdef"><b>Definition</b> file_profile.h:275</div></div>
 <div class="ttc" id="aclassFileProfile_1_1Settings_html_a779232dec11e59b9e100980c1c396ea3"><div class="ttname"><a href="classFileProfile_1_1Settings.html#a779232dec11e59b9e100980c1c396ea3">FileProfile::Settings::mCanCacheLicenses</a></div><div class="ttdeci">bool mCanCacheLicenses</div><div class="ttdef"><b>Definition</b> file_profile.h:324</div></div>
+<div class="ttc" id="aclassFileProfile_1_1Settings_html_a7d73ae275c99a3ded74dd8bff101251f"><div class="ttname"><a href="classFileProfile_1_1Settings.html#a7d73ae275c99a3ded74dd8bff101251f">FileProfile::Settings::~Settings</a></div><div class="ttdeci">~Settings()</div><div class="ttdef"><b>Definition</b> file_profile.h:176</div></div>
 <div class="ttc" id="aclassFileProfile_1_1Settings_html_a7f4f979a88ffb93272d80bc8c87affed"><div class="ttname"><a href="classFileProfile_1_1Settings.html#a7f4f979a88ffb93272d80bc8c87affed">FileProfile::Settings::GetSessionId</a></div><div class="ttdeci">const std::string &amp; GetSessionId() const</div><div class="ttdoc">Gets the session ID.</div><div class="ttdef"><b>Definition</b> file_profile.h:254</div></div>
 <div class="ttc" id="aclassFileProfile_1_1Settings_html_a88b0f172e9a1e4207477b56e47f699f9"><div class="ttname"><a href="classFileProfile_1_1Settings.html#a88b0f172e9a1e4207477b56e47f699f9">FileProfile::Settings::GetConsentDelegate</a></div><div class="ttdeci">std::shared_ptr&lt; ConsentDelegate &gt; GetConsentDelegate() const</div><div class="ttdoc">Gets the consent delegate used to request user consent connecting to services.</div><div class="ttdef"><b>Definition</b> file_profile.h:191</div></div>
 <div class="ttc" id="aclassFileProfile_1_1Settings_html_a8c6abd8fd919ea7e1c80ee505c4204f6"><div class="ttname"><a href="classFileProfile_1_1Settings.html#a8c6abd8fd919ea7e1c80ee505c4204f6">FileProfile::Settings::GetDnsRedirection</a></div><div class="ttdeci">DnsRedirection GetDnsRedirection() const</div><div class="ttdoc">Gets the dns redirect mode.</div><div class="ttdef"><b>Definition</b> file_profile.h:302</div></div>
@@ -398,15 +440,18 @@ $(function(){initNavTree('file__profile_8h_source.html',''); initResizable(true)
 <div class="ttc" id="aclassFileProfile_html_a0317d5092a1e73480dc176c7e647e0c6"><div class="ttname"><a href="classFileProfile.html#a0317d5092a1e73480dc176c7e647e0c6">FileProfile::ListEnginesAsync</a></div><div class="ttdeci">virtual std::shared_ptr&lt; AsyncControl &gt; ListEnginesAsync(const std::shared_ptr&lt; void &gt; &amp;context)=0</div><div class="ttdoc">Starts list engines operation.</div></div>
 <div class="ttc" id="aclassFileProfile_html_a2969c199d512f3dcd66ac24ecb644f48"><div class="ttname"><a href="classFileProfile.html#a2969c199d512f3dcd66ac24ecb644f48">FileProfile::AcquirePolicyAuthToken</a></div><div class="ttdeci">virtual void AcquirePolicyAuthToken(Cloud cloud, const std::shared_ptr&lt; AuthDelegate &gt; &amp;authDelegate) const =0</div><div class="ttdoc">Trigger an authentication callback for policy.</div></div>
 <div class="ttc" id="aclassFileProfile_html_a5c278a5c39b65789319c0856a9e01418"><div class="ttname"><a href="classFileProfile.html#a5c278a5c39b65789319c0856a9e01418">FileProfile::LoadAsync</a></div><div class="ttdeci">static FILE_API std::shared_ptr&lt; AsyncControl &gt; __CDECL LoadAsync(const Settings &amp;settings, const std::shared_ptr&lt; void &gt; &amp;context)</div><div class="ttdoc">Starts loading a profile based on the provided |settings|.</div></div>
+<div class="ttc" id="aclassFileProfile_html_a6fc66845f250907dc0c2af638479e842"><div class="ttname"><a href="classFileProfile.html#a6fc66845f250907dc0c2af638479e842">FileProfile::FileProfile</a></div><div class="ttdeci">FileProfile()</div><div class="ttdef"><b>Definition</b> file_profile.h:421</div></div>
 <div class="ttc" id="aclassFileProfile_html_a807a42db9ff40a743c2a5ae4ec79934f"><div class="ttname"><a href="classFileProfile.html#a807a42db9ff40a743c2a5ae4ec79934f">FileProfile::AcquirePolicyAuthToken</a></div><div class="ttdeci">virtual void AcquirePolicyAuthToken(const std::string &amp;domainInfo, const std::shared_ptr&lt; AuthDelegate &gt; &amp;authDelegate) const =0</div><div class="ttdoc">Trigger an authentication callback for policy.</div></div>
 <div class="ttc" id="aclassFileProfile_html_a8992bd35c633bc43e6e9b92176d28f82"><div class="ttname"><a href="classFileProfile.html#a8992bd35c633bc43e6e9b92176d28f82">FileProfile::DeleteEngineAsync</a></div><div class="ttdeci">virtual std::shared_ptr&lt; AsyncControl &gt; DeleteEngineAsync(const std::string &amp;id, const std::shared_ptr&lt; void &gt; &amp;context)=0</div><div class="ttdoc">Starts deleting the file engine with the given ID. All data for the given profile will be deleted.</div></div>
 <div class="ttc" id="aclassFileProfile_html_a98bdef30cd0dff8057728b4c3a9ab011"><div class="ttname"><a href="classFileProfile.html#a98bdef30cd0dff8057728b4c3a9ab011">FileProfile::GetSettings</a></div><div class="ttdeci">virtual const Settings &amp; GetSettings() const =0</div><div class="ttdoc">Returns the profile settings.</div></div>
+<div class="ttc" id="aclassFileProfile_html_a9bb1ba6cca19a1eff4d79b61ba410ead"><div class="ttname"><a href="classFileProfile.html#a9bb1ba6cca19a1eff4d79b61ba410ead">FileProfile::~FileProfile</a></div><div class="ttdeci">virtual ~FileProfile()</div><div class="ttdef"><b>Definition</b> file_profile.h:347</div></div>
 <div class="ttc" id="aclassFileProfile_html_aa5921d4c108d2fc5ab0b5a7ab0873af0"><div class="ttname"><a href="classFileProfile.html#aa5921d4c108d2fc5ab0b5a7ab0873af0">FileProfile::UnloadEngineAsync</a></div><div class="ttdeci">virtual std::shared_ptr&lt; AsyncControl &gt; UnloadEngineAsync(const std::string &amp;id, const std::shared_ptr&lt; void &gt; &amp;context)=0</div><div class="ttdoc">Starts unloading the file engine with the given ID.</div></div>
 <div class="ttc" id="aclassFileProfile_html_abf69570cb4b3920875bdd3f46208394f"><div class="ttname"><a href="classFileProfile.html#abf69570cb4b3920875bdd3f46208394f">FileProfile::AddEngineAsync</a></div><div class="ttdeci">virtual std::shared_ptr&lt; AsyncControl &gt; AddEngineAsync(const FileEngine::Settings &amp;settings, const std::shared_ptr&lt; void &gt; &amp;context)=0</div><div class="ttdoc">Starts adding a new file engine to the profile.</div></div>
 <div class="ttc" id="aclassFileProfile_html_afacef44a2b630db434a5b53239d81a5e"><div class="ttname"><a href="classFileProfile.html#afacef44a2b630db434a5b53239d81a5e">FileProfile::GetVersion</a></div><div class="ttdeci">static FILE_API const char *__CDECL GetVersion()</div><div class="ttdoc">Gets library version.</div></div>
 <div class="ttc" id="acommon__types_8h_html"><div class="ttname"><a href="common__types_8h.html">common_types.h</a></div><div class="ttdoc">A file Containing the common types used by the upe, file and protection modules.</div></div>
 <div class="ttc" id="acommon__types_8h_html_a10dec50806bcdc01b5b0f3b5a5aafe44"><div class="ttname"><a href="common__types_8h.html#a10dec50806bcdc01b5b0f3b5a5aafe44">Cloud</a></div><div class="ttdeci">Cloud</div><div class="ttdoc">Azure cloud identifier.</div><div class="ttdef"><b>Definition</b> common_types.h:752</div></div>
 <div class="ttc" id="acommon__types_8h_html_a174ba9275624a6880ce3be3fdbaa6c5f"><div class="ttname"><a href="common__types_8h.html#a174ba9275624a6880ce3be3fdbaa6c5f">CacheStorageType</a></div><div class="ttdeci">CacheStorageType</div><div class="ttdoc">Storage type for the caches.</div><div class="ttdef"><b>Definition</b> common_types.h:734</div></div>
+<div class="ttc" id="acommon__types_8h_html_a86d500a34c624c2cae56bc25a31b12f3"><div class="ttname"><a href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a></div><div class="ttdeci">#define UNUSED(x)</div><div class="ttdef"><b>Definition</b> common_types.h:48</div></div>
 <div class="ttc" id="adns__redirection_8h_html"><div class="ttname"><a href="dns__redirection_8h.html">dns_redirection.h</a></div><div class="ttdoc">A file Containing types used to control dns redirection.</div></div>
 <div class="ttc" id="adns__redirection_8h_html_aedc87df4f0412a0242ba2f903aa88a81"><div class="ttname"><a href="dns__redirection_8h.html#aedc87df4f0412a0242ba2f903aa88a81">DnsRedirection</a></div><div class="ttdeci">DnsRedirection</div><div class="ttdoc">Storage type for the caches.</div><div class="ttdef"><b>Definition</b> dns_redirection.h:43</div></div>
 <div class="ttc" id="adns__redirection_8h_html_aedc87df4f0412a0242ba2f903aa88a81afa52842fa0347830a7cf991a153ca378"><div class="ttname"><a href="dns__redirection_8h.html#aedc87df4f0412a0242ba2f903aa88a81afa52842fa0347830a7cf991a153ca378">DnsRedirection::MDEDiscovery</a></div><div class="ttdeci">@ MDEDiscovery</div></div>
@@ -417,15 +462,22 @@ $(function(){initNavTree('file__profile_8h_source.html',''); initResizable(true)
 <div class="ttc" id="ahttp__delegate_8h_html"><div class="ttname"><a href="http__delegate_8h.html">http_delegate.h</a></div><div class="ttdoc">Contains HttpDelegate interface definition used to override MIP HTTP stack.</div></div>
 <div class="ttc" id="alogger__delegate_8h_html"><div class="ttname"><a href="logger__delegate_8h.html">logger_delegate.h</a></div><div class="ttdoc">A file containing the LoggerDelegate class to be used to override MIP logger.</div></div>
 <div class="ttc" id="amip__context_8h_html"><div class="ttname"><a href="mip__context_8h.html">mip_context.h</a></div><div class="ttdoc">File containing definition of MipContext.</div></div>
+<div class="ttc" id="amip__export_8h_html_a7ffa7954cac375e2edfe49771186367d"><div class="ttname"><a href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a></div><div class="ttdeci">#define __CDECL</div><div class="ttdef"><b>Definition</b> mip_export.h:53</div></div>
 <div class="ttc" id="amip__namespace_8h_html"><div class="ttname"><a href="mip__namespace_8h.html">mip_namespace.h</a></div><div class="ttdoc">MIP namespace macros.</div></div>
+<div class="ttc" id="amip__namespace_8h_html_a39c21aae7cf9012b9b74d8431054e182"><div class="ttname"><a href="mip__namespace_8h.html#a39c21aae7cf9012b9b74d8431054e182">MIP_NAMESPACE_BEGIN</a></div><div class="ttdeci">#define MIP_NAMESPACE_BEGIN</div><div class="ttdef"><b>Definition</b> mip_namespace.h:53</div></div>
+<div class="ttc" id="amip__namespace_8h_html_ae6c7ae24f07850b87df4bbf55c04d831"><div class="ttname"><a href="mip__namespace_8h.html#ae6c7ae24f07850b87df4bbf55c04d831">MIP_NAMESPACE_END</a></div><div class="ttdeci">#define MIP_NAMESPACE_END</div><div class="ttdef"><b>Definition</b> mip_namespace.h:56</div></div>
 <div class="ttc" id="atask__dispatcher__delegate_8h_html"><div class="ttname"><a href="task__dispatcher__delegate_8h.html">task_dispatcher_delegate.h</a></div><div class="ttdoc">A file containing the TaskDispatcherDelegate interface to be used to override MIP async task executor...</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ed23b7e0ff82d04a8565e406d9d9df9a.html">mip-sdk-for-cpp</a></li><li class="navelem"><a class="el" href="dir_5a92ca31a1d1cd11ee59a3526a96cc89.html">src</a></li><li class="navelem"><a class="el" href="dir_e50a1d5d74e01fc8d143b32c54f27ce0.html">api</a></li><li class="navelem"><a class="el" href="dir_8430260fe83f04f5d27761956506c721.html">mip</a></li><li class="navelem"><a class="el" href="dir_39f182b1b64abb49fd78b39156e45a21.html">file</a></li><li class="navelem"><a class="el" href="file__profile_8h.html">file_profile.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

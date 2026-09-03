@@ -1,5 +1,7 @@
 var classGetTemplatesSettings =
 [
+    [ "~GetTemplatesSettings", "classGetTemplatesSettings.html#a4005d966268cb894ef0bc8ed19ca5f95", null ],
+    [ "GetTemplatesSettings", "classGetTemplatesSettings.html#a52e227eebdf57460c0d1feeeb2e7ec44", null ],
     [ "CreateGetTemplatesSettings", "classGetTemplatesSettings.html#a32cd591f382f31eebd57cf35ae2a29e2", null ],
     [ "EnableCaching", "classGetTemplatesSettings.html#af6fa172c9cd952a0c3c92732bda9e4ac", null ],
     [ "ForceRefresh", "classGetTemplatesSettings.html#aac5aa5adf263ad2ac723e8f114eab2de", null ],

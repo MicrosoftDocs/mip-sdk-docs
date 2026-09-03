@@ -1,4 +1,4 @@
 var telemetry__event_8h =
 [
-    [ "TelemetryEvent", "classTelemetryEvent.html", null ]
+    [ "TelemetryEvent", "classTelemetryEvent.html", "classTelemetryEvent" ]
 ];

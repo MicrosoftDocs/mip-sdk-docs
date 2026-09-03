@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -101,6 +141,7 @@ $(function(){initNavTree('classProtectionDescriptorBuilder.html',''); initResiza
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classProtectionDescriptorBuilder-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ProtectionDescriptorBuilder Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
@@ -121,7 +162,7 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aaccaca4e91dc4ac403aba7aacb41261e" id="r_aaccaca4e91dc4ac403aba7aacb41261e"><td class="memItemLeft" align="right" valign="top">virtual MIP_API std::shared_ptr&lt; <a class="el" href="classProtectionDescriptor.html">ProtectionDescriptor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaccaca4e91dc4ac403aba7aacb41261e">Build</a> ()=0</td></tr>
+<tr class="memitem:aaccaca4e91dc4ac403aba7aacb41261e" id="r_aaccaca4e91dc4ac403aba7aacb41261e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classProtectionDescriptor.html">ProtectionDescriptor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaccaca4e91dc4ac403aba7aacb41261e">Build</a> ()=0</td></tr>
 <tr class="memdesc:aaccaca4e91dc4ac403aba7aacb41261e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classProtectionDescriptor.html" title="Description of protection associated with a piece of content.">ProtectionDescriptor</a> whose access permissions are defined by this <a class="el" href="classProtectionDescriptorBuilder.html" title="Constructs a ProtectionDescriptor that describes protection associated with a piece of content.">ProtectionDescriptorBuilder</a> instance.  <br /></td></tr>
 <tr class="separator:aaccaca4e91dc4ac403aba7aacb41261e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71f58796ef573cc6ba9c7ec0ce8923a0" id="r_a71f58796ef573cc6ba9c7ec0ce8923a0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71f58796ef573cc6ba9c7ec0ce8923a0">SetName</a> (const std::string &amp;value)=0</td></tr>
@@ -151,27 +192,34 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9ba06eef7f1672a3113b37011d6489bc" id="r_a9ba06eef7f1672a3113b37011d6489bc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ba06eef7f1672a3113b37011d6489bc">SetLabelInfo</a> (const <a class="el" href="structLabelInfo.html">LabelInfo</a> &amp;labelId)=0</td></tr>
 <tr class="memdesc:a9ba06eef7f1672a3113b37011d6489bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the label id and tenant id for UDP protection. Only allowed for custom protection type.  <br /></td></tr>
 <tr class="separator:a9ba06eef7f1672a3113b37011d6489bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfe5c76bf42343e87a519df4d23b1bd8" id="r_adfe5c76bf42343e87a519df4d23b1bd8"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfe5c76bf42343e87a519df4d23b1bd8">~ProtectionDescriptorBuilder</a> ()</td></tr>
+<tr class="separator:adfe5c76bf42343e87a519df4d23b1bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ad0dedc4f7ff9f31f8d3ca49d3bb9095b" id="r_ad0dedc4f7ff9f31f8d3ca49d3bb9095b"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0dedc4f7ff9f31f8d3ca49d3bb9095b">CreateFromUserRights</a> (const std::vector&lt; <a class="el" href="classUserRights.html">UserRights</a> &gt; &amp;usersAndRights)</td></tr>
+<tr class="memitem:ad0dedc4f7ff9f31f8d3ca49d3bb9095b" id="r_ad0dedc4f7ff9f31f8d3ca49d3bb9095b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0dedc4f7ff9f31f8d3ca49d3bb9095b">CreateFromUserRights</a> (const std::vector&lt; <a class="el" href="classUserRights.html">UserRights</a> &gt; &amp;usersAndRights)</td></tr>
 <tr class="memdesc:ad0dedc4f7ff9f31f8d3ca49d3bb9095b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classProtectionDescriptorBuilder.html" title="Constructs a ProtectionDescriptor that describes protection associated with a piece of content.">ProtectionDescriptorBuilder</a> whose access permissions are defined by users and rights.  <br /></td></tr>
 <tr class="separator:ad0dedc4f7ff9f31f8d3ca49d3bb9095b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fe443490125a933a39bfd80e28737b5" id="r_a4fe443490125a933a39bfd80e28737b5"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fe443490125a933a39bfd80e28737b5">CreateFromUserRoles</a> (const std::vector&lt; <a class="el" href="classUserRoles.html">UserRoles</a> &gt; &amp;usersAndRoles)</td></tr>
+<tr class="memitem:a4fe443490125a933a39bfd80e28737b5" id="r_a4fe443490125a933a39bfd80e28737b5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fe443490125a933a39bfd80e28737b5">CreateFromUserRoles</a> (const std::vector&lt; <a class="el" href="classUserRoles.html">UserRoles</a> &gt; &amp;usersAndRoles)</td></tr>
 <tr class="memdesc:a4fe443490125a933a39bfd80e28737b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classProtectionDescriptorBuilder.html" title="Constructs a ProtectionDescriptor that describes protection associated with a piece of content.">ProtectionDescriptorBuilder</a> whose access permissions are defined by users and roles.  <br /></td></tr>
 <tr class="separator:a4fe443490125a933a39bfd80e28737b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2160b2614f2fe62e87413af5658ebe0a" id="r_a2160b2614f2fe62e87413af5658ebe0a"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2160b2614f2fe62e87413af5658ebe0a">CreateFromTemplate</a> (const std::string &amp;templateId)</td></tr>
+<tr class="memitem:a2160b2614f2fe62e87413af5658ebe0a" id="r_a2160b2614f2fe62e87413af5658ebe0a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2160b2614f2fe62e87413af5658ebe0a">CreateFromTemplate</a> (const std::string &amp;templateId)</td></tr>
 <tr class="memdesc:a2160b2614f2fe62e87413af5658ebe0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classProtectionDescriptorBuilder.html" title="Constructs a ProtectionDescriptor that describes protection associated with a piece of content.">ProtectionDescriptorBuilder</a> whose access permissions are defined by the protection template.  <br /></td></tr>
 <tr class="separator:a2160b2614f2fe62e87413af5658ebe0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a879313730f5b7f4dfa25224c2742bd1e" id="r_a879313730f5b7f4dfa25224c2742bd1e"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a879313730f5b7f4dfa25224c2742bd1e">CreateFromSerializedTemplate</a> (const std::vector&lt; uint8_t &gt; &amp;serializedTemplate)</td></tr>
+<tr class="memitem:a879313730f5b7f4dfa25224c2742bd1e" id="r_a879313730f5b7f4dfa25224c2742bd1e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a879313730f5b7f4dfa25224c2742bd1e">CreateFromSerializedTemplate</a> (const std::vector&lt; uint8_t &gt; &amp;serializedTemplate)</td></tr>
 <tr class="memdesc:a879313730f5b7f4dfa25224c2742bd1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classProtectionDescriptorBuilder.html" title="Constructs a ProtectionDescriptor that describes protection associated with a piece of content.">ProtectionDescriptorBuilder</a> whose access permissions are defined by the protection template.  <br /></td></tr>
 <tr class="separator:a879313730f5b7f4dfa25224c2742bd1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad50ddc48b47b821534fef0ee82923cc3" id="r_ad50ddc48b47b821534fef0ee82923cc3"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad50ddc48b47b821534fef0ee82923cc3">CreateFromProtectionDescriptor</a> (const <a class="el" href="classProtectionDescriptor.html">ProtectionDescriptor</a> &amp;protectionDescriptor)</td></tr>
+<tr class="memitem:ad50ddc48b47b821534fef0ee82923cc3" id="r_ad50ddc48b47b821534fef0ee82923cc3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad50ddc48b47b821534fef0ee82923cc3">CreateFromProtectionDescriptor</a> (const <a class="el" href="classProtectionDescriptor.html">ProtectionDescriptor</a> &amp;protectionDescriptor)</td></tr>
 <tr class="memdesc:ad50ddc48b47b821534fef0ee82923cc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classProtectionDescriptorBuilder.html" title="Constructs a ProtectionDescriptor that describes protection associated with a piece of content.">ProtectionDescriptorBuilder</a> whose access permissions are defined by a protection descriptor.  <br /></td></tr>
 <tr class="separator:ad50ddc48b47b821534fef0ee82923cc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a808524eda42fcd647fff56ba2b68fe0e" id="r_a808524eda42fcd647fff56ba2b68fe0e"><td class="memItemLeft" align="right" valign="top">static MIP_API std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a808524eda42fcd647fff56ba2b68fe0e">CreateFromLicenseType</a> (<a class="el" href="#a7961e18fdcfc8626116c3c16145e940d">LicenseType</a> licenseType, const std::vector&lt; std::string &gt; &amp;usersWithDefaultRights, const std::vector&lt; <a class="el" href="classUserRights.html">UserRights</a> &gt; &amp;additionalUsersAndRights)</td></tr>
+<tr class="memitem:a808524eda42fcd647fff56ba2b68fe0e" id="r_a808524eda42fcd647fff56ba2b68fe0e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a808524eda42fcd647fff56ba2b68fe0e">CreateFromLicenseType</a> (<a class="el" href="#a7961e18fdcfc8626116c3c16145e940d">LicenseType</a> licenseType, const std::vector&lt; std::string &gt; &amp;usersWithDefaultRights, const std::vector&lt; <a class="el" href="classUserRights.html">UserRights</a> &gt; &amp;additionalUsersAndRights)</td></tr>
 <tr class="memdesc:a808524eda42fcd647fff56ba2b68fe0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classProtectionDescriptorBuilder.html" title="Constructs a ProtectionDescriptor that describes protection associated with a piece of content.">ProtectionDescriptorBuilder</a> for a license type with the specified users.  <br /></td></tr>
 <tr class="separator:a808524eda42fcd647fff56ba2b68fe0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a4c5119b373c191e96e841a3e6829ee1e" id="r_a4c5119b373c191e96e841a3e6829ee1e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c5119b373c191e96e841a3e6829ee1e">ProtectionDescriptorBuilder</a> ()</td></tr>
+<tr class="separator:a4c5119b373c191e96e841a3e6829ee1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Constructs a <a class="el" href="classProtectionDescriptor.html" title="Description of protection associated with a piece of content.">ProtectionDescriptor</a> that describes protection associated with a piece of content. </p>
@@ -206,6 +254,57 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="adfe5c76bf42343e87a519df4d23b1bd8" name="adfe5c76bf42343e87a519df4d23b1bd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfe5c76bf42343e87a519df4d23b1bd8">&#9670;&#160;</a></span>~ProtectionDescriptorBuilder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual ProtectionDescriptorBuilder::~ProtectionDescriptorBuilder </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4c5119b373c191e96e841a3e6829ee1e" name="a4c5119b373c191e96e841a3e6829ee1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c5119b373c191e96e841a3e6829ee1e">&#9670;&#160;</a></span>ProtectionDescriptorBuilder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ProtectionDescriptorBuilder::ProtectionDescriptorBuilder </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="aaccaca4e91dc4ac403aba7aacb41261e" name="aaccaca4e91dc4ac403aba7aacb41261e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaccaca4e91dc4ac403aba7aacb41261e">&#9670;&#160;</a></span>Build()</h2>
@@ -217,7 +316,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual MIP_API std::shared_ptr&lt; <a class="el" href="classProtectionDescriptor.html">ProtectionDescriptor</a> &gt; ProtectionDescriptorBuilder::Build </td>
+          <td class="memname">virtual <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classProtectionDescriptor.html">ProtectionDescriptor</a> &gt; ProtectionDescriptorBuilder::Build </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -245,7 +344,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static MIP_API std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt; ProtectionDescriptorBuilder::CreateFromLicenseType </td>
+          <td class="memname">static <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt; ProtectionDescriptorBuilder::CreateFromLicenseType </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a7961e18fdcfc8626116c3c16145e940d">LicenseType</a></td>          <td class="paramname"><span class="paramname"><em>licenseType</em></span>, </td>
         </tr>
@@ -290,7 +389,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static MIP_API std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt; ProtectionDescriptorBuilder::CreateFromProtectionDescriptor </td>
+          <td class="memname">static <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt; ProtectionDescriptorBuilder::CreateFromProtectionDescriptor </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classProtectionDescriptor.html">ProtectionDescriptor</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>protectionDescriptor</em></span></td><td>)</td>
           <td></td>
@@ -324,7 +423,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static MIP_API std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt; ProtectionDescriptorBuilder::CreateFromSerializedTemplate </td>
+          <td class="memname">static <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt; ProtectionDescriptorBuilder::CreateFromSerializedTemplate </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; uint8_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>serializedTemplate</em></span></td><td>)</td>
           <td></td>
@@ -358,7 +457,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static MIP_API std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt; ProtectionDescriptorBuilder::CreateFromTemplate </td>
+          <td class="memname">static <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt; ProtectionDescriptorBuilder::CreateFromTemplate </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>templateId</em></span></td><td>)</td>
           <td></td>
@@ -392,7 +491,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static MIP_API std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt; ProtectionDescriptorBuilder::CreateFromUserRights </td>
+          <td class="memname">static <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt; ProtectionDescriptorBuilder::CreateFromUserRights </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; <a class="el" href="classUserRights.html">UserRights</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>usersAndRights</em></span></td><td>)</td>
           <td></td>
@@ -426,7 +525,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static MIP_API std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt; ProtectionDescriptorBuilder::CreateFromUserRoles </td>
+          <td class="memname">static <a class="el" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> std::shared_ptr&lt; <a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a> &gt; ProtectionDescriptorBuilder::CreateFromUserRoles </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; <a class="el" href="classUserRoles.html">UserRoles</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>usersAndRoles</em></span></td><td>)</td>
           <td></td>
@@ -755,11 +854,15 @@ Static Public Member Functions</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classProtectionDescriptorBuilder.html">ProtectionDescriptorBuilder</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

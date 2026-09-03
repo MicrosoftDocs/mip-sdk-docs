@@ -1,5 +1,7 @@
 var classDocumentState =
 [
+    [ "~DocumentState", "classDocumentState.html#ad70146c15ad283af11b416fb6a536ee2", null ],
+    [ "DocumentState", "classDocumentState.html#a5438a31de5f6bd427da397b3f698c0d0", null ],
     [ "GetAuditMetadata", "classDocumentState.html#a7191f419e9ad140e658f9ba4455059b1", null ],
     [ "GetClassificationResults", "classDocumentState.html#a6fc862ad6c90eb30a53a15a91b1ce807", null ],
     [ "GetContentFormat", "classDocumentState.html#a6bdd3092c409a251e69eeaa375f3f9a4", null ],

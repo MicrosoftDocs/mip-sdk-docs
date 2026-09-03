@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -99,6 +139,7 @@ $(function(){initNavTree('common__types_8h.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
@@ -141,9 +182,16 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structApplicationInfo.html">ApplicationInfo</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct that includes application specific information.  <a href="structApplicationInfo.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaseInsensitiveComparator.html">CaseInsensitiveComparator</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAsyncControl.html">AsyncControl</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class used to cancel async operation.  <a href="classAsyncControl.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a86d500a34c624c2cae56bc25a31b12f3" id="r_a86d500a34c624c2cae56bc25a31b12f3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(x)</td></tr>
+<tr class="separator:a86d500a34c624c2cae56bc25a31b12f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -216,6 +264,13 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a51da49d1af35336cd22cf21e1f936a86"><td class="mdescLeft">&#160;</td><td class="mdescRight">various dynamic fields can be set into the text message of the application Some known: ${Item.Label} ${Item.Name} ${Item.Location} ${User.Name} ${User.PrincipalName} ${Event.DateTime} Others are still not defined: The sdk will replace them with correct values using these control flags.  <a href="#a51da49d1af35336cd22cf21e1f936a86">More...</a><br /></td></tr>
 <tr class="separator:a51da49d1af35336cd22cf21e1f936a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c1df136b994c442d9a67b0ae3fd3b49" id="r_a3c1df136b994c442d9a67b0ae3fd3b49"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c1df136b994c442d9a67b0ae3fd3b49">ContainerDecryptionOption</a> : unsigned int { <a class="el" href="#a3c1df136b994c442d9a67b0ae3fd3b49a7a1920d61156abc05a60135aefe8bc67">Default</a> = 0
+, <a class="el" href="#a3c1df136b994c442d9a67b0ae3fd3b49ae1ae09b94f8926587697d0f246bf1050">Msg</a> = 1
+, <a class="el" href="#a3c1df136b994c442d9a67b0ae3fd3b49aa4ffdcf0dc1f31b9acaf295d75b51d00">Top</a> = 2
+, <a class="el" href="#a3c1df136b994c442d9a67b0ae3fd3b49ab1c94ca2fbc3e78fc30069c8d0f01680">All</a> = 3
+ }</td></tr>
+<tr class="memdesc:a3c1df136b994c442d9a67b0ae3fd3b49"><td class="mdescLeft">&#160;</td><td class="mdescRight">behavior control on decrypting container types. (msg)  <a href="#a3c1df136b994c442d9a67b0ae3fd3b49">More...</a><br /></td></tr>
+<tr class="separator:a3c1df136b994c442d9a67b0ae3fd3b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90401a791d9bfc4317c205ca1a086b51" id="r_a90401a791d9bfc4317c205ca1a086b51"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90401a791d9bfc4317c205ca1a086b51">Classifier</a> : unsigned int { <a class="el" href="#a90401a791d9bfc4317c205ca1a086b51ac448477e9c2bcd5c2c55316fbd7cf5c1">SensitiveInformation</a> = 0
 , <a class="el" href="#a90401a791d9bfc4317c205ca1a086b51ad7e1a77b27b0f3b33a6e13ee6ec7ae09">MachineLearning</a> = 1
 , <a class="el" href="#a90401a791d9bfc4317c205ca1a086b51a06b0d0a9d1ee7db244a01f52b0ffb069">ExtendedSensitiveInformation</a> = 2
@@ -264,6 +319,7 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a0740dfd12afd4beefe013f7143444231">US_Sec</a> = 8
 , <a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a7354dbd23b54989b85d4eff5daf0ef12">US_Nat</a> = 9
 , <a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a85a9e2274fffcb1a0d2beb76c72c4c66">China_01</a> = 10
+, <a class="el" href="#a10dec50806bcdc01b5b0f3b5a5aafe44a2c93ffdb332f3211dd09daf8bd7ad38f">Bleu</a> = 11
 <br />
  }</td></tr>
 <tr class="memdesc:a10dec50806bcdc01b5b0f3b5a5aafe44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Azure cloud identifier.  <a href="#a10dec50806bcdc01b5b0f3b5a5aafe44">More...</a><br /></td></tr>
@@ -303,6 +359,9 @@ Functions</h2></td></tr>
 <tr class="separator:a2c4b0d75b3d00e7f9e539e94f61243f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67fd857726a94f8007073002f5bcec22" id="r_a67fd857726a94f8007073002f5bcec22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60">FunctionalityFilterType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67fd857726a94f8007073002f5bcec22">operator~</a> (<a class="el" href="#a858bf8ad8a1305b382d18e21e1e60b60">FunctionalityFilterType</a> filter)</td></tr>
 <tr class="separator:a67fd857726a94f8007073002f5bcec22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4a49c6a1985983e36a6ddeb085c6535" id="r_ac4a49c6a1985983e36a6ddeb085c6535"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4a49c6a1985983e36a6ddeb085c6535">ContainerDecryptionOptionString</a> (<a class="el" href="#a3c1df136b994c442d9a67b0ae3fd3b49">ContainerDecryptionOption</a> option)</td></tr>
+<tr class="memdesc:ac4a49c6a1985983e36a6ddeb085c6535"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts AssignmentMethod enum to a string description.  <br /></td></tr>
+<tr class="separator:ac4a49c6a1985983e36a6ddeb085c6535"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf334c0d9676d0830b6065d944d77d6f" id="r_aaf334c0d9676d0830b6065d944d77d6f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf334c0d9676d0830b6065d944d77d6f">GetAssignmentMethodString</a> (<a class="el" href="#a1368c269afcb86a2b4c3331a0a1f4ae9">AssignmentMethod</a> method)</td></tr>
 <tr class="memdesc:aaf334c0d9676d0830b6065d944d77d6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts AssignmentMethod enum to a string description.  <br /></td></tr>
 <tr class="separator:aaf334c0d9676d0830b6065d944d77d6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -340,10 +399,73 @@ Functions</h2></td></tr>
 <tr class="memitem:a3927dba1e1ea9f2062b3b50e62fbc1fd" id="r_a3927dba1e1ea9f2062b3b50e62fbc1fd"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3927dba1e1ea9f2062b3b50e62fbc1fd">GetCustomSettingSensitivityPolicyTtlDays</a> ()</td></tr>
 <tr class="memdesc:a3927dba1e1ea9f2062b3b50e62fbc1fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the setting that enables overriding sensitivity policy ttl in days be default it will be 30 days. Values should be set as string integers i &lt; 0 means infinite time to live.  <br /></td></tr>
 <tr class="separator:a3927dba1e1ea9f2062b3b50e62fbc1fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23d66017f99968fd03c2c2478d9e631d" id="r_a23d66017f99968fd03c2c2478d9e631d"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23d66017f99968fd03c2c2478d9e631d">GetEnforceMsgPfileProtection</a> ()</td></tr>
+<tr class="memdesc:a23d66017f99968fd03c2c2478d9e631d"><td class="mdescLeft">&#160;</td><td class="mdescRight">enforce pfile protection on msg file type when using file api. EnforceMsgPfileProtection will overide enable_msg_file_type (enable_msg_file_type &amp;= !EnforceMsgPfileProtection)  <br /></td></tr>
+<tr class="separator:a23d66017f99968fd03c2c2478d9e631d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39f80fa412a20fc3621585dd5135a3ef" id="r_a39f80fa412a20fc3621585dd5135a3ef"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39f80fa412a20fc3621585dd5135a3ef">GetCustomSettingEnableMsgFileType</a> ()</td></tr>
+<tr class="memdesc:a39f80fa412a20fc3621585dd5135a3ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">enable msg file type when using file api, experimental. currently support remove protection, known gaps ole attachment, voice attachments.  <br /></td></tr>
+<tr class="separator:a39f80fa412a20fc3621585dd5135a3ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1c8ff0f3079931249744e07cde7f5a8" id="r_ac1c8ff0f3079931249744e07cde7f5a8"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1c8ff0f3079931249744e07cde7f5a8">GetCustomSettingContainerDecryptionOption</a> ()</td></tr>
+<tr class="memdesc:ac1c8ff0f3079931249744e07cde7f5a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container (msg) decryption option, "default" (decrypt top level and secondary), "top" (decrypt top only), "all" not yet supported, experimental feature.  <br /></td></tr>
+<tr class="separator:ac1c8ff0f3079931249744e07cde7f5a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a184a45d185515b1148d2de2088295beb" id="r_a184a45d185515b1148d2de2088295beb"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a184a45d185515b1148d2de2088295beb">GetCustomSettingEnablePowerBIFileType</a> ()</td></tr>
+<tr class="memdesc:a184a45d185515b1148d2de2088295beb"><td class="mdescLeft">&#160;</td><td class="mdescRight">enable PowerBI file type when using file api, experimental.  <br /></td></tr>
+<tr class="separator:a184a45d185515b1148d2de2088295beb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23c8673d63275ee49a093f7cbfd78ccb" id="r_a23c8673d63275ee49a093f7cbfd78ccb"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23c8673d63275ee49a093f7cbfd78ccb">GetCustomSettingEnableEmlFileType</a> ()</td></tr>
+<tr class="memdesc:a23c8673d63275ee49a093f7cbfd78ccb"><td class="mdescLeft">&#160;</td><td class="mdescRight">enable eml file type when using file api, experimental.  <br /></td></tr>
+<tr class="separator:a23c8673d63275ee49a093f7cbfd78ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afce8a61798489f23f329f345a255fb23" id="r_afce8a61798489f23f329f345a255fb23"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afce8a61798489f23f329f345a255fb23">GetCustomSettingKeepPdfLinearization</a> ()</td></tr>
+<tr class="memdesc:afce8a61798489f23f329f345a255fb23"><td class="mdescLeft">&#160;</td><td class="mdescRight">keep pdf linearization during protection and unprotection.  <br /></td></tr>
+<tr class="separator:afce8a61798489f23f329f345a255fb23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfddfb447f63fa6dbdc9ac1a54baa115" id="r_acfddfb447f63fa6dbdc9ac1a54baa115"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfddfb447f63fa6dbdc9ac1a54baa115">GetCustomSettingEnableDeprecatedRemoveActions</a> ()</td></tr>
+<tr class="separator:acfddfb447f63fa6dbdc9ac1a54baa115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace2cdce01a0ae8122a5fce0f45da88c0" id="r_ace2cdce01a0ae8122a5fce0f45da88c0"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace2cdce01a0ae8122a5fce0f45da88c0">GetCustomSettingPrintDiscoveredInfoTypesToTrace</a> ()</td></tr>
+<tr class="separator:ace2cdce01a0ae8122a5fce0f45da88c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4a2f4ae8bae595309ebf2e832ef660f" id="r_aa4a2f4ae8bae595309ebf2e832ef660f"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4a2f4ae8bae595309ebf2e832ef660f">GetCustomSettingTaskTimeoutMs</a> ()</td></tr>
+<tr class="separator:aa4a2f4ae8bae595309ebf2e832ef660f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4877d13bb9f7156fc35c70903f126d6" id="r_af4877d13bb9f7156fc35c70903f126d6"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4877d13bb9f7156fc35c70903f126d6">GetCustomSettingLabelWithoutPolicy</a> ()</td></tr>
+<tr class="separator:af4877d13bb9f7156fc35c70903f126d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09cfa75348ce25e7fecdf6d198801a5a" id="r_a09cfa75348ce25e7fecdf6d198801a5a"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09cfa75348ce25e7fecdf6d198801a5a">GetCustomSettingMaxFileSizeForProtection</a> ()</td></tr>
+<tr class="separator:a09cfa75348ce25e7fecdf6d198801a5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a323f44ca7938de8269034efda9267135" id="r_a323f44ca7938de8269034efda9267135"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a323f44ca7938de8269034efda9267135">GetCustomSettingMaxNestedProtectedMsgs</a> ()</td></tr>
+<tr class="separator:a323f44ca7938de8269034efda9267135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac79e8354667ce8e5ef006ce5bf078a10" id="r_ac79e8354667ce8e5ef006ce5bf078a10"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac79e8354667ce8e5ef006ce5bf078a10">GetCustomSettingMaxPolicyXmlVersion</a> ()</td></tr>
+<tr class="separator:ac79e8354667ce8e5ef006ce5bf078a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94025820ddf86ad53adc91ba51f3d858" id="r_a94025820ddf86ad53adc91ba51f3d858"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94025820ddf86ad53adc91ba51f3d858">GetCustomSettingDelegateApplicationInfo</a> ()</td></tr>
+<tr class="memdesc:a94025820ddf86ad53adc91ba51f3d858"><td class="mdescLeft">&#160;</td><td class="mdescRight">enable mipservice to specify delegated application information, for application using their service. Current supported format for delegation {"id":"&lt;valid-guid&gt;", "name":"&lt;ascii chars&gt;", "version":"1.0.0.0"}  <br /></td></tr>
+<tr class="separator:a94025820ddf86ad53adc91ba51f3d858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ee69337063066991092d724565fa4fb" id="r_a2ee69337063066991092d724565fa4fb"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ee69337063066991092d724565fa4fb">GetCustomSettingEnableCoAuthMetadata</a> ()</td></tr>
+<tr class="memdesc:a2ee69337063066991092d724565fa4fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures whether co-auth metadata versioning is respected for Office file types. By default, co-auth support is enabled via the Security &amp; Compliance Center configuration. Use this setting to disable co-auth metadata versioning even if it is enabled via policy. To disable co-auth metadata, set this custom setting to false.  <br /></td></tr>
+<tr class="separator:a2ee69337063066991092d724565fa4fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a8ee438700974c999de997595c573c0" id="r_a2a8ee438700974c999de997595c573c0"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a8ee438700974c999de997595c573c0">GetCustomSettingLabelsForAllContentFormats</a> ()</td></tr>
+<tr class="memdesc:a2a8ee438700974c999de997595c573c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">if set enable list senstivity labels to return all labels regardless of content formats, primarily useed for mip service where per call filtration is controlled by graph api.  <br /></td></tr>
+<tr class="separator:a2a8ee438700974c999de997595c573c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3afee73a36b02931897424ae7f31a9a4" id="r_a3afee73a36b02931897424ae7f31a9a4"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3afee73a36b02931897424ae7f31a9a4">GetCustomSettingDnsInfoTtlDays</a> ()</td></tr>
+<tr class="memdesc:a3afee73a36b02931897424ae7f31a9a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the setting that enables overriding the TTL for cached DNS data in days by default it will be 30 days. Values should be set as string integers.  <br /></td></tr>
+<tr class="separator:a3afee73a36b02931897424ae7f31a9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A file Containing the common types used by the upe, file and protection modules. </p>
-</div><h2 class="groupheader">Typedef Documentation</h2>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a86d500a34c624c2cae56bc25a31b12f3" name="a86d500a34c624c2cae56bc25a31b12f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86d500a34c624c2cae56bc25a31b12f3">&#9670;&#160;</a></span>UNUSED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define UNUSED</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">(void)x</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
 <a id="abca0df54ec7356b29584fc85dee02f1f" name="abca0df54ec7356b29584fc85dee02f1f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abca0df54ec7356b29584fc85dee02f1f">&#9670;&#160;</a></span>ClassifierUniqueIdsAndContentFormats</h2>
 
@@ -546,6 +668,8 @@ Functions</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a10dec50806bcdc01b5b0f3b5a5aafe44a85a9e2274fffcb1a0d2beb76c72c4c66" name="a10dec50806bcdc01b5b0f3b5a5aafe44a85a9e2274fffcb1a0d2beb76c72c4c66"></a>China_01&#160;</td><td class="fielddoc"><p>China sovereign cloud </p>
 </td></tr>
+<tr><td class="fieldname"><a id="a10dec50806bcdc01b5b0f3b5a5aafe44a2c93ffdb332f3211dd09daf8bd7ad38f" name="a10dec50806bcdc01b5b0f3b5a5aafe44a2c93ffdb332f3211dd09daf8bd7ad38f"></a>Bleu&#160;</td><td class="fielddoc"><p>French sovereign cloud </p>
+</td></tr>
 </table>
 
 </div>
@@ -577,6 +701,39 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a66fb847b8e5ed8b08dfbc3248984a5a7ac4408d335012a56ff58937d78050efad" name="a66fb847b8e5ed8b08dfbc3248984a5a7ac4408d335012a56ff58937d78050efad"></a>Accept&#160;</td><td class="fielddoc"><p>Consent, just one time </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a66fb847b8e5ed8b08dfbc3248984a5a7ad98ac12774fca5c3cbaffe276840c55f" name="a66fb847b8e5ed8b08dfbc3248984a5a7ad98ac12774fca5c3cbaffe276840c55f"></a>Reject&#160;</td><td class="fielddoc"><p>Do not consent </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a3c1df136b994c442d9a67b0ae3fd3b49" name="a3c1df136b994c442d9a67b0ae3fd3b49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c1df136b994c442d9a67b0ae3fd3b49">&#9670;&#160;</a></span>ContainerDecryptionOption</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a3c1df136b994c442d9a67b0ae3fd3b49">ContainerDecryptionOption</a> : unsigned int</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>behavior control on decrypting container types. (msg) </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3c1df136b994c442d9a67b0ae3fd3b49a7a1920d61156abc05a60135aefe8bc67" name="a3c1df136b994c442d9a67b0ae3fd3b49a7a1920d61156abc05a60135aefe8bc67"></a>Default&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3c1df136b994c442d9a67b0ae3fd3b49ae1ae09b94f8926587697d0f246bf1050" name="a3c1df136b994c442d9a67b0ae3fd3b49ae1ae09b94f8926587697d0f246bf1050"></a>Msg&#160;</td><td class="fielddoc"><p>default same as msg </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3c1df136b994c442d9a67b0ae3fd3b49aa4ffdcf0dc1f31b9acaf295d75b51d00" name="a3c1df136b994c442d9a67b0ae3fd3b49aa4ffdcf0dc1f31b9acaf295d75b51d00"></a>Top&#160;</td><td class="fielddoc"><p>decrypt top and secondary level, default for msg Known markings are converted unknown marking are passed through </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3c1df136b994c442d9a67b0ae3fd3b49ab1c94ca2fbc3e78fc30069c8d0f01680" name="a3c1df136b994c442d9a67b0ae3fd3b49ab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"><p>Attempt to decrypt all, if failed keeps data encrypted. </p>
 </td></tr>
 </table>
 
@@ -946,6 +1103,40 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ac4a49c6a1985983e36a6ddeb085c6535" name="ac4a49c6a1985983e36a6ddeb085c6535"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4a49c6a1985983e36a6ddeb085c6535">&#9670;&#160;</a></span>ContainerDecryptionOptionString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ContainerDecryptionOptionString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3c1df136b994c442d9a67b0ae3fd3b49">ContainerDecryptionOption</a></td>          <td class="paramname"><span class="paramname"><em>option</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts AssignmentMethod enum to a string description. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>an assignment method. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a string description of the assignment method. </dd></dl>
+
+</div>
+</div>
 <a id="a8ff2be45682709f949c5f64eb584e81b" name="a8ff2be45682709f949c5f64eb584e81b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8ff2be45682709f949c5f64eb584e81b">&#9670;&#160;</a></span>GetActionSourceString()</h2>
 
@@ -1014,6 +1205,226 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac1c8ff0f3079931249744e07cde7f5a8" name="ac1c8ff0f3079931249744e07cde7f5a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1c8ff0f3079931249744e07cde7f5a8">&#9670;&#160;</a></span>GetCustomSettingContainerDecryptionOption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * GetCustomSettingContainerDecryptionOption </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Container (msg) decryption option, "default" (decrypt top level and secondary), "top" (decrypt top only), "all" not yet supported, experimental feature. </p>
+<dl class="section return"><dt>Returns</dt><dd>the custom container decryption option. </dd></dl>
+
+</div>
+</div>
+<a id="a94025820ddf86ad53adc91ba51f3d858" name="a94025820ddf86ad53adc91ba51f3d858"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94025820ddf86ad53adc91ba51f3d858">&#9670;&#160;</a></span>GetCustomSettingDelegateApplicationInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * GetCustomSettingDelegateApplicationInfo </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>enable mipservice to specify delegated application information, for application using their service. Current supported format for delegation {"id":"&lt;valid-guid&gt;", "name":"&lt;ascii chars&gt;", "version":"1.0.0.0"} </p>
+<dl class="section return"><dt>Returns</dt><dd>the custom settings key. </dd></dl>
+
+</div>
+</div>
+<a id="a3afee73a36b02931897424ae7f31a9a4" name="a3afee73a36b02931897424ae7f31a9a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3afee73a36b02931897424ae7f31a9a4">&#9670;&#160;</a></span>GetCustomSettingDnsInfoTtlDays()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * GetCustomSettingDnsInfoTtlDays </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Name of the setting that enables overriding the TTL for cached DNS data in days by default it will be 30 days. Values should be set as string integers. </p>
+<dl class="section return"><dt>Returns</dt><dd>the custom settings key. </dd></dl>
+
+</div>
+</div>
+<a id="a2ee69337063066991092d724565fa4fb" name="a2ee69337063066991092d724565fa4fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ee69337063066991092d724565fa4fb">&#9670;&#160;</a></span>GetCustomSettingEnableCoAuthMetadata()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * GetCustomSettingEnableCoAuthMetadata </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Configures whether co-auth metadata versioning is respected for Office file types. By default, co-auth support is enabled via the Security &amp; Compliance Center configuration. Use this setting to disable co-auth metadata versioning even if it is enabled via policy. To disable co-auth metadata, set this custom setting to false. </p>
+
+</div>
+</div>
+<a id="acfddfb447f63fa6dbdc9ac1a54baa115" name="acfddfb447f63fa6dbdc9ac1a54baa115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfddfb447f63fa6dbdc9ac1a54baa115">&#9670;&#160;</a></span>GetCustomSettingEnableDeprecatedRemoveActions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * GetCustomSettingEnableDeprecatedRemoveActions </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a23c8673d63275ee49a093f7cbfd78ccb" name="a23c8673d63275ee49a093f7cbfd78ccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23c8673d63275ee49a093f7cbfd78ccb">&#9670;&#160;</a></span>GetCustomSettingEnableEmlFileType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * GetCustomSettingEnableEmlFileType </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>enable eml file type when using file api, experimental. </p>
+<dl class="section return"><dt>Returns</dt><dd>the custom settings key. </dd></dl>
+
+</div>
+</div>
+<a id="a39f80fa412a20fc3621585dd5135a3ef" name="a39f80fa412a20fc3621585dd5135a3ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39f80fa412a20fc3621585dd5135a3ef">&#9670;&#160;</a></span>GetCustomSettingEnableMsgFileType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * GetCustomSettingEnableMsgFileType </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>enable msg file type when using file api, experimental. currently support remove protection, known gaps ole attachment, voice attachments. </p>
+<dl class="section return"><dt>Returns</dt><dd>the custom settings key. </dd></dl>
+
+</div>
+</div>
+<a id="a184a45d185515b1148d2de2088295beb" name="a184a45d185515b1148d2de2088295beb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a184a45d185515b1148d2de2088295beb">&#9670;&#160;</a></span>GetCustomSettingEnablePowerBIFileType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * GetCustomSettingEnablePowerBIFileType </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>enable PowerBI file type when using file api, experimental. </p>
+<dl class="section return"><dt>Returns</dt><dd>the custom settings key. </dd></dl>
+
+</div>
+</div>
 <a id="af59a67ede3e4a2c51520c50239087bee" name="af59a67ede3e4a2c51520c50239087bee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af59a67ede3e4a2c51520c50239087bee">&#9670;&#160;</a></span>GetCustomSettingExportPolicyFileName()</h2>
 
@@ -1038,6 +1449,34 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Name of the setting to explicitly specify file path to export SCC policy data to. </p>
+<dl class="section return"><dt>Returns</dt><dd>the custom settings key. </dd></dl>
+
+</div>
+</div>
+<a id="afce8a61798489f23f329f345a255fb23" name="afce8a61798489f23f329f345a255fb23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afce8a61798489f23f329f345a255fb23">&#9670;&#160;</a></span>GetCustomSettingKeepPdfLinearization()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * GetCustomSettingKeepPdfLinearization </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>keep pdf linearization during protection and unprotection. </p>
 <dl class="section return"><dt>Returns</dt><dd>the custom settings key. </dd></dl>
 
 </div>
@@ -1067,6 +1506,134 @@ Functions</h2></td></tr>
 
 <p>Name of the setting that allows to enable label by custom properties and custom properties by label features. </p>
 <dl class="section return"><dt>Returns</dt><dd>the custom settings key. </dd></dl>
+
+</div>
+</div>
+<a id="a2a8ee438700974c999de997595c573c0" name="a2a8ee438700974c999de997595c573c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a8ee438700974c999de997595c573c0">&#9670;&#160;</a></span>GetCustomSettingLabelsForAllContentFormats()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * GetCustomSettingLabelsForAllContentFormats </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>if set enable list senstivity labels to return all labels regardless of content formats, primarily useed for mip service where per call filtration is controlled by graph api. </p>
+<dl class="section return"><dt>Returns</dt><dd>the custom settings key. </dd></dl>
+
+</div>
+</div>
+<a id="af4877d13bb9f7156fc35c70903f126d6" name="af4877d13bb9f7156fc35c70903f126d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4877d13bb9f7156fc35c70903f126d6">&#9670;&#160;</a></span>GetCustomSettingLabelWithoutPolicy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * GetCustomSettingLabelWithoutPolicy </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a09cfa75348ce25e7fecdf6d198801a5a" name="a09cfa75348ce25e7fecdf6d198801a5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09cfa75348ce25e7fecdf6d198801a5a">&#9670;&#160;</a></span>GetCustomSettingMaxFileSizeForProtection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * GetCustomSettingMaxFileSizeForProtection </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a323f44ca7938de8269034efda9267135" name="a323f44ca7938de8269034efda9267135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a323f44ca7938de8269034efda9267135">&#9670;&#160;</a></span>GetCustomSettingMaxNestedProtectedMsgs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * GetCustomSettingMaxNestedProtectedMsgs </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac79e8354667ce8e5ef006ce5bf078a10" name="ac79e8354667ce8e5ef006ce5bf078a10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac79e8354667ce8e5ef006ce5bf078a10">&#9670;&#160;</a></span>GetCustomSettingMaxPolicyXmlVersion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * GetCustomSettingMaxPolicyXmlVersion </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1154,6 +1721,31 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ace2cdce01a0ae8122a5fce0f45da88c0" name="ace2cdce01a0ae8122a5fce0f45da88c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace2cdce01a0ae8122a5fce0f45da88c0">&#9670;&#160;</a></span>GetCustomSettingPrintDiscoveredInfoTypesToTrace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * GetCustomSettingPrintDiscoveredInfoTypesToTrace </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3927dba1e1ea9f2062b3b50e62fbc1fd" name="a3927dba1e1ea9f2062b3b50e62fbc1fd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3927dba1e1ea9f2062b3b50e62fbc1fd">&#9670;&#160;</a></span>GetCustomSettingSensitivityPolicyTtlDays()</h2>
 
@@ -1238,6 +1830,31 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aa4a2f4ae8bae595309ebf2e832ef660f" name="aa4a2f4ae8bae595309ebf2e832ef660f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4a2f4ae8bae595309ebf2e832ef660f">&#9670;&#160;</a></span>GetCustomSettingTaskTimeoutMs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * GetCustomSettingTaskTimeoutMs </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a83d2cb0c99939d5f71d60ed803930bb8" name="a83d2cb0c99939d5f71d60ed803930bb8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a83d2cb0c99939d5f71d60ed803930bb8">&#9670;&#160;</a></span>GetDataStateString()</h2>
 
@@ -1294,6 +1911,34 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a23d66017f99968fd03c2c2478d9e631d" name="a23d66017f99968fd03c2c2478d9e631d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23d66017f99968fd03c2c2478d9e631d">&#9670;&#160;</a></span>GetEnforceMsgPfileProtection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * GetEnforceMsgPfileProtection </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>enforce pfile protection on msg file type when using file api. EnforceMsgPfileProtection will overide enable_msg_file_type (enable_msg_file_type &amp;= !EnforceMsgPfileProtection) </p>
+<dl class="section return"><dt>Returns</dt><dd>the custom settings key. </dd></dl>
 
 </div>
 </div>
@@ -1457,11 +2102,15 @@ Functions</h2></td></tr>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ed23b7e0ff82d04a8565e406d9d9df9a.html">mip-sdk-for-cpp</a></li><li class="navelem"><a class="el" href="dir_5a92ca31a1d1cd11ee59a3526a96cc89.html">src</a></li><li class="navelem"><a class="el" href="dir_e50a1d5d74e01fc8d143b32c54f27ce0.html">api</a></li><li class="navelem"><a class="el" href="dir_8430260fe83f04f5d27761956506c721.html">mip</a></li><li class="navelem"><a class="el" href="common__types_8h.html">common_types.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['api_5fmip_5ffile_5ffile_5finspector_5fh_5f_0',['API_MIP_FILE_FILE_INSPECTOR_H_',['../file__inspector_8h.html#a206683ad85b00b6dfca314fb94e6cbe8',1,'file_inspector.h']]]
+  ['_5f_5fcdecl_0',['__CDECL',['../mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d',1,'mip_export.h']]]
 ];

@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -107,26 +147,42 @@ $(function(){initNavTree('classMipContext.html',''); initResizable(true); });
   <tr class="odd"><td class="entry"><a class="el" href="classMipContext.html#ad049d89d52678ce1c18908af3aa32918">Create</a>(const std::shared_ptr&lt; const MipConfiguration &gt; &amp;configuration)</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMipContext.html#a28a171f08ef58df6fdc3dd19f1e5c6e8">CreateWithCustomFeatureSettings</a>(const ApplicationInfo &amp;appInfo, const std::string &amp;path, LogLevel thresholdLogLevel, bool isOfflineOnly, const std::shared_ptr&lt; LoggerDelegate &gt; &amp;loggerDelegateOverride, const std::shared_ptr&lt; DiagnosticConfiguration &gt; &amp;diagnosticOverride, const std::map&lt; FlightingFeature, bool &gt; &amp;featureSettingsOverride)</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classMipContext.html#a305593ffc30951634d0e9a71f3633ba5">GetApplicationInfo</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMipContext.html#a997db49423e4c4e5a91d72e1bbffe201">GetCacheStorageType</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMipContext.html#aec0e60257adbe0a3f327c3d1b661cce9">GetCloudDiscoveryDelegate</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMipContext.html#a1117efb9ef81624ee27b8546a459775b">GetAuditManager</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMipContext.html#a997db49423e4c4e5a91d72e1bbffe201">GetCacheStorageType</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMipContext.html#aec0e60257adbe0a3f327c3d1b661cce9">GetCloudDiscoveryDelegate</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMipContext.html#a0395b6b682daf61bf54f4b30f623f135">GetDefaultEventContext</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMipContext.html#ac1a2a233ea5466fc16a08bd8218533d0">GetFlightingFeatures</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classMipContext.html#a1fde6750d8b257cb4ed0978ad5c19b27">GetHttpDelegate</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMipContext.html#af0fad83d16f0fa9b540981c52787230a">GetLoggerConfiguration</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMipContext.html#a466b220047a9f9db2aa85c1b7b6962fb">GetLoggerDelegate</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMipContext.html#a668be1d98aea0d5fb8d3119f8d05dc03">GetMipConfiguration</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMipContext.html#a1f001a1bccabfaa530ac1c2894384b40">GetMipPath</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMipContext.html#a92e3b73915a5517011fd05aa966fe08b">GetRawLoggerDelegate</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMipContext.html#a2fefd0c99713c3ed38037c72a58ffe7d">GetJsonDelegate</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMipContext.html#af0fad83d16f0fa9b540981c52787230a">GetLoggerConfiguration</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMipContext.html#a466b220047a9f9db2aa85c1b7b6962fb">GetLoggerDelegate</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMipContext.html#a668be1d98aea0d5fb8d3119f8d05dc03">GetMipConfiguration</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMipContext.html#a1f001a1bccabfaa530ac1c2894384b40">GetMipPath</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMipContext.html#ac15dfa0bcab30c1f0847d4cecc3aba2b">GetOneDSAriaHelper</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMipContext.html#a34e100b348ecab8a19d0b622e1781719">GetOneDSCloudManager</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMipContext.html#afa22803c955e04fc2a312f31053cb470">GetPolicyCloudManager</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMipContext.html#a0323d2326297330779282b5438799ce7">GetProtectionCloudManager</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMipContext.html#a92e3b73915a5517011fd05aa966fe08b">GetRawLoggerDelegate</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMipContext.html#a30ece3d9d4ff8fc9c24f6c8486d09c66">GetRawTelemetryManager</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classMipContext.html#a5a20a9ed55575286e959578965031479">GetStorageDelegate</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMipContext.html#a5d99d9bcb4f0c0f2c8c402dab41af90e">GetThresholdLogLevel</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMipContext.html#a68aa1411deb7e2e893db73731a55a4f1">IsFeatureEnabled</a>(FlightingFeature feature) const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMipContext.html#abad9571c2400256b801a7ba10cded377">IsOfflineOnly</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMipContext.html#a9206d53328d5ed50f9c7a82b38dee219">ShutDown</a>()=0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMipContext.html#a6bdd30f1d5568b4c8eb34009bdfb6518">GetTelemetryManager</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMipContext.html#a5d99d9bcb4f0c0f2c8c402dab41af90e">GetThresholdLogLevel</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMipContext.html#ac3b111d433980ba40b21f1ffe4ef4113">GetXmlDelegate</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMipContext.html#a303abc39e5f448fc985270dd8596764d">InitializeCloudDiscoveryStores</a>(const CacheStorageType cacheStorageType)=0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMipContext.html#a68aa1411deb7e2e893db73731a55a4f1">IsFeatureEnabled</a>(FlightingFeature feature) const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMipContext.html#abad9571c2400256b801a7ba10cded377">IsOfflineOnly</a>() const =0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMipContext.html#a9206d53328d5ed50f9c7a82b38dee219">ShutDown</a>()=0</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMipContext.html#a5043ed2162ef91deb4647c56710668c0">~MipContext</a>()</td><td class="entry"><a class="el" href="classMipContext.html">MipContext</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

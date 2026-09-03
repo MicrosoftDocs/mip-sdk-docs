@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -108,24 +148,33 @@ $(function(){initNavTree('functions_c.html',''); initResizable(true); });
 <li>CancelTask()&#160;:&#160;<a class="el" href="classTaskDispatcherDelegate.html#a8bfdbf1e07ead77615d3e4ce9427a89c">TaskDispatcherDelegate</a></li>
 <li>CanRead()&#160;:&#160;<a class="el" href="classStream.html#a44a66ddf55e64ff275a8f153c7839a3f">Stream</a></li>
 <li>CanWrite()&#160;:&#160;<a class="el" href="classStream.html#a006b387fc65d4e2cdb06d1090e097c03">Stream</a></li>
-<li>Category&#160;:&#160;<a class="el" href="classNetworkError.html#a8cb40eb9f9c590f78170c7552a5bac37">NetworkError</a>, <a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0">NoPermissionsError</a></li>
+<li>Category&#160;:&#160;<a class="el" href="classNetworkError.html#a8cb40eb9f9c590f78170c7552a5bac37">NetworkError</a>, <a class="el" href="classNoPermissionsError.html#a75af81a5a24cda739145edfdb6fa5fb0">NoPermissionsError</a>, <a class="el" href="classNoPolicyError.html#a6983429fa8050bebf0b59f1a8304064c">NoPolicyError</a></li>
+<li>ClassificationRequest()&#160;:&#160;<a class="el" href="classClassificationRequest.html#a75708e99d85e9af73a237d3c502b92ef">ClassificationRequest</a></li>
+<li>ClassificationResult()&#160;:&#160;<a class="el" href="classClassificationResult.html#aadf46279e914a8eb93c5b3a2d666348c">ClassificationResult</a></li>
 <li>ClassifyAsync()&#160;:&#160;<a class="el" href="classFileHandler.html#adc353de0e5d0571fbe20cd2047abd20b">FileHandler</a></li>
-<li>Clone()&#160;:&#160;<a class="el" href="classError.html#a34ab84a92eb2a61d10bb2a1720640eb5">Error</a>, <a class="el" href="classJustificationRequiredError.html#abd77395fff3113cac334c064566eee06">JustificationRequiredError</a></li>
+<li>Clone()&#160;:&#160;<a class="el" href="classAccessDeniedError.html#a62176ba6bfcaea09c7d2415c33129536">AccessDeniedError</a>, <a class="el" href="classAdhocProtectionRequiredError.html#aa6eeb3b31448c77463b1eb46665d57a5">AdhocProtectionRequiredError</a>, <a class="el" href="classBadInputError.html#aae3629582d842d5e00799f5761280dc1">BadInputError</a>, <a class="el" href="classConsentDeniedError.html#a2ab690dda09436763eb1facaf817f1d9">ConsentDeniedError</a>, <a class="el" href="classContentFormatNotSupportedError.html#a8aacd8249eb5af5fd434736b2336f29d">ContentFormatNotSupportedError</a>, <a class="el" href="classCustomerKeyUnavailableError.html#ae4690d8f3962b940e90a8d85e4e2af1a">CustomerKeyUnavailableError</a>, <a class="el" href="classDelegateResponseError.html#adc954097bff8dd14969de8ba80941486">DelegateResponseError</a>, <a class="el" href="classDeprecatedApiError.html#a8516b0f75ebd6b4cebcb12181af74ed8">DeprecatedApiError</a>, <a class="el" href="classError.html#a34ab84a92eb2a61d10bb2a1720640eb5">Error</a>, <a class="el" href="classFileIOError.html#a4664b7aaa5f97a0682d2225eb553f2cd">FileIOError</a>, <a class="el" href="classInsufficientBufferError.html#a39f8b047f1a86d9aa5da1aa9ec4fe225">InsufficientBufferError</a>, <a class="el" href="classInternalError.html#ae7db4be60795998f170b09e0b71167c2">InternalError</a>, <a class="el" href="classJustificationRequiredError.html#abd77395fff3113cac334c064566eee06">JustificationRequiredError</a>, <a class="el" href="classLabelDisabledError.html#a772b63141399a908bfddc2f54e8a7513">LabelDisabledError</a>, <a class="el" href="classLabelNotFoundError.html#aad6c575707d25dad47dbe2c8fc20da55">LabelNotFoundError</a>, <a class="el" href="classLicenseNotRegisteredError.html#a4aa297cdd1a61b982a17680f3cb6972e">LicenseNotRegisteredError</a>, <a class="el" href="classMaxDepthReachedError.html#ac3246f04d9081a3772aa1ac3780e4059">MaxDepthReachedError</a>, <a class="el" href="classNetworkError.html#a8e5cccdf31cc8c4f19e69d8dce86376a">NetworkError</a>, <a class="el" href="classNoAuthTokenError.html#ae707476f4bae42c0f7f3123fdaac62a7">NoAuthTokenError</a>, <a class="el" href="classNoPermissionsError.html#af90bb5e8263720bfcdbab32a5b26d422">NoPermissionsError</a>, <a class="el" href="classNoPermissionsExtendedError.html#ad2af76839add418794e326bfa5eade94">NoPermissionsExtendedError</a>, <a class="el" href="classNoPolicyError.html#a5ac0a65b1f3aebaf600199e31d81c9f8">NoPolicyError</a>, <a class="el" href="classNotSupportedError.html#a4de6e7fe34fc8257f0bd0e6577f22232">NotSupportedError</a>, <a class="el" href="classOperationCancelledError.html#a4fea9456d69870a0bcc6411c165d6034">OperationCancelledError</a>, <a class="el" href="classPrivilegedRequiredError.html#a639fdac24999203a874086e8ca49b05c">PrivilegedRequiredError</a>, <a class="el" href="classProxyAuthenticationError.html#aa9d599aa000c56a8095510ad79b162cf">ProxyAuthenticationError</a>, <a class="el" href="classServiceDisabledError.html#a45272eceab65d1df7d7029cd0e5bb17b">ServiceDisabledError</a>, <a class="el" href="classTemplateArchivedError.html#a4e2cdb0837a40ac07df8a1478327bde2">TemplateArchivedError</a>, <a class="el" href="classTemplateNotFoundError.html#a9e76b94a3e1043b9db4fd816dff152a3">TemplateNotFoundError</a></li>
 <li>cloud&#160;:&#160;<a class="el" href="structDiagnosticConfiguration.html#ad0f0a2b2907b1023f2a1a16408dd6367">DiagnosticConfiguration</a></li>
+<li>CloudDiscoveryDelegate()&#160;:&#160;<a class="el" href="classCloudDiscoveryDelegate.html#ad90266edada5f747719f8fa4df8cb55e">CloudDiscoveryDelegate</a></li>
 <li>code&#160;:&#160;<a class="el" href="structExtendedErrorInfo.html#ab84605d7b7bd38f1532e3e313b7138e4">ExtendedErrorInfo</a></li>
 <li>CommitAsync()&#160;:&#160;<a class="el" href="classFileHandler.html#af606b52e7a3c53a8a2d4c2148d6bcaa2">FileHandler</a></li>
 <li>ComputeActions()&#160;:&#160;<a class="el" href="classComputeEngine.html#ad995f8a3faf0ebd04d4b62c882bff70b">ComputeEngine</a>, <a class="el" href="classPolicyHandler.html#ad9ad96c15c63877f1e5b8467b0fecdde">PolicyHandler</a></li>
 <li>ComputeActionsWithRemoteState()&#160;:&#160;<a class="el" href="classComputeEngine.html#ae246c1314c4b39ea25c9be228e912123">ComputeEngine</a></li>
 <li>ComputeEngineContext()&#160;:&#160;<a class="el" href="classComputeEngineContext.html#a14f3ba0ef1a490def8a7eb611bd10c60">ComputeEngineContext</a></li>
+<li>ConfigureFunctionality()&#160;:&#160;<a class="el" href="classFileEngine_1_1Settings.html#a26c48832d67a781ef553e3eab6fcc5cb">FileEngine::Settings</a>, <a class="el" href="classPolicyEngine_1_1Settings.html#ac973769476cda557c690e8152dd44613">PolicyEngine::Settings</a></li>
+<li>ConsentDelegate()&#160;:&#160;<a class="el" href="classConsentDelegate.html#aac14487f39fc57d08417ad377ac223fb">ConsentDelegate</a></li>
+<li>ConsentDeniedError()&#160;:&#160;<a class="el" href="classConsentDeniedError.html#a213d2177c1bc050f3d71c1d22d3e9be5">ConsentDeniedError</a></li>
 <li>ConsumptionSettings()&#160;:&#160;<a class="el" href="classProtectionHandler_1_1ConsumptionSettings.html#a55e6d014d15cfc3498a4d62b278ebb44">ProtectionHandler::ConsumptionSettings</a></li>
 <li>ContainsProtectedObjects()&#160;:&#160;<a class="el" href="classFileStatus.html#a5457b68043e90e10db80751180eac5f7">FileStatus</a></li>
+<li>ContentFormatNotSupportedError()&#160;:&#160;<a class="el" href="classContentFormatNotSupportedError.html#a41568023f23207f0799188e51ad692bf">ContentFormatNotSupportedError</a></li>
 <li>contentFormats&#160;:&#160;<a class="el" href="structUniqueIdsAndContentFormats.html#ae740429556116d3ff72e5a172b53d68c">UniqueIdsAndContentFormats</a></li>
+<li>ContentLabel()&#160;:&#160;<a class="el" href="classContentLabel.html#a52d5ac401fdf88b9897e41cc4efeac5e">ContentLabel</a></li>
 <li>Create()&#160;:&#160;<a class="el" href="classComputeEngine.html#ae2102189893e45a32425b925cd2da8b9">ComputeEngine</a>, <a class="el" href="classMipContext.html#a283578093989bc548ac6cfeb505d9f8a">MipContext</a>, <a class="el" href="classParsedPublishingLicenseBuilder.html#ae62f716f1d27d23424b213844e4df65c">ParsedPublishingLicenseBuilder</a></li>
 <li>CreateArrayValue()&#160;:&#160;<a class="el" href="classJsonDocument.html#a3f00098a1a3014480bafcfa3c24dc128">JsonDocument</a></li>
 <li>CreateContext()&#160;:&#160;<a class="el" href="classComputeEngine.html#a010890237f97811418c9d469fac7c592">ComputeEngine</a></li>
 <li>CreateDelegationLicenses()&#160;:&#160;<a class="el" href="classProtectionEngine.html#aa0b207023d9b42bf33ab50fe8c7feb40">ProtectionEngine</a></li>
 <li>CreateDelegationLicensesAsync()&#160;:&#160;<a class="el" href="classProtectionEngine.html#a5147b32252069841530e4a634fd40743">ProtectionEngine</a></li>
 <li>CreateDelegationLicenseSettings()&#160;:&#160;<a class="el" href="classDelegationLicenseSettings.html#a052f87b3b41adf26bbf6dec18044738c">DelegationLicenseSettings</a></li>
+<li>CreateFileHandlerAsync()&#160;:&#160;<a class="el" href="classFileEngine.html#a717cae62756ca34b4bfb681cc7b1afc6">FileEngine</a></li>
 <li>CreateFormattedMessage()&#160;:&#160;<a class="el" href="classError.html#aa76e555fb5bcfb69dc804f51fa01ad34">Error</a></li>
 <li>CreateFromLicenseType()&#160;:&#160;<a class="el" href="classProtectionDescriptorBuilder.html#a808524eda42fcd647fff56ba2b68fe0e">ProtectionDescriptorBuilder</a></li>
 <li>CreateFromProtectionDescriptor()&#160;:&#160;<a class="el" href="classProtectionDescriptorBuilder.html#ad50ddc48b47b821534fef0ee82923cc3">ProtectionDescriptorBuilder</a></li>
@@ -137,6 +186,7 @@ $(function(){initNavTree('functions_c.html',''); initResizable(true); });
 <li>CreateJsonObjectDocument()&#160;:&#160;<a class="el" href="classJsonDelegate.html#a0e026160f923c83e4b57b2b7fbf06b61">JsonDelegate</a></li>
 <li>CreateObjectValue()&#160;:&#160;<a class="el" href="classJsonDocument.html#a215d23aa9482d12473cf1fc527d8a972">JsonDocument</a></li>
 <li>CreateParsedPublishingLicense()&#160;:&#160;<a class="el" href="classParsedPublishingLicenseBuilder.html#a0b375135bd1911c0dcf46bb6acbbe81c">ParsedPublishingLicenseBuilder</a></li>
+<li>CreatePolicyHandler()&#160;:&#160;<a class="el" href="classPolicyEngine.html#a6de44bb530efc4ec7e86fc66912d3292">PolicyEngine</a></li>
 <li>CreateProtectedStream()&#160;:&#160;<a class="el" href="classProtectionHandler.html#a9999461a074bb2e755c6aed6c08fa6cb">ProtectionHandler</a></li>
 <li>CreateProtectionHandlerForConsumption()&#160;:&#160;<a class="el" href="classProtectionEngine.html#aafe713bece8c130e0f223312b822b9ae">ProtectionEngine</a></li>
 <li>CreateProtectionHandlerForConsumptionAsync()&#160;:&#160;<a class="el" href="classProtectionEngine.html#a624c136b8d0ec7cec66c5b8f32cf7ce5">ProtectionEngine</a></li>
@@ -146,14 +196,20 @@ $(function(){initNavTree('functions_c.html',''); initResizable(true); });
 <li>CreateStorageTable()&#160;:&#160;<a class="el" href="classStorageDelegate.html#a9756761bdad72e4aafab1be08bd98e04">StorageDelegate</a></li>
 <li>CreateWithCustomFeatureSettings()&#160;:&#160;<a class="el" href="classMipContext.html#a28a171f08ef58df6fdc3dd19f1e5c6e8">MipContext</a></li>
 <li>CreateXmlReader()&#160;:&#160;<a class="el" href="classxml_1_1XmlDelegate.html#a3a896baf2ba21b7a8df923693affa60d">xml::XmlDelegate</a></li>
+<li>CustomAction()&#160;:&#160;<a class="el" href="classCustomAction.html#a9ae092c813fdcbf9c90daf1f2ed67783">CustomAction</a></li>
+<li>CustomerKeyUnavailableError()&#160;:&#160;<a class="el" href="classCustomerKeyUnavailableError.html#a554275c6ed079bbc29313aa2c2326377">CustomerKeyUnavailableError</a></li>
 <li>customSettings&#160;:&#160;<a class="el" href="structDiagnosticConfiguration.html#af70753ed0e5182d5f9abc6934532fceb">DiagnosticConfiguration</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

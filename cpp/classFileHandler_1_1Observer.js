@@ -1,5 +1,7 @@
 var classFileHandler_1_1Observer =
 [
+    [ "~Observer", "classFileHandler_1_1Observer.html#a6ee2743f2b6bb7802baf3b81ad4e93ac", null ],
+    [ "Observer", "classFileHandler_1_1Observer.html#a13deed0c3b37c2b64662ab90a2fea794", null ],
     [ "OnClassifyFailure", "classFileHandler_1_1Observer.html#ae2a402987c129bef5137101e2fa02ea2", null ],
     [ "OnClassifySuccess", "classFileHandler_1_1Observer.html#ab28e07d1496130470bc6e102f3a6222b", null ],
     [ "OnCommitFailure", "classFileHandler_1_1Observer.html#a16340743cb87027e92424133ffcca8ca", null ],

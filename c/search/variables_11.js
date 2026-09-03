@@ -16,9 +16,10 @@ var searchData=
   ['textbuffer_13',['textBuffer',['../dynamic__watermark__cc_8h.html#afe6df0e71b692fc10c3a6310a41c7167',1,'textBuffer:&#160;dynamic_watermark_cc.h'],['../add__content__footer__action__cc_8h.html#afe6df0e71b692fc10c3a6310a41c7167',1,'textBuffer:&#160;add_content_footer_action_cc.h'],['../add__content__header__action__cc_8h.html#afe6df0e71b692fc10c3a6310a41c7167',1,'textBuffer:&#160;add_content_header_action_cc.h'],['../add__watermark__action__cc_8h.html#afe6df0e71b692fc10c3a6310a41c7167',1,'textBuffer:&#160;add_watermark_action_cc.h']]],
   ['textbuffersize_14',['textBufferSize',['../dynamic__watermark__cc_8h.html#add737dbcee71d0c9654aa823fbc37398',1,'textBufferSize:&#160;dynamic_watermark_cc.h'],['../add__content__footer__action__cc_8h.html#add737dbcee71d0c9654aa823fbc37398',1,'textBufferSize:&#160;add_content_footer_action_cc.h'],['../add__content__header__action__cc_8h.html#add737dbcee71d0c9654aa823fbc37398',1,'textBufferSize:&#160;add_content_header_action_cc.h'],['../add__watermark__action__cc_8h.html#add737dbcee71d0c9654aa823fbc37398',1,'textBufferSize:&#160;add_watermark_action_cc.h']]],
   ['textsize_15',['textSize',['../dynamic__watermark__cc_8h.html#a7209d83f99c98101d8b6a7c16b40b193',1,'textSize:&#160;dynamic_watermark_cc.h'],['../add__content__footer__action__cc_8h.html#a7209d83f99c98101d8b6a7c16b40b193',1,'textSize:&#160;add_content_footer_action_cc.h'],['../add__content__header__action__cc_8h.html#a7209d83f99c98101d8b6a7c16b40b193',1,'textSize:&#160;add_content_header_action_cc.h'],['../add__watermark__action__cc_8h.html#a7209d83f99c98101d8b6a7c16b40b193',1,'textSize:&#160;add_watermark_action_cc.h']]],
-  ['tooltipbuffer_16',['tooltipBuffer',['../label__cc_8h.html#a29239d0675454aaffef88c7d522d2f0a',1,'label_cc.h']]],
-  ['tooltipbuffersize_17',['tooltipBufferSize',['../label__cc_8h.html#a4f60d2acb5da4b76ef008219c86d2cba',1,'label_cc.h']]],
-  ['tooltipsize_18',['tooltipSize',['../label__cc_8h.html#abfbf14e95e07298cf973dc0c2e74b443',1,'label_cc.h']]],
-  ['type_19',['type',['../structmip__cc__http__request.html#aa4f64c815e83926894307f8125d914e6',1,'mip_cc_http_request']]],
-  ['typeid_20',['typeId',['../structmip__cc__handle.html#a6702b1d5abefbf88c693c0f6a0f0163e',1,'mip_cc_handle']]]
+  ['timepoint_16',['timePoint',['../protection__engine__cc_8h.html#ac0d14bcd0d0b754df4f4915f6d228b8c',1,'protection_engine_cc.h']]],
+  ['tooltipbuffer_17',['tooltipBuffer',['../label__cc_8h.html#a29239d0675454aaffef88c7d522d2f0a',1,'label_cc.h']]],
+  ['tooltipbuffersize_18',['tooltipBufferSize',['../label__cc_8h.html#a4f60d2acb5da4b76ef008219c86d2cba',1,'label_cc.h']]],
+  ['tooltipsize_19',['tooltipSize',['../label__cc_8h.html#abfbf14e95e07298cf973dc0c2e74b443',1,'label_cc.h']]],
+  ['type_20',['type',['../structmip__cc__http__request.html#aa4f64c815e83926894307f8125d914e6',1,'mip_cc_http_request']]],
+  ['typeid_21',['typeId',['../structmip__cc__handle.html#a6702b1d5abefbf88c693c0f6a0f0163e',1,'mip_cc_handle']]]
 ];

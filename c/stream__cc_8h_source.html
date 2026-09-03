@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -135,44 +175,44 @@ $(function(){initNavTree('stream__cc_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &quot;<a class="code" href="mip__macros__cc_8h.html">mip_cc/mip_macros_cc.h</a>&quot;</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#include &quot;<a class="code" href="result__cc_8h.html">mip_cc/result_cc.h</a>&quot;</span></div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="stream__cc_8h.html#af4cb57c25bf7075e21df825e91e21959">   50</a></span><a class="code hl_function" href="stream__cc_8h.html#af4cb57c25bf7075e21df825e91e21959">MIP_CC_CALLBACK</a>(mip_cc_stream_read_callback_fn <span class="comment">/*typename*/</span>,</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="stream__cc_8h.html#af4cb57c25bf7075e21df825e91e21959">   50</a></span><a class="code hl_define" href="mip__macros__cc_8h.html#a50d0114b7451ebe55f26f65b42e45962">MIP_CC_CALLBACK</a>(mip_cc_stream_read_callback_fn <span class="comment">/*typename*/</span>,</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    int64_t <span class="comment">/*return*/</span>,</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordtype">void</span>* <a class="code hl_variable" href="stream__cc_8h.html#a4a45fb32b46e3bbf8f116ec54ac964b2">context</a>,</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    uint8_t* buffer,</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    int64_t bufferLength);</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="stream__cc_8h.html#a288d702baed33cda33bae667204aa01a">   64</a></span><a class="code hl_function" href="stream__cc_8h.html#af4cb57c25bf7075e21df825e91e21959">MIP_CC_CALLBACK</a>(mip_cc_stream_write_callback_fn <span class="comment">/*typename*/</span>,</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="stream__cc_8h.html#a288d702baed33cda33bae667204aa01a">   64</a></span><a class="code hl_define" href="mip__macros__cc_8h.html#a50d0114b7451ebe55f26f65b42e45962">MIP_CC_CALLBACK</a>(mip_cc_stream_write_callback_fn <span class="comment">/*typename*/</span>,</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    int64_t <span class="comment">/*return*/</span>,</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">void</span>* <a class="code hl_variable" href="stream__cc_8h.html#a4a45fb32b46e3bbf8f116ec54ac964b2">context</a>,</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keyword">const</span> uint8_t* buffer,</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    int64_t bufferLength);</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="stream__cc_8h.html#a084e7ad3890a7a6ee71737c39ad07b27">   76</a></span><a class="code hl_function" href="stream__cc_8h.html#af4cb57c25bf7075e21df825e91e21959">MIP_CC_CALLBACK</a>(mip_cc_stream_flush_callback_fn <span class="comment">/*typename*/</span>,</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="stream__cc_8h.html#a084e7ad3890a7a6ee71737c39ad07b27">   76</a></span><a class="code hl_define" href="mip__macros__cc_8h.html#a50d0114b7451ebe55f26f65b42e45962">MIP_CC_CALLBACK</a>(mip_cc_stream_flush_callback_fn <span class="comment">/*typename*/</span>,</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keywordtype">bool</span> <span class="comment">/*return*/</span>,</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordtype">void</span>* <a class="code hl_variable" href="stream__cc_8h.html#a4a45fb32b46e3bbf8f116ec54ac964b2">context</a>);</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="stream__cc_8h.html#add29b05dbb8fd60d9abcb97b77beac2b">   86</a></span><a class="code hl_function" href="stream__cc_8h.html#af4cb57c25bf7075e21df825e91e21959">MIP_CC_CALLBACK</a>(mip_cc_stream_seek_callback_fn <span class="comment">/*typename*/</span>,</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="stream__cc_8h.html#add29b05dbb8fd60d9abcb97b77beac2b">   86</a></span><a class="code hl_define" href="mip__macros__cc_8h.html#a50d0114b7451ebe55f26f65b42e45962">MIP_CC_CALLBACK</a>(mip_cc_stream_seek_callback_fn <span class="comment">/*typename*/</span>,</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <span class="keywordtype">void</span> <span class="comment">/*return*/</span>,</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keywordtype">void</span>* <a class="code hl_variable" href="stream__cc_8h.html#a4a45fb32b46e3bbf8f116ec54ac964b2">context</a>,</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    int64_t position );</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="stream__cc_8h.html#ab8490bdf0b78a38ca39305b228e9c3e5">   97</a></span><a class="code hl_function" href="stream__cc_8h.html#af4cb57c25bf7075e21df825e91e21959">MIP_CC_CALLBACK</a>(mip_cc_stream_canread_callback_fn <span class="comment">/*typename*/</span>,</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="stream__cc_8h.html#ab8490bdf0b78a38ca39305b228e9c3e5">   97</a></span><a class="code hl_define" href="mip__macros__cc_8h.html#a50d0114b7451ebe55f26f65b42e45962">MIP_CC_CALLBACK</a>(mip_cc_stream_canread_callback_fn <span class="comment">/*typename*/</span>,</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">bool</span> <span class="comment">/*return*/</span>,</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keywordtype">void</span>* <a class="code hl_variable" href="stream__cc_8h.html#a4a45fb32b46e3bbf8f116ec54ac964b2">context</a>);</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="stream__cc_8h.html#af54c31f0cd32fa1c93b221ba4cb76012">  107</a></span><a class="code hl_function" href="stream__cc_8h.html#af4cb57c25bf7075e21df825e91e21959">MIP_CC_CALLBACK</a>(mip_cc_stream_canwrite_callback_fn <span class="comment">/*typename*/</span>,</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="stream__cc_8h.html#af54c31f0cd32fa1c93b221ba4cb76012">  107</a></span><a class="code hl_define" href="mip__macros__cc_8h.html#a50d0114b7451ebe55f26f65b42e45962">MIP_CC_CALLBACK</a>(mip_cc_stream_canwrite_callback_fn <span class="comment">/*typename*/</span>,</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <span class="keywordtype">bool</span> <span class="comment">/*return*/</span>,</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keywordtype">void</span>* <a class="code hl_variable" href="stream__cc_8h.html#a4a45fb32b46e3bbf8f116ec54ac964b2">context</a>);</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="stream__cc_8h.html#aa7d6874408590424502f079591cd18b3">  117</a></span><a class="code hl_function" href="stream__cc_8h.html#af4cb57c25bf7075e21df825e91e21959">MIP_CC_CALLBACK</a>(mip_cc_stream_position_callback_fn <span class="comment">/*typename*/</span>,</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="stream__cc_8h.html#aa7d6874408590424502f079591cd18b3">  117</a></span><a class="code hl_define" href="mip__macros__cc_8h.html#a50d0114b7451ebe55f26f65b42e45962">MIP_CC_CALLBACK</a>(mip_cc_stream_position_callback_fn <span class="comment">/*typename*/</span>,</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    int64_t <span class="comment">/*return*/</span>,</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keywordtype">void</span>* <a class="code hl_variable" href="stream__cc_8h.html#a4a45fb32b46e3bbf8f116ec54ac964b2">context</a>);</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="stream__cc_8h.html#a1cfdcfd93465216f8cb7a309f21f76fd">  127</a></span><a class="code hl_function" href="stream__cc_8h.html#af4cb57c25bf7075e21df825e91e21959">MIP_CC_CALLBACK</a>(mip_cc_stream_getsize_callback_fn <span class="comment">/*typename*/</span>,</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="stream__cc_8h.html#a1cfdcfd93465216f8cb7a309f21f76fd">  127</a></span><a class="code hl_define" href="mip__macros__cc_8h.html#a50d0114b7451ebe55f26f65b42e45962">MIP_CC_CALLBACK</a>(mip_cc_stream_getsize_callback_fn <span class="comment">/*typename*/</span>,</div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    int64_t <span class="comment">/*return*/</span>,</div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <span class="keywordtype">void</span>* <a class="code hl_variable" href="stream__cc_8h.html#a4a45fb32b46e3bbf8f116ec54ac964b2">context</a>);</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno"><a class="line" href="stream__cc_8h.html#a6c7fd5bf7c531f0aaaadcb9877e6683b">  137</a></span><a class="code hl_function" href="stream__cc_8h.html#af4cb57c25bf7075e21df825e91e21959">MIP_CC_CALLBACK</a>(mip_cc_stream_setsize_callback_fn <span class="comment">/*typename*/</span>,</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno"><a class="line" href="stream__cc_8h.html#a6c7fd5bf7c531f0aaaadcb9877e6683b">  137</a></span><a class="code hl_define" href="mip__macros__cc_8h.html#a50d0114b7451ebe55f26f65b42e45962">MIP_CC_CALLBACK</a>(mip_cc_stream_setsize_callback_fn <span class="comment">/*typename*/</span>,</div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    <span class="keywordtype">void</span> <span class="comment">/*return*/</span>,</div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    <span class="keywordtype">void</span>* <a class="code hl_variable" href="stream__cc_8h.html#a4a45fb32b46e3bbf8f116ec54ac964b2">context</a>,</div>
 <div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    int64_t value);</div>
@@ -201,6 +241,7 @@ $(function(){initNavTree('stream__cc_8h_source.html',''); initResizable(true); }
 <div class="ttc" id="aeditable__stream__cc_8h_html_a7fcad8052b876922da8aed1b8628ce0c"><div class="ttname"><a href="editable__stream__cc_8h.html#a7fcad8052b876922da8aed1b8628ce0c">readCallback</a></div><div class="ttdeci">const mip_cc_stream_update_callback_fn const mip_cc_stream_delete_callback_fn const mip_cc_stream_read_callback_fn readCallback</div><div class="ttdef"><b>Definition</b> editable_stream_cc.h:112</div></div>
 <div class="ttc" id="aerror__cc_8h_html"><div class="ttname"><a href="error__cc_8h.html">error_cc.h</a></div><div class="ttdoc">Error definition and functions.</div></div>
 <div class="ttc" id="amip__macros__cc_8h_html"><div class="ttname"><a href="mip__macros__cc_8h.html">mip_macros_cc.h</a></div><div class="ttdoc">Export/import and other macros for C API.</div></div>
+<div class="ttc" id="amip__macros__cc_8h_html_a50d0114b7451ebe55f26f65b42e45962"><div class="ttname"><a href="mip__macros__cc_8h.html#a50d0114b7451ebe55f26f65b42e45962">MIP_CC_CALLBACK</a></div><div class="ttdeci">#define MIP_CC_CALLBACK(TName, TRet,...)</div><div class="ttdef"><b>Definition</b> mip_macros_cc.h:58</div></div>
 <div class="ttc" id="aresult__cc_8h_html"><div class="ttname"><a href="result__cc_8h.html">result_cc.h</a></div><div class="ttdoc">Defines success/error result codes.</div></div>
 <div class="ttc" id="aresult__cc_8h_html_a41250f3f2089aef86aa6da4e3a585535"><div class="ttname"><a href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a></div><div class="ttdeci">mip_cc_result</div><div class="ttdoc">API success/failure result.</div><div class="ttdef"><b>Definition</b> result_cc.h:44</div></div>
 <div class="ttc" id="astream__cc_8h_html_a000d15ccf75ef91ea0a7ce81d306cdc3"><div class="ttname"><a href="stream__cc_8h.html#a000d15ccf75ef91ea0a7ce81d306cdc3">positionCallback</a></div><div class="ttdeci">const mip_cc_stream_write_callback_fn const mip_cc_stream_flush_callback_fn const mip_cc_stream_seek_callback_fn const mip_cc_stream_canread_callback_fn const mip_cc_stream_canwrite_callback_fn const mip_cc_stream_position_callback_fn positionCallback</div><div class="ttdef"><b>Definition</b> stream_cc.h:169</div></div>
@@ -216,16 +257,19 @@ $(function(){initNavTree('stream__cc_8h_source.html',''); initResizable(true); }
 <div class="ttc" id="astream__cc_8h_html_a973b84231d3ffc0d4b777d39e74ce7d3"><div class="ttname"><a href="stream__cc_8h.html#a973b84231d3ffc0d4b777d39e74ce7d3">canWriteCallback</a></div><div class="ttdeci">const mip_cc_stream_write_callback_fn const mip_cc_stream_flush_callback_fn const mip_cc_stream_seek_callback_fn const mip_cc_stream_canread_callback_fn const mip_cc_stream_canwrite_callback_fn canWriteCallback</div><div class="ttdef"><b>Definition</b> stream_cc.h:168</div></div>
 <div class="ttc" id="astream__cc_8h_html_aba49ff699a6bcd98ff8983418258a6c3"><div class="ttname"><a href="stream__cc_8h.html#aba49ff699a6bcd98ff8983418258a6c3">MIP_CC_API</a></div><div class="ttdeci">MIP_CC_API(void) MIP_CC_ReleaseStream(mip_cc_stream stream)</div><div class="ttdoc">Release resources associated with a stream handle.</div></div>
 <div class="ttc" id="astream__cc_8h_html_aea2ee251e2d23366629a9ee05ef54e8a"><div class="ttname"><a href="stream__cc_8h.html#aea2ee251e2d23366629a9ee05ef54e8a">flushCallback</a></div><div class="ttdeci">const mip_cc_stream_write_callback_fn const mip_cc_stream_flush_callback_fn flushCallback</div><div class="ttdef"><b>Definition</b> stream_cc.h:165</div></div>
-<div class="ttc" id="astream__cc_8h_html_af4cb57c25bf7075e21df825e91e21959"><div class="ttname"><a href="stream__cc_8h.html#af4cb57c25bf7075e21df825e91e21959">MIP_CC_CALLBACK</a></div><div class="ttdeci">MIP_CC_CALLBACK(mip_cc_stream_read_callback_fn, int64_t, void *context, uint8_t *buffer, int64_t bufferLength)</div><div class="ttdoc">Callback function definition for reading into a buffer from the stream.</div></div>
 <div class="ttc" id="astructmip__cc__error_html"><div class="ttname"><a href="structmip__cc__error.html">mip_cc_error</a></div><div class="ttdoc">Error information.</div><div class="ttdef"><b>Definition</b> error_cc.h:93</div></div>
 <div class="ttc" id="astructmip__cc__handle_html"><div class="ttname"><a href="structmip__cc__handle.html">mip_cc_handle</a></div><div class="ttdoc">Opaque handle to MIP object.</div><div class="ttdef"><b>Definition</b> common_types_cc.h:44</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ed23b7e0ff82d04a8565e406d9d9df9a.html">mip-sdk-for-cpp</a></li><li class="navelem"><a class="el" href="dir_5a92ca31a1d1cd11ee59a3526a96cc89.html">src</a></li><li class="navelem"><a class="el" href="dir_e50a1d5d74e01fc8d143b32c54f27ce0.html">api</a></li><li class="navelem"><a class="el" href="dir_c3e04355e45d1ded316250c59adeda59.html">mip_cc</a></li><li class="navelem"><a class="el" href="stream__cc_8h.html">stream_cc.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

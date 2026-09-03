@@ -1,4 +1,4 @@
 var protect__adhoc__action_8h =
 [
-    [ "ProtectAdhocAction", "classProtectAdhocAction.html", null ]
+    [ "ProtectAdhocAction", "classProtectAdhocAction.html", "classProtectAdhocAction" ]
 ];

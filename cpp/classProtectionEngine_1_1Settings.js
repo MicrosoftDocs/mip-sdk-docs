@@ -32,5 +32,21 @@ var classProtectionEngine_1_1Settings =
     [ "SetLoggerContext", "classProtectionEngine_1_1Settings.html#ac11ee94b60a7afcfc6622c97bd70c527", null ],
     [ "SetSessionId", "classProtectionEngine_1_1Settings.html#aa8230a572888677a257dd146cb90dfc8", null ],
     [ "SetTemplateRefreshArgs", "classProtectionEngine_1_1Settings.html#a7e937c91c5429780f1b8db97cb4df5a8", null ],
-    [ "SetUnderlyingApplicationId", "classProtectionEngine_1_1Settings.html#ae767da321ac2cb32157d9979f2550ce9", null ]
+    [ "SetUnderlyingApplicationId", "classProtectionEngine_1_1Settings.html#ae767da321ac2cb32157d9979f2550ce9", null ],
+    [ "mAllowCloudServiceOnly", "classProtectionEngine_1_1Settings.html#a910837300efc8b560eae302f590c18ce", null ],
+    [ "mAuthDelegate", "classProtectionEngine_1_1Settings.html#acfdb538d741030b2c9d690c61dca2179", null ],
+    [ "mCapabilities", "classProtectionEngine_1_1Settings.html#a136476be9fdb6df5efae2cb44224a652", null ],
+    [ "mClientData", "classProtectionEngine_1_1Settings.html#a0f774c49892f4cfaac3c3fcc91a06d7e", null ],
+    [ "mCloud", "classProtectionEngine_1_1Settings.html#a9bc26fc11ad9e2a30b9e9271078af788", null ],
+    [ "mCloudEndpointBaseUrl", "classProtectionEngine_1_1Settings.html#a7f254ac791b647cba1942274ce4f57c2", null ],
+    [ "mCustomSettings", "classProtectionEngine_1_1Settings.html#aaaaf0d18db76b5ed4aab6fecb80d2353", null ],
+    [ "mDataBoundary", "classProtectionEngine_1_1Settings.html#a6eb60193004c0fa0c66dbe765806f3f9", null ],
+    [ "mEngineId", "classProtectionEngine_1_1Settings.html#a3d19f5f01ce822ac5ae423ae2a530b36", null ],
+    [ "mIdentity", "classProtectionEngine_1_1Settings.html#ad9cbf93e01ebc4bc560e3ad6b6e31060", null ],
+    [ "mLocale", "classProtectionEngine_1_1Settings.html#a6f8eda128c79493d4d8e9328e46c750a", null ],
+    [ "mLoggerContext", "classProtectionEngine_1_1Settings.html#ac301693fe6f1992e921ee3bd81d4f62a", null ],
+    [ "mSessionId", "classProtectionEngine_1_1Settings.html#a6576ca6bc15c42a0b38e0accf4455253", null ],
+    [ "mTemplateBatchSize", "classProtectionEngine_1_1Settings.html#ac1003f7740fef02c9cb4dbee6473c9ec", null ],
+    [ "mTemplateRefreshRate", "classProtectionEngine_1_1Settings.html#a04eb3e4d973e999c0cfa6f4067a2e34e", null ],
+    [ "mUnderlyingApplicationId", "classProtectionEngine_1_1Settings.html#a52e11ea97e2c954da6f17084d733220b", null ]
 ];

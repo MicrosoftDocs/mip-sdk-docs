@@ -1,5 +1,6 @@
 var classMsgAttachmentData =
 [
+    [ "~MsgAttachmentData", "classMsgAttachmentData.html#a3d44f847a239597299fc7edfe16b6d3e", null ],
     [ "GetBytes", "classMsgAttachmentData.html#a7a488d892f545b005c7212a39c150b5f", null ],
     [ "GetCodePage", "classMsgAttachmentData.html#ae869a742d80c430263802e2a0c560596", null ],
     [ "GetContentId", "classMsgAttachmentData.html#a2e8e54194aa5944b4994b5836d3d5cc8", null ],

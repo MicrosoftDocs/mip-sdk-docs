@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -134,7 +174,7 @@ $(function(){initNavTree('json__value_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#include &quot;<a class="code" href="mip__namespace_8h.html">mip/mip_namespace.h</a>&quot;</span></div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>MIP_NAMESPACE_BEGIN</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><a class="code hl_define" href="mip__namespace_8h.html#a39c21aae7cf9012b9b74d8431054e182">MIP_NAMESPACE_BEGIN</a></div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
 <div class="foldopen" id="foldopen00042" data-start="{" data-end="};">
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="classJsonValue.html">   42</a></span><span class="keyword">class </span><a class="code hl_class" href="classJsonValue.html">JsonValue</a> {</div>
@@ -171,11 +211,11 @@ $(function(){initNavTree('json__value_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00178" name="l00178"></a><span class="lineno"><a class="line" href="classJsonValue.html#a691a2e29e406a914ae75346745c60629">  178</a></span>  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classJsonValue.html#a691a2e29e406a914ae75346745c60629">GetBool</a>() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a id="l00183" name="l00183"></a><span class="lineno"><a class="line" href="classJsonValue.html#a2459892e0542260d3803f5d4a8fd88e3">  183</a></span>  <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classJsonValue.html#a2459892e0542260d3803f5d4a8fd88e3">SerializeToString</a>() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span> </div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>  <span class="keyword">virtual</span> <a class="code hl_class" href="classJsonValue.html">~JsonValue</a>() {};</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno"><a class="line" href="classJsonValue.html#a71b2f75c1b828c51789b398ac762b3ff">  186</a></span>  <span class="keyword">virtual</span> <a class="code hl_function" href="classJsonValue.html#a71b2f75c1b828c51789b398ac762b3ff">~JsonValue</a>() {};</div>
 <div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>};</div>
 </div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span> </div>
-<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>MIP_NAMESPACE_END</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span><a class="code hl_define" href="mip__namespace_8h.html#ae6c7ae24f07850b87df4bbf55c04d831">MIP_NAMESPACE_END</a></div>
 <div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span> </div>
 <div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span><span class="preprocessor">#endif  </span><span class="comment">// API_MIP_JSON_VALUE_H_</span></div>
 <div class="ttc" id="aclassJsonValue_html"><div class="ttname"><a href="classJsonValue.html">JsonValue</a></div><div class="ttdef"><b>Definition</b> json_value.h:42</div></div>
@@ -193,6 +233,7 @@ $(function(){initNavTree('json__value_8h_source.html',''); initResizable(true); 
 <div class="ttc" id="aclassJsonValue_html_a5c69f6c3a6f662c99d77e744cc3effbc"><div class="ttname"><a href="classJsonValue.html#a5c69f6c3a6f662c99d77e744cc3effbc">JsonValue::AddMember</a></div><div class="ttdeci">virtual void AddMember(const std::string &amp;key, int member)=0</div><div class="ttdoc">Add a signed integer member to an Object with the specified key and value.</div></div>
 <div class="ttc" id="aclassJsonValue_html_a60211ac5784c0d02a91250e237039dc6"><div class="ttname"><a href="classJsonValue.html#a60211ac5784c0d02a91250e237039dc6">JsonValue::IsArray</a></div><div class="ttdeci">virtual bool IsArray() const =0</div><div class="ttdoc">check if value is a json array.</div></div>
 <div class="ttc" id="aclassJsonValue_html_a691a2e29e406a914ae75346745c60629"><div class="ttname"><a href="classJsonValue.html#a691a2e29e406a914ae75346745c60629">JsonValue::GetBool</a></div><div class="ttdeci">virtual bool GetBool() const =0</div><div class="ttdoc">If the current value is a bool, return it.</div></div>
+<div class="ttc" id="aclassJsonValue_html_a71b2f75c1b828c51789b398ac762b3ff"><div class="ttname"><a href="classJsonValue.html#a71b2f75c1b828c51789b398ac762b3ff">JsonValue::~JsonValue</a></div><div class="ttdeci">virtual ~JsonValue()</div><div class="ttdef"><b>Definition</b> json_value.h:186</div></div>
 <div class="ttc" id="aclassJsonValue_html_a80544a5fa9a1dc8286fafc3d3eb75bde"><div class="ttname"><a href="classJsonValue.html#a80544a5fa9a1dc8286fafc3d3eb75bde">JsonValue::AddMember</a></div><div class="ttdeci">virtual void AddMember(const std::string &amp;key, bool member)=0</div><div class="ttdoc">Add a boolean member to an Object with the specified key and value.</div></div>
 <div class="ttc" id="aclassJsonValue_html_a8742a39f36398a0c1e97e0744442f51d"><div class="ttname"><a href="classJsonValue.html#a8742a39f36398a0c1e97e0744442f51d">JsonValue::Size</a></div><div class="ttdeci">virtual size_t Size() const =0</div><div class="ttdoc">return number of child elements.</div></div>
 <div class="ttc" id="aclassJsonValue_html_a9cfbb06e60a3eb3d8282a413cd0b7714"><div class="ttname"><a href="classJsonValue.html#a9cfbb06e60a3eb3d8282a413cd0b7714">JsonValue::IsBool</a></div><div class="ttdeci">virtual bool IsBool() const =0</div><div class="ttdoc">Return true if the current value is a bool.</div></div>
@@ -206,13 +247,19 @@ $(function(){initNavTree('json__value_8h_source.html',''); initResizable(true); 
 <div class="ttc" id="aclassJsonValue_html_ae4c3afd5bab339119089e67a778dad5b"><div class="ttname"><a href="classJsonValue.html#ae4c3afd5bab339119089e67a778dad5b">JsonValue::AddMember</a></div><div class="ttdeci">virtual void AddMember(const std::string &amp;key, const std::string &amp;member)=0</div></div>
 <div class="ttc" id="aclassJsonValue_html_af2597cbc86716ad1edc6cd3a8eca164a"><div class="ttname"><a href="classJsonValue.html#af2597cbc86716ad1edc6cd3a8eca164a">JsonValue::GetString</a></div><div class="ttdeci">virtual std::string GetString() const =0</div><div class="ttdoc">If the current value is a string, return it.</div></div>
 <div class="ttc" id="amip__namespace_8h_html"><div class="ttname"><a href="mip__namespace_8h.html">mip_namespace.h</a></div><div class="ttdoc">MIP namespace macros.</div></div>
+<div class="ttc" id="amip__namespace_8h_html_a39c21aae7cf9012b9b74d8431054e182"><div class="ttname"><a href="mip__namespace_8h.html#a39c21aae7cf9012b9b74d8431054e182">MIP_NAMESPACE_BEGIN</a></div><div class="ttdeci">#define MIP_NAMESPACE_BEGIN</div><div class="ttdef"><b>Definition</b> mip_namespace.h:53</div></div>
+<div class="ttc" id="amip__namespace_8h_html_ae6c7ae24f07850b87df4bbf55c04d831"><div class="ttname"><a href="mip__namespace_8h.html#ae6c7ae24f07850b87df4bbf55c04d831">MIP_NAMESPACE_END</a></div><div class="ttdeci">#define MIP_NAMESPACE_END</div><div class="ttdef"><b>Definition</b> mip_namespace.h:56</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ed23b7e0ff82d04a8565e406d9d9df9a.html">mip-sdk-for-cpp</a></li><li class="navelem"><a class="el" href="dir_5a92ca31a1d1cd11ee59a3526a96cc89.html">src</a></li><li class="navelem"><a class="el" href="dir_e50a1d5d74e01fc8d143b32c54f27ce0.html">api</a></li><li class="navelem"><a class="el" href="dir_8430260fe83f04f5d27761956506c721.html">mip</a></li><li class="navelem"><a class="el" href="json__value_8h.html">json_value.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

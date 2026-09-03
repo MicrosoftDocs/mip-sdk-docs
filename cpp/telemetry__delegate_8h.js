@@ -1,4 +1,4 @@
 var telemetry__delegate_8h =
 [
-    [ "TelemetryDelegate", "classTelemetryDelegate.html", null ]
+    [ "TelemetryDelegate", "classTelemetryDelegate.html", "classTelemetryDelegate" ]
 ];

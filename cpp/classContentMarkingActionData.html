@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -136,7 +176,7 @@ Public Member Functions</h2></td></tr>
 <tr class="inherit_header pub_methods_classActionData"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classActionData')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classActionData.html">ActionData</a></td></tr>
 <tr class="memitem:a5275fbce6724ea8c482ba80797e461f4 inherit pub_methods_classActionData" id="r_a5275fbce6724ea8c482ba80797e461f4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="action__data_8h.html#a6d654ecc0af0141038ff55726c51e1c5">ActionDataType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActionData.html#a5275fbce6724ea8c482ba80797e461f4">GetType</a> () const =0</td></tr>
 <tr class="separator:a5275fbce6724ea8c482ba80797e461f4 inherit pub_methods_classActionData"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae998d631cb46aedea31b52bb3d8c5be1 inherit pub_methods_classActionData" id="r_ae998d631cb46aedea31b52bb3d8c5be1"><td class="memItemLeft" align="right" valign="top">virtual const std::map&lt; std::string, std::string, CaseInsensitiveComparator &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActionData.html#ae998d631cb46aedea31b52bb3d8c5be1">GetProperties</a> () const =0</td></tr>
+<tr class="memitem:ae998d631cb46aedea31b52bb3d8c5be1 inherit pub_methods_classActionData" id="r_ae998d631cb46aedea31b52bb3d8c5be1"><td class="memItemLeft" align="right" valign="top">virtual const std::map&lt; std::string, std::string, <a class="el" href="classCaseInsensitiveComparator.html">CaseInsensitiveComparator</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActionData.html#ae998d631cb46aedea31b52bb3d8c5be1">GetProperties</a> () const =0</td></tr>
 <tr class="separator:ae998d631cb46aedea31b52bb3d8c5be1 inherit pub_methods_classActionData"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13086e3badc2918ef7741acf471ac326 inherit pub_methods_classActionData" id="r_a13086e3badc2918ef7741acf471ac326"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActionData.html#a13086e3badc2918ef7741acf471ac326">GetArgumentValue</a> (const std::string &amp;key) const =0</td></tr>
 <tr class="separator:a13086e3badc2918ef7741acf471ac326 inherit pub_methods_classActionData"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -354,11 +394,15 @@ Public Member Functions</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classContentMarkingActionData.html">ContentMarkingActionData</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

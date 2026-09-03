@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -145,7 +185,7 @@ $(function(){initNavTree('protection__profile_8h_source.html',''); initResizable
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#include &quot;<a class="code" href="task__dispatcher__delegate_8h.html">mip/task_dispatcher_delegate.h</a>&quot;</span></div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#include &quot;<a class="code" href="xml__delegate_8h.html">mip/xml_delegate.h</a>&quot;</span></div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>MIP_NAMESPACE_BEGIN</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><a class="code hl_define" href="mip__namespace_8h.html#a39c21aae7cf9012b9b74d8431054e182">MIP_NAMESPACE_BEGIN</a></div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
 <div class="foldopen" id="foldopen00059" data-start="{" data-end="};">
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="classProtectionProfile.html">   59</a></span><span class="keyword">class </span><a class="code hl_class" href="classProtectionProfile.html">ProtectionProfile</a> {</div>
@@ -153,56 +193,56 @@ $(function(){initNavTree('protection__profile_8h_source.html',''); initResizable
 <div class="foldopen" id="foldopen00066" data-start="{" data-end="};">
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="classProtectionProfile_1_1Observer.html">   66</a></span>  <span class="keyword">class </span><a class="code hl_class" href="classProtectionProfile_1_1Observer.html">Observer</a> {</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classProtectionProfile_1_1Observer.html">~Observer</a>() { }</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="classProtectionProfile_1_1Observer.html#ac22acc43df51144d38529753abbcaa40">   69</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="classProtectionProfile_1_1Observer.html#ac22acc43df51144d38529753abbcaa40">~Observer</a>() { }</div>
 <div class="foldopen" id="foldopen00082" data-start="{" data-end="}">
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="classProtectionProfile_1_1Observer.html#a96572cb783e546f44ed2a7b46ae070a9">   82</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classProtectionProfile_1_1Observer.html#a96572cb783e546f44ed2a7b46ae070a9">OnLoadSuccess</a>(</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        <span class="keyword">const</span> std::shared_ptr&lt;ProtectionProfile&gt;&amp; profile,</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { UNUSED(profile); UNUSED(context); }</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(profile); <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(context); }</div>
 </div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
 <div class="foldopen" id="foldopen00096" data-start="{" data-end="}">
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="classProtectionProfile_1_1Observer.html#ae0a17f434b7e9cb2635e4b6b69581df6">   96</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classProtectionProfile_1_1Observer.html#ae0a17f434b7e9cb2635e4b6b69581df6">OnLoadFailure</a>(</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        <span class="keyword">const</span> std::exception_ptr&amp; error,</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { UNUSED(error); UNUSED(context); }</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(error); <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(context); }</div>
 </div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
 <div class="foldopen" id="foldopen00106" data-start="{" data-end="}">
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="classProtectionProfile_1_1Observer.html#a6e1aa87e3f913ff627478158f23fbcc4">  106</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classProtectionProfile_1_1Observer.html#a6e1aa87e3f913ff627478158f23fbcc4">OnListEnginesSuccess</a>(</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; engineIds,</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { UNUSED(engineIds); UNUSED(context); }</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(engineIds); <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(context); }</div>
 </div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
 <div class="foldopen" id="foldopen00116" data-start="{" data-end="}">
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="classProtectionProfile_1_1Observer.html#ae611420a11b066ebd23e19bd4c33bb9f">  116</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classProtectionProfile_1_1Observer.html#ae611420a11b066ebd23e19bd4c33bb9f">OnListEnginesFailure</a>(</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>        <span class="keyword">const</span> std::exception_ptr&amp; error,</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { UNUSED(error); UNUSED(context); }</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(error); <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(context); }</div>
 </div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
 <div class="foldopen" id="foldopen00126" data-start="{" data-end="}">
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="classProtectionProfile_1_1Observer.html#acbc261b06244d06c42c4d27fef2fd073">  126</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classProtectionProfile_1_1Observer.html#acbc261b06244d06c42c4d27fef2fd073">OnAddEngineSuccess</a>(</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        <span class="keyword">const</span> std::shared_ptr&lt;ProtectionEngine&gt;&amp; engine,</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { UNUSED(engine); UNUSED(context); }</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(engine); <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(context); }</div>
 </div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
 <div class="foldopen" id="foldopen00136" data-start="{" data-end="}">
 <div class="line"><a id="l00136" name="l00136"></a><span class="lineno"><a class="line" href="classProtectionProfile_1_1Observer.html#aa5c2e25c230372e1aca19fd06d5537d6">  136</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classProtectionProfile_1_1Observer.html#aa5c2e25c230372e1aca19fd06d5537d6">OnAddEngineFailure</a>(</div>
 <div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>        <span class="keyword">const</span> std::exception_ptr&amp; error,</div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { UNUSED(error); UNUSED(context); }</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(error); <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(context); }</div>
 </div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
 <div class="foldopen" id="foldopen00145" data-start="{" data-end="}">
 <div class="line"><a id="l00145" name="l00145"></a><span class="lineno"><a class="line" href="classProtectionProfile_1_1Observer.html#a7ef8d6a401fd7bded45b0384b721ec58">  145</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classProtectionProfile_1_1Observer.html#a7ef8d6a401fd7bded45b0384b721ec58">OnDeleteEngineSuccess</a>(</div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { UNUSED(context); }</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(context); }</div>
 </div>
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
 <div class="foldopen" id="foldopen00154" data-start="{" data-end="}">
 <div class="line"><a id="l00154" name="l00154"></a><span class="lineno"><a class="line" href="classProtectionProfile_1_1Observer.html#ac307128a052d31c570cf3effcca12936">  154</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classProtectionProfile_1_1Observer.html#ac307128a052d31c570cf3effcca12936">OnDeleteEngineFailure</a>(</div>
 <div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>        <span class="keyword">const</span> std::exception_ptr&amp; error,</div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { UNUSED(error); UNUSED(context); }</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>        <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context) { <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(error); <a class="code hl_define" href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(context); }</div>
 </div>
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span> </div>
 <div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>  <span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>    <a class="code hl_class" href="classProtectionProfile_1_1Observer.html">Observer</a>() { }</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno"><a class="line" href="classProtectionProfile_1_1Observer.html#a021f82035f4497db5a784802e2ff32ec">  160</a></span>    <a class="code hl_function" href="classProtectionProfile_1_1Observer.html#a021f82035f4497db5a784802e2ff32ec">Observer</a>() { }</div>
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>  };</div>
 </div>
 <div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span> </div>
@@ -220,7 +260,7 @@ $(function(){initNavTree('protection__profile_8h_source.html',''); initResizable
 <div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>          <a class="code hl_variable" href="classProtectionProfile_1_1Settings.html#a3114c927476b2cc7f835d92e8b1009cc">mConsentDelegate</a>(consentDelegate),</div>
 <div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>          <a class="code hl_variable" href="classProtectionProfile_1_1Settings.html#aaddff9fea1f074599d77cf997b218e2b">mObserver</a>(observer),</div>
 <div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>          <a class="code hl_variable" href="classProtectionProfile_1_1Settings.html#acf4eaebc562540cb8f4bed030d82bb35">mCanCacheLicenses</a>(true),</div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>#if defined(MIP_OFFLINE_PUBLISHING_ENABLED) || defined(SWIG) || defined(SWIG_DIRECTORS)</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>#if defined(<a class="code hl_define" href="mip__namespace_8h.html#a9965813e2679455dfa68f95120f56a09">MIP_OFFLINE_PUBLISHING_ENABLED</a>) || defined(SWIG) || defined(SWIG_DIRECTORS)</div>
 <div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>          mOfflinePublishing(false),</div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>#endif <span class="comment">// MIP_OFFLINE_PUBLISHING_ENABLED</span></div>
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>          <a class="code hl_variable" href="classProtectionProfile_1_1Settings.html#a8311811e7793a8ca788befb0d2719e89">mDnsRedirection</a>(<a class="code hl_enumeration" href="dns__redirection_8h.html#aedc87df4f0412a0242ba2f903aa88a81">DnsRedirection</a>::<a class="code hl_enumvalue" href="dns__redirection_8h.html#aedc87df4f0412a0242ba2f903aa88a81afa52842fa0347830a7cf991a153ca378">MDEDiscovery</a>) {</div>
@@ -236,7 +276,7 @@ $(function(){initNavTree('protection__profile_8h_source.html',''); initResizable
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>    }</div>
 </div>
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span> </div>
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>    <a class="code hl_class" href="classProtectionProfile_1_1Settings.html">~Settings</a>() { }</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno"><a class="line" href="classProtectionProfile_1_1Settings.html#aeef703afc3b56abc350485f2ea33d463">  208</a></span>    <a class="code hl_function" href="classProtectionProfile_1_1Settings.html#aeef703afc3b56abc350485f2ea33d463">~Settings</a>() { }</div>
 <div class="line"><a id="l00216" name="l00216"></a><span class="lineno"><a class="line" href="classProtectionProfile_1_1Settings.html#a4e8bf56df2a985d1a765a73ace926833">  216</a></span>    <a class="code hl_enumeration" href="common__types_8h.html#a174ba9275624a6880ce3be3fdbaa6c5f">CacheStorageType</a> <a class="code hl_function" href="classProtectionProfile_1_1Settings.html#a4e8bf56df2a985d1a765a73ace926833">GetCacheStorageType</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="classProtectionProfile_1_1Settings.html#a62bf2ff2b2410fa0bc641212add23f04">mCacheStorageType</a>; }</div>
 <div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span> </div>
 <div class="line"><a id="l00223" name="l00223"></a><span class="lineno"><a class="line" href="classProtectionProfile_1_1Settings.html#a31e9d053fffdc3e91e79c8c41a7c6fbd">  223</a></span>    std::shared_ptr&lt;ConsentDelegate&gt; <a class="code hl_function" href="classProtectionProfile_1_1Settings.html#a31e9d053fffdc3e91e79c8c41a7c6fbd">GetConsentDelegate</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="classProtectionProfile_1_1Settings.html#a3114c927476b2cc7f835d92e8b1009cc">mConsentDelegate</a>; }</div>
@@ -352,13 +392,13 @@ $(function(){initNavTree('protection__profile_8h_source.html',''); initResizable
 <div class="line"><a id="l00437" name="l00437"></a><span class="lineno">  437</span>  };</div>
 </div>
 <div class="line"><a id="l00438" name="l00438"></a><span class="lineno">  438</span> </div>
-<div class="line"><a id="l00450" name="l00450"></a><span class="lineno"><a class="line" href="classProtectionProfile.html#a966887bd349935ad246747f981dd6309">  450</a></span>  MIP_API <span class="keyword">static</span> std::shared_ptr&lt;AsyncControl&gt; __CDECL <a class="code hl_function" href="classProtectionProfile.html#a966887bd349935ad246747f981dd6309">LoadAsync</a>(</div>
+<div class="line"><a id="l00450" name="l00450"></a><span class="lineno"><a class="line" href="classProtectionProfile.html#a966887bd349935ad246747f981dd6309">  450</a></span>  <a class="code hl_define" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> <span class="keyword">static</span> std::shared_ptr&lt;AsyncControl&gt; <a class="code hl_define" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> <a class="code hl_function" href="classProtectionProfile.html#a966887bd349935ad246747f981dd6309">LoadAsync</a>(</div>
 <div class="line"><a id="l00451" name="l00451"></a><span class="lineno">  451</span>      <span class="keyword">const</span> <a class="code hl_class" href="classProtectionProfile_1_1Settings.html">Settings</a>&amp; settings,</div>
 <div class="line"><a id="l00452" name="l00452"></a><span class="lineno">  452</span>      <span class="keyword">const</span> std::shared_ptr&lt;void&gt;&amp; context);</div>
 <div class="line"><a id="l00453" name="l00453"></a><span class="lineno">  453</span> </div>
-<div class="line"><a id="l00461" name="l00461"></a><span class="lineno"><a class="line" href="classProtectionProfile.html#a30a0340372888ee106e80da78b2cdea2">  461</a></span>  MIP_API <span class="keyword">static</span> std::shared_ptr&lt;ProtectionProfile&gt; __CDECL <a class="code hl_function" href="classProtectionProfile.html#a30a0340372888ee106e80da78b2cdea2">Load</a>(<span class="keyword">const</span> <a class="code hl_class" href="classProtectionProfile_1_1Settings.html">Settings</a>&amp; settings);</div>
+<div class="line"><a id="l00461" name="l00461"></a><span class="lineno"><a class="line" href="classProtectionProfile.html#a30a0340372888ee106e80da78b2cdea2">  461</a></span>  <a class="code hl_define" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> <span class="keyword">static</span> std::shared_ptr&lt;ProtectionProfile&gt; <a class="code hl_define" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> <a class="code hl_function" href="classProtectionProfile.html#a30a0340372888ee106e80da78b2cdea2">Load</a>(<span class="keyword">const</span> <a class="code hl_class" href="classProtectionProfile_1_1Settings.html">Settings</a>&amp; settings);</div>
 <div class="line"><a id="l00462" name="l00462"></a><span class="lineno">  462</span> </div>
-<div class="line"><a id="l00468" name="l00468"></a><span class="lineno"><a class="line" href="classProtectionProfile.html#a7eb8f00078f34df5b4dbb42eabaafc1c">  468</a></span>  MIP_API <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* __CDECL <a class="code hl_function" href="classProtectionProfile.html#a7eb8f00078f34df5b4dbb42eabaafc1c">GetVersion</a>();</div>
+<div class="line"><a id="l00468" name="l00468"></a><span class="lineno"><a class="line" href="classProtectionProfile.html#a7eb8f00078f34df5b4dbb42eabaafc1c">  468</a></span>  <a class="code hl_define" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_define" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> <a class="code hl_function" href="classProtectionProfile.html#a7eb8f00078f34df5b4dbb42eabaafc1c">GetVersion</a>();</div>
 <div class="line"><a id="l00469" name="l00469"></a><span class="lineno">  469</span> </div>
 <div class="line"><a id="l00475" name="l00475"></a><span class="lineno"><a class="line" href="classProtectionProfile.html#aa2cb7d49dd3eb4d6518695a3431344ab">  475</a></span>  <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code hl_class" href="classProtectionProfile_1_1Settings.html">Settings</a>&amp; <a class="code hl_function" href="classProtectionProfile.html#aa2cb7d49dd3eb4d6518695a3431344ab">GetSettings</a>() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a id="l00476" name="l00476"></a><span class="lineno">  476</span> </div>
@@ -382,27 +422,29 @@ $(function(){initNavTree('protection__profile_8h_source.html',''); initResizable
 <div class="line"><a id="l00549" name="l00549"></a><span class="lineno">  549</span><span class="preprocessor">#if !defined(SWIG) &amp;&amp; !defined(SWIG_DIRECTORS)</span></div>
 <div class="line"><a id="l00550" name="l00550"></a><span class="lineno">  550</span>  [[deprecated(<span class="stringliteral">&quot;ProtectionProfile::GetPublishingLicenseInfo(const std::vector&lt;uint8_t&gt;&amp;) is deprecated, use ProtectionProfile::GetPublishingLicenseInfo(const std::vector&lt;uint8_t&gt;&amp;, const std::shared_ptr&lt;MipContext&gt;&amp;)&quot;</span>)]]</div>
 <div class="line"><a id="l00551" name="l00551"></a><span class="lineno">  551</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00552" name="l00552"></a><span class="lineno"><a class="line" href="classProtectionProfile.html#a291cbc76b091afcf952a8b5653a56a1a">  552</a></span>  MIP_API <span class="keyword">static</span> std::shared_ptr&lt;PublishingLicenseInfo&gt; __CDECL <a class="code hl_function" href="classProtectionProfile.html#a291cbc76b091afcf952a8b5653a56a1a">GetPublishingLicenseInfo</a>(</div>
+<div class="line"><a id="l00552" name="l00552"></a><span class="lineno"><a class="line" href="classProtectionProfile.html#a291cbc76b091afcf952a8b5653a56a1a">  552</a></span>  <a class="code hl_define" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> <span class="keyword">static</span> std::shared_ptr&lt;PublishingLicenseInfo&gt; <a class="code hl_define" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> <a class="code hl_function" href="classProtectionProfile.html#a291cbc76b091afcf952a8b5653a56a1a">GetPublishingLicenseInfo</a>(</div>
 <div class="line"><a id="l00553" name="l00553"></a><span class="lineno">  553</span>      <span class="keyword">const</span> std::vector&lt;uint8_t&gt;&amp; serializedPublishingLicense);</div>
 <div class="line"><a id="l00554" name="l00554"></a><span class="lineno">  554</span><span class="preprocessor">#endif </span><span class="comment">// !MIP_CORE_PACKAGE</span></div>
 <div class="line"><a id="l00555" name="l00555"></a><span class="lineno">  555</span> </div>
-<div class="line"><a id="l00566" name="l00566"></a><span class="lineno"><a class="line" href="classProtectionProfile.html#a2fbd92de48d6961f6cc0c1c97e1125e8">  566</a></span>  MIP_API <span class="keyword">static</span> std::shared_ptr&lt;PublishingLicenseInfo&gt; __CDECL <a class="code hl_function" href="classProtectionProfile.html#a2fbd92de48d6961f6cc0c1c97e1125e8">GetPublishingLicenseInfo</a>(</div>
+<div class="line"><a id="l00566" name="l00566"></a><span class="lineno"><a class="line" href="classProtectionProfile.html#a2fbd92de48d6961f6cc0c1c97e1125e8">  566</a></span>  <a class="code hl_define" href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a> <span class="keyword">static</span> std::shared_ptr&lt;PublishingLicenseInfo&gt; <a class="code hl_define" href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a> <a class="code hl_function" href="classProtectionProfile.html#a2fbd92de48d6961f6cc0c1c97e1125e8">GetPublishingLicenseInfo</a>(</div>
 <div class="line"><a id="l00567" name="l00567"></a><span class="lineno">  567</span>      <span class="keyword">const</span> std::vector&lt;uint8_t&gt;&amp; serializedPublishingLicense,</div>
 <div class="line"><a id="l00568" name="l00568"></a><span class="lineno">  568</span>      <span class="keyword">const</span> std::shared_ptr&lt;MipContext&gt;&amp; mipContext);</div>
 <div class="line"><a id="l00569" name="l00569"></a><span class="lineno">  569</span> </div>
-<div class="line"><a id="l00571" name="l00571"></a><span class="lineno">  571</span>  <span class="keyword">virtual</span> <a class="code hl_class" href="classProtectionProfile.html">~ProtectionProfile</a>() { }</div>
+<div class="line"><a id="l00571" name="l00571"></a><span class="lineno"><a class="line" href="classProtectionProfile.html#ab8c361777790078c4be2be66132d02c2">  571</a></span>  <span class="keyword">virtual</span> <a class="code hl_function" href="classProtectionProfile.html#ab8c361777790078c4be2be66132d02c2">~ProtectionProfile</a>() { }</div>
 <div class="line"><a id="l00573" name="l00573"></a><span class="lineno">  573</span>  };</div>
 </div>
 <div class="line"><a id="l00574" name="l00574"></a><span class="lineno">  574</span> </div>
-<div class="line"><a id="l00575" name="l00575"></a><span class="lineno">  575</span>MIP_NAMESPACE_END</div>
+<div class="line"><a id="l00575" name="l00575"></a><span class="lineno">  575</span><a class="code hl_define" href="mip__namespace_8h.html#ae6c7ae24f07850b87df4bbf55c04d831">MIP_NAMESPACE_END</a></div>
 <div class="line"><a id="l00576" name="l00576"></a><span class="lineno">  576</span> </div>
 <div class="line"><a id="l00577" name="l00577"></a><span class="lineno">  577</span><span class="preprocessor">#endif </span><span class="comment">// API_MIP_PROTECTION_PROTECTION_PROFILE_H_</span></div>
 <div class="ttc" id="aclassProtectionEngine_1_1Settings_html"><div class="ttname"><a href="classProtectionEngine_1_1Settings.html">ProtectionEngine::Settings</a></div><div class="ttdoc">Settings used by ProtectionEngine during its creation and throughout its lifetime.</div><div class="ttdef"><b>Definition</b> protection_engine.h:309</div></div>
 <div class="ttc" id="aclassProtectionProfile_1_1Observer_html"><div class="ttname"><a href="classProtectionProfile_1_1Observer.html">ProtectionProfile::Observer</a></div><div class="ttdoc">Interface that receives notifications related to ProtectionProfile.</div><div class="ttdef"><b>Definition</b> protection_profile.h:66</div></div>
+<div class="ttc" id="aclassProtectionProfile_1_1Observer_html_a021f82035f4497db5a784802e2ff32ec"><div class="ttname"><a href="classProtectionProfile_1_1Observer.html#a021f82035f4497db5a784802e2ff32ec">ProtectionProfile::Observer::Observer</a></div><div class="ttdeci">Observer()</div><div class="ttdef"><b>Definition</b> protection_profile.h:160</div></div>
 <div class="ttc" id="aclassProtectionProfile_1_1Observer_html_a6e1aa87e3f913ff627478158f23fbcc4"><div class="ttname"><a href="classProtectionProfile_1_1Observer.html#a6e1aa87e3f913ff627478158f23fbcc4">ProtectionProfile::Observer::OnListEnginesSuccess</a></div><div class="ttdeci">virtual void OnListEnginesSuccess(const std::vector&lt; std::string &gt; &amp;engineIds, const std::shared_ptr&lt; void &gt; &amp;context)</div><div class="ttdoc">Called when list of engines was generated successfully.</div><div class="ttdef"><b>Definition</b> protection_profile.h:106</div></div>
 <div class="ttc" id="aclassProtectionProfile_1_1Observer_html_a7ef8d6a401fd7bded45b0384b721ec58"><div class="ttname"><a href="classProtectionProfile_1_1Observer.html#a7ef8d6a401fd7bded45b0384b721ec58">ProtectionProfile::Observer::OnDeleteEngineSuccess</a></div><div class="ttdeci">virtual void OnDeleteEngineSuccess(const std::shared_ptr&lt; void &gt; &amp;context)</div><div class="ttdoc">Called when an engine was deleted successfully.</div><div class="ttdef"><b>Definition</b> protection_profile.h:145</div></div>
 <div class="ttc" id="aclassProtectionProfile_1_1Observer_html_a96572cb783e546f44ed2a7b46ae070a9"><div class="ttname"><a href="classProtectionProfile_1_1Observer.html#a96572cb783e546f44ed2a7b46ae070a9">ProtectionProfile::Observer::OnLoadSuccess</a></div><div class="ttdeci">virtual void OnLoadSuccess(const std::shared_ptr&lt; ProtectionProfile &gt; &amp;profile, const std::shared_ptr&lt; void &gt; &amp;context)</div><div class="ttdoc">Called when profile was loaded successfully.</div><div class="ttdef"><b>Definition</b> protection_profile.h:82</div></div>
 <div class="ttc" id="aclassProtectionProfile_1_1Observer_html_aa5c2e25c230372e1aca19fd06d5537d6"><div class="ttname"><a href="classProtectionProfile_1_1Observer.html#aa5c2e25c230372e1aca19fd06d5537d6">ProtectionProfile::Observer::OnAddEngineFailure</a></div><div class="ttdeci">virtual void OnAddEngineFailure(const std::exception_ptr &amp;error, const std::shared_ptr&lt; void &gt; &amp;context)</div><div class="ttdoc">Called when adding a new engine resulted in an error.</div><div class="ttdef"><b>Definition</b> protection_profile.h:136</div></div>
+<div class="ttc" id="aclassProtectionProfile_1_1Observer_html_ac22acc43df51144d38529753abbcaa40"><div class="ttname"><a href="classProtectionProfile_1_1Observer.html#ac22acc43df51144d38529753abbcaa40">ProtectionProfile::Observer::~Observer</a></div><div class="ttdeci">virtual ~Observer()</div><div class="ttdef"><b>Definition</b> protection_profile.h:69</div></div>
 <div class="ttc" id="aclassProtectionProfile_1_1Observer_html_ac307128a052d31c570cf3effcca12936"><div class="ttname"><a href="classProtectionProfile_1_1Observer.html#ac307128a052d31c570cf3effcca12936">ProtectionProfile::Observer::OnDeleteEngineFailure</a></div><div class="ttdeci">virtual void OnDeleteEngineFailure(const std::exception_ptr &amp;error, const std::shared_ptr&lt; void &gt; &amp;context)</div><div class="ttdoc">Called when deleting an engine resulted in an error.</div><div class="ttdef"><b>Definition</b> protection_profile.h:154</div></div>
 <div class="ttc" id="aclassProtectionProfile_1_1Observer_html_acbc261b06244d06c42c4d27fef2fd073"><div class="ttname"><a href="classProtectionProfile_1_1Observer.html#acbc261b06244d06c42c4d27fef2fd073">ProtectionProfile::Observer::OnAddEngineSuccess</a></div><div class="ttdeci">virtual void OnAddEngineSuccess(const std::shared_ptr&lt; ProtectionEngine &gt; &amp;engine, const std::shared_ptr&lt; void &gt; &amp;context)</div><div class="ttdoc">Called when a new engine was added successfully.</div><div class="ttdef"><b>Definition</b> protection_profile.h:126</div></div>
 <div class="ttc" id="aclassProtectionProfile_1_1Observer_html_ae0a17f434b7e9cb2635e4b6b69581df6"><div class="ttname"><a href="classProtectionProfile_1_1Observer.html#ae0a17f434b7e9cb2635e4b6b69581df6">ProtectionProfile::Observer::OnLoadFailure</a></div><div class="ttdeci">virtual void OnLoadFailure(const std::exception_ptr &amp;error, const std::shared_ptr&lt; void &gt; &amp;context)</div><div class="ttdoc">Called when loading a profile caused an error.</div><div class="ttdef"><b>Definition</b> protection_profile.h:96</div></div>
@@ -441,6 +483,7 @@ $(function(){initNavTree('protection__profile_8h_source.html',''); initResizable
 <div class="ttc" id="aclassProtectionProfile_1_1Settings_html_ae0dc2e64acf68bba08b4f0d234d4850d"><div class="ttname"><a href="classProtectionProfile_1_1Settings.html#ae0dc2e64acf68bba08b4f0d234d4850d">ProtectionProfile::Settings::GetDnsRedirection</a></div><div class="ttdeci">DnsRedirection GetDnsRedirection() const</div><div class="ttdoc">Gets the dns redirect mode.</div><div class="ttdef"><b>Definition</b> protection_profile.h:407</div></div>
 <div class="ttc" id="aclassProtectionProfile_1_1Settings_html_ae132a383f10901d522af8a34b7c727e6"><div class="ttname"><a href="classProtectionProfile_1_1Settings.html#ae132a383f10901d522af8a34b7c727e6">ProtectionProfile::Settings::GetLoggerContext</a></div><div class="ttdeci">const std::shared_ptr&lt; void &gt; &amp; GetLoggerContext() const</div><div class="ttdoc">Get logger context that will be opaquely passed to the logger delegate for logs associated with the c...</div><div class="ttdef"><b>Definition</b> protection_profile.h:345</div></div>
 <div class="ttc" id="aclassProtectionProfile_1_1Settings_html_ae33349d3fa2a92ebb937d5eba1e89b88"><div class="ttname"><a href="classProtectionProfile_1_1Settings.html#ae33349d3fa2a92ebb937d5eba1e89b88">ProtectionProfile::Settings::Settings</a></div><div class="ttdeci">Settings(const std::shared_ptr&lt; MipContext &gt; &amp;mipContext, CacheStorageType cacheStorageType, const std::shared_ptr&lt; ConsentDelegate &gt; &amp;consentDelegate)</div><div class="ttdoc">ProtectionProfile::Settings constructor, used for synchronous operations.</div><div class="ttdef"><b>Definition</b> protection_profile.h:200</div></div>
+<div class="ttc" id="aclassProtectionProfile_1_1Settings_html_aeef703afc3b56abc350485f2ea33d463"><div class="ttname"><a href="classProtectionProfile_1_1Settings.html#aeef703afc3b56abc350485f2ea33d463">ProtectionProfile::Settings::~Settings</a></div><div class="ttdeci">~Settings()</div><div class="ttdef"><b>Definition</b> protection_profile.h:208</div></div>
 <div class="ttc" id="aclassProtectionProfile_1_1Settings_html_afa9d4cbecfaf5e167deb38393fe49d42"><div class="ttname"><a href="classProtectionProfile_1_1Settings.html#afa9d4cbecfaf5e167deb38393fe49d42">ProtectionProfile::Settings::SetSessionId</a></div><div class="ttdeci">void SetSessionId(const std::string &amp;sessionId)</div><div class="ttdoc">Sets the session ID.</div><div class="ttdef"><b>Definition</b> protection_profile.h:291</div></div>
 <div class="ttc" id="aclassProtectionProfile_1_1Settings_html_afcafe51e1e810309703004ff925206f3"><div class="ttname"><a href="classProtectionProfile_1_1Settings.html#afcafe51e1e810309703004ff925206f3">ProtectionProfile::Settings::GetSessionId</a></div><div class="ttdeci">const std::string &amp; GetSessionId() const</div><div class="ttdoc">Gets the session ID.</div><div class="ttdef"><b>Definition</b> protection_profile.h:298</div></div>
 <div class="ttc" id="aclassProtectionProfile_1_1Settings_html_afcc54061a3c6d0539e0bd69d878a6d11"><div class="ttname"><a href="classProtectionProfile_1_1Settings.html#afcc54061a3c6d0539e0bd69d878a6d11">ProtectionProfile::Settings::GetStorageDelegate</a></div><div class="ttdeci">std::shared_ptr&lt; StorageDelegate &gt; GetStorageDelegate() const</div><div class="ttdoc">Get the StorageDelegate (if any) provided by the application.</div><div class="ttdef"><b>Definition</b> protection_profile.h:258</div></div>
@@ -456,10 +499,12 @@ $(function(){initNavTree('protection__profile_8h_source.html',''); initResizable
 <div class="ttc" id="aclassProtectionProfile_html_a914dedc3e5965ca885ed8ddd85a5151a"><div class="ttname"><a href="classProtectionProfile.html#a914dedc3e5965ca885ed8ddd85a5151a">ProtectionProfile::ListEnginesAsync</a></div><div class="ttdeci">virtual std::shared_ptr&lt; AsyncControl &gt; ListEnginesAsync(const std::shared_ptr&lt; void &gt; &amp;context)=0</div><div class="ttdoc">Starts list engines operation.</div></div>
 <div class="ttc" id="aclassProtectionProfile_html_a966887bd349935ad246747f981dd6309"><div class="ttname"><a href="classProtectionProfile.html#a966887bd349935ad246747f981dd6309">ProtectionProfile::LoadAsync</a></div><div class="ttdeci">static MIP_API std::shared_ptr&lt; AsyncControl &gt; __CDECL LoadAsync(const Settings &amp;settings, const std::shared_ptr&lt; void &gt; &amp;context)</div><div class="ttdoc">Starts loading a profile based on the provided settings.</div></div>
 <div class="ttc" id="aclassProtectionProfile_html_aa2cb7d49dd3eb4d6518695a3431344ab"><div class="ttname"><a href="classProtectionProfile.html#aa2cb7d49dd3eb4d6518695a3431344ab">ProtectionProfile::GetSettings</a></div><div class="ttdeci">virtual const Settings &amp; GetSettings() const =0</div><div class="ttdoc">Gets settings used by ProtectionProfile during its initialization and throughout its lifetime.</div></div>
+<div class="ttc" id="aclassProtectionProfile_html_ab8c361777790078c4be2be66132d02c2"><div class="ttname"><a href="classProtectionProfile.html#ab8c361777790078c4be2be66132d02c2">ProtectionProfile::~ProtectionProfile</a></div><div class="ttdeci">virtual ~ProtectionProfile()</div><div class="ttdef"><b>Definition</b> protection_profile.h:571</div></div>
 <div class="ttc" id="aclassProtectionProfile_html_aca5880d2f560a0d8cfca1b6b2599ae5c"><div class="ttname"><a href="classProtectionProfile.html#aca5880d2f560a0d8cfca1b6b2599ae5c">ProtectionProfile::AddEngine</a></div><div class="ttdeci">virtual std::shared_ptr&lt; ProtectionEngine &gt; AddEngine(const ProtectionEngine::Settings &amp;settings)=0</div><div class="ttdoc">Add a new protection engine to the profile.</div></div>
 <div class="ttc" id="aclassProtectionProfile_html_ae7bb1adb5d1e7590f2d793ef40705161"><div class="ttname"><a href="classProtectionProfile.html#ae7bb1adb5d1e7590f2d793ef40705161">ProtectionProfile::DeleteEngineAsync</a></div><div class="ttdeci">virtual std::shared_ptr&lt; AsyncControl &gt; DeleteEngineAsync(const std::string &amp;engineId, const std::shared_ptr&lt; void &gt; &amp;context)=0</div><div class="ttdoc">Starts deleting the protection engine with the given ID. All data for the given engine will be delete...</div></div>
 <div class="ttc" id="acommon__types_8h_html"><div class="ttname"><a href="common__types_8h.html">common_types.h</a></div><div class="ttdoc">A file Containing the common types used by the upe, file and protection modules.</div></div>
 <div class="ttc" id="acommon__types_8h_html_a174ba9275624a6880ce3be3fdbaa6c5f"><div class="ttname"><a href="common__types_8h.html#a174ba9275624a6880ce3be3fdbaa6c5f">CacheStorageType</a></div><div class="ttdeci">CacheStorageType</div><div class="ttdoc">Storage type for the caches.</div><div class="ttdef"><b>Definition</b> common_types.h:734</div></div>
+<div class="ttc" id="acommon__types_8h_html_a86d500a34c624c2cae56bc25a31b12f3"><div class="ttname"><a href="common__types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a></div><div class="ttdeci">#define UNUSED(x)</div><div class="ttdef"><b>Definition</b> common_types.h:48</div></div>
 <div class="ttc" id="adns__redirection_8h_html"><div class="ttname"><a href="dns__redirection_8h.html">dns_redirection.h</a></div><div class="ttdoc">A file Containing types used to control dns redirection.</div></div>
 <div class="ttc" id="adns__redirection_8h_html_aedc87df4f0412a0242ba2f903aa88a81"><div class="ttname"><a href="dns__redirection_8h.html#aedc87df4f0412a0242ba2f903aa88a81">DnsRedirection</a></div><div class="ttdeci">DnsRedirection</div><div class="ttdoc">Storage type for the caches.</div><div class="ttdef"><b>Definition</b> dns_redirection.h:43</div></div>
 <div class="ttc" id="adns__redirection_8h_html_aedc87df4f0412a0242ba2f903aa88a81afa52842fa0347830a7cf991a153ca378"><div class="ttname"><a href="dns__redirection_8h.html#aedc87df4f0412a0242ba2f903aa88a81afa52842fa0347830a7cf991a153ca378">DnsRedirection::MDEDiscovery</a></div><div class="ttdeci">@ MDEDiscovery</div></div>
@@ -468,18 +513,27 @@ $(function(){initNavTree('protection__profile_8h_source.html',''); initResizable
 <div class="ttc" id="alogger__delegate_8h_html"><div class="ttname"><a href="logger__delegate_8h.html">logger_delegate.h</a></div><div class="ttdoc">A file containing the LoggerDelegate class to be used to override MIP logger.</div></div>
 <div class="ttc" id="amip__context_8h_html"><div class="ttname"><a href="mip__context_8h.html">mip_context.h</a></div><div class="ttdoc">File containing definition of MipContext.</div></div>
 <div class="ttc" id="amip__export_8h_html"><div class="ttname"><a href="mip__export_8h.html">mip_export.h</a></div><div class="ttdoc">A file export/import macros.</div></div>
+<div class="ttc" id="amip__export_8h_html_a4aaeafc714c9a6b17adf50696e77271d"><div class="ttname"><a href="mip__export_8h.html#a4aaeafc714c9a6b17adf50696e77271d">MIP_API</a></div><div class="ttdeci">#define MIP_API</div><div class="ttdef"><b>Definition</b> mip_export.h:59</div></div>
+<div class="ttc" id="amip__export_8h_html_a7ffa7954cac375e2edfe49771186367d"><div class="ttname"><a href="mip__export_8h.html#a7ffa7954cac375e2edfe49771186367d">__CDECL</a></div><div class="ttdeci">#define __CDECL</div><div class="ttdef"><b>Definition</b> mip_export.h:53</div></div>
 <div class="ttc" id="amip__namespace_8h_html"><div class="ttname"><a href="mip__namespace_8h.html">mip_namespace.h</a></div><div class="ttdoc">MIP namespace macros.</div></div>
+<div class="ttc" id="amip__namespace_8h_html_a39c21aae7cf9012b9b74d8431054e182"><div class="ttname"><a href="mip__namespace_8h.html#a39c21aae7cf9012b9b74d8431054e182">MIP_NAMESPACE_BEGIN</a></div><div class="ttdeci">#define MIP_NAMESPACE_BEGIN</div><div class="ttdef"><b>Definition</b> mip_namespace.h:53</div></div>
+<div class="ttc" id="amip__namespace_8h_html_a9965813e2679455dfa68f95120f56a09"><div class="ttname"><a href="mip__namespace_8h.html#a9965813e2679455dfa68f95120f56a09">MIP_OFFLINE_PUBLISHING_ENABLED</a></div><div class="ttdeci">#define MIP_OFFLINE_PUBLISHING_ENABLED</div><div class="ttdef"><b>Definition</b> mip_namespace.h:66</div></div>
+<div class="ttc" id="amip__namespace_8h_html_ae6c7ae24f07850b87df4bbf55c04d831"><div class="ttname"><a href="mip__namespace_8h.html#ae6c7ae24f07850b87df4bbf55c04d831">MIP_NAMESPACE_END</a></div><div class="ttdeci">#define MIP_NAMESPACE_END</div><div class="ttdef"><b>Definition</b> mip_namespace.h:56</div></div>
 <div class="ttc" id="aprotection__common__types_8h_html"><div class="ttname"><a href="protection__common__types_8h.html">protection_common_types.h</a></div><div class="ttdoc">A file containing the common types used by the protection module.</div></div>
 <div class="ttc" id="aprotection__engine_8h_html"><div class="ttname"><a href="protection__engine_8h.html">protection_engine.h</a></div><div class="ttdoc">Defines ProtectionEngine interface.</div></div>
 <div class="ttc" id="atask__dispatcher__delegate_8h_html"><div class="ttname"><a href="task__dispatcher__delegate_8h.html">task_dispatcher_delegate.h</a></div><div class="ttdoc">A file containing the TaskDispatcherDelegate interface to be used to override MIP async task executor...</div></div>
 <div class="ttc" id="axml__delegate_8h_html"><div class="ttname"><a href="xml__delegate_8h.html">xml_delegate.h</a></div><div class="ttdoc">Contains XmlDelegate interface definition used to parse xml recieved by mip.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ed23b7e0ff82d04a8565e406d9d9df9a.html">mip-sdk-for-cpp</a></li><li class="navelem"><a class="el" href="dir_5a92ca31a1d1cd11ee59a3526a96cc89.html">src</a></li><li class="navelem"><a class="el" href="dir_e50a1d5d74e01fc8d143b32c54f27ce0.html">api</a></li><li class="navelem"><a class="el" href="dir_8430260fe83f04f5d27761956506c721.html">mip</a></li><li class="navelem"><a class="el" href="dir_54063f93cb41cd148245a0f0416acb48.html">protection</a></li><li class="navelem"><a class="el" href="protection__profile_8h.html">protection_profile.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

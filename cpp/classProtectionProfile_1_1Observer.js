@@ -1,5 +1,7 @@
 var classProtectionProfile_1_1Observer =
 [
+    [ "~Observer", "classProtectionProfile_1_1Observer.html#ac22acc43df51144d38529753abbcaa40", null ],
+    [ "Observer", "classProtectionProfile_1_1Observer.html#a021f82035f4497db5a784802e2ff32ec", null ],
     [ "OnAddEngineFailure", "classProtectionProfile_1_1Observer.html#aa5c2e25c230372e1aca19fd06d5537d6", null ],
     [ "OnAddEngineSuccess", "classProtectionProfile_1_1Observer.html#acbc261b06244d06c42c4d27fef2fd073", null ],
     [ "OnDeleteEngineFailure", "classProtectionProfile_1_1Observer.html#ac307128a052d31c570cf3effcca12936", null ],

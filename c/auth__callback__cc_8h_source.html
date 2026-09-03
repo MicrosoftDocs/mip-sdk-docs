@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -144,7 +184,7 @@ $(function(){initNavTree('auth__callback__cc_8h_source.html',''); initResizable(
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>} <a class="code hl_struct" href="structmip__cc__oauth2__challenge.html">mip_cc_oauth2_challenge</a>;</div>
 </div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="auth__callback__cc_8h.html#a3dbaf87ab925e9fae5ba2a2317a473b9">   65</a></span><a class="code hl_function" href="auth__callback__cc_8h.html#a3dbaf87ab925e9fae5ba2a2317a473b9">MIP_CC_CALLBACK</a>(mip_cc_auth_callback <span class="comment">/*typename*/</span>,</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="auth__callback__cc_8h.html#a3dbaf87ab925e9fae5ba2a2317a473b9">   65</a></span><a class="code hl_define" href="mip__macros__cc_8h.html#a50d0114b7451ebe55f26f65b42e45962">MIP_CC_CALLBACK</a>(mip_cc_auth_callback <span class="comment">/*typename*/</span>,</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">bool</span> <span class="comment">/*return*/</span>,</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structmip__cc__identity.html">mip_cc_identity</a>* <span class="comment">/*identity*/</span>,</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structmip__cc__oauth2__challenge.html">mip_cc_oauth2_challenge</a>* <span class="comment">/*challenge*/</span>,</div>
@@ -154,9 +194,9 @@ $(function(){initNavTree('auth__callback__cc_8h_source.html',''); initResizable(
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    int64_t* <span class="comment">/*actualTokenSize*/</span>);</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="preprocessor">#endif </span><span class="comment">// API_MIP_AUTH_CALLBACK_CC_H_</span></div>
-<div class="ttc" id="aauth__callback__cc_8h_html_a3dbaf87ab925e9fae5ba2a2317a473b9"><div class="ttname"><a href="auth__callback__cc_8h.html#a3dbaf87ab925e9fae5ba2a2317a473b9">MIP_CC_CALLBACK</a></div><div class="ttdeci">MIP_CC_CALLBACK(mip_cc_auth_callback, bool, const mip_cc_identity *, const mip_cc_oauth2_challenge *, const void *, uint8_t *, const int64_t, int64_t *)</div><div class="ttdoc">callback function definition for acquiring OAuth2 token</div></div>
 <div class="ttc" id="aidentity__cc_8h_html"><div class="ttname"><a href="identity__cc_8h.html">identity_cc.h</a></div><div class="ttdoc">Identity definition.</div></div>
 <div class="ttc" id="amip__macros__cc_8h_html"><div class="ttname"><a href="mip__macros__cc_8h.html">mip_macros_cc.h</a></div><div class="ttdoc">Export/import and other macros for C API.</div></div>
+<div class="ttc" id="amip__macros__cc_8h_html_a50d0114b7451ebe55f26f65b42e45962"><div class="ttname"><a href="mip__macros__cc_8h.html#a50d0114b7451ebe55f26f65b42e45962">MIP_CC_CALLBACK</a></div><div class="ttdeci">#define MIP_CC_CALLBACK(TName, TRet,...)</div><div class="ttdef"><b>Definition</b> mip_macros_cc.h:58</div></div>
 <div class="ttc" id="astructmip__cc__identity_html"><div class="ttname"><a href="structmip__cc__identity.html">mip_cc_identity</a></div><div class="ttdoc">A struct that contains user identification info.</div><div class="ttdef"><b>Definition</b> identity_cc.h:42</div></div>
 <div class="ttc" id="astructmip__cc__oauth2__challenge_html"><div class="ttname"><a href="structmip__cc__oauth2__challenge.html">mip_cc_oauth2_challenge</a></div><div class="ttdoc">Information provided by a server to generate an OAuth2 token.</div><div class="ttdef"><b>Definition</b> auth_callback_cc.h:46</div></div>
 <div class="ttc" id="astructmip__cc__oauth2__challenge_html_a48e4c5cd3414a3e49efefee3936d7828"><div class="ttname"><a href="structmip__cc__oauth2__challenge.html#a48e4c5cd3414a3e49efefee3936d7828">mip_cc_oauth2_challenge::resource</a></div><div class="ttdeci">const char * resource</div><div class="ttdef"><b>Definition</b> auth_callback_cc.h:48</div></div>
@@ -164,11 +204,15 @@ $(function(){initNavTree('auth__callback__cc_8h_source.html',''); initResizable(
 <div class="ttc" id="astructmip__cc__oauth2__challenge_html_aae1b726b646a84f69107009984fab9a2"><div class="ttname"><a href="structmip__cc__oauth2__challenge.html#aae1b726b646a84f69107009984fab9a2">mip_cc_oauth2_challenge::authority</a></div><div class="ttdeci">const char * authority</div><div class="ttdef"><b>Definition</b> auth_callback_cc.h:47</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ed23b7e0ff82d04a8565e406d9d9df9a.html">mip-sdk-for-cpp</a></li><li class="navelem"><a class="el" href="dir_5a92ca31a1d1cd11ee59a3526a96cc89.html">src</a></li><li class="navelem"><a class="el" href="dir_e50a1d5d74e01fc8d143b32c54f27ce0.html">api</a></li><li class="navelem"><a class="el" href="dir_c3e04355e45d1ded316250c59adeda59.html">mip_cc</a></li><li class="navelem"><a class="el" href="auth__callback__cc_8h.html">auth_callback_cc.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

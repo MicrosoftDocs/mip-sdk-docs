@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -182,12 +222,12 @@ $(function(){initNavTree('http__delegate__cc_8h_source.html',''); initResizable(
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>} <a class="code hl_struct" href="structmip__cc__http__response.html">mip_cc_http_response</a>;</div>
 </div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="http__delegate__cc_8h.html#ad9f29dde6edf17960f3e9d92d4b61fab">  100</a></span><a class="code hl_function" href="http__delegate__cc_8h.html#ad9f29dde6edf17960f3e9d92d4b61fab">MIP_CC_CALLBACK</a>(mip_cc_http_send_callback_fn <span class="comment">/*typename*/</span>,</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="http__delegate__cc_8h.html#ad9f29dde6edf17960f3e9d92d4b61fab">  100</a></span><a class="code hl_define" href="mip__macros__cc_8h.html#a50d0114b7451ebe55f26f65b42e45962">MIP_CC_CALLBACK</a>(mip_cc_http_send_callback_fn <span class="comment">/*typename*/</span>,</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keywordtype">void</span> <span class="comment">/*return*/</span>,</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structmip__cc__http__request.html">mip_cc_http_request</a>* <span class="comment">/*request*/</span>,</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keyword">const</span> <span class="keywordtype">void</span>* <span class="comment">/*context*/</span>);</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="http__delegate__cc_8h.html#a1acad17e9fb06df9580cf6832fcebc8e">  110</a></span><a class="code hl_function" href="http__delegate__cc_8h.html#ad9f29dde6edf17960f3e9d92d4b61fab">MIP_CC_CALLBACK</a>(mip_cc_http_cancel_callback_fn <span class="comment">/*typename*/</span>,</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="http__delegate__cc_8h.html#a1acad17e9fb06df9580cf6832fcebc8e">  110</a></span><a class="code hl_define" href="mip__macros__cc_8h.html#a50d0114b7451ebe55f26f65b42e45962">MIP_CC_CALLBACK</a>(mip_cc_http_cancel_callback_fn <span class="comment">/*typename*/</span>,</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordtype">void</span> <span class="comment">/*return*/</span>,</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* <span class="comment">/*requestId*/</span>);</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
@@ -223,9 +263,9 @@ $(function(){initNavTree('http__delegate__cc_8h_source.html',''); initResizable(
 <div class="ttc" id="ahttp__delegate__cc_8h_html_ad7e3238044453d0cafc68f2605295817"><div class="ttname"><a href="http__delegate__cc_8h.html#ad7e3238044453d0cafc68f2605295817">mip_cc_http_result</a></div><div class="ttdeci">mip_cc_http_result</div><div class="ttdoc">Success/failure state of the HTTP operation.</div><div class="ttdef"><b>Definition</b> http_delegate_cc.h:56</div></div>
 <div class="ttc" id="ahttp__delegate__cc_8h_html_ad7e3238044453d0cafc68f2605295817a31c05a9f80b4498ab002880bbd6f5a33"><div class="ttname"><a href="http__delegate__cc_8h.html#ad7e3238044453d0cafc68f2605295817a31c05a9f80b4498ab002880bbd6f5a33">HTTP_RESULT_FAILURE</a></div><div class="ttdeci">@ HTTP_RESULT_FAILURE</div><div class="ttdef"><b>Definition</b> http_delegate_cc.h:58</div></div>
 <div class="ttc" id="ahttp__delegate__cc_8h_html_ad7e3238044453d0cafc68f2605295817a4ddd744a1753bcdc3bee29f088f5e650"><div class="ttname"><a href="http__delegate__cc_8h.html#ad7e3238044453d0cafc68f2605295817a4ddd744a1753bcdc3bee29f088f5e650">HTTP_RESULT_OK</a></div><div class="ttdeci">@ HTTP_RESULT_OK</div><div class="ttdef"><b>Definition</b> http_delegate_cc.h:57</div></div>
-<div class="ttc" id="ahttp__delegate__cc_8h_html_ad9f29dde6edf17960f3e9d92d4b61fab"><div class="ttname"><a href="http__delegate__cc_8h.html#ad9f29dde6edf17960f3e9d92d4b61fab">MIP_CC_CALLBACK</a></div><div class="ttdeci">MIP_CC_CALLBACK(mip_cc_http_send_callback_fn, void, const mip_cc_http_request *, const void *)</div><div class="ttdoc">Callback function definition for issuing an HTTP request.</div></div>
 <div class="ttc" id="ahttp__delegate__cc_8h_html_adb2f5eca1e03beb7ba50f9b47213ccd5"><div class="ttname"><a href="http__delegate__cc_8h.html#adb2f5eca1e03beb7ba50f9b47213ccd5">MIP_CC_API</a></div><div class="ttdeci">MIP_CC_API(void) MIP_CC_NotifyHttpDelegateResponse(const mip_cc_http_delegate httpDelegate</div><div class="ttdoc">Notifies an HTTP delegate that an HTTP response is ready.</div></div>
 <div class="ttc" id="amip__macros__cc_8h_html"><div class="ttname"><a href="mip__macros__cc_8h.html">mip_macros_cc.h</a></div><div class="ttdoc">Export/import and other macros for C API.</div></div>
+<div class="ttc" id="amip__macros__cc_8h_html_a50d0114b7451ebe55f26f65b42e45962"><div class="ttname"><a href="mip__macros__cc_8h.html#a50d0114b7451ebe55f26f65b42e45962">MIP_CC_CALLBACK</a></div><div class="ttdeci">#define MIP_CC_CALLBACK(TName, TRet,...)</div><div class="ttdef"><b>Definition</b> mip_macros_cc.h:58</div></div>
 <div class="ttc" id="aresult__cc_8h_html"><div class="ttname"><a href="result__cc_8h.html">result_cc.h</a></div><div class="ttdoc">Defines success/error result codes.</div></div>
 <div class="ttc" id="aresult__cc_8h_html_a41250f3f2089aef86aa6da4e3a585535"><div class="ttname"><a href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a></div><div class="ttdeci">mip_cc_result</div><div class="ttdoc">API success/failure result.</div><div class="ttdef"><b>Definition</b> result_cc.h:44</div></div>
 <div class="ttc" id="astructmip__cc__error_html"><div class="ttname"><a href="structmip__cc__error.html">mip_cc_error</a></div><div class="ttdoc">Error information.</div><div class="ttdef"><b>Definition</b> error_cc.h:93</div></div>
@@ -250,11 +290,15 @@ $(function(){initNavTree('http__delegate__cc_8h_source.html',''); initResizable(
 <div class="ttc" id="astructmip__cc__http__response_html_af75a5f9f69d70acb38654fc01c245dc9"><div class="ttname"><a href="structmip__cc__http__response.html#af75a5f9f69d70acb38654fc01c245dc9">mip_cc_http_response::body</a></div><div class="ttdeci">const uint8_t * body</div><div class="ttdef"><b>Definition</b> http_delegate_cc.h:89</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ed23b7e0ff82d04a8565e406d9d9df9a.html">mip-sdk-for-cpp</a></li><li class="navelem"><a class="el" href="dir_5a92ca31a1d1cd11ee59a3526a96cc89.html">src</a></li><li class="navelem"><a class="el" href="dir_e50a1d5d74e01fc8d143b32c54f27ce0.html">api</a></li><li class="navelem"><a class="el" href="dir_c3e04355e45d1ded316250c59adeda59.html">mip_cc</a></li><li class="navelem"><a class="el" href="http__delegate__cc_8h.html">http_delegate_cc.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

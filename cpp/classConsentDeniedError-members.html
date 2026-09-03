@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -104,26 +144,35 @@ $(function(){initNavTree('classConsentDeniedError.html',''); initResizable(true)
 <p>This is the complete list of members for <a class="el" href="classConsentDeniedError.html">ConsentDeniedError</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classError.html#a1e9379501df2d1e8315d373cf79949f2">AddDebugInfo</a>(const std::string &amp;key, const std::string &amp;value, bool sensitive=false)</td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classError.html#a34ab84a92eb2a61d10bb2a1720640eb5">Clone</a>() const =0</td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classConsentDeniedError.html#a2ab690dda09436763eb1facaf817f1d9">Clone</a>() const override</td><td class="entry"><a class="el" href="classConsentDeniedError.html">ConsentDeniedError</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classConsentDeniedError.html#a213d2177c1bc050f3d71c1d22d3e9be5">ConsentDeniedError</a>(const std::string &amp;message, const std::string &amp;name=&quot;ConsentDeniedError&quot;)</td><td class="entry"><a class="el" href="classConsentDeniedError.html">ConsentDeniedError</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classConsentDeniedError.html#a83e35cb27ca25edf25e54974b65a8e55">ConsentDeniedError</a>(const std::string &amp;message, const std::map&lt; std::string, std::string &gt; &amp;debugInfo, const std::map&lt; std::string, std::string &gt; sensitiveDebugInfo, const std::string &amp;name=&quot;ConsentDeniedError&quot;)</td><td class="entry"><a class="el" href="classConsentDeniedError.html">ConsentDeniedError</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classError.html#aa76e555fb5bcfb69dc804f51fa01ad34">CreateFormattedMessage</a>(const std::string &amp;message) const</td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classError.html#a351db1368934ee2ce8c47a21cb943688">Error</a>(const std::string &amp;message, const std::string &amp;name, ErrorType type)</td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classError.html#a64dc9e9afa15520f9695dc01a20c89b3">Error</a>(const std::string &amp;message, const std::map&lt; std::string, std::string &gt; debugInfo, const std::map&lt; std::string, std::string &gt; sensitiveDebugInfo, const std::string &amp;name, ErrorType type)</td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">protected</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classError.html#af00e4c79dbf6834b319b068a2d94ae36">GetDebugInfo</a>() const</td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classError.html#a27297bdd7abc0571413a249ed4d1f447">GetErrorName</a>() const</td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classError.html#ac4be6cb0be956902a56477a95d41b960">GetErrorType</a>() const</td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classError.html#a126830db2540cb5d75971e196603b8a1">GetMessage</a>(bool maskPII=false) const</td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classError.html#a0c79a90c3d7a10bad9812f51ba615486">mDebugInfo</a></td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classError.html#a0c79a90c3d7a10bad9812f51ba615486">mDebugInfo</a></td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classError.html#ae2e20e84e05f13e9a5b67f8b16fd5c38">mFormattedMessage</a></td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classError.html#aa6b87fa2e501856f7a39e763eebcbe39">mMaskedMessage</a></td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classError.html#af31bc6356d7c45845280a5481917bee7">mMessage</a></td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classError.html#abc98b444b9adbfd6dc8ba5e96db54b37">mName</a></td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classError.html#ae4af72b4dc19622d365cb1faaeae9385">mType</a></td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classError.html#af31bc6356d7c45845280a5481917bee7">mMessage</a></td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classError.html#abc98b444b9adbfd6dc8ba5e96db54b37">mName</a></td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classError.html#ae4af72b4dc19622d365cb1faaeae9385">mType</a></td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classError.html#afa3a5efa4e38f33ee27b008714149daf">SetMessage</a>(const std::string &amp;msg)</td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classError.html#a6b5d1714f27d38ba999e5cba27014397">what</a>() const noexcept override</td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classError.html#aadd4b7cb712e1322ec3da4a4d9af6460">~Error</a>()</td><td class="entry"><a class="el" href="classError.html">Error</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

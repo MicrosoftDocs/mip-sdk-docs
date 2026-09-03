@@ -34,6 +34,7 @@ var hierarchy =
     [ "ArgumentData", "classArgumentData.html", null ],
     [ "AsyncControl", "classAsyncControl.html", null ],
     [ "AuthDelegate", "classAuthDelegate.html", null ],
+    [ "CaseInsensitiveComparator", "classCaseInsensitiveComparator.html", null ],
     [ "ClassificationData", "classClassificationData.html", [
       [ "SensitiveTypeClassificationData", "classSensitiveTypeClassificationData.html", null ]
     ] ],
@@ -48,6 +49,9 @@ var hierarchy =
     ] ],
     [ "ConsentDelegate", "classConsentDelegate.html", null ],
     [ "ContentLabel", "classContentLabel.html", null ],
+    [ "DelegateResponseBase", "classDelegateResponseBase.html", [
+      [ "DelegateResponse< T >", "classDelegateResponse.html", null ]
+    ] ],
     [ "DelegationLicense", "classDelegationLicense.html", null ],
     [ "DetailedClassificationResult", "classDetailedClassificationResult.html", null ],
     [ "DiagnosticConfiguration", "structDiagnosticConfiguration.html", null ],
@@ -108,6 +112,7 @@ var hierarchy =
     ] ],
     [ "ExecutionState", "classExecutionState.html", null ],
     [ "ExtendedErrorInfo", "structExtendedErrorInfo.html", null ],
+    [ "FileEngine", "classFileEngine.html", null ],
     [ "FileExecutionState", "classFileExecutionState.html", null ],
     [ "FileHandler", "classFileHandler.html", null ],
     [ "FileInspector", "classFileInspector.html", [
@@ -145,13 +150,16 @@ var hierarchy =
     [ "AuthDelegate::OAuth2Token", "classAuthDelegate_1_1OAuth2Token.html", null ],
     [ "FileHandler::Observer", "classFileHandler_1_1Observer.html", null ],
     [ "FileProfile::Observer", "classFileProfile_1_1Observer.html", null ],
+    [ "PolicyProfile::Observer", "classPolicyProfile_1_1Observer.html", null ],
     [ "ProtectionEngine::Observer", "classProtectionEngine_1_1Observer.html", null ],
     [ "ProtectionHandler::Observer", "classProtectionHandler_1_1Observer.html", null ],
     [ "ProtectionProfile::Observer", "classProtectionProfile_1_1Observer.html", null ],
     [ "ParsedPublishingLicense", "classParsedPublishingLicense.html", null ],
     [ "ParsedPublishingLicenseBuilder", "classParsedPublishingLicenseBuilder.html", null ],
+    [ "PolicyEngine", "classPolicyEngine.html", null ],
     [ "PolicyHandler", "classPolicyHandler.html", null ],
     [ "PolicyPackageData", "classPolicyPackageData.html", null ],
+    [ "PolicyProfile", "classPolicyProfile.html", null ],
     [ "PolicyRuleData", "classPolicyRuleData.html", null ],
     [ "PropertyData", "classPropertyData.html", null ],
     [ "ProtectionCommonSettings", "classProtectionCommonSettings.html", [
@@ -172,7 +180,10 @@ var hierarchy =
     [ "SensitivityTypesRulePackage", "classSensitivityTypesRulePackage.html", null ],
     [ "ServiceInfo", "classServiceInfo.html", null ],
     [ "ComputeEngine::Settings", "classComputeEngine_1_1Settings.html", null ],
+    [ "FileEngine::Settings", "classFileEngine_1_1Settings.html", null ],
     [ "FileProfile::Settings", "classFileProfile_1_1Settings.html", null ],
+    [ "PolicyEngine::Settings", "classPolicyEngine_1_1Settings.html", null ],
+    [ "PolicyProfile::Settings", "classPolicyProfile_1_1Settings.html", null ],
     [ "ProtectionEngine::Settings", "classProtectionEngine_1_1Settings.html", null ],
     [ "ProtectionProfile::Settings", "classProtectionProfile_1_1Settings.html", null ],
     [ "StorageDelegate", "classStorageDelegate.html", null ],

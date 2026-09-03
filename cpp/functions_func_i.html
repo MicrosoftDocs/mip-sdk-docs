@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -102,9 +142,12 @@ $(function(){initNavTree('functions_func_i.html',''); initResizable(true); });
 <h3><a id="index_i" name="index_i"></a>- i -</h3><ul>
 <li>Identity()&#160;:&#160;<a class="el" href="classIdentity.html#a160593ab7066d1ce0677a75bd4263d2f">Identity</a></li>
 <li>Init()&#160;:&#160;<a class="el" href="classLoggerDelegate.html#a9e9228267e042f33ce132eef6e490c27">LoggerDelegate</a></li>
+<li>InitializeCloudDiscoveryStores()&#160;:&#160;<a class="el" href="classMipContext.html#a303abc39e5f448fc985270dd8596764d">MipContext</a></li>
 <li>Insert()&#160;:&#160;<a class="el" href="classEditableStream.html#a12deeb0697f83c5d007cb13603667847">EditableStream</a>, <a class="el" href="classStorageTable.html#a6d345af61ddb3be20cebe93529f13093">StorageTable</a></li>
 <li>InsertOrReplace()&#160;:&#160;<a class="el" href="classStorageTable.html#ab2580b21903a6f8ea13416168fe04595">StorageTable</a></li>
 <li>InspectAsync()&#160;:&#160;<a class="el" href="classFileHandler.html#a779d55c1ae8bf1dcc68db30ff24e8023">FileHandler</a></li>
+<li>InsufficientBufferError()&#160;:&#160;<a class="el" href="classInsufficientBufferError.html#a67614cca6f99e7127095d987a146a767">InsufficientBufferError</a></li>
+<li>InternalError()&#160;:&#160;<a class="el" href="classInternalError.html#ae6e8a69b324128ffd22fd322fde3068c">InternalError</a></li>
 <li>IsActive()&#160;:&#160;<a class="el" href="classLabel.html#ae5449beae83fd0c0cd6fd87fc76dc712">Label</a></li>
 <li>IsArray()&#160;:&#160;<a class="el" href="classJsonValue.html#a60211ac5784c0d02a91250e237039dc6">JsonValue</a></li>
 <li>IsAuditedExtractAllowed()&#160;:&#160;<a class="el" href="classProtectionHandler.html#a0674d9b199968bc9e39aa9b78dfd73df">ProtectionHandler</a></li>
@@ -114,12 +157,14 @@ $(function(){initNavTree('functions_func_i.html',''); initResizable(true); });
 <li>IsClassificationDiscovered()&#160;:&#160;<a class="el" href="classSensitivityConditionData.html#ae3acee622b187c2a31d8a98c3bc781c8">SensitivityConditionData</a></li>
 <li>IsCoauthEnabled()&#160;:&#160;<a class="el" href="classLabelGroupData.html#a2a6abda639c23d76dd82250f740f8b82">LabelGroupData</a></li>
 <li>IsCompatibleVersion()&#160;:&#160;<a class="el" href="classPolicyRuleData.html#ae09dbdd79d1f974145c3522f40fa1259">PolicyRuleData</a></li>
+<li>IsCorrupt()&#160;:&#160;<a class="el" href="classFileHandler.html#a68f56a4e7a7749cf232231b98e4723a1">FileHandler</a></li>
 <li>IsDoubleKey()&#160;:&#160;<a class="el" href="classProtectByTemplateAction.html#a8c619e50487616ea3853f5f9b06019e3">ProtectByTemplateAction</a></li>
-<li>IsDowngradeJustificationRequired()&#160;:&#160;<a class="el" href="classComputeEngine.html#a09231ca092550485da9e1c9387d4e97a">ComputeEngine</a>, <a class="el" href="classLabelGroupData.html#a0604128d0e3db81f7761d98dfd50f4b5">LabelGroupData</a></li>
+<li>IsDowngradeJustificationRequired()&#160;:&#160;<a class="el" href="classComputeEngine.html#a09231ca092550485da9e1c9387d4e97a">ComputeEngine</a>, <a class="el" href="classLabelGroupData.html#a0604128d0e3db81f7761d98dfd50f4b5">LabelGroupData</a>, <a class="el" href="classPolicyEngine.html#a80475a6cffb18f5b293a9d8ce8242ff1">PolicyEngine</a></li>
 <li>IsDowngradeJustified()&#160;:&#160;<a class="el" href="classApplicationActionState.html#a0acf2af84c46ec8ff1485a517ce0bfee">ApplicationActionState</a>, <a class="el" href="classExecutionState.html#a37dbacb1c6560328d9ddcf2f9ac9c97c">ExecutionState</a>, <a class="el" href="classLabelingOptions.html#a25e3c9f2ad822980d1de7044bd896a00">LabelingOptions</a></li>
 <li>IsEmptyElement()&#160;:&#160;<a class="el" href="classxml_1_1XmlReader.html#ae29d73cdcfa01fda77977a739fce2d87">xml::XmlReader</a></li>
 <li>IsEnabled()&#160;:&#160;<a class="el" href="classLabelGroupData.html#ab3aae7f9f4b042aa46d585c34d5ee268">LabelGroupData</a></li>
 <li>IsEnhancedClassificationEnabled()&#160;:&#160;<a class="el" href="classComputeEngine.html#a02fab1ea7f22628978d93f1497be4c27">ComputeEngine</a>, <a class="el" href="classLabelGroupData.html#af22c6acee284f412dc144674e83d34ba">LabelGroupData</a></li>
+<li>IsEqual()&#160;:&#160;<a class="el" href="classAction.html#a5fc815124c23168c8e02b331090c0fec">Action</a></li>
 <li>IsFeatureEnabled()&#160;:&#160;<a class="el" href="classMipContext.html#a68aa1411deb7e2e893db73731a55a4f1">MipContext</a></li>
 <li>IsFeatureSupported()&#160;:&#160;<a class="el" href="classProtectionEngine.html#ab4cdcc32d201b3e3364b3fce031d175d">ProtectionEngine</a></li>
 <li>IsInMemoryStorageSupported()&#160;:&#160;<a class="el" href="classStorageDelegate_1_1StorageSettings.html#a26bb363f68ffeb8710dd2110fed9f758">StorageDelegate::StorageSettings</a></li>
@@ -127,8 +172,9 @@ $(function(){initNavTree('functions_func_i.html',''); initResizable(true); });
 <li>IsIssuedToOwner()&#160;:&#160;<a class="el" href="classProtectionHandler.html#a0b60c7e5b546c976ad142766a6fb1715">ProtectionHandler</a></li>
 <li>IsLabeled()&#160;:&#160;<a class="el" href="classFileStatus.html#af17bc3b0916df146783c88f39333ebfb">FileStatus</a>, <a class="el" href="classPolicyHandler.html#a8090b72f173c4c3e389c987b35615e6a">PolicyHandler</a></li>
 <li>IsLabeledOrProtected()&#160;:&#160;<a class="el" href="classFileHandler.html#a97450b3c858ebefa39448dac11d73839">FileHandler</a></li>
-<li>IsLabelingRequired()&#160;:&#160;<a class="el" href="classComputeEngine.html#a08bae1574059db725887e7de621315c2">ComputeEngine</a></li>
+<li>IsLabelingRequired()&#160;:&#160;<a class="el" href="classComputeEngine.html#a08bae1574059db725887e7de621315c2">ComputeEngine</a>, <a class="el" href="classFileEngine.html#a3cb07500fe71267451faa132ec6eb329">FileEngine</a>, <a class="el" href="classPolicyEngine.html#a86a5814ae492062e8c86742484da20ab">PolicyEngine</a></li>
 <li>IsLicenseParsed()&#160;:&#160;<a class="el" href="classPublishingLicenseInfo.html#a2226f490766dc341dff4b9e16e2074cc">PublishingLicenseInfo</a></li>
+<li>IsLoadSensitivityTypesEnabled()&#160;:&#160;<a class="el" href="classFileEngine_1_1Settings.html#a7df431c8ca38957a182b6cac40d83ab7">FileEngine::Settings</a>, <a class="el" href="classPolicyEngine_1_1Settings.html#a6b222cddeaf5ebe7a6b2b56af103d7b3">PolicyEngine::Settings</a></li>
 <li>IsMandatory()&#160;:&#160;<a class="el" href="classLabelGroupData.html#a371efdcdfb163da0019c1d45d508ec28">LabelGroupData</a></li>
 <li>IsModified()&#160;:&#160;<a class="el" href="classFileHandler.html#af188d8ad574b19a2e6ea660c154b3429">FileHandler</a></li>
 <li>IsNull()&#160;:&#160;<a class="el" href="classxml_1_1XmlNode.html#ad783efa7445ce91d02ba9e3ba46ac2e0">xml::XmlNode</a></li>
@@ -137,8 +183,10 @@ $(function(){initNavTree('functions_func_i.html',''); initResizable(true); });
 <li>IsOffline()&#160;:&#160;<a class="el" href="classCloudDiscoveryDelegate.html#a1d897ece9e2fe78296635aa5cd15f7be">CloudDiscoveryDelegate</a></li>
 <li>IsOfflineOnly()&#160;:&#160;<a class="el" href="classMipContext.html#abad9571c2400256b801a7ba10cded377">MipContext</a></li>
 <li>isOfflineOnly()&#160;:&#160;<a class="el" href="classMipConfiguration.html#a08888a40c70ba076d1a4ad062641ffb4">MipConfiguration</a></li>
+<li>IsPFileEnabled()&#160;:&#160;<a class="el" href="classFileEngine_1_1Settings.html#a2720016a92ea18a4b069de13ae49f595">FileEngine::Settings</a></li>
 <li>IsProtected()&#160;:&#160;<a class="el" href="classFileHandler.html#a3237d2ea3ff4814a8c0dd0cd917b1926">FileHandler</a>, <a class="el" href="classFileStatus.html#a3e424f7d7398607dd5ca709b9d8eef44">FileStatus</a></li>
 <li>IsProtectionAppliedFromLabel()&#160;:&#160;<a class="el" href="classContentLabel.html#a04e83a0639ff80ca939aeff57dbdd2e9">ContentLabel</a></li>
+<li>IsProtectionOnlyEngine()&#160;:&#160;<a class="el" href="classFileEngine_1_1Settings.html#af7bf983d98f23bcfbc50c9df05fce6da">FileEngine::Settings</a></li>
 <li>IsPublishingFormatJson()&#160;:&#160;<a class="el" href="classProtectionHandler_1_1PublishingSettings.html#ae896597837cd3c1a7d86fa95628fb4f2">ProtectionHandler::PublishingSettings</a></li>
 <li>IsRecommendationEnabled()&#160;:&#160;<a class="el" href="classApplicationActionState.html#a9760298535518d93374b40d528e07f9c">ApplicationActionState</a></li>
 <li>IsRemoteStorage()&#160;:&#160;<a class="el" href="classStorageDelegate_1_1StorageSettings.html#ab4c81111d073584d870049cf302f3293">StorageDelegate::StorageSettings</a></li>
@@ -150,10 +198,14 @@ $(function(){initNavTree('functions_func_i.html',''); initResizable(true); });
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

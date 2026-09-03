@@ -1,25 +1,9 @@
 var searchData=
 [
-  ['_7eactiondata_0',['~ActionData',['../classActionData.html#ad26f0ce70e0e397572dce0c87af1665a',1,'ActionData']]],
-  ['_7eadddynamicwatermarkactiondata_1',['~AddDynamicWatermarkActionData',['../classAddDynamicWatermarkActionData.html#a796cc273c540d3f5d96bf913c1cf6776',1,'AddDynamicWatermarkActionData']]],
-  ['_7eaddwatermarkactiondata_2',['~AddWatermarkActionData',['../classAddWatermarkActionData.html#a54f1796687094f5a043eb6faf14c0a01',1,'AddWatermarkActionData']]],
-  ['_7eargumentdata_3',['~ArgumentData',['../classArgumentData.html#a72af8e74dc968221f66df2112b3d8a79',1,'ArgumentData']]],
-  ['_7eclassificationdata_4',['~ClassificationData',['../classClassificationData.html#a6e8114d0e22b9973a65470503739f5d5',1,'ClassificationData']]],
-  ['_7ecomputeengine_5',['~ComputeEngine',['../classComputeEngine.html#ac14aaf858b026b2968954a3c9aced42b',1,'ComputeEngine']]],
-  ['_7ecomputeenginecontext_6',['~ComputeEngineContext',['../classComputeEngineContext.html#a0c307deaa724562efb4b3d3158623c64',1,'ComputeEngineContext']]],
-  ['_7econditiondata_7',['~ConditionData',['../classConditionData.html#af015a764d5682d12621e7a7bac5bff3f',1,'ConditionData']]],
-  ['_7econtentmarkingactiondata_8',['~ContentMarkingActionData',['../classContentMarkingActionData.html#ac8f16746d498175e8a5bde255f10ba2c',1,'ContentMarkingActionData']]],
-  ['_7elabelactiondata_9',['~LabelActionData',['../classLabelActionData.html#a2c64adec7ea1e356ce452566944673da',1,'LabelActionData']]],
-  ['_7elabelgroupdata_10',['~LabelGroupData',['../classLabelGroupData.html#abc6d6b9a179d8904eb1277d09e91a899',1,'LabelGroupData']]],
-  ['_7emipconfiguration_11',['~MipConfiguration',['../classMipConfiguration.html#a8054fbe6cfe363e3c4e8b61498f72f61',1,'MipConfiguration']]],
-  ['_7eobserver_12',['~Observer',['../classFileProfile_1_1Observer.html#ab7b47df2e88baded88569936d43b36c7',1,'FileProfile::Observer']]],
-  ['_7epolicypackagedata_13',['~PolicyPackageData',['../classPolicyPackageData.html#ad3056e4b3ffbe77a1ca18a20f6623ee8',1,'PolicyPackageData']]],
-  ['_7epolicyruledata_14',['~PolicyRuleData',['../classPolicyRuleData.html#a8599048d018639d7d5d325c991397de5',1,'PolicyRuleData']]],
-  ['_7epropertydata_15',['~PropertyData',['../classPropertyData.html#a63888fc2d8a9261783b3852a28e4e720',1,'PropertyData']]],
-  ['_7eprotectionactiondata_16',['~ProtectionActionData',['../classProtectionActionData.html#a0b48926830801182e6bb117a283fd3c4',1,'ProtectionActionData']]],
-  ['_7erulepackagedata_17',['~RulePackageData',['../classRulePackageData.html#a5f2e3d9444c7d8d45e41c23aa7712e77',1,'RulePackageData']]],
-  ['_7esensitivityconditiondata_18',['~SensitivityConditionData',['../classSensitivityConditionData.html#aba0b4a84e0193510c3fb82e9ba04b19c',1,'SensitivityConditionData']]],
-  ['_7esyncfilebasedata_19',['~SyncFileBaseData',['../classSyncFileBaseData.html#acc0310816e2305430c354d8b40c56f11',1,'SyncFileBaseData']]],
-  ['_7esyncfilepolicydata_20',['~SyncFilePolicyData',['../classSyncFilePolicyData.html#a2de4ba521fbda1ac446b3c09e1ddb2bc',1,'SyncFilePolicyData']]],
-  ['_7esyncfilesensitivitydata_21',['~SyncFileSensitivityData',['../classSyncFileSensitivityData.html#a2d367a18a86f49bfb2b489880f6b2cb6',1,'SyncFileSensitivityData']]]
+  ['what_0',['what',['../classxml_1_1XmlLoadException.html#a995be4d63f209668c9a6fd9203b39677',1,'xml::XmlLoadException::what()'],['../classxml_1_1XmlParserException.html#af2e2d28204d88ba9a66c8ad6a899094d',1,'xml::XmlParserException::what()'],['../classError.html#a6b5d1714f27d38ba999e5cba27014397',1,'Error::what()']]],
+  ['write_1',['Write',['../classStream.html#a67e7e739198f480dac2925d06010c60b',1,'Stream']]],
+  ['writeevent_2',['WriteEvent',['../classDiagnosticDelegate.html#a593e9c0012f9fc0ad5301b92b29b2a1c',1,'DiagnosticDelegate::WriteEvent(const std::shared_ptr&lt; T &gt; &amp;event)=0'],['../classDiagnosticDelegate.html#ae70dde19c003ff4f4d557cb9cdd43dee',1,'DiagnosticDelegate::WriteEvent(const std::shared_ptr&lt; T &gt; &amp;event, const mip::EventContext &amp;eventContext)=0']]],
+  ['writetolog_3',['WriteToLog',['../classLoggerDelegate.html#a34169cd16f08b0b8ab8fb54bfc3581db',1,'LoggerDelegate']]],
+  ['writetologwithcontext_4',['WriteToLogWithContext',['../classLoggerDelegate.html#a2e50863d645eb9d6f1dda4f8858754ec',1,'LoggerDelegate']]],
+  ['writetologwithlogmessage_5',['WriteToLogWithLogMessage',['../classLoggerDelegate.html#a981088ae3983c0fbc195a4d578f0dc69',1,'LoggerDelegate']]]
 ];

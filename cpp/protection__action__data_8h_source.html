@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -108,7 +148,7 @@ $(function(){initNavTree('protection__action__data_8h_source.html',''); initResi
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="mip__namespace_8h.html">mip/mip_namespace.h</a>&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="action__data_8h.html">mip/upe/core/dto/action_data.h</a>&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>MIP_NAMESPACE_BEGIN</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><a class="code hl_define" href="mip__namespace_8h.html#a39c21aae7cf9012b9b74d8431054e182">MIP_NAMESPACE_BEGIN</a></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="protection__action__data_8h.html#a5a3dd2d97a761b92e026d3708df2a111">   11</a></span><span class="keyword">enum class</span> <a class="code hl_enumeration" href="protection__action__data_8h.html#a5a3dd2d97a761b92e026d3708df2a111">ProtectionActionType</a> : <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> {</div>
@@ -136,7 +176,7 @@ $(function(){initNavTree('protection__action__data_8h_source.html',''); initResi
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>};</div>
 </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>MIP_NAMESPACE_END</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><a class="code hl_define" href="mip__namespace_8h.html#ae6c7ae24f07850b87df4bbf55c04d831">MIP_NAMESPACE_END</a></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#endif  </span><span class="comment">// UPE_CORE_API_DTO_PROTECTION_ACTION_DATA_H_</span></div>
 <div class="ttc" id="aaction__data_8h_html"><div class="ttname"><a href="action__data_8h.html">action_data.h</a></div></div>
@@ -147,6 +187,8 @@ $(function(){initNavTree('protection__action__data_8h_source.html',''); initResi
 <div class="ttc" id="aclassProtectionActionData_html_aacad646ddb54c1730df9abc15dc8a3f2"><div class="ttname"><a href="classProtectionActionData.html#aacad646ddb54c1730df9abc15dc8a3f2">ProtectionActionData::GetDoubleKeyEncryptionUrl</a></div><div class="ttdeci">virtual const std::string &amp; GetDoubleKeyEncryptionUrl() const =0</div></div>
 <div class="ttc" id="aclassProtectionActionData_html_aca9efc7b09c375bf476d396732313138"><div class="ttname"><a href="classProtectionActionData.html#aca9efc7b09c375bf476d396732313138">ProtectionActionData::GetTemplateId</a></div><div class="ttdeci">virtual const std::string &amp; GetTemplateId() const =0</div></div>
 <div class="ttc" id="amip__namespace_8h_html"><div class="ttname"><a href="mip__namespace_8h.html">mip_namespace.h</a></div><div class="ttdoc">MIP namespace macros.</div></div>
+<div class="ttc" id="amip__namespace_8h_html_a39c21aae7cf9012b9b74d8431054e182"><div class="ttname"><a href="mip__namespace_8h.html#a39c21aae7cf9012b9b74d8431054e182">MIP_NAMESPACE_BEGIN</a></div><div class="ttdeci">#define MIP_NAMESPACE_BEGIN</div><div class="ttdef"><b>Definition</b> mip_namespace.h:53</div></div>
+<div class="ttc" id="amip__namespace_8h_html_ae6c7ae24f07850b87df4bbf55c04d831"><div class="ttname"><a href="mip__namespace_8h.html#ae6c7ae24f07850b87df4bbf55c04d831">MIP_NAMESPACE_END</a></div><div class="ttdeci">#define MIP_NAMESPACE_END</div><div class="ttdef"><b>Definition</b> mip_namespace.h:56</div></div>
 <div class="ttc" id="aprotection__action__data_8h_html_a5a3dd2d97a761b92e026d3708df2a111"><div class="ttname"><a href="protection__action__data_8h.html#a5a3dd2d97a761b92e026d3708df2a111">ProtectionActionType</a></div><div class="ttdeci">ProtectionActionType</div><div class="ttdef"><b>Definition</b> protection_action_data.h:11</div></div>
 <div class="ttc" id="aprotection__action__data_8h_html_a5a3dd2d97a761b92e026d3708df2a111a069724d39fd9f12fa378ca3018b4c102"><div class="ttname"><a href="protection__action__data_8h.html#a5a3dd2d97a761b92e026d3708df2a111a069724d39fd9f12fa378ca3018b4c102">ProtectionActionType::DoNotForwardWithPrompt</a></div><div class="ttdeci">@ DoNotForwardWithPrompt</div></div>
 <div class="ttc" id="aprotection__action__data_8h_html_a5a3dd2d97a761b92e026d3708df2a111a18a07a82a0bd23f81fc4591cad8c4e94"><div class="ttname"><a href="protection__action__data_8h.html#a5a3dd2d97a761b92e026d3708df2a111a18a07a82a0bd23f81fc4591cad8c4e94">ProtectionActionType::EncryptOnlyWithPrompt</a></div><div class="ttdeci">@ EncryptOnlyWithPrompt</div></div>
@@ -161,11 +203,15 @@ $(function(){initNavTree('protection__action__data_8h_source.html',''); initResi
 <div class="ttc" id="aprotection__action__data_8h_html_a5a3dd2d97a761b92e026d3708df2a111adec437e79f8b0515873e1a704bb86710"><div class="ttname"><a href="protection__action__data_8h.html#a5a3dd2d97a761b92e026d3708df2a111adec437e79f8b0515873e1a704bb86710">ProtectionActionType::PredefinedTemplate</a></div><div class="ttdeci">@ PredefinedTemplate</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ed23b7e0ff82d04a8565e406d9d9df9a.html">mip-sdk-for-cpp</a></li><li class="navelem"><a class="el" href="dir_5a92ca31a1d1cd11ee59a3526a96cc89.html">src</a></li><li class="navelem"><a class="el" href="dir_e50a1d5d74e01fc8d143b32c54f27ce0.html">api</a></li><li class="navelem"><a class="el" href="dir_8430260fe83f04f5d27761956506c721.html">mip</a></li><li class="navelem"><a class="el" href="dir_a90912758a95b167421b158f1c77816d.html">upe</a></li><li class="navelem"><a class="el" href="dir_0292ea60d90e70a5304053f5c7607472.html">core</a></li><li class="navelem"><a class="el" href="dir_27a4cbd630751964589b234f857cc373.html">dto</a></li><li class="navelem"><a class="el" href="protection__action__data_8h.html">protection_action_data.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

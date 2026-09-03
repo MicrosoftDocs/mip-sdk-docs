@@ -1,5 +1,7 @@
 var classxml_1_1XmlReader =
 [
+    [ "~XmlReader", "classxml_1_1XmlReader.html#a27481e2c4ef96ad3280efabb23655536", null ],
+    [ "XmlReader", "classxml_1_1XmlReader.html#a5cb19eb9f54cc39da687e0129cb47fc8", null ],
     [ "DumpNode", "classxml_1_1XmlReader.html#a6bdb96303a246c3b8950106375d16fdd", null ],
     [ "GetAncestors", "classxml_1_1XmlReader.html#a03848be77568bf0ff32a8dbc39efd954", null ],
     [ "GetAttribute", "classxml_1_1XmlReader.html#ab2fec68d8ea17155212999d0d7ffe6d6", null ],

@@ -1,5 +1,7 @@
 var classParsedPublishingLicense =
 [
+    [ "~ParsedPublishingLicense", "classParsedPublishingLicense.html#a8f6f7718bb56db64bff57ad83907eff9", null ],
+    [ "ParsedPublishingLicense", "classParsedPublishingLicense.html#a79bb6b96be5b335ff7279b04d6a828de", null ],
     [ "GetConnectionInfo", "classParsedPublishingLicense.html#aad8333b0878bd11da189996a327d5607", null ],
     [ "GetContentId", "classParsedPublishingLicense.html#a12b770e189457f88598c2809228334e4", null ],
     [ "GetDescriptor", "classParsedPublishingLicense.html#a710c8a333b60afc1d2ee0a135f19b1cf", null ],

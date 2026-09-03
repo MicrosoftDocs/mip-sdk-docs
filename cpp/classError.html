@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -99,7 +139,8 @@ $(function(){initNavTree('classError.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classError-members.html">List of all members</a>  </div>
@@ -161,9 +202,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af00e4c79dbf6834b319b068a2d94ae36" id="r_af00e4c79dbf6834b319b068a2d94ae36"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::string, std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af00e4c79dbf6834b319b068a2d94ae36">GetDebugInfo</a> () const</td></tr>
 <tr class="memdesc:af00e4c79dbf6834b319b068a2d94ae36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get debug info.  <br /></td></tr>
 <tr class="separator:af00e4c79dbf6834b319b068a2d94ae36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadd4b7cb712e1322ec3da4a4d9af6460" id="r_aadd4b7cb712e1322ec3da4a4d9af6460"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadd4b7cb712e1322ec3da4a4d9af6460">~Error</a> ()</td></tr>
+<tr class="separator:aadd4b7cb712e1322ec3da4a4d9af6460"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a351db1368934ee2ce8c47a21cb943688" id="r_a351db1368934ee2ce8c47a21cb943688"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a351db1368934ee2ce8c47a21cb943688">Error</a> (const std::string &amp;message, const std::string &amp;name, <a class="el" href="error_8h.html#af7a9c5a9d19bf72299ab821bd983e131">ErrorType</a> type)</td></tr>
+<tr class="separator:a351db1368934ee2ce8c47a21cb943688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64dc9e9afa15520f9695dc01a20c89b3" id="r_a64dc9e9afa15520f9695dc01a20c89b3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64dc9e9afa15520f9695dc01a20c89b3">Error</a> (const std::string &amp;message, const std::map&lt; std::string, std::string &gt; debugInfo, const std::map&lt; std::string, std::string &gt; sensitiveDebugInfo, const std::string &amp;name, <a class="el" href="error_8h.html#af7a9c5a9d19bf72299ab821bd983e131">ErrorType</a> type)</td></tr>
+<tr class="separator:a64dc9e9afa15520f9695dc01a20c89b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
 <tr class="memitem:af31bc6356d7c45845280a5481917bee7" id="r_af31bc6356d7c45845280a5481917bee7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af31bc6356d7c45845280a5481917bee7">mMessage</a></td></tr>
 <tr class="separator:af31bc6356d7c45845280a5481917bee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c79a90c3d7a10bad9812f51ba615486" id="r_a0c79a90c3d7a10bad9812f51ba615486"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c79a90c3d7a10bad9812f51ba615486">mDebugInfo</a></td></tr>
@@ -187,7 +237,111 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class for all errors that will be reported (thrown or returned) from MIP SDK. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aadd4b7cb712e1322ec3da4a4d9af6460" name="aadd4b7cb712e1322ec3da4a4d9af6460"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadd4b7cb712e1322ec3da4a4d9af6460">&#9670;&#160;</a></span>~Error()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Error::~Error </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a351db1368934ee2ce8c47a21cb943688" name="a351db1368934ee2ce8c47a21cb943688"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a351db1368934ee2ce8c47a21cb943688">&#9670;&#160;</a></span>Error() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Error::Error </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>message</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="error_8h.html#af7a9c5a9d19bf72299ab821bd983e131">ErrorType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a64dc9e9afa15520f9695dc01a20c89b3" name="a64dc9e9afa15520f9695dc01a20c89b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64dc9e9afa15520f9695dc01a20c89b3">&#9670;&#160;</a></span>Error() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Error::Error </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>message</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::map&lt; std::string, std::string &gt;</td>          <td class="paramname"><span class="paramname"><em>debugInfo</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::map&lt; std::string, std::string &gt;</td>          <td class="paramname"><span class="paramname"><em>sensitiveDebugInfo</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="error_8h.html#af7a9c5a9d19bf72299ab821bd983e131">ErrorType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a1e9379501df2d1e8315d373cf79949f2" name="a1e9379501df2d1e8315d373cf79949f2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1e9379501df2d1e8315d373cf79949f2">&#9670;&#160;</a></span>AddDebugInfo()</h2>
 
@@ -257,7 +411,7 @@ Private Attributes</h2></td></tr>
 <p>Clone the error. </p>
 <dl class="section return"><dt>Returns</dt><dd>a clone of the error. </dd></dl>
 
-<p>Implemented in <a class="el" href="classJustificationRequiredError.html#abd77395fff3113cac334c064566eee06">JustificationRequiredError</a>.</p>
+<p>Implemented in <a class="el" href="classAccessDeniedError.html#a62176ba6bfcaea09c7d2415c33129536">AccessDeniedError</a>, <a class="el" href="classAdhocProtectionRequiredError.html#aa6eeb3b31448c77463b1eb46665d57a5">AdhocProtectionRequiredError</a>, <a class="el" href="classBadInputError.html#aae3629582d842d5e00799f5761280dc1">BadInputError</a>, <a class="el" href="classConsentDeniedError.html#a2ab690dda09436763eb1facaf817f1d9">ConsentDeniedError</a>, <a class="el" href="classContentFormatNotSupportedError.html#a8aacd8249eb5af5fd434736b2336f29d">ContentFormatNotSupportedError</a>, <a class="el" href="classCustomerKeyUnavailableError.html#ae4690d8f3962b940e90a8d85e4e2af1a">CustomerKeyUnavailableError</a>, <a class="el" href="classDelegateResponseError.html#adc954097bff8dd14969de8ba80941486">DelegateResponseError</a>, <a class="el" href="classDeprecatedApiError.html#a8516b0f75ebd6b4cebcb12181af74ed8">DeprecatedApiError</a>, <a class="el" href="classFileIOError.html#a4664b7aaa5f97a0682d2225eb553f2cd">FileIOError</a>, <a class="el" href="classInsufficientBufferError.html#a39f8b047f1a86d9aa5da1aa9ec4fe225">InsufficientBufferError</a>, <a class="el" href="classInternalError.html#ae7db4be60795998f170b09e0b71167c2">InternalError</a>, <a class="el" href="classJustificationRequiredError.html#abd77395fff3113cac334c064566eee06">JustificationRequiredError</a>, <a class="el" href="classLabelDisabledError.html#a772b63141399a908bfddc2f54e8a7513">LabelDisabledError</a>, <a class="el" href="classLabelNotFoundError.html#aad6c575707d25dad47dbe2c8fc20da55">LabelNotFoundError</a>, <a class="el" href="classLicenseNotRegisteredError.html#a4aa297cdd1a61b982a17680f3cb6972e">LicenseNotRegisteredError</a>, <a class="el" href="classMaxDepthReachedError.html#ac3246f04d9081a3772aa1ac3780e4059">MaxDepthReachedError</a>, <a class="el" href="classNetworkError.html#a8e5cccdf31cc8c4f19e69d8dce86376a">NetworkError</a>, <a class="el" href="classNoAuthTokenError.html#ae707476f4bae42c0f7f3123fdaac62a7">NoAuthTokenError</a>, <a class="el" href="classNoPermissionsError.html#af90bb5e8263720bfcdbab32a5b26d422">NoPermissionsError</a>, <a class="el" href="classNoPermissionsExtendedError.html#ad2af76839add418794e326bfa5eade94">NoPermissionsExtendedError</a>, <a class="el" href="classNoPolicyError.html#a5ac0a65b1f3aebaf600199e31d81c9f8">NoPolicyError</a>, <a class="el" href="classNotSupportedError.html#a4de6e7fe34fc8257f0bd0e6577f22232">NotSupportedError</a>, <a class="el" href="classOperationCancelledError.html#a4fea9456d69870a0bcc6411c165d6034">OperationCancelledError</a>, <a class="el" href="classPrivilegedRequiredError.html#a639fdac24999203a874086e8ca49b05c">PrivilegedRequiredError</a>, <a class="el" href="classProxyAuthenticationError.html#aa9d599aa000c56a8095510ad79b162cf">ProxyAuthenticationError</a>, <a class="el" href="classServiceDisabledError.html#a45272eceab65d1df7d7029cd0e5bb17b">ServiceDisabledError</a>, <a class="el" href="classTemplateArchivedError.html#a4e2cdb0837a40ac07df8a1478327bde2">TemplateArchivedError</a>, and <a class="el" href="classTemplateNotFoundError.html#a9e76b94a3e1043b9db4fd816dff152a3">TemplateNotFoundError</a>.</p>
 
 </div>
 </div>
@@ -368,6 +522,8 @@ Private Attributes</h2></td></tr>
 <p>Get the error type. </p>
 <dl class="section return"><dt>Returns</dt><dd>the error type. </dd></dl>
 
+<p>Reimplemented in <a class="el" href="classContentFormatNotSupportedError.html#a81e03e4d811e6f1787ba03f8a4cab0cb">ContentFormatNotSupportedError</a>, <a class="el" href="classCustomerKeyUnavailableError.html#aadcca82072680af7b0ba029e256b7d55">CustomerKeyUnavailableError</a>, <a class="el" href="classDelegateResponseError.html#a5bbac721b30f6d745710775106bf640d">DelegateResponseError</a>, <a class="el" href="classInsufficientBufferError.html#a3edb5f275b52dde0d81cad807a21a9fd">InsufficientBufferError</a>, <a class="el" href="classLabelDisabledError.html#abe38117273bc04d3478fe7d17b800a19">LabelDisabledError</a>, <a class="el" href="classLabelNotFoundError.html#a799b4cb7b1510add8cb2946806c99fd5">LabelNotFoundError</a>, <a class="el" href="classLicenseNotRegisteredError.html#af7af17e3cc12865bf6fa7ecdb69ff4b1">LicenseNotRegisteredError</a>, <a class="el" href="classNoAuthTokenError.html#ae9b3284485570f35a8ce99a439009e60">NoAuthTokenError</a>, <a class="el" href="classNoPermissionsError.html#a9ecdbbae3a29e4e5d3fff6803e1bd333">NoPermissionsError</a>, <a class="el" href="classProxyAuthenticationError.html#a2283b666172b581351ec3f6971dbdffd">ProxyAuthenticationError</a>, <a class="el" href="classServiceDisabledError.html#ab44d2455827d24e1b76ec9c6cbdf7d13">ServiceDisabledError</a>, <a class="el" href="classTemplateArchivedError.html#ace5f80a3fd04883008bfc06efb4a3abd">TemplateArchivedError</a>, and <a class="el" href="classTemplateNotFoundError.html#acca4c2ddbdc52a2748c3ceb1db156166">TemplateNotFoundError</a>.</p>
+
 </div>
 </div>
 <a id="a126830db2540cb5d75971e196603b8a1" name="a126830db2540cb5d75971e196603b8a1"></a>
@@ -465,11 +621,19 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::map&lt;std::string, std::string&gt; Error::mDebugInfo</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -523,11 +687,19 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::string Error::mMessage</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -537,11 +709,19 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::string Error::mName</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -551,11 +731,19 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="error_8h.html#af7a9c5a9d19bf72299ab821bd983e131">ErrorType</a> Error::mType</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -565,11 +753,15 @@ Private Attributes</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classError.html">Error</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

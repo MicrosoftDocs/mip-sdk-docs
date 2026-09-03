@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -147,15 +187,15 @@ $(function(){initNavTree('task__dispatcher__delegate__cc_8h_source.html',''); in
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>} <a class="code hl_struct" href="structmip__cc__async__task.html">mip_cc_async_task</a>;</div>
 </div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="task__dispatcher__delegate__cc_8h.html#a8a2a234cbbe79799ad0203249b638747">   60</a></span><a class="code hl_function" href="task__dispatcher__delegate__cc_8h.html#a8a2a234cbbe79799ad0203249b638747">MIP_CC_CALLBACK</a>(mip_cc_dispatch_task_callback_fn <span class="comment">/*typename*/</span>,</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="task__dispatcher__delegate__cc_8h.html#a8a2a234cbbe79799ad0203249b638747">   60</a></span><a class="code hl_define" href="mip__macros__cc_8h.html#a50d0114b7451ebe55f26f65b42e45962">MIP_CC_CALLBACK</a>(mip_cc_dispatch_task_callback_fn <span class="comment">/*typename*/</span>,</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">void</span> <span class="comment">/*return*/</span>,</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structmip__cc__async__task.html">mip_cc_async_task</a>* <span class="comment">/*task*/</span>);</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="task__dispatcher__delegate__cc_8h.html#a095e1a2bf6152f57863ed7e9bd916fa8">   71</a></span><a class="code hl_function" href="task__dispatcher__delegate__cc_8h.html#a8a2a234cbbe79799ad0203249b638747">MIP_CC_CALLBACK</a>(mip_cc_cancel_task_callback_fn <span class="comment">/*typename*/</span>,</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="task__dispatcher__delegate__cc_8h.html#a095e1a2bf6152f57863ed7e9bd916fa8">   71</a></span><a class="code hl_define" href="mip__macros__cc_8h.html#a50d0114b7451ebe55f26f65b42e45962">MIP_CC_CALLBACK</a>(mip_cc_cancel_task_callback_fn <span class="comment">/*typename*/</span>,</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keywordtype">bool</span> <span class="comment">/*return*/</span>,</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* <span class="comment">/*taskId*/</span>);</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="task__dispatcher__delegate__cc_8h.html#a85f3f381f74d68e214fb0c04fa60f8d2">   78</a></span><a class="code hl_function" href="task__dispatcher__delegate__cc_8h.html#a8a2a234cbbe79799ad0203249b638747">MIP_CC_CALLBACK</a>(mip_cc_cancel_all_tasks_callback_fn <span class="comment">/*typename*/</span>,</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="task__dispatcher__delegate__cc_8h.html#a85f3f381f74d68e214fb0c04fa60f8d2">   78</a></span><a class="code hl_define" href="mip__macros__cc_8h.html#a50d0114b7451ebe55f26f65b42e45962">MIP_CC_CALLBACK</a>(mip_cc_cancel_all_tasks_callback_fn <span class="comment">/*typename*/</span>,</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keywordtype">void</span> <span class="comment">/*return*/</span>);</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="task__dispatcher__delegate__cc_8h.html#a08112461ad0266194b2ba364f9b3c89a">   81</a></span><span class="keyword">typedef</span> <a class="code hl_struct" href="structmip__cc__handle.html">mip_cc_handle</a>* <a class="code hl_typedef" href="task__dispatcher__delegate__cc_8h.html#a08112461ad0266194b2ba364f9b3c89a">mip_cc_task_dispatcher_delegate</a>;</div>
@@ -175,6 +215,7 @@ $(function(){initNavTree('task__dispatcher__delegate__cc_8h_source.html',''); in
 <div class="ttc" id="acommon__types__cc_8h_html"><div class="ttname"><a href="common__types__cc_8h.html">common_types_cc.h</a></div><div class="ttdoc">A file Containing the common types used by the upe, file and protection modules.</div></div>
 <div class="ttc" id="aerror__cc_8h_html"><div class="ttname"><a href="error__cc_8h.html">error_cc.h</a></div><div class="ttdoc">Error definition and functions.</div></div>
 <div class="ttc" id="amip__macros__cc_8h_html"><div class="ttname"><a href="mip__macros__cc_8h.html">mip_macros_cc.h</a></div><div class="ttdoc">Export/import and other macros for C API.</div></div>
+<div class="ttc" id="amip__macros__cc_8h_html_a50d0114b7451ebe55f26f65b42e45962"><div class="ttname"><a href="mip__macros__cc_8h.html#a50d0114b7451ebe55f26f65b42e45962">MIP_CC_CALLBACK</a></div><div class="ttdeci">#define MIP_CC_CALLBACK(TName, TRet,...)</div><div class="ttdef"><b>Definition</b> mip_macros_cc.h:58</div></div>
 <div class="ttc" id="aresult__cc_8h_html"><div class="ttname"><a href="result__cc_8h.html">result_cc.h</a></div><div class="ttdoc">Defines success/error result codes.</div></div>
 <div class="ttc" id="aresult__cc_8h_html_a41250f3f2089aef86aa6da4e3a585535"><div class="ttname"><a href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a></div><div class="ttdeci">mip_cc_result</div><div class="ttdoc">API success/failure result.</div><div class="ttdef"><b>Definition</b> result_cc.h:44</div></div>
 <div class="ttc" id="astructmip__cc__async__task_html"><div class="ttname"><a href="structmip__cc__async__task.html">mip_cc_async_task</a></div><div class="ttdoc">Defines a single async task dispatch request.</div><div class="ttdef"><b>Definition</b> task_dispatcher_delegate_cc.h:48</div></div>
@@ -188,17 +229,20 @@ $(function(){initNavTree('task__dispatcher__delegate__cc_8h_source.html',''); in
 <div class="ttc" id="atask__dispatcher__delegate__cc_8h_html_a2c40b1d0fe65019733b50faa7044bb91"><div class="ttname"><a href="task__dispatcher__delegate__cc_8h.html#a2c40b1d0fe65019733b50faa7044bb91">errorInfo</a></div><div class="ttdeci">const mip_cc_cancel_task_callback_fn const mip_cc_cancel_all_tasks_callback_fn mip_cc_task_dispatcher_delegate mip_cc_error * errorInfo</div><div class="ttdef"><b>Definition</b> task_dispatcher_delegate_cc.h:99</div></div>
 <div class="ttc" id="atask__dispatcher__delegate__cc_8h_html_a5c39bfed79870958ab0bb8712fa3845e"><div class="ttname"><a href="task__dispatcher__delegate__cc_8h.html#a5c39bfed79870958ab0bb8712fa3845e">taskDispatcher</a></div><div class="ttdeci">const mip_cc_cancel_task_callback_fn const mip_cc_cancel_all_tasks_callback_fn mip_cc_task_dispatcher_delegate * taskDispatcher</div><div class="ttdef"><b>Definition</b> task_dispatcher_delegate_cc.h:98</div></div>
 <div class="ttc" id="atask__dispatcher__delegate__cc_8h_html_a6e72a841723b27f78382a92803086a0c"><div class="ttname"><a href="task__dispatcher__delegate__cc_8h.html#a6e72a841723b27f78382a92803086a0c">taskId</a></div><div class="ttdeci">const char * taskId</div><div class="ttdef"><b>Definition</b> task_dispatcher_delegate_cc.h:111</div></div>
-<div class="ttc" id="atask__dispatcher__delegate__cc_8h_html_a8a2a234cbbe79799ad0203249b638747"><div class="ttname"><a href="task__dispatcher__delegate__cc_8h.html#a8a2a234cbbe79799ad0203249b638747">MIP_CC_CALLBACK</a></div><div class="ttdeci">MIP_CC_CALLBACK(mip_cc_dispatch_task_callback_fn, void, const mip_cc_async_task *)</div><div class="ttdoc">Callback function definition for dispatching an async task.</div></div>
 <div class="ttc" id="atask__dispatcher__delegate__cc_8h_html_a8e697c3b24b7d1095caa1f6c890b8625"><div class="ttname"><a href="task__dispatcher__delegate__cc_8h.html#a8e697c3b24b7d1095caa1f6c890b8625">cancelTaskCallback</a></div><div class="ttdeci">const mip_cc_cancel_task_callback_fn cancelTaskCallback</div><div class="ttdef"><b>Definition</b> task_dispatcher_delegate_cc.h:96</div></div>
 <div class="ttc" id="atask__dispatcher__delegate__cc_8h_html_ac7be7623459adb1cc51414f4d1fbc07e"><div class="ttname"><a href="task__dispatcher__delegate__cc_8h.html#ac7be7623459adb1cc51414f4d1fbc07e">MIP_CC_API</a></div><div class="ttdeci">MIP_CC_API(void) MIP_CC_ExecuteDispatchedTask(const mip_cc_task_dispatcher_delegate taskDispatcher</div><div class="ttdoc">Notifies a TaskDispatcher delegate that a task is scheduled to execute now on the current thread.</div></div>
 <div class="ttc" id="atask__dispatcher__delegate__cc_8h_html_ad4baa584fbf276de03d175129895fdf3"><div class="ttname"><a href="task__dispatcher__delegate__cc_8h.html#ad4baa584fbf276de03d175129895fdf3">cancelAllTasksCallback</a></div><div class="ttdeci">const mip_cc_cancel_task_callback_fn const mip_cc_cancel_all_tasks_callback_fn cancelAllTasksCallback</div><div class="ttdef"><b>Definition</b> task_dispatcher_delegate_cc.h:97</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ed23b7e0ff82d04a8565e406d9d9df9a.html">mip-sdk-for-cpp</a></li><li class="navelem"><a class="el" href="dir_5a92ca31a1d1cd11ee59a3526a96cc89.html">src</a></li><li class="navelem"><a class="el" href="dir_e50a1d5d74e01fc8d143b32c54f27ce0.html">api</a></li><li class="navelem"><a class="el" href="dir_c3e04355e45d1ded316250c59adeda59.html">mip_cc</a></li><li class="navelem"><a class="el" href="task__dispatcher__delegate__cc_8h.html">task_dispatcher_delegate_cc.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['xmlloadexception_0',['XmlLoadException',['../classxml_1_1XmlLoadException.html#a7d10c34390dd3a91a804d55b586cb0a1',1,'xml::XmlLoadException']]],
-  ['xmlparserexception_1',['XmlParserException',['../classxml_1_1XmlParserException.html#a3b494bcb2a4703732cb3b175453bf398',1,'xml::XmlParserException']]]
+  ['view_0',['View',['../namespacerights.html#a1f9ac51acbbcffbf90b72a86dedd07e3',1,'rights']]],
+  ['viewer_1',['Viewer',['../namespaceroles.html#a561b08d7ace604dbd0f7a3c3fec9b550',1,'roles']]],
+  ['viewrightsdata_2',['ViewRightsData',['../namespacerights.html#a69fdab24dd5ecc1120271f7a766e5e99',1,'rights']]]
 ];

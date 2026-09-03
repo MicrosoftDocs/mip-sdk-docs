@@ -15,7 +15,7 @@ var dir_c3e04355e45d1ded316250c59adeda59 =
     [ "identity_cc.h", "identity__cc_8h.html", "identity__cc_8h" ],
     [ "logger_delegate_cc.h", "logger__delegate__cc_8h.html", "logger__delegate__cc_8h" ],
     [ "mip_context_cc.h", "mip__context__cc_8h.html", "mip__context__cc_8h" ],
-    [ "mip_macros_cc.h", "mip__macros__cc_8h.html", null ],
+    [ "mip_macros_cc.h", "mip__macros__cc_8h.html", "mip__macros__cc_8h" ],
     [ "protection_descriptor_builder_cc.h", "protection__descriptor__builder__cc_8h.html", "protection__descriptor__builder__cc_8h" ],
     [ "protection_descriptor_cc.h", "protection__descriptor__cc_8h.html", "protection__descriptor__cc_8h" ],
     [ "result_cc.h", "result__cc_8h.html", "result__cc_8h" ],

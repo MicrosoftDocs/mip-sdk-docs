@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -123,16 +163,44 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a049cfeb2dfc708b9e7d7f15aee0aa065" id="r_a049cfeb2dfc708b9e7d7f15aee0aa065"><td class="memItemLeft" align="right" valign="top">virtual const std::vector&lt; uint8_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a049cfeb2dfc708b9e7d7f15aee0aa065">GetBody</a> () const =0</td></tr>
 <tr class="memdesc:a049cfeb2dfc708b9e7d7f15aee0aa065"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get request body.  <br /></td></tr>
 <tr class="separator:a049cfeb2dfc708b9e7d7f15aee0aa065"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf9e8035a3dc6bd29ce3da98095e76f7" id="r_abf9e8035a3dc6bd29ce3da98095e76f7"><td class="memItemLeft" align="right" valign="top">virtual const std::map&lt; std::string, std::string, CaseInsensitiveComparator &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf9e8035a3dc6bd29ce3da98095e76f7">GetHeaders</a> () const =0</td></tr>
+<tr class="memitem:abf9e8035a3dc6bd29ce3da98095e76f7" id="r_abf9e8035a3dc6bd29ce3da98095e76f7"><td class="memItemLeft" align="right" valign="top">virtual const std::map&lt; std::string, std::string, <a class="el" href="classCaseInsensitiveComparator.html">CaseInsensitiveComparator</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf9e8035a3dc6bd29ce3da98095e76f7">GetHeaders</a> () const =0</td></tr>
 <tr class="memdesc:abf9e8035a3dc6bd29ce3da98095e76f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get request headers.  <br /></td></tr>
 <tr class="separator:abf9e8035a3dc6bd29ce3da98095e76f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cca45ad5922e1e1a8b9d8851573703e" id="r_a0cca45ad5922e1e1a8b9d8851573703e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="http__request_8h.html#a870eea9f2d3f1f48a7f538a5f5b82f3a">TransportLayerSecurityMinimumVersion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cca45ad5922e1e1a8b9d8851573703e">GetTransportLayerSecurityMinimumVersion</a> () const =0</td></tr>
 <tr class="memdesc:a0cca45ad5922e1e1a8b9d8851573703e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the minimum required TLS version for this request.  <br /></td></tr>
 <tr class="separator:a0cca45ad5922e1e1a8b9d8851573703e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1724291d6b6a9be5220646c30e050a41" id="r_a1724291d6b6a9be5220646c30e050a41"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1724291d6b6a9be5220646c30e050a41">~HttpRequest</a> ()</td></tr>
+<tr class="separator:a1724291d6b6a9be5220646c30e050a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Interface that describes a single HTTP request. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a1724291d6b6a9be5220646c30e050a41" name="a1724291d6b6a9be5220646c30e050a41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1724291d6b6a9be5220646c30e050a41">&#9670;&#160;</a></span>~HttpRequest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual HttpRequest::~HttpRequest </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a049cfeb2dfc708b9e7d7f15aee0aa065" name="a049cfeb2dfc708b9e7d7f15aee0aa065"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a049cfeb2dfc708b9e7d7f15aee0aa065">&#9670;&#160;</a></span>GetBody()</h2>
 
@@ -171,7 +239,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const std::map&lt; std::string, std::string, CaseInsensitiveComparator &gt; &amp; HttpRequest::GetHeaders </td>
+          <td class="memname">virtual const std::map&lt; std::string, std::string, <a class="el" href="classCaseInsensitiveComparator.html">CaseInsensitiveComparator</a> &gt; &amp; HttpRequest::GetHeaders </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -307,11 +375,15 @@ Public Member Functions</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classHttpRequest.html">HttpRequest</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

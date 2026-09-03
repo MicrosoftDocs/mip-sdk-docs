@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -128,7 +168,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a647003bfdb924690e953f62ac204fc7d inherit pub_methods_classConditionData"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a501b7ae4ecdc1bba98985a33f39baad8 inherit pub_methods_classConditionData" id="r_a501b7ae4ecdc1bba98985a33f39baad8"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConditionData.html#a501b7ae4ecdc1bba98985a33f39baad8">GetName</a> () const =0</td></tr>
 <tr class="separator:a501b7ae4ecdc1bba98985a33f39baad8 inherit pub_methods_classConditionData"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e595421f47d3f19a5ff087170b8b602 inherit pub_methods_classConditionData" id="r_a9e595421f47d3f19a5ff087170b8b602"><td class="memItemLeft" align="right" valign="top">virtual const std::map&lt; std::string, std::string, CaseInsensitiveComparator &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConditionData.html#a9e595421f47d3f19a5ff087170b8b602">GetProperties</a> () const =0</td></tr>
+<tr class="memitem:a9e595421f47d3f19a5ff087170b8b602 inherit pub_methods_classConditionData" id="r_a9e595421f47d3f19a5ff087170b8b602"><td class="memItemLeft" align="right" valign="top">virtual const std::map&lt; std::string, std::string, <a class="el" href="classCaseInsensitiveComparator.html">CaseInsensitiveComparator</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConditionData.html#a9e595421f47d3f19a5ff087170b8b602">GetProperties</a> () const =0</td></tr>
 <tr class="separator:a9e595421f47d3f19a5ff087170b8b602 inherit pub_methods_classConditionData"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac398faf77fea4a4a2a13a2048ab9291c inherit pub_methods_classConditionData" id="r_ac398faf77fea4a4a2a13a2048ab9291c"><td class="memItemLeft" align="right" valign="top">virtual const std::vector&lt; std::unique_ptr&lt; <a class="el" href="classConditionData.html">ConditionData</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConditionData.html#ac398faf77fea4a4a2a13a2048ab9291c">GetSubConditionsData</a> () const =0</td></tr>
 <tr class="separator:ac398faf77fea4a4a2a13a2048ab9291c inherit pub_methods_classConditionData"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -142,7 +182,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab49d2a21d929a723b67675f6a8359a2b inherit pub_methods_classConditionData"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af86efe58ef557009a9c4d2d4a589ed58 inherit pub_methods_classConditionData" id="r_af86efe58ef557009a9c4d2d4a589ed58"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConditionData.html#af86efe58ef557009a9c4d2d4a589ed58">SetName</a> (const std::string &amp;name)=0</td></tr>
 <tr class="separator:af86efe58ef557009a9c4d2d4a589ed58 inherit pub_methods_classConditionData"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67956e44a7925f72f96febfb4b945127 inherit pub_methods_classConditionData" id="r_a67956e44a7925f72f96febfb4b945127"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConditionData.html#a67956e44a7925f72f96febfb4b945127">SetProperties</a> (std::map&lt; std::string, std::string, CaseInsensitiveComparator &gt; &amp;properties)=0</td></tr>
+<tr class="memitem:a67956e44a7925f72f96febfb4b945127 inherit pub_methods_classConditionData" id="r_a67956e44a7925f72f96febfb4b945127"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConditionData.html#a67956e44a7925f72f96febfb4b945127">SetProperties</a> (std::map&lt; std::string, std::string, <a class="el" href="classCaseInsensitiveComparator.html">CaseInsensitiveComparator</a> &gt; &amp;properties)=0</td></tr>
 <tr class="separator:a67956e44a7925f72f96febfb4b945127 inherit pub_methods_classConditionData"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c91a86ccb34c67a19f65d30aa3cf6fb inherit pub_methods_classConditionData" id="r_a8c91a86ccb34c67a19f65d30aa3cf6fb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConditionData.html#a8c91a86ccb34c67a19f65d30aa3cf6fb">SetSubConditionsData</a> (std::vector&lt; std::unique_ptr&lt; <a class="el" href="classConditionData.html">ConditionData</a> &gt; &gt; &amp;subConditionData)=0</td></tr>
 <tr class="separator:a8c91a86ccb34c67a19f65d30aa3cf6fb inherit pub_methods_classConditionData"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -241,11 +281,15 @@ Public Member Functions</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classSensitivityConditionData.html">SensitivityConditionData</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>

@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.12.0 - customized for MIP SDK with Microsoft branding -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -19,8 +20,47 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<!-- doxygen-awesome JS extensions -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+  DoxygenAwesomeTabs.init()
+</script>
 </head>
 <body>
+<!-- Microsoft-branded top bar (Learn-style) -->
+<div id="ms-bar" role="banner" aria-label="Microsoft">
+  <div id="ms-bar-inner">
+    <a id="ms-bar-logo" href="https://www.microsoft.com" aria-label="Microsoft">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="20" height="20" aria-hidden="true">
+        <rect x="1"  y="1"  width="9" height="9" fill="#f25022"/>
+        <rect x="13" y="1"  width="9" height="9" fill="#7fba00"/>
+        <rect x="1"  y="13" width="9" height="9" fill="#00a4ef"/>
+        <rect x="13" y="13" width="9" height="9" fill="#ffb900"/>
+      </svg>
+      <span>Microsoft</span>
+    </a>
+    <span id="ms-bar-sep" aria-hidden="true">|</span>
+    <span id="ms-bar-title">Information Protection SDK</span>
+    <nav id="ms-bar-nav" aria-label="Related links">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">GitHub</a>
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp/releases">Releases</a>
+    </nav>
+  </div>
+</div>
+<!-- /Microsoft-branded top bar -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -305,7 +345,7 @@ $(function(){initNavTree('policy__engine__cc_8h_source.html',''); initResizable(
 <div class="line"><a id="l00512" name="l00512"></a><span class="lineno"><a class="line" href="policy__engine__cc_8h.html#a51c85242df102151e33b7d190ace456d">  512</a></span>    int64_t* <a class="code hl_variable" href="policy__engine__cc_8h.html#a51c85242df102151e33b7d190ace456d">actualClientDataSize</a>,</div>
 <div class="line"><a id="l00513" name="l00513"></a><span class="lineno">  513</span>    <a class="code hl_struct" href="structmip__cc__error.html">mip_cc_error</a>* <a class="code hl_variable" href="policy__engine__cc_8h.html#a2907d3a05a912cf9fcdb72c05b91212f">errorInfo</a>);</div>
 <div class="line"><a id="l00514" name="l00514"></a><span class="lineno">  514</span> </div>
-<div class="line"><a id="l00531" name="l00531"></a><span class="lineno"><a class="line" href="policy__engine__cc_8h.html#af74670b988a59498a56d66a734ce8665">  531</a></span><a class="code hl_function" href="policy__engine__cc_8h.html#af74670b988a59498a56d66a734ce8665">MIP_CC_DEPRECATED_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_CreatePolicyEngineSettingsWithIdentity(</div>
+<div class="line"><a id="l00531" name="l00531"></a><span class="lineno"><a class="line" href="policy__engine__cc_8h.html#af74670b988a59498a56d66a734ce8665">  531</a></span><a class="code hl_define" href="mip__macros__cc_8h.html#a9d99221f378cb3d55f84c4de77bf3b9a">MIP_CC_DEPRECATED_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_CreatePolicyEngineSettingsWithIdentity(</div>
 <div class="line"><a id="l00532" name="l00532"></a><span class="lineno">  532</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structmip__cc__identity.html">mip_cc_identity</a>* <a class="code hl_variable" href="policy__engine__cc_8h.html#acd91c7af0fef3217852a52e203717bfc">identity</a>,</div>
 <div class="line"><a id="l00533" name="l00533"></a><span class="lineno"><a class="line" href="policy__engine__cc_8h.html#ae3b0141a67e90ffdb9963c3267f9024c">  533</a></span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_variable" href="policy__engine__cc_8h.html#ae3b0141a67e90ffdb9963c3267f9024c">clientData</a>,</div>
 <div class="line"><a id="l00534" name="l00534"></a><span class="lineno"><a class="line" href="policy__engine__cc_8h.html#ad9dea23bc95106202ce43083b6254c31">  534</a></span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_variable" href="policy__engine__cc_8h.html#ad9dea23bc95106202ce43083b6254c31">locale</a>,</div>
@@ -313,8 +353,8 @@ $(function(){initNavTree('policy__engine__cc_8h_source.html',''); initResizable(
 <div class="line"><a id="l00536" name="l00536"></a><span class="lineno"><a class="line" href="policy__engine__cc_8h.html#a374e887f88b56d6509d3a7722e6be9d6">  536</a></span>    <a class="code hl_struct" href="structmip__cc__handle.html">mip_cc_policy_engine_settings</a>* <a class="code hl_variable" href="policy__engine__cc_8h.html#a374e887f88b56d6509d3a7722e6be9d6">settings</a>,</div>
 <div class="line"><a id="l00537" name="l00537"></a><span class="lineno">  537</span>    <a class="code hl_struct" href="structmip__cc__error.html">mip_cc_error</a>* <a class="code hl_variable" href="policy__engine__cc_8h.html#a2907d3a05a912cf9fcdb72c05b91212f">errorInfo</a>);</div>
 <div class="line"><a id="l00538" name="l00538"></a><span class="lineno">  538</span> </div>
-<div class="line"><a id="l00560" name="l00560"></a><span class="lineno">  560</span><a class="code hl_function" href="policy__engine__cc_8h.html#af74670b988a59498a56d66a734ce8665">MIP_CC_DEPRECATED_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_CreatePolicyEngineSettingsWithEngineId(</div>
-<div class="line"><a id="l00561" name="l00561"></a><span class="lineno">  561</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* engineId,</div>
+<div class="line"><a id="l00560" name="l00560"></a><span class="lineno">  560</span><a class="code hl_define" href="mip__macros__cc_8h.html#a9d99221f378cb3d55f84c4de77bf3b9a">MIP_CC_DEPRECATED_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_CreatePolicyEngineSettingsWithEngineId(</div>
+<div class="line"><a id="l00561" name="l00561"></a><span class="lineno">  561</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_variable" href="protection__engine__cc_8h.html#a6c351ddf0a57e8ed4b5fe0d582b59cb2">engineId</a>,</div>
 <div class="line"><a id="l00562" name="l00562"></a><span class="lineno"><a class="line" href="policy__engine__cc_8h.html#acd91c7af0fef3217852a52e203717bfc">  562</a></span>    <span class="keyword">const</span> <a class="code hl_struct" href="structmip__cc__identity.html">mip_cc_identity</a>* <a class="code hl_variable" href="policy__engine__cc_8h.html#acd91c7af0fef3217852a52e203717bfc">identity</a>,</div>
 <div class="line"><a id="l00563" name="l00563"></a><span class="lineno">  563</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_variable" href="policy__engine__cc_8h.html#ae3b0141a67e90ffdb9963c3267f9024c">clientData</a>,</div>
 <div class="line"><a id="l00564" name="l00564"></a><span class="lineno">  564</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_variable" href="policy__engine__cc_8h.html#ad9dea23bc95106202ce43083b6254c31">locale</a>,</div>
@@ -332,7 +372,7 @@ $(function(){initNavTree('policy__engine__cc_8h_source.html',''); initResizable(
 <div class="line"><a id="l00592" name="l00592"></a><span class="lineno">  592</span>    <a class="code hl_struct" href="structmip__cc__error.html">mip_cc_error</a>* <a class="code hl_variable" href="policy__engine__cc_8h.html#a2907d3a05a912cf9fcdb72c05b91212f">errorInfo</a>);</div>
 <div class="line"><a id="l00593" name="l00593"></a><span class="lineno">  593</span> </div>
 <div class="line"><a id="l00615" name="l00615"></a><span class="lineno">  615</span><a class="code hl_function" href="policy__engine__cc_8h.html#a65e2b14d6917fa11d34dcef8fda18098">MIP_CC_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_CreatePolicyEngineSettingsWithEngineIdAndAuthCallback(</div>
-<div class="line"><a id="l00616" name="l00616"></a><span class="lineno">  616</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* engineId,</div>
+<div class="line"><a id="l00616" name="l00616"></a><span class="lineno">  616</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_variable" href="protection__engine__cc_8h.html#a6c351ddf0a57e8ed4b5fe0d582b59cb2">engineId</a>,</div>
 <div class="line"><a id="l00617" name="l00617"></a><span class="lineno">  617</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structmip__cc__identity.html">mip_cc_identity</a>* <a class="code hl_variable" href="policy__engine__cc_8h.html#acd91c7af0fef3217852a52e203717bfc">identity</a>,</div>
 <div class="line"><a id="l00618" name="l00618"></a><span class="lineno">  618</span>    <span class="keyword">const</span> mip_cc_auth_callback <a class="code hl_variable" href="policy__engine__cc_8h.html#a39e8ca0068d733b3dbd3e1e80d04fde7">authCallback</a>,</div>
 <div class="line"><a id="l00619" name="l00619"></a><span class="lineno">  619</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_variable" href="policy__engine__cc_8h.html#ae3b0141a67e90ffdb9963c3267f9024c">clientData</a>,</div>
@@ -371,7 +411,7 @@ $(function(){initNavTree('policy__engine__cc_8h_source.html',''); initResizable(
 <div class="line"><a id="l00712" name="l00712"></a><span class="lineno"><a class="line" href="policy__engine__cc_8h.html#aa58b2d85110415693d5757478672dffe">  712</a></span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_variable" href="policy__engine__cc_8h.html#aa58b2d85110415693d5757478672dffe">delegatedUserEmail</a>,</div>
 <div class="line"><a id="l00713" name="l00713"></a><span class="lineno">  713</span>    <a class="code hl_struct" href="structmip__cc__error.html">mip_cc_error</a>* <a class="code hl_variable" href="policy__engine__cc_8h.html#a2907d3a05a912cf9fcdb72c05b91212f">errorInfo</a>);</div>
 <div class="line"><a id="l00714" name="l00714"></a><span class="lineno">  714</span> </div>
-<div class="line"><a id="l00726" name="l00726"></a><span class="lineno">  726</span><a class="code hl_function" href="policy__engine__cc_8h.html#af74670b988a59498a56d66a734ce8665">MIP_CC_DEPRECATED_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_PolicyEngineSettings_SetLabelFilter(</div>
+<div class="line"><a id="l00726" name="l00726"></a><span class="lineno">  726</span><a class="code hl_define" href="mip__macros__cc_8h.html#a9d99221f378cb3d55f84c4de77bf3b9a">MIP_CC_DEPRECATED_API</a>(<a class="code hl_enumeration" href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a>) MIP_CC_PolicyEngineSettings_SetLabelFilter(</div>
 <div class="line"><a id="l00727" name="l00727"></a><span class="lineno">  727</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structmip__cc__handle.html">mip_cc_policy_engine_settings</a> <a class="code hl_variable" href="policy__engine__cc_8h.html#a374e887f88b56d6509d3a7722e6be9d6">settings</a>,</div>
 <div class="line"><a id="l00728" name="l00728"></a><span class="lineno"><a class="line" href="policy__engine__cc_8h.html#a7fa22884b7bf157cbffceeafdc264342">  728</a></span>    <span class="keyword">const</span> <a class="code hl_enumeration" href="common__types__cc_8h.html#a38be8c83123261d2e6c880d19fd89bb0">mip_cc_label_filter</a> <a class="code hl_variable" href="policy__engine__cc_8h.html#a7fa22884b7bf157cbffceeafdc264342">labelFilter</a>,</div>
 <div class="line"><a id="l00729" name="l00729"></a><span class="lineno">  729</span>    <a class="code hl_struct" href="structmip__cc__error.html">mip_cc_error</a>* <a class="code hl_variable" href="policy__engine__cc_8h.html#a2907d3a05a912cf9fcdb72c05b91212f">errorInfo</a>);</div>
@@ -396,13 +436,14 @@ $(function(){initNavTree('policy__engine__cc_8h_source.html',''); initResizable(
 <div class="line"><a id="l00783" name="l00783"></a><span class="lineno">  783</span><span class="preprocessor">#endif </span><span class="comment">// API_MIP_PROTECTION_PROTECTION_ENGINE_CC_H_</span></div>
 <div class="ttc" id="aauth__callback__cc_8h_html"><div class="ttname"><a href="auth__callback__cc_8h.html">auth_callback_cc.h</a></div><div class="ttdoc">Defines auth callback functions.</div></div>
 <div class="ttc" id="acommon__types__cc_8h_html"><div class="ttname"><a href="common__types__cc_8h.html">common_types_cc.h</a></div><div class="ttdoc">A file Containing the common types used by the upe, file and protection modules.</div></div>
-<div class="ttc" id="acommon__types__cc_8h_html_a2a18ab8e37aa6158766ea88da1158697"><div class="ttname"><a href="common__types__cc_8h.html#a2a18ab8e37aa6158766ea88da1158697">mip_cc_workload</a></div><div class="ttdeci">mip_cc_workload</div><div class="ttdef"><b>Definition</b> common_types_cc.h:131</div></div>
+<div class="ttc" id="acommon__types__cc_8h_html_a2a18ab8e37aa6158766ea88da1158697"><div class="ttname"><a href="common__types__cc_8h.html#a2a18ab8e37aa6158766ea88da1158697">mip_cc_workload</a></div><div class="ttdeci">mip_cc_workload</div><div class="ttdef"><b>Definition</b> common_types_cc.h:132</div></div>
 <div class="ttc" id="acommon__types__cc_8h_html_a38be8c83123261d2e6c880d19fd89bb0"><div class="ttname"><a href="common__types__cc_8h.html#a38be8c83123261d2e6c880d19fd89bb0">mip_cc_label_filter</a></div><div class="ttdeci">mip_cc_label_filter</div><div class="ttdef"><b>Definition</b> common_types_cc.h:99</div></div>
 <div class="ttc" id="acommon__types__cc_8h_html_ad25003a19ed243ca88170ae497f9a778"><div class="ttname"><a href="common__types__cc_8h.html#ad25003a19ed243ca88170ae497f9a778">mip_cc_cloud</a></div><div class="ttdeci">mip_cc_cloud</div><div class="ttdef"><b>Definition</b> common_types_cc.h:112</div></div>
 <div class="ttc" id="adictionary__cc_8h_html"><div class="ttname"><a href="dictionary__cc_8h.html">dictionary_cc.h</a></div><div class="ttdoc">Contains C API definitions for common string dictionary.</div></div>
 <div class="ttc" id="aerror__cc_8h_html"><div class="ttname"><a href="error__cc_8h.html">error_cc.h</a></div><div class="ttdoc">Error definition and functions.</div></div>
 <div class="ttc" id="aidentity__cc_8h_html"><div class="ttname"><a href="identity__cc_8h.html">identity_cc.h</a></div><div class="ttdoc">Identity definition.</div></div>
 <div class="ttc" id="amip__macros__cc_8h_html"><div class="ttname"><a href="mip__macros__cc_8h.html">mip_macros_cc.h</a></div><div class="ttdoc">Export/import and other macros for C API.</div></div>
+<div class="ttc" id="amip__macros__cc_8h_html_a9d99221f378cb3d55f84c4de77bf3b9a"><div class="ttname"><a href="mip__macros__cc_8h.html#a9d99221f378cb3d55f84c4de77bf3b9a">MIP_CC_DEPRECATED_API</a></div><div class="ttdeci">#define MIP_CC_DEPRECATED_API(TRet)</div><div class="ttdef"><b>Definition</b> mip_macros_cc.h:65</div></div>
 <div class="ttc" id="apolicy__engine__cc_8h_html_a06d66c96692457135882530f329ba68c"><div class="ttname"><a href="policy__engine__cc_8h.html#a06d66c96692457135882530f329ba68c">sensitivityFileIdBuffer</a></div><div class="ttdeci">char * sensitivityFileIdBuffer</div><div class="ttdef"><b>Definition</b> policy_engine_cc.h:220</div></div>
 <div class="ttc" id="apolicy__engine__cc_8h_html_a13341ca423aa51484152657f522ff204"><div class="ttname"><a href="policy__engine__cc_8h.html#a13341ca423aa51484152657f522ff204">policyFileIdSize</a></div><div class="ttdeci">int64_t * policyFileIdSize</div><div class="ttdef"><b>Definition</b> policy_engine_cc.h:166</div></div>
 <div class="ttc" id="apolicy__engine__cc_8h_html_a1733a3032a8556c2db72d1444a652239"><div class="ttname"><a href="policy__engine__cc_8h.html#a1733a3032a8556c2db72d1444a652239">moreInfoUrlBufferSize</a></div><div class="ttdeci">char const int64_t moreInfoUrlBufferSize</div><div class="ttdef"><b>Definition</b> policy_engine_cc.h:123</div></div>
@@ -467,10 +508,10 @@ $(function(){initNavTree('policy__engine__cc_8h_source.html',''); initResizable(
 <div class="ttc" id="apolicy__engine__cc_8h_html_aea4ec342f80c457b62f507e6fc38dfbc"><div class="ttname"><a href="policy__engine__cc_8h.html#aea4ec342f80c457b62f507e6fc38dfbc">sensitivityFileIdBufferSize</a></div><div class="ttdeci">char const int64_t sensitivityFileIdBufferSize</div><div class="ttdef"><b>Definition</b> policy_engine_cc.h:221</div></div>
 <div class="ttc" id="apolicy__engine__cc_8h_html_aed5fa85cebbf93a648661ad18bbda6de"><div class="ttname"><a href="policy__engine__cc_8h.html#aed5fa85cebbf93a648661ad18bbda6de">actualLabelsSize</a></div><div class="ttdeci">mip_cc_label const int64_t int64_t * actualLabelsSize</div><div class="ttdef"><b>Definition</b> policy_engine_cc.h:286</div></div>
 <div class="ttc" id="apolicy__engine__cc_8h_html_af451cab94eb0851758189f345a58c7ed"><div class="ttname"><a href="policy__engine__cc_8h.html#af451cab94eb0851758189f345a58c7ed">sensitivityTypesSize</a></div><div class="ttdeci">int64_t * sensitivityTypesSize</div><div class="ttdef"><b>Definition</b> policy_engine_cc.h:316</div></div>
-<div class="ttc" id="apolicy__engine__cc_8h_html_af74670b988a59498a56d66a734ce8665"><div class="ttname"><a href="policy__engine__cc_8h.html#af74670b988a59498a56d66a734ce8665">MIP_CC_DEPRECATED_API</a></div><div class="ttdeci">MIP_CC_DEPRECATED_API(mip_cc_result) MIP_CC_CreatePolicyEngineSettingsWithIdentity(const mip_cc_identity *identity</div><div class="ttdoc">Create a settings object used to create a brand new policy engine.</div></div>
 <div class="ttc" id="apolicy__engine__cc_8h_html_af8c79b2895dc784988f1c30f57c42998"><div class="ttname"><a href="policy__engine__cc_8h.html#af8c79b2895dc784988f1c30f57c42998">idBuffer</a></div><div class="ttdeci">char * idBuffer</div><div class="ttdef"><b>Definition</b> policy_engine_cc.h:87</div></div>
 <div class="ttc" id="apolicy__engine__cc_8h_html_afd9ed57fc604411407c23851777f2aff"><div class="ttname"><a href="policy__engine__cc_8h.html#afd9ed57fc604411407c23851777f2aff">mip_cc_policy_engine</a></div><div class="ttdeci">mip_cc_handle * mip_cc_policy_engine</div><div class="ttdef"><b>Definition</b> policy_engine_cc.h:47</div></div>
 <div class="ttc" id="apolicy__handler__cc_8h_html"><div class="ttname"><a href="policy__handler__cc_8h.html">policy_handler_cc.h</a></div><div class="ttdoc">Contains C API definitions for policy handler.</div></div>
+<div class="ttc" id="aprotection__engine__cc_8h_html_a6c351ddf0a57e8ed4b5fe0d582b59cb2"><div class="ttname"><a href="protection__engine__cc_8h.html#a6c351ddf0a57e8ed4b5fe0d582b59cb2">engineId</a></div><div class="ttdeci">const char * engineId</div><div class="ttdef"><b>Definition</b> protection_engine_cc.h:456</div></div>
 <div class="ttc" id="aprotection__profile__cc_8h_html_a4120dffd0b3672bd9b2f8f11c833ade7"><div class="ttname"><a href="protection__profile__cc_8h.html#a4120dffd0b3672bd9b2f8f11c833ade7">engine</a></div><div class="ttdeci">const mip_cc_protection_engine_settings mip_cc_protection_engine * engine</div><div class="ttdef"><b>Definition</b> protection_profile_cc.h:67</div></div>
 <div class="ttc" id="aresult__cc_8h_html"><div class="ttname"><a href="result__cc_8h.html">result_cc.h</a></div><div class="ttdoc">Defines success/error result codes.</div></div>
 <div class="ttc" id="aresult__cc_8h_html_a41250f3f2089aef86aa6da4e3a585535"><div class="ttname"><a href="result__cc_8h.html#a41250f3f2089aef86aa6da4e3a585535">mip_cc_result</a></div><div class="ttdeci">mip_cc_result</div><div class="ttdoc">API success/failure result.</div><div class="ttdef"><b>Definition</b> result_cc.h:44</div></div>
@@ -480,11 +521,15 @@ $(function(){initNavTree('policy__engine__cc_8h_source.html',''); initResizable(
 <div class="ttc" id="astructmip__cc__identity_html"><div class="ttname"><a href="structmip__cc__identity.html">mip_cc_identity</a></div><div class="ttdoc">A struct that contains user identification info.</div><div class="ttdef"><b>Definition</b> identity_cc.h:42</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
+<!-- HTML footer for MIP SDK reference docs -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ed23b7e0ff82d04a8565e406d9d9df9a.html">mip-sdk-for-cpp</a></li><li class="navelem"><a class="el" href="dir_5a92ca31a1d1cd11ee59a3526a96cc89.html">src</a></li><li class="navelem"><a class="el" href="dir_e50a1d5d74e01fc8d143b32c54f27ce0.html">api</a></li><li class="navelem"><a class="el" href="dir_c3e04355e45d1ded316250c59adeda59.html">mip_cc</a></li><li class="navelem"><a class="el" href="dir_eec813a2b0413e3eb7df76a5f5d382bf.html">upe</a></li><li class="navelem"><a class="el" href="policy__engine__cc_8h.html">policy_engine_cc.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">
+      <a href="https://learn.microsoft.com/information-protection/develop">Conceptual docs</a> &middot;
+      <a href="https://github.com/AzureAD/mip-sdk-for-cpp">SDK on GitHub</a> &middot;
+      Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+    </li>
   </ul>
 </div>
 </body>
